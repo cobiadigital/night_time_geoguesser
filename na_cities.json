@@ -1,0 +1,9314 @@
+[
+    {
+        "name": "Nassau, BS",
+        "lat": 25.05823,
+        "lng": -77.34306,
+        "pop": 227940
+    },
+    {
+        "name": "Belize City, BZ",
+        "lat": 17.49952,
+        "lng": -88.19756,
+        "pop": 65222
+    },
+    {
+        "name": "Abbotsford, 02",
+        "lat": 49.05798,
+        "lng": -122.25257,
+        "pop": 141397
+    },
+    {
+        "name": "Ahuntsic-Cartierville, 10",
+        "lat": 45.56667,
+        "lng": -73.66667,
+        "pop": 135336
+    },
+    {
+        "name": "Airdrie, 01",
+        "lat": 51.30011,
+        "lng": -114.03528,
+        "pop": 90044
+    },
+    {
+        "name": "Ajax, 08",
+        "lat": 43.85012,
+        "lng": -79.03288,
+        "pop": 119677
+    },
+    {
+        "name": "Aurora, 08",
+        "lat": 44.00011,
+        "lng": -79.46632,
+        "pop": 55445
+    },
+    {
+        "name": "Barrie, 08",
+        "lat": 44.40011,
+        "lng": -79.66634,
+        "pop": 147829
+    },
+    {
+        "name": "Belleville, 08",
+        "lat": 44.16682,
+        "lng": -77.38277,
+        "pop": 50716
+    },
+    {
+        "name": "Brampton, 08",
+        "lat": 43.68341,
+        "lng": -79.76633,
+        "pop": 656480
+    },
+    {
+        "name": "Brantford, 08",
+        "lat": 43.1334,
+        "lng": -80.26636,
+        "pop": 104688
+    },
+    {
+        "name": "Brighouse-City Centre, 02",
+        "lat": 49.16667,
+        "lng": -123.13333,
+        "pop": 62855
+    },
+    {
+        "name": "Brossard, 10",
+        "lat": 45.45008,
+        "lng": -73.46583,
+        "pop": 69575
+    },
+    {
+        "name": "Burlington, 08",
+        "lat": 43.38621,
+        "lng": -79.83713,
+        "pop": 186948
+    },
+    {
+        "name": "Burnaby, 02",
+        "lat": 49.26636,
+        "lng": -122.95263,
+        "pop": 249125
+    },
+    {
+        "name": "Caledon, 08",
+        "lat": 43.86544,
+        "lng": -79.99322,
+        "pop": 76581
+    },
+    {
+        "name": "Calgary, 01",
+        "lat": 51.05011,
+        "lng": -114.08529,
+        "pop": 1306784
+    },
+    {
+        "name": "Cambridge, 08",
+        "lat": 43.3601,
+        "lng": -80.31269,
+        "pop": 129920
+    },
+    {
+        "name": "Chilliwack, 02",
+        "lat": 49.16638,
+        "lng": -121.95257,
+        "pop": 101491
+    },
+    {
+        "name": "Chomedey, 10",
+        "lat": 45.53333,
+        "lng": -73.75,
+        "pop": 94030
+    },
+    {
+        "name": "Cloverdale, 02",
+        "lat": 49.10797,
+        "lng": -122.7276,
+        "pop": 73355
+    },
+    {
+        "name": "Coquitlam, 02",
+        "lat": 49.2846,
+        "lng": -122.78217,
+        "pop": 148625
+    },
+    {
+        "name": "Dartmouth, 07",
+        "lat": 44.67134,
+        "lng": -63.57719,
+        "pop": 101343
+    },
+    {
+        "name": "Delta, 02",
+        "lat": 49.14399,
+        "lng": -122.9068,
+        "pop": 101668
+    },
+    {
+        "name": "Drummondville, 10",
+        "lat": 45.88336,
+        "lng": -72.48241,
+        "pop": 59489
+    },
+    {
+        "name": "Edmonton, 01",
+        "lat": 53.55014,
+        "lng": -113.46871,
+        "pop": 1010899
+    },
+    {
+        "name": "Etobicoke, 08",
+        "lat": 43.64415,
+        "lng": -79.56985,
+        "pop": 365000
+    },
+    {
+        "name": "Fleetwood, 02",
+        "lat": 49.16667,
+        "lng": -122.8,
+        "pop": 65565
+    },
+    {
+        "name": "Fort McMurray, 01",
+        "lat": 56.72676,
+        "lng": -111.38103,
+        "pop": 66573
+    },
+    {
+        "name": "Fredericton, 04",
+        "lat": 45.94541,
+        "lng": -66.66558,
+        "pop": 63116
+    },
+    {
+        "name": "Gatineau, 10",
+        "lat": 45.47723,
+        "lng": -75.70164,
+        "pop": 300045
+    },
+    {
+        "name": "Gloucester, 08",
+        "lat": 45.35,
+        "lng": -75.63333,
+        "pop": 150012
+    },
+    {
+        "name": "Granby, 10",
+        "lat": 45.40008,
+        "lng": -72.73243,
+        "pop": 66222
+    },
+    {
+        "name": "Grande Prairie, 01",
+        "lat": 55.16667,
+        "lng": -118.80271,
+        "pop": 70385
+    },
+    {
+        "name": "Greater Sudbury, 08",
+        "lat": 46.49,
+        "lng": -80.99001,
+        "pop": 166004
+    },
+    {
+        "name": "Guelph, 08",
+        "lat": 43.54594,
+        "lng": -80.25599,
+        "pop": 143740
+    },
+    {
+        "name": "Guildford, 02",
+        "lat": 49.19167,
+        "lng": -122.8,
+        "pop": 64985
+    },
+    {
+        "name": "Halton Hills, 08",
+        "lat": 43.6403,
+        "lng": -79.93146,
+        "pop": 62951
+    },
+    {
+        "name": "Hamilton, 08",
+        "lat": 43.25011,
+        "lng": -79.84963,
+        "pop": 569353
+    },
+    {
+        "name": "Kamloops, 02",
+        "lat": 50.66648,
+        "lng": -120.3192,
+        "pop": 104460
+    },
+    {
+        "name": "Kanata, 08",
+        "lat": 45.3001,
+        "lng": -75.91606,
+        "pop": 90000
+    },
+    {
+        "name": "Kelowna, 02",
+        "lat": 49.88307,
+        "lng": -119.48568,
+        "pop": 144576
+    },
+    {
+        "name": "Kingston, 08",
+        "lat": 44.22976,
+        "lng": -76.48098,
+        "pop": 132485
+    },
+    {
+        "name": "Kitchener, 08",
+        "lat": 43.42537,
+        "lng": -80.5112,
+        "pop": 256885
+    },
+    {
+        "name": "Langley, 02",
+        "lat": 49.10107,
+        "lng": -122.65883,
+        "pop": 132603
+    },
+    {
+        "name": "Laval, 10",
+        "lat": 45.56995,
+        "lng": -73.692,
+        "pop": 438366
+    },
+    {
+        "name": "Lethbridge, 01",
+        "lat": 49.69999,
+        "lng": -112.81856,
+        "pop": 103197
+    },
+    {
+        "name": "London, 08",
+        "lat": 42.98339,
+        "lng": -81.23304,
+        "pop": 422324
+    },
+    {
+        "name": "Longueuil, 10",
+        "lat": 45.5152,
+        "lng": -73.46818,
+        "pop": 229330
+    },
+    {
+        "name": "Maple Ridge, 02",
+        "lat": 49.21939,
+        "lng": -122.60193,
+        "pop": 82256
+    },
+    {
+        "name": "Markham, 08",
+        "lat": 43.86682,
+        "lng": -79.2663,
+        "pop": 338503
+    },
+    {
+        "name": "Medicine Hat, 01",
+        "lat": 50.03928,
+        "lng": -110.67661,
+        "pop": 63138
+    },
+    {
+        "name": "Metrotown, 02",
+        "lat": 49.225,
+        "lng": -123.0,
+        "pop": 52355
+    },
+    {
+        "name": "Milton, 08",
+        "lat": 43.51681,
+        "lng": -79.88294,
+        "pop": 132979
+    },
+    {
+        "name": "Mississauga, 08",
+        "lat": 43.5789,
+        "lng": -79.6583,
+        "pop": 717961
+    },
+    {
+        "name": "Moncton, 04",
+        "lat": 46.09454,
+        "lng": -64.7965,
+        "pop": 86106
+    },
+    {
+        "name": "Montr\u00e9al, 10",
+        "lat": 45.50884,
+        "lng": -73.58781,
+        "pop": 1762949
+    },
+    {
+        "name": "Nanaimo, 02",
+        "lat": 49.16638,
+        "lng": -123.94003,
+        "pop": 90504
+    },
+    {
+        "name": "Nepean, 08",
+        "lat": 45.33619,
+        "lng": -75.7225,
+        "pop": 180000
+    },
+    {
+        "name": "Newmarket, 08",
+        "lat": 44.05011,
+        "lng": -79.46631,
+        "pop": 91034
+    },
+    {
+        "name": "Newton, 02",
+        "lat": 49.13333,
+        "lng": -122.85,
+        "pop": 159390
+    },
+    {
+        "name": "New Westminster, 02",
+        "lat": 49.20678,
+        "lng": -122.91092,
+        "pop": 78916
+    },
+    {
+        "name": "Niagara Falls, 08",
+        "lat": 43.10012,
+        "lng": -79.06627,
+        "pop": 99818
+    },
+    {
+        "name": "Norfolk County, 08",
+        "lat": 42.8334,
+        "lng": -80.38297,
+        "pop": 60847
+    },
+    {
+        "name": "North Bay, 08",
+        "lat": 46.3168,
+        "lng": -79.46633,
+        "pop": 50396
+    },
+    {
+        "name": "North Delta, 02",
+        "lat": 49.16667,
+        "lng": -122.91667,
+        "pop": 60769
+    },
+    {
+        "name": "North Vancouver, 02",
+        "lat": 49.31636,
+        "lng": -123.06934,
+        "pop": 88168
+    },
+    {
+        "name": "Notre-Dame-de-Gr\u00e2ce, 10",
+        "lat": 45.47675,
+        "lng": -73.61432,
+        "pop": 68152
+    },
+    {
+        "name": "Oakville, 08",
+        "lat": 43.45011,
+        "lng": -79.68292,
+        "pop": 213759
+    },
+    {
+        "name": "Oshawa, 08",
+        "lat": 43.90012,
+        "lng": -78.84957,
+        "pop": 175383
+    },
+    {
+        "name": "Ottawa, 08",
+        "lat": 45.41117,
+        "lng": -75.69812,
+        "pop": 1017449
+    },
+    {
+        "name": "Ottawa South, 08",
+        "lat": 45.3921,
+        "lng": -75.68725,
+        "pop": 125090
+    },
+    {
+        "name": "Peterborough, 08",
+        "lat": 44.30012,
+        "lng": -78.31623,
+        "pop": 85807
+    },
+    {
+        "name": "Pickering, 08",
+        "lat": 43.90012,
+        "lng": -79.13289,
+        "pop": 91771
+    },
+    {
+        "name": "Pierrefonds, 10",
+        "lat": 45.45989,
+        "lng": -73.89284,
+        "pop": 59093
+    },
+    {
+        "name": "Port Coquitlam, 02",
+        "lat": 49.26637,
+        "lng": -122.76932,
+        "pop": 58000
+    },
+    {
+        "name": "Prince George, 02",
+        "lat": 53.9166,
+        "lng": -122.75301,
+        "pop": 78943
+    },
+    {
+        "name": "Red Deer, 01",
+        "lat": 52.26682,
+        "lng": -113.802,
+        "pop": 100844
+    },
+    {
+        "name": "Regina, 11",
+        "lat": 50.45008,
+        "lng": -104.6178,
+        "pop": 226404
+    },
+    {
+        "name": "Renfrew-Collingwood, 02",
+        "lat": 49.245,
+        "lng": -123.03758,
+        "pop": 51530
+    },
+    {
+        "name": "Repentigny, 10",
+        "lat": 45.74222,
+        "lng": -73.45008,
+        "pop": 84965
+    },
+    {
+        "name": "Richmond, 02",
+        "lat": 49.17003,
+        "lng": -123.13683,
+        "pop": 209937
+    },
+    {
+        "name": "Richmond Hill, 08",
+        "lat": 43.87111,
+        "lng": -79.43725,
+        "pop": 202022
+    },
+    {
+        "name": "Saanich, 02",
+        "lat": 48.54964,
+        "lng": -123.36931,
+        "pop": 117735
+    },
+    {
+        "name": "Saguenay, 10",
+        "lat": 48.41675,
+        "lng": -71.06573,
+        "pop": 148886
+    },
+    {
+        "name": "Saint-Hubert, 10",
+        "lat": 45.50008,
+        "lng": -73.41583,
+        "pop": 82548
+    },
+    {
+        "name": "Saint-Hyacinthe, 10",
+        "lat": 45.63076,
+        "lng": -72.95699,
+        "pop": 50326
+    },
+    {
+        "name": "Saint-Jean-sur-Richelieu, 10",
+        "lat": 45.30713,
+        "lng": -73.26259,
+        "pop": 98036
+    },
+    {
+        "name": "Saint-J\u00e9r\u00f4me, 10",
+        "lat": 45.78036,
+        "lng": -74.00365,
+        "pop": 54948
+    },
+    {
+        "name": "Saint John, 04",
+        "lat": 45.27076,
+        "lng": -66.05616,
+        "pop": 71808
+    },
+    {
+        "name": "Saint-Laurent, 10",
+        "lat": 45.50008,
+        "lng": -73.66585,
+        "pop": 98828
+    },
+    {
+        "name": "Saint-L\u00e9onard, 10",
+        "lat": 45.58773,
+        "lng": -73.59501,
+        "pop": 79495
+    },
+    {
+        "name": "Saint-Louis-de-Terrebonne, 10",
+        "lat": 45.70198,
+        "lng": -73.78669,
+        "pop": 119944
+    },
+    {
+        "name": "Saint-Michel, 10",
+        "lat": 45.56758,
+        "lng": -73.62168,
+        "pop": 56420
+    },
+    {
+        "name": "Sarnia, 08",
+        "lat": 42.97866,
+        "lng": -82.40407,
+        "pop": 72125
+    },
+    {
+        "name": "Saskatoon, 11",
+        "lat": 52.13238,
+        "lng": -106.66892,
+        "pop": 266141
+    },
+    {
+        "name": "Sault Ste. Marie, 08",
+        "lat": 46.51677,
+        "lng": -84.33325,
+        "pop": 72051
+    },
+    {
+        "name": "Sherbrooke, 10",
+        "lat": 45.40008,
+        "lng": -71.89908,
+        "pop": 129447
+    },
+    {
+        "name": "Sherwood Park, 01",
+        "lat": 53.51684,
+        "lng": -113.3187,
+        "pop": 70618
+    },
+    {
+        "name": "South Surrey, 02",
+        "lat": 49.05,
+        "lng": -122.79167,
+        "pop": 77170
+    },
+    {
+        "name": "St. Albert, 01",
+        "lat": 53.63344,
+        "lng": -113.63533,
+        "pop": 57719
+    },
+    {
+        "name": "St. Catharines, 08",
+        "lat": 43.17126,
+        "lng": -79.24267,
+        "pop": 136803
+    },
+    {
+        "name": "Stoney Creek, 08",
+        "lat": 43.21681,
+        "lng": -79.76633,
+        "pop": 76382
+    },
+    {
+        "name": "Surrey, 02",
+        "lat": 49.10635,
+        "lng": -122.82509,
+        "pop": 568322
+    },
+    {
+        "name": "Terrebonne, 10",
+        "lat": 45.70004,
+        "lng": -73.64732,
+        "pop": 111575
+    },
+    {
+        "name": "Thunder Bay, 08",
+        "lat": 48.38202,
+        "lng": -89.25018,
+        "pop": 108843
+    },
+    {
+        "name": "Toronto, 08",
+        "lat": 43.70643,
+        "lng": -79.39864,
+        "pop": 2794356
+    },
+    {
+        "name": "Trois-Rivi\u00e8res, 10",
+        "lat": 46.34515,
+        "lng": -72.5477,
+        "pop": 144472
+    },
+    {
+        "name": "Vancouver, 02",
+        "lat": 49.24966,
+        "lng": -123.11934,
+        "pop": 662248
+    },
+    {
+        "name": "Vaughan, 08",
+        "lat": 43.8361,
+        "lng": -79.49827,
+        "pop": 323103
+    },
+    {
+        "name": "Verdun, 10",
+        "lat": 45.46005,
+        "lng": -73.57058,
+        "pop": 69229
+    },
+    {
+        "name": "Victoria, 02",
+        "lat": 48.4359,
+        "lng": -123.35155,
+        "pop": 289625
+    },
+    {
+        "name": "Waterloo, 08",
+        "lat": 43.4668,
+        "lng": -80.51639,
+        "pop": 104986
+    },
+    {
+        "name": "Welland, 08",
+        "lat": 42.98342,
+        "lng": -79.24958,
+        "pop": 52293
+    },
+    {
+        "name": "Whalley, 02",
+        "lat": 49.17917,
+        "lng": -122.86667,
+        "pop": 102555
+    },
+    {
+        "name": "Whitby, 08",
+        "lat": 43.88342,
+        "lng": -78.93287,
+        "pop": 138501
+    },
+    {
+        "name": "Windsor, 08",
+        "lat": 42.30008,
+        "lng": -83.01654,
+        "pop": 229660
+    },
+    {
+        "name": "Winnipeg, 03",
+        "lat": 49.8844,
+        "lng": -97.14704,
+        "pop": 749607
+    },
+    {
+        "name": "Woburn, 08",
+        "lat": 43.76657,
+        "lng": -79.22773,
+        "pop": 53485
+    },
+    {
+        "name": "Halifax, 07",
+        "lat": 44.64269,
+        "lng": -63.57688,
+        "pop": 471559
+    },
+    {
+        "name": "St. John's, 05",
+        "lat": 47.56494,
+        "lng": -52.70931,
+        "pop": 110525
+    },
+    {
+        "name": "Beauport, 10",
+        "lat": 46.85884,
+        "lng": -71.19201,
+        "pop": 81425
+    },
+    {
+        "name": "Charlesbourg, 10",
+        "lat": 46.899,
+        "lng": -71.305,
+        "pop": 82870
+    },
+    {
+        "name": "Sainte-Foy, 10",
+        "lat": 46.78139,
+        "lng": -71.29217,
+        "pop": 111300
+    },
+    {
+        "name": "Qu\u00e9bec, 10",
+        "lat": 46.81228,
+        "lng": -71.21454,
+        "pop": 531902
+    },
+    {
+        "name": "L\u00e9vis, 10",
+        "lat": 46.80326,
+        "lng": -71.17793,
+        "pop": 143414
+    },
+    {
+        "name": "Sydney, 07",
+        "lat": 46.1351,
+        "lng": -60.1831,
+        "pop": 105968
+    },
+    {
+        "name": "Aylmer, 10",
+        "lat": 45.4002,
+        "lng": -75.80644,
+        "pop": 56542
+    },
+    {
+        "name": "Hull, 10",
+        "lat": 45.42761,
+        "lng": -75.71056,
+        "pop": 63702
+    },
+    {
+        "name": "Jonqui\u00e8re, 10",
+        "lat": 48.41648,
+        "lng": -71.24884,
+        "pop": 54842
+    },
+    {
+        "name": "Orl\u00e9ans, 08",
+        "lat": 45.45732,
+        "lng": -75.50433,
+        "pop": 125937
+    },
+    {
+        "name": "Willowdale, 08",
+        "lat": 43.76672,
+        "lng": -79.39909,
+        "pop": 79440
+    },
+    {
+        "name": "Lower Sackville, 07",
+        "lat": 44.77599,
+        "lng": -63.67865,
+        "pop": 51749
+    },
+    {
+        "name": "La Haute-Saint-Charles, 10",
+        "lat": 46.89028,
+        "lng": -71.37222,
+        "pop": 88460
+    },
+    {
+        "name": "Downtown, 02",
+        "lat": 49.27784,
+        "lng": -123.12794,
+        "pop": 62030
+    },
+    {
+        "name": "Waterfront Communities-The Island, 08",
+        "lat": 43.63388,
+        "lng": -79.3772,
+        "pop": 65913
+    },
+    {
+        "name": "Willowdale East, 08",
+        "lat": 43.7706,
+        "lng": -79.40148,
+        "pop": 50434
+    },
+    {
+        "name": "East Hastings, 02",
+        "lat": 49.27169,
+        "lng": -123.06186,
+        "pop": 80740
+    },
+    {
+        "name": "Le Plateau-Mont-Royal, 10",
+        "lat": 45.52833,
+        "lng": -73.58081,
+        "pop": 105813
+    },
+    {
+        "name": "Ville-Marie, 10",
+        "lat": 45.49899,
+        "lng": -73.57046,
+        "pop": 104944
+    },
+    {
+        "name": "Le Sud-Ouest, 10",
+        "lat": 45.47187,
+        "lng": -73.58986,
+        "pop": 86347
+    },
+    {
+        "name": "Mercier\u2013Hochelaga-Maisonneuve, 10",
+        "lat": 45.57194,
+        "lng": -73.54626,
+        "pop": 142753
+    },
+    {
+        "name": "Montr\u00e9al-Nord, 10",
+        "lat": 45.6016,
+        "lng": -73.63063,
+        "pop": 86857
+    },
+    {
+        "name": "Pierrefonds-Roxboro, 10",
+        "lat": 45.5019,
+        "lng": -73.8417,
+        "pop": 73194
+    },
+    {
+        "name": "Rivi\u00e8re-des-Prairies\u2013Pointe-aux-Trembles, 10",
+        "lat": 45.64064,
+        "lng": -73.58463,
+        "pop": 113868
+    },
+    {
+        "name": "Rosemont\u2013La Petite-Patrie, 10",
+        "lat": 45.53661,
+        "lng": -73.60686,
+        "pop": 146501
+    },
+    {
+        "name": "Villeray\u2013Saint-Michel\u2013Parc-Extension, 10",
+        "lat": 45.55869,
+        "lng": -73.60535,
+        "pop": 144814
+    },
+    {
+        "name": "Le Vieux-Longueuil, 10",
+        "lat": 45.53721,
+        "lng": -73.50773,
+        "pop": 135218
+    },
+    {
+        "name": "La Cit\u00e9-Limoilou, 10",
+        "lat": 46.82894,
+        "lng": -71.22641,
+        "pop": 108415
+    },
+    {
+        "name": "Les Rivi\u00e8res, 10",
+        "lat": 46.81847,
+        "lng": -71.272,
+        "pop": 77000
+    },
+    {
+        "name": "Nutana Sector, 11",
+        "lat": 52.09998,
+        "lng": -106.63709,
+        "pop": 72564
+    },
+    {
+        "name": "Lakewood, 11",
+        "lat": 52.1085,
+        "lng": -106.59027,
+        "pop": 51237
+    },
+    {
+        "name": "University Heights, 11",
+        "lat": 52.14432,
+        "lng": -106.57867,
+        "pop": 51957
+    },
+    {
+        "name": "Confederation, 11",
+        "lat": 52.13912,
+        "lng": -106.70356,
+        "pop": 70192
+    },
+    {
+        "name": "San Jos\u00e9, CR",
+        "lat": 9.93388,
+        "lng": -84.08489,
+        "pop": 335007
+    },
+    {
+        "name": "San Francisco, CR",
+        "lat": 9.9938,
+        "lng": -84.12742,
+        "pop": 55923
+    },
+    {
+        "name": "Lim\u00f3n, CR",
+        "lat": 9.99074,
+        "lng": -83.03596,
+        "pop": 63081
+    },
+    {
+        "name": "Vedado del Cotorro, CU",
+        "lat": 23.05,
+        "lng": -82.25,
+        "pop": 74650
+    },
+    {
+        "name": "Vedado, CU",
+        "lat": 23.13767,
+        "lng": -82.39339,
+        "pop": 108369
+    },
+    {
+        "name": "Trinidad, CU",
+        "lat": 21.80224,
+        "lng": -79.98467,
+        "pop": 60206
+    },
+    {
+        "name": "Santiago de Cuba, CU",
+        "lat": 20.02287,
+        "lng": -75.82171,
+        "pop": 555865
+    },
+    {
+        "name": "Santa Clara, CU",
+        "lat": 22.40711,
+        "lng": -79.96581,
+        "pop": 250512
+    },
+    {
+        "name": "San Miguel del Padr\u00f3n, CU",
+        "lat": 23.09544,
+        "lng": -82.32669,
+        "pop": 159273
+    },
+    {
+        "name": "San Luis, CU",
+        "lat": 20.18809,
+        "lng": -75.85031,
+        "pop": 67293
+    },
+    {
+        "name": "San Jos\u00e9 de las Lajas, CU",
+        "lat": 22.96121,
+        "lng": -82.15151,
+        "pop": 54847
+    },
+    {
+        "name": "Sancti Sp\u00edritus, CU",
+        "lat": 21.93429,
+        "lng": -79.4398,
+        "pop": 127069
+    },
+    {
+        "name": "San Cristobal, CU",
+        "lat": 22.71658,
+        "lng": -83.05647,
+        "pop": 59579
+    },
+    {
+        "name": "Sagua la Grande, CU",
+        "lat": 22.80667,
+        "lng": -80.07556,
+        "pop": 62073
+    },
+    {
+        "name": "Puerto Padre, CU",
+        "lat": 21.19517,
+        "lng": -76.60358,
+        "pop": 76838
+    },
+    {
+        "name": "Placetas, CU",
+        "lat": 22.31184,
+        "lng": -79.6544,
+        "pop": 55408
+    },
+    {
+        "name": "Pinar del R\u00edo, CU",
+        "lat": 22.41649,
+        "lng": -83.69657,
+        "pop": 186990
+    },
+    {
+        "name": "Palma Soriano, CU",
+        "lat": 20.2113,
+        "lng": -75.99362,
+        "pop": 102826
+    },
+    {
+        "name": "Nuevitas, CU",
+        "lat": 21.54585,
+        "lng": -77.26504,
+        "pop": 54022
+    },
+    {
+        "name": "Mor\u00f3n, CU",
+        "lat": 22.10774,
+        "lng": -78.62667,
+        "pop": 66060
+    },
+    {
+        "name": "Moa, CU",
+        "lat": 20.65776,
+        "lng": -74.95075,
+        "pop": 92852
+    },
+    {
+        "name": "Matanzas, CU",
+        "lat": 23.04388,
+        "lng": -81.58284,
+        "pop": 146733
+    },
+    {
+        "name": "Marianao, CU",
+        "lat": 23.07385,
+        "lng": -82.4189,
+        "pop": 134057
+    },
+    {
+        "name": "Manzanillo, CU",
+        "lat": 20.34173,
+        "lng": -77.12126,
+        "pop": 128188
+    },
+    {
+        "name": "Mantilla, CU",
+        "lat": 23.06794,
+        "lng": -82.34143,
+        "pop": 206918
+    },
+    {
+        "name": "Las Tunas, CU",
+        "lat": 20.96135,
+        "lng": -76.95192,
+        "pop": 203684
+    },
+    {
+        "name": "Havana, CU",
+        "lat": 23.13302,
+        "lng": -82.38304,
+        "pop": 2163824
+    },
+    {
+        "name": "Jes\u00fas Men\u00e9ndez, CU",
+        "lat": 21.16139,
+        "lng": -76.47919,
+        "pop": 51002
+    },
+    {
+        "name": "Jag\u00fcey Grande, CU",
+        "lat": 22.52694,
+        "lng": -81.12861,
+        "pop": 54363
+    },
+    {
+        "name": "Holgu\u00edn, CU",
+        "lat": 20.88722,
+        "lng": -76.26306,
+        "pop": 319102
+    },
+    {
+        "name": "G\u00fcira de Melena, CU",
+        "lat": 22.79613,
+        "lng": -82.50667,
+        "pop": 69879
+    },
+    {
+        "name": "G\u00fcines, CU",
+        "lat": 22.83727,
+        "lng": -82.02641,
+        "pop": 68935
+    },
+    {
+        "name": "Guant\u00e1namo, CU",
+        "lat": 20.14444,
+        "lng": -75.20917,
+        "pop": 272801
+    },
+    {
+        "name": "Guanabacoa, CU",
+        "lat": 23.12518,
+        "lng": -82.30067,
+        "pop": 112964
+    },
+    {
+        "name": "Fontanar, CU",
+        "lat": 23.02389,
+        "lng": -82.408,
+        "pop": 178601
+    },
+    {
+        "name": "Florida, CU",
+        "lat": 21.52536,
+        "lng": -78.22579,
+        "pop": 63007
+    },
+    {
+        "name": "Corralillo, CU",
+        "lat": 22.98212,
+        "lng": -80.58556,
+        "pop": 51881
+    },
+    {
+        "name": "Contramaestre, CU",
+        "lat": 20.29879,
+        "lng": -76.24511,
+        "pop": 70438
+    },
+    {
+        "name": "Consolaci\u00f3n del Sur, CU",
+        "lat": 22.50419,
+        "lng": -83.51442,
+        "pop": 69857
+    },
+    {
+        "name": "Col\u00f3n, CU",
+        "lat": 22.72064,
+        "lng": -80.90492,
+        "pop": 63882
+    },
+    {
+        "name": "Cienfuegos, CU",
+        "lat": 22.14681,
+        "lng": -80.4481,
+        "pop": 186644
+    },
+    {
+        "name": "Ciego de \u00c1vila, CU",
+        "lat": 21.8422,
+        "lng": -78.76034,
+        "pop": 142027
+    },
+    {
+        "name": "Cerro, CU",
+        "lat": 23.10809,
+        "lng": -82.3866,
+        "pop": 132351
+    },
+    {
+        "name": "C\u00e1rdenas, CU",
+        "lat": 23.03661,
+        "lng": -81.20596,
+        "pop": 98515
+    },
+    {
+        "name": "Camag\u00fcey, CU",
+        "lat": 21.38083,
+        "lng": -77.91694,
+        "pop": 347562
+    },
+    {
+        "name": "Bayamo, CU",
+        "lat": 20.37368,
+        "lng": -76.64272,
+        "pop": 192632
+    },
+    {
+        "name": "Bartolom\u00e9 Mas\u00f3, CU",
+        "lat": 20.16635,
+        "lng": -76.94291,
+        "pop": 53024
+    },
+    {
+        "name": "Banes, CU",
+        "lat": 20.96116,
+        "lng": -75.722,
+        "pop": 53104
+    },
+    {
+        "name": "Balc\u00f3n de la Lisa, CU",
+        "lat": 23.05346,
+        "lng": -82.4476,
+        "pop": 147415
+    },
+    {
+        "name": "Artemisa, CU",
+        "lat": 22.81366,
+        "lng": -82.75814,
+        "pop": 68073
+    },
+    {
+        "name": "Arroyo Naranjo, CU",
+        "lat": 23.03811,
+        "lng": -82.37703,
+        "pop": 210053
+    },
+    {
+        "name": "Almendares, CU",
+        "lat": 23.11012,
+        "lng": -82.42322,
+        "pop": 240000
+    },
+    {
+        "name": "Alamar, CU",
+        "lat": 23.15794,
+        "lng": -82.27837,
+        "pop": 100000
+    },
+    {
+        "name": "Ciudad Camilo Cienfuegos, CU",
+        "lat": 23.16076,
+        "lng": -82.32798,
+        "pop": 178041
+    },
+    {
+        "name": "Centro Habana, CU",
+        "lat": 23.13833,
+        "lng": -82.36417,
+        "pop": 158151
+    },
+    {
+        "name": "La Habana Vieja, CU",
+        "lat": 23.13028,
+        "lng": -82.35306,
+        "pop": 95383
+    },
+    {
+        "name": "Boyeros, CU",
+        "lat": 23.0072,
+        "lng": -82.4017,
+        "pop": 188593
+    },
+    {
+        "name": "Diez de Octubre, CU",
+        "lat": 23.0881,
+        "lng": -82.3597,
+        "pop": 227293
+    },
+    {
+        "name": "Plaza de la Revoluci\u00f3n, CU",
+        "lat": 23.11936,
+        "lng": -82.39197,
+        "pop": 139135
+    },
+    {
+        "name": "Villa Francisca, DO",
+        "lat": 18.48278,
+        "lng": -69.88914,
+        "pop": 50185
+    },
+    {
+        "name": "Santo Domingo, DO",
+        "lat": 18.47186,
+        "lng": -69.89232,
+        "pop": 2201941
+    },
+    {
+        "name": "Santiago de los Caballeros, DO",
+        "lat": 19.45036,
+        "lng": -70.69085,
+        "pop": 1200000
+    },
+    {
+        "name": "Santa Cruz de Barahona, DO",
+        "lat": 18.20861,
+        "lng": -71.10068,
+        "pop": 77160
+    },
+    {
+        "name": "San Pedro de Macor\u00eds, DO",
+        "lat": 18.4539,
+        "lng": -69.30864,
+        "pop": 217899
+    },
+    {
+        "name": "San Juan de la Maguana, DO",
+        "lat": 18.8064,
+        "lng": -71.22626,
+        "pop": 72950
+    },
+    {
+        "name": "San Francisco de Macor\u00eds, DO",
+        "lat": 19.29377,
+        "lng": -70.25285,
+        "pop": 124763
+    },
+    {
+        "name": "Puerto Plata, DO",
+        "lat": 19.79344,
+        "lng": -70.6884,
+        "pop": 146000
+    },
+    {
+        "name": "Salvale\u00f3n de Hig\u00fcey, DO",
+        "lat": 18.61501,
+        "lng": -68.70798,
+        "pop": 123787
+    },
+    {
+        "name": "Punta Cana, DO",
+        "lat": 18.58182,
+        "lng": -68.40431,
+        "pop": 100023
+    },
+    {
+        "name": "Moca, DO",
+        "lat": 19.39289,
+        "lng": -70.52347,
+        "pop": 61834
+    },
+    {
+        "name": "La Romana, DO",
+        "lat": 18.42332,
+        "lng": -68.96635,
+        "pop": 208437
+    },
+    {
+        "name": "Cristo Rey, DO",
+        "lat": 18.5,
+        "lng": -69.93333,
+        "pop": 57084
+    },
+    {
+        "name": "La Vega, DO",
+        "lat": 19.22031,
+        "lng": -70.53101,
+        "pop": 102426
+    },
+    {
+        "name": "Bonao, DO",
+        "lat": 18.94154,
+        "lng": -70.41111,
+        "pop": 73269
+    },
+    {
+        "name": "San Crist\u00f3bal, DO",
+        "lat": 18.41713,
+        "lng": -70.10682,
+        "pop": 154040
+    },
+    {
+        "name": "Bella Vista, DO",
+        "lat": 18.45539,
+        "lng": -69.9454,
+        "pop": 175683
+    },
+    {
+        "name": "Ban\u00ed, DO",
+        "lat": 18.27971,
+        "lng": -70.33181,
+        "pop": 66709
+    },
+    {
+        "name": "Bajos de Haina, DO",
+        "lat": 18.41538,
+        "lng": -70.03317,
+        "pop": 66784
+    },
+    {
+        "name": "Azua, DO",
+        "lat": 18.45319,
+        "lng": -70.7349,
+        "pop": 59139
+    },
+    {
+        "name": "Santo Domingo Oeste, DO",
+        "lat": 18.5,
+        "lng": -70.0,
+        "pop": 701269
+    },
+    {
+        "name": "Santo Domingo Este, DO",
+        "lat": 18.48511,
+        "lng": -69.84757,
+        "pop": 700000
+    },
+    {
+        "name": "Zacapa, GT",
+        "lat": 14.96867,
+        "lng": -89.52732,
+        "pop": 60424
+    },
+    {
+        "name": "Villa Nueva, GT",
+        "lat": 14.52512,
+        "lng": -90.58544,
+        "pop": 618397
+    },
+    {
+        "name": "Villa Canales, GT",
+        "lat": 14.48285,
+        "lng": -90.53425,
+        "pop": 155423
+    },
+    {
+        "name": "Totonicap\u00e1n, GT",
+        "lat": 14.91188,
+        "lng": -91.36054,
+        "pop": 103952
+    },
+    {
+        "name": "Santa Luc\u00eda Cotzumalguapa, GT",
+        "lat": 14.33505,
+        "lng": -91.02339,
+        "pop": 112780
+    },
+    {
+        "name": "Santa Cruz del Quich\u00e9, GT",
+        "lat": 15.02995,
+        "lng": -91.14876,
+        "pop": 78279
+    },
+    {
+        "name": "Santa Catarina Pinula, GT",
+        "lat": 14.57047,
+        "lng": -90.49925,
+        "pop": 80582
+    },
+    {
+        "name": "San Pedro Ayampuc, GT",
+        "lat": 14.77943,
+        "lng": -90.45318,
+        "pop": 58609
+    },
+    {
+        "name": "San Juan Sacatep\u00e9quez, GT",
+        "lat": 14.71889,
+        "lng": -90.64417,
+        "pop": 136886
+    },
+    {
+        "name": "San Jos\u00e9 Pinula, GT",
+        "lat": 14.546,
+        "lng": -90.41288,
+        "pop": 79844
+    },
+    {
+        "name": "San Francisco El Alto, GT",
+        "lat": 14.9449,
+        "lng": -91.4431,
+        "pop": 57894
+    },
+    {
+        "name": "Salam\u00e1, GT",
+        "lat": 15.1021,
+        "lng": -90.31906,
+        "pop": 65275
+    },
+    {
+        "name": "Retalhuleu, GT",
+        "lat": 14.53575,
+        "lng": -91.67848,
+        "pop": 90505
+    },
+    {
+        "name": "Quetzaltenango, GT",
+        "lat": 14.84462,
+        "lng": -91.52316,
+        "pop": 180706
+    },
+    {
+        "name": "Puerto Barrios, GT",
+        "lat": 15.72724,
+        "lng": -88.59787,
+        "pop": 100593
+    },
+    {
+        "name": "Petapa, GT",
+        "lat": 14.50189,
+        "lng": -90.56196,
+        "pop": 135447
+    },
+    {
+        "name": "Patz\u00fan, GT",
+        "lat": 14.68189,
+        "lng": -91.01397,
+        "pop": 58240
+    },
+    {
+        "name": "Panzos, GT",
+        "lat": 15.39862,
+        "lng": -89.64147,
+        "pop": 71846
+    },
+    {
+        "name": "Pal\u00edn, GT",
+        "lat": 14.40358,
+        "lng": -90.69659,
+        "pop": 65873
+    },
+    {
+        "name": "Ostuncalco, GT",
+        "lat": 14.86899,
+        "lng": -91.62137,
+        "pop": 51828
+    },
+    {
+        "name": "Mixco, GT",
+        "lat": 14.63077,
+        "lng": -90.60711,
+        "pop": 465773
+    },
+    {
+        "name": "Mazatenango, GT",
+        "lat": 14.53412,
+        "lng": -91.50311,
+        "pop": 77431
+    },
+    {
+        "name": "Malacat\u00e1n, GT",
+        "lat": 14.91132,
+        "lng": -92.05788,
+        "pop": 92816
+    },
+    {
+        "name": "Jutiapa, GT",
+        "lat": 14.28491,
+        "lng": -89.88798,
+        "pop": 145880
+    },
+    {
+        "name": "Jalapa, GT",
+        "lat": 14.63542,
+        "lng": -89.99112,
+        "pop": 159840
+    },
+    {
+        "name": "Huehuetenango, GT",
+        "lat": 15.32097,
+        "lng": -91.47001,
+        "pop": 79426
+    },
+    {
+        "name": "Fraijanes, GT",
+        "lat": 14.46528,
+        "lng": -90.44083,
+        "pop": 58922
+    },
+    {
+        "name": "Escuintla, GT",
+        "lat": 14.30097,
+        "lng": -90.78816,
+        "pop": 156313
+    },
+    {
+        "name": "Comitancillo, GT",
+        "lat": 15.08937,
+        "lng": -91.74971,
+        "pop": 59489
+    },
+    {
+        "name": "Cob\u00e1n, GT",
+        "lat": 15.47025,
+        "lng": -90.37455,
+        "pop": 212047
+    },
+    {
+        "name": "Coatepeque, GT",
+        "lat": 14.70413,
+        "lng": -91.86426,
+        "pop": 105415
+    },
+    {
+        "name": "Guatemala City, GT",
+        "lat": 14.64072,
+        "lng": -90.51327,
+        "pop": 994938
+    },
+    {
+        "name": "Chiquimula, GT",
+        "lat": 14.8009,
+        "lng": -89.54641,
+        "pop": 111505
+    },
+    {
+        "name": "Chinautla, GT",
+        "lat": 14.70289,
+        "lng": -90.49983,
+        "pop": 104972
+    },
+    {
+        "name": "Chimaltenango, GT",
+        "lat": 14.65881,
+        "lng": -90.8216,
+        "pop": 96985
+    },
+    {
+        "name": "Chichicastenango, GT",
+        "lat": 14.94333,
+        "lng": -91.11116,
+        "pop": 141567
+    },
+    {
+        "name": "Chicacao, GT",
+        "lat": 14.54295,
+        "lng": -91.32636,
+        "pop": 60735
+    },
+    {
+        "name": "Amatitl\u00e1n, GT",
+        "lat": 14.4774,
+        "lng": -90.63489,
+        "pop": 71836
+    },
+    {
+        "name": "Tegucigalpa, HN",
+        "lat": 14.0818,
+        "lng": -87.20681,
+        "pop": 850848
+    },
+    {
+        "name": "San Pedro Sula, HN",
+        "lat": 15.50585,
+        "lng": -88.02588,
+        "pop": 801259
+    },
+    {
+        "name": "La Ceiba, HN",
+        "lat": 15.75971,
+        "lng": -86.78221,
+        "pop": 222055
+    },
+    {
+        "name": "El Progreso, HN",
+        "lat": 15.4,
+        "lng": -87.8,
+        "pop": 100810
+    },
+    {
+        "name": "Comayagua, HN",
+        "lat": 14.45577,
+        "lng": -87.63968,
+        "pop": 58784
+    },
+    {
+        "name": "Ciudad Choluteca, HN",
+        "lat": 13.30569,
+        "lng": -87.17882,
+        "pop": 75872
+    },
+    {
+        "name": "Choloma, HN",
+        "lat": 15.61444,
+        "lng": -87.95302,
+        "pop": 139100
+    },
+    {
+        "name": "Thomazeau, HT",
+        "lat": 18.65297,
+        "lng": -72.09391,
+        "pop": 52017
+    },
+    {
+        "name": "Saint-Michel de l'Atalaye, HT",
+        "lat": 19.37084,
+        "lng": -72.33472,
+        "pop": 95216
+    },
+    {
+        "name": "Saint-Marc, HT",
+        "lat": 19.11136,
+        "lng": -72.70078,
+        "pop": 66226
+    },
+    {
+        "name": "Port-de-Paix, HT",
+        "lat": 19.93984,
+        "lng": -72.83037,
+        "pop": 306217
+    },
+    {
+        "name": "Port-au-Prince, HT",
+        "lat": 18.54349,
+        "lng": -72.33881,
+        "pop": 1234742
+    },
+    {
+        "name": "Tigwav, HT",
+        "lat": 18.43117,
+        "lng": -72.86521,
+        "pop": 117504
+    },
+    {
+        "name": "P\u00e9tionville, HT",
+        "lat": 18.5125,
+        "lng": -72.28528,
+        "pop": 283052
+    },
+    {
+        "name": "Mirago\u00e2ne, HT",
+        "lat": 18.44599,
+        "lng": -73.08957,
+        "pop": 89202
+    },
+    {
+        "name": "L\u00e9og\u00e2ne, HT",
+        "lat": 18.5111,
+        "lng": -72.63343,
+        "pop": 134190
+    },
+    {
+        "name": "J\u00e9r\u00e9mie, HT",
+        "lat": 18.65,
+        "lng": -74.11667,
+        "pop": 97503
+    },
+    {
+        "name": "Jacmel, HT",
+        "lat": 18.23569,
+        "lng": -72.53686,
+        "pop": 137966
+    },
+    {
+        "name": "Gona\u00efves, HT",
+        "lat": 19.44755,
+        "lng": -72.68928,
+        "pop": 84961
+    },
+    {
+        "name": "Delmas, HT",
+        "lat": 18.54478,
+        "lng": -72.30036,
+        "pop": 382920
+    },
+    {
+        "name": "Croix-des-Bouquets, HT",
+        "lat": 18.57677,
+        "lng": -72.22625,
+        "pop": 229127
+    },
+    {
+        "name": "Les Cayes, HT",
+        "lat": 18.19199,
+        "lng": -73.74948,
+        "pop": 125799
+    },
+    {
+        "name": "Carrefour, HT",
+        "lat": 18.54114,
+        "lng": -72.39922,
+        "pop": 442156
+    },
+    {
+        "name": "Cap-Ha\u00eftien, HT",
+        "lat": 19.75938,
+        "lng": -72.19815,
+        "pop": 134815
+    },
+    {
+        "name": "Arcahaie, HT",
+        "lat": 18.77019,
+        "lng": -72.51226,
+        "pop": 130306
+    },
+    {
+        "name": "Spanish Town, JM",
+        "lat": 17.99107,
+        "lng": -76.95742,
+        "pop": 145018
+    },
+    {
+        "name": "Portmore, JM",
+        "lat": 17.97102,
+        "lng": -76.88691,
+        "pop": 102861
+    },
+    {
+        "name": "New Kingston, JM",
+        "lat": 18.00747,
+        "lng": -76.78319,
+        "pop": 583958
+    },
+    {
+        "name": "Montego Bay, JM",
+        "lat": 18.47116,
+        "lng": -77.91883,
+        "pop": 82867
+    },
+    {
+        "name": "Kingston, JM",
+        "lat": 17.99702,
+        "lng": -76.79358,
+        "pop": 937700
+    },
+    {
+        "name": "Ciudad Valles, MX",
+        "lat": 21.99631,
+        "lng": -99.01093,
+        "pop": 124644
+    },
+    {
+        "name": "Zumpango, MX",
+        "lat": 19.7967,
+        "lng": -99.09946,
+        "pop": 280455
+    },
+    {
+        "name": "Yautepec, MX",
+        "lat": 18.88188,
+        "lng": -99.06715,
+        "pop": 105780
+    },
+    {
+        "name": "Xochimilco, MX",
+        "lat": 19.25465,
+        "lng": -99.10356,
+        "pop": 442178
+    },
+    {
+        "name": "Xico, MX",
+        "lat": 19.27032,
+        "lng": -98.95088,
+        "pop": 384327
+    },
+    {
+        "name": "\u00c1lvaro Obreg\u00f3n, MX",
+        "lat": 19.35867,
+        "lng": -99.20329,
+        "pop": 726664
+    },
+    {
+        "name": "Villahermosa, MX",
+        "lat": 17.98625,
+        "lng": -92.93928,
+        "pop": 353577
+    },
+    {
+        "name": "Gustavo Adolfo Madero, MX",
+        "lat": 19.49392,
+        "lng": -99.11075,
+        "pop": 1185772
+    },
+    {
+        "name": "Veracruz, MX",
+        "lat": 19.18095,
+        "lng": -96.1429,
+        "pop": 428323
+    },
+    {
+        "name": "Tuxtla, MX",
+        "lat": 16.75357,
+        "lng": -93.11578,
+        "pop": 604147
+    },
+    {
+        "name": "T\u00faxpam de Rodr\u00edguez Cano, MX",
+        "lat": 20.95777,
+        "lng": -97.40805,
+        "pop": 84750
+    },
+    {
+        "name": "Tultepec, MX",
+        "lat": 19.685,
+        "lng": -99.12806,
+        "pop": 65338
+    },
+    {
+        "name": "Tulancingo, MX",
+        "lat": 20.08355,
+        "lng": -98.36288,
+        "pop": 102406
+    },
+    {
+        "name": "Toluca, MX",
+        "lat": 19.28786,
+        "lng": -99.65324,
+        "pop": 489333
+    },
+    {
+        "name": "San Bernardino Tlaxcalancingo, MX",
+        "lat": 19.02867,
+        "lng": -98.27698,
+        "pop": 54517
+    },
+    {
+        "name": "Tlalpan, MX",
+        "lat": 19.29513,
+        "lng": -99.16206,
+        "pop": 574577
+    },
+    {
+        "name": "Tlalnepantla, MX",
+        "lat": 19.54005,
+        "lng": -99.19538,
+        "pop": 653410
+    },
+    {
+        "name": "Tl\u00e1huac, MX",
+        "lat": 19.28689,
+        "lng": -99.00507,
+        "pop": 305076
+    },
+    {
+        "name": "Teziutlan, MX",
+        "lat": 19.8173,
+        "lng": -97.35992,
+        "pop": 103583
+    },
+    {
+        "name": "Texcoco de Mora, MX",
+        "lat": 19.51194,
+        "lng": -98.88293,
+        "pop": 105165
+    },
+    {
+        "name": "Cuautitl\u00e1n Izcalli, MX",
+        "lat": 19.64388,
+        "lng": -99.21598,
+        "pop": 555163
+    },
+    {
+        "name": "Tepeji del R\u00edo de Ocampo, MX",
+        "lat": 19.90481,
+        "lng": -99.34379,
+        "pop": 80612
+    },
+    {
+        "name": "Teoloyucan, MX",
+        "lat": 19.74423,
+        "lng": -99.18113,
+        "pop": 51255
+    },
+    {
+        "name": "Temixco, MX",
+        "lat": 18.85254,
+        "lng": -99.22537,
+        "pop": 97788
+    },
+    {
+        "name": "Tehuac\u00e1n, MX",
+        "lat": 18.46422,
+        "lng": -97.39735,
+        "pop": 248716
+    },
+    {
+        "name": "Taxco de Alarc\u00f3n, MX",
+        "lat": 18.55462,
+        "lng": -99.60592,
+        "pop": 50399
+    },
+    {
+        "name": "Tapachula, MX",
+        "lat": 14.90541,
+        "lng": -92.25891,
+        "pop": 353706
+    },
+    {
+        "name": "Tampico, MX",
+        "lat": 22.28519,
+        "lng": -97.87777,
+        "pop": 309003
+    },
+    {
+        "name": "Santo Domingo Tehuantepec, MX",
+        "lat": 16.32463,
+        "lng": -95.24104,
+        "pop": 67739
+    },
+    {
+        "name": "Santa Mar\u00eda Chimalhuac\u00e1n, MX",
+        "lat": 19.42155,
+        "lng": -98.95038,
+        "pop": 70519
+    },
+    {
+        "name": "Santa Cruz Xoxocotl\u00e1n, MX",
+        "lat": 17.02958,
+        "lng": -96.73518,
+        "pop": 67086
+    },
+    {
+        "name": "San Pablo de las Salinas, MX",
+        "lat": 19.66658,
+        "lng": -99.09477,
+        "pop": 156191
+    },
+    {
+        "name": "Zinacantepec, MX",
+        "lat": 19.28428,
+        "lng": -99.73394,
+        "pop": 54220
+    },
+    {
+        "name": "San Mateo Atenco, MX",
+        "lat": 19.26757,
+        "lng": -99.53214,
+        "pop": 67890
+    },
+    {
+        "name": "San Martin Texmelucan de Labastida, MX",
+        "lat": 19.28431,
+        "lng": -98.43885,
+        "pop": 155738
+    },
+    {
+        "name": "San Juan del R\u00edo, MX",
+        "lat": 20.38897,
+        "lng": -99.99637,
+        "pop": 138878
+    },
+    {
+        "name": "Tuxtepec, MX",
+        "lat": 18.0883,
+        "lng": -96.12535,
+        "pop": 159452
+    },
+    {
+        "name": "San Crist\u00f3bal de las Casas, MX",
+        "lat": 16.73006,
+        "lng": -92.63825,
+        "pop": 215874
+    },
+    {
+        "name": "San Andr\u00e9s Tuxtla, MX",
+        "lat": 18.4487,
+        "lng": -95.21327,
+        "pop": 61769
+    },
+    {
+        "name": "Salina Cruz, MX",
+        "lat": 16.17535,
+        "lng": -95.19424,
+        "pop": 84438
+    },
+    {
+        "name": "Rioverde, MX",
+        "lat": 21.93115,
+        "lng": -99.99488,
+        "pop": 53128
+    },
+    {
+        "name": "Ciudad R\u00edo Bravo, MX",
+        "lat": 25.98507,
+        "lng": -98.08964,
+        "pop": 95647
+    },
+    {
+        "name": "Reynosa, MX",
+        "lat": 26.08005,
+        "lng": -98.28456,
+        "pop": 589466
+    },
+    {
+        "name": "Puebla, MX",
+        "lat": 19.04778,
+        "lng": -98.20723,
+        "pop": 1692181
+    },
+    {
+        "name": "Poza Rica de Hidalgo, MX",
+        "lat": 20.53315,
+        "lng": -97.45946,
+        "pop": 185242
+    },
+    {
+        "name": "Polanco, MX",
+        "lat": 19.43332,
+        "lng": -99.19919,
+        "pop": 50000
+    },
+    {
+        "name": "Playa del Carmen, MX",
+        "lat": 20.6274,
+        "lng": -87.07987,
+        "pop": 149923
+    },
+    {
+        "name": "Pijijiapan, MX",
+        "lat": 15.68618,
+        "lng": -93.20938,
+        "pop": 50079
+    },
+    {
+        "name": "Paraiso, MX",
+        "lat": 18.40116,
+        "lng": -93.21406,
+        "pop": 86632
+    },
+    {
+        "name": "Papantla de Olarte, MX",
+        "lat": 20.44655,
+        "lng": -97.32494,
+        "pop": 53546
+    },
+    {
+        "name": "Pachuca de Soto, MX",
+        "lat": 20.11697,
+        "lng": -98.73329,
+        "pop": 256584
+    },
+    {
+        "name": "Orizaba, MX",
+        "lat": 18.85195,
+        "lng": -97.09957,
+        "pop": 123182
+    },
+    {
+        "name": "Oaxaca, MX",
+        "lat": 17.06025,
+        "lng": -96.72544,
+        "pop": 255029
+    },
+    {
+        "name": "Nuevo Laredo, MX",
+        "lat": 27.47629,
+        "lng": -99.51639,
+        "pop": 416055
+    },
+    {
+        "name": "Nicol\u00e1s Romero, MX",
+        "lat": 19.64177,
+        "lng": -99.3068,
+        "pop": 281799
+    },
+    {
+        "name": "Naucalpan de Ju\u00e1rez, MX",
+        "lat": 19.47851,
+        "lng": -99.23963,
+        "pop": 834434
+    },
+    {
+        "name": "Montemorelos, MX",
+        "lat": 25.18909,
+        "lng": -99.82865,
+        "pop": 67428
+    },
+    {
+        "name": "Miramar, MX",
+        "lat": 22.36094,
+        "lng": -97.89997,
+        "pop": 118614
+    },
+    {
+        "name": "Minatitl\u00e1n, MX",
+        "lat": 18.00011,
+        "lng": -94.5569,
+        "pop": 112046
+    },
+    {
+        "name": "M\u00e9rida, MX",
+        "lat": 20.967,
+        "lng": -89.62318,
+        "pop": 1201000
+    },
+    {
+        "name": "Heroica Matamoros, MX",
+        "lat": 25.87972,
+        "lng": -97.50417,
+        "pop": 510739
+    },
+    {
+        "name": "Mart\u00ednez de la Torre, MX",
+        "lat": 20.07082,
+        "lng": -97.06078,
+        "pop": 60074
+    },
+    {
+        "name": "Magdalena Contreras, MX",
+        "lat": 19.33212,
+        "lng": -99.21118,
+        "pop": 238431
+    },
+    {
+        "name": "Los Reyes Acaquilpan, MX",
+        "lat": 19.36357,
+        "lng": -98.97707,
+        "pop": 85359
+    },
+    {
+        "name": "Linares, MX",
+        "lat": 24.85798,
+        "lng": -99.56768,
+        "pop": 70378
+    },
+    {
+        "name": "Kanas\u00edn, MX",
+        "lat": 20.93485,
+        "lng": -89.55822,
+        "pop": 77240
+    },
+    {
+        "name": "Heroica Ciudad de Juchit\u00e1n de Zaragoza, MX",
+        "lat": 16.43375,
+        "lng": -95.02181,
+        "pop": 88280
+    },
+    {
+        "name": "Jiutepec, MX",
+        "lat": 18.88139,
+        "lng": -99.17778,
+        "pop": 215357
+    },
+    {
+        "name": "Xalapa de Enr\u00edquez, MX",
+        "lat": 19.53124,
+        "lng": -96.91589,
+        "pop": 424755
+    },
+    {
+        "name": "Ixtapaluca, MX",
+        "lat": 19.31556,
+        "lng": -98.88284,
+        "pop": 322271
+    },
+    {
+        "name": "Iztapalapa, MX",
+        "lat": 19.35529,
+        "lng": -99.06224,
+        "pop": 1835486
+    },
+    {
+        "name": "Iztacalco, MX",
+        "lat": 19.39528,
+        "lng": -99.09778,
+        "pop": 384326
+    },
+    {
+        "name": "Iguala de la Independencia, MX",
+        "lat": 18.34536,
+        "lng": -99.5413,
+        "pop": 118468
+    },
+    {
+        "name": "Huauchinango, MX",
+        "lat": 20.17376,
+        "lng": -98.05491,
+        "pop": 56206
+    },
+    {
+        "name": "Ciudad de Huajuapan de Le\u00f3n, MX",
+        "lat": 17.80787,
+        "lng": -97.77956,
+        "pop": 53043
+    },
+    {
+        "name": "Ciudad Mante, MX",
+        "lat": 22.74277,
+        "lng": -98.97172,
+        "pop": 84787
+    },
+    {
+        "name": "Ecatepec de Morelos, MX",
+        "lat": 19.60492,
+        "lng": -99.06064,
+        "pop": 1645352
+    },
+    {
+        "name": "Cuernavaca, MX",
+        "lat": 18.9261,
+        "lng": -99.23075,
+        "pop": 338650
+    },
+    {
+        "name": "Cuautla, MX",
+        "lat": 18.8106,
+        "lng": -98.93525,
+        "pop": 157336
+    },
+    {
+        "name": "Cuautitl\u00e1n, MX",
+        "lat": 19.67052,
+        "lng": -99.17989,
+        "pop": 178847
+    },
+    {
+        "name": "Delegaci\u00f3n Cuajimalpa de Morelos, MX",
+        "lat": 19.3692,
+        "lng": -99.29089,
+        "pop": 160491
+    },
+    {
+        "name": "Cozumel, MX",
+        "lat": 20.50038,
+        "lng": -86.94272,
+        "pop": 77236
+    },
+    {
+        "name": "Coyoac\u00e1n, MX",
+        "lat": 19.3467,
+        "lng": -99.16174,
+        "pop": 614447
+    },
+    {
+        "name": "C\u00f3rdoba, MX",
+        "lat": 18.8842,
+        "lng": -96.92559,
+        "pop": 204721
+    },
+    {
+        "name": "Comit\u00e1n, MX",
+        "lat": 16.24004,
+        "lng": -92.13668,
+        "pop": 166178
+    },
+    {
+        "name": "Coatzacoalcos, MX",
+        "lat": 18.14905,
+        "lng": -94.4447,
+        "pop": 310698
+    },
+    {
+        "name": "Coatepec, MX",
+        "lat": 19.45229,
+        "lng": -96.96148,
+        "pop": 53621
+    },
+    {
+        "name": "Coacalco, MX",
+        "lat": 19.62923,
+        "lng": -99.10689,
+        "pop": 277959
+    },
+    {
+        "name": "Ciudad Victoria, MX",
+        "lat": 23.74061,
+        "lng": -99.14364,
+        "pop": 332100
+    },
+    {
+        "name": "Ciudad Nezahualcoyotl, MX",
+        "lat": 19.40061,
+        "lng": -99.01483,
+        "pop": 1077208
+    },
+    {
+        "name": "Ciudad Madero, MX",
+        "lat": 22.2475,
+        "lng": -97.83665,
+        "pop": 197216
+    },
+    {
+        "name": "Mexico City, MX",
+        "lat": 19.42847,
+        "lng": -99.12766,
+        "pop": 12294193
+    },
+    {
+        "name": "Ciudad del Carmen, MX",
+        "lat": 18.64592,
+        "lng": -91.82991,
+        "pop": 191238
+    },
+    {
+        "name": "Cholula, MX",
+        "lat": 19.06406,
+        "lng": -98.30352,
+        "pop": 292881
+    },
+    {
+        "name": "Chilpancingo, MX",
+        "lat": 17.55228,
+        "lng": -99.50124,
+        "pop": 187251
+    },
+    {
+        "name": "Chicoloapan, MX",
+        "lat": 19.41687,
+        "lng": -98.90202,
+        "pop": 172919
+    },
+    {
+        "name": "Chetumal, MX",
+        "lat": 18.51957,
+        "lng": -88.30397,
+        "pop": 169028
+    },
+    {
+        "name": "Chalco, MX",
+        "lat": 19.26174,
+        "lng": -98.89775,
+        "pop": 168720
+    },
+    {
+        "name": "C\u00e1rdenas, MX",
+        "lat": 18.00135,
+        "lng": -93.37559,
+        "pop": 91558
+    },
+    {
+        "name": "Canc\u00fan, MX",
+        "lat": 21.17429,
+        "lng": -86.84656,
+        "pop": 888797
+    },
+    {
+        "name": "Campeche, MX",
+        "lat": 19.84073,
+        "lng": -90.51676,
+        "pop": 220389
+    },
+    {
+        "name": "Cadereyta Jim\u00e9nez, MX",
+        "lat": 25.58896,
+        "lng": -100.00156,
+        "pop": 68111
+    },
+    {
+        "name": "Cadereyta, MX",
+        "lat": 25.58333,
+        "lng": -99.98333,
+        "pop": 67994
+    },
+    {
+        "name": "Azcapotzalco, MX",
+        "lat": 19.48698,
+        "lng": -99.18594,
+        "pop": 414711
+    },
+    {
+        "name": "Atlixco, MX",
+        "lat": 18.90815,
+        "lng": -98.43613,
+        "pop": 86690
+    },
+    {
+        "name": "Ciudad L\u00f3pez Mateos, MX",
+        "lat": 19.55793,
+        "lng": -99.25675,
+        "pop": 489160
+    },
+    {
+        "name": "Amozoc de Mota, MX",
+        "lat": 19.04611,
+        "lng": -98.045,
+        "pop": 95322
+    },
+    {
+        "name": "Altamira, MX",
+        "lat": 22.39309,
+        "lng": -97.93857,
+        "pop": 59536
+    },
+    {
+        "name": "Acayucan, MX",
+        "lat": 17.94979,
+        "lng": -94.91386,
+        "pop": 50934
+    },
+    {
+        "name": "Acapulco de Ju\u00e1rez, MX",
+        "lat": 16.84942,
+        "lng": -99.90891,
+        "pop": 658609
+    },
+    {
+        "name": "Huamantla, MX",
+        "lat": 19.31451,
+        "lng": -97.9252,
+        "pop": 51996
+    },
+    {
+        "name": "Tlaxcala, MX",
+        "lat": 19.31777,
+        "lng": -98.23846,
+        "pop": 84670
+    },
+    {
+        "name": "Villa Vicente Guerrero, MX",
+        "lat": 19.12123,
+        "lng": -98.16572,
+        "pop": 60001
+    },
+    {
+        "name": "Tepexpan, MX",
+        "lat": 19.61387,
+        "lng": -98.9364,
+        "pop": 102667
+    },
+    {
+        "name": "Benito Juarez, MX",
+        "lat": 19.3984,
+        "lng": -99.15766,
+        "pop": 355017
+    },
+    {
+        "name": "Venustiano Carranza, MX",
+        "lat": 19.44361,
+        "lng": -99.10499,
+        "pop": 430978
+    },
+    {
+        "name": "Miguel Hidalgo, MX",
+        "lat": 19.43411,
+        "lng": -99.20024,
+        "pop": 372889
+    },
+    {
+        "name": "Cuauht\u00e9moc, MX",
+        "lat": 19.44506,
+        "lng": -99.14612,
+        "pop": 531831
+    },
+    {
+        "name": "Huixquilucan, MX",
+        "lat": 19.35985,
+        "lng": -99.35016,
+        "pop": 124846
+    },
+    {
+        "name": "Santiago Teyahualco, MX",
+        "lat": 19.65985,
+        "lng": -99.12493,
+        "pop": 53684
+    },
+    {
+        "name": "Ojo de Agua, MX",
+        "lat": 19.68028,
+        "lng": -99.01,
+        "pop": 386290
+    },
+    {
+        "name": "Buenavista, MX",
+        "lat": 19.60833,
+        "lng": -99.16944,
+        "pop": 216776
+    },
+    {
+        "name": "Ixtapa-Zihuatanejo, MX",
+        "lat": 17.64344,
+        "lng": -101.55212,
+        "pop": 67408
+    },
+    {
+        "name": "Zapopan, MX",
+        "lat": 20.72111,
+        "lng": -103.38742,
+        "pop": 1476491
+    },
+    {
+        "name": "Zamora de Hidalgo, MX",
+        "lat": 19.98404,
+        "lng": -102.28634,
+        "pop": 186102
+    },
+    {
+        "name": "Zacatecas, MX",
+        "lat": 22.76843,
+        "lng": -102.58141,
+        "pop": 129011
+    },
+    {
+        "name": "Zacapu, MX",
+        "lat": 19.81523,
+        "lng": -101.79198,
+        "pop": 50112
+    },
+    {
+        "name": "Frontera, MX",
+        "lat": 26.92814,
+        "lng": -101.45212,
+        "pop": 69462
+    },
+    {
+        "name": "El Pueblito, MX",
+        "lat": 20.54006,
+        "lng": -100.44093,
+        "pop": 71254
+    },
+    {
+        "name": "Garc\u00eda, MX",
+        "lat": 25.81201,
+        "lng": -100.59874,
+        "pop": 93641
+    },
+    {
+        "name": "Ciudad de Villa de \u00c1lvarez, MX",
+        "lat": 19.26722,
+        "lng": -103.73778,
+        "pop": 117600
+    },
+    {
+        "name": "Valle de Santiago, MX",
+        "lat": 20.3914,
+        "lng": -101.19222,
+        "pop": 68058
+    },
+    {
+        "name": "Uruapan, MX",
+        "lat": 19.41677,
+        "lng": -102.05842,
+        "pop": 299523
+    },
+    {
+        "name": "Uriangato, MX",
+        "lat": 20.14085,
+        "lng": -101.18251,
+        "pop": 51382
+    },
+    {
+        "name": "Torre\u00f3n, MX",
+        "lat": 25.54389,
+        "lng": -103.41898,
+        "pop": 735340
+    },
+    {
+        "name": "Tonal\u00e1, MX",
+        "lat": 20.62263,
+        "lng": -103.24168,
+        "pop": 408759
+    },
+    {
+        "name": "Tlaquepaque, MX",
+        "lat": 20.64121,
+        "lng": -103.29342,
+        "pop": 650123
+    },
+    {
+        "name": "Tijuana, MX",
+        "lat": 32.5027,
+        "lng": -117.00371,
+        "pop": 1922523
+    },
+    {
+        "name": "San Francisco Tesist\u00e1n, MX",
+        "lat": 20.79729,
+        "lng": -103.47712,
+        "pop": 62397
+    },
+    {
+        "name": "Tepic, MX",
+        "lat": 21.50733,
+        "lng": -104.89332,
+        "pop": 332863
+    },
+    {
+        "name": "Tepatitl\u00e1n de Morelos, MX",
+        "lat": 20.81692,
+        "lng": -102.76347,
+        "pop": 91959
+    },
+    {
+        "name": "Tecom\u00e1n, MX",
+        "lat": 18.91614,
+        "lng": -103.87713,
+        "pop": 85689
+    },
+    {
+        "name": "Tecate, MX",
+        "lat": 32.566,
+        "lng": -116.63187,
+        "pop": 64764
+    },
+    {
+        "name": "Soledad de Graciano S\u00e1nchez, MX",
+        "lat": 22.18912,
+        "lng": -100.93792,
+        "pop": 332072
+    },
+    {
+        "name": "Silao, MX",
+        "lat": 20.94356,
+        "lng": -101.42703,
+        "pop": 74242
+    },
+    {
+        "name": "Santa Catarina, MX",
+        "lat": 25.67325,
+        "lng": -100.45813,
+        "pop": 304052
+    },
+    {
+        "name": "San Nicol\u00e1s de los Garza, MX",
+        "lat": 25.74167,
+        "lng": -100.30222,
+        "pop": 412199
+    },
+    {
+        "name": "San Miguel de Allende, MX",
+        "lat": 20.91528,
+        "lng": -100.74389,
+        "pop": 174615
+    },
+    {
+        "name": "San Luis R\u00edo Colorado, MX",
+        "lat": 32.4555,
+        "lng": -114.77037,
+        "pop": 176685
+    },
+    {
+        "name": "San Luis Potos\u00ed, MX",
+        "lat": 22.15234,
+        "lng": -100.97135,
+        "pop": 722772
+    },
+    {
+        "name": "Cabo San Lucas, MX",
+        "lat": 22.89088,
+        "lng": -109.91238,
+        "pop": 202694
+    },
+    {
+        "name": "San Jos\u00e9 del Cabo, MX",
+        "lat": 23.05406,
+        "lng": -109.70367,
+        "pop": 136285
+    },
+    {
+        "name": "San Francisco del Rinc\u00f3n, MX",
+        "lat": 21.01843,
+        "lng": -101.85515,
+        "pop": 71139
+    },
+    {
+        "name": "Saltillo, MX",
+        "lat": 25.42595,
+        "lng": -100.97963,
+        "pop": 709671
+    },
+    {
+        "name": "Salamanca, MX",
+        "lat": 20.57196,
+        "lng": -101.19154,
+        "pop": 160682
+    },
+    {
+        "name": "Sahuayo de Morelos, MX",
+        "lat": 20.057,
+        "lng": -102.7164,
+        "pop": 64431
+    },
+    {
+        "name": "Sabinas, MX",
+        "lat": 27.85591,
+        "lng": -101.11738,
+        "pop": 54905
+    },
+    {
+        "name": "Rosarito, MX",
+        "lat": 32.36044,
+        "lng": -117.04645,
+        "pop": 100660
+    },
+    {
+        "name": "Ramos Arizpe, MX",
+        "lat": 25.53928,
+        "lng": -100.94742,
+        "pop": 66554
+    },
+    {
+        "name": "Santiago de Quer\u00e9taro, MX",
+        "lat": 20.58806,
+        "lng": -100.38806,
+        "pop": 1594212
+    },
+    {
+        "name": "Puerto Vallarta, MX",
+        "lat": 20.617,
+        "lng": -105.23018,
+        "pop": 224166
+    },
+    {
+        "name": "Puerto Pe\u00f1asco, MX",
+        "lat": 31.31716,
+        "lng": -113.53799,
+        "pop": 62689
+    },
+    {
+        "name": "Piedras Negras, MX",
+        "lat": 28.70007,
+        "lng": -100.52353,
+        "pop": 150178
+    },
+    {
+        "name": "P\u00e1tzcuaro, MX",
+        "lat": 19.5132,
+        "lng": -101.60995,
+        "pop": 55298
+    },
+    {
+        "name": "Ocotl\u00e1n, MX",
+        "lat": 20.35116,
+        "lng": -102.76832,
+        "pop": 83769
+    },
+    {
+        "name": "Nuevo Casas Grandes, MX",
+        "lat": 30.41552,
+        "lng": -107.91166,
+        "pop": 55553
+    },
+    {
+        "name": "Navojoa, MX",
+        "lat": 27.07057,
+        "lng": -109.44345,
+        "pop": 113836
+    },
+    {
+        "name": "Morelia, MX",
+        "lat": 19.70078,
+        "lng": -101.18443,
+        "pop": 743275
+    },
+    {
+        "name": "Monterrey, MX",
+        "lat": 25.68435,
+        "lng": -100.31721,
+        "pop": 1135512
+    },
+    {
+        "name": "Monclova, MX",
+        "lat": 26.90687,
+        "lng": -101.42056,
+        "pop": 215271
+    },
+    {
+        "name": "Mexicali, MX",
+        "lat": 32.62781,
+        "lng": -115.45446,
+        "pop": 1032686
+    },
+    {
+        "name": "Mazatl\u00e1n, MX",
+        "lat": 23.22163,
+        "lng": -106.41885,
+        "pop": 381583
+    },
+    {
+        "name": "Matehuala, MX",
+        "lat": 23.64824,
+        "lng": -100.64334,
+        "pop": 77328
+    },
+    {
+        "name": "Matamoros, MX",
+        "lat": 25.52699,
+        "lng": -103.2285,
+        "pop": 52233
+    },
+    {
+        "name": "Manzanillo, MX",
+        "lat": 19.11695,
+        "lng": -104.34214,
+        "pop": 159853
+    },
+    {
+        "name": "Los Mochis, MX",
+        "lat": 25.79097,
+        "lng": -108.99825,
+        "pop": 256613
+    },
+    {
+        "name": "Le\u00f3n de los Aldama, MX",
+        "lat": 21.12908,
+        "lng": -101.67374,
+        "pop": 1579803
+    },
+    {
+        "name": "La Piedad de Cabadas, MX",
+        "lat": 20.34107,
+        "lng": -102.02251,
+        "pop": 83323
+    },
+    {
+        "name": "La Paz, MX",
+        "lat": 24.14231,
+        "lng": -110.31316,
+        "pop": 250141
+    },
+    {
+        "name": "Lagos de Moreno, MX",
+        "lat": 21.35875,
+        "lng": -101.93311,
+        "pop": 98206
+    },
+    {
+        "name": "Ciudad Benito Ju\u00e1rez, MX",
+        "lat": 25.64724,
+        "lng": -100.09582,
+        "pop": 308285
+    },
+    {
+        "name": "Jacona de Plancarte, MX",
+        "lat": 19.95625,
+        "lng": -102.30557,
+        "pop": 53860
+    },
+    {
+        "name": "Irapuato, MX",
+        "lat": 20.67675,
+        "lng": -101.35628,
+        "pop": 380941
+    },
+    {
+        "name": "Hidalgo del Parral, MX",
+        "lat": 26.92987,
+        "lng": -105.66618,
+        "pop": 104836
+    },
+    {
+        "name": "Her\u00f3ica Zit\u00e1cuaro, MX",
+        "lat": 19.43657,
+        "lng": -100.35639,
+        "pop": 84307
+    },
+    {
+        "name": "Nogales, MX",
+        "lat": 31.30862,
+        "lng": -110.94217,
+        "pop": 264782
+    },
+    {
+        "name": "Heroica Caborca, MX",
+        "lat": 30.71833,
+        "lng": -112.15837,
+        "pop": 59922
+    },
+    {
+        "name": "Hermosillo, MX",
+        "lat": 29.08874,
+        "lng": -110.96677,
+        "pop": 812229
+    },
+    {
+        "name": "Heroica Guaymas, MX",
+        "lat": 27.91989,
+        "lng": -110.89888,
+        "pop": 117253
+    },
+    {
+        "name": "Guasave, MX",
+        "lat": 25.56792,
+        "lng": -108.46949,
+        "pop": 71196
+    },
+    {
+        "name": "Guanajuato, MX",
+        "lat": 21.01858,
+        "lng": -101.2591,
+        "pop": 72237
+    },
+    {
+        "name": "Guam\u00fachil, MX",
+        "lat": 25.4587,
+        "lng": -108.07732,
+        "pop": 72500
+    },
+    {
+        "name": "Guadalupe, MX",
+        "lat": 25.67678,
+        "lng": -100.25646,
+        "pop": 673616
+    },
+    {
+        "name": "Guadalupe, MX",
+        "lat": 22.74678,
+        "lng": -102.5188,
+        "pop": 170029
+    },
+    {
+        "name": "Guadalajara, MX",
+        "lat": 20.67738,
+        "lng": -103.34749,
+        "pop": 1385629
+    },
+    {
+        "name": "G\u00f3mez Palacio, MX",
+        "lat": 25.56871,
+        "lng": -103.4996,
+        "pop": 257352
+    },
+    {
+        "name": "Ciudad General Escobedo, MX",
+        "lat": 25.79698,
+        "lng": -100.31791,
+        "pop": 454967
+    },
+    {
+        "name": "San Pedro Garza Garc\u00eda, MX",
+        "lat": 25.6604,
+        "lng": -100.40651,
+        "pop": 132128
+    },
+    {
+        "name": "Fresnillo, MX",
+        "lat": 23.1749,
+        "lng": -102.86785,
+        "pop": 143281
+    },
+    {
+        "name": "Ensenada, MX",
+        "lat": 31.87149,
+        "lng": -116.60071,
+        "pop": 443807
+    },
+    {
+        "name": "Victoria de Durango, MX",
+        "lat": 24.02032,
+        "lng": -104.65756,
+        "pop": 518709
+    },
+    {
+        "name": "Culiac\u00e1n, MX",
+        "lat": 24.80209,
+        "lng": -107.39421,
+        "pop": 808416
+    },
+    {
+        "name": "Cuauht\u00e9moc, MX",
+        "lat": 28.4063,
+        "lng": -106.86667,
+        "pop": 168482
+    },
+    {
+        "name": "Cortazar, MX",
+        "lat": 20.48362,
+        "lng": -100.96237,
+        "pop": 61658
+    },
+    {
+        "name": "Colima, MX",
+        "lat": 19.24473,
+        "lng": -103.7127,
+        "pop": 146965
+    },
+    {
+        "name": "Ciudad Obreg\u00f3n, MX",
+        "lat": 27.48642,
+        "lng": -109.94079,
+        "pop": 329404
+    },
+    {
+        "name": "Lerdo, MX",
+        "lat": 25.53611,
+        "lng": -103.52485,
+        "pop": 79669
+    },
+    {
+        "name": "Ciudad Ju\u00e1rez, MX",
+        "lat": 31.72024,
+        "lng": -106.46084,
+        "pop": 1512450
+    },
+    {
+        "name": "Ciudad Hidalgo, MX",
+        "lat": 19.68957,
+        "lng": -100.55502,
+        "pop": 60542
+    },
+    {
+        "name": "Ciudad Guzm\u00e1n, MX",
+        "lat": 19.70413,
+        "lng": -103.46383,
+        "pop": 111975
+    },
+    {
+        "name": "Ciudad Delicias, MX",
+        "lat": 28.19013,
+        "lng": -105.47012,
+        "pop": 148045
+    },
+    {
+        "name": "Ciudad Acu\u00f1a, MX",
+        "lat": 29.32322,
+        "lng": -100.95217,
+        "pop": 216099
+    },
+    {
+        "name": "Chihuahua, MX",
+        "lat": 28.63528,
+        "lng": -106.08889,
+        "pop": 925762
+    },
+    {
+        "name": "Celaya, MX",
+        "lat": 20.52353,
+        "lng": -100.8157,
+        "pop": 340387
+    },
+    {
+        "name": "Arandas, MX",
+        "lat": 20.70551,
+        "lng": -102.34514,
+        "pop": 52175
+    },
+    {
+        "name": "Ciudad Apodaca, MX",
+        "lat": 25.78195,
+        "lng": -100.18839,
+        "pop": 467157
+    },
+    {
+        "name": "Apatzing\u00e1n, MX",
+        "lat": 19.08864,
+        "lng": -102.35704,
+        "pop": 102362
+    },
+    {
+        "name": "Aguascalientes, MX",
+        "lat": 21.88262,
+        "lng": -102.2843,
+        "pop": 722250
+    },
+    {
+        "name": "Agua Prieta, MX",
+        "lat": 31.3224,
+        "lng": -109.54251,
+        "pop": 77254
+    },
+    {
+        "name": "Ac\u00e1mbaro, MX",
+        "lat": 20.03085,
+        "lng": -100.72194,
+        "pop": 57972
+    },
+    {
+        "name": "Dolores Hidalgo, MX",
+        "lat": 21.15611,
+        "lng": -100.9325,
+        "pop": 67101
+    },
+    {
+        "name": "Ciudad L\u00e1zaro C\u00e1rdenas, MX",
+        "lat": 17.96256,
+        "lng": -102.19887,
+        "pop": 196003
+    },
+    {
+        "name": "Benito Ju\u00e1rez, MX",
+        "lat": 19.3727,
+        "lng": -99.1564,
+        "pop": 385439
+    },
+    {
+        "name": "Colonia del Valle, MX",
+        "lat": 19.38611,
+        "lng": -99.16204,
+        "pop": 250000
+    },
+    {
+        "name": "Colonia Lindavista, MX",
+        "lat": 19.49156,
+        "lng": -99.12475,
+        "pop": 100000
+    },
+    {
+        "name": "Colonia Nativitas, MX",
+        "lat": 19.38119,
+        "lng": -99.13685,
+        "pop": 60000
+    },
+    {
+        "name": "Hacienda Santa Fe, MX",
+        "lat": 20.51806,
+        "lng": -103.38056,
+        "pop": 86935
+    },
+    {
+        "name": "Fuentes del Valle, MX",
+        "lat": 19.6325,
+        "lng": -99.13861,
+        "pop": 74087
+    },
+    {
+        "name": "San Salvador Tizatlalli, MX",
+        "lat": 19.26028,
+        "lng": -99.59083,
+        "pop": 61367
+    },
+    {
+        "name": "Jardines de la Silla, MX",
+        "lat": 25.62944,
+        "lng": -100.18778,
+        "pop": 53742
+    },
+    {
+        "name": "Tipitapa, NI",
+        "lat": 12.19732,
+        "lng": -86.09706,
+        "pop": 50000
+    },
+    {
+        "name": "Nueva Guinea, NI",
+        "lat": 11.68758,
+        "lng": -84.45616,
+        "pop": 52929
+    },
+    {
+        "name": "Mateare, NI",
+        "lat": 12.23512,
+        "lng": -86.42809,
+        "pop": 61234
+    },
+    {
+        "name": "Matagalpa, NI",
+        "lat": 12.92795,
+        "lng": -85.91906,
+        "pop": 109089
+    },
+    {
+        "name": "Masaya, NI",
+        "lat": 11.97316,
+        "lng": -86.09587,
+        "pop": 130113
+    },
+    {
+        "name": "Managua, NI",
+        "lat": 12.13282,
+        "lng": -86.2504,
+        "pop": 973087
+    },
+    {
+        "name": "Le\u00f3n, NI",
+        "lat": 12.43527,
+        "lng": -86.87862,
+        "pop": 144538
+    },
+    {
+        "name": "Juigalpa, NI",
+        "lat": 12.10591,
+        "lng": -85.36549,
+        "pop": 50000
+    },
+    {
+        "name": "Jinotega, NI",
+        "lat": 13.09103,
+        "lng": -86.00234,
+        "pop": 55000
+    },
+    {
+        "name": "Granada, NI",
+        "lat": 11.93062,
+        "lng": -85.95368,
+        "pop": 89409
+    },
+    {
+        "name": "Estel\u00ed, NI",
+        "lat": 13.09291,
+        "lng": -86.35589,
+        "pop": 96422
+    },
+    {
+        "name": "El Viejo, NI",
+        "lat": 12.66348,
+        "lng": -87.16663,
+        "pop": 53504
+    },
+    {
+        "name": "Chinandega, NI",
+        "lat": 12.62951,
+        "lng": -87.13133,
+        "pop": 126387
+    },
+    {
+        "name": "Ciudad Sandino, NI",
+        "lat": 12.15889,
+        "lng": -86.34417,
+        "pop": 50000
+    },
+    {
+        "name": "Tocumen, PA",
+        "lat": 9.08939,
+        "lng": -79.3831,
+        "pop": 50844
+    },
+    {
+        "name": "San Miguelito, PA",
+        "lat": 9.05032,
+        "lng": -79.47068,
+        "pop": 321501
+    },
+    {
+        "name": "Pedregal, PA",
+        "lat": 9.0661,
+        "lng": -79.42577,
+        "pop": 51641
+    },
+    {
+        "name": "Panam\u00e1, PA",
+        "lat": 8.9936,
+        "lng": -79.51973,
+        "pop": 408168
+    },
+    {
+        "name": "Las Cumbres, PA",
+        "lat": 9.09211,
+        "lng": -79.53895,
+        "pop": 69102
+    },
+    {
+        "name": "La Chorrera, PA",
+        "lat": 8.87763,
+        "lng": -79.78007,
+        "pop": 61232
+    },
+    {
+        "name": "Juan D\u00edaz, PA",
+        "lat": 9.04059,
+        "lng": -79.44083,
+        "pop": 100636
+    },
+    {
+        "name": "David, PA",
+        "lat": 8.42729,
+        "lng": -82.43085,
+        "pop": 81957
+    },
+    {
+        "name": "Col\u00f3n, PA",
+        "lat": 9.36025,
+        "lng": -79.90019,
+        "pop": 76643
+    },
+    {
+        "name": "Arraij\u00e1n, PA",
+        "lat": 8.9398,
+        "lng": -79.64038,
+        "pop": 76815
+    },
+    {
+        "name": "Arecibo, PR",
+        "lat": 18.47245,
+        "lng": -66.71573,
+        "pop": 87754
+    },
+    {
+        "name": "Bayam\u00f3n, PR",
+        "lat": 18.39856,
+        "lng": -66.15572,
+        "pop": 203499
+    },
+    {
+        "name": "Caguas, PR",
+        "lat": 18.23412,
+        "lng": -66.0485,
+        "pop": 86804
+    },
+    {
+        "name": "Carolina, PR",
+        "lat": 18.38078,
+        "lng": -65.95739,
+        "pop": 170404
+    },
+    {
+        "name": "Guaynabo, PR",
+        "lat": 18.35745,
+        "lng": -66.111,
+        "pop": 81360
+    },
+    {
+        "name": "Mayag\u00fcez, PR",
+        "lat": 18.20107,
+        "lng": -67.13962,
+        "pop": 73077
+    },
+    {
+        "name": "Ponce, PR",
+        "lat": 18.01031,
+        "lng": -66.62398,
+        "pop": 137491
+    },
+    {
+        "name": "San Juan, PR",
+        "lat": 18.46633,
+        "lng": -66.10572,
+        "pop": 418140
+    },
+    {
+        "name": "Trujillo Alto, PR",
+        "lat": 18.35467,
+        "lng": -66.00739,
+        "pop": 75243
+    },
+    {
+        "name": "Usulut\u00e1n, SV",
+        "lat": 13.34467,
+        "lng": -88.43994,
+        "pop": 51910
+    },
+    {
+        "name": "Soyapango, SV",
+        "lat": 13.71024,
+        "lng": -89.13989,
+        "pop": 329708
+    },
+    {
+        "name": "Sonsonate, SV",
+        "lat": 13.71726,
+        "lng": -89.72304,
+        "pop": 59468
+    },
+    {
+        "name": "Santa Ana, SV",
+        "lat": 13.98827,
+        "lng": -89.55685,
+        "pop": 176661
+    },
+    {
+        "name": "San Salvador, SV",
+        "lat": 13.68935,
+        "lng": -89.18718,
+        "pop": 525990
+    },
+    {
+        "name": "San Miguel, SV",
+        "lat": 13.48261,
+        "lng": -88.18211,
+        "pop": 247126
+    },
+    {
+        "name": "San Marcos, SV",
+        "lat": 13.66108,
+        "lng": -89.18252,
+        "pop": 54615
+    },
+    {
+        "name": "Santa Tecla, SV",
+        "lat": 13.67741,
+        "lng": -89.28335,
+        "pop": 124694
+    },
+    {
+        "name": "Mejicanos, SV",
+        "lat": 13.72397,
+        "lng": -89.188,
+        "pop": 160317
+    },
+    {
+        "name": "Delgado, SV",
+        "lat": 13.72171,
+        "lng": -89.16874,
+        "pop": 71594
+    },
+    {
+        "name": "Apopa, SV",
+        "lat": 13.80722,
+        "lng": -89.17917,
+        "pop": 112158
+    },
+    {
+        "name": "Birmingham, AL",
+        "lat": 33.52066,
+        "lng": -86.80249,
+        "pop": 196357
+    },
+    {
+        "name": "Cordova, TN",
+        "lat": 35.15565,
+        "lng": -89.7762,
+        "pop": 68779
+    },
+    {
+        "name": "Decatur, AL",
+        "lat": 34.60593,
+        "lng": -86.98334,
+        "pop": 55437
+    },
+    {
+        "name": "Dothan, AL",
+        "lat": 31.22323,
+        "lng": -85.39049,
+        "pop": 68567
+    },
+    {
+        "name": "Hoover, AL",
+        "lat": 33.40539,
+        "lng": -86.81138,
+        "pop": 84848
+    },
+    {
+        "name": "Huntsville, AL",
+        "lat": 34.7304,
+        "lng": -86.58594,
+        "pop": 215006
+    },
+    {
+        "name": "Mobile, AL",
+        "lat": 30.69436,
+        "lng": -88.04305,
+        "pop": 183289
+    },
+    {
+        "name": "Montgomery, AL",
+        "lat": 32.36681,
+        "lng": -86.29997,
+        "pop": 195287
+    },
+    {
+        "name": "Tuscaloosa, AL",
+        "lat": 33.20984,
+        "lng": -87.56917,
+        "pop": 111338
+    },
+    {
+        "name": "Conway, AR",
+        "lat": 35.0887,
+        "lng": -92.4421,
+        "pop": 64980
+    },
+    {
+        "name": "Fayetteville, AR",
+        "lat": 36.06258,
+        "lng": -94.15743,
+        "pop": 82830
+    },
+    {
+        "name": "Fort Smith, AR",
+        "lat": 35.38592,
+        "lng": -94.39855,
+        "pop": 88194
+    },
+    {
+        "name": "Jonesboro, AR",
+        "lat": 35.8423,
+        "lng": -90.70428,
+        "pop": 73907
+    },
+    {
+        "name": "Little Rock, AR",
+        "lat": 34.74648,
+        "lng": -92.28959,
+        "pop": 202591
+    },
+    {
+        "name": "North Little Rock, AR",
+        "lat": 34.76954,
+        "lng": -92.26709,
+        "pop": 66504
+    },
+    {
+        "name": "Rogers, AR",
+        "lat": 36.33202,
+        "lng": -94.11854,
+        "pop": 63159
+    },
+    {
+        "name": "Springdale, AR",
+        "lat": 36.18674,
+        "lng": -94.12881,
+        "pop": 77859
+    },
+    {
+        "name": "Washington, DC",
+        "lat": 38.89511,
+        "lng": -77.03637,
+        "pop": 689545
+    },
+    {
+        "name": "Wilmington, DE",
+        "lat": 39.74595,
+        "lng": -75.54659,
+        "pop": 70898
+    },
+    {
+        "name": "Allapattah, FL",
+        "lat": 25.81454,
+        "lng": -80.22394,
+        "pop": 54289
+    },
+    {
+        "name": "Boca Raton, FL",
+        "lat": 26.35869,
+        "lng": -80.0831,
+        "pop": 93235
+    },
+    {
+        "name": "Bonita Springs, FL",
+        "lat": 26.33981,
+        "lng": -81.7787,
+        "pop": 51704
+    },
+    {
+        "name": "Boynton Beach, FL",
+        "lat": 26.52535,
+        "lng": -80.06643,
+        "pop": 73966
+    },
+    {
+        "name": "Bradenton, FL",
+        "lat": 27.49893,
+        "lng": -82.57482,
+        "pop": 54437
+    },
+    {
+        "name": "Brandon, FL",
+        "lat": 27.9378,
+        "lng": -82.28592,
+        "pop": 103483
+    },
+    {
+        "name": "Cape Coral, FL",
+        "lat": 26.56285,
+        "lng": -81.94953,
+        "pop": 175229
+    },
+    {
+        "name": "Carol City, FL",
+        "lat": 25.94065,
+        "lng": -80.2456,
+        "pop": 63031
+    },
+    {
+        "name": "Clearwater, FL",
+        "lat": 27.96585,
+        "lng": -82.8001,
+        "pop": 117292
+    },
+    {
+        "name": "Coconut Creek, FL",
+        "lat": 26.25175,
+        "lng": -80.17894,
+        "pop": 59302
+    },
+    {
+        "name": "Coral Gables, FL",
+        "lat": 25.72149,
+        "lng": -80.26838,
+        "pop": 51117
+    },
+    {
+        "name": "Coral Springs, FL",
+        "lat": 26.27119,
+        "lng": -80.2706,
+        "pop": 129485
+    },
+    {
+        "name": "Davie, FL",
+        "lat": 26.06287,
+        "lng": -80.2331,
+        "pop": 100882
+    },
+    {
+        "name": "Daytona Beach, FL",
+        "lat": 29.21081,
+        "lng": -81.02283,
+        "pop": 72647
+    },
+    {
+        "name": "Deerfield Beach, FL",
+        "lat": 26.31841,
+        "lng": -80.09977,
+        "pop": 79768
+    },
+    {
+        "name": "Delray Beach, FL",
+        "lat": 26.46146,
+        "lng": -80.07282,
+        "pop": 66255
+    },
+    {
+        "name": "Deltona, FL",
+        "lat": 28.90054,
+        "lng": -81.26367,
+        "pop": 88474
+    },
+    {
+        "name": "Doral, FL",
+        "lat": 25.81954,
+        "lng": -80.35533,
+        "pop": 75874
+    },
+    {
+        "name": "East Pensacola Heights, FL",
+        "lat": 30.42881,
+        "lng": -87.17997,
+        "pop": 54104
+    },
+    {
+        "name": "Flagami, FL",
+        "lat": 25.76232,
+        "lng": -80.31616,
+        "pop": 50834
+    },
+    {
+        "name": "Fort Lauderdale, FL",
+        "lat": 26.12231,
+        "lng": -80.14338,
+        "pop": 183146
+    },
+    {
+        "name": "Fort Myers, FL",
+        "lat": 26.62168,
+        "lng": -81.84059,
+        "pop": 74013
+    },
+    {
+        "name": "Fountainebleau, FL",
+        "lat": 25.77288,
+        "lng": -80.34783,
+        "pop": 59764
+    },
+    {
+        "name": "Gainesville, FL",
+        "lat": 29.65163,
+        "lng": -82.32483,
+        "pop": 145214
+    },
+    {
+        "name": "Hialeah, FL",
+        "lat": 25.8576,
+        "lng": -80.27811,
+        "pop": 237069
+    },
+    {
+        "name": "Hollywood, FL",
+        "lat": 26.0112,
+        "lng": -80.14949,
+        "pop": 149728
+    },
+    {
+        "name": "Homestead, FL",
+        "lat": 25.46872,
+        "lng": -80.47756,
+        "pop": 80737
+    },
+    {
+        "name": "Jacksonville, FL",
+        "lat": 30.33218,
+        "lng": -81.65565,
+        "pop": 1009833
+    },
+    {
+        "name": "Jupiter, FL",
+        "lat": 26.93422,
+        "lng": -80.09421,
+        "pop": 62707
+    },
+    {
+        "name": "Kendale Lakes, FL",
+        "lat": 25.70816,
+        "lng": -80.407,
+        "pop": 56148
+    },
+    {
+        "name": "Kendall, FL",
+        "lat": 25.67927,
+        "lng": -80.31727,
+        "pop": 80241
+    },
+    {
+        "name": "Kissimmee, FL",
+        "lat": 28.30468,
+        "lng": -81.41667,
+        "pop": 69152
+    },
+    {
+        "name": "Lakeland, FL",
+        "lat": 28.03947,
+        "lng": -81.9498,
+        "pop": 104401
+    },
+    {
+        "name": "Largo, FL",
+        "lat": 27.90979,
+        "lng": -82.78842,
+        "pop": 81000
+    },
+    {
+        "name": "Lauderhill, FL",
+        "lat": 26.14036,
+        "lng": -80.21338,
+        "pop": 71579
+    },
+    {
+        "name": "Lehigh Acres, FL",
+        "lat": 26.62535,
+        "lng": -81.6248,
+        "pop": 86784
+    },
+    {
+        "name": "Margate, FL",
+        "lat": 26.24453,
+        "lng": -80.20644,
+        "pop": 57234
+    },
+    {
+        "name": "Melbourne, FL",
+        "lat": 28.08363,
+        "lng": -80.60811,
+        "pop": 84678
+    },
+    {
+        "name": "Miami, FL",
+        "lat": 25.77427,
+        "lng": -80.19366,
+        "pop": 487014
+    },
+    {
+        "name": "Miami Beach, FL",
+        "lat": 25.79065,
+        "lng": -80.13005,
+        "pop": 92312
+    },
+    {
+        "name": "Miami Gardens, FL",
+        "lat": 25.94204,
+        "lng": -80.2456,
+        "pop": 113187
+    },
+    {
+        "name": "Miramar, FL",
+        "lat": 25.98731,
+        "lng": -80.23227,
+        "pop": 137132
+    },
+    {
+        "name": "North Miami, FL",
+        "lat": 25.89009,
+        "lng": -80.18671,
+        "pop": 62435
+    },
+    {
+        "name": "North Port, FL",
+        "lat": 27.04422,
+        "lng": -82.23593,
+        "pop": 62345
+    },
+    {
+        "name": "Ocala, FL",
+        "lat": 29.1872,
+        "lng": -82.14009,
+        "pop": 58218
+    },
+    {
+        "name": "Orlando, FL",
+        "lat": 28.53834,
+        "lng": -81.37924,
+        "pop": 334854
+    },
+    {
+        "name": "Palm Bay, FL",
+        "lat": 28.03446,
+        "lng": -80.58866,
+        "pop": 119760
+    },
+    {
+        "name": "Palm Beach Gardens, FL",
+        "lat": 26.82339,
+        "lng": -80.13865,
+        "pop": 52923
+    },
+    {
+        "name": "Palm Coast, FL",
+        "lat": 29.58497,
+        "lng": -81.20784,
+        "pop": 82893
+    },
+    {
+        "name": "Palm Harbor, FL",
+        "lat": 28.07807,
+        "lng": -82.76371,
+        "pop": 57439
+    },
+    {
+        "name": "Pembroke Pines, FL",
+        "lat": 26.00315,
+        "lng": -80.22394,
+        "pop": 166611
+    },
+    {
+        "name": "Pensacola, FL",
+        "lat": 30.42131,
+        "lng": -87.21691,
+        "pop": 53724
+    },
+    {
+        "name": "Pine Hills, FL",
+        "lat": 28.55778,
+        "lng": -81.4534,
+        "pop": 60076
+    },
+    {
+        "name": "Pinellas Park, FL",
+        "lat": 27.8428,
+        "lng": -82.69954,
+        "pop": 51617
+    },
+    {
+        "name": "Plantation, FL",
+        "lat": 26.13421,
+        "lng": -80.23184,
+        "pop": 92560
+    },
+    {
+        "name": "Poinciana, FL",
+        "lat": 28.14029,
+        "lng": -81.45841,
+        "pop": 53193
+    },
+    {
+        "name": "Pompano Beach, FL",
+        "lat": 26.23786,
+        "lng": -80.12477,
+        "pop": 107762
+    },
+    {
+        "name": "Port Charlotte, FL",
+        "lat": 26.97617,
+        "lng": -82.09064,
+        "pop": 54392
+    },
+    {
+        "name": "Port Orange, FL",
+        "lat": 29.13832,
+        "lng": -80.99561,
+        "pop": 59866
+    },
+    {
+        "name": "Port Saint Lucie, FL",
+        "lat": 27.29393,
+        "lng": -80.35033,
+        "pop": 164603
+    },
+    {
+        "name": "Riverview, FL",
+        "lat": 27.86614,
+        "lng": -82.32648,
+        "pop": 71050
+    },
+    {
+        "name": "St. Petersburg, FL",
+        "lat": 27.77086,
+        "lng": -82.67927,
+        "pop": 257083
+    },
+    {
+        "name": "Sanford, FL",
+        "lat": 28.80055,
+        "lng": -81.27312,
+        "pop": 58111
+    },
+    {
+        "name": "Sarasota, FL",
+        "lat": 27.33643,
+        "lng": -82.53065,
+        "pop": 55118
+    },
+    {
+        "name": "Spring Hill, FL",
+        "lat": 28.47688,
+        "lng": -82.52546,
+        "pop": 98621
+    },
+    {
+        "name": "Sunrise, FL",
+        "lat": 26.13397,
+        "lng": -80.1131,
+        "pop": 84439
+    },
+    {
+        "name": "Tallahassee, FL",
+        "lat": 30.43826,
+        "lng": -84.28073,
+        "pop": 201731
+    },
+    {
+        "name": "Tamarac, FL",
+        "lat": 26.21286,
+        "lng": -80.24977,
+        "pop": 64681
+    },
+    {
+        "name": "Tamiami, FL",
+        "lat": 25.75871,
+        "lng": -80.39839,
+        "pop": 55271
+    },
+    {
+        "name": "Tampa, FL",
+        "lat": 27.94752,
+        "lng": -82.45843,
+        "pop": 414547
+    },
+    {
+        "name": "The Hammocks, FL",
+        "lat": 25.67149,
+        "lng": -80.4445,
+        "pop": 51003
+    },
+    {
+        "name": "The Villages, FL",
+        "lat": 28.93408,
+        "lng": -81.95994,
+        "pop": 51442
+    },
+    {
+        "name": "Town 'n' Country, FL",
+        "lat": 28.01057,
+        "lng": -82.57732,
+        "pop": 78442
+    },
+    {
+        "name": "Wellington, FL",
+        "lat": 26.65868,
+        "lng": -80.24144,
+        "pop": 62560
+    },
+    {
+        "name": "West Hollywood, FL",
+        "lat": 26.02065,
+        "lng": -80.18394,
+        "pop": 60806
+    },
+    {
+        "name": "West Palm Beach, FL",
+        "lat": 26.71534,
+        "lng": -80.05337,
+        "pop": 120932
+    },
+    {
+        "name": "Weston, FL",
+        "lat": 26.10037,
+        "lng": -80.39977,
+        "pop": 69959
+    },
+    {
+        "name": "Albany, GA",
+        "lat": 31.57851,
+        "lng": -84.15574,
+        "pop": 74843
+    },
+    {
+        "name": "Alpharetta, GA",
+        "lat": 34.07538,
+        "lng": -84.29409,
+        "pop": 63693
+    },
+    {
+        "name": "Athens, GA",
+        "lat": 33.96095,
+        "lng": -83.37794,
+        "pop": 127315
+    },
+    {
+        "name": "Atlanta, GA",
+        "lat": 33.749,
+        "lng": -84.38798,
+        "pop": 510823
+    },
+    {
+        "name": "Brookhaven, GA",
+        "lat": 33.85844,
+        "lng": -84.3402,
+        "pop": 51910
+    },
+    {
+        "name": "Columbus, GA",
+        "lat": 32.46098,
+        "lng": -84.98771,
+        "pop": 206922
+    },
+    {
+        "name": "Macon, GA",
+        "lat": 32.84069,
+        "lng": -83.6324,
+        "pop": 91351
+    },
+    {
+        "name": "Marietta, GA",
+        "lat": 33.9526,
+        "lng": -84.54993,
+        "pop": 59067
+    },
+    {
+        "name": "Roswell, GA",
+        "lat": 34.02316,
+        "lng": -84.36159,
+        "pop": 94501
+    },
+    {
+        "name": "Sandy Springs, GA",
+        "lat": 33.92427,
+        "lng": -84.37854,
+        "pop": 105330
+    },
+    {
+        "name": "Savannah, GA",
+        "lat": 32.08354,
+        "lng": -81.09983,
+        "pop": 147780
+    },
+    {
+        "name": "Smyrna, GA",
+        "lat": 33.88399,
+        "lng": -84.51438,
+        "pop": 56146
+    },
+    {
+        "name": "Valdosta, GA",
+        "lat": 30.83334,
+        "lng": -83.28032,
+        "pop": 55724
+    },
+    {
+        "name": "Warner Robins, GA",
+        "lat": 32.61574,
+        "lng": -83.62664,
+        "pop": 73490
+    },
+    {
+        "name": "Decatur, IL",
+        "lat": 39.84031,
+        "lng": -88.9548,
+        "pop": 73254
+    },
+    {
+        "name": "Springfield, IL",
+        "lat": 39.80172,
+        "lng": -89.64371,
+        "pop": 114394
+    },
+    {
+        "name": "Bloomington, IN",
+        "lat": 39.16533,
+        "lng": -86.52639,
+        "pop": 84067
+    },
+    {
+        "name": "Carmel, IN",
+        "lat": 39.97837,
+        "lng": -86.11804,
+        "pop": 88713
+    },
+    {
+        "name": "Evansville, IN",
+        "lat": 37.97476,
+        "lng": -87.55585,
+        "pop": 119943
+    },
+    {
+        "name": "Fishers, IN",
+        "lat": 39.95559,
+        "lng": -86.01387,
+        "pop": 76794
+    },
+    {
+        "name": "Greenwood, IN",
+        "lat": 39.61366,
+        "lng": -86.10665,
+        "pop": 55586
+    },
+    {
+        "name": "Indianapolis, IN",
+        "lat": 39.76838,
+        "lng": -86.15804,
+        "pop": 887642
+    },
+    {
+        "name": "Terre Haute, IN",
+        "lat": 39.4667,
+        "lng": -87.41391,
+        "pop": 60825
+    },
+    {
+        "name": "Kansas City, KS",
+        "lat": 39.11417,
+        "lng": -94.62746,
+        "pop": 152933
+    },
+    {
+        "name": "Lawrence, KS",
+        "lat": 38.97167,
+        "lng": -95.23525,
+        "pop": 93917
+    },
+    {
+        "name": "Lenexa, KS",
+        "lat": 38.95362,
+        "lng": -94.73357,
+        "pop": 52490
+    },
+    {
+        "name": "Manhattan, KS",
+        "lat": 39.18361,
+        "lng": -96.57167,
+        "pop": 56308
+    },
+    {
+        "name": "Olathe, KS",
+        "lat": 38.8814,
+        "lng": -94.81913,
+        "pop": 134305
+    },
+    {
+        "name": "Overland Park, KS",
+        "lat": 38.98223,
+        "lng": -94.67079,
+        "pop": 186515
+    },
+    {
+        "name": "Shawnee, KS",
+        "lat": 39.04167,
+        "lng": -94.72024,
+        "pop": 65046
+    },
+    {
+        "name": "Topeka, KS",
+        "lat": 39.04833,
+        "lng": -95.67804,
+        "pop": 125963
+    },
+    {
+        "name": "Wichita, KS",
+        "lat": 37.69224,
+        "lng": -97.33754,
+        "pop": 396119
+    },
+    {
+        "name": "Bowling Green, KY",
+        "lat": 36.99032,
+        "lng": -86.4436,
+        "pop": 63616
+    },
+    {
+        "name": "Lexington, KY",
+        "lat": 37.98869,
+        "lng": -84.47772,
+        "pop": 320347
+    },
+    {
+        "name": "Lexington-Fayette, KY",
+        "lat": 38.0498,
+        "lng": -84.45855,
+        "pop": 314488
+    },
+    {
+        "name": "Louisville, KY",
+        "lat": 38.25424,
+        "lng": -85.75941,
+        "pop": 624444
+    },
+    {
+        "name": "Meads, KY",
+        "lat": 38.41258,
+        "lng": -82.70905,
+        "pop": 288649
+    },
+    {
+        "name": "Owensboro, KY",
+        "lat": 37.77422,
+        "lng": -87.11333,
+        "pop": 59042
+    },
+    {
+        "name": "Baton Rouge, LA",
+        "lat": 30.44332,
+        "lng": -91.18747,
+        "pop": 227470
+    },
+    {
+        "name": "Bossier City, LA",
+        "lat": 32.51599,
+        "lng": -93.73212,
+        "pop": 68094
+    },
+    {
+        "name": "Kenner, LA",
+        "lat": 29.99409,
+        "lng": -90.24174,
+        "pop": 67091
+    },
+    {
+        "name": "Lafayette, LA",
+        "lat": 30.22409,
+        "lng": -92.01984,
+        "pop": 121374
+    },
+    {
+        "name": "Lake Charles, LA",
+        "lat": 30.21309,
+        "lng": -93.2044,
+        "pop": 76070
+    },
+    {
+        "name": "Metairie, LA",
+        "lat": 29.98409,
+        "lng": -90.15285,
+        "pop": 138481
+    },
+    {
+        "name": "Metairie Terrace, LA",
+        "lat": 29.97854,
+        "lng": -90.16396,
+        "pop": 142489
+    },
+    {
+        "name": "New Orleans, LA",
+        "lat": 29.95465,
+        "lng": -90.07507,
+        "pop": 362701
+    },
+    {
+        "name": "Shreveport, LA",
+        "lat": 32.52515,
+        "lng": -93.75018,
+        "pop": 187593
+    },
+    {
+        "name": "Baltimore, MD",
+        "lat": 39.29038,
+        "lng": -76.61219,
+        "pop": 585708
+    },
+    {
+        "name": "Bethesda, MD",
+        "lat": 38.98067,
+        "lng": -77.10026,
+        "pop": 60858
+    },
+    {
+        "name": "Bowie, MD",
+        "lat": 38.94278,
+        "lng": -76.73028,
+        "pop": 58025
+    },
+    {
+        "name": "Columbia, MD",
+        "lat": 39.24038,
+        "lng": -76.83942,
+        "pop": 99615
+    },
+    {
+        "name": "Dundalk, MD",
+        "lat": 39.25066,
+        "lng": -76.52052,
+        "pop": 63597
+    },
+    {
+        "name": "Ellicott City, MD",
+        "lat": 39.26733,
+        "lng": -76.79831,
+        "pop": 65834
+    },
+    {
+        "name": "Frederick, MD",
+        "lat": 39.41427,
+        "lng": -77.41054,
+        "pop": 69479
+    },
+    {
+        "name": "Gaithersburg, MD",
+        "lat": 39.14344,
+        "lng": -77.20137,
+        "pop": 67456
+    },
+    {
+        "name": "Germantown, MD",
+        "lat": 39.17316,
+        "lng": -77.27165,
+        "pop": 86395
+    },
+    {
+        "name": "Glen Burnie, MD",
+        "lat": 39.16261,
+        "lng": -76.62469,
+        "pop": 67639
+    },
+    {
+        "name": "Rockville, MD",
+        "lat": 39.084,
+        "lng": -77.15276,
+        "pop": 66980
+    },
+    {
+        "name": "Silver Spring, MD",
+        "lat": 38.99067,
+        "lng": -77.02609,
+        "pop": 71452
+    },
+    {
+        "name": "Towson, MD",
+        "lat": 39.4015,
+        "lng": -76.60191,
+        "pop": 55197
+    },
+    {
+        "name": "Waldorf, MD",
+        "lat": 38.62456,
+        "lng": -76.93914,
+        "pop": 67752
+    },
+    {
+        "name": "Blue Springs, MO",
+        "lat": 39.01695,
+        "lng": -94.28161,
+        "pop": 54148
+    },
+    {
+        "name": "Columbia, MO",
+        "lat": 38.95171,
+        "lng": -92.33407,
+        "pop": 129330
+    },
+    {
+        "name": "East Independence, MO",
+        "lat": 39.09556,
+        "lng": -94.35523,
+        "pop": 110675
+    },
+    {
+        "name": "Florissant, MO",
+        "lat": 38.78922,
+        "lng": -90.32261,
+        "pop": 52268
+    },
+    {
+        "name": "Independence, MO",
+        "lat": 39.09112,
+        "lng": -94.41551,
+        "pop": 117255
+    },
+    {
+        "name": "Joplin, MO",
+        "lat": 37.08423,
+        "lng": -94.51328,
+        "pop": 51818
+    },
+    {
+        "name": "Kansas City, MO",
+        "lat": 39.09973,
+        "lng": -94.57857,
+        "pop": 475378
+    },
+    {
+        "name": "Lee's Summit, MO",
+        "lat": 38.91084,
+        "lng": -94.38217,
+        "pop": 95094
+    },
+    {
+        "name": "O'Fallon, MO",
+        "lat": 38.81061,
+        "lng": -90.69985,
+        "pop": 85040
+    },
+    {
+        "name": "Saint Charles, MO",
+        "lat": 38.78394,
+        "lng": -90.48123,
+        "pop": 65794
+    },
+    {
+        "name": "Saint Joseph, MO",
+        "lat": 39.76861,
+        "lng": -94.84663,
+        "pop": 76780
+    },
+    {
+        "name": "St. Louis, MO",
+        "lat": 38.62727,
+        "lng": -90.19789,
+        "pop": 279695
+    },
+    {
+        "name": "Saint Peters, MO",
+        "lat": 38.80033,
+        "lng": -90.62651,
+        "pop": 52575
+    },
+    {
+        "name": "Springfield, MO",
+        "lat": 37.21533,
+        "lng": -93.29824,
+        "pop": 170188
+    },
+    {
+        "name": "Gulfport, MS",
+        "lat": 30.36742,
+        "lng": -89.09282,
+        "pop": 71856
+    },
+    {
+        "name": "Jackson, MS",
+        "lat": 32.29876,
+        "lng": -90.18481,
+        "pop": 153701
+    },
+    {
+        "name": "Southaven, MS",
+        "lat": 34.98898,
+        "lng": -90.01259,
+        "pop": 52589
+    },
+    {
+        "name": "West Gulfport, MS",
+        "lat": 30.40409,
+        "lng": -89.0942,
+        "pop": 71329
+    },
+    {
+        "name": "Asheville, NC",
+        "lat": 35.60095,
+        "lng": -82.55402,
+        "pop": 95056
+    },
+    {
+        "name": "Burlington, NC",
+        "lat": 36.09569,
+        "lng": -79.4378,
+        "pop": 52472
+    },
+    {
+        "name": "Cary, NC",
+        "lat": 35.79154,
+        "lng": -78.78112,
+        "pop": 159769
+    },
+    {
+        "name": "Chapel Hill, NC",
+        "lat": 35.9132,
+        "lng": -79.05584,
+        "pop": 59568
+    },
+    {
+        "name": "Charlotte, NC",
+        "lat": 35.22709,
+        "lng": -80.84313,
+        "pop": 911311
+    },
+    {
+        "name": "Concord, NC",
+        "lat": 35.40888,
+        "lng": -80.58158,
+        "pop": 87696
+    },
+    {
+        "name": "Durham, NC",
+        "lat": 35.99403,
+        "lng": -78.89862,
+        "pop": 257636
+    },
+    {
+        "name": "Fayetteville, NC",
+        "lat": 35.05266,
+        "lng": -78.87836,
+        "pop": 201963
+    },
+    {
+        "name": "Gastonia, NC",
+        "lat": 35.26208,
+        "lng": -81.1873,
+        "pop": 74543
+    },
+    {
+        "name": "Greensboro, NC",
+        "lat": 36.07264,
+        "lng": -79.79198,
+        "pop": 285342
+    },
+    {
+        "name": "Greenville, NC",
+        "lat": 35.61266,
+        "lng": -77.36635,
+        "pop": 90597
+    },
+    {
+        "name": "High Point, NC",
+        "lat": 35.95569,
+        "lng": -80.00532,
+        "pop": 110268
+    },
+    {
+        "name": "Huntersville, NC",
+        "lat": 35.41069,
+        "lng": -80.84285,
+        "pop": 52704
+    },
+    {
+        "name": "Jacksonville, NC",
+        "lat": 34.75405,
+        "lng": -77.43024,
+        "pop": 67357
+    },
+    {
+        "name": "Raleigh, NC",
+        "lat": 35.7721,
+        "lng": -78.63861,
+        "pop": 482295
+    },
+    {
+        "name": "Rocky Mount, NC",
+        "lat": 35.93821,
+        "lng": -77.79053,
+        "pop": 55806
+    },
+    {
+        "name": "West Raleigh, NC",
+        "lat": 35.78682,
+        "lng": -78.66389,
+        "pop": 338759
+    },
+    {
+        "name": "Wilmington, NC",
+        "lat": 34.23556,
+        "lng": -77.94604,
+        "pop": 115933
+    },
+    {
+        "name": "Winston-Salem, NC",
+        "lat": 36.09986,
+        "lng": -80.24422,
+        "pop": 241218
+    },
+    {
+        "name": "Camden, NJ",
+        "lat": 39.92595,
+        "lng": -75.11962,
+        "pop": 76119
+    },
+    {
+        "name": "Cherry Hill, NJ",
+        "lat": 39.93484,
+        "lng": -75.03073,
+        "pop": 70475
+    },
+    {
+        "name": "Jackson, NJ",
+        "lat": 39.7765,
+        "lng": -74.86238,
+        "pop": 54856
+    },
+    {
+        "name": "South Vineland, NJ",
+        "lat": 39.44595,
+        "lng": -75.02879,
+        "pop": 58122
+    },
+    {
+        "name": "Toms River, NJ",
+        "lat": 39.95373,
+        "lng": -74.19792,
+        "pop": 88791
+    },
+    {
+        "name": "Vineland, NJ",
+        "lat": 39.48623,
+        "lng": -75.02573,
+        "pop": 60818
+    },
+    {
+        "name": "Cincinnati, OH",
+        "lat": 39.12711,
+        "lng": -84.51439,
+        "pop": 311097
+    },
+    {
+        "name": "Columbus, OH",
+        "lat": 39.96118,
+        "lng": -82.99879,
+        "pop": 913175
+    },
+    {
+        "name": "Dayton, OH",
+        "lat": 39.75895,
+        "lng": -84.19161,
+        "pop": 135512
+    },
+    {
+        "name": "Hamilton, OH",
+        "lat": 39.3995,
+        "lng": -84.56134,
+        "pop": 62407
+    },
+    {
+        "name": "Kettering, OH",
+        "lat": 39.6895,
+        "lng": -84.16883,
+        "pop": 55525
+    },
+    {
+        "name": "Springfield, OH",
+        "lat": 39.92423,
+        "lng": -83.80882,
+        "pop": 59680
+    },
+    {
+        "name": "Broken Arrow, OK",
+        "lat": 36.0526,
+        "lng": -95.79082,
+        "pop": 106563
+    },
+    {
+        "name": "Edmond, OK",
+        "lat": 35.65283,
+        "lng": -97.4781,
+        "pop": 90092
+    },
+    {
+        "name": "Enid, OK",
+        "lat": 36.39559,
+        "lng": -97.87839,
+        "pop": 51776
+    },
+    {
+        "name": "Lawton, OK",
+        "lat": 34.60869,
+        "lng": -98.39033,
+        "pop": 96655
+    },
+    {
+        "name": "Midwest City, OK",
+        "lat": 35.44951,
+        "lng": -97.3967,
+        "pop": 57249
+    },
+    {
+        "name": "Moore, OK",
+        "lat": 35.33951,
+        "lng": -97.4867,
+        "pop": 60451
+    },
+    {
+        "name": "Norman, OK",
+        "lat": 35.22257,
+        "lng": -97.43948,
+        "pop": 128026
+    },
+    {
+        "name": "Oklahoma City, OK",
+        "lat": 35.46756,
+        "lng": -97.51643,
+        "pop": 681054
+    },
+    {
+        "name": "Tulsa, OK",
+        "lat": 36.15398,
+        "lng": -95.99277,
+        "pop": 413066
+    },
+    {
+        "name": "Havertown, PA",
+        "lat": 39.98095,
+        "lng": -75.30852,
+        "pop": 50430
+    },
+    {
+        "name": "Philadelphia, PA",
+        "lat": 39.95238,
+        "lng": -75.16362,
+        "pop": 1573916
+    },
+    {
+        "name": "Charleston, SC",
+        "lat": 32.77632,
+        "lng": -79.93275,
+        "pop": 132609
+    },
+    {
+        "name": "Columbia, SC",
+        "lat": 34.00071,
+        "lng": -81.03481,
+        "pop": 142416
+    },
+    {
+        "name": "Greenville, SC",
+        "lat": 34.85262,
+        "lng": -82.39401,
+        "pop": 64579
+    },
+    {
+        "name": "Mount Pleasant, SC",
+        "lat": 32.79407,
+        "lng": -79.86259,
+        "pop": 81317
+    },
+    {
+        "name": "North Charleston, SC",
+        "lat": 32.85462,
+        "lng": -79.97481,
+        "pop": 108304
+    },
+    {
+        "name": "Rock Hill, SC",
+        "lat": 34.92487,
+        "lng": -81.02508,
+        "pop": 71548
+    },
+    {
+        "name": "Bartlett, TN",
+        "lat": 35.20453,
+        "lng": -89.87398,
+        "pop": 58579
+    },
+    {
+        "name": "Chattanooga, TN",
+        "lat": 35.04563,
+        "lng": -85.30968,
+        "pop": 181099
+    },
+    {
+        "name": "Clarksville, TN",
+        "lat": 36.52977,
+        "lng": -87.35945,
+        "pop": 166722
+    },
+    {
+        "name": "East Chattanooga, TN",
+        "lat": 35.06535,
+        "lng": -85.24912,
+        "pop": 154024
+    },
+    {
+        "name": "Franklin, TN",
+        "lat": 35.92506,
+        "lng": -86.86889,
+        "pop": 72639
+    },
+    {
+        "name": "Hendersonville, TN",
+        "lat": 36.30477,
+        "lng": -86.62,
+        "pop": 56018
+    },
+    {
+        "name": "Jackson, TN",
+        "lat": 35.61452,
+        "lng": -88.81395,
+        "pop": 66975
+    },
+    {
+        "name": "Johnson City, TN",
+        "lat": 36.31344,
+        "lng": -82.35347,
+        "pop": 66027
+    },
+    {
+        "name": "Kingsport, TN",
+        "lat": 36.54843,
+        "lng": -82.56182,
+        "pop": 53014
+    },
+    {
+        "name": "Knoxville, TN",
+        "lat": 35.96064,
+        "lng": -83.92074,
+        "pop": 190740
+    },
+    {
+        "name": "Memphis, TN",
+        "lat": 35.14953,
+        "lng": -90.04898,
+        "pop": 633104
+    },
+    {
+        "name": "Murfreesboro, TN",
+        "lat": 35.84562,
+        "lng": -86.39027,
+        "pop": 165430
+    },
+    {
+        "name": "Nashville, TN",
+        "lat": 36.16589,
+        "lng": -86.78444,
+        "pop": 689447
+    },
+    {
+        "name": "New South Memphis, TN",
+        "lat": 35.08676,
+        "lng": -90.05676,
+        "pop": 641608
+    },
+    {
+        "name": "Abilene, TX",
+        "lat": 32.44874,
+        "lng": -99.73314,
+        "pop": 125182
+    },
+    {
+        "name": "Alief, TX",
+        "lat": 29.71106,
+        "lng": -95.59633,
+        "pop": 98725
+    },
+    {
+        "name": "Allen, TX",
+        "lat": 33.10317,
+        "lng": -96.67055,
+        "pop": 98143
+    },
+    {
+        "name": "Arlington, TX",
+        "lat": 32.73569,
+        "lng": -97.10807,
+        "pop": 388125
+    },
+    {
+        "name": "Atascocita, TX",
+        "lat": 29.99883,
+        "lng": -95.1766,
+        "pop": 65844
+    },
+    {
+        "name": "Austin, TX",
+        "lat": 30.26715,
+        "lng": -97.74306,
+        "pop": 974447
+    },
+    {
+        "name": "Baytown, TX",
+        "lat": 29.7355,
+        "lng": -94.97743,
+        "pop": 76335
+    },
+    {
+        "name": "Beaumont, TX",
+        "lat": 30.08605,
+        "lng": -94.10185,
+        "pop": 115282
+    },
+    {
+        "name": "Brownsville, TX",
+        "lat": 25.90175,
+        "lng": -97.49748,
+        "pop": 186738
+    },
+    {
+        "name": "Bryan, TX",
+        "lat": 30.67436,
+        "lng": -96.36996,
+        "pop": 82118
+    },
+    {
+        "name": "Carrollton, TX",
+        "lat": 32.95373,
+        "lng": -96.89028,
+        "pop": 133168
+    },
+    {
+        "name": "Cedar Park, TX",
+        "lat": 30.5052,
+        "lng": -97.82029,
+        "pop": 65945
+    },
+    {
+        "name": "College Station, TX",
+        "lat": 30.62798,
+        "lng": -96.33441,
+        "pop": 107889
+    },
+    {
+        "name": "Conroe, TX",
+        "lat": 30.31188,
+        "lng": -95.45605,
+        "pop": 68602
+    },
+    {
+        "name": "Corpus Christi, TX",
+        "lat": 27.80058,
+        "lng": -97.39638,
+        "pop": 316239
+    },
+    {
+        "name": "Cypress, TX",
+        "lat": 29.96911,
+        "lng": -95.69717,
+        "pop": 200839
+    },
+    {
+        "name": "Dallas, TX",
+        "lat": 32.78306,
+        "lng": -96.80667,
+        "pop": 1326087
+    },
+    {
+        "name": "DeSoto, TX",
+        "lat": 32.58986,
+        "lng": -96.85695,
+        "pop": 52486
+    },
+    {
+        "name": "Denton, TX",
+        "lat": 33.21484,
+        "lng": -97.13307,
+        "pop": 131044
+    },
+    {
+        "name": "Edinburg, TX",
+        "lat": 26.30174,
+        "lng": -98.16334,
+        "pop": 84497
+    },
+    {
+        "name": "Euless, TX",
+        "lat": 32.83707,
+        "lng": -97.08195,
+        "pop": 54219
+    },
+    {
+        "name": "Flower Mound, TX",
+        "lat": 33.01457,
+        "lng": -97.09696,
+        "pop": 71253
+    },
+    {
+        "name": "Fort Worth, TX",
+        "lat": 32.72541,
+        "lng": -97.32085,
+        "pop": 1008106
+    },
+    {
+        "name": "Frisco, TX",
+        "lat": 33.15067,
+        "lng": -96.82361,
+        "pop": 154407
+    },
+    {
+        "name": "Galveston, TX",
+        "lat": 29.30135,
+        "lng": -94.7977,
+        "pop": 50180
+    },
+    {
+        "name": "Garland, TX",
+        "lat": 32.91262,
+        "lng": -96.63888,
+        "pop": 236897
+    },
+    {
+        "name": "Georgetown, TX",
+        "lat": 30.63269,
+        "lng": -97.67723,
+        "pop": 63716
+    },
+    {
+        "name": "Grand Prairie, TX",
+        "lat": 32.74596,
+        "lng": -96.99778,
+        "pop": 187809
+    },
+    {
+        "name": "Grapevine, TX",
+        "lat": 32.93429,
+        "lng": -97.07807,
+        "pop": 51404
+    },
+    {
+        "name": "Harlingen, TX",
+        "lat": 26.19063,
+        "lng": -97.6961,
+        "pop": 65774
+    },
+    {
+        "name": "Houston, TX",
+        "lat": 29.76328,
+        "lng": -95.36327,
+        "pop": 2314157
+    },
+    {
+        "name": "Irving, TX",
+        "lat": 32.81402,
+        "lng": -96.94889,
+        "pop": 236607
+    },
+    {
+        "name": "Killeen, TX",
+        "lat": 31.11712,
+        "lng": -97.7278,
+        "pop": 140806
+    },
+    {
+        "name": "Laredo, TX",
+        "lat": 27.50641,
+        "lng": -99.50754,
+        "pop": 256153
+    },
+    {
+        "name": "League City, TX",
+        "lat": 29.50745,
+        "lng": -95.09493,
+        "pop": 98312
+    },
+    {
+        "name": "Leander, TX",
+        "lat": 30.57881,
+        "lng": -97.85307,
+        "pop": 59202
+    },
+    {
+        "name": "Lewisville, TX",
+        "lat": 33.04623,
+        "lng": -96.99417,
+        "pop": 104039
+    },
+    {
+        "name": "Longview, TX",
+        "lat": 32.5007,
+        "lng": -94.74049,
+        "pop": 82287
+    },
+    {
+        "name": "Mansfield, TX",
+        "lat": 32.56319,
+        "lng": -97.14168,
+        "pop": 64274
+    },
+    {
+        "name": "McAllen, TX",
+        "lat": 26.20341,
+        "lng": -98.23001,
+        "pop": 140269
+    },
+    {
+        "name": "McKinney, TX",
+        "lat": 33.19762,
+        "lng": -96.61527,
+        "pop": 162898
+    },
+    {
+        "name": "Mesquite, TX",
+        "lat": 32.7668,
+        "lng": -96.59916,
+        "pop": 144788
+    },
+    {
+        "name": "Mission, TX",
+        "lat": 26.21591,
+        "lng": -98.32529,
+        "pop": 83298
+    },
+    {
+        "name": "Missouri City, TX",
+        "lat": 29.61857,
+        "lng": -95.53772,
+        "pop": 74139
+    },
+    {
+        "name": "New Braunfels, TX",
+        "lat": 29.703,
+        "lng": -98.12445,
+        "pop": 70543
+    },
+    {
+        "name": "North Richland Hills, TX",
+        "lat": 32.8343,
+        "lng": -97.2289,
+        "pop": 69204
+    },
+    {
+        "name": "Pasadena, TX",
+        "lat": 29.69106,
+        "lng": -95.2091,
+        "pop": 153784
+    },
+    {
+        "name": "Pearland, TX",
+        "lat": 29.56357,
+        "lng": -95.28605,
+        "pop": 108821
+    },
+    {
+        "name": "Pflugerville, TX",
+        "lat": 30.43937,
+        "lng": -97.62,
+        "pop": 57122
+    },
+    {
+        "name": "Pharr, TX",
+        "lat": 26.1948,
+        "lng": -98.18362,
+        "pop": 76538
+    },
+    {
+        "name": "Plano, TX",
+        "lat": 33.01984,
+        "lng": -96.69889,
+        "pop": 283558
+    },
+    {
+        "name": "Port Arthur, TX",
+        "lat": 29.88519,
+        "lng": -93.94233,
+        "pop": 55340
+    },
+    {
+        "name": "Richardson, TX",
+        "lat": 32.94818,
+        "lng": -96.72972,
+        "pop": 110815
+    },
+    {
+        "name": "Round Rock, TX",
+        "lat": 30.50826,
+        "lng": -97.6789,
+        "pop": 115997
+    },
+    {
+        "name": "Rowlett, TX",
+        "lat": 32.9029,
+        "lng": -96.56388,
+        "pop": 60236
+    },
+    {
+        "name": "San Antonio, TX",
+        "lat": 29.42412,
+        "lng": -98.49363,
+        "pop": 1526656
+    },
+    {
+        "name": "San Marcos, TX",
+        "lat": 29.88327,
+        "lng": -97.94139,
+        "pop": 60684
+    },
+    {
+        "name": "Spring, TX",
+        "lat": 30.07994,
+        "lng": -95.41716,
+        "pop": 54298
+    },
+    {
+        "name": "Sugar Land, TX",
+        "lat": 29.61968,
+        "lng": -95.63495,
+        "pop": 88156
+    },
+    {
+        "name": "Temple, TX",
+        "lat": 31.09823,
+        "lng": -97.34278,
+        "pop": 72277
+    },
+    {
+        "name": "The Woodlands, TX",
+        "lat": 30.15799,
+        "lng": -95.48938,
+        "pop": 93847
+    },
+    {
+        "name": "Tyler, TX",
+        "lat": 32.35126,
+        "lng": -95.30106,
+        "pop": 103700
+    },
+    {
+        "name": "University of Texas, TX",
+        "lat": 30.28604,
+        "lng": -97.73889,
+        "pop": 53082
+    },
+    {
+        "name": "Victoria, TX",
+        "lat": 28.80527,
+        "lng": -97.0036,
+        "pop": 67574
+    },
+    {
+        "name": "Waco, TX",
+        "lat": 31.54933,
+        "lng": -97.14667,
+        "pop": 132356
+    },
+    {
+        "name": "Wichita Falls, TX",
+        "lat": 33.91371,
+        "lng": -98.49339,
+        "pop": 104710
+    },
+    {
+        "name": "Alexandria, VA",
+        "lat": 38.80484,
+        "lng": -77.04692,
+        "pop": 159467
+    },
+    {
+        "name": "Arlington, VA",
+        "lat": 38.88101,
+        "lng": -77.10428,
+        "pop": 207627
+    },
+    {
+        "name": "Centreville, VA",
+        "lat": 38.84039,
+        "lng": -77.42888,
+        "pop": 71135
+    },
+    {
+        "name": "Chesapeake, VA",
+        "lat": 36.81904,
+        "lng": -76.27494,
+        "pop": 235429
+    },
+    {
+        "name": "Dale City, VA",
+        "lat": 38.63706,
+        "lng": -77.31109,
+        "pop": 65969
+    },
+    {
+        "name": "East Hampton, VA",
+        "lat": 37.03737,
+        "lng": -76.33161,
+        "pop": 147993
+    },
+    {
+        "name": "Hampton, VA",
+        "lat": 37.02987,
+        "lng": -76.34522,
+        "pop": 137148
+    },
+    {
+        "name": "Harrisonburg, VA",
+        "lat": 38.44957,
+        "lng": -78.86892,
+        "pop": 52538
+    },
+    {
+        "name": "Leesburg, VA",
+        "lat": 39.11566,
+        "lng": -77.5636,
+        "pop": 51209
+    },
+    {
+        "name": "Lynchburg, VA",
+        "lat": 37.41375,
+        "lng": -79.14225,
+        "pop": 79812
+    },
+    {
+        "name": "Newport News, VA",
+        "lat": 36.98038,
+        "lng": -76.42975,
+        "pop": 186247
+    },
+    {
+        "name": "Norfolk, VA",
+        "lat": 36.84681,
+        "lng": -76.28522,
+        "pop": 238005
+    },
+    {
+        "name": "Portsmouth, VA",
+        "lat": 36.83543,
+        "lng": -76.29827,
+        "pop": 96201
+    },
+    {
+        "name": "Portsmouth Heights, VA",
+        "lat": 36.82098,
+        "lng": -76.36883,
+        "pop": 99049
+    },
+    {
+        "name": "Reston, VA",
+        "lat": 38.96872,
+        "lng": -77.3411,
+        "pop": 58404
+    },
+    {
+        "name": "Richmond, VA",
+        "lat": 37.55376,
+        "lng": -77.46026,
+        "pop": 226610
+    },
+    {
+        "name": "Roanoke, VA",
+        "lat": 37.27097,
+        "lng": -79.94143,
+        "pop": 100011
+    },
+    {
+        "name": "South Suffolk, VA",
+        "lat": 36.71709,
+        "lng": -76.59023,
+        "pop": 80690
+    },
+    {
+        "name": "Suffolk, VA",
+        "lat": 36.72836,
+        "lng": -76.58496,
+        "pop": 88161
+    },
+    {
+        "name": "Virginia Beach, VA",
+        "lat": 36.85293,
+        "lng": -75.97799,
+        "pop": 454808
+    },
+    {
+        "name": "West Lynchburg, VA",
+        "lat": 37.4032,
+        "lng": -79.17808,
+        "pop": 65517
+    },
+    {
+        "name": "Auburn, AL",
+        "lat": 32.60986,
+        "lng": -85.48078,
+        "pop": 62059
+    },
+    {
+        "name": "Revere, MA",
+        "lat": 42.40843,
+        "lng": -71.01199,
+        "pop": 53422
+    },
+    {
+        "name": "Danbury, CT",
+        "lat": 41.39482,
+        "lng": -73.45401,
+        "pop": 84657
+    },
+    {
+        "name": "East Hartford, CT",
+        "lat": 41.78232,
+        "lng": -72.61203,
+        "pop": 51252
+    },
+    {
+        "name": "East Norwalk, CT",
+        "lat": 41.10565,
+        "lng": -73.39845,
+        "pop": 84530
+    },
+    {
+        "name": "Fairfield, CT",
+        "lat": 41.14121,
+        "lng": -73.26373,
+        "pop": 59052
+    },
+    {
+        "name": "Hamden, CT",
+        "lat": 41.39593,
+        "lng": -72.89677,
+        "pop": 59847
+    },
+    {
+        "name": "Hartford, CT",
+        "lat": 41.76371,
+        "lng": -72.68509,
+        "pop": 121054
+    },
+    {
+        "name": "Meriden, CT",
+        "lat": 41.53815,
+        "lng": -72.80704,
+        "pop": 59988
+    },
+    {
+        "name": "Milford, CT",
+        "lat": 41.22232,
+        "lng": -73.0565,
+        "pop": 52759
+    },
+    {
+        "name": "New Britain, CT",
+        "lat": 41.66121,
+        "lng": -72.77954,
+        "pop": 72808
+    },
+    {
+        "name": "New Haven, CT",
+        "lat": 41.30815,
+        "lng": -72.92816,
+        "pop": 130322
+    },
+    {
+        "name": "North Stamford, CT",
+        "lat": 41.13815,
+        "lng": -73.54346,
+        "pop": 121230
+    },
+    {
+        "name": "Norwalk, CT",
+        "lat": 41.1176,
+        "lng": -73.4079,
+        "pop": 88485
+    },
+    {
+        "name": "Stamford, CT",
+        "lat": 41.05343,
+        "lng": -73.53873,
+        "pop": 128874
+    },
+    {
+        "name": "Stratford, CT",
+        "lat": 41.18454,
+        "lng": -73.13317,
+        "pop": 51384
+    },
+    {
+        "name": "Waterbury, CT",
+        "lat": 41.55815,
+        "lng": -73.0515,
+        "pop": 108802
+    },
+    {
+        "name": "West Hartford, CT",
+        "lat": 41.76204,
+        "lng": -72.74204,
+        "pop": 63268
+    },
+    {
+        "name": "West Haven, CT",
+        "lat": 41.27065,
+        "lng": -72.94705,
+        "pop": 54927
+    },
+    {
+        "name": "Ames, IA",
+        "lat": 42.03471,
+        "lng": -93.61994,
+        "pop": 65060
+    },
+    {
+        "name": "Ankeny, IA",
+        "lat": 41.72971,
+        "lng": -93.60577,
+        "pop": 56764
+    },
+    {
+        "name": "Cedar Rapids, IA",
+        "lat": 42.00833,
+        "lng": -91.64407,
+        "pop": 130405
+    },
+    {
+        "name": "Council Bluffs, IA",
+        "lat": 41.26194,
+        "lng": -95.86083,
+        "pop": 62597
+    },
+    {
+        "name": "Davenport, IA",
+        "lat": 41.52364,
+        "lng": -90.57764,
+        "pop": 102582
+    },
+    {
+        "name": "Des Moines, IA",
+        "lat": 41.60054,
+        "lng": -93.60911,
+        "pop": 214133
+    },
+    {
+        "name": "Dubuque, IA",
+        "lat": 42.50056,
+        "lng": -90.66457,
+        "pop": 58799
+    },
+    {
+        "name": "Iowa City, IA",
+        "lat": 41.66113,
+        "lng": -91.53017,
+        "pop": 74220
+    },
+    {
+        "name": "Sioux City, IA",
+        "lat": 42.49999,
+        "lng": -96.40031,
+        "pop": 82821
+    },
+    {
+        "name": "Waterloo, IA",
+        "lat": 42.49276,
+        "lng": -92.34296,
+        "pop": 68460
+    },
+    {
+        "name": "West Des Moines, IA",
+        "lat": 41.57721,
+        "lng": -93.71133,
+        "pop": 64113
+    },
+    {
+        "name": "Albany Park, IL",
+        "lat": 41.96836,
+        "lng": -87.72339,
+        "pop": 52079
+    },
+    {
+        "name": "Arlington Heights, IL",
+        "lat": 42.08836,
+        "lng": -87.98063,
+        "pop": 75926
+    },
+    {
+        "name": "Aurora, IL",
+        "lat": 41.76058,
+        "lng": -88.32007,
+        "pop": 200661
+    },
+    {
+        "name": "Belmont Cragin, IL",
+        "lat": 41.9317,
+        "lng": -87.76867,
+        "pop": 79159
+    },
+    {
+        "name": "Berwyn, IL",
+        "lat": 41.85059,
+        "lng": -87.79367,
+        "pop": 56368
+    },
+    {
+        "name": "Bloomington, IL",
+        "lat": 40.4842,
+        "lng": -88.99369,
+        "pop": 78292
+    },
+    {
+        "name": "Bolingbrook, IL",
+        "lat": 41.69864,
+        "lng": -88.0684,
+        "pop": 74306
+    },
+    {
+        "name": "Champaign, IL",
+        "lat": 40.11642,
+        "lng": -88.24338,
+        "pop": 86096
+    },
+    {
+        "name": "Chicago, IL",
+        "lat": 41.85003,
+        "lng": -87.65005,
+        "pop": 2664452
+    },
+    {
+        "name": "Chicago Lawn, IL",
+        "lat": 41.77503,
+        "lng": -87.69644,
+        "pop": 55551
+    },
+    {
+        "name": "Cicero, IL",
+        "lat": 41.84559,
+        "lng": -87.75394,
+        "pop": 83886
+    },
+    {
+        "name": "Des Plaines, IL",
+        "lat": 42.03336,
+        "lng": -87.8834,
+        "pop": 58677
+    },
+    {
+        "name": "Edgewater, IL",
+        "lat": 41.98337,
+        "lng": -87.66395,
+        "pop": 54873
+    },
+    {
+        "name": "Elgin, IL",
+        "lat": 42.03725,
+        "lng": -88.28119,
+        "pop": 112111
+    },
+    {
+        "name": "Evanston, IL",
+        "lat": 42.04114,
+        "lng": -87.69006,
+        "pop": 75527
+    },
+    {
+        "name": "Hoffman Estates, IL",
+        "lat": 42.04281,
+        "lng": -88.0798,
+        "pop": 52138
+    },
+    {
+        "name": "Irving Park, IL",
+        "lat": 41.95336,
+        "lng": -87.73645,
+        "pop": 56520
+    },
+    {
+        "name": "Joliet, IL",
+        "lat": 41.52519,
+        "lng": -88.0834,
+        "pop": 147861
+    },
+    {
+        "name": "Lincoln Park, IL",
+        "lat": 41.9217,
+        "lng": -87.64783,
+        "pop": 66959
+    },
+    {
+        "name": "Logan Square, IL",
+        "lat": 41.92337,
+        "lng": -87.69922,
+        "pop": 73702
+    },
+    {
+        "name": "Mount Prospect, IL",
+        "lat": 42.06642,
+        "lng": -87.93729,
+        "pop": 54747
+    },
+    {
+        "name": "Naperville, IL",
+        "lat": 41.78586,
+        "lng": -88.14729,
+        "pop": 147100
+    },
+    {
+        "name": "Near North Side, IL",
+        "lat": 41.90003,
+        "lng": -87.6345,
+        "pop": 85711
+    },
+    {
+        "name": "Normal, IL",
+        "lat": 40.5142,
+        "lng": -88.99063,
+        "pop": 54373
+    },
+    {
+        "name": "North Peoria, IL",
+        "lat": 40.71754,
+        "lng": -89.58426,
+        "pop": 113004
+    },
+    {
+        "name": "Oak Lawn, IL",
+        "lat": 41.71087,
+        "lng": -87.75811,
+        "pop": 56781
+    },
+    {
+        "name": "Oak Park, IL",
+        "lat": 41.88503,
+        "lng": -87.7845,
+        "pop": 52287
+    },
+    {
+        "name": "Orland Park, IL",
+        "lat": 41.63031,
+        "lng": -87.85394,
+        "pop": 58619
+    },
+    {
+        "name": "Palatine, IL",
+        "lat": 42.1103,
+        "lng": -88.03424,
+        "pop": 69308
+    },
+    {
+        "name": "Peoria, IL",
+        "lat": 40.69365,
+        "lng": -89.58899,
+        "pop": 115070
+    },
+    {
+        "name": "Portage Park, IL",
+        "lat": 41.95781,
+        "lng": -87.76506,
+        "pop": 64841
+    },
+    {
+        "name": "Rockford, IL",
+        "lat": 42.27113,
+        "lng": -89.094,
+        "pop": 148278
+    },
+    {
+        "name": "Rogers Park, IL",
+        "lat": 42.00864,
+        "lng": -87.66672,
+        "pop": 54402
+    },
+    {
+        "name": "Schaumburg, IL",
+        "lat": 42.03336,
+        "lng": -88.08341,
+        "pop": 74693
+    },
+    {
+        "name": "Skokie, IL",
+        "lat": 42.03336,
+        "lng": -87.73339,
+        "pop": 64821
+    },
+    {
+        "name": "South Lawndale, IL",
+        "lat": 41.84364,
+        "lng": -87.71255,
+        "pop": 73826
+    },
+    {
+        "name": "South Shore, IL",
+        "lat": 41.76198,
+        "lng": -87.57783,
+        "pop": 51451
+    },
+    {
+        "name": "Tinley Park, IL",
+        "lat": 41.57337,
+        "lng": -87.78449,
+        "pop": 57143
+    },
+    {
+        "name": "Uptown, IL",
+        "lat": 41.9659,
+        "lng": -87.65262,
+        "pop": 55137
+    },
+    {
+        "name": "Waukegan, IL",
+        "lat": 42.36363,
+        "lng": -87.84479,
+        "pop": 88475
+    },
+    {
+        "name": "West Ridge, IL",
+        "lat": 41.99975,
+        "lng": -87.69284,
+        "pop": 72211
+    },
+    {
+        "name": "West Town, IL",
+        "lat": 41.89381,
+        "lng": -87.67493,
+        "pop": 86429
+    },
+    {
+        "name": "Wheaton, IL",
+        "lat": 41.86614,
+        "lng": -88.10701,
+        "pop": 53715
+    },
+    {
+        "name": "Anderson, IN",
+        "lat": 40.10532,
+        "lng": -85.68025,
+        "pop": 55305
+    },
+    {
+        "name": "Elkhart, IN",
+        "lat": 41.68199,
+        "lng": -85.97667,
+        "pop": 52348
+    },
+    {
+        "name": "Fort Wayne, IN",
+        "lat": 41.1306,
+        "lng": -85.12886,
+        "pop": 260326
+    },
+    {
+        "name": "Gary, IN",
+        "lat": 41.59337,
+        "lng": -87.34643,
+        "pop": 77156
+    },
+    {
+        "name": "Hammond, IN",
+        "lat": 41.58337,
+        "lng": -87.50004,
+        "pop": 77614
+    },
+    {
+        "name": "Kokomo, IN",
+        "lat": 40.48643,
+        "lng": -86.1336,
+        "pop": 57995
+    },
+    {
+        "name": "Lafayette, IN",
+        "lat": 40.4167,
+        "lng": -86.87529,
+        "pop": 71111
+    },
+    {
+        "name": "Muncie, IN",
+        "lat": 40.19338,
+        "lng": -85.38636,
+        "pop": 70087
+    },
+    {
+        "name": "Noblesville, IN",
+        "lat": 40.04559,
+        "lng": -86.0086,
+        "pop": 59093
+    },
+    {
+        "name": "South Bend, IN",
+        "lat": 41.68338,
+        "lng": -86.25001,
+        "pop": 101516
+    },
+    {
+        "name": "Boston, MA",
+        "lat": 42.35843,
+        "lng": -71.05977,
+        "pop": 653833
+    },
+    {
+        "name": "Brockton, MA",
+        "lat": 42.08343,
+        "lng": -71.01838,
+        "pop": 95314
+    },
+    {
+        "name": "Brookline, MA",
+        "lat": 42.33176,
+        "lng": -71.12116,
+        "pop": 58732
+    },
+    {
+        "name": "Cambridge, MA",
+        "lat": 42.3751,
+        "lng": -71.10561,
+        "pop": 110402
+    },
+    {
+        "name": "Chicopee, MA",
+        "lat": 42.1487,
+        "lng": -72.60787,
+        "pop": 56741
+    },
+    {
+        "name": "Dorchester, MA",
+        "lat": 42.29732,
+        "lng": -71.0745,
+        "pop": 97826
+    },
+    {
+        "name": "Fall River, MA",
+        "lat": 41.70149,
+        "lng": -71.15505,
+        "pop": 94000
+    },
+    {
+        "name": "Framingham, MA",
+        "lat": 42.27926,
+        "lng": -71.41617,
+        "pop": 68318
+    },
+    {
+        "name": "Framingham Center, MA",
+        "lat": 42.29732,
+        "lng": -71.43701,
+        "pop": 65413
+    },
+    {
+        "name": "Haverhill, MA",
+        "lat": 42.7762,
+        "lng": -71.07728,
+        "pop": 62765
+    },
+    {
+        "name": "Lawrence, MA",
+        "lat": 42.70704,
+        "lng": -71.16311,
+        "pop": 80231
+    },
+    {
+        "name": "Lowell, MA",
+        "lat": 42.63342,
+        "lng": -71.31617,
+        "pop": 110699
+    },
+    {
+        "name": "Lynn, MA",
+        "lat": 42.46676,
+        "lng": -70.94949,
+        "pop": 92457
+    },
+    {
+        "name": "Malden, MA",
+        "lat": 42.4251,
+        "lng": -71.06616,
+        "pop": 61068
+    },
+    {
+        "name": "Medford, MA",
+        "lat": 42.41843,
+        "lng": -71.10616,
+        "pop": 57403
+    },
+    {
+        "name": "Methuen, MA",
+        "lat": 42.7262,
+        "lng": -71.19089,
+        "pop": 52044
+    },
+    {
+        "name": "New Bedford, MA",
+        "lat": 41.63526,
+        "lng": -70.92701,
+        "pop": 101079
+    },
+    {
+        "name": "Newton, MA",
+        "lat": 42.33704,
+        "lng": -71.20922,
+        "pop": 88817
+    },
+    {
+        "name": "North Chicopee, MA",
+        "lat": 42.18343,
+        "lng": -72.59953,
+        "pop": 55179
+    },
+    {
+        "name": "Peabody, MA",
+        "lat": 42.52787,
+        "lng": -70.92866,
+        "pop": 52504
+    },
+    {
+        "name": "Quincy, MA",
+        "lat": 42.25288,
+        "lng": -71.00227,
+        "pop": 93618
+    },
+    {
+        "name": "Somerville, MA",
+        "lat": 42.3876,
+        "lng": -71.0995,
+        "pop": 80318
+    },
+    {
+        "name": "South Boston, MA",
+        "lat": 42.33343,
+        "lng": -71.04949,
+        "pop": 571281
+    },
+    {
+        "name": "South Peabody, MA",
+        "lat": 42.50982,
+        "lng": -70.94949,
+        "pop": 50293
+    },
+    {
+        "name": "Springfield, MA",
+        "lat": 42.10148,
+        "lng": -72.58981,
+        "pop": 154341
+    },
+    {
+        "name": "Taunton, MA",
+        "lat": 41.9001,
+        "lng": -71.08977,
+        "pop": 56789
+    },
+    {
+        "name": "Waltham, MA",
+        "lat": 42.37649,
+        "lng": -71.23561,
+        "pop": 63378
+    },
+    {
+        "name": "Weymouth, MA",
+        "lat": 42.22093,
+        "lng": -70.93977,
+        "pop": 54395
+    },
+    {
+        "name": "Worcester, MA",
+        "lat": 42.26259,
+        "lng": -71.80229,
+        "pop": 206518
+    },
+    {
+        "name": "Portland, ME",
+        "lat": 43.65737,
+        "lng": -70.2589,
+        "pop": 66881
+    },
+    {
+        "name": "Ann Arbor, MI",
+        "lat": 42.27756,
+        "lng": -83.74088,
+        "pop": 117070
+    },
+    {
+        "name": "Battle Creek, MI",
+        "lat": 42.3173,
+        "lng": -85.17816,
+        "pop": 51589
+    },
+    {
+        "name": "Canton, MI",
+        "lat": 42.30865,
+        "lng": -83.48216,
+        "pop": 86825
+    },
+    {
+        "name": "Clinton Township, MI",
+        "lat": 42.58698,
+        "lng": -82.91992,
+        "pop": 99753
+    },
+    {
+        "name": "Dearborn, MI",
+        "lat": 42.32226,
+        "lng": -83.17631,
+        "pop": 95171
+    },
+    {
+        "name": "Dearborn Heights, MI",
+        "lat": 42.33698,
+        "lng": -83.27326,
+        "pop": 56145
+    },
+    {
+        "name": "Detroit, MI",
+        "lat": 42.33143,
+        "lng": -83.04575,
+        "pop": 645705
+    },
+    {
+        "name": "Farmington Hills, MI",
+        "lat": 42.48531,
+        "lng": -83.37716,
+        "pop": 81330
+    },
+    {
+        "name": "Flint, MI",
+        "lat": 43.01253,
+        "lng": -83.68746,
+        "pop": 98310
+    },
+    {
+        "name": "Grand Rapids, MI",
+        "lat": 42.96336,
+        "lng": -85.66809,
+        "pop": 195097
+    },
+    {
+        "name": "Kalamazoo, MI",
+        "lat": 42.29171,
+        "lng": -85.58723,
+        "pop": 76041
+    },
+    {
+        "name": "Kentwood, MI",
+        "lat": 42.86947,
+        "lng": -85.64475,
+        "pop": 51357
+    },
+    {
+        "name": "Lansing, MI",
+        "lat": 42.73253,
+        "lng": -84.55553,
+        "pop": 112644
+    },
+    {
+        "name": "Livonia, MI",
+        "lat": 42.36837,
+        "lng": -83.35271,
+        "pop": 94635
+    },
+    {
+        "name": "Novi, MI",
+        "lat": 42.48059,
+        "lng": -83.47549,
+        "pop": 58723
+    },
+    {
+        "name": "Pontiac, MI",
+        "lat": 42.63892,
+        "lng": -83.29105,
+        "pop": 59917
+    },
+    {
+        "name": "Rochester Hills, MI",
+        "lat": 42.65837,
+        "lng": -83.14993,
+        "pop": 73424
+    },
+    {
+        "name": "Royal Oak, MI",
+        "lat": 42.48948,
+        "lng": -83.14465,
+        "pop": 59008
+    },
+    {
+        "name": "Shelby, MI",
+        "lat": 42.67087,
+        "lng": -83.03298,
+        "pop": 74099
+    },
+    {
+        "name": "Southfield, MI",
+        "lat": 42.47337,
+        "lng": -83.22187,
+        "pop": 73156
+    },
+    {
+        "name": "Saint Clair Shores, MI",
+        "lat": 42.49698,
+        "lng": -82.88881,
+        "pop": 59715
+    },
+    {
+        "name": "Sterling Heights, MI",
+        "lat": 42.58031,
+        "lng": -83.0302,
+        "pop": 132052
+    },
+    {
+        "name": "Taylor, MI",
+        "lat": 42.24087,
+        "lng": -83.26965,
+        "pop": 61568
+    },
+    {
+        "name": "Troy, MI",
+        "lat": 42.60559,
+        "lng": -83.14993,
+        "pop": 83280
+    },
+    {
+        "name": "Warren, MI",
+        "lat": 42.49044,
+        "lng": -83.01304,
+        "pop": 134056
+    },
+    {
+        "name": "Waterford, MI",
+        "lat": 42.69303,
+        "lng": -83.41181,
+        "pop": 75737
+    },
+    {
+        "name": "Westland, MI",
+        "lat": 42.3242,
+        "lng": -83.40021,
+        "pop": 82000
+    },
+    {
+        "name": "Wyoming, MI",
+        "lat": 42.91336,
+        "lng": -85.70531,
+        "pop": 75275
+    },
+    {
+        "name": "Apple Valley, MN",
+        "lat": 44.73191,
+        "lng": -93.21772,
+        "pop": 51221
+    },
+    {
+        "name": "Blaine, MN",
+        "lat": 45.1608,
+        "lng": -93.23495,
+        "pop": 62124
+    },
+    {
+        "name": "Bloomington, MN",
+        "lat": 44.8408,
+        "lng": -93.29828,
+        "pop": 86435
+    },
+    {
+        "name": "Brooklyn Park, MN",
+        "lat": 45.09413,
+        "lng": -93.35634,
+        "pop": 79149
+    },
+    {
+        "name": "Burnsville, MN",
+        "lat": 44.76774,
+        "lng": -93.27772,
+        "pop": 61481
+    },
+    {
+        "name": "Coon Rapids, MN",
+        "lat": 45.11997,
+        "lng": -93.28773,
+        "pop": 62240
+    },
+    {
+        "name": "Duluth, MN",
+        "lat": 46.78327,
+        "lng": -92.10658,
+        "pop": 86110
+    },
+    {
+        "name": "Eagan, MN",
+        "lat": 44.80413,
+        "lng": -93.16689,
+        "pop": 66286
+    },
+    {
+        "name": "Eden Prairie, MN",
+        "lat": 44.85469,
+        "lng": -93.47079,
+        "pop": 63496
+    },
+    {
+        "name": "Edina, MN",
+        "lat": 44.88969,
+        "lng": -93.34995,
+        "pop": 50138
+    },
+    {
+        "name": "Lakeville, MN",
+        "lat": 44.64969,
+        "lng": -93.24272,
+        "pop": 60633
+    },
+    {
+        "name": "Maple Grove, MN",
+        "lat": 45.07246,
+        "lng": -93.45579,
+        "pop": 68385
+    },
+    {
+        "name": "Minneapolis, MN",
+        "lat": 44.97997,
+        "lng": -93.26384,
+        "pop": 410939
+    },
+    {
+        "name": "Minnetonka, MN",
+        "lat": 44.9133,
+        "lng": -93.50329,
+        "pop": 51669
+    },
+    {
+        "name": "Minnetonka Mills, MN",
+        "lat": 44.94107,
+        "lng": -93.4419,
+        "pop": 50117
+    },
+    {
+        "name": "Plymouth, MN",
+        "lat": 45.01052,
+        "lng": -93.45551,
+        "pop": 75907
+    },
+    {
+        "name": "Rochester, MN",
+        "lat": 44.02163,
+        "lng": -92.4699,
+        "pop": 112225
+    },
+    {
+        "name": "Saint Cloud, MN",
+        "lat": 45.5608,
+        "lng": -94.16249,
+        "pop": 65842
+    },
+    {
+        "name": "Saint Paul, MN",
+        "lat": 44.94441,
+        "lng": -93.09327,
+        "pop": 303176
+    },
+    {
+        "name": "West Coon Rapids, MN",
+        "lat": 45.15969,
+        "lng": -93.34967,
+        "pop": 62528
+    },
+    {
+        "name": "Woodbury, MN",
+        "lat": 44.92386,
+        "lng": -92.95938,
+        "pop": 67855
+    },
+    {
+        "name": "Fargo, ND",
+        "lat": 46.87719,
+        "lng": -96.7898,
+        "pop": 118523
+    },
+    {
+        "name": "Grand Forks, ND",
+        "lat": 47.92526,
+        "lng": -97.03285,
+        "pop": 57011
+    },
+    {
+        "name": "Bellevue, NE",
+        "lat": 41.13667,
+        "lng": -95.89084,
+        "pop": 55510
+    },
+    {
+        "name": "Grand Island, NE",
+        "lat": 40.92501,
+        "lng": -98.34201,
+        "pop": 51440
+    },
+    {
+        "name": "Lincoln, NE",
+        "lat": 40.8,
+        "lng": -96.66696,
+        "pop": 294757
+    },
+    {
+        "name": "Omaha, NE",
+        "lat": 41.25626,
+        "lng": -95.94043,
+        "pop": 486051
+    },
+    {
+        "name": "Manchester, NH",
+        "lat": 42.99564,
+        "lng": -71.45479,
+        "pop": 110229
+    },
+    {
+        "name": "Nashua, NH",
+        "lat": 42.76537,
+        "lng": -71.46757,
+        "pop": 87970
+    },
+    {
+        "name": "Bayonne, NJ",
+        "lat": 40.66871,
+        "lng": -74.11431,
+        "pop": 66311
+    },
+    {
+        "name": "Brick, NJ",
+        "lat": 40.05928,
+        "lng": -74.13708,
+        "pop": 76021
+    },
+    {
+        "name": "Clifton, NJ",
+        "lat": 40.85843,
+        "lng": -74.16376,
+        "pop": 86334
+    },
+    {
+        "name": "East Orange, NJ",
+        "lat": 40.76732,
+        "lng": -74.20487,
+        "pop": 64949
+    },
+    {
+        "name": "Edison, NJ",
+        "lat": 40.51872,
+        "lng": -74.4121,
+        "pop": 102548
+    },
+    {
+        "name": "Elizabeth, NJ",
+        "lat": 40.66399,
+        "lng": -74.2107,
+        "pop": 129007
+    },
+    {
+        "name": "Hoboken, NJ",
+        "lat": 40.74399,
+        "lng": -74.03236,
+        "pop": 53635
+    },
+    {
+        "name": "Irvington, NJ",
+        "lat": 40.73232,
+        "lng": -74.23487,
+        "pop": 61323
+    },
+    {
+        "name": "Jersey City, NJ",
+        "lat": 40.72816,
+        "lng": -74.07764,
+        "pop": 264290
+    },
+    {
+        "name": "Lakewood, NJ",
+        "lat": 40.09789,
+        "lng": -74.21764,
+        "pop": 53805
+    },
+    {
+        "name": "Middletown, NJ",
+        "lat": 40.39428,
+        "lng": -74.11709,
+        "pop": 65490
+    },
+    {
+        "name": "New Brunswick, NJ",
+        "lat": 40.48622,
+        "lng": -74.45182,
+        "pop": 57035
+    },
+    {
+        "name": "Newark, NJ",
+        "lat": 40.73566,
+        "lng": -74.17237,
+        "pop": 281944
+    },
+    {
+        "name": "North Bergen, NJ",
+        "lat": 40.80427,
+        "lng": -74.01208,
+        "pop": 63484
+    },
+    {
+        "name": "Parsippany, NJ",
+        "lat": 40.85788,
+        "lng": -74.42599,
+        "pop": 51144
+    },
+    {
+        "name": "Passaic, NJ",
+        "lat": 40.85677,
+        "lng": -74.12848,
+        "pop": 71085
+    },
+    {
+        "name": "Paterson, NJ",
+        "lat": 40.91677,
+        "lng": -74.17181,
+        "pop": 147754
+    },
+    {
+        "name": "Perth Amboy, NJ",
+        "lat": 40.50677,
+        "lng": -74.26542,
+        "pop": 52682
+    },
+    {
+        "name": "Piscataway, NJ",
+        "lat": 40.49927,
+        "lng": -74.39904,
+        "pop": 56044
+    },
+    {
+        "name": "Plainfield, NJ",
+        "lat": 40.63371,
+        "lng": -74.40737,
+        "pop": 51217
+    },
+    {
+        "name": "Trenton, NJ",
+        "lat": 40.21705,
+        "lng": -74.74294,
+        "pop": 89620
+    },
+    {
+        "name": "Union, NJ",
+        "lat": 40.6976,
+        "lng": -74.2632,
+        "pop": 56771
+    },
+    {
+        "name": "Union City, NJ",
+        "lat": 40.77955,
+        "lng": -74.02375,
+        "pop": 69156
+    },
+    {
+        "name": "Wayne, NJ",
+        "lat": 40.92538,
+        "lng": -74.27654,
+        "pop": 57915
+    },
+    {
+        "name": "West New York, NJ",
+        "lat": 40.78788,
+        "lng": -74.01431,
+        "pop": 53366
+    },
+    {
+        "name": "Albany, NY",
+        "lat": 42.65258,
+        "lng": -73.75623,
+        "pop": 101228
+    },
+    {
+        "name": "Amherst, NY",
+        "lat": 42.97839,
+        "lng": -78.79976,
+        "pop": 122366
+    },
+    {
+        "name": "Astoria, NY",
+        "lat": 40.77205,
+        "lng": -73.93014,
+        "pop": 150165
+    },
+    {
+        "name": "Bayside, NY",
+        "lat": 40.76844,
+        "lng": -73.77708,
+        "pop": 66455
+    },
+    {
+        "name": "Bensonhurst, NY",
+        "lat": 40.60177,
+        "lng": -73.99403,
+        "pop": 60000
+    },
+    {
+        "name": "Borough Park, NY",
+        "lat": 40.63399,
+        "lng": -73.99681,
+        "pop": 149248
+    },
+    {
+        "name": "Brentwood, NY",
+        "lat": 40.78121,
+        "lng": -73.24623,
+        "pop": 60664
+    },
+    {
+        "name": "The Bronx, NY",
+        "lat": 40.84985,
+        "lng": -73.86641,
+        "pop": 1385108
+    },
+    {
+        "name": "Brooklyn, NY",
+        "lat": 40.6501,
+        "lng": -73.94958,
+        "pop": 2736074
+    },
+    {
+        "name": "Brownsville, NY",
+        "lat": 40.66094,
+        "lng": -73.92014,
+        "pop": 74497
+    },
+    {
+        "name": "Buffalo, NY",
+        "lat": 42.88645,
+        "lng": -78.87837,
+        "pop": 258071
+    },
+    {
+        "name": "Bushwick, NY",
+        "lat": 40.69427,
+        "lng": -73.91875,
+        "pop": 112620
+    },
+    {
+        "name": "Canarsie, NY",
+        "lat": 40.64372,
+        "lng": -73.90069,
+        "pop": 87366
+    },
+    {
+        "name": "Cheektowaga, NY",
+        "lat": 42.90339,
+        "lng": -78.75475,
+        "pop": 75178
+    },
+    {
+        "name": "Chinatown, NY",
+        "lat": 40.71649,
+        "lng": -73.99625,
+        "pop": 90000
+    },
+    {
+        "name": "Clay, NY",
+        "lat": 43.1859,
+        "lng": -76.17243,
+        "pop": 58206
+    },
+    {
+        "name": "Coney Island, NY",
+        "lat": 40.57788,
+        "lng": -73.99403,
+        "pop": 60000
+    },
+    {
+        "name": "Corona, NY",
+        "lat": 40.74705,
+        "lng": -73.86014,
+        "pop": 109698
+    },
+    {
+        "name": "Cypress Hills, NY",
+        "lat": 40.67705,
+        "lng": -73.89125,
+        "pop": 54944
+    },
+    {
+        "name": "East Flatbush, NY",
+        "lat": 40.65371,
+        "lng": -73.93042,
+        "pop": 178464
+    },
+    {
+        "name": "East New York, NY",
+        "lat": 40.66677,
+        "lng": -73.88236,
+        "pop": 173198
+    },
+    {
+        "name": "East Village, NY",
+        "lat": 40.72927,
+        "lng": -73.98736,
+        "pop": 62832
+    },
+    {
+        "name": "Elmhurst, NY",
+        "lat": 40.73649,
+        "lng": -73.87791,
+        "pop": 113364
+    },
+    {
+        "name": "Flatbush, NY",
+        "lat": 40.65205,
+        "lng": -73.95903,
+        "pop": 93361
+    },
+    {
+        "name": "Flatlands, NY",
+        "lat": 40.62122,
+        "lng": -73.93486,
+        "pop": 63601
+    },
+    {
+        "name": "Fordham, NY",
+        "lat": 40.85927,
+        "lng": -73.89847,
+        "pop": 94678
+    },
+    {
+        "name": "Forest Hills, NY",
+        "lat": 40.71621,
+        "lng": -73.85014,
+        "pop": 67714
+    },
+    {
+        "name": "Gravesend, NY",
+        "lat": 40.5976,
+        "lng": -73.96514,
+        "pop": 112229
+    },
+    {
+        "name": "Greenburgh, NY",
+        "lat": 41.03287,
+        "lng": -73.84291,
+        "pop": 86764
+    },
+    {
+        "name": "Harlem, NY",
+        "lat": 40.80788,
+        "lng": -73.94542,
+        "pop": 116345
+    },
+    {
+        "name": "Hempstead, NY",
+        "lat": 40.70621,
+        "lng": -73.61874,
+        "pop": 55547
+    },
+    {
+        "name": "Irondequoit, NY",
+        "lat": 43.2134,
+        "lng": -77.57972,
+        "pop": 51692
+    },
+    {
+        "name": "Jackson Heights, NY",
+        "lat": 40.75566,
+        "lng": -73.88541,
+        "pop": 67067
+    },
+    {
+        "name": "Jamaica, NY",
+        "lat": 40.69149,
+        "lng": -73.80569,
+        "pop": 216866
+    },
+    {
+        "name": "Kings Bridge, NY",
+        "lat": 40.87871,
+        "lng": -73.90514,
+        "pop": 75132
+    },
+    {
+        "name": "Levittown, NY",
+        "lat": 40.72593,
+        "lng": -73.51429,
+        "pop": 51881
+    },
+    {
+        "name": "Manhattan, NY",
+        "lat": 40.78343,
+        "lng": -73.96625,
+        "pop": 1487536
+    },
+    {
+        "name": "Mott Haven, NY",
+        "lat": 40.80899,
+        "lng": -73.92291,
+        "pop": 51450
+    },
+    {
+        "name": "Mount Vernon, NY",
+        "lat": 40.9126,
+        "lng": -73.83708,
+        "pop": 68628
+    },
+    {
+        "name": "New Rochelle, NY",
+        "lat": 40.91149,
+        "lng": -73.78235,
+        "pop": 79846
+    },
+    {
+        "name": "New York City, NY",
+        "lat": 40.71427,
+        "lng": -74.00597,
+        "pop": 8804190
+    },
+    {
+        "name": "Ozone Park, NY",
+        "lat": 40.67677,
+        "lng": -73.84375,
+        "pop": 53985
+    },
+    {
+        "name": "Park Slope, NY",
+        "lat": 40.6701,
+        "lng": -73.98597,
+        "pop": 65047
+    },
+    {
+        "name": "Parkchester, NY",
+        "lat": 40.83899,
+        "lng": -73.86041,
+        "pop": 65876
+    },
+    {
+        "name": "Queens Village, NY",
+        "lat": 40.72677,
+        "lng": -73.74152,
+        "pop": 51919
+    },
+    {
+        "name": "Queens, NY",
+        "lat": 40.68149,
+        "lng": -73.83652,
+        "pop": 2316841
+    },
+    {
+        "name": "Richmond Hill, NY",
+        "lat": 40.69983,
+        "lng": -73.83125,
+        "pop": 98984
+    },
+    {
+        "name": "Ridgewood, NY",
+        "lat": 40.7001,
+        "lng": -73.90569,
+        "pop": 69317
+    },
+    {
+        "name": "Rochester, NY",
+        "lat": 43.15478,
+        "lng": -77.61556,
+        "pop": 209802
+    },
+    {
+        "name": "Schenectady, NY",
+        "lat": 42.81424,
+        "lng": -73.93957,
+        "pop": 65305
+    },
+    {
+        "name": "Sheepshead Bay, NY",
+        "lat": 40.59122,
+        "lng": -73.94458,
+        "pop": 122534
+    },
+    {
+        "name": "South Ozone Park, NY",
+        "lat": 40.6701,
+        "lng": -73.81902,
+        "pop": 75878
+    },
+    {
+        "name": "Staten Island, NY",
+        "lat": 40.56233,
+        "lng": -74.13986,
+        "pop": 468730
+    },
+    {
+        "name": "Syracuse, NY",
+        "lat": 43.04812,
+        "lng": -76.14742,
+        "pop": 144142
+    },
+    {
+        "name": "Upper West Side, NY",
+        "lat": 40.78705,
+        "lng": -73.97542,
+        "pop": 226989
+    },
+    {
+        "name": "Utica, NY",
+        "lat": 43.1009,
+        "lng": -75.23266,
+        "pop": 61100
+    },
+    {
+        "name": "Wakefield, NY",
+        "lat": 40.89788,
+        "lng": -73.85236,
+        "pop": 52201
+    },
+    {
+        "name": "Washington Heights, NY",
+        "lat": 40.8501,
+        "lng": -73.93541,
+        "pop": 152613
+    },
+    {
+        "name": "West Albany, NY",
+        "lat": 42.68313,
+        "lng": -73.77845,
+        "pop": 93794
+    },
+    {
+        "name": "White Plains, NY",
+        "lat": 41.03399,
+        "lng": -73.76291,
+        "pop": 58459
+    },
+    {
+        "name": "Yonkers, NY",
+        "lat": 40.9304,
+        "lng": -73.89789,
+        "pop": 201116
+    },
+    {
+        "name": "Akron, OH",
+        "lat": 41.08144,
+        "lng": -81.51901,
+        "pop": 197542
+    },
+    {
+        "name": "Canton, OH",
+        "lat": 40.79895,
+        "lng": -81.37845,
+        "pop": 71885
+    },
+    {
+        "name": "Cleveland, OH",
+        "lat": 41.4995,
+        "lng": -81.69541,
+        "pop": 365379
+    },
+    {
+        "name": "Elyria, OH",
+        "lat": 41.36838,
+        "lng": -82.10765,
+        "pop": 53775
+    },
+    {
+        "name": "Lakewood, OH",
+        "lat": 41.48199,
+        "lng": -81.79819,
+        "pop": 50656
+    },
+    {
+        "name": "Lorain, OH",
+        "lat": 41.45282,
+        "lng": -82.18237,
+        "pop": 63647
+    },
+    {
+        "name": "Parma, OH",
+        "lat": 41.40477,
+        "lng": -81.72291,
+        "pop": 79937
+    },
+    {
+        "name": "Toledo, OH",
+        "lat": 41.66394,
+        "lng": -83.55521,
+        "pop": 265638
+    },
+    {
+        "name": "Youngstown, OH",
+        "lat": 41.09978,
+        "lng": -80.64952,
+        "pop": 64628
+    },
+    {
+        "name": "Abington, PA",
+        "lat": 40.12067,
+        "lng": -75.11795,
+        "pop": 55310
+    },
+    {
+        "name": "Allentown, PA",
+        "lat": 40.60843,
+        "lng": -75.49018,
+        "pop": 120207
+    },
+    {
+        "name": "Bensalem, PA",
+        "lat": 40.10455,
+        "lng": -74.95128,
+        "pop": 60427
+    },
+    {
+        "name": "Bethlehem, PA",
+        "lat": 40.62593,
+        "lng": -75.37046,
+        "pop": 74892
+    },
+    {
+        "name": "Erie, PA",
+        "lat": 42.12922,
+        "lng": -80.08506,
+        "pop": 99475
+    },
+    {
+        "name": "Harrisburg, PA",
+        "lat": 40.2737,
+        "lng": -76.88442,
+        "pop": 50183
+    },
+    {
+        "name": "Lancaster, PA",
+        "lat": 40.03788,
+        "lng": -76.30551,
+        "pop": 59339
+    },
+    {
+        "name": "Levittown, PA",
+        "lat": 40.15511,
+        "lng": -74.82877,
+        "pop": 52983
+    },
+    {
+        "name": "Pittsburgh, PA",
+        "lat": 40.44062,
+        "lng": -79.99589,
+        "pop": 304391
+    },
+    {
+        "name": "Reading, PA",
+        "lat": 40.33565,
+        "lng": -75.92687,
+        "pop": 87879
+    },
+    {
+        "name": "Scranton, PA",
+        "lat": 41.40916,
+        "lng": -75.6649,
+        "pop": 77118
+    },
+    {
+        "name": "Cranston, RI",
+        "lat": 41.77982,
+        "lng": -71.43728,
+        "pop": 81073
+    },
+    {
+        "name": "Pawtucket, RI",
+        "lat": 41.87871,
+        "lng": -71.38256,
+        "pop": 71591
+    },
+    {
+        "name": "Providence, RI",
+        "lat": 41.82399,
+        "lng": -71.41283,
+        "pop": 190934
+    },
+    {
+        "name": "Warwick, RI",
+        "lat": 41.7001,
+        "lng": -71.41617,
+        "pop": 81699
+    },
+    {
+        "name": "Sioux Falls, SD",
+        "lat": 43.54369,
+        "lng": -96.72796,
+        "pop": 171544
+    },
+    {
+        "name": "Appleton, WI",
+        "lat": 44.26193,
+        "lng": -88.41538,
+        "pop": 74139
+    },
+    {
+        "name": "Eau Claire, WI",
+        "lat": 44.81135,
+        "lng": -91.49849,
+        "pop": 67778
+    },
+    {
+        "name": "Green Bay, WI",
+        "lat": 44.51916,
+        "lng": -88.01983,
+        "pop": 105207
+    },
+    {
+        "name": "Janesville, WI",
+        "lat": 42.68279,
+        "lng": -89.01872,
+        "pop": 64123
+    },
+    {
+        "name": "Kenosha, WI",
+        "lat": 42.58474,
+        "lng": -87.82119,
+        "pop": 99858
+    },
+    {
+        "name": "La Crosse, WI",
+        "lat": 43.80136,
+        "lng": -91.23958,
+        "pop": 52306
+    },
+    {
+        "name": "Madison, WI",
+        "lat": 43.07305,
+        "lng": -89.40123,
+        "pop": 280305
+    },
+    {
+        "name": "Milwaukee, WI",
+        "lat": 43.0389,
+        "lng": -87.90647,
+        "pop": 563531
+    },
+    {
+        "name": "North La Crosse, WI",
+        "lat": 43.84635,
+        "lng": -91.24819,
+        "pop": 50470
+    },
+    {
+        "name": "Oshkosh, WI",
+        "lat": 44.02471,
+        "lng": -88.54261,
+        "pop": 66555
+    },
+    {
+        "name": "Racine, WI",
+        "lat": 42.72613,
+        "lng": -87.78285,
+        "pop": 77742
+    },
+    {
+        "name": "Waukesha, WI",
+        "lat": 43.01168,
+        "lng": -88.23148,
+        "pop": 71970
+    },
+    {
+        "name": "West Allis, WI",
+        "lat": 43.01668,
+        "lng": -88.00703,
+        "pop": 60620
+    },
+    {
+        "name": "Bridgeport, CT",
+        "lat": 41.17923,
+        "lng": -73.18945,
+        "pop": 147629
+    },
+    {
+        "name": "Bristol, CT",
+        "lat": 41.67176,
+        "lng": -72.94927,
+        "pop": 60452
+    },
+    {
+        "name": "Buckeye, AZ",
+        "lat": 33.37032,
+        "lng": -112.58378,
+        "pop": 50876
+    },
+    {
+        "name": "Casa Grande, AZ",
+        "lat": 32.8795,
+        "lng": -111.75735,
+        "pop": 51460
+    },
+    {
+        "name": "Casas Adobes, AZ",
+        "lat": 32.32341,
+        "lng": -110.9951,
+        "pop": 66795
+    },
+    {
+        "name": "Catalina Foothills, AZ",
+        "lat": 32.29785,
+        "lng": -110.9187,
+        "pop": 50796
+    },
+    {
+        "name": "Chandler, AZ",
+        "lat": 33.30616,
+        "lng": -111.84125,
+        "pop": 260828
+    },
+    {
+        "name": "Deer Valley, AZ",
+        "lat": 33.68393,
+        "lng": -112.13488,
+        "pop": 165656
+    },
+    {
+        "name": "Flagstaff, AZ",
+        "lat": 35.19807,
+        "lng": -111.65127,
+        "pop": 70320
+    },
+    {
+        "name": "Gilbert, AZ",
+        "lat": 33.35283,
+        "lng": -111.78903,
+        "pop": 247542
+    },
+    {
+        "name": "Glendale, AZ",
+        "lat": 33.53865,
+        "lng": -112.18599,
+        "pop": 240126
+    },
+    {
+        "name": "Goodyear, AZ",
+        "lat": 33.43532,
+        "lng": -112.35821,
+        "pop": 79003
+    },
+    {
+        "name": "Lake Havasu City, AZ",
+        "lat": 34.4839,
+        "lng": -114.32245,
+        "pop": 53553
+    },
+    {
+        "name": "Maryvale, AZ",
+        "lat": 33.50199,
+        "lng": -112.17765,
+        "pop": 208189
+    },
+    {
+        "name": "Mesa, AZ",
+        "lat": 33.42227,
+        "lng": -111.82264,
+        "pop": 471825
+    },
+    {
+        "name": "Peoria, AZ",
+        "lat": 33.5806,
+        "lng": -112.23738,
+        "pop": 190985
+    },
+    {
+        "name": "Phoenix, AZ",
+        "lat": 33.44838,
+        "lng": -112.07404,
+        "pop": 1650070
+    },
+    {
+        "name": "Scottsdale, AZ",
+        "lat": 33.50921,
+        "lng": -111.89903,
+        "pop": 236839
+    },
+    {
+        "name": "Surprise, AZ",
+        "lat": 33.63059,
+        "lng": -112.33322,
+        "pop": 143148
+    },
+    {
+        "name": "Tempe, AZ",
+        "lat": 33.41477,
+        "lng": -111.90931,
+        "pop": 175826
+    },
+    {
+        "name": "Tempe Junction, AZ",
+        "lat": 33.41421,
+        "lng": -111.94348,
+        "pop": 158368
+    },
+    {
+        "name": "Tucson, AZ",
+        "lat": 32.22174,
+        "lng": -110.92648,
+        "pop": 542629
+    },
+    {
+        "name": "Yuma, AZ",
+        "lat": 32.72532,
+        "lng": -114.6244,
+        "pop": 95548
+    },
+    {
+        "name": "Alameda, CA",
+        "lat": 37.77099,
+        "lng": -122.26087,
+        "pop": 78630
+    },
+    {
+        "name": "Alhambra, CA",
+        "lat": 34.09529,
+        "lng": -118.12701,
+        "pop": 85551
+    },
+    {
+        "name": "Aliso Viejo, CA",
+        "lat": 33.56504,
+        "lng": -117.72712,
+        "pop": 50195
+    },
+    {
+        "name": "Anaheim, CA",
+        "lat": 33.83529,
+        "lng": -117.9145,
+        "pop": 350742
+    },
+    {
+        "name": "Antioch, CA",
+        "lat": 38.00492,
+        "lng": -121.80579,
+        "pop": 110542
+    },
+    {
+        "name": "Apple Valley, CA",
+        "lat": 34.50083,
+        "lng": -117.18588,
+        "pop": 72174
+    },
+    {
+        "name": "Arcadia, CA",
+        "lat": 34.13973,
+        "lng": -118.03534,
+        "pop": 58408
+    },
+    {
+        "name": "Bakersfield, CA",
+        "lat": 35.37329,
+        "lng": -119.01871,
+        "pop": 373640
+    },
+    {
+        "name": "Baldwin Park, CA",
+        "lat": 34.08529,
+        "lng": -117.9609,
+        "pop": 77071
+    },
+    {
+        "name": "Bellflower, CA",
+        "lat": 33.88168,
+        "lng": -118.11701,
+        "pop": 78441
+    },
+    {
+        "name": "Berkeley, CA",
+        "lat": 37.87159,
+        "lng": -122.27275,
+        "pop": 120972
+    },
+    {
+        "name": "Boyle Heights, CA",
+        "lat": 34.0339,
+        "lng": -118.20535,
+        "pop": 92785
+    },
+    {
+        "name": "Brentwood, CA",
+        "lat": 37.93187,
+        "lng": -121.69579,
+        "pop": 58968
+    },
+    {
+        "name": "Buena Park, CA",
+        "lat": 33.86751,
+        "lng": -117.99812,
+        "pop": 83270
+    },
+    {
+        "name": "Burbank, CA",
+        "lat": 34.18084,
+        "lng": -118.30897,
+        "pop": 105319
+    },
+    {
+        "name": "Camarillo, CA",
+        "lat": 34.21639,
+        "lng": -119.0376,
+        "pop": 67608
+    },
+    {
+        "name": "Canoga Park, CA",
+        "lat": 34.20112,
+        "lng": -118.59814,
+        "pop": 60578
+    },
+    {
+        "name": "Canyon Country, CA",
+        "lat": 34.42333,
+        "lng": -118.47203,
+        "pop": 59530
+    },
+    {
+        "name": "Carlsbad, CA",
+        "lat": 33.15809,
+        "lng": -117.35059,
+        "pop": 114746
+    },
+    {
+        "name": "Carmichael, CA",
+        "lat": 38.61713,
+        "lng": -121.32828,
+        "pop": 61762
+    },
+    {
+        "name": "Carson, CA",
+        "lat": 33.83141,
+        "lng": -118.28202,
+        "pop": 93281
+    },
+    {
+        "name": "Castro Valley, CA",
+        "lat": 37.6941,
+        "lng": -122.08635,
+        "pop": 61388
+    },
+    {
+        "name": "Cathedral City, CA",
+        "lat": 33.77974,
+        "lng": -116.46529,
+        "pop": 53826
+    },
+    {
+        "name": "Chico, CA",
+        "lat": 39.72849,
+        "lng": -121.83748,
+        "pop": 121345
+    },
+    {
+        "name": "Chinatown, CA",
+        "lat": 37.7966,
+        "lng": -122.40858,
+        "pop": 100574
+    },
+    {
+        "name": "Chino, CA",
+        "lat": 34.01223,
+        "lng": -117.68894,
+        "pop": 85595
+    },
+    {
+        "name": "Chino Hills, CA",
+        "lat": 33.9938,
+        "lng": -117.75888,
+        "pop": 78309
+    },
+    {
+        "name": "Chula Vista, CA",
+        "lat": 32.64005,
+        "lng": -117.0842,
+        "pop": 265757
+    },
+    {
+        "name": "Citrus Heights, CA",
+        "lat": 38.70712,
+        "lng": -121.28106,
+        "pop": 87056
+    },
+    {
+        "name": "Clovis, CA",
+        "lat": 36.82523,
+        "lng": -119.70292,
+        "pop": 104180
+    },
+    {
+        "name": "Colton, CA",
+        "lat": 34.0739,
+        "lng": -117.31365,
+        "pop": 54621
+    },
+    {
+        "name": "Compton, CA",
+        "lat": 33.89585,
+        "lng": -118.22007,
+        "pop": 98462
+    },
+    {
+        "name": "Concord, CA",
+        "lat": 37.97798,
+        "lng": -122.03107,
+        "pop": 128667
+    },
+    {
+        "name": "Corona, CA",
+        "lat": 33.87529,
+        "lng": -117.56644,
+        "pop": 164226
+    },
+    {
+        "name": "Costa Mesa, CA",
+        "lat": 33.64113,
+        "lng": -117.91867,
+        "pop": 113204
+    },
+    {
+        "name": "Cupertino, CA",
+        "lat": 37.323,
+        "lng": -122.03218,
+        "pop": 60572
+    },
+    {
+        "name": "Daly City, CA",
+        "lat": 37.70577,
+        "lng": -122.46192,
+        "pop": 106562
+    },
+    {
+        "name": "Davis, CA",
+        "lat": 38.54491,
+        "lng": -121.74052,
+        "pop": 67666
+    },
+    {
+        "name": "Delano, CA",
+        "lat": 35.76884,
+        "lng": -119.24705,
+        "pop": 52733
+    },
+    {
+        "name": "Diamond Bar, CA",
+        "lat": 34.02862,
+        "lng": -117.81034,
+        "pop": 56897
+    },
+    {
+        "name": "Downey, CA",
+        "lat": 33.94001,
+        "lng": -118.13257,
+        "pop": 114219
+    },
+    {
+        "name": "Dublin, CA",
+        "lat": 37.70215,
+        "lng": -121.93579,
+        "pop": 57721
+    },
+    {
+        "name": "East Los Angeles, CA",
+        "lat": 34.0239,
+        "lng": -118.17202,
+        "pop": 126496
+    },
+    {
+        "name": "El Cajon, CA",
+        "lat": 32.79477,
+        "lng": -116.96253,
+        "pop": 103679
+    },
+    {
+        "name": "El Monte, CA",
+        "lat": 34.06862,
+        "lng": -118.02757,
+        "pop": 116732
+    },
+    {
+        "name": "Elk Grove, CA",
+        "lat": 38.4088,
+        "lng": -121.37162,
+        "pop": 166913
+    },
+    {
+        "name": "Encinitas, CA",
+        "lat": 33.03699,
+        "lng": -117.29198,
+        "pop": 62930
+    },
+    {
+        "name": "Escondido, CA",
+        "lat": 33.11921,
+        "lng": -117.08642,
+        "pop": 151038
+    },
+    {
+        "name": "Fairfield, CA",
+        "lat": 38.24936,
+        "lng": -122.03997,
+        "pop": 112970
+    },
+    {
+        "name": "Folsom, CA",
+        "lat": 38.67796,
+        "lng": -121.17606,
+        "pop": 76375
+    },
+    {
+        "name": "Fontana, CA",
+        "lat": 34.09223,
+        "lng": -117.43505,
+        "pop": 212704
+    },
+    {
+        "name": "Fountain Valley, CA",
+        "lat": 33.70918,
+        "lng": -117.95367,
+        "pop": 56987
+    },
+    {
+        "name": "Fremont, CA",
+        "lat": 37.54827,
+        "lng": -121.98857,
+        "pop": 232206
+    },
+    {
+        "name": "Fresno, CA",
+        "lat": 36.74773,
+        "lng": -119.77237,
+        "pop": 542107
+    },
+    {
+        "name": "Fullerton, CA",
+        "lat": 33.87029,
+        "lng": -117.92534,
+        "pop": 140847
+    },
+    {
+        "name": "Garden Grove, CA",
+        "lat": 33.77391,
+        "lng": -117.94145,
+        "pop": 175393
+    },
+    {
+        "name": "Gardena, CA",
+        "lat": 33.88835,
+        "lng": -118.30896,
+        "pop": 60447
+    },
+    {
+        "name": "Gilroy, CA",
+        "lat": 37.00578,
+        "lng": -121.56828,
+        "pop": 53231
+    },
+    {
+        "name": "Glendale, CA",
+        "lat": 34.14251,
+        "lng": -118.25508,
+        "pop": 201020
+    },
+    {
+        "name": "Glendora, CA",
+        "lat": 34.13612,
+        "lng": -117.86534,
+        "pop": 52009
+    },
+    {
+        "name": "Hacienda Heights, CA",
+        "lat": 33.99307,
+        "lng": -117.96868,
+        "pop": 54038
+    },
+    {
+        "name": "Hanford, CA",
+        "lat": 36.32745,
+        "lng": -119.64568,
+        "pop": 55659
+    },
+    {
+        "name": "Hawthorne, CA",
+        "lat": 33.9164,
+        "lng": -118.35257,
+        "pop": 88451
+    },
+    {
+        "name": "Hayward, CA",
+        "lat": 37.66882,
+        "lng": -122.0808,
+        "pop": 158289
+    },
+    {
+        "name": "Hemet, CA",
+        "lat": 33.74761,
+        "lng": -116.97307,
+        "pop": 83861
+    },
+    {
+        "name": "Hesperia, CA",
+        "lat": 34.42639,
+        "lng": -117.30088,
+        "pop": 93295
+    },
+    {
+        "name": "Highland, CA",
+        "lat": 34.12834,
+        "lng": -117.20865,
+        "pop": 54854
+    },
+    {
+        "name": "Hollywood, CA",
+        "lat": 34.09834,
+        "lng": -118.32674,
+        "pop": 167664
+    },
+    {
+        "name": "Huntington Beach, CA",
+        "lat": 33.6603,
+        "lng": -117.99923,
+        "pop": 201899
+    },
+    {
+        "name": "Huntington Park, CA",
+        "lat": 33.98168,
+        "lng": -118.22507,
+        "pop": 59430
+    },
+    {
+        "name": "Indio, CA",
+        "lat": 33.7207,
+        "lng": -116.21677,
+        "pop": 87533
+    },
+    {
+        "name": "Inglewood, CA",
+        "lat": 33.96168,
+        "lng": -118.35313,
+        "pop": 111666
+    },
+    {
+        "name": "Irvine, CA",
+        "lat": 33.66946,
+        "lng": -117.82311,
+        "pop": 256927
+    },
+    {
+        "name": "Koreatown, CA",
+        "lat": 34.05779,
+        "lng": -118.30091,
+        "pop": 124281
+    },
+    {
+        "name": "La Habra, CA",
+        "lat": 33.93196,
+        "lng": -117.94617,
+        "pop": 62131
+    },
+    {
+        "name": "La Mesa, CA",
+        "lat": 32.76783,
+        "lng": -117.02308,
+        "pop": 60089
+    },
+    {
+        "name": "Laguna Niguel, CA",
+        "lat": 33.52253,
+        "lng": -117.70755,
+        "pop": 65806
+    },
+    {
+        "name": "Lake Elsinore, CA",
+        "lat": 33.66808,
+        "lng": -117.32726,
+        "pop": 61981
+    },
+    {
+        "name": "Lake Forest, CA",
+        "lat": 33.64697,
+        "lng": -117.68922,
+        "pop": 82492
+    },
+    {
+        "name": "Lakewood, CA",
+        "lat": 33.85363,
+        "lng": -118.13396,
+        "pop": 81611
+    },
+    {
+        "name": "Lancaster, CA",
+        "lat": 34.69804,
+        "lng": -118.13674,
+        "pop": 161103
+    },
+    {
+        "name": "Livermore, CA",
+        "lat": 37.68187,
+        "lng": -121.76801,
+        "pop": 88126
+    },
+    {
+        "name": "Lodi, CA",
+        "lat": 38.1302,
+        "lng": -121.27245,
+        "pop": 64596
+    },
+    {
+        "name": "Long Beach, CA",
+        "lat": 33.76696,
+        "lng": -118.18923,
+        "pop": 474140
+    },
+    {
+        "name": "Los Angeles, CA",
+        "lat": 34.05223,
+        "lng": -118.24368,
+        "pop": 3820914
+    },
+    {
+        "name": "Lynwood, CA",
+        "lat": 33.93029,
+        "lng": -118.21146,
+        "pop": 71989
+    },
+    {
+        "name": "Madera, CA",
+        "lat": 36.96134,
+        "lng": -120.06072,
+        "pop": 64208
+    },
+    {
+        "name": "Manteca, CA",
+        "lat": 37.79743,
+        "lng": -121.21605,
+        "pop": 75448
+    },
+    {
+        "name": "Menifee, CA",
+        "lat": 33.72835,
+        "lng": -117.14642,
+        "pop": 87174
+    },
+    {
+        "name": "Merced, CA",
+        "lat": 37.30216,
+        "lng": -120.48297,
+        "pop": 82436
+    },
+    {
+        "name": "Milpitas, CA",
+        "lat": 37.42827,
+        "lng": -121.90662,
+        "pop": 77604
+    },
+    {
+        "name": "Mira Mesa, CA",
+        "lat": 32.9156,
+        "lng": -117.14392,
+        "pop": 70000
+    },
+    {
+        "name": "Mission Viejo, CA",
+        "lat": 33.60002,
+        "lng": -117.672,
+        "pop": 97156
+    },
+    {
+        "name": "Modesto, CA",
+        "lat": 37.6391,
+        "lng": -120.99688,
+        "pop": 211266
+    },
+    {
+        "name": "Montebello, CA",
+        "lat": 34.00946,
+        "lng": -118.10535,
+        "pop": 63921
+    },
+    {
+        "name": "Monterey Park, CA",
+        "lat": 34.06251,
+        "lng": -118.12285,
+        "pop": 61468
+    },
+    {
+        "name": "Moreno Valley, CA",
+        "lat": 33.93752,
+        "lng": -117.23059,
+        "pop": 204198
+    },
+    {
+        "name": "Mountain View, CA",
+        "lat": 37.38605,
+        "lng": -122.08385,
+        "pop": 80435
+    },
+    {
+        "name": "Murrieta, CA",
+        "lat": 33.55391,
+        "lng": -117.21392,
+        "pop": 109830
+    },
+    {
+        "name": "Napa, CA",
+        "lat": 38.29714,
+        "lng": -122.28553,
+        "pop": 80434
+    },
+    {
+        "name": "National City, CA",
+        "lat": 32.67811,
+        "lng": -117.0992,
+        "pop": 61060
+    },
+    {
+        "name": "Newport Beach, CA",
+        "lat": 33.61891,
+        "lng": -117.92895,
+        "pop": 87127
+    },
+    {
+        "name": "North Hollywood, CA",
+        "lat": 34.17223,
+        "lng": -118.37897,
+        "pop": 64587
+    },
+    {
+        "name": "Northridge, CA",
+        "lat": 34.22834,
+        "lng": -118.53675,
+        "pop": 68469
+    },
+    {
+        "name": "Norwalk, CA",
+        "lat": 33.90224,
+        "lng": -118.08173,
+        "pop": 107140
+    },
+    {
+        "name": "Novato, CA",
+        "lat": 38.10742,
+        "lng": -122.5697,
+        "pop": 55530
+    },
+    {
+        "name": "Oakland, CA",
+        "lat": 37.80437,
+        "lng": -122.2708,
+        "pop": 419267
+    },
+    {
+        "name": "Oceanside, CA",
+        "lat": 33.19587,
+        "lng": -117.37948,
+        "pop": 175691
+    },
+    {
+        "name": "Ontario, CA",
+        "lat": 34.06334,
+        "lng": -117.65089,
+        "pop": 171214
+    },
+    {
+        "name": "Orange, CA",
+        "lat": 33.78779,
+        "lng": -117.85311,
+        "pop": 140992
+    },
+    {
+        "name": "Oxnard, CA",
+        "lat": 34.1975,
+        "lng": -119.17705,
+        "pop": 207254
+    },
+    {
+        "name": "Palm Desert, CA",
+        "lat": 33.72255,
+        "lng": -116.37697,
+        "pop": 51869
+    },
+    {
+        "name": "Palmdale, CA",
+        "lat": 34.57943,
+        "lng": -118.11646,
+        "pop": 158351
+    },
+    {
+        "name": "Palo Alto, CA",
+        "lat": 37.44188,
+        "lng": -122.14302,
+        "pop": 66853
+    },
+    {
+        "name": "Paramount, CA",
+        "lat": 33.88946,
+        "lng": -118.15979,
+        "pop": 55412
+    },
+    {
+        "name": "Pasadena, CA",
+        "lat": 34.14778,
+        "lng": -118.14452,
+        "pop": 142250
+    },
+    {
+        "name": "Perris, CA",
+        "lat": 33.78252,
+        "lng": -117.22865,
+        "pop": 74971
+    },
+    {
+        "name": "Petaluma, CA",
+        "lat": 38.23242,
+        "lng": -122.63665,
+        "pop": 60438
+    },
+    {
+        "name": "Pico Rivera, CA",
+        "lat": 33.98307,
+        "lng": -118.09673,
+        "pop": 64218
+    },
+    {
+        "name": "Pittsburg, CA",
+        "lat": 38.02798,
+        "lng": -121.88468,
+        "pop": 69424
+    },
+    {
+        "name": "Placentia, CA",
+        "lat": 33.87224,
+        "lng": -117.87034,
+        "pop": 52495
+    },
+    {
+        "name": "Pleasanton, CA",
+        "lat": 37.66243,
+        "lng": -121.87468,
+        "pop": 79510
+    },
+    {
+        "name": "Pomona, CA",
+        "lat": 34.05529,
+        "lng": -117.75228,
+        "pop": 153266
+    },
+    {
+        "name": "Porterville, CA",
+        "lat": 36.06523,
+        "lng": -119.01677,
+        "pop": 56058
+    },
+    {
+        "name": "Poway, CA",
+        "lat": 32.96282,
+        "lng": -117.03586,
+        "pop": 50157
+    },
+    {
+        "name": "Rancho Cordova, CA",
+        "lat": 38.58907,
+        "lng": -121.30273,
+        "pop": 71017
+    },
+    {
+        "name": "Rancho Cucamonga, CA",
+        "lat": 34.1064,
+        "lng": -117.59311,
+        "pop": 175236
+    },
+    {
+        "name": "Rancho Penasquitos, CA",
+        "lat": 32.95949,
+        "lng": -117.11531,
+        "pop": 60000
+    },
+    {
+        "name": "Redlands, CA",
+        "lat": 34.05557,
+        "lng": -117.18254,
+        "pop": 71035
+    },
+    {
+        "name": "Redondo Beach, CA",
+        "lat": 33.84918,
+        "lng": -118.38841,
+        "pop": 68166
+    },
+    {
+        "name": "Redwood City, CA",
+        "lat": 37.48522,
+        "lng": -122.23635,
+        "pop": 85288
+    },
+    {
+        "name": "Reseda, CA",
+        "lat": 34.20112,
+        "lng": -118.53647,
+        "pop": 65000
+    },
+    {
+        "name": "Rialto, CA",
+        "lat": 34.1064,
+        "lng": -117.37032,
+        "pop": 103132
+    },
+    {
+        "name": "Richmond, CA",
+        "lat": 37.93576,
+        "lng": -122.34775,
+        "pop": 109708
+    },
+    {
+        "name": "Riverside, CA",
+        "lat": 33.95335,
+        "lng": -117.39616,
+        "pop": 317261
+    },
+    {
+        "name": "Rocklin, CA",
+        "lat": 38.79073,
+        "lng": -121.23578,
+        "pop": 61213
+    },
+    {
+        "name": "Rosemead, CA",
+        "lat": 34.08057,
+        "lng": -118.07285,
+        "pop": 54908
+    },
+    {
+        "name": "Roseville, CA",
+        "lat": 38.75212,
+        "lng": -121.28801,
+        "pop": 130269
+    },
+    {
+        "name": "Sacramento, CA",
+        "lat": 38.58157,
+        "lng": -121.4944,
+        "pop": 524943
+    },
+    {
+        "name": "Salinas, CA",
+        "lat": 36.67774,
+        "lng": -121.6555,
+        "pop": 157380
+    },
+    {
+        "name": "San Bernardino, CA",
+        "lat": 34.10834,
+        "lng": -117.28977,
+        "pop": 216108
+    },
+    {
+        "name": "San Clemente, CA",
+        "lat": 33.42697,
+        "lng": -117.61199,
+        "pop": 65526
+    },
+    {
+        "name": "San Diego, CA",
+        "lat": 32.71571,
+        "lng": -117.16472,
+        "pop": 1404452
+    },
+    {
+        "name": "San Francisco, CA",
+        "lat": 37.77493,
+        "lng": -122.41942,
+        "pop": 827526
+    },
+    {
+        "name": "San Jose, CA",
+        "lat": 37.33939,
+        "lng": -121.89496,
+        "pop": 997368
+    },
+    {
+        "name": "San Leandro, CA",
+        "lat": 37.72493,
+        "lng": -122.15608,
+        "pop": 90712
+    },
+    {
+        "name": "San Marcos, CA",
+        "lat": 33.14337,
+        "lng": -117.16614,
+        "pop": 92931
+    },
+    {
+        "name": "San Mateo, CA",
+        "lat": 37.56299,
+        "lng": -122.32553,
+        "pop": 103536
+    },
+    {
+        "name": "San Pedro, CA",
+        "lat": 33.73585,
+        "lng": -118.29229,
+        "pop": 83556
+    },
+    {
+        "name": "San Rafael, CA",
+        "lat": 37.97353,
+        "lng": -122.53109,
+        "pop": 59162
+    },
+    {
+        "name": "San Ramon, CA",
+        "lat": 37.77993,
+        "lng": -121.97802,
+        "pop": 76134
+    },
+    {
+        "name": "Santa Ana, CA",
+        "lat": 33.74557,
+        "lng": -117.86783,
+        "pop": 310227
+    },
+    {
+        "name": "Santa Barbara, CA",
+        "lat": 34.42083,
+        "lng": -119.69819,
+        "pop": 91842
+    },
+    {
+        "name": "Santa Clara, CA",
+        "lat": 37.35411,
+        "lng": -121.95524,
+        "pop": 126215
+    },
+    {
+        "name": "Santa Clarita, CA",
+        "lat": 34.39166,
+        "lng": -118.54259,
+        "pop": 182371
+    },
+    {
+        "name": "Santa Cruz, CA",
+        "lat": 36.97412,
+        "lng": -122.0308,
+        "pop": 64220
+    },
+    {
+        "name": "Santa Maria, CA",
+        "lat": 34.95303,
+        "lng": -120.43572,
+        "pop": 105093
+    },
+    {
+        "name": "Santa Monica, CA",
+        "lat": 34.01949,
+        "lng": -118.49138,
+        "pop": 93220
+    },
+    {
+        "name": "Santa Rosa, CA",
+        "lat": 38.44047,
+        "lng": -122.71443,
+        "pop": 178127
+    },
+    {
+        "name": "Santee, CA",
+        "lat": 32.83838,
+        "lng": -116.97392,
+        "pop": 57787
+    },
+    {
+        "name": "North Hills, CA",
+        "lat": 34.23639,
+        "lng": -118.48472,
+        "pop": 56946
+    },
+    {
+        "name": "Sherman Oaks, CA",
+        "lat": 34.15112,
+        "lng": -118.44925,
+        "pop": 52677
+    },
+    {
+        "name": "Simi Valley, CA",
+        "lat": 34.26945,
+        "lng": -118.78148,
+        "pop": 126788
+    },
+    {
+        "name": "South Gate, CA",
+        "lat": 33.95474,
+        "lng": -118.21202,
+        "pop": 96401
+    },
+    {
+        "name": "South San Francisco, CA",
+        "lat": 37.65466,
+        "lng": -122.40775,
+        "pop": 67271
+    },
+    {
+        "name": "South Whittier, CA",
+        "lat": 33.95015,
+        "lng": -118.03917,
+        "pop": 57156
+    },
+    {
+        "name": "Stockton, CA",
+        "lat": 37.9577,
+        "lng": -121.29078,
+        "pop": 305658
+    },
+    {
+        "name": "Sunnyvale, CA",
+        "lat": 37.36883,
+        "lng": -122.03635,
+        "pop": 155805
+    },
+    {
+        "name": "Sylmar, CA",
+        "lat": 34.30778,
+        "lng": -118.44925,
+        "pop": 79614
+    },
+    {
+        "name": "Temecula, CA",
+        "lat": 33.49364,
+        "lng": -117.14836,
+        "pop": 110003
+    },
+    {
+        "name": "Thousand Oaks, CA",
+        "lat": 34.17056,
+        "lng": -118.83759,
+        "pop": 129339
+    },
+    {
+        "name": "Torrance, CA",
+        "lat": 33.83585,
+        "lng": -118.34063,
+        "pop": 143592
+    },
+    {
+        "name": "Tracy, CA",
+        "lat": 37.73987,
+        "lng": -121.42618,
+        "pop": 87075
+    },
+    {
+        "name": "Tulare, CA",
+        "lat": 36.20773,
+        "lng": -119.34734,
+        "pop": 62315
+    },
+    {
+        "name": "Turlock, CA",
+        "lat": 37.49466,
+        "lng": -120.84659,
+        "pop": 72292
+    },
+    {
+        "name": "Tustin, CA",
+        "lat": 33.74585,
+        "lng": -117.82617,
+        "pop": 80583
+    },
+    {
+        "name": "Union City, CA",
+        "lat": 37.59577,
+        "lng": -122.01913,
+        "pop": 74494
+    },
+    {
+        "name": "Universal City, CA",
+        "lat": 34.1389,
+        "lng": -118.35341,
+        "pop": 105000
+    },
+    {
+        "name": "Upland, CA",
+        "lat": 34.09751,
+        "lng": -117.64839,
+        "pop": 76443
+    },
+    {
+        "name": "Vacaville, CA",
+        "lat": 38.35658,
+        "lng": -121.98774,
+        "pop": 96803
+    },
+    {
+        "name": "Valencia, CA",
+        "lat": 34.44361,
+        "lng": -118.60953,
+        "pop": 148456
+    },
+    {
+        "name": "Vallejo, CA",
+        "lat": 38.10409,
+        "lng": -122.25664,
+        "pop": 121692
+    },
+    {
+        "name": "Van Nuys, CA",
+        "lat": 34.18667,
+        "lng": -118.44897,
+        "pop": 136443
+    },
+    {
+        "name": "Ventura, CA",
+        "lat": 34.27834,
+        "lng": -119.29317,
+        "pop": 96769
+    },
+    {
+        "name": "Victorville, CA",
+        "lat": 34.53611,
+        "lng": -117.29116,
+        "pop": 122225
+    },
+    {
+        "name": "Visalia, CA",
+        "lat": 36.33023,
+        "lng": -119.29206,
+        "pop": 130104
+    },
+    {
+        "name": "Vista, CA",
+        "lat": 33.20004,
+        "lng": -117.24254,
+        "pop": 100890
+    },
+    {
+        "name": "Walnut Creek, CA",
+        "lat": 37.90631,
+        "lng": -122.06496,
+        "pop": 68910
+    },
+    {
+        "name": "Watsonville, CA",
+        "lat": 36.91023,
+        "lng": -121.75689,
+        "pop": 53628
+    },
+    {
+        "name": "West Covina, CA",
+        "lat": 34.06862,
+        "lng": -117.93895,
+        "pop": 108484
+    },
+    {
+        "name": "West Sacramento, CA",
+        "lat": 38.58046,
+        "lng": -121.53023,
+        "pop": 52721
+    },
+    {
+        "name": "Westminster, CA",
+        "lat": 33.75918,
+        "lng": -118.00673,
+        "pop": 92114
+    },
+    {
+        "name": "Whittier, CA",
+        "lat": 33.97918,
+        "lng": -118.03284,
+        "pop": 87438
+    },
+    {
+        "name": "Wilmington, CA",
+        "lat": 33.78002,
+        "lng": -118.26257,
+        "pop": 52000
+    },
+    {
+        "name": "Woodland, CA",
+        "lat": 38.67852,
+        "lng": -121.7733,
+        "pop": 58567
+    },
+    {
+        "name": "Woodland Hills, CA",
+        "lat": 34.16834,
+        "lng": -118.60592,
+        "pop": 70000
+    },
+    {
+        "name": "Yorba Linda, CA",
+        "lat": 33.88863,
+        "lng": -117.81311,
+        "pop": 67973
+    },
+    {
+        "name": "Yuba City, CA",
+        "lat": 39.14045,
+        "lng": -121.61691,
+        "pop": 66941
+    },
+    {
+        "name": "Yucaipa, CA",
+        "lat": 34.03363,
+        "lng": -117.04309,
+        "pop": 53328
+    },
+    {
+        "name": "Arvada, CO",
+        "lat": 39.80276,
+        "lng": -105.08748,
+        "pop": 115368
+    },
+    {
+        "name": "Aurora, CO",
+        "lat": 39.72943,
+        "lng": -104.83192,
+        "pop": 359407
+    },
+    {
+        "name": "Broomfield, CO",
+        "lat": 39.92054,
+        "lng": -105.08665,
+        "pop": 65065
+    },
+    {
+        "name": "Castle Rock, CO",
+        "lat": 39.37221,
+        "lng": -104.85609,
+        "pop": 55591
+    },
+    {
+        "name": "Centennial, CO",
+        "lat": 39.57916,
+        "lng": -104.87692,
+        "pop": 109741
+    },
+    {
+        "name": "Colorado Springs, CO",
+        "lat": 38.83388,
+        "lng": -104.82136,
+        "pop": 456568
+    },
+    {
+        "name": "Commerce City, CO",
+        "lat": 39.80832,
+        "lng": -104.93387,
+        "pop": 53696
+    },
+    {
+        "name": "Denver, CO",
+        "lat": 39.73915,
+        "lng": -104.9847,
+        "pop": 729019
+    },
+    {
+        "name": "Grand Junction, CO",
+        "lat": 39.06387,
+        "lng": -108.55065,
+        "pop": 60358
+    },
+    {
+        "name": "Highlands Ranch, CO",
+        "lat": 39.55388,
+        "lng": -104.96943,
+        "pop": 96713
+    },
+    {
+        "name": "Lakewood, CO",
+        "lat": 39.70471,
+        "lng": -105.08137,
+        "pop": 152597
+    },
+    {
+        "name": "Pueblo, CO",
+        "lat": 38.25445,
+        "lng": -104.60914,
+        "pop": 109412
+    },
+    {
+        "name": "Thornton, CO",
+        "lat": 39.86804,
+        "lng": -104.97192,
+        "pop": 133451
+    },
+    {
+        "name": "Westminster, CO",
+        "lat": 39.83665,
+        "lng": -105.0372,
+        "pop": 116317
+    },
+    {
+        "name": "Albuquerque, NM",
+        "lat": 35.08449,
+        "lng": -106.65114,
+        "pop": 564559
+    },
+    {
+        "name": "Las Cruces, NM",
+        "lat": 32.31232,
+        "lng": -106.77834,
+        "pop": 101643
+    },
+    {
+        "name": "Rio Rancho, NM",
+        "lat": 35.23338,
+        "lng": -106.66447,
+        "pop": 87521
+    },
+    {
+        "name": "Santa Fe, NM",
+        "lat": 35.68698,
+        "lng": -105.9378,
+        "pop": 87505
+    },
+    {
+        "name": "Carson City, NV",
+        "lat": 39.1638,
+        "lng": -119.7674,
+        "pop": 58639
+    },
+    {
+        "name": "Enterprise, NV",
+        "lat": 36.02525,
+        "lng": -115.24194,
+        "pop": 108481
+    },
+    {
+        "name": "Henderson, NV",
+        "lat": 36.0397,
+        "lng": -114.98194,
+        "pop": 285667
+    },
+    {
+        "name": "Las Vegas, NV",
+        "lat": 36.17497,
+        "lng": -115.13722,
+        "pop": 641903
+    },
+    {
+        "name": "North Las Vegas, NV",
+        "lat": 36.19886,
+        "lng": -115.1175,
+        "pop": 234807
+    },
+    {
+        "name": "Paradise, NV",
+        "lat": 36.09719,
+        "lng": -115.14666,
+        "pop": 223167
+    },
+    {
+        "name": "Reno, NV",
+        "lat": 39.52963,
+        "lng": -119.8138,
+        "pop": 264165
+    },
+    {
+        "name": "Sparks, NV",
+        "lat": 39.53491,
+        "lng": -119.75269,
+        "pop": 96094
+    },
+    {
+        "name": "Spring Valley, NV",
+        "lat": 36.10803,
+        "lng": -115.245,
+        "pop": 178395
+    },
+    {
+        "name": "Sunrise Manor, NV",
+        "lat": 36.21108,
+        "lng": -115.07306,
+        "pop": 189372
+    },
+    {
+        "name": "Amarillo, TX",
+        "lat": 35.222,
+        "lng": -101.8313,
+        "pop": 198645
+    },
+    {
+        "name": "El Paso, TX",
+        "lat": 31.75872,
+        "lng": -106.48693,
+        "pop": 678815
+    },
+    {
+        "name": "Lubbock, TX",
+        "lat": 33.57786,
+        "lng": -101.85517,
+        "pop": 249042
+    },
+    {
+        "name": "Midland, TX",
+        "lat": 31.99735,
+        "lng": -102.07791,
+        "pop": 132524
+    },
+    {
+        "name": "Odessa, TX",
+        "lat": 31.84568,
+        "lng": -102.36764,
+        "pop": 114428
+    },
+    {
+        "name": "San Angelo, TX",
+        "lat": 31.46377,
+        "lng": -100.43704,
+        "pop": 99893
+    },
+    {
+        "name": "Saint George, UT",
+        "lat": 37.10415,
+        "lng": -113.58412,
+        "pop": 72897
+    },
+    {
+        "name": "Alhambra, AZ",
+        "lat": 33.49838,
+        "lng": -112.13432,
+        "pop": 127764
+    },
+    {
+        "name": "Avondale, AZ",
+        "lat": 33.4356,
+        "lng": -112.3496,
+        "pop": 80684
+    },
+    {
+        "name": "Ahwatukee Foothills, AZ",
+        "lat": 33.34171,
+        "lng": -111.98403,
+        "pop": 83464
+    },
+    {
+        "name": "Redding, CA",
+        "lat": 40.58654,
+        "lng": -122.39168,
+        "pop": 91582
+    },
+    {
+        "name": "Boulder, CO",
+        "lat": 40.01499,
+        "lng": -105.27055,
+        "pop": 106803
+    },
+    {
+        "name": "Fort Collins, CO",
+        "lat": 40.58526,
+        "lng": -105.08442,
+        "pop": 170924
+    },
+    {
+        "name": "Greeley, CO",
+        "lat": 40.42331,
+        "lng": -104.70913,
+        "pop": 108795
+    },
+    {
+        "name": "Longmont, CO",
+        "lat": 40.16721,
+        "lng": -105.10193,
+        "pop": 92088
+    },
+    {
+        "name": "Loveland, CO",
+        "lat": 40.39776,
+        "lng": -105.07498,
+        "pop": 75182
+    },
+    {
+        "name": "Boise, ID",
+        "lat": 43.6135,
+        "lng": -116.20345,
+        "pop": 235684
+    },
+    {
+        "name": "Caldwell, ID",
+        "lat": 43.66294,
+        "lng": -116.68736,
+        "pop": 51686
+    },
+    {
+        "name": "Idaho Falls, ID",
+        "lat": 43.46658,
+        "lng": -112.03414,
+        "pop": 59184
+    },
+    {
+        "name": "Meridian, ID",
+        "lat": 43.61211,
+        "lng": -116.39151,
+        "pop": 90739
+    },
+    {
+        "name": "Nampa, ID",
+        "lat": 43.54072,
+        "lng": -116.56346,
+        "pop": 89839
+    },
+    {
+        "name": "Pocatello, ID",
+        "lat": 42.8713,
+        "lng": -112.44553,
+        "pop": 54441
+    },
+    {
+        "name": "Billings, MT",
+        "lat": 45.78329,
+        "lng": -108.50069,
+        "pop": 117116
+    },
+    {
+        "name": "Great Falls, MT",
+        "lat": 47.50024,
+        "lng": -111.30081,
+        "pop": 59638
+    },
+    {
+        "name": "Missoula, MT",
+        "lat": 46.87215,
+        "lng": -113.994,
+        "pop": 71022
+    },
+    {
+        "name": "Bismarck, ND",
+        "lat": 46.80833,
+        "lng": -100.78374,
+        "pop": 75092
+    },
+    {
+        "name": "Albany, OR",
+        "lat": 44.63651,
+        "lng": -123.10593,
+        "pop": 52175
+    },
+    {
+        "name": "Beaverton, OR",
+        "lat": 45.48706,
+        "lng": -122.80371,
+        "pop": 96577
+    },
+    {
+        "name": "Bend, OR",
+        "lat": 44.05817,
+        "lng": -121.31531,
+        "pop": 87014
+    },
+    {
+        "name": "Corvallis, OR",
+        "lat": 44.56457,
+        "lng": -123.26204,
+        "pop": 55780
+    },
+    {
+        "name": "Eugene, OR",
+        "lat": 44.05207,
+        "lng": -123.08675,
+        "pop": 176654
+    },
+    {
+        "name": "Gresham, OR",
+        "lat": 45.49818,
+        "lng": -122.43148,
+        "pop": 110553
+    },
+    {
+        "name": "Hillsboro, OR",
+        "lat": 45.52289,
+        "lng": -122.98983,
+        "pop": 102347
+    },
+    {
+        "name": "Medford, OR",
+        "lat": 42.32652,
+        "lng": -122.87559,
+        "pop": 79805
+    },
+    {
+        "name": "Portland, OR",
+        "lat": 45.52345,
+        "lng": -122.67621,
+        "pop": 652503
+    },
+    {
+        "name": "Salem, OR",
+        "lat": 44.9429,
+        "lng": -123.0351,
+        "pop": 175535
+    },
+    {
+        "name": "Springfield, OR",
+        "lat": 44.04624,
+        "lng": -123.02203,
+        "pop": 60870
+    },
+    {
+        "name": "Tigard, OR",
+        "lat": 45.43123,
+        "lng": -122.77149,
+        "pop": 51253
+    },
+    {
+        "name": "Rapid City, SD",
+        "lat": 44.08054,
+        "lng": -103.23101,
+        "pop": 73569
+    },
+    {
+        "name": "Layton, UT",
+        "lat": 41.06022,
+        "lng": -111.97105,
+        "pop": 74143
+    },
+    {
+        "name": "Lehi, UT",
+        "lat": 40.39162,
+        "lng": -111.85077,
+        "pop": 58486
+    },
+    {
+        "name": "Logan, UT",
+        "lat": 41.73549,
+        "lng": -111.83439,
+        "pop": 50371
+    },
+    {
+        "name": "Millcreek, UT",
+        "lat": 40.68689,
+        "lng": -111.87549,
+        "pop": 62139
+    },
+    {
+        "name": "Ogden, UT",
+        "lat": 41.223,
+        "lng": -111.97383,
+        "pop": 85444
+    },
+    {
+        "name": "Orem, UT",
+        "lat": 40.2969,
+        "lng": -111.69465,
+        "pop": 94457
+    },
+    {
+        "name": "Provo, UT",
+        "lat": 40.23384,
+        "lng": -111.65853,
+        "pop": 115162
+    },
+    {
+        "name": "Salt Lake City, UT",
+        "lat": 40.76078,
+        "lng": -111.89105,
+        "pop": 215548
+    },
+    {
+        "name": "Sandy, UT",
+        "lat": 40.59161,
+        "lng": -111.8841,
+        "pop": 87461
+    },
+    {
+        "name": "Sandy Hills, UT",
+        "lat": 40.58106,
+        "lng": -111.85077,
+        "pop": 89575
+    },
+    {
+        "name": "South Jordan, UT",
+        "lat": 40.56217,
+        "lng": -111.92966,
+        "pop": 66648
+    },
+    {
+        "name": "Taylorsville, UT",
+        "lat": 40.66772,
+        "lng": -111.93883,
+        "pop": 60514
+    },
+    {
+        "name": "West Jordan, UT",
+        "lat": 40.60967,
+        "lng": -111.9391,
+        "pop": 111946
+    },
+    {
+        "name": "West Valley City, UT",
+        "lat": 40.69161,
+        "lng": -112.00105,
+        "pop": 136208
+    },
+    {
+        "name": "Auburn, WA",
+        "lat": 47.30732,
+        "lng": -122.22845,
+        "pop": 77006
+    },
+    {
+        "name": "Bellevue, WA",
+        "lat": 47.61038,
+        "lng": -122.20068,
+        "pop": 139820
+    },
+    {
+        "name": "Bellingham, WA",
+        "lat": 48.75955,
+        "lng": -122.48822,
+        "pop": 85146
+    },
+    {
+        "name": "Burien, WA",
+        "lat": 47.47038,
+        "lng": -122.34679,
+        "pop": 50467
+    },
+    {
+        "name": "Everett, WA",
+        "lat": 47.97898,
+        "lng": -122.20208,
+        "pop": 108010
+    },
+    {
+        "name": "Federal Way, WA",
+        "lat": 47.32232,
+        "lng": -122.31262,
+        "pop": 95171
+    },
+    {
+        "name": "Kennewick, WA",
+        "lat": 46.21125,
+        "lng": -119.13723,
+        "pop": 78896
+    },
+    {
+        "name": "Kent, WA",
+        "lat": 47.38093,
+        "lng": -122.23484,
+        "pop": 126952
+    },
+    {
+        "name": "Kirkland, WA",
+        "lat": 47.68149,
+        "lng": -122.20874,
+        "pop": 87281
+    },
+    {
+        "name": "Lakewood, WA",
+        "lat": 47.17176,
+        "lng": -122.51846,
+        "pop": 59829
+    },
+    {
+        "name": "Marysville, WA",
+        "lat": 48.05176,
+        "lng": -122.17708,
+        "pop": 66773
+    },
+    {
+        "name": "Olympia, WA",
+        "lat": 47.04491,
+        "lng": -122.90169,
+        "pop": 55733
+    },
+    {
+        "name": "Pasco, WA",
+        "lat": 46.23958,
+        "lng": -119.10057,
+        "pop": 69451
+    },
+    {
+        "name": "Redmond, WA",
+        "lat": 47.67399,
+        "lng": -122.12151,
+        "pop": 60598
+    },
+    {
+        "name": "Renton, WA",
+        "lat": 47.48288,
+        "lng": -122.21707,
+        "pop": 100242
+    },
+    {
+        "name": "Richland, WA",
+        "lat": 46.28569,
+        "lng": -119.28446,
+        "pop": 54248
+    },
+    {
+        "name": "Sammamish, WA",
+        "lat": 47.64177,
+        "lng": -122.0804,
+        "pop": 52253
+    },
+    {
+        "name": "Seattle, WA",
+        "lat": 47.60621,
+        "lng": -122.33207,
+        "pop": 780995
+    },
+    {
+        "name": "Shoreline, WA",
+        "lat": 47.75565,
+        "lng": -122.34152,
+        "pop": 55439
+    },
+    {
+        "name": "South Hill, WA",
+        "lat": 47.14121,
+        "lng": -122.27012,
+        "pop": 52431
+    },
+    {
+        "name": "Spokane, WA",
+        "lat": 47.65966,
+        "lng": -117.42908,
+        "pop": 229447
+    },
+    {
+        "name": "Spokane Valley, WA",
+        "lat": 47.67323,
+        "lng": -117.23937,
+        "pop": 94919
+    },
+    {
+        "name": "Tacoma, WA",
+        "lat": 47.25288,
+        "lng": -122.44429,
+        "pop": 222906
+    },
+    {
+        "name": "Vancouver, WA",
+        "lat": 45.63873,
+        "lng": -122.66149,
+        "pop": 196442
+    },
+    {
+        "name": "Yakima, WA",
+        "lat": 46.60207,
+        "lng": -120.5059,
+        "pop": 93701
+    },
+    {
+        "name": "Casper, WY",
+        "lat": 42.86663,
+        "lng": -106.31308,
+        "pop": 60285
+    },
+    {
+        "name": "Cheyenne, WY",
+        "lat": 41.13998,
+        "lng": -104.82025,
+        "pop": 65132
+    },
+    {
+        "name": "Honolulu, HI",
+        "lat": 21.30694,
+        "lng": -157.85833,
+        "pop": 350964
+    },
+    {
+        "name": "Anchorage, AK",
+        "lat": 61.21806,
+        "lng": -149.90028,
+        "pop": 289600
+    },
+    {
+        "name": "Johns Creek, GA",
+        "lat": 34.02893,
+        "lng": -84.19858,
+        "pop": 83335
+    },
+    {
+        "name": "Morningside Heights, NY",
+        "lat": 40.81,
+        "lng": -73.9625,
+        "pop": 55929
+    },
+    {
+        "name": "East Harlem, NY",
+        "lat": 40.79472,
+        "lng": -73.9425,
+        "pop": 115921
+    },
+    {
+        "name": "Alafaya, FL",
+        "lat": 28.5641,
+        "lng": -81.2114,
+        "pop": 78113
+    },
+    {
+        "name": "Little Havana, FL",
+        "lat": 25.76806,
+        "lng": -80.23306,
+        "pop": 53430
+    },
+    {
+        "name": "Briarwood, NY",
+        "lat": 40.70935,
+        "lng": -73.81529,
+        "pop": 53877
+    },
+    {
+        "name": "City of Milford (balance), CT",
+        "lat": 41.22374,
+        "lng": -73.06164,
+        "pop": 51271
+    },
+    {
+        "name": "West Bloomfield Township, MI",
+        "lat": 42.56891,
+        "lng": -83.38356,
+        "pop": 64690
+    },
+    {
+        "name": "Arden-Arcade, CA",
+        "lat": 38.6025,
+        "lng": -121.37854,
+        "pop": 92186
+    },
+    {
+        "name": "Florence-Graham, CA",
+        "lat": 33.96772,
+        "lng": -118.24438,
+        "pop": 63387
+    },
+    {
+        "name": "Tri-Cities, WA",
+        "lat": 46.2454,
+        "lng": -119.19617,
+        "pop": 244036
+    },
+    {
+        "name": "San Tan Valley, AZ",
+        "lat": 33.1911,
+        "lng": -111.528,
+        "pop": 81321
+    },
+    {
+        "name": "Enchanted Hills, NM",
+        "lat": 35.33676,
+        "lng": -106.59296,
+        "pop": 87521
+    },
+    {
+        "name": "Eastvale, CA",
+        "lat": 33.96358,
+        "lng": -117.56418,
+        "pop": 59039
+    },
+    {
+        "name": "Financial District, NY",
+        "lat": 40.70789,
+        "lng": -74.00857,
+        "pop": 60976
+    },
+    {
+        "name": "Sunset Park, NY",
+        "lat": 40.64548,
+        "lng": -74.01241,
+        "pop": 126000
+    },
+    {
+        "name": "Center City, PA",
+        "lat": 39.9512,
+        "lng": -75.15923,
+        "pop": 57239
+    },
+    {
+        "name": "Stonecrest, GA",
+        "lat": 33.70849,
+        "lng": -84.13485,
+        "pop": 50000
+    },
+    {
+        "name": "Valley Glen, CA",
+        "lat": 34.18568,
+        "lng": -118.42032,
+        "pop": 60000
+    },
+    {
+        "name": "Encanto, AZ",
+        "lat": 33.47937,
+        "lng": -112.07823,
+        "pop": 54614
+    },
+    {
+        "name": "Central City, AZ",
+        "lat": 33.44001,
+        "lng": -112.05805,
+        "pop": 58161
+    },
+    {
+        "name": "South Fulton, GA",
+        "lat": 33.59259,
+        "lng": -84.67294,
+        "pop": 107436
+    },
+    {
+        "name": "Mid-City, CA",
+        "lat": 34.04126,
+        "lng": -118.36058,
+        "pop": 83000
+    },
+    {
+        "name": "Downtown DC, DC",
+        "lat": 38.8935,
+        "lng": -77.01991,
+        "pop": 52560
+    },
+    {
+        "name": "The Trails of Frisco, TX",
+        "lat": 33.16087,
+        "lng": -96.87182,
+        "pop": 51059
+    }
+]

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NA Cities Study Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; font-family: sans-serif; background: #1a1a2e; color: white; }
+        #map { height: 100vh; width: 100vw; }
+
+        #legend {
+            position: absolute;
+            bottom: 30px;
+            right: 15px;
+            background: rgba(20, 20, 30, 0.88);
+            padding: 12px 16px;
+            border-radius: 8px;
+            z-index: 1000;
+            border: 1px solid #444;
+            font-size: 0.82rem;
+            line-height: 1.8;
+            min-width: 190px;
+        }
+        #legend h4 { margin: 0 0 8px 0; font-size: 0.9rem; color: #ccc; letter-spacing: 0.05em; text-transform: uppercase; }
+        .legend-row { display: flex; align-items: center; gap: 8px; }
+        .legend-dot {
+            border-radius: 50%;
+            background: #FF9800;
+            border: 1.5px solid rgba(255,255,255,0.4);
+            flex-shrink: 0;
+        }
+
+        #header {
+            position: absolute;
+            top: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(20, 20, 30, 0.88);
+            padding: 8px 20px 10px;
+            border-radius: 8px;
+            z-index: 1000;
+            text-align: center;
+            border: 1px solid #444;
+            white-space: nowrap;
+        }
+        #header h2 { margin: 0 0 6px 0; font-size: 1rem; color: #ddd; font-weight: 500; }
+        #header span { font-size: 0.78rem; color: #888; }
+
+        #filters {
+            display: flex;
+            gap: 6px;
+            margin-top: 8px;
+            justify-content: center;
+        }
+        .filter-btn {
+            background: rgba(255,255,255,0.08);
+            border: 1px solid #555;
+            color: #bbb;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            cursor: pointer;
+            transition: background 0.15s, color 0.15s, border-color 0.15s;
+        }
+        .filter-btn:hover { background: rgba(255,152,0,0.2); border-color: #FF9800; color: #FF9800; }
+        .filter-btn.active { background: rgba(255,152,0,0.3); border-color: #FF9800; color: #FF9800; font-weight: bold; }
+
+        .leaflet-popup-content-wrapper {
+            background: rgba(20, 20, 30, 0.95);
+            color: white;
+            border: 1px solid #555;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+        }
+        .leaflet-popup-tip { background: rgba(20, 20, 30, 0.95); }
+        .city-popup { text-align: center; padding: 4px 2px; }
+        .city-popup .city-name { font-size: 1.05rem; font-weight: bold; margin-bottom: 4px; }
+        .city-popup .city-pop { font-size: 0.88rem; color: #aaa; }
+        .city-popup .city-bucket { font-size: 0.78rem; color: #FF9800; margin-top: 3px; }
+    </style>
+</head>
+<body>
+
+<div id="header">
+    <h2>North American Cities — 100k+ Population</h2>
+    <span id="count-label">Loading...</span>
+    <div id="filters">
+        <button class="filter-btn active" data-min="0" onclick="setFilter(this)">All</button>
+        <button class="filter-btn" data-min="0" data-max="78630" onclick="setFilter(this)">&lt; 79k</button>
+        <button class="filter-btn" data-min="78630" data-max="137491" onclick="setFilter(this)">79k – 137k</button>
+        <button class="filter-btn" data-min="137491" data-max="292881" onclick="setFilter(this)">137k – 293k</button>
+        <button class="filter-btn" data-min="292881" data-max="812229" onclick="setFilter(this)">293k – 812k</button>
+        <button class="filter-btn" data-min="812229" onclick="setFilter(this)">&gt; 812k</button>
+    </div>
+</div>
+
+<div id="legend">
+    <h4>City Size</h4>
+    <div class="legend-row"><div class="legend-dot" style="width:8px;height:8px;"></div> &lt; 79k</div>
+    <div class="legend-row"><div class="legend-dot" style="width:14px;height:14px;"></div> 79k – 137k</div>
+    <div class="legend-row"><div class="legend-dot" style="width:20px;height:20px;"></div> 137k – 293k</div>
+    <div class="legend-row"><div class="legend-dot" style="width:28px;height:28px;"></div> 293k – 812k</div>
+    <div class="legend-row"><div class="legend-dot" style="width:40px;height:40px;"></div> &gt; 812k</div>
+</div>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script>
+    const map = L.map('map', {
+        center: [39.8283, -98.5795],
+        zoom: 4,
+        minZoom: 2,
+        maxZoom: 12
+    });
+
+    // Esri World Imagery (daytime satellite)
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
+        maxZoom: 18
+    }).addTo(map);
+
+    // Jenks natural breaks on log10(population) — 5 classes
+    // Computed from the actual dataset
+    const BREAKS = [78630, 137491, 292881, 812229];
+
+    function getBucket(pop) {
+        if (pop <= BREAKS[0]) return 0;
+        if (pop <= BREAKS[1]) return 1;
+        if (pop <= BREAKS[2]) return 2;
+        if (pop <= BREAKS[3]) return 3;
+        return 4;
+    }
+
+    const RADII   = [4, 7, 10, 14, 20];
+    const LABELS  = ['< 79k', '79k – 137k', '137k – 293k', '293k – 812k', '> 812k'];
+
+    function formatPop(n) {
+        if (n >= 1_000_000) return (n / 1_000_000).toFixed(2).replace(/\.?0+$/, '') + 'M';
+        if (n >= 1_000)     return (n / 1_000).toFixed(0) + 'k';
+        return n.toString();
+    }
+
+    let allMarkers = [];  // [{circle, pop}]
+
+    function setFilter(btn) {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const isAll = !btn.dataset.max && btn.dataset.min === '0';
+        const min   = parseFloat(btn.dataset.min);
+        const max   = btn.dataset.max !== undefined ? parseFloat(btn.dataset.max) : Infinity;
+
+        let visible = 0;
+        allMarkers.forEach(({ circle, pop }) => {
+            const show = isAll || (pop > min && pop <= max);
+            if (show) { circle.addTo(map); visible++; }
+            else map.removeLayer(circle);
+        });
+
+        document.getElementById('count-label').textContent = `${visible} cities`;
+        map.closePopup();
+    }
+
+    fetch('na_cities.json')
+        .then(r => { if (!r.ok) throw new Error('Failed to load'); return r.json(); })
+        .then(cities => {
+            document.getElementById('count-label').textContent = `${cities.length} cities`;
+
+            cities.forEach(city => {
+                const bucket = getBucket(city.pop);
+                const r = RADII[bucket];
+
+                const circle = L.circleMarker([city.lat, city.lng], {
+                    radius: r,
+                    color: 'rgba(255,255,255,0.5)',
+                    weight: 1,
+                    fillColor: '#FF9800',
+                    fillOpacity: 0.75
+                }).addTo(map);
+
+                circle.on('click', function(e) {
+                    L.popup({ offset: [0, -r] })
+                        .setLatLng([city.lat, city.lng])
+                        .setContent(`
+                            <div class="city-popup">
+                                <div class="city-name">${city.name}</div>
+                                <div class="city-pop">Population: ${formatPop(city.pop)}</div>
+                                <div class="city-bucket">${LABELS[bucket]}</div>
+                            </div>
+                        `)
+                        .openOn(map);
+                    L.DomEvent.stopPropagation(e);
+                });
+
+                circle.on('mouseover', function() {
+                    this.setStyle({ fillOpacity: 1, weight: 2 });
+                });
+                circle.on('mouseout', function() {
+                    this.setStyle({ fillOpacity: 0.75, weight: 1 });
+                });
+
+                allMarkers.push({ circle, pop: city.pop });
+            });
+        })
+        .catch(err => {
+            document.getElementById('count-label').textContent = 'Error loading cities. Run from a local server.';
+            console.error(err);
+        });
+</script>
+</body>
+</html>
