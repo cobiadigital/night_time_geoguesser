@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nightfall Geographer</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: radial-gradient(ellipse at center, #1a1a2e 0%, #000 100%);
+            color: #eee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 640px;
+            padding: 40px 24px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.4rem;
+            margin: 0 0 12px;
+            color: #FFEB3B;
+            letter-spacing: 0.02em;
+        }
+        p.tagline {
+            color: #aaa;
+            margin: 0 0 36px;
+            font-size: 1.05rem;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+        @media (max-width: 520px) {
+            .cards { grid-template-columns: 1fr; }
+        }
+        a.card {
+            display: block;
+            padding: 24px 20px;
+            background: rgba(30, 30, 45, 0.85);
+            border: 1px solid #444;
+            border-radius: 10px;
+            color: #eee;
+            text-decoration: none;
+            transition: border-color 0.15s, transform 0.15s, background 0.15s;
+        }
+        a.card:hover {
+            border-color: #FF9800;
+            background: rgba(40, 40, 55, 0.95);
+            transform: translateY(-2px);
+        }
+        a.card h2 {
+            margin: 0 0 8px;
+            font-size: 1.2rem;
+            color: #FF9800;
+        }
+        a.card p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #bbb;
+            line-height: 1.4;
+        }
+        footer {
+            margin-top: 36px;
+            font-size: 0.78rem;
+            color: #666;
+        }
+        footer a { color: #888; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Nightfall Geographer</h1>
+        <p class="tagline">Identify North American cities from their nighttime lights.</p>
+
+        <div class="cards">
+            <a class="card" href="game.html">
+                <h2>Play the Game</h2>
+                <p>Click city light clusters on NASA's Black Marble imagery and label them. Score how close your guesses are.</p>
+            </a>
+            <a class="card" href="study.html">
+                <h2>Study Map</h2>
+                <p>Browse the 100k+ population reference map with daytime satellite imagery to learn the cities.</p>
+            </a>
+        </div>
+
+        <footer>
+            Imagery: NASA GIBS &middot; Esri &middot; <a href="https://github.com/cobiadigital/night_time_geoguesser">Source on GitHub</a>
+        </footer>
+    </div>
+</body>
+</html>
