@@ -42,12 +42,6 @@
         "pop": 51191
     },
     {
-        "name": "Fier-\u00c7if\u00e7i, AL",
-        "lat": 40.71667,
-        "lng": 19.56667,
-        "pop": 60995
-    },
-    {
         "name": "Fier, AL",
         "lat": 40.7251,
         "lng": 19.55823,
@@ -66,12 +60,6 @@
         "pop": 62232
     },
     {
-        "name": "D\u00f6bling, AT",
-        "lat": 48.25,
-        "lng": 16.33333,
-        "pop": 75418
-    },
-    {
         "name": "Vienna, AT",
         "lat": 48.20849,
         "lng": 16.37208,
@@ -84,28 +72,10 @@
         "pop": 58882
     },
     {
-        "name": "Simmering, AT",
-        "lat": 48.18333,
-        "lng": 16.43333,
-        "pop": 101420
-    },
-    {
         "name": "Salzburg, AT",
         "lat": 47.79941,
         "lng": 13.04399,
         "pop": 157245
-    },
-    {
-        "name": "Ottakring, AT",
-        "lat": 48.21667,
-        "lng": 16.3,
-        "pop": 104627
-    },
-    {
-        "name": "Meidling, AT",
-        "lat": 48.16667,
-        "lng": 16.33333,
-        "pop": 97624
     },
     {
         "name": "Linz, AT",
@@ -126,82 +96,10 @@
         "pop": 132493
     },
     {
-        "name": "Penzing, AT",
-        "lat": 48.2,
-        "lng": 16.26667,
-        "pop": 98176
-    },
-    {
-        "name": "Hietzing, AT",
-        "lat": 48.18623,
-        "lng": 16.2965,
-        "pop": 54265
-    },
-    {
-        "name": "Hernals, AT",
-        "lat": 48.22544,
-        "lng": 16.30871,
-        "pop": 57546
-    },
-    {
         "name": "Graz, AT",
         "lat": 47.06733,
         "lng": 15.44197,
         "pop": 303270
-    },
-    {
-        "name": "F\u00fcnfhaus, AT",
-        "lat": 48.19596,
-        "lng": 16.3183,
-        "pop": 76396
-    },
-    {
-        "name": "Floridsdorf, AT",
-        "lat": 48.25,
-        "lng": 16.4,
-        "pop": 162779
-    },
-    {
-        "name": "Aspern, AT",
-        "lat": 48.21806,
-        "lng": 16.48306,
-        "pop": 50687
-    },
-    {
-        "name": "Favoriten, AT",
-        "lat": 48.16116,
-        "lng": 16.38233,
-        "pop": 201882
-    },
-    {
-        "name": "Donaustadt, AT",
-        "lat": 48.2333,
-        "lng": 16.46002,
-        "pop": 187007
-    },
-    {
-        "name": "W\u00e4hring, AT",
-        "lat": 48.22611,
-        "lng": 16.34484,
-        "pop": 51402
-    },
-    {
-        "name": "Landstra\u00dfe, AT",
-        "lat": 48.2019,
-        "lng": 16.38792,
-        "pop": 98389
-    },
-    {
-        "name": "Margareten, AT",
-        "lat": 48.1855,
-        "lng": 16.35373,
-        "pop": 54412
-    },
-    {
-        "name": "Brigittenau, AT",
-        "lat": 48.24275,
-        "lng": 16.37551,
-        "pop": 86967
     },
     {
         "name": "Zenica, BA",
@@ -738,12 +636,6 @@
         "pop": 177595
     },
     {
-        "name": "Z\u00fcrich (Kreis 11), CH",
-        "lat": 47.42326,
-        "lng": 8.52166,
-        "pop": 54260
-    },
-    {
         "name": "Str\u00f3volos, CY",
         "lat": 35.14867,
         "lng": 33.33384,
@@ -772,12 +664,6 @@
         "lat": 49.22645,
         "lng": 17.67065,
         "pop": 72973
-    },
-    {
-        "name": "\u017di\u017ekov, CZ",
-        "lat": 50.08333,
-        "lng": 14.45,
-        "pop": 58267
     },
     {
         "name": "\u00dast\u00ed nad Labem, CZ",
@@ -876,12 +762,6 @@
         "pop": 53590
     },
     {
-        "name": "Chodov, CZ",
-        "lat": 50.03669,
-        "lng": 14.50444,
-        "pop": 50043
-    },
-    {
         "name": "\u010cesk\u00e9 Bud\u011bjovice, CZ",
         "lat": 48.97447,
         "lng": 14.47434,
@@ -904,12 +784,6 @@
         "lat": 50.72724,
         "lng": 12.48839,
         "pop": 98796
-    },
-    {
-        "name": "Zehlendorf, DE",
-        "lat": 52.43333,
-        "lng": 13.25,
-        "pop": 54328
     },
     {
         "name": "W\u00fcrzburg, DE",
@@ -948,18 +822,6 @@
         "pop": 101247
     },
     {
-        "name": "Winterhude, DE",
-        "lat": 53.59368,
-        "lng": 10.01123,
-        "pop": 56382
-    },
-    {
-        "name": "Wilmersdorf, DE",
-        "lat": 52.48333,
-        "lng": 13.31667,
-        "pop": 101877
-    },
-    {
         "name": "Willich, DE",
         "lat": 51.26371,
         "lng": 6.54734,
@@ -970,12 +832,6 @@
         "lat": 53.5476,
         "lng": 8.10395,
         "pop": 84393
-    },
-    {
-        "name": "Wilhelmsburg, DE",
-        "lat": 53.49624,
-        "lng": 10.01712,
-        "pop": 53064
     },
     {
         "name": "Wiesbaden, DE",
@@ -1000,12 +856,6 @@
         "lat": 50.9803,
         "lng": 11.32903,
         "pop": 64727
-    },
-    {
-        "name": "Wedding, DE",
-        "lat": 52.54734,
-        "lng": 13.35594,
-        "pop": 85275
     },
     {
         "name": "Waiblingen, DE",
@@ -1062,12 +912,6 @@
         "pop": 100129
     },
     {
-        "name": "Tempelhof, DE",
-        "lat": 52.46667,
-        "lng": 13.4,
-        "pop": 61769
-    },
-    {
         "name": "Stuttgart, DE",
         "lat": 48.78232,
         "lng": 9.17702,
@@ -1084,12 +928,6 @@
         "lat": 50.77368,
         "lng": 6.22595,
         "pop": 56377
-    },
-    {
-        "name": "Steglitz, DE",
-        "lat": 52.45606,
-        "lng": 13.332,
-        "pop": 72464
     },
     {
         "name": "Speyer, DE",
@@ -1140,12 +978,6 @@
         "pop": 61216
     },
     {
-        "name": "Sch\u00f6neberg, DE",
-        "lat": 52.49801,
-        "lng": 13.3443,
-        "pop": 122658
-    },
-    {
         "name": "Sankt Augustin, DE",
         "lat": 50.77538,
         "lng": 7.197,
@@ -1182,12 +1014,6 @@
         "pop": 60167
     },
     {
-        "name": "Rheinhausen, DE",
-        "lat": 51.40055,
-        "lng": 6.71187,
-        "pop": 78203
-    },
-    {
         "name": "Rheine, DE",
         "lat": 52.28509,
         "lng": 7.44055,
@@ -1204,12 +1030,6 @@
         "lat": 51.17983,
         "lng": 7.1925,
         "pop": 117118
-    },
-    {
-        "name": "Reinickendorf, DE",
-        "lat": 52.56395,
-        "lng": 13.33552,
-        "pop": 83972
     },
     {
         "name": "Regensburg, DE",
@@ -1230,34 +1050,16 @@
         "pop": 91606
     },
     {
-        "name": "Rahlstedt, DE",
-        "lat": 53.60194,
-        "lng": 10.15667,
-        "pop": 92511
-    },
-    {
         "name": "Pulheim, DE",
         "lat": 50.99965,
         "lng": 6.80632,
         "pop": 53762
     },
     {
-        "name": "Prenzlauer Berg, DE",
-        "lat": 52.53878,
-        "lng": 13.42443,
-        "pop": 148878
-    },
-    {
         "name": "Potsdam, DE",
         "lat": 52.39886,
         "lng": 13.06566,
         "pop": 182112
-    },
-    {
-        "name": "Porz am Rhein, DE",
-        "lat": 50.88637,
-        "lng": 7.0583,
-        "pop": 113415
     },
     {
         "name": "Plauen, DE",
@@ -1276,12 +1078,6 @@
         "lat": 48.5665,
         "lng": 13.43122,
         "pop": 50560
-    },
-    {
-        "name": "Pankow, DE",
-        "lat": 52.56926,
-        "lng": 13.40186,
-        "pop": 65375
     },
     {
         "name": "Paderborn, DE",
@@ -1338,12 +1134,6 @@
         "pop": 71439
     },
     {
-        "name": "Nippes, DE",
-        "lat": 50.96545,
-        "lng": 6.95314,
-        "pop": 113487
-    },
-    {
         "name": "Neuwied, DE",
         "lat": 50.4336,
         "lng": 7.47057,
@@ -1362,12 +1152,6 @@
         "pop": 53984
     },
     {
-        "name": "Neue Neustadt, DE",
-        "lat": 52.15,
-        "lng": 11.63333,
-        "pop": 226851
-    },
-    {
         "name": "Neuss, DE",
         "lat": 51.19807,
         "lng": 6.68504,
@@ -1378,12 +1162,6 @@
         "lat": 54.07399,
         "lng": 9.98456,
         "pop": 80196
-    },
-    {
-        "name": "Neuk\u00f6lln, DE",
-        "lat": 52.47719,
-        "lng": 13.43126,
-        "pop": 164636
     },
     {
         "name": "Neubr\u00fcck, DE",
@@ -1428,12 +1206,6 @@
         "pop": 103487
     },
     {
-        "name": "Moabit, DE",
-        "lat": 52.52635,
-        "lng": 13.33903,
-        "pop": 81021
-    },
-    {
         "name": "Minden, DE",
         "lat": 52.28953,
         "lng": 8.91455,
@@ -1452,22 +1224,10 @@
         "pop": 54826
     },
     {
-        "name": "Marzahn, DE",
-        "lat": 52.54525,
-        "lng": 13.56983,
-        "pop": 111508
-    },
-    {
         "name": "Marl, DE",
         "lat": 51.65671,
         "lng": 7.09038,
         "pop": 91398
-    },
-    {
-        "name": "Mariendorf, DE",
-        "lat": 52.4378,
-        "lng": 13.38109,
-        "pop": 52734
     },
     {
         "name": "Marburg an der Lahn, DE",
@@ -1542,18 +1302,6 @@
         "pop": 51310
     },
     {
-        "name": "Lichterfelde, DE",
-        "lat": 52.4333,
-        "lng": 13.30762,
-        "pop": 85885
-    },
-    {
-        "name": "Lichtenrade, DE",
-        "lat": 52.39844,
-        "lng": 13.40637,
-        "pop": 52110
-    },
-    {
         "name": "Leverkusen, DE",
         "lat": 51.0303,
         "lng": 6.98432,
@@ -1584,28 +1332,10 @@
         "pop": 60488
     },
     {
-        "name": "Kreuzberg, DE",
-        "lat": 52.49973,
-        "lng": 13.40338,
-        "pop": 153135
-    },
-    {
         "name": "Krefeld, DE",
         "lat": 51.33645,
         "lng": 6.55381,
         "pop": 237984
-    },
-    {
-        "name": "K\u00f6penick, DE",
-        "lat": 52.4455,
-        "lng": 13.57455,
-        "pop": 67148
-    },
-    {
-        "name": "Berlin K\u00f6penick, DE",
-        "lat": 52.44254,
-        "lng": 13.58228,
-        "pop": 59561
     },
     {
         "name": "Konstanz, DE",
@@ -1722,12 +1452,6 @@
         "pop": 64879
     },
     {
-        "name": "Hellersdorf, DE",
-        "lat": 52.53319,
-        "lng": 13.6088,
-        "pop": 84103
-    },
-    {
         "name": "Heilbronn, DE",
         "lat": 49.13995,
         "lng": 9.22054,
@@ -1752,12 +1476,6 @@
         "pop": 56866
     },
     {
-        "name": "Harburg, DE",
-        "lat": 53.46057,
-        "lng": 9.98388,
-        "pop": 169221
-    },
-    {
         "name": "Hannover, DE",
         "lat": 52.37052,
         "lng": 9.73322,
@@ -1780,36 +1498,6 @@
         "lat": 52.10397,
         "lng": 9.35623,
         "pop": 58666
-    },
-    {
-        "name": "Wandsbek, DE",
-        "lat": 53.58334,
-        "lng": 10.08305,
-        "pop": 411422
-    },
-    {
-        "name": "Marienthal, DE",
-        "lat": 53.56667,
-        "lng": 10.08333,
-        "pop": 287101
-    },
-    {
-        "name": "Hamburg-Mitte, DE",
-        "lat": 53.55,
-        "lng": 10.01667,
-        "pop": 301231
-    },
-    {
-        "name": "Eimsb\u00fcttel, DE",
-        "lat": 53.57416,
-        "lng": 9.95679,
-        "pop": 269118
-    },
-    {
-        "name": "Altona, DE",
-        "lat": 53.55,
-        "lng": 9.93333,
-        "pop": 250192
     },
     {
         "name": "Hamburg, DE",
@@ -1884,12 +1572,6 @@
         "pop": 74411
     },
     {
-        "name": "Gesundbrunnen, DE",
-        "lat": 52.55035,
-        "lng": 13.39139,
-        "pop": 93862
-    },
-    {
         "name": "Gera, DE",
         "lat": 50.88029,
         "lng": 12.08187,
@@ -1920,22 +1602,10 @@
         "pop": 63760
     },
     {
-        "name": "Friedrichshain, DE",
-        "lat": 52.51559,
-        "lng": 13.45482,
-        "pop": 117829
-    },
-    {
         "name": "Friedrichshafen, DE",
         "lat": 47.65689,
         "lng": 9.47554,
         "pop": 58403
-    },
-    {
-        "name": "Friedrichsfelde, DE",
-        "lat": 52.50575,
-        "lng": 13.50812,
-        "pop": 55423
     },
     {
         "name": "Freiburg, DE",
@@ -2100,12 +1770,6 @@
         "pop": 247220
     },
     {
-        "name": "Charlottenburg, DE",
-        "lat": 52.51667,
-        "lng": 13.28333,
-        "pop": 129359
-    },
-    {
         "name": "Celle, DE",
         "lat": 52.62264,
         "lng": 10.08047,
@@ -2154,12 +1818,6 @@
         "pop": 330579
     },
     {
-        "name": "Bogenhausen, DE",
-        "lat": 48.15221,
-        "lng": 11.61585,
-        "pop": 77542
-    },
-    {
         "name": "Bochum, DE",
         "lat": 51.48165,
         "lng": 7.21648,
@@ -2170,12 +1828,6 @@
         "lat": 51.83879,
         "lng": 6.61531,
         "pop": 73943
-    },
-    {
-        "name": "Billstedt, DE",
-        "lat": 53.55,
-        "lng": 10.13333,
-        "pop": 71077
     },
     {
         "name": "Bielefeld, DE",
@@ -2272,48 +1924,6 @@
         "lat": 50.77664,
         "lng": 6.08342,
         "pop": 265208
-    },
-    {
-        "name": "Mitte, DE",
-        "lat": 52.52003,
-        "lng": 13.40489,
-        "pop": 102338
-    },
-    {
-        "name": "Bergedorf, DE",
-        "lat": 53.48462,
-        "lng": 10.22904,
-        "pop": 119665
-    },
-    {
-        "name": "Treptow, DE",
-        "lat": 52.49376,
-        "lng": 13.44469,
-        "pop": 50000
-    },
-    {
-        "name": "Neu-Hohensch\u00f6nhausen, DE",
-        "lat": 52.56681,
-        "lng": 13.51255,
-        "pop": 56921
-    },
-    {
-        "name": "Alt-Hohensch\u00f6nhausen, DE",
-        "lat": 52.54608,
-        "lng": 13.5013,
-        "pop": 50070
-    },
-    {
-        "name": "Hamburg-Nord, DE",
-        "lat": 53.58935,
-        "lng": 9.984,
-        "pop": 315514
-    },
-    {
-        "name": "Rodenkirchen, DE",
-        "lat": 50.89328,
-        "lng": 6.99481,
-        "pop": 110158
     },
     {
         "name": "Vejle, DK",
@@ -2856,12 +2466,6 @@
         "pop": 257407
     },
     {
-        "name": "Villaverde, ES",
-        "lat": 40.35,
-        "lng": -3.7,
-        "pop": 126802
-    },
-    {
         "name": "Vilanova i la Geltr\u00fa, ES",
         "lat": 41.22392,
         "lng": 1.72511,
@@ -2878,18 +2482,6 @@
         "lat": 42.23282,
         "lng": -8.72264,
         "pop": 293642
-    },
-    {
-        "name": "Vic\u00e1lvaro, ES",
-        "lat": 40.4,
-        "lng": -3.6,
-        "pop": 66439
-    },
-    {
-        "name": "Vallecas, ES",
-        "lat": 40.38333,
-        "lng": -3.61667,
-        "pop": 53208
     },
     {
         "name": "Valladolid, ES",
@@ -2920,12 +2512,6 @@
         "lat": 40.45535,
         "lng": -3.46973,
         "pop": 118162
-    },
-    {
-        "name": "Tetu\u00e1n de las Victorias, ES",
-        "lat": 40.45975,
-        "lng": -3.6975,
-        "pop": 155000
     },
     {
         "name": "Terrassa, ES",
@@ -3000,12 +2586,6 @@
         "pop": 82428
     },
     {
-        "name": "Sant Andreu, ES",
-        "lat": 41.43541,
-        "lng": 2.18982,
-        "pop": 142598
-    },
-    {
         "name": "Salamanca, ES",
         "lat": 40.96882,
         "lng": -5.66388,
@@ -3028,12 +2608,6 @@
         "lat": 41.15612,
         "lng": 1.10687,
         "pop": 103477
-    },
-    {
-        "name": "Puente de Vallecas, ES",
-        "lat": 40.39354,
-        "lng": -3.662,
-        "pop": 244151
     },
     {
         "name": "Pozuelo de Alarc\u00f3n, ES",
@@ -3088,12 +2662,6 @@
         "lat": 40.32234,
         "lng": -3.86496,
         "pop": 207095
-    },
-    {
-        "name": "Moratalaz, ES",
-        "lat": 40.40742,
-        "lng": -3.64935,
-        "pop": 104923
     },
     {
         "name": "Mollet del Vall\u00e8s, ES",
@@ -3186,12 +2754,6 @@
         "pop": 257038
     },
     {
-        "name": "Hortaleza, ES",
-        "lat": 40.47444,
-        "lng": -3.6411,
-        "pop": 161661
-    },
-    {
         "name": "Getxo, ES",
         "lat": 43.35689,
         "lng": -3.01146,
@@ -3208,12 +2770,6 @@
         "lat": 41.60797,
         "lng": 2.28773,
         "pop": 60981
-    },
-    {
-        "name": "Gr\u00e0cia, ES",
-        "lat": 41.40237,
-        "lng": 2.15641,
-        "pop": 121502
     },
     {
         "name": "Gij\u00f3n, ES",
@@ -3234,22 +2790,10 @@
         "pop": 100266
     },
     {
-        "name": "Gamonal, ES",
-        "lat": 42.35664,
-        "lng": -3.67321,
-        "pop": 60000
-    },
-    {
         "name": "Fuenlabrada, ES",
         "lat": 40.28419,
         "lng": -3.79415,
         "pop": 190496
-    },
-    {
-        "name": "Fuencarral, ES",
-        "lat": 40.5,
-        "lng": -3.68333,
-        "pop": 238765
     },
     {
         "name": "El Prat de Llobregat, ES",
@@ -3360,12 +2904,6 @@
         "pop": 54055
     },
     {
-        "name": "Algorta, ES",
-        "lat": 43.34927,
-        "lng": -3.0094,
-        "pop": 82624
-    },
-    {
         "name": "Alcorc\u00f3n, ES",
         "lat": 40.34582,
         "lng": -3.82487,
@@ -3384,52 +2922,10 @@
         "pop": 193751
     },
     {
-        "name": "Nou Barris, ES",
-        "lat": 41.44163,
-        "lng": 2.17727,
-        "pop": 166310
-    },
-    {
         "name": "Ceuta, ES",
         "lat": 35.88919,
         "lng": -5.32042,
         "pop": 83179
-    },
-    {
-        "name": "Moncloa-Aravaca, ES",
-        "lat": 40.43547,
-        "lng": -3.7317,
-        "pop": 116531
-    },
-    {
-        "name": "Eixample, ES",
-        "lat": 41.38896,
-        "lng": 2.16179,
-        "pop": 266477
-    },
-    {
-        "name": "Les Corts, ES",
-        "lat": 41.38712,
-        "lng": 2.13007,
-        "pop": 82270
-    },
-    {
-        "name": "Sarri\u00e0-Sant Gervasi, ES",
-        "lat": 41.40104,
-        "lng": 2.1394,
-        "pop": 147912
-    },
-    {
-        "name": "Horta-Guinard\u00f3, ES",
-        "lat": 41.41849,
-        "lng": 2.1677,
-        "pop": 168092
-    },
-    {
-        "name": "Sants-Montju\u00efc, ES",
-        "lat": 41.37263,
-        "lng": 2.1546,
-        "pop": 183120
     },
     {
         "name": "Sant Mart\u00ed, ES",
@@ -3438,160 +2934,10 @@
         "pop": 235719
     },
     {
-        "name": "Ciutat Vella, ES",
-        "lat": 41.38022,
-        "lng": 2.17319,
-        "pop": 102347
-    },
-    {
-        "name": "Arganzuela, ES",
-        "lat": 40.40021,
-        "lng": -3.69618,
-        "pop": 148797
-    },
-    {
-        "name": "San Blas-Canillejas, ES",
-        "lat": 40.43893,
-        "lng": -3.61537,
-        "pop": 157367
-    },
-    {
-        "name": "Latina, ES",
-        "lat": 40.38897,
-        "lng": -3.74569,
-        "pop": 256644
-    },
-    {
-        "name": "Usera, ES",
-        "lat": 40.38866,
-        "lng": -3.70035,
-        "pop": 141189
-    },
-    {
-        "name": "Salamanca, ES",
-        "lat": 40.42972,
-        "lng": -3.67975,
-        "pop": 147707
-    },
-    {
-        "name": "Chamber\u00ed, ES",
-        "lat": 40.43404,
-        "lng": -3.70379,
-        "pop": 145934
-    },
-    {
-        "name": "Carabanchel, ES",
-        "lat": 40.39094,
-        "lng": -3.7242,
-        "pop": 253678
-    },
-    {
-        "name": "Madrid Centro, ES",
-        "lat": 40.41831,
-        "lng": -3.70275,
-        "pop": 149718
-    },
-    {
-        "name": "Retiro, ES",
-        "lat": 40.41317,
-        "lng": -3.68307,
-        "pop": 126058
-    },
-    {
-        "name": "Delicias, ES",
-        "lat": 41.64928,
-        "lng": -0.90757,
-        "pop": 110520
-    },
-    {
         "name": "Santutxu, ES",
         "lat": 43.25347,
         "lng": -2.9161,
         "pop": 60000
-    },
-    {
-        "name": "Sagrada Fam\u00edlia, ES",
-        "lat": 41.40408,
-        "lng": 2.17332,
-        "pop": 51623
-    },
-    {
-        "name": "Centro, ES",
-        "lat": 28.1272,
-        "lng": -15.4314,
-        "pop": 88546
-    },
-    {
-        "name": "Fuencarral-El Pardo, ES",
-        "lat": 40.4984,
-        "lng": -3.7314,
-        "pop": 220085
-    },
-    {
-        "name": "Villa de Vallecas, ES",
-        "lat": 40.36695,
-        "lng": -3.60146,
-        "pop": 65162
-    },
-    {
-        "name": "la Vila de Gr\u00e0cia, ES",
-        "lat": 41.40315,
-        "lng": 2.15687,
-        "pop": 50928
-    },
-    {
-        "name": "la Nova Esquerra de l'Eixample, ES",
-        "lat": 41.38309,
-        "lng": 2.149,
-        "pop": 57676
-    },
-    {
-        "name": "Barri de Sant Andreu, ES",
-        "lat": 41.43693,
-        "lng": 2.19022,
-        "pop": 56818
-    },
-    {
-        "name": "Pueblo Nuevo, ES",
-        "lat": 40.42629,
-        "lng": -3.63546,
-        "pop": 62840
-    },
-    {
-        "name": "Valverde, ES",
-        "lat": 40.50024,
-        "lng": -3.67877,
-        "pop": 64757
-    },
-    {
-        "name": "Las \u00c1guilas, ES",
-        "lat": 40.3818,
-        "lng": -3.77109,
-        "pop": 51268
-    },
-    {
-        "name": "Aluche, ES",
-        "lat": 40.39191,
-        "lng": -3.75669,
-        "pop": 66588
-    },
-    {
-        "name": "Ventas, ES",
-        "lat": 40.42248,
-        "lng": -3.64741,
-        "pop": 50218
-    },
-    {
-        "name": "Pinar del Rey, ES",
-        "lat": 40.4724,
-        "lng": -3.64709,
-        "pop": 52031
-    },
-    {
-        "name": "Valdefuentes, ES",
-        "lat": 40.49367,
-        "lng": -3.6359,
-        "pop": 69176
     },
     {
         "name": "Vantaa, FI",
@@ -3720,12 +3066,6 @@
         "pop": 51853
     },
     {
-        "name": "East Helsinki, FI",
-        "lat": 60.21043,
-        "lng": 25.08289,
-        "pop": 170557
-    },
-    {
         "name": "Vitry-sur-Seine, FR",
         "lat": 48.78716,
         "lng": 2.40332,
@@ -3748,12 +3088,6 @@
         "lat": 45.69706,
         "lng": 4.88593,
         "pop": 57584
-    },
-    {
-        "name": "Paris 15 Vaugirard, FR",
-        "lat": 48.8412,
-        "lng": 2.3003,
-        "pop": 229713
     },
     {
         "name": "Vannes, FR",
@@ -3882,12 +3216,6 @@
         "pop": 99507
     },
     {
-        "name": "Paris 12 Reuilly, FR",
-        "lat": 48.8412,
-        "lng": 2.3876,
-        "pop": 138024
-    },
-    {
         "name": "Rennes, FR",
         "lat": 48.11109,
         "lng": -1.67431,
@@ -3904,12 +3232,6 @@
         "lat": 47.99597,
         "lng": -4.09795,
         "pop": 63849
-    },
-    {
-        "name": "Paris 11 Popincourt, FR",
-        "lat": 48.8574,
-        "lng": 2.3795,
-        "pop": 138170
     },
     {
         "name": "Poitiers, FR",
@@ -3936,12 +3258,6 @@
         "pop": 82697
     },
     {
-        "name": "Paris 16 Passy, FR",
-        "lat": 48.8637,
-        "lng": 2.2769,
-        "pop": 159386
-    },
-    {
         "name": "Paris, FR",
         "lat": 48.85341,
         "lng": 2.3488,
@@ -3954,28 +3270,10 @@
         "pop": 52922
     },
     {
-        "name": "Paris 05 Panth\u00e9on, FR",
-        "lat": 48.8448,
-        "lng": 2.3471,
-        "pop": 55252
-    },
-    {
         "name": "Orl\u00e9ans, FR",
         "lat": 47.90248,
         "lng": 1.90407,
         "pop": 116344
-    },
-    {
-        "name": "Paris 09 Op\u00e9ra, FR",
-        "lat": 48.8718,
-        "lng": 2.3399,
-        "pop": 57271
-    },
-    {
-        "name": "Paris 14 Observatoire, FR",
-        "lat": 48.8331,
-        "lng": 2.3264,
-        "pop": 136455
     },
     {
         "name": "Noisy-le-Grand, FR",
@@ -4066,12 +3364,6 @@
         "lat": 44.84247,
         "lng": -0.64512,
         "pop": 69791
-    },
-    {
-        "name": "Paris 20 M\u00e9nilmontant, FR",
-        "lat": 48.8646,
-        "lng": 2.3984,
-        "pop": 185140
     },
     {
         "name": "Meaux, FR",
@@ -4182,12 +3474,6 @@
         "pop": 158552
     },
     {
-        "name": "Paris 13 Gobelins, FR",
-        "lat": 48.8322,
-        "lng": 2.3561,
-        "pop": 181271
-    },
-    {
         "name": "Fr\u00e9jus, FR",
         "lat": 43.43325,
         "lng": 6.73555,
@@ -4210,12 +3496,6 @@
         "lat": 49.02414,
         "lng": 1.15082,
         "pop": 57795
-    },
-    {
-        "name": "Paris 10 Entrep\u00f4t, FR",
-        "lat": 48.8709,
-        "lng": 2.3561,
-        "pop": 83873
     },
     {
         "name": "Dunkerque, FR",
@@ -4338,18 +3618,6 @@
         "pop": 110624
     },
     {
-        "name": "Paris 19 Buttes-Chaumont, FR",
-        "lat": 48.8817,
-        "lng": 2.3822,
-        "pop": 178691
-    },
-    {
-        "name": "Paris 18 Buttes-Montmartre, FR",
-        "lat": 48.8925,
-        "lng": 2.3444,
-        "pop": 183127
-    },
-    {
         "name": "Brive-la-Gaillarde, FR",
         "lat": 45.1589,
         "lng": 1.53326,
@@ -4408,12 +3676,6 @@
         "lat": 49.43333,
         "lng": 2.08333,
         "pop": 53393
-    },
-    {
-        "name": "Paris 17 Batignolles-Monceau, FR",
-        "lat": 48.8835,
-        "lng": 2.3219,
-        "pop": 159212
     },
     {
         "name": "Avignon, FR",
@@ -4500,84 +3762,6 @@
         "pop": 62400
     },
     {
-        "name": "Lyon 03, FR",
-        "lat": 45.76124,
-        "lng": 4.85184,
-        "pop": 102725
-    },
-    {
-        "name": "Lyon 06, FR",
-        "lat": 45.76788,
-        "lng": 4.85064,
-        "pop": 52862
-    },
-    {
-        "name": "Lyon 07, FR",
-        "lat": 45.74525,
-        "lng": 4.84197,
-        "pop": 82573
-    },
-    {
-        "name": "Lyon 08, FR",
-        "lat": 45.73626,
-        "lng": 4.86866,
-        "pop": 86154
-    },
-    {
-        "name": "Lyon 09, FR",
-        "lat": 45.77255,
-        "lng": 4.80326,
-        "pop": 51983
-    },
-    {
-        "name": "Marseille 08, FR",
-        "lat": 43.27083,
-        "lng": 5.3821,
-        "pop": 78837
-    },
-    {
-        "name": "Marseille 10, FR",
-        "lat": 43.27889,
-        "lng": 5.41523,
-        "pop": 51299
-    },
-    {
-        "name": "Marseille 09, FR",
-        "lat": 43.25433,
-        "lng": 5.4057,
-        "pop": 76868
-    },
-    {
-        "name": "Marseille 11, FR",
-        "lat": 43.2907,
-        "lng": 5.4384,
-        "pop": 56792
-    },
-    {
-        "name": "Marseille 12, FR",
-        "lat": 43.29614,
-        "lng": 5.43617,
-        "pop": 58734
-    },
-    {
-        "name": "Marseille 13, FR",
-        "lat": 43.31856,
-        "lng": 5.40836,
-        "pop": 89316
-    },
-    {
-        "name": "Marseille 14, FR",
-        "lat": 43.34447,
-        "lng": 5.38004,
-        "pop": 61920
-    },
-    {
-        "name": "Marseille 15, FR",
-        "lat": 43.37224,
-        "lng": 5.35386,
-        "pop": 77770
-    },
-    {
         "name": "Saint-Quentin-en-Yvelines, FR",
         "lat": 48.77186,
         "lng": 2.01891,
@@ -4594,36 +3778,6 @@
         "lat": 48.83584,
         "lng": 2.64241,
         "pop": 318325
-    },
-    {
-        "name": "Picpus, FR",
-        "lat": 48.84258,
-        "lng": 2.40014,
-        "pop": 61920
-    },
-    {
-        "name": "Paris 10e Arrondissement, FR",
-        "lat": 48.87668,
-        "lng": 2.35904,
-        "pop": 83459
-    },
-    {
-        "name": "Paris 11e Arrondissement, FR",
-        "lat": 48.85834,
-        "lng": 2.37952,
-        "pop": 144292
-    },
-    {
-        "name": "Paris 12e Arrondissement, FR",
-        "lat": 48.83523,
-        "lng": 2.43505,
-        "pop": 140311
-    },
-    {
-        "name": "Paris 13e Arrondissement, FR",
-        "lat": 48.8262,
-        "lng": 2.35986,
-        "pop": 177833
     },
     {
         "name": "Gare, FR",
@@ -4678,12 +3832,6 @@
         "lat": 51.31903,
         "lng": -0.55893,
         "pop": 103900
-    },
-    {
-        "name": "Wimbledon, GB",
-        "lat": 51.42212,
-        "lng": -0.20805,
-        "pop": 68187
     },
     {
         "name": "Wigan, GB",
@@ -5076,12 +4224,6 @@
         "pop": 318014
     },
     {
-        "name": "Putney, GB",
-        "lat": 51.46072,
-        "lng": -0.21814,
-        "pop": 77140
-    },
-    {
         "name": "Purley, GB",
         "lat": 51.33678,
         "lng": -0.11201,
@@ -5278,12 +4420,6 @@
         "lat": 52.76667,
         "lng": -1.2,
         "pop": 64884
-    },
-    {
-        "name": "Londonderry County Borough, GB",
-        "lat": 54.99721,
-        "lng": -7.30917,
-        "pop": 87153
     },
     {
         "name": "Derry, GB",
@@ -5790,12 +4926,6 @@
         "pop": 118836
     },
     {
-        "name": "Chelsea, GB",
-        "lat": 51.48755,
-        "lng": -0.16936,
-        "pop": 60000
-    },
-    {
         "name": "Chelmsford, GB",
         "lat": 51.73575,
         "lng": 0.46958,
@@ -5884,12 +5014,6 @@
         "lat": 51.62127,
         "lng": 0.30556,
         "pop": 52586
-    },
-    {
-        "name": "Brent, GB",
-        "lat": 51.55306,
-        "lng": -0.3023,
-        "pop": 329100
     },
     {
         "name": "Braintree, GB",
@@ -6084,52 +5208,10 @@
         "pop": 59236
     },
     {
-        "name": "Battersea, GB",
-        "lat": 51.47475,
-        "lng": -0.15547,
-        "pop": 75651
-    },
-    {
         "name": "South Croydon, GB",
         "lat": 51.36217,
         "lng": -0.09421,
         "pop": 55198
-    },
-    {
-        "name": "Becontree, GB",
-        "lat": 51.5529,
-        "lng": 0.129,
-        "pop": 100000
-    },
-    {
-        "name": "Brixton, GB",
-        "lat": 51.46593,
-        "lng": -0.10652,
-        "pop": 66300
-    },
-    {
-        "name": "Canary Wharf, GB",
-        "lat": 51.50519,
-        "lng": -0.02085,
-        "pop": 73390
-    },
-    {
-        "name": "Leytonstone, GB",
-        "lat": 51.56856,
-        "lng": 0.00768,
-        "pop": 54696
-    },
-    {
-        "name": "Mendip, GB",
-        "lat": 51.2372,
-        "lng": -2.6266,
-        "pop": 110000
-    },
-    {
-        "name": "Peckham, GB",
-        "lat": 51.47403,
-        "lng": -0.06969,
-        "pop": 71552
     },
     {
         "name": "Rossendale, GB",
@@ -6142,12 +5224,6 @@
         "lat": 53.36797,
         "lng": -1.84536,
         "pop": 92666
-    },
-    {
-        "name": "Stamford Hill, GB",
-        "lat": 51.56872,
-        "lng": -0.07334,
-        "pop": 68050
     },
     {
         "name": "Archway, GB",
@@ -6492,12 +5568,6 @@
         "pop": 59732
     },
     {
-        "name": "Zugl\u00f3, HU",
-        "lat": 47.51758,
-        "lng": 19.10549,
-        "pop": 130000
-    },
-    {
         "name": "Zalaegerszeg, HU",
         "lat": 46.83695,
         "lng": 16.84401,
@@ -6508,12 +5578,6 @@
         "lat": 47.09327,
         "lng": 17.91149,
         "pop": 56927
-    },
-    {
-        "name": "\u00dajpest, HU",
-        "lat": 47.56863,
-        "lng": 19.08456,
-        "pop": 100694
     },
     {
         "name": "Tatab\u00e1nya, HU",
@@ -6540,40 +5604,10 @@
         "pop": 62246
     },
     {
-        "name": "Pestl\u0151rinc, HU",
-        "lat": 47.42977,
-        "lng": 19.21592,
-        "pop": 58722
-    },
-    {
-        "name": "Pest, HU",
-        "lat": 47.5,
-        "lng": 19.08333,
-        "pop": 1001748
-    },
-    {
         "name": "P\u00e9cs, HU",
         "lat": 46.07617,
         "lng": 18.22814,
         "pop": 145347
-    },
-    {
-        "name": "K\u0151b\u00e1nya, HU",
-        "lat": 47.48427,
-        "lng": 19.13913,
-        "pop": 78414
-    },
-    {
-        "name": "Kispest, HU",
-        "lat": 47.4515,
-        "lng": 19.14017,
-        "pop": 61453
-    },
-    {
-        "name": "Kelenf\u00f6ld, HU",
-        "lat": 47.46614,
-        "lng": 19.03102,
-        "pop": 53332
     },
     {
         "name": "Kecskem\u00e9t, HU",
@@ -6594,18 +5628,6 @@
         "pop": 129301
     },
     {
-        "name": "Ferencv\u00e1ros, HU",
-        "lat": 47.47754,
-        "lng": 19.09081,
-        "pop": 59056
-    },
-    {
-        "name": "Erzs\u00e9betv\u00e1ros, HU",
-        "lat": 47.50207,
-        "lng": 19.07218,
-        "pop": 62000
-    },
-    {
         "name": "\u00c9rd, HU",
         "lat": 47.39489,
         "lng": 18.91361,
@@ -6622,114 +5644,6 @@
         "lat": 47.49835,
         "lng": 19.04045,
         "pop": 1741041
-    },
-    {
-        "name": "Buda, HU",
-        "lat": 47.5,
-        "lng": 19.03333,
-        "pop": 510108
-    },
-    {
-        "name": "Angyalf\u00f6ld, HU",
-        "lat": 47.54765,
-        "lng": 19.07973,
-        "pop": 62006
-    },
-    {
-        "name": "Budapest XII. ker\u00fclet, HU",
-        "lat": 47.49192,
-        "lng": 19.01493,
-        "pop": 56544
-    },
-    {
-        "name": "Budapest XI. ker\u00fclet, HU",
-        "lat": 47.47603,
-        "lng": 19.03605,
-        "pop": 139049
-    },
-    {
-        "name": "Budapest VIII. ker\u00fclet, HU",
-        "lat": 47.48919,
-        "lng": 19.07012,
-        "pop": 82222
-    },
-    {
-        "name": "Budapest XIII. ker\u00fclet, HU",
-        "lat": 47.52978,
-        "lng": 19.08068,
-        "pop": 113531
-    },
-    {
-        "name": "Budapest IV. ker\u00fclet, HU",
-        "lat": 47.56182,
-        "lng": 19.08909,
-        "pop": 98374
-    },
-    {
-        "name": "Budapest XV. ker\u00fclet, HU",
-        "lat": 47.56263,
-        "lng": 19.11681,
-        "pop": 80218
-    },
-    {
-        "name": "Budapest XVI. ker\u00fclet, HU",
-        "lat": 47.51482,
-        "lng": 19.17028,
-        "pop": 68484
-    },
-    {
-        "name": "Budapest XIX. ker\u00fclet, HU",
-        "lat": 47.45293,
-        "lng": 19.14943,
-        "pop": 61610
-    },
-    {
-        "name": "Budapest XVIII. ker\u00fclet, HU",
-        "lat": 47.44417,
-        "lng": 19.17595,
-        "pop": 93225
-    },
-    {
-        "name": "Budapest XXII. ker\u00fclet, HU",
-        "lat": 47.42698,
-        "lng": 19.04016,
-        "pop": 50499
-    },
-    {
-        "name": "Budapest XXI. ker\u00fclet, HU",
-        "lat": 47.42215,
-        "lng": 19.06641,
-        "pop": 76339
-    },
-    {
-        "name": "Budapest XX. ker\u00fclet, HU",
-        "lat": 47.43674,
-        "lng": 19.10093,
-        "pop": 63371
-    },
-    {
-        "name": "Budapest XVII. ker\u00fclet, HU",
-        "lat": 47.47997,
-        "lng": 19.25388,
-        "pop": 78250
-    },
-    {
-        "name": "Budapest III. ker\u00fclet, HU",
-        "lat": 47.54157,
-        "lng": 19.04501,
-        "pop": 123723
-    },
-    {
-        "name": "Budapest II. ker\u00fclet, HU",
-        "lat": 47.51984,
-        "lng": 19.02218,
-        "pop": 88729
-    },
-    {
-        "name": "J\u00f3zsefv\u00e1ros, HU",
-        "lat": 47.48938,
-        "lng": 19.07292,
-        "pop": 76957
     },
     {
         "name": "Waterford, IE",
@@ -6766,12 +5680,6 @@
         "lat": 51.89797,
         "lng": -8.47061,
         "pop": 190384
-    },
-    {
-        "name": "South Dublin, IE",
-        "lat": 53.29026,
-        "lng": -6.34151,
-        "pop": 278749
     },
     {
         "name": "Reykjav\u00edk, IS",
@@ -7060,12 +5968,6 @@
         "lat": 44.41344,
         "lng": 12.20121,
         "pop": 80868
-    },
-    {
-        "name": "Quarto Oggiaro, IT",
-        "lat": 45.51314,
-        "lng": 9.14343,
-        "pop": 182118
     },
     {
         "name": "Prato, IT",
@@ -7572,90 +6474,6 @@
         "pop": 70501
     },
     {
-        "name": "San Carlo All'Arena, IT",
-        "lat": 40.86511,
-        "lng": 14.26291,
-        "pop": 69094
-    },
-    {
-        "name": "Pozzo Strada, IT",
-        "lat": 45.06837,
-        "lng": 7.62503,
-        "pop": 54766
-    },
-    {
-        "name": "Barriera di Milano, IT",
-        "lat": 45.09228,
-        "lng": 7.69399,
-        "pop": 50354
-    },
-    {
-        "name": "Barriera di Lanzo, IT",
-        "lat": 45.10981,
-        "lng": 7.65126,
-        "pop": 50000
-    },
-    {
-        "name": "Campo di Marte, IT",
-        "lat": 43.77693,
-        "lng": 11.27707,
-        "pop": 88588
-    },
-    {
-        "name": "Arenella, IT",
-        "lat": 40.85734,
-        "lng": 14.2228,
-        "pop": 67634
-    },
-    {
-        "name": "Circoiscrizione I, IT",
-        "lat": 45.06639,
-        "lng": 7.6868,
-        "pop": 78523
-    },
-    {
-        "name": "Circoiscrizione II, IT",
-        "lat": 45.05013,
-        "lng": 7.64052,
-        "pop": 141344
-    },
-    {
-        "name": "Circoiscrizione III, IT",
-        "lat": 45.06279,
-        "lng": 7.63071,
-        "pop": 130709
-    },
-    {
-        "name": "Circoiscrizione IV, IT",
-        "lat": 45.08125,
-        "lng": 7.63188,
-        "pop": 98787
-    },
-    {
-        "name": "Circoiscrizione V, IT",
-        "lat": 45.10147,
-        "lng": 7.65538,
-        "pop": 126666
-    },
-    {
-        "name": "Circoiscrizione VI, IT",
-        "lat": 45.1022,
-        "lng": 7.70029,
-        "pop": 107369
-    },
-    {
-        "name": "Circoiscrizione VII, IT",
-        "lat": 45.07824,
-        "lng": 7.69718,
-        "pop": 89448
-    },
-    {
-        "name": "Circoiscrizione VIII, IT",
-        "lat": 45.03789,
-        "lng": 7.67174,
-        "pop": 134028
-    },
-    {
         "name": "Vilnius, LT",
         "lat": 54.68916,
         "lng": 25.2798,
@@ -7684,12 +6502,6 @@
         "lat": 54.90156,
         "lng": 23.90909,
         "pop": 289380
-    },
-    {
-        "name": "Dainava (Kaunas), LT",
-        "lat": 54.91525,
-        "lng": 23.96831,
-        "pop": 70000
     },
     {
         "name": "Luxembourg, LU",
@@ -8166,12 +6978,6 @@
         "pop": 94853
     },
     {
-        "name": "Amsterdam-Zuidoost, NL",
-        "lat": 52.3075,
-        "lng": 4.97222,
-        "pop": 84811
-    },
-    {
         "name": "Trondheim, NO",
         "lat": 63.43049,
         "lng": 10.39506,
@@ -8506,12 +7312,6 @@
         "lat": 50.32492,
         "lng": 18.78576,
         "pop": 192177
-    },
-    {
-        "name": "Wrzeszcz, PL",
-        "lat": 54.37648,
-        "lng": 18.60753,
-        "pop": 65000
     },
     {
         "name": "Wroc\u0142aw, PL",
@@ -8872,18 +7672,6 @@
         "lat": 52.24424,
         "lng": 21.08545,
         "pop": 179836
-    },
-    {
-        "name": "\u015ar\u00f3dmie\u015bcie, PL",
-        "lat": 51.11316,
-        "lng": 17.08145,
-        "pop": 99088
-    },
-    {
-        "name": "Psie Pole, PL",
-        "lat": 51.14595,
-        "lng": 17.03519,
-        "pop": 95615
     },
     {
         "name": "Set\u00fabal, PT",
@@ -9276,42 +8064,6 @@
         "pop": 64227
     },
     {
-        "name": "Sector 1, RO",
-        "lat": 44.49239,
-        "lng": 26.04831,
-        "pop": 225453
-    },
-    {
-        "name": "Sector 2, RO",
-        "lat": 44.4528,
-        "lng": 26.13321,
-        "pop": 290507
-    },
-    {
-        "name": "Sector 3, RO",
-        "lat": 44.4234,
-        "lng": 26.16874,
-        "pop": 385439
-    },
-    {
-        "name": "Sector 4, RO",
-        "lat": 44.37571,
-        "lng": 26.12085,
-        "pop": 287828
-    },
-    {
-        "name": "Sector 5, RO",
-        "lat": 44.38808,
-        "lng": 26.07144,
-        "pop": 271575
-    },
-    {
-        "name": "Sector 6, RO",
-        "lat": 44.43579,
-        "lng": 26.01649,
-        "pop": 367760
-    },
-    {
         "name": "Zrenjanin, RS",
         "lat": 45.38361,
         "lng": 20.38194,
@@ -9420,34 +8172,10 @@
         "pop": 215400
     },
     {
-        "name": "Sosnovka, RU",
-        "lat": 60.01667,
-        "lng": 30.35,
-        "pop": 66227
-    },
-    {
-        "name": "Zyuzino, RU",
-        "lat": 55.65608,
-        "lng": 37.56846,
-        "pop": 121000
-    },
-    {
-        "name": "Zyablikovo, RU",
-        "lat": 55.61667,
-        "lng": 37.76667,
-        "pop": 129000
-    },
-    {
         "name": "Zlatoust, RU",
         "lat": 55.17182,
         "lng": 59.65471,
         "pop": 191366
-    },
-    {
-        "name": "Zhulebino, RU",
-        "lat": 55.7,
-        "lng": 37.85,
-        "pop": 150000
     },
     {
         "name": "Zhukovsky, RU",
@@ -9492,12 +8220,6 @@
         "pop": 63579
     },
     {
-        "name": "Zamoskvorech\u2019ye, RU",
-        "lat": 55.73333,
-        "lng": 37.63333,
-        "pop": 55000
-    },
-    {
         "name": "Yoshkar-Ola, RU",
         "lat": 56.63877,
         "lng": 47.89078,
@@ -9534,12 +8256,6 @@
         "pop": 85200
     },
     {
-        "name": "Yasenevo, RU",
-        "lat": 55.60686,
-        "lng": 37.51991,
-        "pop": 180000
-    },
-    {
         "name": "Yartsevo, RU",
         "lat": 55.06491,
         "lng": 32.69693,
@@ -9562,12 +8278,6 @@
         "lat": 55.32058,
         "lng": 42.17402,
         "pop": 61664
-    },
-    {
-        "name": "Vykhino-Zhulebino, RU",
-        "lat": 55.70196,
-        "lng": 37.81178,
-        "pop": 216000
     },
     {
         "name": "Vyborg, RU",
@@ -9600,12 +8310,6 @@
         "pop": 1047549
     },
     {
-        "name": "Altuf\u2019yevskiy, RU",
-        "lat": 55.88333,
-        "lng": 37.58333,
-        "pop": 54000
-    },
-    {
         "name": "Volzhsky, RU",
         "lat": 48.78583,
         "lng": 44.77973,
@@ -9630,12 +8334,6 @@
         "pop": 312420
     },
     {
-        "name": "Nagornyy, RU",
-        "lat": 55.65,
-        "lng": 37.61667,
-        "pop": 76000
-    },
-    {
         "name": "Volgograd, RU",
         "lat": 48.71378,
         "lng": 44.4976,
@@ -9646,12 +8344,6 @@
         "lat": 47.51141,
         "lng": 42.15269,
         "pop": 167731
-    },
-    {
-        "name": "Novovladykino, RU",
-        "lat": 55.85,
-        "lng": 37.58333,
-        "pop": 50000
     },
     {
         "name": "Vladimir, RU",
@@ -9672,12 +8364,6 @@
         "pop": 51721
     },
     {
-        "name": "Veshnyaki, RU",
-        "lat": 55.72393,
-        "lng": 37.81952,
-        "pop": 122000
-    },
-    {
         "name": "Velikiye Luki, RU",
         "lat": 56.34063,
         "lng": 30.54377,
@@ -9690,22 +8376,10 @@
         "pop": 50000
     },
     {
-        "name": "Vagonoremont, RU",
-        "lat": 55.9,
-        "lng": 37.55,
-        "pop": 50000
-    },
-    {
         "name": "Uzlovaya, RU",
         "lat": 53.9839,
         "lng": 38.15984,
         "pop": 58458
-    },
-    {
-        "name": "Uritsk, RU",
-        "lat": 59.83889,
-        "lng": 30.17528,
-        "pop": 55037
     },
     {
         "name": "Ulyanovsk, RU",
@@ -9780,18 +8454,6 @@
         "pop": 64387
     },
     {
-        "name": "Tyoply Stan, RU",
-        "lat": 55.62047,
-        "lng": 37.49338,
-        "pop": 125000
-    },
-    {
-        "name": "Tekstil\u2019shchiki, RU",
-        "lat": 55.70033,
-        "lng": 37.74271,
-        "pop": 100000
-    },
-    {
         "name": "Tambov, RU",
         "lat": 52.73632,
         "lng": 41.44102,
@@ -9802,12 +8464,6 @@
         "lat": 47.23627,
         "lng": 38.9053,
         "pop": 279056
-    },
-    {
-        "name": "Taganskiy, RU",
-        "lat": 55.73333,
-        "lng": 37.66667,
-        "pop": 116000
     },
     {
         "name": "Syzran, RU",
@@ -9822,22 +8478,10 @@
         "pop": 245083
     },
     {
-        "name": "Sviblovo, RU",
-        "lat": 55.85,
-        "lng": 37.63333,
-        "pop": 60000
-    },
-    {
         "name": "Stupino, RU",
         "lat": 54.89735,
         "lng": 38.06796,
         "pop": 60999
-    },
-    {
-        "name": "Strogino, RU",
-        "lat": 55.81838,
-        "lng": 37.41224,
-        "pop": 152000
     },
     {
         "name": "Sterlitamak, RU",
@@ -9864,12 +8508,6 @@
         "pop": 68563
     },
     {
-        "name": "Solntsevo, RU",
-        "lat": 55.63711,
-        "lng": 37.38115,
-        "pop": 120000
-    },
-    {
         "name": "Solnechnogorsk, RU",
         "lat": 56.17527,
         "lng": 36.97082,
@@ -9880,18 +8518,6 @@
         "lat": 59.66686,
         "lng": 56.74267,
         "pop": 100812
-    },
-    {
-        "name": "Sokol\u2019niki, RU",
-        "lat": 55.80202,
-        "lng": 37.67159,
-        "pop": 57000
-    },
-    {
-        "name": "Sokol, RU",
-        "lat": 55.8,
-        "lng": 37.51667,
-        "pop": 57000
     },
     {
         "name": "Sochi, RU",
@@ -9930,12 +8556,6 @@
         "pop": 59198
     },
     {
-        "name": "Shchukino, RU",
-        "lat": 55.8,
-        "lng": 37.45,
-        "pop": 102000
-    },
-    {
         "name": "Shchyolkovo, RU",
         "lat": 55.92497,
         "lng": 37.97218,
@@ -9966,12 +8586,6 @@
         "pop": 194292
     },
     {
-        "name": "Severnyy, RU",
-        "lat": 55.93583,
-        "lng": 37.54889,
-        "pop": 200000
-    },
-    {
         "name": "Serpukhov, RU",
         "lat": 54.9198,
         "lng": 37.41618,
@@ -9982,12 +8596,6 @@
         "lat": 56.31204,
         "lng": 38.13869,
         "pop": 109252
-    },
-    {
-        "name": "Sem\u00ebnovskoye, RU",
-        "lat": 55.68333,
-        "lng": 37.55,
-        "pop": 50000
     },
     {
         "name": "Sarov, RU",
@@ -10050,12 +8658,6 @@
         "pop": 216724
     },
     {
-        "name": "Rybatskoye, RU",
-        "lat": 59.8393,
-        "lng": 30.49873,
-        "pop": 55076
-    },
-    {
         "name": "Ryazan\u2019, RU",
         "lat": 54.62696,
         "lng": 39.70415,
@@ -10104,12 +8706,6 @@
         "pop": 96000
     },
     {
-        "name": "Ramenki, RU",
-        "lat": 55.7,
-        "lng": 37.5,
-        "pop": 130000
-    },
-    {
         "name": "Pyatigorsk, RU",
         "lat": 44.05,
         "lng": 43.05036,
@@ -10140,28 +8736,10 @@
         "pop": 60800
     },
     {
-        "name": "Kotlovka, RU",
-        "lat": 55.65928,
-        "lng": 37.60404,
-        "pop": 64000
-    },
-    {
-        "name": "Pokrovskoye-Streshn\u00ebvo, RU",
-        "lat": 55.80797,
-        "lng": 37.45814,
-        "pop": 55000
-    },
-    {
         "name": "Podolsk, RU",
         "lat": 55.42419,
         "lng": 37.55472,
         "pop": 179400
-    },
-    {
-        "name": "Ryazanskiy, RU",
-        "lat": 55.73333,
-        "lng": 37.76667,
-        "pop": 101000
     },
     {
         "name": "Petrozavodsk, RU",
@@ -10212,22 +8790,10 @@
         "pop": 60051
     },
     {
-        "name": "Ozerki, RU",
-        "lat": 60.03947,
-        "lng": 30.31128,
-        "pop": 95000
-    },
-    {
         "name": "Otradnyy, RU",
         "lat": 53.37596,
         "lng": 51.3452,
         "pop": 50127
-    },
-    {
-        "name": "Ostankinskiy, RU",
-        "lat": 55.82957,
-        "lng": 37.61604,
-        "pop": 60000
     },
     {
         "name": "Orsk, RU",
@@ -10254,12 +8820,6 @@
         "pop": 120000
     },
     {
-        "name": "Orekhovo-Borisovo Severnoye, RU",
-        "lat": 55.61667,
-        "lng": 37.68333,
-        "pop": 128000
-    },
-    {
         "name": "Sunzha, RU",
         "lat": 43.32059,
         "lng": 45.04903,
@@ -10278,28 +8838,10 @@
         "pop": 137041
     },
     {
-        "name": "Ochakovo-Matveyevskoye, RU",
-        "lat": 55.68432,
-        "lng": 37.44654,
-        "pop": 114000
-    },
-    {
         "name": "Obninsk, RU",
         "lat": 55.10993,
         "lng": 36.61238,
         "pop": 107392
-    },
-    {
-        "name": "Novyye Kuz\u2019minki, RU",
-        "lat": 55.7,
-        "lng": 37.75,
-        "pop": 143000
-    },
-    {
-        "name": "Novyye Cher\u00ebmushki, RU",
-        "lat": 55.7,
-        "lng": 37.58333,
-        "pop": 101000
     },
     {
         "name": "Novotroitsk, RU",
@@ -10326,12 +8868,6 @@
         "pop": 130982
     },
     {
-        "name": "Novokuz\u2019minki, RU",
-        "lat": 55.71667,
-        "lng": 37.78333,
-        "pop": 50000
-    },
-    {
         "name": "Novokuybyshevsk, RU",
         "lat": 53.09709,
         "lng": 49.94001,
@@ -10342,12 +8878,6 @@
         "lat": 55.86667,
         "lng": 37.5,
         "pop": 50000
-    },
-    {
-        "name": "Novogireyevo, RU",
-        "lat": 55.75378,
-        "lng": 37.81885,
-        "pop": 95000
     },
     {
         "name": "Novocherkassk, RU",
@@ -10390,12 +8920,6 @@
         "lat": 55.63794,
         "lng": 51.81502,
         "pop": 234297
-    },
-    {
-        "name": "Nikol\u2019skoye, RU",
-        "lat": 55.68333,
-        "lng": 37.48333,
-        "pop": 50000
     },
     {
         "name": "Nevinnomyssk, RU",
@@ -10488,18 +9012,6 @@
         "pop": 141970
     },
     {
-        "name": "Mar\u2019ino, RU",
-        "lat": 55.65,
-        "lng": 37.71667,
-        "pop": 243000
-    },
-    {
-        "name": "Yaroslavskiy, RU",
-        "lat": 55.88333,
-        "lng": 37.71667,
-        "pop": 91000
-    },
-    {
         "name": "Makhachkala, RU",
         "lat": 42.97782,
         "lng": 47.50027,
@@ -10510,12 +9022,6 @@
         "lat": 53.39808,
         "lng": 59.0066,
         "pop": 413351
-    },
-    {
-        "name": "Lyublino, RU",
-        "lat": 55.67738,
-        "lng": 37.76005,
-        "pop": 172000
     },
     {
         "name": "Lyubertsy, RU",
@@ -10554,40 +9060,10 @@
         "pop": 509735
     },
     {
-        "name": "Likhobory, RU",
-        "lat": 55.85,
-        "lng": 37.56667,
-        "pop": 50000
-    },
-    {
-        "name": "Lianozovo, RU",
-        "lat": 55.89783,
-        "lng": 37.5868,
-        "pop": 86000
-    },
-    {
-        "name": "Komendantsky aerodrom, RU",
-        "lat": 60.00448,
-        "lng": 30.27523,
-        "pop": 84052
-    },
-    {
         "name": "Leninogorsk, RU",
         "lat": 54.5971,
         "lng": 52.45124,
         "pop": 66263
-    },
-    {
-        "name": "Tsaritsyno, RU",
-        "lat": 55.6254,
-        "lng": 37.65032,
-        "pop": 123000
-    },
-    {
-        "name": "Lefortovo, RU",
-        "lat": 55.76667,
-        "lng": 37.7,
-        "pop": 91000
     },
     {
         "name": "Labinsk, RU",
@@ -10602,28 +9078,10 @@
         "pop": 90480
     },
     {
-        "name": "Kuz\u2019minki, RU",
-        "lat": 55.7,
-        "lng": 37.8,
-        "pop": 143000
-    },
-    {
         "name": "Kursk, RU",
         "lat": 51.72689,
         "lng": 36.18457,
         "pop": 448733
-    },
-    {
-        "name": "Kupchino, RU",
-        "lat": 59.859,
-        "lng": 30.388,
-        "pop": 54198
-    },
-    {
-        "name": "Kuntsevo, RU",
-        "lat": 55.74216,
-        "lng": 37.40225,
-        "pop": 147497
     },
     {
         "name": "Kungur, RU",
@@ -10656,12 +9114,6 @@
         "pop": 79599
     },
     {
-        "name": "Biryul\u00ebvo Zapadnoye, RU",
-        "lat": 55.58766,
-        "lng": 37.64282,
-        "pop": 89000
-    },
-    {
         "name": "Krasnokamsk, RU",
         "lat": 58.0787,
         "lng": 55.75622,
@@ -10678,24 +9130,6 @@
         "lat": 45.04534,
         "lng": 38.98178,
         "pop": 899541
-    },
-    {
-        "name": "Presnenskiy, RU",
-        "lat": 55.75,
-        "lng": 37.55,
-        "pop": 122000
-    },
-    {
-        "name": "Kozhukhovo, RU",
-        "lat": 55.7,
-        "lng": 37.66667,
-        "pop": 50000
-    },
-    {
-        "name": "Kozeyevo, RU",
-        "lat": 55.86667,
-        "lng": 37.61667,
-        "pop": 50000
     },
     {
         "name": "Kovrov, RU",
@@ -10794,12 +9228,6 @@
         "pop": 52070
     },
     {
-        "name": "Khorosh\u00ebvo-Mnevniki, RU",
-        "lat": 55.78363,
-        "lng": 37.47137,
-        "pop": 159000
-    },
-    {
         "name": "Khimki, RU",
         "lat": 55.9001,
         "lng": 37.42848,
@@ -10854,12 +9282,6 @@
         "pop": 475056
     },
     {
-        "name": "Izmaylovo, RU",
-        "lat": 55.78677,
-        "lng": 37.80165,
-        "pop": 104000
-    },
-    {
         "name": "Izhevsk, RU",
         "lat": 56.85225,
         "lng": 53.19862,
@@ -10870,12 +9292,6 @@
         "lat": 55.97111,
         "lng": 37.92083,
         "pop": 51085
-    },
-    {
-        "name": "Ivanovskoye, RU",
-        "lat": 55.76667,
-        "lng": 37.83333,
-        "pop": 128000
     },
     {
         "name": "Ivanovo, RU",
@@ -10914,18 +9330,6 @@
         "pop": 297137
     },
     {
-        "name": "Grazhdanka, RU",
-        "lat": 60.017,
-        "lng": 30.417,
-        "pop": 71128
-    },
-    {
-        "name": "Gol\u2019yanovo, RU",
-        "lat": 55.82299,
-        "lng": 37.81306,
-        "pop": 158000
-    },
-    {
         "name": "Glazov, RU",
         "lat": 58.14,
         "lng": 52.65619,
@@ -10960,12 +9364,6 @@
         "lat": 55.73321,
         "lng": 38.46458,
         "pop": 53212
-    },
-    {
-        "name": "Fili, RU",
-        "lat": 55.74819,
-        "lng": 37.47969,
-        "pop": 80000
     },
     {
         "name": "Ezhva, RU",
@@ -11004,12 +9402,6 @@
         "pop": 60604
     },
     {
-        "name": "Dorogomilovo, RU",
-        "lat": 55.75,
-        "lng": 37.56667,
-        "pop": 68000
-    },
-    {
         "name": "Donetsk, RU",
         "lat": 48.33751,
         "lng": 39.95416,
@@ -11044,12 +9436,6 @@
         "lat": 42.06622,
         "lng": 48.28759,
         "pop": 105965
-    },
-    {
-        "name": "Dachnoye, RU",
-        "lat": 59.84167,
-        "lng": 30.25583,
-        "pop": 72822
     },
     {
         "name": "Chusovoy, RU",
@@ -11142,12 +9528,6 @@
         "pop": 427236
     },
     {
-        "name": "Brateyevo, RU",
-        "lat": 55.63755,
-        "lng": 37.76438,
-        "pop": 102000
-    },
-    {
         "name": "Borovichi, RU",
         "lat": 58.39418,
         "lng": 33.91864,
@@ -11164,24 +9544,6 @@
         "lat": 56.35944,
         "lng": 44.07304,
         "pop": 60647
-    },
-    {
-        "name": "Bogorodskoye, RU",
-        "lat": 55.81353,
-        "lng": 37.71617,
-        "pop": 103000
-    },
-    {
-        "name": "Biryul\u00ebvo, RU",
-        "lat": 55.58635,
-        "lng": 37.67781,
-        "pop": 144000
-    },
-    {
-        "name": "Bibirevo, RU",
-        "lat": 55.88333,
-        "lng": 37.6,
-        "pop": 159000
     },
     {
         "name": "Berezniki, RU",
@@ -11244,12 +9606,6 @@
         "pop": 63083
     },
     {
-        "name": "Babushkin, RU",
-        "lat": 55.86931,
-        "lng": 37.72966,
-        "pop": 86000
-    },
-    {
         "name": "Azov, RU",
         "lat": 47.1069,
         "lng": 39.41486,
@@ -11304,22 +9660,10 @@
         "pop": 66885
     },
     {
-        "name": "Alekseyevka, RU",
-        "lat": 55.63,
-        "lng": 37.8,
-        "pop": 78000
-    },
-    {
         "name": "Aleksandrov, RU",
         "lat": 56.39733,
         "lng": 38.71404,
         "pop": 64088
-    },
-    {
-        "name": "Levoberezhnyy, RU",
-        "lat": 55.85,
-        "lng": 37.48333,
-        "pop": 52000
     },
     {
         "name": "Adler, RU",
@@ -11340,106 +9684,10 @@
         "pop": 62139
     },
     {
-        "name": "Chertanovo Yuzhnoye, RU",
-        "lat": 55.59072,
-        "lng": 37.59519,
-        "pop": 142000
-    },
-    {
-        "name": "Orekhovo-Borisovo, RU",
-        "lat": 55.61252,
-        "lng": 37.72639,
-        "pop": 144000
-    },
-    {
-        "name": "Metrogorodok, RU",
-        "lat": 55.80961,
-        "lng": 37.78739,
-        "pop": 50000
-    },
-    {
         "name": "Krasnaya Glinka, RU",
         "lat": 53.7383,
         "lng": 52.9392,
         "pop": 85566
-    },
-    {
-        "name": "Kurortnyy, RU",
-        "lat": 60.16562,
-        "lng": 29.908,
-        "pop": 70589
-    },
-    {
-        "name": "Chernaya Rechka, RU",
-        "lat": 59.98594,
-        "lng": 30.30338,
-        "pop": 56429
-    },
-    {
-        "name": "Untolovo, RU",
-        "lat": 60.0122,
-        "lng": 30.20897,
-        "pop": 50000
-    },
-    {
-        "name": "Petrogradka, RU",
-        "lat": 59.96567,
-        "lng": 30.31154,
-        "pop": 130455
-    },
-    {
-        "name": "Vasyl'evsky Ostrov, RU",
-        "lat": 59.94091,
-        "lng": 30.25377,
-        "pop": 203058
-    },
-    {
-        "name": "Parnas, RU",
-        "lat": 60.06964,
-        "lng": 30.3487,
-        "pop": 66693
-    },
-    {
-        "name": "Kalininskiy, RU",
-        "lat": 59.99675,
-        "lng": 30.3899,
-        "pop": 504641
-    },
-    {
-        "name": "Krasnogvargeisky, RU",
-        "lat": 59.97305,
-        "lng": 30.47607,
-        "pop": 337091
-    },
-    {
-        "name": "Admiralteisky, RU",
-        "lat": 59.923,
-        "lng": 30.3,
-        "pop": 157897
-    },
-    {
-        "name": "Akademicheskoe, RU",
-        "lat": 60.01375,
-        "lng": 30.39471,
-        "pop": 103304
-    },
-    {
-        "name": "Finlyandskiy, RU",
-        "lat": 59.96824,
-        "lng": 30.36415,
-        "pop": 72292
-    },
-    {
-        "name": "Centralniy, RU",
-        "lat": 59.93111,
-        "lng": 30.36072,
-        "pop": 214625
-    },
-    {
-        "name": "Svetlanovskiy, RU",
-        "lat": 60.00276,
-        "lng": 30.33051,
-        "pop": 85508
     },
     {
         "name": "Vostochnoe Degunino, RU",
@@ -11484,12 +9732,6 @@
         "pop": 127799
     },
     {
-        "name": "Vasastaden, SE",
-        "lat": 59.35,
-        "lng": 18.03333,
-        "pop": 58458
-    },
-    {
         "name": "Uppsala, SE",
         "lat": 59.85882,
         "lng": 17.63889,
@@ -11532,12 +9774,6 @@
         "pop": 70777
     },
     {
-        "name": "S\u00f6dermalm, SE",
-        "lat": 59.31278,
-        "lng": 18.07577,
-        "pop": 127323
-    },
-    {
         "name": "\u00d6rebro, SE",
         "lat": 59.27412,
         "lng": 15.2066,
@@ -11572,12 +9808,6 @@
         "lat": 58.41086,
         "lng": 15.62157,
         "pop": 166673
-    },
-    {
-        "name": "Kungsholmen, SE",
-        "lat": 59.33183,
-        "lng": 18.04118,
-        "pop": 69363
     },
     {
         "name": "Karlstad, SE",
@@ -11638,12 +9868,6 @@
         "lat": 59.36661,
         "lng": 16.5077,
         "pop": 67359
-    },
-    {
-        "name": "Bromma, SE",
-        "lat": 59.34,
-        "lng": 17.94,
-        "pop": 72000
     },
     {
         "name": "Bor\u00e5s, SE",
@@ -12390,12 +10614,6 @@
         "pop": 1816750
     },
     {
-        "name": "Batikent, TR",
-        "lat": 39.96833,
-        "lng": 32.73083,
-        "pop": 300000
-    },
-    {
         "name": "Zonguldak, TR",
         "lat": 41.45139,
         "lng": 31.79305,
@@ -12630,12 +10848,6 @@
         "pop": 52185
     },
     {
-        "name": "Emin\u00f6n\u00fc, TR",
-        "lat": 41.01754,
-        "lng": 28.97101,
-        "pop": 55548
-    },
-    {
         "name": "Edirne, TR",
         "lat": 41.67719,
         "lng": 26.55597,
@@ -12768,18 +10980,6 @@
         "pop": 286787
     },
     {
-        "name": "Merter Keresteciler, TR",
-        "lat": 41.01295,
-        "lng": 28.88593,
-        "pop": 50000
-    },
-    {
-        "name": "G\u00fcng\u00f6ren Merter, TR",
-        "lat": 41.00711,
-        "lng": 28.88795,
-        "pop": 50000
-    },
-    {
         "name": "Ata\u015fehir, TR",
         "lat": 40.9833,
         "lng": 29.1167,
@@ -12894,12 +11094,6 @@
         "pop": 77003
     },
     {
-        "name": "Vyhurivshchyna-Troyeshchyna, UA",
-        "lat": 50.51137,
-        "lng": 30.60251,
-        "pop": 240000
-    },
-    {
         "name": "Vinnytsya, UA",
         "lat": 49.2322,
         "lng": 28.46871,
@@ -12960,12 +11154,6 @@
         "pop": 73248
     },
     {
-        "name": "Sotsmisto, UA",
-        "lat": 48.73663,
-        "lng": 37.59075,
-        "pop": 53370
-    },
-    {
         "name": "Snizhne, UA",
         "lat": 48.02328,
         "lng": 38.76205,
@@ -12988,12 +11176,6 @@
         "lat": 44.95719,
         "lng": 34.11079,
         "pop": 336460
-    },
-    {
-        "name": "Sykhiv, UA",
-        "lat": 49.79427,
-        "lng": 24.06284,
-        "pop": 151131
     },
     {
         "name": "Shostka, UA",
@@ -13038,18 +11220,6 @@
         "pop": 279593
     },
     {
-        "name": "Podil, UA",
-        "lat": 50.46936,
-        "lng": 30.51627,
-        "pop": 198123
-    },
-    {
-        "name": "Voznesenskyi, UA",
-        "lat": 47.93161,
-        "lng": 37.62971,
-        "pop": 85399
-    },
-    {
         "name": "Pervomaysk, UA",
         "lat": 48.04478,
         "lng": 30.84784,
@@ -13090,12 +11260,6 @@
         "lat": 51.04772,
         "lng": 31.88844,
         "pop": 66983
-    },
-    {
-        "name": "Nyzhnodniprovsk, UA",
-        "lat": 48.47546,
-        "lng": 35.1167,
-        "pop": 160123
     },
     {
         "name": "Nikopol, UA",
@@ -13174,12 +11338,6 @@
         "lat": 47.90572,
         "lng": 33.39404,
         "pop": 603904
-    },
-    {
-        "name": "Kryukiv, UA",
-        "lat": 49.02894,
-        "lng": 33.43847,
-        "pop": 75578
     },
     {
         "name": "Kremenchuk, UA",
@@ -13434,18 +11592,6 @@
         "pop": 106062
     },
     {
-        "name": "Saltivka, UA",
-        "lat": 50.02207,
-        "lng": 36.34901,
-        "pop": 400000
-    },
-    {
-        "name": "Obolon, UA",
-        "lat": 50.5132,
-        "lng": 30.5055,
-        "pop": 317300
-    },
-    {
         "name": "Cheremushky, UA",
         "lat": 46.43251,
         "lng": 30.71151,
@@ -13458,340 +11604,16 @@
         "pop": 65000
     },
     {
-        "name": "Avtozavodskyi, UA",
-        "lat": 49.09753,
-        "lng": 33.43206,
-        "pop": 157382
-    },
-    {
-        "name": "Oleksiyivka, UA",
-        "lat": 50.04516,
-        "lng": 36.19322,
-        "pop": 100500
-    },
-    {
-        "name": "Holosiyiv, UA",
-        "lat": 50.34433,
-        "lng": 30.55178,
-        "pop": 251021
-    },
-    {
         "name": "Pechersk, UA",
         "lat": 50.44441,
         "lng": 30.52348,
         "pop": 165360
     },
     {
-        "name": "Svyatoshyn, UA",
-        "lat": 50.46341,
-        "lng": 30.34612,
-        "pop": 340399
-    },
-    {
-        "name": "Dniprovskyi, UA",
-        "lat": 50.45366,
-        "lng": 30.60146,
-        "pop": 357900
-    },
-    {
-        "name": "Desna, UA",
-        "lat": 50.52207,
-        "lng": 30.68228,
-        "pop": 368500
-    },
-    {
-        "name": "Solomyansk, UA",
-        "lat": 50.42838,
-        "lng": 30.45211,
-        "pop": 280400
-    },
-    {
-        "name": "Shevchenkivskyi, UA",
-        "lat": 50.46408,
-        "lng": 30.46576,
-        "pop": 220077
-    },
-    {
-        "name": "Fortechnyi, UA",
-        "lat": 48.49865,
-        "lng": 32.25365,
-        "pop": 167451
-    },
-    {
-        "name": "Podilskyi, UA",
-        "lat": 48.50357,
-        "lng": 32.28035,
-        "pop": 86652
-    },
-    {
-        "name": "Bohodukhivskyi, UA",
-        "lat": 47.96688,
-        "lng": 37.86255,
-        "pop": 90600
-    },
-    {
-        "name": "Yuzivskyi, UA",
-        "lat": 48.0,
-        "lng": 37.80006,
-        "pop": 94228
-    },
-    {
-        "name": "Kalynivskyi, UA",
-        "lat": 48.00741,
-        "lng": 37.85378,
-        "pop": 103249
-    },
-    {
-        "name": "Kyivskyi, UA",
-        "lat": 48.04646,
-        "lng": 37.77571,
-        "pop": 139177
-    },
-    {
-        "name": "Rutchenkivskyi, UA",
-        "lat": 47.97597,
-        "lng": 37.69677,
-        "pop": 168029
-    },
-    {
-        "name": "Bosse, UA",
-        "lat": 47.95519,
-        "lng": 37.8003,
-        "pop": 50000
-    },
-    {
-        "name": "Oleksandrivskyi, UA",
-        "lat": 47.96788,
-        "lng": 37.80335,
-        "pop": 100330
-    },
-    {
-        "name": "Chumakivskyi, UA",
-        "lat": 47.95671,
-        "lng": 37.94194,
-        "pop": 103005
-    },
-    {
-        "name": "Tekstylnyk, UA",
-        "lat": 47.94594,
-        "lng": 37.69848,
-        "pop": 75000
-    },
-    {
-        "name": "Kyivskyi, UA",
-        "lat": 49.60902,
-        "lng": 34.52933,
-        "pop": 110600
-    },
-    {
-        "name": "Shevchenko, UA",
-        "lat": 49.5645,
-        "lng": 34.53873,
-        "pop": 147600
-    },
-    {
-        "name": "Rayon KTZ, UA",
-        "lat": 49.94349,
-        "lng": 36.36959,
-        "pop": 200000
-    },
-    {
-        "name": "Pravyi Bereh, UA",
-        "lat": 47.11498,
-        "lng": 37.58519,
-        "pop": 352088
-    },
-    {
-        "name": "Nyvky, UA",
-        "lat": 50.46461,
-        "lng": 30.40593,
-        "pop": 71700
-    },
-    {
-        "name": "Pozniaky, UA",
-        "lat": 50.40259,
-        "lng": 30.62352,
-        "pop": 104400
-    },
-    {
-        "name": "Darnytsya, UA",
-        "lat": 50.41596,
-        "lng": 30.69534,
-        "pop": 343384
-    },
-    {
-        "name": "Voskresenka, UA",
-        "lat": 50.48481,
-        "lng": 30.6032,
-        "pop": 84200
-    },
-    {
-        "name": "Vynohradar, UA",
-        "lat": 50.51429,
-        "lng": 30.42452,
-        "pop": 65000
-    },
-    {
-        "name": "Chokolivka, UA",
-        "lat": 50.42444,
-        "lng": 30.44732,
-        "pop": 65000
-    },
-    {
-        "name": "Darnytskyi Masyv, UA",
-        "lat": 50.44311,
-        "lng": 30.62759,
-        "pop": 68900
-    },
-    {
-        "name": "Tatarka, UA",
-        "lat": 50.46941,
-        "lng": 30.48649,
-        "pop": 90000
-    },
-    {
-        "name": "Shulyavka, UA",
-        "lat": 50.45356,
-        "lng": 30.4531,
-        "pop": 100000
-    },
-    {
-        "name": "Lukyanivka, UA",
-        "lat": 50.46642,
-        "lng": 30.47591,
-        "pop": 90000
-    },
-    {
-        "name": "Mykilska Borshchahivka, UA",
-        "lat": 50.42638,
-        "lng": 30.37442,
-        "pop": 127400
-    },
-    {
-        "name": "Kharkivskyi Masyv, UA",
-        "lat": 50.40848,
-        "lng": 30.66006,
-        "pop": 93700
-    },
-    {
-        "name": "Smolyanskyi, UA",
-        "lat": 48.01435,
-        "lng": 37.73586,
-        "pop": 116779
-    },
-    {
-        "name": "Tsentralno-Miskyi, UA",
-        "lat": 48.06167,
-        "lng": 37.97157,
-        "pop": 94417
-    },
-    {
         "name": "Khanzhonkivskyi, UA",
         "lat": 48.09512,
         "lng": 38.04202,
         "pop": 53040
-    },
-    {
-        "name": "Hruzkyi, UA",
-        "lat": 48.0651,
-        "lng": 37.93619,
-        "pop": 52265
-    },
-    {
-        "name": "Hirnytskyi, UA",
-        "lat": 48.0211,
-        "lng": 37.96914,
-        "pop": 107216
-    },
-    {
-        "name": "Berestovskyi, UA",
-        "lat": 48.04426,
-        "lng": 37.87654,
-        "pop": 80671
-    },
-    {
-        "name": "Shevchenkivskyi, UA",
-        "lat": 48.56346,
-        "lng": 39.33216,
-        "pop": 87516
-    },
-    {
-        "name": "Verhunskyi, UA",
-        "lat": 48.58573,
-        "lng": 39.37158,
-        "pop": 185593
-    },
-    {
-        "name": "Vilkhivskyi, UA",
-        "lat": 48.54327,
-        "lng": 39.28201,
-        "pop": 126340
-    },
-    {
-        "name": "Kovpakivskyi, UA",
-        "lat": 50.92508,
-        "lng": 34.79484,
-        "pop": 142447
-    },
-    {
-        "name": "Zarichnyi, UA",
-        "lat": 50.90376,
-        "lng": 34.80933,
-        "pop": 150694
-    },
-    {
-        "name": "Tsentralno-Miskyi, UA",
-        "lat": 48.30237,
-        "lng": 38.03165,
-        "pop": 118283
-    },
-    {
-        "name": "Kindrativskyi, UA",
-        "lat": 48.30282,
-        "lng": 38.05475,
-        "pop": 101565
-    },
-    {
-        "name": "Mykytivskyi, UA",
-        "lat": 48.31421,
-        "lng": 38.00378,
-        "pop": 70474
-    },
-    {
-        "name": "Tsentralnyi, UA",
-        "lat": 47.09833,
-        "lng": 37.54838,
-        "pop": 179582
-    },
-    {
-        "name": "Kalmiuskyi, UA",
-        "lat": 47.11046,
-        "lng": 37.54375,
-        "pop": 101498
-    },
-    {
-        "name": "Livoberezhnyi, UA",
-        "lat": 47.1093,
-        "lng": 37.64306,
-        "pop": 122175
-    },
-    {
-        "name": "Prymorskyi, UA",
-        "lat": 47.07098,
-        "lng": 37.49973,
-        "pop": 71008
-    },
-    {
-        "name": "Novozavodskyi, UA",
-        "lat": 51.4893,
-        "lng": 31.25634,
-        "pop": 179600
-    },
-    {
-        "name": "Korolyov, UA",
-        "lat": 50.24487,
-        "lng": 28.70013,
-        "pop": 114034
     },
     {
         "name": "Ferizaj, XK",

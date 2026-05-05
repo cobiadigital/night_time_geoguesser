@@ -3,6 +3,7 @@ import zipfile
 import csv
 import json
 import io
+import re
 
 REGIONS = {
     'na': {
@@ -38,6 +39,17 @@ CA_ADMIN1 = {
     '12': 'YT', '13': 'NT', '14': 'NU',
 }
 
+# City subdivisions GeoNames lists alongside the parent city. Drop them so the
+# parent (e.g. "Paris, FR") isn't crowded out by 13 arrondissements.
+SUBDIVISION_PATTERNS = {
+    'FR': re.compile(r'^(?:Paris|Marseille|Lyon) \d+\b'),
+    'RO': re.compile(r'^Sector \d+$'),
+}
+# NYC boroughs are coded as PPLA2 (county seats), so they slip past the PPLX
+# filter. Drop them by name within New York state.
+NYC_BOROUGHS = {'Manhattan', 'Brooklyn', 'Queens', 'Staten Island',
+                'The Bronx', 'Bronx'}
+
 
 def download_geonames():
     url = "http://download.geonames.org/export/dump/cities15000.zip"
@@ -56,14 +68,24 @@ def build_region(lines, key, cfg):
         if len(row) < 15:
             continue
 
+        # Skip sections of populated places (boroughs, arrondissements, etc.)
+        if row[7] == 'PPLX':
+            continue
+
         name = row[1]
+        country = row[8]
+        state_code = row[10]
+
+        sub_re = SUBDIVISION_PATTERNS.get(country)
+        if sub_re and sub_re.match(name):
+            continue
+        if country == 'US' and state_code == 'NY' and name in NYC_BOROUGHS:
+            continue
         try:
             lat = float(row[4])
             lng = float(row[5])
         except ValueError:
             continue
-        country = row[8]
-        state_code = row[10]
 
         try:
             population = int(row[14])

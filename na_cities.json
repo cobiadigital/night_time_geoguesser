@@ -18,12 +18,6 @@
         "pop": 141397
     },
     {
-        "name": "Ahuntsic-Cartierville, QC",
-        "lat": 45.56667,
-        "lng": -73.66667,
-        "pop": 135336
-    },
-    {
         "name": "Airdrie, AB",
         "lat": 51.30011,
         "lng": -114.03528,
@@ -66,12 +60,6 @@
         "pop": 104688
     },
     {
-        "name": "Brighouse-City Centre, BC",
-        "lat": 49.16667,
-        "lng": -123.13333,
-        "pop": 62855
-    },
-    {
         "name": "Brossard, QC",
         "lat": 45.45008,
         "lng": -73.46583,
@@ -108,28 +96,10 @@
         "pop": 129920
     },
     {
-        "name": "Chicoutimi, QC",
-        "lat": 48.41963,
-        "lng": -71.06369,
-        "pop": 69004
-    },
-    {
         "name": "Chilliwack, BC",
         "lat": 49.16638,
         "lng": -121.95257,
         "pop": 101491
-    },
-    {
-        "name": "Chomedey, QC",
-        "lat": 45.53333,
-        "lng": -73.75,
-        "pop": 94030
-    },
-    {
-        "name": "Cloverdale, BC",
-        "lat": 49.10797,
-        "lng": -122.7276,
-        "pop": 73355
     },
     {
         "name": "Coquitlam, BC",
@@ -222,12 +192,6 @@
         "pop": 143740
     },
     {
-        "name": "Guildford, BC",
-        "lat": 49.19167,
-        "lng": -122.8,
-        "pop": 64985
-    },
-    {
         "name": "Halton Hills, ON",
         "lat": 43.6403,
         "lng": -79.93146,
@@ -318,12 +282,6 @@
         "pop": 63138
     },
     {
-        "name": "Metrotown, BC",
-        "lat": 49.225,
-        "lng": -123.0,
-        "pop": 52355
-    },
-    {
         "name": "Milton, ON",
         "lat": 43.51681,
         "lng": -79.88294,
@@ -366,12 +324,6 @@
         "pop": 91034
     },
     {
-        "name": "Newton, BC",
-        "lat": 49.13333,
-        "lng": -122.85,
-        "pop": 159390
-    },
-    {
         "name": "New Westminster, BC",
         "lat": 49.20678,
         "lng": -122.91092,
@@ -396,22 +348,10 @@
         "pop": 50396
     },
     {
-        "name": "North Delta, BC",
-        "lat": 49.16667,
-        "lng": -122.91667,
-        "pop": 60769
-    },
-    {
         "name": "North Vancouver, BC",
         "lat": 49.31636,
         "lng": -123.06934,
         "pop": 88168
-    },
-    {
-        "name": "Notre-Dame-de-Gr\u00e2ce, QC",
-        "lat": 45.47675,
-        "lng": -73.61432,
-        "pop": 68152
     },
     {
         "name": "Oakville, ON",
@@ -480,12 +420,6 @@
         "pop": 226404
     },
     {
-        "name": "Renfrew-Collingwood, BC",
-        "lat": 49.245,
-        "lng": -123.03758,
-        "pop": 51530
-    },
-    {
         "name": "Repentigny, QC",
         "lat": 45.74222,
         "lng": -73.45008,
@@ -516,12 +450,6 @@
         "pop": 148886
     },
     {
-        "name": "Saint-Hubert, QC",
-        "lat": 45.50008,
-        "lng": -73.41583,
-        "pop": 82548
-    },
-    {
         "name": "Saint-Hyacinthe, QC",
         "lat": 45.63076,
         "lng": -72.95699,
@@ -544,18 +472,6 @@
         "lat": 45.27076,
         "lng": -66.05616,
         "pop": 71808
-    },
-    {
-        "name": "Saint-Laurent, QC",
-        "lat": 45.50008,
-        "lng": -73.66585,
-        "pop": 98828
-    },
-    {
-        "name": "Saint-L\u00e9onard, QC",
-        "lat": 45.58773,
-        "lng": -73.59501,
-        "pop": 79495
     },
     {
         "name": "Saint-Louis-de-Terrebonne, QC",
@@ -598,12 +514,6 @@
         "lat": 53.51684,
         "lng": -113.3187,
         "pop": 70618
-    },
-    {
-        "name": "South Surrey, BC",
-        "lat": 49.05,
-        "lng": -122.79167,
-        "pop": 77170
     },
     {
         "name": "St. Albert, AB",
@@ -666,12 +576,6 @@
         "pop": 323103
     },
     {
-        "name": "Verdun, QC",
-        "lat": 45.46005,
-        "lng": -73.57058,
-        "pop": 69229
-    },
-    {
         "name": "Victoria, BC",
         "lat": 48.4359,
         "lng": -123.35155,
@@ -688,12 +592,6 @@
         "lat": 42.98342,
         "lng": -79.24958,
         "pop": 52293
-    },
-    {
-        "name": "Whalley, BC",
-        "lat": 49.17917,
-        "lng": -122.86667,
-        "pop": 102555
     },
     {
         "name": "Whitby, ON",
@@ -714,12 +612,6 @@
         "pop": 749607
     },
     {
-        "name": "Woburn, ON",
-        "lat": 43.76657,
-        "lng": -79.22773,
-        "pop": 53485
-    },
-    {
         "name": "Halifax, NS",
         "lat": 44.64269,
         "lng": -63.57688,
@@ -730,24 +622,6 @@
         "lat": 47.56494,
         "lng": -52.70931,
         "pop": 110525
-    },
-    {
-        "name": "Beauport, QC",
-        "lat": 46.85884,
-        "lng": -71.19201,
-        "pop": 81425
-    },
-    {
-        "name": "Charlesbourg, QC",
-        "lat": 46.899,
-        "lng": -71.305,
-        "pop": 82870
-    },
-    {
-        "name": "Sainte-Foy, QC",
-        "lat": 46.78139,
-        "lng": -71.29217,
-        "pop": 111300
     },
     {
         "name": "Qu\u00e9bec, QC",
@@ -774,18 +648,6 @@
         "pop": 56542
     },
     {
-        "name": "Hull, QC",
-        "lat": 45.42761,
-        "lng": -75.71056,
-        "pop": 63702
-    },
-    {
-        "name": "Jonqui\u00e8re, QC",
-        "lat": 48.41648,
-        "lng": -71.24884,
-        "pop": 54842
-    },
-    {
         "name": "Orl\u00e9ans, ON",
         "lat": 45.45732,
         "lng": -75.50433,
@@ -802,36 +664,6 @@
         "lat": 44.77599,
         "lng": -63.67865,
         "pop": 51749
-    },
-    {
-        "name": "La Haute-Saint-Charles, QC",
-        "lat": 46.89028,
-        "lng": -71.37222,
-        "pop": 88460
-    },
-    {
-        "name": "Downtown Vancouver, BC",
-        "lat": 49.27784,
-        "lng": -123.12794,
-        "pop": 62030
-    },
-    {
-        "name": "Waterfront Communities-The Island, ON",
-        "lat": 43.63388,
-        "lng": -79.3772,
-        "pop": 65913
-    },
-    {
-        "name": "Willowdale East, ON",
-        "lat": 43.7706,
-        "lng": -79.40148,
-        "pop": 50434
-    },
-    {
-        "name": "East Hastings, BC",
-        "lat": 49.27169,
-        "lng": -123.06186,
-        "pop": 80740
     },
     {
         "name": "Le Plateau-Mont-Royal, QC",
@@ -888,76 +720,16 @@
         "pop": 144814
     },
     {
-        "name": "Le Vieux-Longueuil, QC",
-        "lat": 45.53721,
-        "lng": -73.50773,
-        "pop": 135218
-    },
-    {
-        "name": "La Cit\u00e9-Limoilou, QC",
-        "lat": 46.82894,
-        "lng": -71.22641,
-        "pop": 108415
-    },
-    {
-        "name": "Les Rivi\u00e8res, QC",
-        "lat": 46.81847,
-        "lng": -71.272,
-        "pop": 77000
-    },
-    {
-        "name": "Nutana Sector, SK",
-        "lat": 52.09998,
-        "lng": -106.63709,
-        "pop": 72564
-    },
-    {
-        "name": "Lakewood, SK",
-        "lat": 52.1085,
-        "lng": -106.59027,
-        "pop": 51237
-    },
-    {
-        "name": "University Heights, SK",
-        "lat": 52.14432,
-        "lng": -106.57867,
-        "pop": 51957
-    },
-    {
-        "name": "Confederation, SK",
-        "lat": 52.13912,
-        "lng": -106.70356,
-        "pop": 70192
-    },
-    {
         "name": "San Jos\u00e9, CR",
         "lat": 9.93388,
         "lng": -84.08489,
         "pop": 335007
     },
     {
-        "name": "San Francisco, CR",
-        "lat": 9.9938,
-        "lng": -84.12742,
-        "pop": 55923
-    },
-    {
         "name": "Lim\u00f3n, CR",
         "lat": 9.99074,
         "lng": -83.03596,
         "pop": 63081
-    },
-    {
-        "name": "Vedado del Cotorro, CU",
-        "lat": 23.05,
-        "lng": -82.25,
-        "pop": 74650
-    },
-    {
-        "name": "Vedado, CU",
-        "lat": 23.13767,
-        "lng": -82.39339,
-        "pop": 108369
     },
     {
         "name": "Trinidad, CU",
@@ -1072,12 +844,6 @@
         "lat": 20.34173,
         "lng": -77.12126,
         "pop": 128188
-    },
-    {
-        "name": "Mantilla, CU",
-        "lat": 23.06794,
-        "lng": -82.34143,
-        "pop": 206918
     },
     {
         "name": "Las Tunas, CU",
@@ -1218,12 +984,6 @@
         "pop": 53104
     },
     {
-        "name": "Balc\u00f3n de la Lisa, CU",
-        "lat": 23.05346,
-        "lng": -82.4476,
-        "pop": 147415
-    },
-    {
         "name": "Artemisa, CU",
         "lat": 22.81366,
         "lng": -82.75814,
@@ -1234,60 +994,6 @@
         "lat": 23.03811,
         "lng": -82.37703,
         "pop": 210053
-    },
-    {
-        "name": "Almendares, CU",
-        "lat": 23.11012,
-        "lng": -82.42322,
-        "pop": 240000
-    },
-    {
-        "name": "Alamar, CU",
-        "lat": 23.15794,
-        "lng": -82.27837,
-        "pop": 100000
-    },
-    {
-        "name": "Ciudad Camilo Cienfuegos, CU",
-        "lat": 23.16076,
-        "lng": -82.32798,
-        "pop": 178041
-    },
-    {
-        "name": "Centro Habana, CU",
-        "lat": 23.13833,
-        "lng": -82.36417,
-        "pop": 158151
-    },
-    {
-        "name": "La Habana Vieja, CU",
-        "lat": 23.13028,
-        "lng": -82.35306,
-        "pop": 95383
-    },
-    {
-        "name": "Boyeros, CU",
-        "lat": 23.0072,
-        "lng": -82.4017,
-        "pop": 188593
-    },
-    {
-        "name": "Diez de Octubre, CU",
-        "lat": 23.0881,
-        "lng": -82.3597,
-        "pop": 227293
-    },
-    {
-        "name": "Plaza de la Revoluci\u00f3n, CU",
-        "lat": 23.11936,
-        "lng": -82.39197,
-        "pop": 139135
-    },
-    {
-        "name": "Villa Francisca, DO",
-        "lat": 18.48278,
-        "lng": -69.88914,
-        "pop": 50185
     },
     {
         "name": "Santo Domingo, DO",
@@ -1356,12 +1062,6 @@
         "pop": 208437
     },
     {
-        "name": "Cristo Rey, DO",
-        "lat": 18.5,
-        "lng": -69.93333,
-        "pop": 57084
-    },
-    {
         "name": "La Vega, DO",
         "lat": 19.22031,
         "lng": -70.53101,
@@ -1378,12 +1078,6 @@
         "lat": 18.41713,
         "lng": -70.10682,
         "pop": 154040
-    },
-    {
-        "name": "Bella Vista, DO",
-        "lat": 18.45539,
-        "lng": -69.9454,
-        "pop": 175683
     },
     {
         "name": "Ban\u00ed, DO",
@@ -1776,12 +1470,6 @@
         "pop": 125799
     },
     {
-        "name": "Carrefour, HT",
-        "lat": 18.54114,
-        "lng": -72.39922,
-        "pop": 442156
-    },
-    {
         "name": "Cap-Ha\u00eftien, HT",
         "lat": 19.75938,
         "lng": -72.19815,
@@ -1804,12 +1492,6 @@
         "lat": 17.97102,
         "lng": -76.88691,
         "pop": 102861
-    },
-    {
-        "name": "New Kingston, JM",
-        "lat": 18.00747,
-        "lng": -76.78319,
-        "pop": 583958
     },
     {
         "name": "Montego Bay, JM",
@@ -1852,12 +1534,6 @@
         "lat": 19.27032,
         "lng": -98.95088,
         "pop": 384327
-    },
-    {
-        "name": "\u00c1lvaro Obreg\u00f3n, MX",
-        "lat": 19.35867,
-        "lng": -99.20329,
-        "pop": 726664
     },
     {
         "name": "Villahermosa, MX",
@@ -2092,12 +1768,6 @@
         "lat": 20.53315,
         "lng": -97.45946,
         "pop": 185242
-    },
-    {
-        "name": "Polanco, MX",
-        "lat": 19.43332,
-        "lng": -99.19919,
-        "pop": 50000
     },
     {
         "name": "Playa del Carmen, MX",
@@ -2514,12 +2184,6 @@
         "pop": 355017
     },
     {
-        "name": "Venustiano Carranza, MX",
-        "lat": 19.44361,
-        "lng": -99.10499,
-        "pop": 430978
-    },
-    {
         "name": "Miguel Hidalgo, MX",
         "lat": 19.43411,
         "lng": -99.20024,
@@ -2650,12 +2314,6 @@
         "lat": 32.5027,
         "lng": -117.00371,
         "pop": 1922523
-    },
-    {
-        "name": "San Francisco Tesist\u00e1n, MX",
-        "lat": 20.79729,
-        "lng": -103.47712,
-        "pop": 62397
     },
     {
         "name": "Tepic, MX",
@@ -3156,30 +2814,6 @@
         "pop": 196003
     },
     {
-        "name": "Benito Ju\u00e1rez, MX",
-        "lat": 19.3727,
-        "lng": -99.1564,
-        "pop": 385439
-    },
-    {
-        "name": "Colonia del Valle, MX",
-        "lat": 19.38611,
-        "lng": -99.16204,
-        "pop": 250000
-    },
-    {
-        "name": "Colonia Lindavista, MX",
-        "lat": 19.49156,
-        "lng": -99.12475,
-        "pop": 100000
-    },
-    {
-        "name": "Colonia Nativitas, MX",
-        "lat": 19.38119,
-        "lng": -99.13685,
-        "pop": 60000
-    },
-    {
         "name": "Hacienda Santa Fe, MX",
         "lat": 20.51806,
         "lng": -103.38056,
@@ -3300,22 +2934,10 @@
         "pop": 321501
     },
     {
-        "name": "Pedregal, PA",
-        "lat": 9.0661,
-        "lng": -79.42577,
-        "pop": 51641
-    },
-    {
         "name": "Panama City, PA",
         "lat": 8.9936,
         "lng": -79.51973,
         "pop": 408168
-    },
-    {
-        "name": "Las Cumbres, PA",
-        "lat": 9.09211,
-        "lng": -79.53895,
-        "pop": 69102
     },
     {
         "name": "La Chorrera, PA",
@@ -4026,12 +3648,6 @@
         "pop": 62560
     },
     {
-        "name": "West Hollywood, FL",
-        "lat": 26.02065,
-        "lng": -80.18394,
-        "pop": 60806
-    },
-    {
         "name": "West Palm Beach, FL",
         "lat": 26.71534,
         "lng": -80.05337,
@@ -4308,12 +3924,6 @@
         "pop": 138481
     },
     {
-        "name": "Metairie Terrace, LA",
-        "lat": 29.97854,
-        "lng": -90.16396,
-        "pop": 142489
-    },
-    {
         "name": "New Orleans, LA",
         "lat": 29.95465,
         "lng": -90.07507,
@@ -4420,12 +4030,6 @@
         "lat": 38.95171,
         "lng": -92.33407,
         "pop": 129330
-    },
-    {
-        "name": "East Independence, MO",
-        "lat": 39.09556,
-        "lng": -94.35523,
-        "pop": 110675
     },
     {
         "name": "Florissant, MO",
@@ -4612,12 +4216,6 @@
         "lat": 35.93821,
         "lng": -77.79053,
         "pop": 55806
-    },
-    {
-        "name": "West Raleigh, NC",
-        "lat": 35.78682,
-        "lng": -78.66389,
-        "pop": 338759
     },
     {
         "name": "Wilmington, NC",
@@ -4884,22 +4482,10 @@
         "pop": 689447
     },
     {
-        "name": "New South Memphis, TN",
-        "lat": 35.08676,
-        "lng": -90.05676,
-        "pop": 641608
-    },
-    {
         "name": "Abilene, TX",
         "lat": 32.44874,
         "lng": -99.73314,
         "pop": 125182
-    },
-    {
-        "name": "Alief, TX",
-        "lat": 29.71106,
-        "lng": -95.59633,
-        "pop": 98725
     },
     {
         "name": "Allen, TX",
@@ -4912,12 +4498,6 @@
         "lat": 32.73569,
         "lng": -97.10807,
         "pop": 388125
-    },
-    {
-        "name": "Atascocita, TX",
-        "lat": 29.99883,
-        "lng": -95.1766,
-        "pop": 65844
     },
     {
         "name": "Austin, TX",
@@ -5262,12 +4842,6 @@
         "pop": 103700
     },
     {
-        "name": "University of Texas, TX",
-        "lat": 30.28604,
-        "lng": -97.73889,
-        "pop": 53082
-    },
-    {
         "name": "Victoria, TX",
         "lat": 28.80527,
         "lng": -97.0036,
@@ -5592,12 +5166,6 @@
         "pop": 64113
     },
     {
-        "name": "Albany Park, IL",
-        "lat": 41.96836,
-        "lng": -87.72339,
-        "pop": 52079
-    },
-    {
         "name": "Arlington Heights, IL",
         "lat": 42.08836,
         "lng": -87.98063,
@@ -5608,12 +5176,6 @@
         "lat": 41.76058,
         "lng": -88.32007,
         "pop": 200661
-    },
-    {
-        "name": "Belmont Cragin, IL",
-        "lat": 41.9317,
-        "lng": -87.76867,
-        "pop": 79159
     },
     {
         "name": "Berwyn, IL",
@@ -5646,12 +5208,6 @@
         "pop": 2664452
     },
     {
-        "name": "Chicago Lawn, IL",
-        "lat": 41.77503,
-        "lng": -87.69644,
-        "pop": 55551
-    },
-    {
         "name": "Cicero, IL",
         "lat": 41.84559,
         "lng": -87.75394,
@@ -5662,12 +5218,6 @@
         "lat": 42.03336,
         "lng": -87.8834,
         "pop": 58677
-    },
-    {
-        "name": "Edgewater, IL",
-        "lat": 41.98337,
-        "lng": -87.66395,
-        "pop": 54873
     },
     {
         "name": "Elgin, IL",
@@ -5688,28 +5238,10 @@
         "pop": 52138
     },
     {
-        "name": "Irving Park, IL",
-        "lat": 41.95336,
-        "lng": -87.73645,
-        "pop": 56520
-    },
-    {
         "name": "Joliet, IL",
         "lat": 41.52519,
         "lng": -88.0834,
         "pop": 147861
-    },
-    {
-        "name": "Lincoln Park, IL",
-        "lat": 41.9217,
-        "lng": -87.64783,
-        "pop": 66959
-    },
-    {
-        "name": "Logan Square, IL",
-        "lat": 41.92337,
-        "lng": -87.69922,
-        "pop": 73702
     },
     {
         "name": "Mount Prospect, IL",
@@ -5722,12 +5254,6 @@
         "lat": 41.78586,
         "lng": -88.14729,
         "pop": 147100
-    },
-    {
-        "name": "Near North Side, IL",
-        "lat": 41.90003,
-        "lng": -87.6345,
-        "pop": 85711
     },
     {
         "name": "Normal, IL",
@@ -5772,22 +5298,10 @@
         "pop": 115070
     },
     {
-        "name": "Portage Park, IL",
-        "lat": 41.95781,
-        "lng": -87.76506,
-        "pop": 64841
-    },
-    {
         "name": "Rockford, IL",
         "lat": 42.27113,
         "lng": -89.094,
         "pop": 148278
-    },
-    {
-        "name": "Rogers Park, IL",
-        "lat": 42.00864,
-        "lng": -87.66672,
-        "pop": 54402
     },
     {
         "name": "Schaumburg, IL",
@@ -5802,46 +5316,16 @@
         "pop": 64821
     },
     {
-        "name": "South Lawndale, IL",
-        "lat": 41.84364,
-        "lng": -87.71255,
-        "pop": 73826
-    },
-    {
-        "name": "South Shore, IL",
-        "lat": 41.76198,
-        "lng": -87.57783,
-        "pop": 51451
-    },
-    {
         "name": "Tinley Park, IL",
         "lat": 41.57337,
         "lng": -87.78449,
         "pop": 57143
     },
     {
-        "name": "Uptown, IL",
-        "lat": 41.9659,
-        "lng": -87.65262,
-        "pop": 55137
-    },
-    {
         "name": "Waukegan, IL",
         "lat": 42.36363,
         "lng": -87.84479,
         "pop": 88475
-    },
-    {
-        "name": "West Ridge, IL",
-        "lat": 41.99975,
-        "lng": -87.69284,
-        "pop": 72211
-    },
-    {
-        "name": "West Town, IL",
-        "lat": 41.89381,
-        "lng": -87.67493,
-        "pop": 86429
     },
     {
         "name": "Wheaton, IL",
@@ -6040,12 +5524,6 @@
         "lat": 42.3876,
         "lng": -71.0995,
         "pop": 80318
-    },
-    {
-        "name": "South Boston, MA",
-        "lat": 42.33343,
-        "lng": -71.04949,
-        "pop": 571281
     },
     {
         "name": "South Peabody, MA",
@@ -6594,52 +6072,10 @@
         "pop": 122366
     },
     {
-        "name": "Astoria, NY",
-        "lat": 40.77205,
-        "lng": -73.93014,
-        "pop": 150165
-    },
-    {
-        "name": "Bayside, NY",
-        "lat": 40.76844,
-        "lng": -73.77708,
-        "pop": 66455
-    },
-    {
-        "name": "Bensonhurst, NY",
-        "lat": 40.60177,
-        "lng": -73.99403,
-        "pop": 60000
-    },
-    {
-        "name": "Borough Park, NY",
-        "lat": 40.63399,
-        "lng": -73.99681,
-        "pop": 149248
-    },
-    {
         "name": "Brentwood, NY",
         "lat": 40.78121,
         "lng": -73.24623,
         "pop": 60664
-    },
-    {
-        "name": "The Bronx, NY",
-        "lat": 40.84985,
-        "lng": -73.86641,
-        "pop": 1385108
-    },
-    {
-        "name": "Brooklyn, NY",
-        "lat": 40.6501,
-        "lng": -73.94958,
-        "pop": 2736074
-    },
-    {
-        "name": "Brownsville, NY",
-        "lat": 40.66094,
-        "lng": -73.92014,
-        "pop": 74497
     },
     {
         "name": "Buffalo, NY",
@@ -6648,28 +6084,10 @@
         "pop": 258071
     },
     {
-        "name": "Bushwick, NY",
-        "lat": 40.69427,
-        "lng": -73.91875,
-        "pop": 112620
-    },
-    {
-        "name": "Canarsie, NY",
-        "lat": 40.64372,
-        "lng": -73.90069,
-        "pop": 87366
-    },
-    {
         "name": "Cheektowaga, NY",
         "lat": 42.90339,
         "lng": -78.75475,
         "pop": 75178
-    },
-    {
-        "name": "Chinatown, NY",
-        "lat": 40.71649,
-        "lng": -73.99625,
-        "pop": 90000
     },
     {
         "name": "Clay, NY",
@@ -6678,88 +6096,10 @@
         "pop": 58206
     },
     {
-        "name": "Coney Island, NY",
-        "lat": 40.57788,
-        "lng": -73.99403,
-        "pop": 60000
-    },
-    {
-        "name": "Corona, NY",
-        "lat": 40.74705,
-        "lng": -73.86014,
-        "pop": 109698
-    },
-    {
-        "name": "Cypress Hills, NY",
-        "lat": 40.67705,
-        "lng": -73.89125,
-        "pop": 54944
-    },
-    {
-        "name": "East Flatbush, NY",
-        "lat": 40.65371,
-        "lng": -73.93042,
-        "pop": 178464
-    },
-    {
-        "name": "East New York, NY",
-        "lat": 40.66677,
-        "lng": -73.88236,
-        "pop": 173198
-    },
-    {
-        "name": "East Village, NY",
-        "lat": 40.72927,
-        "lng": -73.98736,
-        "pop": 62832
-    },
-    {
-        "name": "Elmhurst, NY",
-        "lat": 40.73649,
-        "lng": -73.87791,
-        "pop": 113364
-    },
-    {
-        "name": "Flatbush, NY",
-        "lat": 40.65205,
-        "lng": -73.95903,
-        "pop": 93361
-    },
-    {
-        "name": "Flatlands, NY",
-        "lat": 40.62122,
-        "lng": -73.93486,
-        "pop": 63601
-    },
-    {
-        "name": "Fordham, NY",
-        "lat": 40.85927,
-        "lng": -73.89847,
-        "pop": 94678
-    },
-    {
-        "name": "Forest Hills, NY",
-        "lat": 40.71621,
-        "lng": -73.85014,
-        "pop": 67714
-    },
-    {
-        "name": "Gravesend, NY",
-        "lat": 40.5976,
-        "lng": -73.96514,
-        "pop": 112229
-    },
-    {
         "name": "Greenburgh, NY",
         "lat": 41.03287,
         "lng": -73.84291,
         "pop": 86764
-    },
-    {
-        "name": "Harlem, NY",
-        "lat": 40.80788,
-        "lng": -73.94542,
-        "pop": 116345
     },
     {
         "name": "Hempstead, NY",
@@ -6774,40 +6114,10 @@
         "pop": 51692
     },
     {
-        "name": "Jackson Heights, NY",
-        "lat": 40.75566,
-        "lng": -73.88541,
-        "pop": 67067
-    },
-    {
-        "name": "Jamaica, NY",
-        "lat": 40.69149,
-        "lng": -73.80569,
-        "pop": 216866
-    },
-    {
-        "name": "Kings Bridge, NY",
-        "lat": 40.87871,
-        "lng": -73.90514,
-        "pop": 75132
-    },
-    {
         "name": "Levittown, NY",
         "lat": 40.72593,
         "lng": -73.51429,
         "pop": 51881
-    },
-    {
-        "name": "Manhattan, NY",
-        "lat": 40.78343,
-        "lng": -73.96625,
-        "pop": 1487536
-    },
-    {
-        "name": "Mott Haven, NY",
-        "lat": 40.80899,
-        "lng": -73.92291,
-        "pop": 51450
     },
     {
         "name": "Mount Vernon, NY",
@@ -6828,48 +6138,6 @@
         "pop": 8804190
     },
     {
-        "name": "Ozone Park, NY",
-        "lat": 40.67677,
-        "lng": -73.84375,
-        "pop": 53985
-    },
-    {
-        "name": "Park Slope, NY",
-        "lat": 40.6701,
-        "lng": -73.98597,
-        "pop": 65047
-    },
-    {
-        "name": "Parkchester, NY",
-        "lat": 40.83899,
-        "lng": -73.86041,
-        "pop": 65876
-    },
-    {
-        "name": "Queens Village, NY",
-        "lat": 40.72677,
-        "lng": -73.74152,
-        "pop": 51919
-    },
-    {
-        "name": "Queens, NY",
-        "lat": 40.68149,
-        "lng": -73.83652,
-        "pop": 2316841
-    },
-    {
-        "name": "Richmond Hill, NY",
-        "lat": 40.69983,
-        "lng": -73.83125,
-        "pop": 98984
-    },
-    {
-        "name": "Ridgewood, NY",
-        "lat": 40.7001,
-        "lng": -73.90569,
-        "pop": 69317
-    },
-    {
         "name": "Rochester, NY",
         "lat": 43.15478,
         "lng": -77.61556,
@@ -6882,52 +6150,16 @@
         "pop": 65305
     },
     {
-        "name": "Sheepshead Bay, NY",
-        "lat": 40.59122,
-        "lng": -73.94458,
-        "pop": 122534
-    },
-    {
-        "name": "South Ozone Park, NY",
-        "lat": 40.6701,
-        "lng": -73.81902,
-        "pop": 75878
-    },
-    {
-        "name": "Staten Island, NY",
-        "lat": 40.56233,
-        "lng": -74.13986,
-        "pop": 468730
-    },
-    {
         "name": "Syracuse, NY",
         "lat": 43.04812,
         "lng": -76.14742,
         "pop": 144142
     },
     {
-        "name": "Upper West Side, NY",
-        "lat": 40.78705,
-        "lng": -73.97542,
-        "pop": 226989
-    },
-    {
         "name": "Utica, NY",
         "lat": 43.1009,
         "lng": -75.23266,
         "pop": 61100
-    },
-    {
-        "name": "Wakefield, NY",
-        "lat": 40.89788,
-        "lng": -73.85236,
-        "pop": 52201
-    },
-    {
-        "name": "Washington Heights, NY",
-        "lat": 40.8501,
-        "lng": -73.93541,
-        "pop": 152613
     },
     {
         "name": "West Albany, NY",
@@ -7218,12 +6450,6 @@
         "pop": 260828
     },
     {
-        "name": "Deer Valley, AZ",
-        "lat": 33.68393,
-        "lng": -112.13488,
-        "pop": 165656
-    },
-    {
         "name": "Flagstaff, AZ",
         "lat": 35.19807,
         "lng": -111.65127,
@@ -7252,12 +6478,6 @@
         "lat": 34.4839,
         "lng": -114.32245,
         "pop": 53553
-    },
-    {
-        "name": "Maryvale, AZ",
-        "lat": 33.50199,
-        "lng": -112.17765,
-        "pop": 208189
     },
     {
         "name": "Mesa, AZ",
@@ -7380,12 +6600,6 @@
         "pop": 120972
     },
     {
-        "name": "Boyle Heights, CA",
-        "lat": 34.0339,
-        "lng": -118.20535,
-        "pop": 92785
-    },
-    {
         "name": "Brentwood, CA",
         "lat": 37.93187,
         "lng": -121.69579,
@@ -7408,18 +6622,6 @@
         "lat": 34.21639,
         "lng": -119.0376,
         "pop": 67608
-    },
-    {
-        "name": "Canoga Park, CA",
-        "lat": 34.20112,
-        "lng": -118.59814,
-        "pop": 60578
-    },
-    {
-        "name": "Canyon Country, CA",
-        "lat": 34.42333,
-        "lng": -118.47203,
-        "pop": 59530
     },
     {
         "name": "Carlsbad, CA",
@@ -7456,12 +6658,6 @@
         "lat": 39.72849,
         "lng": -121.83748,
         "pop": 121345
-    },
-    {
-        "name": "Chinatown, CA",
-        "lat": 37.7966,
-        "lng": -122.40858,
-        "pop": 100574
     },
     {
         "name": "Chino, CA",
@@ -7716,12 +6912,6 @@
         "pop": 54854
     },
     {
-        "name": "Hollywood, CA",
-        "lat": 34.09834,
-        "lng": -118.32674,
-        "pop": 167664
-    },
-    {
         "name": "Huntington Beach, CA",
         "lat": 33.6603,
         "lng": -117.99923,
@@ -7750,12 +6940,6 @@
         "lat": 33.66946,
         "lng": -117.82311,
         "pop": 256927
-    },
-    {
-        "name": "Koreatown, CA",
-        "lat": 34.05779,
-        "lng": -118.30091,
-        "pop": 124281
     },
     {
         "name": "La Habra, CA",
@@ -7860,12 +7044,6 @@
         "pop": 77604
     },
     {
-        "name": "Mira Mesa, CA",
-        "lat": 32.9156,
-        "lng": -117.14392,
-        "pop": 70000
-    },
-    {
         "name": "Mission Viejo, CA",
         "lat": 33.60002,
         "lng": -117.672,
@@ -7924,18 +7102,6 @@
         "lat": 33.61891,
         "lng": -117.92895,
         "pop": 87127
-    },
-    {
-        "name": "North Hollywood, CA",
-        "lat": 34.17223,
-        "lng": -118.37897,
-        "pop": 64587
-    },
-    {
-        "name": "Northridge, CA",
-        "lat": 34.22834,
-        "lng": -118.53675,
-        "pop": 68469
     },
     {
         "name": "Norwalk, CA",
@@ -8076,12 +7242,6 @@
         "pop": 175236
     },
     {
-        "name": "Rancho Penasquitos, CA",
-        "lat": 32.95949,
-        "lng": -117.11531,
-        "pop": 60000
-    },
-    {
         "name": "Redlands, CA",
         "lat": 34.05557,
         "lng": -117.18254,
@@ -8098,12 +7258,6 @@
         "lat": 37.48522,
         "lng": -122.23635,
         "pop": 85288
-    },
-    {
-        "name": "Reseda, CA",
-        "lat": 34.20112,
-        "lng": -118.53647,
-        "pop": 65000
     },
     {
         "name": "Rialto, CA",
@@ -8202,12 +7356,6 @@
         "pop": 103536
     },
     {
-        "name": "San Pedro, CA",
-        "lat": 33.73585,
-        "lng": -118.29229,
-        "pop": 83556
-    },
-    {
         "name": "San Rafael, CA",
         "lat": 37.97353,
         "lng": -122.53109,
@@ -8274,18 +7422,6 @@
         "pop": 57787
     },
     {
-        "name": "North Hills, CA",
-        "lat": 34.23639,
-        "lng": -118.48472,
-        "pop": 56946
-    },
-    {
-        "name": "Sherman Oaks, CA",
-        "lat": 34.15112,
-        "lng": -118.44925,
-        "pop": 52677
-    },
-    {
         "name": "Simi Valley, CA",
         "lat": 34.26945,
         "lng": -118.78148,
@@ -8320,12 +7456,6 @@
         "lat": 37.36883,
         "lng": -122.03635,
         "pop": 155805
-    },
-    {
-        "name": "Sylmar, CA",
-        "lat": 34.30778,
-        "lng": -118.44925,
-        "pop": 79614
     },
     {
         "name": "Temecula, CA",
@@ -8376,12 +7506,6 @@
         "pop": 74494
     },
     {
-        "name": "Universal City, CA",
-        "lat": 34.1389,
-        "lng": -118.35341,
-        "pop": 105000
-    },
-    {
         "name": "Upland, CA",
         "lat": 34.09751,
         "lng": -117.64839,
@@ -8404,12 +7528,6 @@
         "lat": 38.10409,
         "lng": -122.25664,
         "pop": 121692
-    },
-    {
-        "name": "Van Nuys, CA",
-        "lat": 34.18667,
-        "lng": -118.44897,
-        "pop": 136443
     },
     {
         "name": "Ventura, CA",
@@ -8472,22 +7590,10 @@
         "pop": 87438
     },
     {
-        "name": "Wilmington, CA",
-        "lat": 33.78002,
-        "lng": -118.26257,
-        "pop": 52000
-    },
-    {
         "name": "Woodland, CA",
         "lat": 38.67852,
         "lng": -121.7733,
         "pop": 58567
-    },
-    {
-        "name": "Woodland Hills, CA",
-        "lat": 34.16834,
-        "lng": -118.60592,
-        "pop": 70000
     },
     {
         "name": "Yorba Linda, CA",
@@ -8718,22 +7824,10 @@
         "pop": 72897
     },
     {
-        "name": "Alhambra, AZ",
-        "lat": 33.49838,
-        "lng": -112.13432,
-        "pop": 127764
-    },
-    {
         "name": "Avondale, AZ",
         "lat": 33.4356,
         "lng": -112.3496,
         "pop": 80684
-    },
-    {
-        "name": "Ahwatukee Foothills, AZ",
-        "lat": 33.34171,
-        "lng": -111.98403,
-        "pop": 83464
     },
     {
         "name": "Redding, CA",
@@ -8964,12 +8058,6 @@
         "pop": 87461
     },
     {
-        "name": "Sandy Hills, UT",
-        "lat": 40.58106,
-        "lng": -111.85077,
-        "pop": 89575
-    },
-    {
         "name": "South Jordan, UT",
         "lat": 40.56217,
         "lng": -111.92966,
@@ -9174,18 +8262,6 @@
         "pop": 83335
     },
     {
-        "name": "Morningside Heights, NY",
-        "lat": 40.81,
-        "lng": -73.9625,
-        "pop": 55929
-    },
-    {
-        "name": "East Harlem, NY",
-        "lat": 40.79472,
-        "lng": -73.9425,
-        "pop": 115921
-    },
-    {
         "name": "Alafaya, FL",
         "lat": 28.5641,
         "lng": -81.2114,
@@ -9196,12 +8272,6 @@
         "lat": 25.76806,
         "lng": -80.23306,
         "pop": 53430
-    },
-    {
-        "name": "Briarwood, NY",
-        "lat": 40.70935,
-        "lng": -73.81529,
-        "pop": 53877
     },
     {
         "name": "City of Milford (balance), CT",
@@ -9252,58 +8322,16 @@
         "pop": 59039
     },
     {
-        "name": "Financial District, NY",
-        "lat": 40.70789,
-        "lng": -74.00857,
-        "pop": 60976
-    },
-    {
-        "name": "Sunset Park, NY",
-        "lat": 40.64548,
-        "lng": -74.01241,
-        "pop": 126000
-    },
-    {
-        "name": "Center City, PA",
-        "lat": 39.9512,
-        "lng": -75.15923,
-        "pop": 57239
-    },
-    {
         "name": "Stonecrest, GA",
         "lat": 33.70849,
         "lng": -84.13485,
         "pop": 50000
     },
     {
-        "name": "Valley Glen, CA",
-        "lat": 34.18568,
-        "lng": -118.42032,
-        "pop": 60000
-    },
-    {
-        "name": "Encanto, AZ",
-        "lat": 33.47937,
-        "lng": -112.07823,
-        "pop": 54614
-    },
-    {
-        "name": "Central City, AZ",
-        "lat": 33.44001,
-        "lng": -112.05805,
-        "pop": 58161
-    },
-    {
         "name": "South Fulton, GA",
         "lat": 33.59259,
         "lng": -84.67294,
         "pop": 107436
-    },
-    {
-        "name": "Mid-City, CA",
-        "lat": 34.04126,
-        "lng": -118.36058,
-        "pop": 83000
     },
     {
         "name": "Downtown DC, DC",
