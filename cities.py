@@ -3,6 +3,7 @@ import zipfile
 import csv
 import json
 import io
+import re
 
 REGIONS = {
     'na': {
@@ -31,6 +32,24 @@ REGIONS = {
     },
 }
 
+# GeoNames stores Canadian admin1 as numeric FIPS codes; map to postal abbrs.
+CA_ADMIN1 = {
+    '01': 'AB', '02': 'BC', '03': 'MB', '04': 'NB', '05': 'NL',
+    '07': 'NS', '08': 'ON', '09': 'PE', '10': 'QC', '11': 'SK',
+    '12': 'YT', '13': 'NT', '14': 'NU',
+}
+
+# City subdivisions GeoNames lists alongside the parent city. Drop them so the
+# parent (e.g. "Paris, FR") isn't crowded out by 13 arrondissements.
+SUBDIVISION_PATTERNS = {
+    'FR': re.compile(r'^(?:Paris|Marseille|Lyon) \d+\b'),
+    'RO': re.compile(r'^Sector \d+$'),
+}
+# NYC boroughs are coded as PPLA2 (county seats), so they slip past the PPLX
+# filter. Drop them by name within New York state.
+NYC_BOROUGHS = {'Manhattan', 'Brooklyn', 'Queens', 'Staten Island',
+                'The Bronx', 'Bronx'}
+
 
 def download_geonames():
     url = "http://download.geonames.org/export/dump/cities15000.zip"
@@ -49,14 +68,24 @@ def build_region(lines, key, cfg):
         if len(row) < 15:
             continue
 
+        # Skip sections of populated places (boroughs, arrondissements, etc.)
+        if row[7] == 'PPLX':
+            continue
+
         name = row[1]
+        country = row[8]
+        state_code = row[10]
+
+        sub_re = SUBDIVISION_PATTERNS.get(country)
+        if sub_re and sub_re.match(name):
+            continue
+        if country == 'US' and state_code == 'NY' and name in NYC_BOROUGHS:
+            continue
         try:
             lat = float(row[4])
             lng = float(row[5])
         except ValueError:
             continue
-        country = row[8]
-        state_code = row[10]
 
         try:
             population = int(row[14])
@@ -71,6 +100,8 @@ def build_region(lines, key, cfg):
             continue
 
         if country in cfg['state_in_label'] and state_code:
+            if country == 'CA':
+                state_code = CA_ADMIN1.get(state_code, state_code)
             display_name = f"{name}, {state_code}"
         else:
             display_name = f"{name}, {country}"
