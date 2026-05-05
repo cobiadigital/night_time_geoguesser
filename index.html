@@ -32,6 +32,17 @@
             margin: 0 0 36px;
             font-size: 1.05rem;
         }
+        h3.region-heading {
+            text-align: left;
+            margin: 28px 0 12px;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: #FF9800;
+            border-bottom: 1px solid #333;
+            padding-bottom: 6px;
+        }
+        h3.region-heading:first-of-type { margin-top: 0; }
         .cards {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -77,16 +88,29 @@
 <body>
     <div class="container">
         <h1>Nightfall Geographer</h1>
-        <p class="tagline">Identify North American cities from their nighttime lights.</p>
+        <p class="tagline">Identify cities from their nighttime lights.</p>
 
+        <h3 class="region-heading">North America</h3>
         <div class="cards">
-            <a class="card" href="game.html">
+            <a class="card" href="game.html?region=na">
                 <h2>Play the Game</h2>
                 <p>Click city light clusters on NASA's Black Marble imagery and label them. Score how close your guesses are.</p>
             </a>
-            <a class="card" href="study.html">
+            <a class="card" href="study.html?region=na">
                 <h2>Study Map</h2>
-                <p>Browse the 100k+ population reference map with daytime satellite imagery to learn the cities.</p>
+                <p>Browse the 50k+ population reference map with daytime satellite imagery to learn the cities.</p>
+            </a>
+        </div>
+
+        <h3 class="region-heading">Europe</h3>
+        <div class="cards">
+            <a class="card" href="game.html?region=eu">
+                <h2>Play the Game</h2>
+                <p>Same game, centered on Europe — from the British Isles to the Urals.</p>
+            </a>
+            <a class="card" href="study.html?region=eu">
+                <h2>Study Map</h2>
+                <p>European cities reference map. Use the population filters to focus on the largest centers first.</p>
             </a>
         </div>
 

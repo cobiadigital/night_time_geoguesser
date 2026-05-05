@@ -108,6 +108,12 @@
         "pop": 129920
     },
     {
+        "name": "Chicoutimi, 10",
+        "lat": 48.41963,
+        "lng": -71.06369,
+        "pop": 69004
+    },
+    {
         "name": "Chilliwack, 02",
         "lat": 49.16638,
         "lng": -121.95257,
@@ -804,7 +810,7 @@
         "pop": 88460
     },
     {
-        "name": "Downtown, 02",
+        "name": "Downtown Vancouver, 02",
         "lat": 49.27784,
         "lng": -123.12794,
         "pop": 62030
@@ -3300,7 +3306,7 @@
         "pop": 51641
     },
     {
-        "name": "Panam\u00e1, PA",
+        "name": "Panama City, PA",
         "lat": 8.9936,
         "lng": -79.51973,
         "pop": 408168
