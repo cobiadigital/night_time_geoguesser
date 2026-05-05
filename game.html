@@ -2,25 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>Nightfall Geographer</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <style>
-        body, html { margin: 0; padding: 0; height: 100%; font-family: sans-serif; background-color: #000; color: white; }
-        #map { height: 100vh; width: 100vw; background-color: #000; }
+        html, body {
+            margin: 0; padding: 0; height: 100%;
+            font-family: sans-serif; background-color: #000; color: white;
+            overscroll-behavior: none;
+            touch-action: none;
+        }
+        #map { height: 100vh; width: 100vw; background-color: #000; touch-action: none; }
 
         #ui-panel {
-            position: absolute;
-            top: 20px;
+            position: fixed;
+            top: env(safe-area-inset-top, 0);
             left: 50%;
             transform: translateX(-50%);
-            background: rgba(20, 20, 20, 0.9);
-            padding: 15px 30px;
-            border-radius: 8px;
+            max-width: calc(100vw - 24px);
+            box-sizing: border-box;
+            background: rgba(20, 20, 20, 0.92);
+            padding: 12px 20px 14px;
+            border: 1px solid #444;
+            border-top: none;
+            border-radius: 0 0 12px 12px;
             z-index: 1000;
             text-align: center;
-            border: 1px solid #444;
             box-shadow: 0 4px 10px rgba(0,0,0,0.8);
+            transition: transform 0.25s ease;
+        }
+        #ui-panel.collapsed { transform: translate(-50%, calc(-100% + 22px)); }
+
+        #collapse-toggle {
+            position: absolute;
+            bottom: -22px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 56px; height: 22px;
+            background: rgba(20, 20, 20, 0.92);
+            border: 1px solid #444;
+            border-top: none;
+            border-radius: 0 0 12px 12px;
+            color: #FFEB3B;
+            cursor: pointer;
+            padding: 0;
+            font-size: 14px;
+            line-height: 18px;
         }
 
         button.submit-btn {
@@ -28,7 +55,7 @@
             color: white;
             border: none;
             padding: 10px 20px;
-            font-size: 1.1rem;
+            font-size: 1.05rem;
             border-radius: 4px;
             cursor: pointer;
             font-weight: bold;
@@ -40,7 +67,7 @@
         .leaflet-popup-content-wrapper { background: rgba(30, 30, 30, 0.95); color: white; }
         .leaflet-popup-tip { background: rgba(30, 30, 30, 0.95); }
         .popup-ui { text-align: center; }
-        .popup-ui input { width: 90%; padding: 6px; margin: 8px 0; border-radius: 4px; border: 1px solid #666; }
+        .popup-ui input { width: 90%; padding: 6px; margin: 8px 0; border-radius: 4px; border: 1px solid #666; font-size: 16px; }
         .popup-ui button { background: #2196F3; color: white; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; }
         .popup-ui button:hover { background: #1976D2; }
 
@@ -57,6 +84,9 @@
             text-decoration: none;
         }
         #region-switch a.active { background: rgba(255,235,59,0.2); border-color: #FFEB3B; color: #FFEB3B; font-weight: bold; }
+
+        #loading-status { margin-bottom: 10px; color: #FFC107; font-size: 0.9rem; }
+        #results { margin-top: 10px; font-size: 1.05rem; display: none; }
     </style>
 </head>
 <body>
@@ -66,9 +96,10 @@
             <a href="?region=na" data-region="na">North America</a>
             <a href="?region=eu" data-region="eu">Europe</a>
         </div>
-        <div id="loading-status" style="margin-bottom: 10px; color: #FFC107;">Loading city database...</div>
-        <button class="submit-btn" id="grade-btn" onclick="gradeGame()" disabled>Submit & Grade My Map</button>
-        <div id="results" style="margin-top: 10px; font-size: 1.2rem; display: none;"></div>
+        <div id="loading-status">Loading city database...</div>
+        <button class="submit-btn" id="grade-btn" onclick="gradeGame()" disabled>Grade Map</button>
+        <div id="results"></div>
+        <button id="collapse-toggle" type="button" onclick="togglePanel()" aria-label="Hide panel">▲</button>
     </div>
 
     <div id="map"></div>
@@ -227,6 +258,15 @@
 
             map.off('click');
             document.getElementById('grade-btn').disabled = true;
+        };
+
+        // Collapse / expand the top panel
+        window.togglePanel = function() {
+            const panel = document.getElementById('ui-panel');
+            const toggle = document.getElementById('collapse-toggle');
+            const collapsed = panel.classList.toggle('collapsed');
+            toggle.textContent = collapsed ? '▼' : '▲';
+            toggle.setAttribute('aria-label', collapsed ? 'Show panel' : 'Hide panel');
         };
     </script>
 </body>
