@@ -104,11 +104,10 @@
         <a href="?region=eu" data-region="eu">Europe</a>
         <a href="?region=sa" data-region="sa">S. America</a>
     </div>
-    <h2 id="region-title">Cities — 50k+ Population</h2>
+    <h2 id="region-title">Cities — 100k+ Population</h2>
     <span id="count-label">Loading...</span>
     <div id="filters">
         <button class="filter-btn active" data-min="0" onclick="setFilter(this)">All</button>
-        <button class="filter-btn" data-min="78630" onclick="setFilter(this)">&ge; 79k</button>
         <button class="filter-btn" data-min="137491" onclick="setFilter(this)">&ge; 137k</button>
         <button class="filter-btn" data-min="292881" onclick="setFilter(this)">&ge; 293k</button>
         <button class="filter-btn" data-min="812229" onclick="setFilter(this)">&ge; 812k</button>
@@ -140,7 +139,7 @@
     const regionKey = REGIONS[requestedRegion] ? requestedRegion : 'na';
     const region = REGIONS[regionKey];
 
-    document.getElementById('region-title').textContent = `${region.label} Cities — 50k+ Population`;
+    document.getElementById('region-title').textContent = `${region.label} Cities — 100k+ Population`;
     document.querySelectorAll('#region-switch a').forEach(a => {
         if (a.dataset.region === regionKey) a.classList.add('active');
     });

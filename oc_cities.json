@@ -6,34 +6,16 @@
         "pop": 2309338
     },
     {
-        "name": "Mandurah, AU",
-        "lat": -32.5269,
-        "lng": 115.7217,
-        "pop": 90306
-    },
-    {
         "name": "Darwin, AU",
         "lat": -12.46113,
         "lng": 130.84185,
         "pop": 139902
     },
     {
-        "name": "Bunbury, AU",
-        "lat": -33.32711,
-        "lng": 115.64137,
-        "pop": 76452
-    },
-    {
         "name": "Adelaide, AU",
         "lat": -34.92866,
         "lng": 138.59863,
         "pop": 1469163
-    },
-    {
-        "name": "Tuggeranong Administrative District, AU",
-        "lat": -35.41647,
-        "lng": 149.06954,
-        "pop": 89461
     },
     {
         "name": "Townsville, AU",
@@ -54,18 +36,6 @@
         "pop": 5557233
     },
     {
-        "name": "Rockhampton, AU",
-        "lat": -23.38032,
-        "lng": 150.50595,
-        "pop": 81021
-    },
-    {
-        "name": "Port Macquarie, AU",
-        "lat": -31.43084,
-        "lng": 152.90894,
-        "pop": 51965
-    },
-    {
         "name": "Newcastle, AU",
         "lat": -32.92953,
         "lng": 151.7801,
@@ -78,22 +48,10 @@
         "pop": 5350705
     },
     {
-        "name": "Maitland, AU",
-        "lat": -32.73308,
-        "lng": 151.5574,
-        "pop": 89597
-    },
-    {
         "name": "Mackay, AU",
         "lat": -21.15345,
         "lng": 149.16554,
         "pop": 121691
-    },
-    {
-        "name": "Launceston, AU",
-        "lat": -41.43876,
-        "lng": 147.13467,
-        "pop": 90953
     },
     {
         "name": "Hobart, AU",
@@ -114,12 +72,6 @@
         "pop": 282809
     },
     {
-        "name": "Coffs Harbour, AU",
-        "lat": -30.29626,
-        "lng": 153.11351,
-        "pop": 78759
-    },
-    {
         "name": "Wollongong, AU",
         "lat": -34.424,
         "lng": 150.89345,
@@ -132,22 +84,10 @@
         "pop": 367752
     },
     {
-        "name": "Caloundra, AU",
-        "lat": -26.80346,
-        "lng": 153.12195,
-        "pop": 96305
-    },
-    {
         "name": "Cairns, AU",
         "lat": -16.92366,
         "lng": 145.76613,
         "pop": 153075
-    },
-    {
-        "name": "Bundaberg, AU",
-        "lat": -24.86621,
-        "lng": 152.3479,
-        "pop": 73747
     },
     {
         "name": "Brisbane, AU",
@@ -168,28 +108,10 @@
         "pop": 111973
     },
     {
-        "name": "Hervey Bay, AU",
-        "lat": -25.28762,
-        "lng": 152.76936,
-        "pop": 52230
-    },
-    {
-        "name": "Pittwater, AU",
-        "lat": -33.66623,
-        "lng": 151.30171,
-        "pop": 63482
-    },
-    {
         "name": "Logan City, AU",
         "lat": -27.63917,
         "lng": 153.10944,
         "pop": 345098
-    },
-    {
-        "name": "Adelaide Hills, AU",
-        "lat": -34.91119,
-        "lng": 138.70735,
-        "pop": 72260
     },
     {
         "name": "Central Coast, AU",
@@ -204,64 +126,10 @@
         "pop": 346522
     },
     {
-        "name": "Suva, FJ",
-        "lat": -18.13683,
-        "lng": 178.42531,
-        "pop": 77366
-    },
-    {
-        "name": "Lautoka, FJ",
-        "lat": -17.61686,
-        "lng": 177.45049,
-        "pop": 52500
-    },
-    {
-        "name": "Nasinu, FJ",
-        "lat": -18.07051,
-        "lng": 178.51313,
-        "pop": 92043
-    },
-    {
-        "name": "Noum\u00e9a, NC",
-        "lat": -22.27407,
-        "lng": 166.44884,
-        "pop": 93060
-    },
-    {
         "name": "Wellington, NZ",
         "lat": -41.28664,
         "lng": 174.77557,
         "pop": 381900
-    },
-    {
-        "name": "Porirua, NZ",
-        "lat": -41.13333,
-        "lng": 174.85,
-        "pop": 61800
-    },
-    {
-        "name": "Palmerston North, NZ",
-        "lat": -40.35636,
-        "lng": 175.61113,
-        "pop": 90500
-    },
-    {
-        "name": "New Plymouth, NZ",
-        "lat": -39.06667,
-        "lng": 174.08333,
-        "pop": 90100
-    },
-    {
-        "name": "Nelson, NZ",
-        "lat": -41.27078,
-        "lng": 173.28404,
-        "pop": 54400
-    },
-    {
-        "name": "Napier, NZ",
-        "lat": -39.4926,
-        "lng": 176.91233,
-        "pop": 66400
     },
     {
         "name": "Manukau City, NZ",
@@ -274,18 +142,6 @@
         "lat": -41.21667,
         "lng": 174.91667,
         "pop": 113400
-    },
-    {
-        "name": "Invercargill, NZ",
-        "lat": -46.4,
-        "lng": 168.35,
-        "pop": 58000
-    },
-    {
-        "name": "Hastings, NZ",
-        "lat": -39.6381,
-        "lng": 176.84918,
-        "pop": 89200
     },
     {
         "name": "Hamilton, NZ",
@@ -318,39 +174,9 @@
         "pop": 161000
     },
     {
-        "name": "Whangarei, NZ",
-        "lat": -35.73167,
-        "lng": 174.32391,
-        "pop": 50900
-    },
-    {
-        "name": "Papatoetoe, NZ",
-        "lat": -36.9682,
-        "lng": 174.84019,
-        "pop": 54780
-    },
-    {
-        "name": "Rotorua, NZ",
-        "lat": -38.13874,
-        "lng": 176.24516,
-        "pop": 65901
-    },
-    {
         "name": "Port Moresby, PG",
         "lat": -9.47723,
         "lng": 147.15089,
         "pop": 283733
-    },
-    {
-        "name": "Lae, PG",
-        "lat": -6.72333,
-        "lng": 146.99611,
-        "pop": 76255
-    },
-    {
-        "name": "Honiara, SB",
-        "lat": -9.43333,
-        "lng": 159.95,
-        "pop": 56298
     }
 ]

@@ -1,11 +1,5 @@
 [
     {
-        "name": "Z\u00e1rate, AR",
-        "lat": -34.09584,
-        "lng": -59.02423,
-        "pop": 99061
-    },
-    {
         "name": "Tandil, AR",
         "lat": -37.3287,
         "lng": -59.1369,
@@ -24,22 +18,10 @@
         "pop": 290793
     },
     {
-        "name": "Reconquista, AR",
-        "lat": -29.15,
-        "lng": -59.65,
-        "pop": 90184
-    },
-    {
         "name": "Quilmes, AR",
         "lat": -34.72065,
         "lng": -58.25454,
         "pop": 262379
-    },
-    {
-        "name": "Puerto Eldorado, AR",
-        "lat": -26.40843,
-        "lng": -54.69463,
-        "pop": 54189
     },
     {
         "name": "Posadas, AR",
@@ -48,58 +30,16 @@
         "pop": 305874
     },
     {
-        "name": "Pilar, AR",
-        "lat": -34.45867,
-        "lng": -58.91398,
-        "pop": 81120
-    },
-    {
-        "name": "Ober\u00e1, AR",
-        "lat": -27.48683,
-        "lng": -55.11994,
-        "pop": 56528
-    },
-    {
-        "name": "Necochea, AR",
-        "lat": -38.5545,
-        "lng": -58.73961,
-        "pop": 73557
-    },
-    {
-        "name": "Mor\u00f3n, AR",
-        "lat": -34.65118,
-        "lng": -58.62205,
-        "pop": 99066
-    },
-    {
         "name": "Merlo, AR",
         "lat": -34.66536,
         "lng": -58.72744,
         "pop": 268961
     },
     {
-        "name": "Mercedes, AR",
-        "lat": -34.65072,
-        "lng": -59.43143,
-        "pop": 63284
-    },
-    {
         "name": "Mar del Plata, AR",
         "lat": -38.00042,
         "lng": -57.5562,
         "pop": 593337
-    },
-    {
-        "name": "Luj\u00e1n, AR",
-        "lat": -34.5664,
-        "lng": -59.11478,
-        "pop": 97363
-    },
-    {
-        "name": "Los Polvorines, AR",
-        "lat": -34.50316,
-        "lng": -58.70596,
-        "pop": 53354
     },
     {
         "name": "Lomas de Zamora, AR",
@@ -120,24 +60,6 @@
         "pop": 168419
     },
     {
-        "name": "Hurlingham, AR",
-        "lat": -34.5904,
-        "lng": -58.62904,
-        "pop": 60000
-    },
-    {
-        "name": "Gualeguaych\u00fa, AR",
-        "lat": -33.00777,
-        "lng": -58.51836,
-        "pop": 78676
-    },
-    {
-        "name": "Goya, AR",
-        "lat": -29.13995,
-        "lng": -59.26343,
-        "pop": 70245
-    },
-    {
         "name": "Formosa, AR",
         "lat": -26.18489,
         "lng": -58.17313,
@@ -148,18 +70,6 @@
         "lat": -34.8544,
         "lng": -58.52474,
         "pop": 115021
-    },
-    {
-        "name": "El Palomar, AR",
-        "lat": -34.61771,
-        "lng": -58.60153,
-        "pop": 59031
-    },
-    {
-        "name": "Don Torcuato, AR",
-        "lat": -34.49459,
-        "lng": -58.62729,
-        "pop": 71356
     },
     {
         "name": "Corrientes, AR",
@@ -174,28 +84,10 @@
         "pop": 145210
     },
     {
-        "name": "Concepci\u00f3n del Uruguay, AR",
-        "lat": -32.48463,
-        "lng": -58.23217,
-        "pop": 67895
-    },
-    {
-        "name": "Col\u00f3n, AR",
-        "lat": -32.22312,
-        "lng": -58.14426,
-        "pop": 58219
-    },
-    {
         "name": "Castelar, AR",
         "lat": -34.65142,
         "lng": -58.64074,
         "pop": 107786
-    },
-    {
-        "name": "Campana, AR",
-        "lat": -34.16327,
-        "lng": -58.95919,
-        "pop": 86860
     },
     {
         "name": "Buenos Aires, AR",
@@ -208,72 +100,6 @@
         "lat": -34.76531,
         "lng": -58.21278,
         "pop": 180523
-    },
-    {
-        "name": "Bella Vista, AR",
-        "lat": -34.5651,
-        "lng": -58.69034,
-        "pop": 79737
-    },
-    {
-        "name": "Barranqueras, AR",
-        "lat": -27.48132,
-        "lng": -58.93925,
-        "pop": 50823
-    },
-    {
-        "name": "Azul, AR",
-        "lat": -36.77803,
-        "lng": -59.85848,
-        "pop": 53941
-    },
-    {
-        "name": "Yerba Buena, AR",
-        "lat": -26.81298,
-        "lng": -65.29543,
-        "pop": 50783
-    },
-    {
-        "name": "Villa Mar\u00eda, AR",
-        "lat": -32.40751,
-        "lng": -63.24016,
-        "pop": 92453
-    },
-    {
-        "name": "Villa Carlos Paz, AR",
-        "lat": -31.4183,
-        "lng": -64.49008,
-        "pop": 69451
-    },
-    {
-        "name": "Venado Tuerto, AR",
-        "lat": -33.74585,
-        "lng": -61.96711,
-        "pop": 72340
-    },
-    {
-        "name": "Ushuaia, AR",
-        "lat": -54.81084,
-        "lng": -68.31591,
-        "pop": 56825
-    },
-    {
-        "name": "Trelew, AR",
-        "lat": -43.24895,
-        "lng": -65.30505,
-        "pop": 97915
-    },
-    {
-        "name": "Tartagal, AR",
-        "lat": -22.51682,
-        "lng": -63.8056,
-        "pop": 60819
-    },
-    {
-        "name": "Santo Tom\u00e9, AR",
-        "lat": -31.66274,
-        "lng": -60.7653,
-        "pop": 59072
     },
     {
         "name": "Santiago del Estero, AR",
@@ -300,22 +126,10 @@
         "pop": 257970
     },
     {
-        "name": "San Ram\u00f3n de la Nueva Or\u00e1n, AR",
-        "lat": -23.13705,
-        "lng": -64.32426,
-        "pop": 74059
-    },
-    {
         "name": "San Rafael, AR",
         "lat": -34.61531,
         "lng": -68.33238,
         "pop": 118009
-    },
-    {
-        "name": "San Pedro de Jujuy, AR",
-        "lat": -24.23127,
-        "lng": -64.86614,
-        "pop": 58430
     },
     {
         "name": "San Nicol\u00e1s de los Arroyos, AR",
@@ -330,12 +144,6 @@
         "pop": 548866
     },
     {
-        "name": "San Mart\u00edn, AR",
-        "lat": -33.08338,
-        "lng": -68.47312,
-        "pop": 82549
-    },
-    {
         "name": "San Luis, AR",
         "lat": -33.2914,
         "lng": -66.32467,
@@ -346,12 +154,6 @@
         "lat": -31.53726,
         "lng": -68.52568,
         "pop": 109123
-    },
-    {
-        "name": "San Francisco, AR",
-        "lat": -31.42497,
-        "lng": -62.08404,
-        "pop": 59062
     },
     {
         "name": "Catamarca, AR",
@@ -372,70 +174,16 @@
         "pop": 948312
     },
     {
-        "name": "R\u00edo Tercero, AR",
-        "lat": -32.17675,
-        "lng": -64.11295,
-        "pop": 53389
-    },
-    {
-        "name": "R\u00edo Grande, AR",
-        "lat": -53.78773,
-        "lng": -67.70975,
-        "pop": 52681
-    },
-    {
-        "name": "R\u00edo Gallegos, AR",
-        "lat": -51.6253,
-        "lng": -69.25229,
-        "pop": 95796
-    },
-    {
         "name": "R\u00edo Cuarto, AR",
         "lat": -33.13044,
         "lng": -64.35272,
         "pop": 157010
     },
     {
-        "name": "Rafaela, AR",
-        "lat": -31.25285,
-        "lng": -61.49078,
-        "pop": 88713
-    },
-    {
-        "name": "Punta Alta, AR",
-        "lat": -38.8805,
-        "lng": -62.07503,
-        "pop": 57209
-    },
-    {
-        "name": "Puerto Madryn, AR",
-        "lat": -42.76848,
-        "lng": -65.03827,
-        "pop": 64555
-    },
-    {
-        "name": "Presidencia Roque S\u00e1enz Pe\u00f1a, AR",
-        "lat": -26.79095,
-        "lng": -60.44132,
-        "pop": 81879
-    },
-    {
-        "name": "Pergamino, AR",
-        "lat": -33.89101,
-        "lng": -60.57462,
-        "pop": 91399
-    },
-    {
         "name": "Paran\u00e1, AR",
         "lat": -31.73271,
         "lng": -60.52897,
         "pop": 247139
-    },
-    {
-        "name": "Olavarr\u00eda, AR",
-        "lat": -36.89384,
-        "lng": -60.32319,
-        "pop": 89721
     },
     {
         "name": "Neuqu\u00e9n, AR",
@@ -456,30 +204,6 @@
         "pop": 178872
     },
     {
-        "name": "Jun\u00edn, AR",
-        "lat": -34.59391,
-        "lng": -60.94644,
-        "pop": 87509
-    },
-    {
-        "name": "Gobernador G\u00e1lvez, AR",
-        "lat": -33.03016,
-        "lng": -60.64045,
-        "pop": 74650
-    },
-    {
-        "name": "General Roca, AR",
-        "lat": -39.03333,
-        "lng": -67.58333,
-        "pop": 73212
-    },
-    {
-        "name": "General Pico, AR",
-        "lat": -35.6593,
-        "lng": -63.75787,
-        "pop": 57029
-    },
-    {
         "name": "C\u00f3rdoba, AR",
         "lat": -31.40648,
         "lng": -64.18853,
@@ -492,34 +216,10 @@
         "pop": 140850
     },
     {
-        "name": "Cipolletti, AR",
-        "lat": -38.93392,
-        "lng": -67.99032,
-        "pop": 75078
-    },
-    {
-        "name": "Chivilcoy, AR",
-        "lat": -34.8969,
-        "lng": -60.01909,
-        "pop": 54514
-    },
-    {
-        "name": "Chimbas, AR",
-        "lat": -31.49313,
-        "lng": -68.53263,
-        "pop": 73829
-    },
-    {
         "name": "Bah\u00eda Blanca, AR",
         "lat": -38.7176,
         "lng": -62.26545,
         "pop": 299101
-    },
-    {
-        "name": "Villa Mercedes, AR",
-        "lat": -33.67571,
-        "lng": -65.45783,
-        "pop": 96781
     },
     {
         "name": "San Miguel, AR",
@@ -528,46 +228,10 @@
         "pop": 168762
     },
     {
-        "name": "San Carlos de Bariloche, AR",
-        "lat": -41.14557,
-        "lng": -71.30822,
-        "pop": 95394
-    },
-    {
         "name": "Jos\u00e9 C. Paz, AR",
         "lat": -34.51541,
         "lng": -58.76813,
         "pop": 230208
-    },
-    {
-        "name": "Yacuiba, BO",
-        "lat": -22.01643,
-        "lng": -63.67753,
-        "pop": 82803
-    },
-    {
-        "name": "Vinto, BO",
-        "lat": -17.39141,
-        "lng": -66.31681,
-        "pop": 58739
-    },
-    {
-        "name": "Viacha, BO",
-        "lat": -16.65,
-        "lng": -68.3,
-        "pop": 86218
-    },
-    {
-        "name": "Trinidad, BO",
-        "lat": -14.83223,
-        "lng": -64.90335,
-        "pop": 84259
-    },
-    {
-        "name": "Tiquipaya, BO",
-        "lat": -17.33801,
-        "lng": -66.21579,
-        "pop": 62675
     },
     {
         "name": "Tarija, BO",
@@ -594,12 +258,6 @@
         "pop": 180726
     },
     {
-        "name": "Riberalta, BO",
-        "lat": -11.01026,
-        "lng": -66.05257,
-        "pop": 99070
-    },
-    {
         "name": "Quillacollo, BO",
         "lat": -17.39228,
         "lng": -66.27838,
@@ -618,22 +276,10 @@
         "pop": 208684
     },
     {
-        "name": "Montero, BO",
-        "lat": -17.33874,
-        "lng": -63.25093,
-        "pop": 88616
-    },
-    {
         "name": "La Paz, BO",
         "lat": -16.5,
         "lng": -68.15,
         "pop": 2004652
-    },
-    {
-        "name": "Colcapirhua, BO",
-        "lat": -17.3857,
-        "lng": -66.23814,
-        "pop": 52732
     },
     {
         "name": "Cochabamba, BO",
@@ -648,70 +294,10 @@
         "pop": 134084
     },
     {
-        "name": "Viseu, BR",
-        "lat": -1.19667,
-        "lng": -46.14,
-        "pop": 58692
-    },
-    {
-        "name": "Vigia, BR",
-        "lat": -0.85833,
-        "lng": -48.14167,
-        "pop": 50832
-    },
-    {
-        "name": "Vi\u00e7osa do Cear\u00e1, BR",
-        "lat": -3.56222,
-        "lng": -41.09222,
-        "pop": 59712
-    },
-    {
-        "name": "Viana, BR",
-        "lat": -3.22028,
-        "lng": -45.00361,
-        "pop": 51442
-    },
-    {
-        "name": "Uni\u00e3o dos Palmares, BR",
-        "lat": -9.16278,
-        "lng": -36.03194,
-        "pop": 60874
-    },
-    {
-        "name": "Tut\u00f3ia, BR",
-        "lat": -2.76194,
-        "lng": -42.27444,
-        "pop": 53356
-    },
-    {
-        "name": "Tucuru\u00ed, BR",
-        "lat": -3.76585,
-        "lng": -49.67923,
-        "pop": 91306
-    },
-    {
-        "name": "Trairi, BR",
-        "lat": -3.27778,
-        "lng": -39.26889,
-        "pop": 58415
-    },
-    {
-        "name": "Tom\u00e9-A\u00e7u, BR",
-        "lat": -2.41889,
-        "lng": -48.15222,
-        "pop": 67585
-    },
-    {
         "name": "Timon, BR",
         "lat": -5.09417,
         "lng": -42.83667,
         "pop": 174465
-    },
-    {
-        "name": "Tiangu\u00e1, BR",
-        "lat": -3.73222,
-        "lng": -40.99167,
-        "pop": 81506
     },
     {
         "name": "Teresina, BR",
@@ -720,52 +306,10 @@
         "pop": 871126
     },
     {
-        "name": "Tau\u00e1, BR",
-        "lat": -6.00306,
-        "lng": -40.29278,
-        "pop": 61227
-    },
-    {
-        "name": "Surubim, BR",
-        "lat": -7.83306,
-        "lng": -35.75472,
-        "pop": 64120
-    },
-    {
-        "name": "Sousa, BR",
-        "lat": -6.75917,
-        "lng": -38.22806,
-        "pop": 67259
-    },
-    {
         "name": "Sobral, BR",
         "lat": -3.68611,
         "lng": -40.34972,
         "pop": 203023
-    },
-    {
-        "name": "Serra Talhada, BR",
-        "lat": -7.99194,
-        "lng": -38.29833,
-        "pop": 86915
-    },
-    {
-        "name": "Sap\u00e9, BR",
-        "lat": -7.09639,
-        "lng": -35.23278,
-        "pop": 51306
-    },
-    {
-        "name": "S\u00e3o Miguel dos Campos, BR",
-        "lat": -9.78111,
-        "lng": -36.09361,
-        "pop": 53391
-    },
-    {
-        "name": "S\u00e3o Miguel do Guam\u00e1, BR",
-        "lat": -1.62667,
-        "lng": -47.48333,
-        "pop": 52894
     },
     {
         "name": "S\u00e3o Lu\u00eds, BR",
@@ -792,18 +336,6 @@
         "pop": 115838
     },
     {
-        "name": "S\u00e3o Gon\u00e7alo do Amarante, BR",
-        "lat": -3.60722,
-        "lng": -38.96833,
-        "pop": 54143
-    },
-    {
-        "name": "S\u00e3o F\u00e9lix do Xingu, BR",
-        "lat": -6.64472,
-        "lng": -51.995,
-        "pop": 65418
-    },
-    {
         "name": "Santa Rita, BR",
         "lat": -7.11389,
         "lng": -34.97806,
@@ -816,58 +348,10 @@
         "pop": 189047
     },
     {
-        "name": "Santa Isabel do Par\u00e1, BR",
-        "lat": -1.29861,
-        "lng": -48.16056,
-        "pop": 73019
-    },
-    {
-        "name": "Santa In\u00eas, BR",
-        "lat": -3.66667,
-        "lng": -45.38,
-        "pop": 85014
-    },
-    {
-        "name": "Santa Cruz do Capibaribe, BR",
-        "lat": -7.9575,
-        "lng": -36.20472,
-        "pop": 98254
-    },
-    {
-        "name": "Salgueiro, BR",
-        "lat": -8.07417,
-        "lng": -39.11917,
-        "pop": 62372
-    },
-    {
-        "name": "Russas, BR",
-        "lat": -4.94028,
-        "lng": -37.97583,
-        "pop": 72928
-    },
-    {
-        "name": "Rio Largo, BR",
-        "lat": -9.47833,
-        "lng": -35.85333,
-        "pop": 97435
-    },
-    {
         "name": "Recife, BR",
         "lat": -8.05389,
         "lng": -34.88111,
         "pop": 1653461
-    },
-    {
-        "name": "Quixeramobim, BR",
-        "lat": -5.19917,
-        "lng": -39.29278,
-        "pop": 82177
-    },
-    {
-        "name": "Quixad\u00e1, BR",
-        "lat": -4.97139,
-        "lng": -39.01528,
-        "pop": 84168
     },
     {
         "name": "Santana, BR",
@@ -876,40 +360,10 @@
         "pop": 107618
     },
     {
-        "name": "Portel, BR",
-        "lat": -1.93556,
-        "lng": -50.82111,
-        "pop": 62503
-    },
-    {
-        "name": "Piripiri, BR",
-        "lat": -4.27333,
-        "lng": -41.77694,
-        "pop": 65538
-    },
-    {
-        "name": "Pinheiro, BR",
-        "lat": -2.52139,
-        "lng": -45.0825,
-        "pop": 84621
-    },
-    {
-        "name": "Picos, BR",
-        "lat": -7.07694,
-        "lng": -41.46694,
-        "pop": 83090
-    },
-    {
         "name": "Petrolina, BR",
         "lat": -9.39861,
         "lng": -40.50083,
         "pop": 386791
-    },
-    {
-        "name": "Pesqueira, BR",
-        "lat": -8.35778,
-        "lng": -36.69639,
-        "pop": 62722
     },
     {
         "name": "Paulo Afonso, BR",
@@ -922,18 +376,6 @@
         "lat": -7.94083,
         "lng": -34.87306,
         "pop": 342167
-    },
-    {
-        "name": "Paudalho, BR",
-        "lat": -7.89667,
-        "lng": -35.17972,
-        "pop": 56665
-    },
-    {
-        "name": "Patos, BR",
-        "lat": -7.02444,
-        "lng": -37.28,
-        "pop": 92575
     },
     {
         "name": "Parnamirim, BR",
@@ -960,46 +402,10 @@
         "pop": 105550
     },
     {
-        "name": "Palmares, BR",
-        "lat": -8.68333,
-        "lng": -35.59167,
-        "pop": 54584
-    },
-    {
-        "name": "Pacatuba, BR",
-        "lat": -3.98417,
-        "lng": -38.62028,
-        "pop": 81524
-    },
-    {
-        "name": "Pacajus, BR",
-        "lat": -4.1725,
-        "lng": -38.46056,
-        "pop": 70983
-    },
-    {
-        "name": "Ouricuri, BR",
-        "lat": -7.8825,
-        "lng": -40.08167,
-        "pop": 65245
-    },
-    {
-        "name": "Oriximin\u00e1, BR",
-        "lat": -1.76556,
-        "lng": -55.86611,
-        "pop": 68294
-    },
-    {
         "name": "Olinda, BR",
         "lat": -8.00889,
         "lng": -34.85528,
         "pop": 366754
-    },
-    {
-        "name": "\u00d3bidos, BR",
-        "lat": -1.9175,
-        "lng": -55.51806,
-        "pop": 52306
     },
     {
         "name": "Natal, BR",
@@ -1008,46 +414,10 @@
         "pop": 896708
     },
     {
-        "name": "Moreno, BR",
-        "lat": -8.11861,
-        "lng": -35.09222,
-        "pop": 55292
-    },
-    {
-        "name": "Morada Nova, BR",
-        "lat": -5.10667,
-        "lng": -38.3725,
-        "pop": 61443
-    },
-    {
-        "name": "Monte Alegre, BR",
-        "lat": -2.00082,
-        "lng": -54.08102,
-        "pop": 60012
-    },
-    {
-        "name": "Moju, BR",
-        "lat": -1.88389,
-        "lng": -48.76889,
-        "pop": 84094
-    },
-    {
         "name": "Mossor\u00f3, BR",
         "lat": -5.1875,
         "lng": -37.34417,
         "pop": 264577
-    },
-    {
-        "name": "Mau\u00e9s, BR",
-        "lat": -3.38361,
-        "lng": -57.71861,
-        "pop": 65714
-    },
-    {
-        "name": "Marechal Deodoro, BR",
-        "lat": -9.71028,
-        "lng": -35.895,
-        "pop": 62341
     },
     {
         "name": "Maranguape, BR",
@@ -1080,30 +450,6 @@
         "pop": 512902
     },
     {
-        "name": "Maca\u00edba, BR",
-        "lat": -5.85833,
-        "lng": -35.35389,
-        "pop": 82249
-    },
-    {
-        "name": "Limoeiro do Norte, BR",
-        "lat": -5.14556,
-        "lng": -38.09806,
-        "pop": 59560
-    },
-    {
-        "name": "Limoeiro, BR",
-        "lat": -7.87472,
-        "lng": -35.45028,
-        "pop": 56510
-    },
-    {
-        "name": "Juruti, BR",
-        "lat": -2.15222,
-        "lng": -56.09222,
-        "pop": 50881
-    },
-    {
         "name": "Juazeiro do Norte, BR",
         "lat": -7.21306,
         "lng": -39.31528,
@@ -1120,12 +466,6 @@
         "lat": -7.115,
         "lng": -34.86306,
         "pop": 817511
-    },
-    {
-        "name": "Jacund\u00e1, BR",
-        "lat": -4.44696,
-        "lng": -49.11556,
-        "pop": 59842
     },
     {
         "name": "Jaboat\u00e3o, BR",
@@ -1146,22 +486,10 @@
         "pop": 131123
     },
     {
-        "name": "Itapecuru Mirim, BR",
-        "lat": -3.3925,
-        "lng": -44.35861,
-        "pop": 60440
-    },
-    {
         "name": "Itaituba, BR",
         "lat": -4.27611,
         "lng": -55.98361,
         "pop": 123314
-    },
-    {
-        "name": "Itaitinga, BR",
-        "lat": -3.96944,
-        "lng": -38.52806,
-        "pop": 64650
     },
     {
         "name": "Ipojuca, BR",
@@ -1176,64 +504,10 @@
         "pop": 218106
     },
     {
-        "name": "Iguatu, BR",
-        "lat": -6.35944,
-        "lng": -39.29861,
-        "pop": 98064
-    },
-    {
-        "name": "Igarap\u00e9 Miri, BR",
-        "lat": -1.975,
-        "lng": -48.95972,
-        "pop": 64831
-    },
-    {
         "name": "Igarassu, BR",
         "lat": -7.83417,
         "lng": -34.90639,
         "pop": 122312
-    },
-    {
-        "name": "Ic\u00f3, BR",
-        "lat": -6.40111,
-        "lng": -38.86222,
-        "pop": 62642
-    },
-    {
-        "name": "Horizonte, BR",
-        "lat": -4.09802,
-        "lng": -38.486,
-        "pop": 70983
-    },
-    {
-        "name": "Guarabira, BR",
-        "lat": -6.85472,
-        "lng": -35.49,
-        "pop": 57484
-    },
-    {
-        "name": "Gravat\u00e1, BR",
-        "lat": -8.20111,
-        "lng": -35.56472,
-        "pop": 91887
-    },
-    {
-        "name": "Granja, BR",
-        "lat": -3.12028,
-        "lng": -40.82611,
-        "pop": 53344
-    },
-    {
-        "name": "Graja\u00fa, BR",
-        "lat": -5.81944,
-        "lng": -46.13861,
-        "pop": 73872
-    },
-    {
-        "name": "Goiana, BR",
-        "lat": -7.56056,
-        "lng": -35.0025,
-        "pop": 85160
     },
     {
         "name": "Garanhuns, BR",
@@ -1248,70 +522,16 @@
         "pop": 2400000
     },
     {
-        "name": "Floriano, BR",
-        "lat": -6.76694,
-        "lng": -43.0225,
-        "pop": 62036
-    },
-    {
-        "name": "Eus\u00e9bio, BR",
-        "lat": -3.89,
-        "lng": -38.45056,
-        "pop": 74170
-    },
-    {
-        "name": "Extremoz, BR",
-        "lat": -5.70556,
-        "lng": -35.30722,
-        "pop": 61635
-    },
-    {
-        "name": "Escada, BR",
-        "lat": -8.35917,
-        "lng": -35.22361,
-        "pop": 62252
-    },
-    {
-        "name": "Delmiro Gouveia, BR",
-        "lat": -9.38861,
-        "lng": -37.99917,
-        "pop": 52809
-    },
-    {
         "name": "Crato, BR",
         "lat": -7.23417,
         "lng": -39.40944,
         "pop": 131050
     },
     {
-        "name": "Crate\u00fas, BR",
-        "lat": -5.17775,
-        "lng": -40.66949,
-        "pop": 76390
-    },
-    {
-        "name": "Coroat\u00e1, BR",
-        "lat": -4.13,
-        "lng": -44.12417,
-        "pop": 61351
-    },
-    {
         "name": "Cod\u00f3, BR",
         "lat": -4.45528,
         "lng": -43.88556,
         "pop": 114275
-    },
-    {
-        "name": "Chapadinha, BR",
-        "lat": -3.74167,
-        "lng": -43.36028,
-        "pop": 81386
-    },
-    {
-        "name": "Cear\u00e1-Mirim, BR",
-        "lat": -5.63444,
-        "lng": -35.42556,
-        "pop": 79115
     },
     {
         "name": "Caxias, BR",
@@ -1332,58 +552,16 @@
         "pop": 192256
     },
     {
-        "name": "Cascavel, BR",
-        "lat": -4.13306,
-        "lng": -38.24194,
-        "pop": 72720
-    },
-    {
-        "name": "Casa Nova, BR",
-        "lat": -9.17419,
-        "lng": -40.97514,
-        "pop": 72086
-    },
-    {
         "name": "Caruaru, BR",
         "lat": -8.28333,
         "lng": -35.97611,
         "pop": 402290
     },
     {
-        "name": "Carpina, BR",
-        "lat": -7.85083,
-        "lng": -35.25472,
-        "pop": 83205
-    },
-    {
-        "name": "Capit\u00e3o Po\u00e7o, BR",
-        "lat": -1.74639,
-        "lng": -47.05944,
-        "pop": 56506
-    },
-    {
-        "name": "Capanema, BR",
-        "lat": -1.19583,
-        "lng": -47.18083,
-        "pop": 70394
-    },
-    {
-        "name": "Canind\u00e9, BR",
-        "lat": -4.35889,
-        "lng": -39.31167,
-        "pop": 74174
-    },
-    {
         "name": "Campina Grande, BR",
         "lat": -7.23056,
         "lng": -35.88111,
         "pop": 348936
-    },
-    {
-        "name": "Camocim, BR",
-        "lat": -2.90222,
-        "lng": -40.84111,
-        "pop": 62326
     },
     {
         "name": "Camet\u00e1, BR",
@@ -1398,34 +576,10 @@
         "pop": 155771
     },
     {
-        "name": "Cajazeiras, BR",
-        "lat": -6.89028,
-        "lng": -38.55528,
-        "pop": 63239
-    },
-    {
-        "name": "Caic\u00f3, BR",
-        "lat": -6.45833,
-        "lng": -37.09778,
-        "pop": 61146
-    },
-    {
         "name": "Cabo de Santo Agostinho, BR",
         "lat": -8.28773,
         "lng": -35.02925,
         "pop": 216969
-    },
-    {
-        "name": "Cabedelo, BR",
-        "lat": -6.98111,
-        "lng": -34.83389,
-        "pop": 66519
-    },
-    {
-        "name": "Bu\u00edque, BR",
-        "lat": -8.62306,
-        "lng": -37.15583,
-        "pop": 54425
     },
     {
         "name": "Breves, BR",
@@ -1434,46 +588,10 @@
         "pop": 106968
     },
     {
-        "name": "Brejo Santo, BR",
-        "lat": -7.49333,
-        "lng": -38.98722,
-        "pop": 51090
-    },
-    {
-        "name": "Brejo da Madre de Deus, BR",
-        "lat": -8.14583,
-        "lng": -36.37111,
-        "pop": 51107
-    },
-    {
         "name": "Bragan\u00e7a, BR",
         "lat": -1.05361,
         "lng": -46.76556,
         "pop": 123082
-    },
-    {
-        "name": "Boa Viagem, BR",
-        "lat": -5.1275,
-        "lng": -39.73222,
-        "pop": 50411
-    },
-    {
-        "name": "Bezerros, BR",
-        "lat": -8.23333,
-        "lng": -35.79694,
-        "pop": 64809
-    },
-    {
-        "name": "Benevides, BR",
-        "lat": -1.36139,
-        "lng": -48.24472,
-        "pop": 63567
-    },
-    {
-        "name": "Belo Jardim, BR",
-        "lat": -8.33556,
-        "lng": -36.42417,
-        "pop": 83647
     },
     {
         "name": "Bel\u00e9m, BR",
@@ -1482,40 +600,10 @@
         "pop": 1499641
     },
     {
-        "name": "Beberibe, BR",
-        "lat": -4.17972,
-        "lng": -38.13056,
-        "pop": 53114
-    },
-    {
-        "name": "Bayeux, BR",
-        "lat": -7.125,
-        "lng": -34.93222,
-        "pop": 82742
-    },
-    {
-        "name": "Barreirinhas, BR",
-        "lat": -2.75556,
-        "lng": -42.82591,
-        "pop": 65589
-    },
-    {
-        "name": "Barra do Corda, BR",
-        "lat": -5.50556,
-        "lng": -45.24333,
-        "pop": 86662
-    },
-    {
         "name": "Barcarena, BR",
         "lat": -1.50583,
         "lng": -48.62583,
         "pop": 126650
-    },
-    {
-        "name": "Barbalha, BR",
-        "lat": -7.31111,
-        "lng": -39.30417,
-        "pop": 75033
     },
     {
         "name": "Balsas, BR",
@@ -1524,28 +612,10 @@
         "pop": 101767
     },
     {
-        "name": "Bai\u00e3o, BR",
-        "lat": -2.79056,
-        "lng": -49.67167,
-        "pop": 51641
-    },
-    {
         "name": "Bacabal, BR",
         "lat": -4.23246,
         "lng": -44.78164,
         "pop": 103711
-    },
-    {
-        "name": "Arcoverde, BR",
-        "lat": -8.41889,
-        "lng": -37.05389,
-        "pop": 82003
-    },
-    {
-        "name": "Araripina, BR",
-        "lat": -7.57611,
-        "lng": -40.49833,
-        "pop": 90104
     },
     {
         "name": "Arapiraca, BR",
@@ -1560,12 +630,6 @@
         "pop": 105019
     },
     {
-        "name": "Aquiraz, BR",
-        "lat": -3.90139,
-        "lng": -38.39111,
-        "pop": 65116
-    },
-    {
         "name": "Ananindeua, BR",
         "lat": -1.36556,
         "lng": -48.37222,
@@ -1578,30 +642,6 @@
         "pop": 126279
     },
     {
-        "name": "Alenquer, BR",
-        "lat": -1.94167,
-        "lng": -54.73833,
-        "pop": 69377
-    },
-    {
-        "name": "A\u00e7u, BR",
-        "lat": -5.57667,
-        "lng": -36.90861,
-        "pop": 56496
-    },
-    {
-        "name": "Acara\u00fa, BR",
-        "lat": -2.88556,
-        "lng": -40.12,
-        "pop": 65264
-    },
-    {
-        "name": "Acar\u00e1, BR",
-        "lat": -1.96083,
-        "lng": -48.19667,
-        "pop": 59023
-    },
-    {
         "name": "Abreu e Lima, BR",
         "lat": -7.91167,
         "lng": -34.90278,
@@ -1612,18 +652,6 @@
         "lat": -1.71806,
         "lng": -48.8825,
         "pop": 158188
-    },
-    {
-        "name": "Xanxer\u00ea, BR",
-        "lat": -26.87694,
-        "lng": -52.40417,
-        "pop": 51607
-    },
-    {
-        "name": "Votuporanga, BR",
-        "lat": -20.42278,
-        "lng": -49.97278,
-        "pop": 69863
     },
     {
         "name": "Votorantim, BR",
@@ -1650,34 +678,10 @@
         "pop": 312656
     },
     {
-        "name": "Vinhedo, BR",
-        "lat": -23.02972,
-        "lng": -46.97528,
-        "pop": 80111
-    },
-    {
         "name": "Vila Velha, BR",
         "lat": -20.32972,
         "lng": -40.2925,
         "pop": 394930
-    },
-    {
-        "name": "Videira, BR",
-        "lat": -27.00833,
-        "lng": -51.15167,
-        "pop": 55466
-    },
-    {
-        "name": "Vi\u00e7osa, BR",
-        "lat": -20.75389,
-        "lng": -42.88194,
-        "pop": 76430
-    },
-    {
-        "name": "Viana, BR",
-        "lat": -20.39028,
-        "lng": -40.49611,
-        "pop": 73423
     },
     {
         "name": "Viam\u00e3o, BR",
@@ -1690,12 +694,6 @@
         "lat": -19.69194,
         "lng": -43.92333,
         "pop": 129246
-    },
-    {
-        "name": "Ven\u00e2ncio Aires, BR",
-        "lat": -29.60639,
-        "lng": -52.19194,
-        "pop": 68763
     },
     {
         "name": "V\u00e1rzea Paulista, BR",
@@ -1722,40 +720,10 @@
         "pop": 126373
     },
     {
-        "name": "Valen\u00e7a, BR",
-        "lat": -22.24556,
-        "lng": -43.70028,
-        "pop": 71462
-    },
-    {
-        "name": "Valen\u00e7a, BR",
-        "lat": -13.37028,
-        "lng": -39.07306,
-        "pop": 85655
-    },
-    {
-        "name": "Vacaria, BR",
-        "lat": -28.51222,
-        "lng": -50.93389,
-        "pop": 64197
-    },
-    {
         "name": "Uruguaiana, BR",
         "lat": -29.75472,
         "lng": -57.08833,
         "pop": 123480
-    },
-    {
-        "name": "Uni\u00e3o da Vit\u00f3ria, BR",
-        "lat": -26.23,
-        "lng": -51.08639,
-        "pop": 55033
-    },
-    {
-        "name": "Una\u00ed, BR",
-        "lat": -16.3575,
-        "lng": -46.90611,
-        "pop": 86619
     },
     {
         "name": "Umuarama, BR",
@@ -1776,22 +744,10 @@
         "pop": 337836
     },
     {
-        "name": "Ubatuba, BR",
-        "lat": -23.43389,
-        "lng": -45.07111,
-        "pop": 91824
-    },
-    {
         "name": "Ub\u00e1, BR",
         "lat": -21.12,
         "lng": -42.94278,
         "pop": 103365
-    },
-    {
-        "name": "Tup\u00e3, BR",
-        "lat": -21.93472,
-        "lng": -50.51361,
-        "pop": 63928
     },
     {
         "name": "Tubar\u00e3o, BR",
@@ -1806,64 +762,10 @@
         "pop": 142431
     },
     {
-        "name": "Tr\u00eas Rios, BR",
-        "lat": -22.11667,
-        "lng": -43.20917,
-        "pop": 82300
-    },
-    {
-        "name": "Tr\u00eas Pontas, BR",
-        "lat": -21.36667,
-        "lng": -45.5125,
-        "pop": 55255
-    },
-    {
-        "name": "Tr\u00eas Lagoas, BR",
-        "lat": -20.78765,
-        "lng": -51.70338,
-        "pop": 78712
-    },
-    {
-        "name": "Tr\u00eas Cora\u00e7\u00f5es, BR",
-        "lat": -21.69694,
-        "lng": -45.25333,
-        "pop": 75485
-    },
-    {
-        "name": "Trememb\u00e9, BR",
-        "lat": -22.95833,
-        "lng": -45.54944,
-        "pop": 51173
-    },
-    {
-        "name": "Tramanda\u00ed, BR",
-        "lat": -29.98472,
-        "lng": -50.13361,
-        "pop": 54387
-    },
-    {
         "name": "Toledo, BR",
         "lat": -24.71361,
         "lng": -53.74306,
         "pop": 119313
-    },
-    {
-        "name": "Tobias Barreto, BR",
-        "lat": -11.18389,
-        "lng": -37.99833,
-        "pop": 50905
-    },
-    {
-        "name": "Tim\u00f3teo, BR",
-        "lat": -19.58106,
-        "lng": -42.64953,
-        "pop": 81579
-    },
-    {
-        "name": "Tijucas, BR",
-        "lat": -27.24139,
-        "lng": -48.63361,
-        "pop": 51592
     },
     {
         "name": "Teres\u00f3polis, BR",
@@ -1878,12 +780,6 @@
         "pop": 101170
     },
     {
-        "name": "Tel\u00eamaco Borba, BR",
-        "lat": -24.32389,
-        "lng": -50.61556,
-        "pop": 75042
-    },
-    {
         "name": "Taubat\u00e9, BR",
         "lat": -23.02639,
         "lng": -45.55528,
@@ -1894,18 +790,6 @@
         "lat": -23.35556,
         "lng": -47.85694,
         "pop": 122967
-    },
-    {
-        "name": "Taquaritinga, BR",
-        "lat": -21.40611,
-        "lng": -48.50472,
-        "pop": 52260
-    },
-    {
-        "name": "Taquara, BR",
-        "lat": -29.65056,
-        "lng": -50.78056,
-        "pop": 53242
     },
     {
         "name": "Tabo\u00e3o da Serra, BR",
@@ -1932,12 +816,6 @@
         "pop": 687357
     },
     {
-        "name": "Sobradinho, BR",
-        "lat": -15.64713,
-        "lng": -47.79315,
-        "pop": 72273
-    },
-    {
         "name": "Sete Lagoas, BR",
         "lat": -19.46583,
         "lng": -44.24667,
@@ -1950,28 +828,10 @@
         "pop": 126887
     },
     {
-        "name": "Serrinha, BR",
-        "lat": -11.66417,
-        "lng": -39.0075,
-        "pop": 80435
-    },
-    {
         "name": "Serra, BR",
         "lat": -20.12861,
         "lng": -40.30778,
         "pop": 520653
-    },
-    {
-        "name": "Serop\u00e9dica, BR",
-        "lat": -22.74389,
-        "lng": -43.7075,
-        "pop": 84737
-    },
-    {
-        "name": "Senhor do Bonfim, BR",
-        "lat": -10.46139,
-        "lng": -40.18944,
-        "pop": 74523
     },
     {
         "name": "Senador Canedo, BR",
@@ -1986,46 +846,16 @@
         "pop": 118455
     },
     {
-        "name": "Saquarema, BR",
-        "lat": -22.89889,
-        "lng": -42.46985,
-        "pop": 95201
-    },
-    {
         "name": "Sapucaia do Sul, BR",
         "lat": -29.81782,
         "lng": -51.14551,
         "pop": 132107
     },
     {
-        "name": "Sapiranga, BR",
-        "lat": -29.63806,
-        "lng": -51.00694,
-        "pop": 75648
-    },
-    {
         "name": "S\u00e3o Vicente, BR",
         "lat": -23.96306,
         "lng": -46.39194,
         "pop": 329911
-    },
-    {
-        "name": "S\u00e3o Sebasti\u00e3o do Para\u00edso, BR",
-        "lat": -20.91694,
-        "lng": -46.99139,
-        "pop": 71796
-    },
-    {
-        "name": "S\u00e3o Sebasti\u00e3o, BR",
-        "lat": -23.76,
-        "lng": -45.40972,
-        "pop": 81595
-    },
-    {
-        "name": "S\u00e3o Roque, BR",
-        "lat": -23.52917,
-        "lng": -47.13528,
-        "pop": 79484
     },
     {
         "name": "S\u00e3o Pedro da Aldeia, BR",
@@ -2070,12 +900,6 @@
         "pop": 480393
     },
     {
-        "name": "S\u00e3o Jos\u00e9 do Rio Pardo, BR",
-        "lat": -21.59556,
-        "lng": -46.88861,
-        "pop": 52205
-    },
-    {
         "name": "S\u00e3o Jos\u00e9, BR",
         "lat": -28.21344,
         "lng": -49.16383,
@@ -2094,42 +918,6 @@
         "pop": 466536
     },
     {
-        "name": "S\u00e3o Jo\u00e3o del Rei, BR",
-        "lat": -21.13556,
-        "lng": -44.26167,
-        "pop": 78592
-    },
-    {
-        "name": "S\u00e3o Jo\u00e3o da Boa Vista, BR",
-        "lat": -21.96917,
-        "lng": -46.79806,
-        "pop": 92547
-    },
-    {
-        "name": "S\u00e3o Gabriel, BR",
-        "lat": -30.33639,
-        "lng": -54.32,
-        "pop": 58487
-    },
-    {
-        "name": "S\u00e3o Francisco do Sul, BR",
-        "lat": -26.24333,
-        "lng": -48.63806,
-        "pop": 52674
-    },
-    {
-        "name": "S\u00e3o Francisco, BR",
-        "lat": -15.94861,
-        "lng": -44.86444,
-        "pop": 52762
-    },
-    {
-        "name": "S\u00e3o Crist\u00f3v\u00e3o, BR",
-        "lat": -11.01472,
-        "lng": -37.20639,
-        "pop": 95612
-    },
-    {
         "name": "S\u00e3o Carlos, BR",
         "lat": -22.0175,
         "lng": -47.89083,
@@ -2142,22 +930,10 @@
         "pop": 165655
     },
     {
-        "name": "S\u00e3o Borja, BR",
-        "lat": -28.66056,
-        "lng": -56.00444,
-        "pop": 60019
-    },
-    {
         "name": "S\u00e3o Bernardo do Campo, BR",
         "lat": -23.69389,
         "lng": -46.565,
         "pop": 743372
-    },
-    {
-        "name": "S\u00e3o Bento do Sul, BR",
-        "lat": -26.25028,
-        "lng": -49.37861,
-        "pop": 83277
     },
     {
         "name": "Santos, BR",
@@ -2166,46 +942,16 @@
         "pop": 433656
     },
     {
-        "name": "Santo Est\u00eav\u00e3o, BR",
-        "lat": -12.43028,
-        "lng": -39.25139,
-        "pop": 52276
-    },
-    {
         "name": "Santo Ant\u00f4nio de Jesus, BR",
         "lat": -12.96889,
         "lng": -39.26139,
         "pop": 103055
     },
     {
-        "name": "Santo \u00c2ngelo, BR",
-        "lat": -28.29917,
-        "lng": -54.26306,
-        "pop": 76917
-    },
-    {
         "name": "Santo Andr\u00e9, BR",
         "lat": -23.66389,
         "lng": -46.53833,
         "pop": 662373
-    },
-    {
-        "name": "Santo Amaro, BR",
-        "lat": -12.54667,
-        "lng": -38.71194,
-        "pop": 56012
-    },
-    {
-        "name": "Santa Rosa, BR",
-        "lat": -27.87083,
-        "lng": -54.48139,
-        "pop": 76963
-    },
-    {
-        "name": "Sant'Ana do Livramento, BR",
-        "lat": -30.89083,
-        "lng": -55.53278,
-        "pop": 84421
     },
     {
         "name": "Santana de Parna\u00edba, BR",
@@ -2224,12 +970,6 @@
         "lat": -19.76972,
         "lng": -43.85139,
         "pop": 219132
-    },
-    {
-        "name": "Santa Isabel, BR",
-        "lat": -23.31556,
-        "lng": -46.22139,
-        "pop": 53174
     },
     {
         "name": "Santa Cruz do Sul, BR",
@@ -2268,12 +1008,6 @@
         "pop": 259167
     },
     {
-        "name": "Rol\u00e2ndia, BR",
-        "lat": -23.30972,
-        "lng": -51.36917,
-        "pop": 71670
-    },
-    {
         "name": "Rio Verde, BR",
         "lat": -17.79806,
         "lng": -50.92806,
@@ -2284,12 +1018,6 @@
         "lat": -32.035,
         "lng": -52.09861,
         "pop": 187838
-    },
-    {
-        "name": "Rio do Sul, BR",
-        "lat": -27.21417,
-        "lng": -49.64306,
-        "pop": 72587
     },
     {
         "name": "Rio de Janeiro, BR",
@@ -2310,12 +1038,6 @@
         "pop": 201418
     },
     {
-        "name": "Rio Bonito, BR",
-        "lat": -22.70861,
-        "lng": -42.60972,
-        "pop": 59113
-    },
-    {
         "name": "Ribeir\u00e3o Preto, BR",
         "lat": -21.1775,
         "lng": -47.81028,
@@ -2334,22 +1056,10 @@
         "pop": 329794
     },
     {
-        "name": "Ribeira do Pombal, BR",
-        "lat": -10.83444,
-        "lng": -38.53583,
-        "pop": 54010
-    },
-    {
         "name": "Resende, BR",
         "lat": -22.46889,
         "lng": -44.44667,
         "pop": 111514
-    },
-    {
-        "name": "Registro, BR",
-        "lat": -24.4875,
-        "lng": -47.84361,
-        "pop": 59947
     },
     {
         "name": "Queimados, BR",
@@ -2382,46 +1092,10 @@
         "pop": 168326
     },
     {
-        "name": "Porto Nacional, BR",
-        "lat": -10.70806,
-        "lng": -48.41722,
-        "pop": 68555
-    },
-    {
-        "name": "Porto Ferreira, BR",
-        "lat": -21.85389,
-        "lng": -47.47917,
-        "pop": 52649
-    },
-    {
-        "name": "Porto Feliz, BR",
-        "lat": -23.21472,
-        "lng": -47.52389,
-        "pop": 53402
-    },
-    {
         "name": "Porto Alegre, BR",
         "lat": -30.03283,
         "lng": -51.23019,
         "pop": 1488252
-    },
-    {
-        "name": "Pontes e Lacerda, BR",
-        "lat": -15.22611,
-        "lng": -59.33528,
-        "pop": 54795
-    },
-    {
-        "name": "Ponte Nova, BR",
-        "lat": -20.41639,
-        "lng": -42.90861,
-        "pop": 57776
-    },
-    {
-        "name": "Ponta Por\u00e3, BR",
-        "lat": -22.53611,
-        "lng": -55.72556,
-        "pop": 92017
     },
     {
         "name": "Ponta Grossa, BR",
@@ -2454,18 +1128,6 @@
         "pop": 118730
     },
     {
-        "name": "Pirapora, BR",
-        "lat": -17.345,
-        "lng": -44.94194,
-        "pop": 55606
-    },
-    {
-        "name": "Pirassununga, BR",
-        "lat": -21.99611,
-        "lng": -47.42583,
-        "pop": 73545
-    },
-    {
         "name": "Piracicaba, BR",
         "lat": -22.72528,
         "lng": -47.64917,
@@ -2478,34 +1140,10 @@
         "pop": 165428
     },
     {
-        "name": "Piedade, BR",
-        "lat": -23.71194,
-        "lng": -47.42778,
-        "pop": 52970
-    },
-    {
         "name": "Petr\u00f3polis, BR",
         "lat": -22.505,
         "lng": -43.17861,
         "pop": 272691
-    },
-    {
-        "name": "Peru\u00edbe, BR",
-        "lat": -24.32,
-        "lng": -46.99833,
-        "pop": 68352
-    },
-    {
-        "name": "Penedo, BR",
-        "lat": -10.29028,
-        "lng": -36.58639,
-        "pop": 60189
-    },
-    {
-        "name": "Pen\u00e1polis, BR",
-        "lat": -21.41972,
-        "lng": -50.0775,
-        "pop": 61679
     },
     {
         "name": "Pelotas, BR",
@@ -2514,34 +1152,16 @@
         "pop": 320674
     },
     {
-        "name": "Pedro Leopoldo, BR",
-        "lat": -19.61806,
-        "lng": -44.04306,
-        "pop": 62580
-    },
-    {
         "name": "Paul\u00ednia, BR",
         "lat": -22.76111,
         "lng": -47.15417,
         "pop": 112003
     },
     {
-        "name": "Patroc\u00ednio, BR",
-        "lat": -18.94389,
-        "lng": -46.9925,
-        "pop": 89826
-    },
-    {
         "name": "Patos de Minas, BR",
         "lat": -18.57889,
         "lng": -46.51806,
         "pop": 159235
-    },
-    {
-        "name": "Pato Branco, BR",
-        "lat": -26.22861,
-        "lng": -52.67056,
-        "pop": 91836
     },
     {
         "name": "Passos, BR",
@@ -2562,52 +1182,16 @@
         "pop": 187315
     },
     {
-        "name": "Parob\u00e9, BR",
-        "lat": -29.62861,
-        "lng": -50.83472,
-        "pop": 52058
-    },
-    {
-        "name": "Parano\u00e1, BR",
-        "lat": -15.77553,
-        "lng": -47.78117,
-        "pop": 63923
-    },
-    {
-        "name": "Paranava\u00ed, BR",
-        "lat": -23.07306,
-        "lng": -52.46528,
-        "pop": 92001
-    },
-    {
         "name": "Paranagu\u00e1, BR",
         "lat": -25.51626,
         "lng": -48.52537,
         "pop": 141013
     },
     {
-        "name": "Par\u00e1 de Minas, BR",
-        "lat": -19.86028,
-        "lng": -44.60833,
-        "pop": 97139
-    },
-    {
-        "name": "Paracatu, BR",
-        "lat": -17.22222,
-        "lng": -46.87472,
-        "pop": 94023
-    },
-    {
         "name": "Palho\u00e7a, BR",
         "lat": -27.64528,
         "lng": -48.66778,
         "pop": 175272
-    },
-    {
-        "name": "Ouro Preto, BR",
-        "lat": -20.39484,
-        "lng": -43.50517,
-        "pop": 74821
     },
     {
         "name": "Ourinhos, BR",
@@ -2622,12 +1206,6 @@
         "pop": 728615
     },
     {
-        "name": "Ol\u00edmpia, BR",
-        "lat": -20.73722,
-        "lng": -48.91472,
-        "pop": 55074
-    },
-    {
         "name": "Novo Hamburgo, BR",
         "lat": -29.67833,
         "lng": -51.13056,
@@ -2638,12 +1216,6 @@
         "lat": -19.87611,
         "lng": -44.98361,
         "pop": 105552
-    },
-    {
-        "name": "Nova Odessa, BR",
-        "lat": -22.7775,
-        "lng": -47.29583,
-        "pop": 62019
     },
     {
         "name": "Nova Lima, BR",
@@ -2682,58 +1254,16 @@
         "pop": 147281
     },
     {
-        "name": "Navira\u00ed, BR",
-        "lat": -23.065,
-        "lng": -54.19056,
-        "pop": 50457
-    },
-    {
-        "name": "Navegantes, BR",
-        "lat": -26.89889,
-        "lng": -48.65417,
-        "pop": 86401
-    },
-    {
         "name": "Muria\u00e9, BR",
         "lat": -21.13056,
         "lng": -42.36639,
         "pop": 104108
     },
     {
-        "name": "Morrinhos, BR",
-        "lat": -17.73111,
-        "lng": -49.09944,
-        "pop": 51351
-    },
-    {
         "name": "Montes Claros, BR",
         "lat": -16.735,
         "lng": -43.86167,
         "pop": 414240
-    },
-    {
-        "name": "Montenegro, BR",
-        "lat": -29.68861,
-        "lng": -51.46111,
-        "pop": 65721
-    },
-    {
-        "name": "Monte Mor, BR",
-        "lat": -22.94667,
-        "lng": -47.31583,
-        "pop": 64662
-    },
-    {
-        "name": "Mongagu\u00e1, BR",
-        "lat": -24.09306,
-        "lng": -46.62083,
-        "pop": 57648
-    },
-    {
-        "name": "Mogi Mirim, BR",
-        "lat": -22.43194,
-        "lng": -46.95778,
-        "pop": 78244
     },
     {
         "name": "Mogi Gua\u00e7u, BR",
@@ -2748,40 +1278,10 @@
         "pop": 325746
     },
     {
-        "name": "Mococa, BR",
-        "lat": -21.46778,
-        "lng": -47.00472,
-        "pop": 67681
-    },
-    {
-        "name": "Mirassol, BR",
-        "lat": -20.81917,
-        "lng": -49.52111,
-        "pop": 63337
-    },
-    {
-        "name": "Mineiros, BR",
-        "lat": -17.56944,
-        "lng": -52.55111,
-        "pop": 70081
-    },
-    {
-        "name": "Medianeira, BR",
-        "lat": -25.29528,
-        "lng": -54.09389,
-        "pop": 54369
-    },
-    {
         "name": "Mau\u00e1, BR",
         "lat": -23.66778,
         "lng": -46.46139,
         "pop": 477552
-    },
-    {
-        "name": "Mat\u00e3o, BR",
-        "lat": -21.60333,
-        "lng": -48.36583,
-        "pop": 79033
     },
     {
         "name": "Maring\u00e1, BR",
@@ -2802,46 +1302,16 @@
         "pop": 211986
     },
     {
-        "name": "Mariana, BR",
-        "lat": -20.37778,
-        "lng": -43.41611,
-        "pop": 61387
-    },
-    {
-        "name": "Marechal C\u00e2ndido Rondon, BR",
-        "lat": -24.55611,
-        "lng": -54.05667,
-        "pop": 55836
-    },
-    {
-        "name": "Manhua\u00e7u, BR",
-        "lat": -20.25806,
-        "lng": -42.03361,
-        "pop": 91886
-    },
-    {
         "name": "Mairipor\u00e3, BR",
         "lat": -23.31861,
         "lng": -46.58667,
         "pop": 101937
     },
     {
-        "name": "Mairinque, BR",
-        "lat": -23.54583,
-        "lng": -47.18333,
-        "pop": 50027
-    },
-    {
         "name": "Mag\u00e9, BR",
         "lat": -22.65278,
         "lng": -43.04056,
         "pop": 244092
-    },
-    {
-        "name": "Mafra, BR",
-        "lat": -26.11139,
-        "lng": -49.80528,
-        "pop": 55286
     },
     {
         "name": "Maca\u00e9, BR",
@@ -2856,28 +1326,10 @@
         "pop": 209129
     },
     {
-        "name": "Louveira, BR",
-        "lat": -23.08639,
-        "lng": -46.95056,
-        "pop": 51847
-    },
-    {
-        "name": "Lorena, BR",
-        "lat": -22.73083,
-        "lng": -45.12472,
-        "pop": 84855
-    },
-    {
         "name": "Londrina, BR",
         "lat": -23.31028,
         "lng": -51.16278,
         "pop": 588125
-    },
-    {
-        "name": "Lins, BR",
-        "lat": -21.67861,
-        "lng": -49.7425,
-        "pop": 78503
     },
     {
         "name": "Linhares, BR",
@@ -2892,24 +1344,6 @@
         "pop": 291869
     },
     {
-        "name": "Leopoldina, BR",
-        "lat": -21.53194,
-        "lng": -42.64306,
-        "pop": 51145
-    },
-    {
-        "name": "Len\u00e7\u00f3is Paulista, BR",
-        "lat": -22.59861,
-        "lng": -48.80028,
-        "pop": 66505
-    },
-    {
-        "name": "Leme, BR",
-        "lat": -22.18556,
-        "lng": -47.39028,
-        "pop": 98161
-    },
-    {
         "name": "Lavras, BR",
         "lat": -21.24528,
         "lng": -44.99972,
@@ -2920,24 +1354,6 @@
         "lat": -27.81611,
         "lng": -50.32611,
         "pop": 164676
-    },
-    {
-        "name": "Lajeado, BR",
-        "lat": -29.46694,
-        "lng": -51.96139,
-        "pop": 93646
-    },
-    {
-        "name": "Lagoa Santa, BR",
-        "lat": -19.63006,
-        "lng": -43.9009,
-        "pop": 75145
-    },
-    {
-        "name": "Lagoa da Prata, BR",
-        "lat": -20.0225,
-        "lng": -45.54361,
-        "pop": 51412
     },
     {
         "name": "Lagarto, BR",
@@ -2962,12 +1378,6 @@
         "lat": -26.30444,
         "lng": -48.84556,
         "pop": 461304
-    },
-    {
-        "name": "Jo\u00e3o Monlevade, BR",
-        "lat": -19.81,
-        "lng": -43.17361,
-        "pop": 80187
     },
     {
         "name": "Jequi\u00e9, BR",
@@ -3000,52 +1410,16 @@
         "pop": 102149
     },
     {
-        "name": "Janu\u00e1ria, BR",
-        "lat": -15.47949,
-        "lng": -44.3652,
-        "pop": 65150
-    },
-    {
         "name": "Jandira, BR",
         "lat": -23.5275,
         "lng": -46.9025,
         "pop": 118045
     },
     {
-        "name": "Jana\u00faba, BR",
-        "lat": -15.8025,
-        "lng": -43.30889,
-        "pop": 70699
-    },
-    {
-        "name": "Jaguari\u00fana, BR",
-        "lat": -22.70556,
-        "lng": -46.98583,
-        "pop": 58722
-    },
-    {
-        "name": "Jacobina, BR",
-        "lat": -11.18143,
-        "lng": -40.51372,
-        "pop": 82590
-    },
-    {
         "name": "Jacare\u00ed, BR",
         "lat": -23.30528,
         "lng": -45.96583,
         "pop": 213110
-    },
-    {
-        "name": "Jaboticabal, BR",
-        "lat": -21.25472,
-        "lng": -48.32222,
-        "pop": 71821
-    },
-    {
-        "name": "Itumbiara, BR",
-        "lat": -18.41917,
-        "lng": -49.21528,
-        "pop": 79582
     },
     {
         "name": "Ituiutaba, BR",
@@ -3060,12 +1434,6 @@
         "pop": 137586
     },
     {
-        "name": "Ita\u00fana, BR",
-        "lat": -20.07528,
-        "lng": -44.57639,
-        "pop": 97669
-    },
-    {
         "name": "Itatiba, BR",
         "lat": -23.00583,
         "lng": -46.83889,
@@ -3078,22 +1446,10 @@
         "pop": 369275
     },
     {
-        "name": "Itapira, BR",
-        "lat": -22.43611,
-        "lng": -46.82167,
-        "pop": 72022
-    },
-    {
         "name": "Itapevi, BR",
         "lat": -23.54889,
         "lng": -46.93417,
         "pop": 240961
-    },
-    {
-        "name": "Itapeva, BR",
-        "lat": -23.98222,
-        "lng": -48.87556,
-        "pop": 89728
     },
     {
         "name": "Itapetininga, BR",
@@ -3102,22 +1458,10 @@
         "pop": 157790
     },
     {
-        "name": "Itapetinga, BR",
-        "lat": -15.24889,
-        "lng": -40.24778,
-        "pop": 65897
-    },
-    {
         "name": "Itaperuna, BR",
         "lat": -21.205,
         "lng": -41.88778,
         "pop": 107246
-    },
-    {
-        "name": "Itapema, BR",
-        "lat": -27.09028,
-        "lng": -48.61139,
-        "pop": 75940
     },
     {
         "name": "Itapecerica da Serra, BR",
@@ -3130,18 +1474,6 @@
         "lat": -24.18306,
         "lng": -46.78889,
         "pop": 103102
-    },
-    {
-        "name": "Itamaraju, BR",
-        "lat": -17.03917,
-        "lng": -39.53111,
-        "pop": 59605
-    },
-    {
-        "name": "Itajub\u00e1, BR",
-        "lat": -22.42556,
-        "lng": -45.45278,
-        "pop": 93073
     },
     {
         "name": "Itaja\u00ed, BR",
@@ -3168,22 +1500,10 @@
         "pop": 240040
     },
     {
-        "name": "Itabirito, BR",
-        "lat": -20.25333,
-        "lng": -43.80139,
-        "pop": 53365
-    },
-    {
         "name": "Itabira, BR",
         "lat": -19.61917,
         "lng": -43.22694,
         "pop": 113343
-    },
-    {
-        "name": "Itaberaba, BR",
-        "lat": -12.5275,
-        "lng": -40.30694,
-        "pop": 65073
     },
     {
         "name": "Itabaiana, BR",
@@ -3192,34 +1512,10 @@
         "pop": 103440
     },
     {
-        "name": "Irec\u00ea, BR",
-        "lat": -11.30417,
-        "lng": -41.85583,
-        "pop": 74507
-    },
-    {
-        "name": "Irati, BR",
-        "lat": -25.46722,
-        "lng": -50.65111,
-        "pop": 59250
-    },
-    {
-        "name": "Ipir\u00e1, BR",
-        "lat": -12.15833,
-        "lng": -39.73722,
-        "pop": 56876
-    },
-    {
         "name": "Ipatinga, BR",
         "lat": -19.46833,
         "lng": -42.53667,
         "pop": 228746
-    },
-    {
-        "name": "Inhumas, BR",
-        "lat": -16.35778,
-        "lng": -49.49611,
-        "pop": 52204
     },
     {
         "name": "Indaiatuba, BR",
@@ -3228,46 +1524,10 @@
         "pop": 256223
     },
     {
-        "name": "Indaial, BR",
-        "lat": -26.89778,
-        "lng": -49.23167,
-        "pop": 71549
-    },
-    {
-        "name": "Imbituba, BR",
-        "lat": -28.24,
-        "lng": -48.67028,
-        "pop": 52579
-    },
-    {
         "name": "Ilh\u00e9us, BR",
         "lat": -14.79909,
         "lng": -39.03228,
         "pop": 155499
-    },
-    {
-        "name": "Iju\u00ed, BR",
-        "lat": -28.38778,
-        "lng": -53.91472,
-        "pop": 84780
-    },
-    {
-        "name": "I\u00e7ara, BR",
-        "lat": -28.71333,
-        "lng": -49.3,
-        "pop": 59035
-    },
-    {
-        "name": "Ibi\u00fana, BR",
-        "lat": -23.65639,
-        "lng": -47.2225,
-        "pop": 75605
-    },
-    {
-        "name": "Ibitinga, BR",
-        "lat": -21.75778,
-        "lng": -48.82889,
-        "pop": 60033
     },
     {
         "name": "Ibirit\u00e9, BR",
@@ -3276,28 +1536,10 @@
         "pop": 170537
     },
     {
-        "name": "Ibipor\u00e3, BR",
-        "lat": -23.26917,
-        "lng": -51.04806,
-        "pop": 51603
-    },
-    {
         "name": "Hortol\u00e2ndia, BR",
         "lat": -22.85833,
         "lng": -47.22,
         "pop": 234259
-    },
-    {
-        "name": "Gurupi, BR",
-        "lat": -11.72917,
-        "lng": -49.06861,
-        "pop": 89574
-    },
-    {
-        "name": "Guaxup\u00e9, BR",
-        "lat": -21.30528,
-        "lng": -46.71278,
-        "pop": 50911
     },
     {
         "name": "Guarulhos, BR",
@@ -3336,18 +1578,6 @@
         "pop": 120641
     },
     {
-        "name": "Guapimirim, BR",
-        "lat": -22.53722,
-        "lng": -42.98194,
-        "pop": 54300
-    },
-    {
-        "name": "Guanambi, BR",
-        "lat": -14.22333,
-        "lng": -42.78139,
-        "pop": 87817
-    },
-    {
         "name": "Gravata\u00ed, BR",
         "lat": -29.94218,
         "lng": -50.99278,
@@ -3360,40 +1590,16 @@
         "pop": 250878
     },
     {
-        "name": "Goianira, BR",
-        "lat": -16.49611,
-        "lng": -49.42639,
-        "pop": 71916
-    },
-    {
         "name": "Goi\u00e2nia, BR",
         "lat": -16.67861,
         "lng": -49.25389,
         "pop": 1536097
     },
     {
-        "name": "Goian\u00e9sia, BR",
-        "lat": -15.3175,
-        "lng": -49.1175,
-        "pop": 73707
-    },
-    {
-        "name": "Gaspar, BR",
-        "lat": -26.93139,
-        "lng": -48.95889,
-        "pop": 72570
-    },
-    {
         "name": "Gama, BR",
         "lat": -16.02511,
         "lng": -48.07121,
         "pop": 139467
-    },
-    {
-        "name": "Frutal, BR",
-        "lat": -20.02472,
-        "lng": -48.94056,
-        "pop": 58588
     },
     {
         "name": "Franco da Rocha, BR",
@@ -3406,18 +1612,6 @@
         "lat": -23.28167,
         "lng": -46.74528,
         "pop": 165139
-    },
-    {
-        "name": "Lucas do Rio Verde, BR",
-        "lat": -13.07127,
-        "lng": -55.91479,
-        "pop": 92256
-    },
-    {
-        "name": "Francisco Beltr\u00e3o, BR",
-        "lat": -26.08111,
-        "lng": -53.055,
-        "pop": 96666
     },
     {
         "name": "Franca, BR",
@@ -3438,12 +1632,6 @@
         "pop": 115901
     },
     {
-        "name": "Formiga, BR",
-        "lat": -20.46444,
-        "lng": -45.42639,
-        "pop": 68248
-    },
-    {
         "name": "Florian\u00f3polis, BR",
         "lat": -27.59667,
         "lng": -48.54917,
@@ -3456,70 +1644,16 @@
         "pop": 179198
     },
     {
-        "name": "Fernand\u00f3polis, BR",
-        "lat": -20.28389,
-        "lng": -50.24639,
-        "pop": 71186
-    },
-    {
         "name": "Feira de Santana, BR",
         "lat": -12.26667,
         "lng": -38.96667,
         "pop": 619609
     },
     {
-        "name": "Farroupilha, BR",
-        "lat": -29.225,
-        "lng": -51.34778,
-        "pop": 70286
-    },
-    {
-        "name": "Extrema, BR",
-        "lat": -22.85472,
-        "lng": -46.31833,
-        "pop": 53482
-    },
-    {
         "name": "Eun\u00e1polis, BR",
         "lat": -16.3775,
         "lng": -39.58028,
         "pop": 113710
-    },
-    {
-        "name": "Euclides da Cunha, BR",
-        "lat": -10.5075,
-        "lng": -39.01583,
-        "pop": 61456
-    },
-    {
-        "name": "Esteio, BR",
-        "lat": -29.86139,
-        "lng": -51.17917,
-        "pop": 76137
-    },
-    {
-        "name": "Est\u00e2ncia, BR",
-        "lat": -11.26833,
-        "lng": -37.43833,
-        "pop": 65078
-    },
-    {
-        "name": "Esmeraldas, BR",
-        "lat": -19.7625,
-        "lng": -44.31389,
-        "pop": 85598
-    },
-    {
-        "name": "Erechim, BR",
-        "lat": -27.63461,
-        "lng": -52.2754,
-        "pop": 96087
-    },
-    {
-        "name": "Embu-Gua\u00e7u, BR",
-        "lat": -23.83222,
-        "lng": -46.81139,
-        "pop": 66970
     },
     {
         "name": "Embu das Artes, BR",
@@ -3546,22 +1680,10 @@
         "pop": 231091
     },
     {
-        "name": "Dias d'\u00c1vila, BR",
-        "lat": -12.6125,
-        "lng": -38.29694,
-        "pop": 71485
-    },
-    {
         "name": "Diadema, BR",
         "lat": -23.68611,
         "lng": -46.62278,
         "pop": 393237
-    },
-    {
-        "name": "Curvelo, BR",
-        "lat": -18.75639,
-        "lng": -44.43083,
-        "pop": 80665
     },
     {
         "name": "Curitiba, BR",
@@ -3582,30 +1704,6 @@
         "pop": 112476
     },
     {
-        "name": "Cruzeiro, BR",
-        "lat": -22.57316,
-        "lng": -44.97108,
-        "pop": 74961
-    },
-    {
-        "name": "Cruz das Almas, BR",
-        "lat": -12.67,
-        "lng": -39.10194,
-        "pop": 60348
-    },
-    {
-        "name": "Cruz Alta, BR",
-        "lat": -28.64397,
-        "lng": -53.60633,
-        "pop": 58913
-    },
-    {
-        "name": "Cristalina, BR",
-        "lat": -16.76769,
-        "lng": -47.6153,
-        "pop": 60210
-    },
-    {
         "name": "Crici\u00fama, BR",
         "lat": -28.6775,
         "lng": -49.36972,
@@ -3616,24 +1714,6 @@
         "lat": -23.60389,
         "lng": -46.91917,
         "pop": 253608
-    },
-    {
-        "name": "Cosm\u00f3polis, BR",
-        "lat": -22.64583,
-        "lng": -47.19611,
-        "pop": 59773
-    },
-    {
-        "name": "Coruripe, BR",
-        "lat": -10.12556,
-        "lng": -36.17556,
-        "pop": 51788
-    },
-    {
-        "name": "Corumb\u00e1, BR",
-        "lat": -19.00917,
-        "lng": -57.65333,
-        "pop": 96520
     },
     {
         "name": "Coronel Fabriciano, BR",
@@ -3654,24 +1734,6 @@
         "pop": 111596
     },
     {
-        "name": "Congonhas, BR",
-        "lat": -20.50525,
-        "lng": -43.8588,
-        "pop": 52890
-    },
-    {
-        "name": "Conc\u00f3rdia, BR",
-        "lat": -27.23417,
-        "lng": -52.02778,
-        "pop": 81646
-    },
-    {
-        "name": "Concei\u00e7\u00e3o do Coit\u00e9, BR",
-        "lat": -11.56389,
-        "lng": -39.28278,
-        "pop": 67825
-    },
-    {
         "name": "Colombo, BR",
         "lat": -25.29167,
         "lng": -49.22417,
@@ -3682,12 +1744,6 @@
         "lat": -19.53944,
         "lng": -40.63056,
         "pop": 101190
-    },
-    {
-        "name": "Cianorte, BR",
-        "lat": -23.66333,
-        "lng": -52.605,
-        "pop": 83816
     },
     {
         "name": "Chapec\u00f3, BR",
@@ -3720,18 +1776,6 @@
         "pop": 114427
     },
     {
-        "name": "Cataguases, BR",
-        "lat": -21.38917,
-        "lng": -42.69667,
-        "pop": 66261
-    },
-    {
-        "name": "Castro, BR",
-        "lat": -24.78927,
-        "lng": -50.01225,
-        "pop": 73075
-    },
-    {
         "name": "Cascavel, BR",
         "lat": -24.95583,
         "lng": -53.45528,
@@ -3742,18 +1786,6 @@
         "lat": -20.26389,
         "lng": -40.42,
         "pop": 353491
-    },
-    {
-        "name": "Carazinho, BR",
-        "lat": -28.28389,
-        "lng": -52.78639,
-        "pop": 61804
-    },
-    {
-        "name": "Caratinga, BR",
-        "lat": -19.78972,
-        "lng": -42.13917,
-        "pop": 87360
     },
     {
         "name": "Carapicu\u00edba, BR",
@@ -3768,58 +1800,16 @@
         "pop": 123389
     },
     {
-        "name": "Capivari, BR",
-        "lat": -22.995,
-        "lng": -47.50778,
-        "pop": 50068
-    },
-    {
-        "name": "Cap\u00e3o da Canoa, BR",
-        "lat": -29.74556,
-        "lng": -50.00972,
-        "pop": 63594
-    },
-    {
-        "name": "Canoinhas, BR",
-        "lat": -26.17722,
-        "lng": -50.39,
-        "pop": 55016
-    },
-    {
         "name": "Canoas, BR",
         "lat": -29.91778,
         "lng": -51.18361,
         "pop": 328291
     },
     {
-        "name": "Candeias, BR",
-        "lat": -12.66778,
-        "lng": -38.55056,
-        "pop": 72382
-    },
-    {
-        "name": "Campos do Jord\u00e3o, BR",
-        "lat": -22.73944,
-        "lng": -45.59139,
-        "pop": 52405
-    },
-    {
         "name": "Campos dos Goytacazes, BR",
         "lat": -21.75227,
         "lng": -41.33044,
         "pop": 511168
-    },
-    {
-        "name": "Campo Mour\u00e3o, BR",
-        "lat": -24.04309,
-        "lng": -52.37929,
-        "pop": 99432
-    },
-    {
-        "name": "Campo Limpo Paulista, BR",
-        "lat": -23.20554,
-        "lng": -46.7838,
-        "pop": 77632
     },
     {
         "name": "Campo Largo, BR",
@@ -3834,34 +1824,10 @@
         "pop": 906092
     },
     {
-        "name": "Campo Formoso, BR",
-        "lat": -10.5075,
-        "lng": -40.32139,
-        "pop": 71377
-    },
-    {
-        "name": "Campo Bom, BR",
-        "lat": -29.67889,
-        "lng": -51.05333,
-        "pop": 62886
-    },
-    {
-        "name": "Campo Belo, BR",
-        "lat": -20.89722,
-        "lng": -45.27722,
-        "pop": 52277
-    },
-    {
         "name": "Campinas, BR",
         "lat": -22.90556,
         "lng": -47.06083,
         "pop": 1031554
-    },
-    {
-        "name": "Cambori\u00fa, BR",
-        "lat": -27.02528,
-        "lng": -48.65444,
-        "pop": 85105
     },
     {
         "name": "Camb\u00e9, BR",
@@ -3870,40 +1836,16 @@
         "pop": 107208
     },
     {
-        "name": "Camaqu\u00e3, BR",
-        "lat": -30.85111,
-        "lng": -51.81222,
-        "pop": 62200
-    },
-    {
         "name": "Cama\u00e7ari, BR",
         "lat": -12.6975,
         "lng": -38.32417,
         "pop": 188758
     },
     {
-        "name": "Caldas Novas, BR",
-        "lat": -17.74431,
-        "lng": -48.62789,
-        "pop": 98622
-    },
-    {
-        "name": "Cajamar, BR",
-        "lat": -23.35611,
-        "lng": -46.87694,
-        "pop": 92689
-    },
-    {
         "name": "Caieiras, BR",
         "lat": -23.36417,
         "lng": -46.74056,
         "pop": 102775
-    },
-    {
-        "name": "Caetit\u00e9, BR",
-        "lat": -14.06944,
-        "lng": -42.475,
-        "pop": 52012
     },
     {
         "name": "Cachoeiro de Itapemirim, BR",
@@ -3918,36 +1860,6 @@
         "pop": 136258
     },
     {
-        "name": "Cachoeiras de Macacu, BR",
-        "lat": -22.4625,
-        "lng": -42.65306,
-        "pop": 59837
-    },
-    {
-        "name": "Cachoeira do Sul, BR",
-        "lat": -30.03917,
-        "lng": -52.89389,
-        "pop": 80070
-    },
-    {
-        "name": "C\u00e1ceres, BR",
-        "lat": -16.07056,
-        "lng": -57.67889,
-        "pop": 91626
-    },
-    {
-        "name": "Ca\u00e7apava, BR",
-        "lat": -23.10083,
-        "lng": -45.70694,
-        "pop": 96202
-    },
-    {
-        "name": "Ca\u00e7ador, BR",
-        "lat": -26.77528,
-        "lng": -51.015,
-        "pop": 73720
-    },
-    {
         "name": "Cabo Frio, BR",
         "lat": -22.88717,
         "lng": -42.02622,
@@ -3958,18 +1870,6 @@
         "lat": -27.09795,
         "lng": -48.91281,
         "pop": 141385
-    },
-    {
-        "name": "Brumado, BR",
-        "lat": -14.20361,
-        "lng": -41.66528,
-        "pop": 70510
-    },
-    {
-        "name": "Brazl\u00e2ndia, BR",
-        "lat": -15.67941,
-        "lng": -48.19667,
-        "pop": 55561
     },
     {
         "name": "Bras\u00edlia, BR",
@@ -3990,24 +1890,6 @@
         "pop": 148130
     },
     {
-        "name": "Bom Jesus da Lapa, BR",
-        "lat": -13.255,
-        "lng": -43.41806,
-        "pop": 65550
-    },
-    {
-        "name": "Bom Despacho, BR",
-        "lat": -19.73639,
-        "lng": -45.25222,
-        "pop": 51737
-    },
-    {
-        "name": "Boituva, BR",
-        "lat": -23.28333,
-        "lng": -47.67222,
-        "pop": 62170
-    },
-    {
         "name": "Blumenau, BR",
         "lat": -26.91944,
         "lng": -49.06611,
@@ -4020,22 +1902,10 @@
         "pop": 102277
     },
     {
-        "name": "Bigua\u00e7u, BR",
-        "lat": -27.49417,
-        "lng": -48.65556,
-        "pop": 76773
-    },
-    {
         "name": "Betim, BR",
         "lat": -19.96778,
         "lng": -44.19833,
         "pop": 384000
-    },
-    {
-        "name": "Bertioga, BR",
-        "lat": -23.85444,
-        "lng": -46.13861,
-        "pop": 64723
     },
     {
         "name": "Bento Gon\u00e7alves, BR",
@@ -4056,22 +1926,10 @@
         "pop": 466096
     },
     {
-        "name": "Bebedouro, BR",
-        "lat": -20.94944,
-        "lng": -48.47917,
-        "pop": 76373
-    },
-    {
         "name": "Bauru, BR",
         "lat": -22.31472,
         "lng": -49.06056,
         "pop": 379297
-    },
-    {
-        "name": "Batatais, BR",
-        "lat": -20.89111,
-        "lng": -47.585,
-        "pop": 58402
     },
     {
         "name": "Barueri, BR",
@@ -4098,24 +1956,6 @@
         "pop": 164052
     },
     {
-        "name": "Barra do Pira\u00ed, BR",
-        "lat": -22.47,
-        "lng": -43.82556,
-        "pop": 98501
-    },
-    {
-        "name": "Barra do Gar\u00e7as, BR",
-        "lat": -15.89,
-        "lng": -52.25667,
-        "pop": 72694
-    },
-    {
-        "name": "Barra, BR",
-        "lat": -11.08944,
-        "lng": -43.14167,
-        "pop": 51092
-    },
-    {
         "name": "Barbacena, BR",
         "lat": -21.22583,
         "lng": -43.77361,
@@ -4128,18 +1968,6 @@
         "pop": 139155
     },
     {
-        "name": "Bag\u00e9, BR",
-        "lat": -31.33139,
-        "lng": -54.10694,
-        "pop": 98940
-    },
-    {
-        "name": "Avar\u00e9, BR",
-        "lat": -23.09861,
-        "lng": -48.92583,
-        "pop": 96098
-    },
-    {
         "name": "Atibaia, BR",
         "lat": -23.11694,
         "lng": -46.55028,
@@ -4150,18 +1978,6 @@
         "lat": -22.66167,
         "lng": -50.41222,
         "pop": 105087
-    },
-    {
-        "name": "Aruj\u00e1, BR",
-        "lat": -23.39611,
-        "lng": -46.32083,
-        "pop": 91157
-    },
-    {
-        "name": "Artur Nogueira, BR",
-        "lat": -22.57306,
-        "lng": -47.1725,
-        "pop": 53157
     },
     {
         "name": "Arax\u00e1, BR",
@@ -4194,12 +2010,6 @@
         "pop": 168468
     },
     {
-        "name": "Ararangu\u00e1, BR",
-        "lat": -28.93575,
-        "lng": -49.49538,
-        "pop": 71922
-    },
-    {
         "name": "Arapongas, BR",
         "lat": -23.41944,
         "lng": -51.42444,
@@ -4210,12 +2020,6 @@
         "lat": -18.64722,
         "lng": -48.18722,
         "pop": 117808
-    },
-    {
-        "name": "Aracruz, BR",
-        "lat": -19.82028,
-        "lng": -40.27333,
-        "pop": 94765
     },
     {
         "name": "Ara\u00e7atuba, BR",
@@ -4242,22 +2046,10 @@
         "pop": 179120
     },
     {
-        "name": "Andradina, BR",
-        "lat": -20.89611,
-        "lng": -51.37944,
-        "pop": 61473
-    },
-    {
         "name": "An\u00e1polis, BR",
         "lat": -16.32667,
         "lng": -48.95278,
         "pop": 319587
-    },
-    {
-        "name": "Amparo, BR",
-        "lat": -22.70111,
-        "lng": -46.76444,
-        "pop": 72677
     },
     {
         "name": "Americana, BR",
@@ -4272,64 +2064,16 @@
         "pop": 119825
     },
     {
-        "name": "Alfenas, BR",
-        "lat": -21.42917,
-        "lng": -45.94722,
-        "pop": 78970
-    },
-    {
-        "name": "Alegrete, BR",
-        "lat": -29.78306,
-        "lng": -55.79194,
-        "pop": 72409
-    },
-    {
         "name": "Alagoinhas, BR",
         "lat": -12.13556,
         "lng": -38.41917,
         "pop": 122688
     },
     {
-        "name": "\u00c1gua Rasa, BR",
-        "lat": -20.43333,
-        "lng": -45.16667,
-        "pop": 80484
-    },
-    {
-        "name": "Gua\u00edba, BR",
-        "lat": -30.11389,
-        "lng": -51.325,
-        "pop": 92924
-    },
-    {
         "name": "Palmas, BR",
         "lat": -10.16745,
         "lng": -48.32766,
         "pop": 306296
-    },
-    {
-        "name": "Para\u00edso do Tocantins, BR",
-        "lat": -10.17611,
-        "lng": -48.86667,
-        "pop": 55164
-    },
-    {
-        "name": "Tef\u00e9, BR",
-        "lat": -3.36841,
-        "lng": -64.72054,
-        "pop": 79278
-    },
-    {
-        "name": "Tabatinga, BR",
-        "lat": -4.23116,
-        "lng": -69.93858,
-        "pop": 72283
-    },
-    {
-        "name": "S\u00e3o Gabriel da Cachoeira, BR",
-        "lat": -0.1181,
-        "lng": -67.08527,
-        "pop": 56406
     },
     {
         "name": "Rio Branco, BR",
@@ -4344,12 +2088,6 @@
         "pop": 548952
     },
     {
-        "name": "Manicor\u00e9, BR",
-        "lat": -5.80917,
-        "lng": -61.30028,
-        "pop": 57758
-    },
-    {
         "name": "Manaus, BR",
         "lat": -3.10194,
         "lng": -60.025,
@@ -4362,64 +2100,16 @@
         "pop": 110691
     },
     {
-        "name": "Humait\u00e1, BR",
-        "lat": -7.51651,
-        "lng": -63.03105,
-        "pop": 62312
-    },
-    {
-        "name": "Cruzeiro do Sul, BR",
-        "lat": -7.62759,
-        "lng": -72.67756,
-        "pop": 91888
-    },
-    {
-        "name": "Coari, BR",
-        "lat": -4.085,
-        "lng": -63.14139,
-        "pop": 73820
-    },
-    {
         "name": "Boa Vista, BR",
         "lat": 2.81972,
         "lng": -60.67333,
         "pop": 419652
     },
     {
-        "name": "Ariquemes, BR",
-        "lat": -9.91333,
-        "lng": -63.04083,
-        "pop": 96833
-    },
-    {
-        "name": "Iranduba, BR",
-        "lat": -3.28472,
-        "lng": -60.18611,
-        "pop": 67114
-    },
-    {
-        "name": "Vilhena, BR",
-        "lat": -12.74056,
-        "lng": -60.14583,
-        "pop": 95832
-    },
-    {
         "name": "Ji Paran\u00e1, BR",
         "lat": -10.88528,
         "lng": -61.95167,
         "pop": 124333
-    },
-    {
-        "name": "Jaru, BR",
-        "lat": -10.43889,
-        "lng": -62.46639,
-        "pop": 50591
-    },
-    {
-        "name": "Cacoal, BR",
-        "lat": -11.43861,
-        "lng": -61.44722,
-        "pop": 86887
     },
     {
         "name": "A\u00e7ail\u00e2ndia, BR",
@@ -4438,24 +2128,6 @@
         "lat": -16.82333,
         "lng": -49.24389,
         "pop": 510770
-    },
-    {
-        "name": "Campo Novo do Parecis, BR",
-        "lat": -13.67528,
-        "lng": -57.89194,
-        "pop": 50033
-    },
-    {
-        "name": "Cana\u00e3 dos Caraj\u00e1s, BR",
-        "lat": -6.52392,
-        "lng": -49.85167,
-        "pop": 77079
-    },
-    {
-        "name": "Dom Eliseu, BR",
-        "lat": -4.285,
-        "lng": -47.505,
-        "pop": 58484
     },
     {
         "name": "Fazenda Rio Grande, BR",
@@ -4482,22 +2154,10 @@
         "pop": 111785
     },
     {
-        "name": "Nova Mutum, BR",
-        "lat": -13.82889,
-        "lng": -56.08222,
-        "pop": 61223
-    },
-    {
         "name": "Novo Gama, BR",
         "lat": -16.05917,
         "lng": -48.03944,
         "pop": 103804
-    },
-    {
-        "name": "Novo Repartimento, BR",
-        "lat": -4.33056,
-        "lng": -49.79639,
-        "pop": 60732
     },
     {
         "name": "Pa\u00e7o do Lumiar, BR",
@@ -4518,36 +2178,6 @@
         "pop": 117000
     },
     {
-        "name": "Reden\u00e7\u00e3o, BR",
-        "lat": -8.02861,
-        "lng": -50.03139,
-        "pop": 85597
-    },
-    {
-        "name": "Rolim de Moura, BR",
-        "lat": -11.80361,
-        "lng": -61.80333,
-        "pop": 56406
-    },
-    {
-        "name": "Rondon do Par\u00e1, BR",
-        "lat": -4.77611,
-        "lng": -48.06722,
-        "pop": 53143
-    },
-    {
-        "name": "Santa Luzia, BR",
-        "lat": -3.96333,
-        "lng": -45.65833,
-        "pop": 57635
-    },
-    {
-        "name": "Santo Ant\u00f4nio do Descoberto, BR",
-        "lat": -15.93972,
-        "lng": -48.255,
-        "pop": 72127
-    },
-    {
         "name": "Sim\u00f5es Filho, BR",
         "lat": -12.78444,
         "lng": -38.40389,
@@ -4566,12 +2196,6 @@
         "pop": 120985
     },
     {
-        "name": "Tail\u00e2ndia, BR",
-        "lat": -2.94722,
-        "lng": -48.95306,
-        "pop": 72493
-    },
-    {
         "name": "Tangar\u00e1 da Serra, BR",
         "lat": -14.61944,
         "lng": -57.48583,
@@ -4584,18 +2208,6 @@
         "pop": 198861
     },
     {
-        "name": "Vargem Grande Paulista, BR",
-        "lat": -23.60333,
-        "lng": -47.02639,
-        "pop": 50415
-    },
-    {
-        "name": "Xinguara, BR",
-        "lat": -7.09829,
-        "lng": -49.9435,
-        "pop": 52893
-    },
-    {
         "name": "Planaltina, BR",
         "lat": -15.61791,
         "lng": -47.64874,
@@ -4606,24 +2218,6 @@
         "lat": -12.09086,
         "lng": -45.78501,
         "pop": 107909
-    },
-    {
-        "name": "Itapo\u00e3, BR",
-        "lat": -15.74937,
-        "lng": -47.7686,
-        "pop": 65408
-    },
-    {
-        "name": "Jardim Bot\u00e2nico, BR",
-        "lat": -15.86527,
-        "lng": -47.81477,
-        "pop": 77767
-    },
-    {
-        "name": "Sobradinho II, BR",
-        "lat": -15.63361,
-        "lng": -47.83478,
-        "pop": 82785
     },
     {
         "name": "Santa Maria, BR",
@@ -4650,24 +2244,6 @@
         "pop": 128486
     },
     {
-        "name": "Buriticupu, BR",
-        "lat": -4.32124,
-        "lng": -46.45468,
-        "pop": 55499
-    },
-    {
-        "name": "Cidade Ocidental, BR",
-        "lat": -16.10971,
-        "lng": -47.93261,
-        "pop": 91767
-    },
-    {
-        "name": "S\u00e3o Sebasti\u00e3o, BR",
-        "lat": -15.90287,
-        "lng": -47.77613,
-        "pop": 98612
-    },
-    {
         "name": "Recanto das Emas, BR",
         "lat": -15.90864,
         "lng": -48.06447,
@@ -4686,12 +2262,6 @@
         "pop": 334248
     },
     {
-        "name": "Villa Alemana, CL",
-        "lat": -33.04823,
-        "lng": -71.3729,
-        "pop": 97320
-    },
-    {
         "name": "Valpara\u00edso, CL",
         "lat": -33.036,
         "lng": -71.62963,
@@ -4702,12 +2272,6 @@
         "lat": -39.81422,
         "lng": -73.24589,
         "pop": 133419
-    },
-    {
-        "name": "Tom\u00e9, CL",
-        "lat": -36.61756,
-        "lng": -72.95593,
-        "pop": 53219
     },
     {
         "name": "Temuco, CL",
@@ -4728,34 +2292,16 @@
         "pop": 197479
     },
     {
-        "name": "Talagante, CL",
-        "lat": -33.66386,
-        "lng": -70.92734,
-        "pop": 51764
-    },
-    {
         "name": "Santiago, CL",
         "lat": -33.45694,
         "lng": -70.64827,
         "pop": 4837295
     },
     {
-        "name": "San Felipe, CL",
-        "lat": -32.74976,
-        "lng": -70.72584,
-        "pop": 59294
-    },
-    {
         "name": "San Bernardo, CL",
         "lat": -33.59217,
         "lng": -70.6996,
         "pop": 249858
-    },
-    {
-        "name": "San Antonio, CL",
-        "lat": -33.59473,
-        "lng": -71.60746,
-        "pop": 87675
     },
     {
         "name": "Renca, CL",
@@ -4774,12 +2320,6 @@
         "lat": -33.04752,
         "lng": -71.44249,
         "pop": 130263
-    },
-    {
-        "name": "Quillota, CL",
-        "lat": -32.88341,
-        "lng": -71.24882,
-        "pop": 67779
     },
     {
         "name": "Quilicura, CL",
@@ -4812,46 +2352,10 @@
         "pop": 241599
     },
     {
-        "name": "Pe\u00f1aflor, CL",
-        "lat": -33.60627,
-        "lng": -70.87649,
-        "pop": 65495
-    },
-    {
-        "name": "Paine, CL",
-        "lat": -33.80796,
-        "lng": -70.74109,
-        "pop": 72759
-    },
-    {
-        "name": "Padre Las Casas, CL",
-        "lat": -38.76081,
-        "lng": -72.5982,
-        "pop": 72892
-    },
-    {
-        "name": "Padre Hurtado, CL",
-        "lat": -33.56839,
-        "lng": -70.80584,
-        "pop": 63250
-    },
-    {
-        "name": "Ovalle, CL",
-        "lat": -30.60106,
-        "lng": -71.19901,
-        "pop": 77138
-    },
-    {
         "name": "Osorno, CL",
         "lat": -40.57395,
         "lng": -73.13348,
         "pop": 135773
-    },
-    {
-        "name": "Melipilla, CL",
-        "lat": -33.68909,
-        "lng": -71.21528,
-        "pop": 63100
     },
     {
         "name": "Maip\u00fa, CL",
@@ -4866,18 +2370,6 @@
         "pop": 125430
     },
     {
-        "name": "Los Andes, CL",
-        "lat": -32.83369,
-        "lng": -70.59827,
-        "pop": 63009
-    },
-    {
-        "name": "Linares, CL",
-        "lat": -35.84667,
-        "lng": -71.59308,
-        "pop": 69535
-    },
-    {
         "name": "La Serena, CL",
         "lat": -29.90591,
         "lng": -71.25014,
@@ -4888,12 +2380,6 @@
         "lat": -33.2863,
         "lng": -70.87561,
         "pop": 102234
-    },
-    {
-        "name": "La Calera, CL",
-        "lat": -32.78676,
-        "lng": -71.19795,
-        "pop": 50221
     },
     {
         "name": "Iquique, CL",
@@ -4944,22 +2430,10 @@
         "pop": 150396
     },
     {
-        "name": "Chiguayante, CL",
-        "lat": -36.9256,
-        "lng": -73.02841,
-        "pop": 84718
-    },
-    {
         "name": "Calama, CL",
         "lat": -22.45667,
         "lng": -68.92371,
         "pop": 166334
-    },
-    {
-        "name": "Buin, CL",
-        "lat": -33.73257,
-        "lng": -70.74281,
-        "pop": 63419
     },
     {
         "name": "Arica, CL",
@@ -5010,12 +2484,6 @@
         "pop": 130432
     },
     {
-        "name": "Yumbo, CO",
-        "lat": 3.58234,
-        "lng": -76.49146,
-        "pop": 71436
-    },
-    {
         "name": "Yopal, CO",
         "lat": 5.33573,
         "lng": -72.3939,
@@ -5028,40 +2496,16 @@
         "pop": 321717
     },
     {
-        "name": "Villa del Rosario, CO",
-        "lat": 7.83389,
-        "lng": -72.47417,
-        "pop": 64951
-    },
-    {
         "name": "Valledupar, CO",
         "lat": 10.46538,
         "lng": -73.2531,
         "pop": 490075
     },
     {
-        "name": "Turbo, CO",
-        "lat": 8.09263,
-        "lng": -76.72822,
-        "pop": 50508
-    },
-    {
-        "name": "Turbaco, CO",
-        "lat": 10.32944,
-        "lng": -75.41137,
-        "pop": 56171
-    },
-    {
         "name": "Tunja, CO",
         "lat": 5.54481,
         "lng": -73.35756,
         "pop": 172548
-    },
-    {
-        "name": "Tumaco, CO",
-        "lat": 1.79112,
-        "lng": -78.79275,
-        "pop": 86713
     },
     {
         "name": "Tulu\u00e1, CO",
@@ -5094,40 +2538,10 @@
         "pop": 277773
     },
     {
-        "name": "Santa Rosa de Cabal, CO",
-        "lat": 4.86806,
-        "lng": -75.62139,
-        "pop": 57928
-    },
-    {
-        "name": "Santander de Quilichao, CO",
-        "lat": 3.00945,
-        "lng": -76.48494,
-        "pop": 99354
-    },
-    {
         "name": "Santa Marta, CO",
         "lat": 11.23855,
         "lng": -74.19427,
         "pop": 499192
-    },
-    {
-        "name": "San Marcos, CO",
-        "lat": 8.65972,
-        "lng": -75.12809,
-        "pop": 60735
-    },
-    {
-        "name": "San Andr\u00e9s, CO",
-        "lat": 12.57858,
-        "lng": -81.69973,
-        "pop": 58257
-    },
-    {
-        "name": "Sahag\u00fan, CO",
-        "lat": 8.94617,
-        "lng": -75.44275,
-        "pop": 59188
     },
     {
         "name": "Sabanalarga, CO",
@@ -5154,22 +2568,10 @@
         "pop": 129237
     },
     {
-        "name": "Puerto Berr\u00edo, CO",
-        "lat": 6.49156,
-        "lng": -74.40326,
-        "pop": 51079
-    },
-    {
         "name": "Popay\u00e1n, CO",
         "lat": 2.43823,
         "lng": -76.61316,
         "pop": 318059
-    },
-    {
-        "name": "Planeta Rica, CO",
-        "lat": 8.4115,
-        "lng": -75.58508,
-        "pop": 69708
     },
     {
         "name": "Pitalito, CO",
@@ -5194,12 +2596,6 @@
         "lat": 1.21456,
         "lng": -77.27846,
         "pop": 392930
-    },
-    {
-        "name": "Pamplona, CO",
-        "lat": 7.37565,
-        "lng": -72.64795,
-        "pop": 53587
     },
     {
         "name": "Palmira, CO",
@@ -5232,28 +2628,10 @@
         "pop": 490935
     },
     {
-        "name": "Montel\u00edbano, CO",
-        "lat": 7.97917,
-        "lng": -75.4202,
-        "pop": 90450
-    },
-    {
-        "name": "Mocoa, CO",
-        "lat": 1.15284,
-        "lng": -76.65208,
-        "pop": 56398
-    },
-    {
         "name": "Medell\u00edn, CO",
         "lat": 6.245,
         "lng": -75.57151,
         "pop": 1999979
-    },
-    {
-        "name": "Marinilla, CO",
-        "lat": 6.17358,
-        "lng": -75.33621,
-        "pop": 57403
     },
     {
         "name": "Manizales, CO",
@@ -5286,40 +2664,16 @@
         "pop": 135000
     },
     {
-        "name": "Los Patios, CO",
-        "lat": 7.83793,
-        "lng": -72.5037,
-        "pop": 58661
-    },
-    {
-        "name": "La Dorada, CO",
-        "lat": 5.44783,
-        "lng": -74.66311,
-        "pop": 81950
-    },
-    {
         "name": "Itag\u00fc\u00ed, CO",
         "lat": 6.18461,
         "lng": -75.59913,
         "pop": 281853
     },
     {
-        "name": "Ipiales, CO",
-        "lat": 0.82501,
-        "lng": -77.63966,
-        "pop": 77729
-    },
-    {
         "name": "Ibagu\u00e9, CO",
         "lat": 4.43573,
         "lng": -75.20289,
         "pop": 529635
-    },
-    {
-        "name": "Granada, CO",
-        "lat": 3.54625,
-        "lng": -73.70687,
-        "pop": 68876
     },
     {
         "name": "Gir\u00f3n, CO",
@@ -5334,22 +2688,10 @@
         "pop": 107324
     },
     {
-        "name": "Fusagasug\u00e1, CO",
-        "lat": 4.33646,
-        "lng": -74.36378,
-        "pop": 88820
-    },
-    {
         "name": "Funza, CO",
         "lat": 4.71638,
         "lng": -74.21195,
         "pop": 116890
-    },
-    {
-        "name": "Fundaci\u00f3n, CO",
-        "lat": 10.52066,
-        "lng": -74.18504,
-        "pop": 59175
     },
     {
         "name": "Floridablanca, CO",
@@ -5370,34 +2712,10 @@
         "pop": 141762
     },
     {
-        "name": "Espinal, CO",
-        "lat": 4.14924,
-        "lng": -74.88429,
-        "pop": 56213
-    },
-    {
         "name": "Envigado, CO",
         "lat": 6.17591,
         "lng": -75.59174,
         "pop": 163007
-    },
-    {
-        "name": "El Banco, CO",
-        "lat": 9.00114,
-        "lng": -73.97581,
-        "pop": 54522
-    },
-    {
-        "name": "El Bagre, CO",
-        "lat": 7.60347,
-        "lng": -74.80951,
-        "pop": 51150
-    },
-    {
-        "name": "Duitama, CO",
-        "lat": 5.8245,
-        "lng": -73.03408,
-        "pop": 92040
     },
     {
         "name": "Dosquebradas, CO",
@@ -5412,52 +2730,10 @@
         "pop": 777106
     },
     {
-        "name": "Cimitarra, CO",
-        "lat": 6.31419,
-        "lng": -73.94968,
-        "pop": 50892
-    },
-    {
-        "name": "Ci\u00e9naga, CO",
-        "lat": 11.00703,
-        "lng": -74.24765,
-        "pop": 88311
-    },
-    {
-        "name": "Chin\u00fa, CO",
-        "lat": 9.10569,
-        "lng": -75.39812,
-        "pop": 50743
-    },
-    {
-        "name": "Chinchin\u00e1, CO",
-        "lat": 4.9825,
-        "lng": -75.60361,
-        "pop": 68512
-    },
-    {
-        "name": "Chigorod\u00f3, CO",
-        "lat": 7.66638,
-        "lng": -76.68106,
-        "pop": 86239
-    },
-    {
         "name": "Ch\u00eda, CO",
         "lat": 4.85876,
         "lng": -74.05866,
         "pop": 124309
-    },
-    {
-        "name": "Ceret\u00e9, CO",
-        "lat": 8.88479,
-        "lng": -75.79052,
-        "pop": 94935
-    },
-    {
-        "name": "Caucasia, CO",
-        "lat": 7.98654,
-        "lng": -75.19349,
-        "pop": 58034
     },
     {
         "name": "Cartago, CO",
@@ -5476,24 +2752,6 @@
         "lat": 3.43054,
         "lng": -76.5199,
         "pop": 2392877
-    },
-    {
-        "name": "Caldas, CO",
-        "lat": 6.09106,
-        "lng": -75.63569,
-        "pop": 82234
-    },
-    {
-        "name": "Calarc\u00e1, CO",
-        "lat": 4.52949,
-        "lng": -75.64091,
-        "pop": 79569
-    },
-    {
-        "name": "Cajic\u00e1, CO",
-        "lat": 4.91857,
-        "lng": -74.02799,
-        "pop": 54111
     },
     {
         "name": "Guadalajara de Buga, CO",
@@ -5544,76 +2802,10 @@
         "pop": 191403
     },
     {
-        "name": "Barbosa, CO",
-        "lat": 6.43809,
-        "lng": -75.33136,
-        "pop": 53943
-    },
-    {
-        "name": "Baranoa, CO",
-        "lat": 10.79408,
-        "lng": -74.9164,
-        "pop": 68383
-    },
-    {
-        "name": "Ayapel, CO",
-        "lat": 8.31372,
-        "lng": -75.13982,
-        "pop": 56082
-    },
-    {
         "name": "Armenia, CO",
         "lat": 4.53656,
         "lng": -75.67263,
         "pop": 304314
-    },
-    {
-        "name": "Arjona, CO",
-        "lat": 10.25444,
-        "lng": -75.34389,
-        "pop": 50405
-    },
-    {
-        "name": "Arauca, CO",
-        "lat": 7.08471,
-        "lng": -70.75908,
-        "pop": 85585
-    },
-    {
-        "name": "Apartad\u00f3, CO",
-        "lat": 7.88299,
-        "lng": -76.62587,
-        "pop": 86438
-    },
-    {
-        "name": "Aguachica, CO",
-        "lat": 8.30844,
-        "lng": -73.6166,
-        "pop": 97525
-    },
-    {
-        "name": "Agust\u00edn Codazzi, CO",
-        "lat": 10.03672,
-        "lng": -73.23558,
-        "pop": 51478
-    },
-    {
-        "name": "San Jos\u00e9 del Guaviare, CO",
-        "lat": 2.56799,
-        "lng": -72.63972,
-        "pop": 52815
-    },
-    {
-        "name": "Orito, CO",
-        "lat": 0.66749,
-        "lng": -76.87297,
-        "pop": 57774
-    },
-    {
-        "name": "Tulc\u00e1n, EC",
-        "lat": 0.8124,
-        "lng": -77.71709,
-        "pop": 86498
     },
     {
         "name": "Santo Domingo de los Colorados, EC",
@@ -5676,12 +2868,6 @@
         "pop": 205624
     },
     {
-        "name": "La Libertad, EC",
-        "lat": -2.233,
-        "lng": -80.91039,
-        "pop": 75881
-    },
-    {
         "name": "Ibarra, EC",
         "lat": 0.34881,
         "lng": -78.12462,
@@ -5718,22 +2904,10 @@
         "pop": 636996
     },
     {
-        "name": "Babahoyo, EC",
-        "lat": -1.80493,
-        "lng": -79.52492,
-        "pop": 76279
-    },
-    {
         "name": "Ambato, EC",
         "lat": -1.24908,
         "lng": -78.61675,
         "pop": 387309
-    },
-    {
-        "name": "Cayenne, GF",
-        "lat": 4.9381,
-        "lng": -52.33455,
-        "pop": 61550
     },
     {
         "name": "Georgetown, GY",
@@ -5742,40 +2916,16 @@
         "pop": 235017
     },
     {
-        "name": "Tumbes, PE",
-        "lat": -3.55592,
-        "lng": -80.44258,
-        "pop": 96946
-    },
-    {
         "name": "Trujillo, PE",
         "lat": -8.11599,
         "lng": -79.02998,
         "pop": 919899
     },
     {
-        "name": "Tingo Mar\u00eda, PE",
-        "lat": -9.29532,
-        "lng": -75.99574,
-        "pop": 53177
-    },
-    {
-        "name": "Talara, PE",
-        "lat": -4.57722,
-        "lng": -81.27194,
-        "pop": 99074
-    },
-    {
         "name": "Sullana, PE",
         "lat": -4.90389,
         "lng": -80.68528,
         "pop": 160789
-    },
-    {
-        "name": "San Juan, PE",
-        "lat": -3.77611,
-        "lng": -73.28139,
-        "pop": 78153
     },
     {
         "name": "Pucallpa, PE",
@@ -5788,24 +2938,6 @@
         "lat": -5.18192,
         "lng": -80.65715,
         "pop": 484475
-    },
-    {
-        "name": "Paita, PE",
-        "lat": -5.08917,
-        "lng": -81.11444,
-        "pop": 56151
-    },
-    {
-        "name": "Moyobamba, PE",
-        "lat": -6.03441,
-        "lng": -76.97423,
-        "pop": 50073
-    },
-    {
-        "name": "Ja\u00e9n, PE",
-        "lat": -5.70729,
-        "lng": -78.80785,
-        "pop": 52493
     },
     {
         "name": "Iquitos, PE",
@@ -5826,12 +2958,6 @@
         "pop": 196627
     },
     {
-        "name": "Chulucanas, PE",
-        "lat": -5.0925,
-        "lng": -80.1625,
-        "pop": 68835
-    },
-    {
         "name": "Chimbote, PE",
         "lat": -9.07508,
         "lng": -78.59373,
@@ -5844,22 +2970,10 @@
         "pop": 552508
     },
     {
-        "name": "Catacaos, PE",
-        "lat": -5.26667,
-        "lng": -80.68333,
-        "pop": 57304
-    },
-    {
         "name": "Cajamarca, PE",
         "lat": -7.16378,
         "lng": -78.50027,
         "pop": 201329
-    },
-    {
-        "name": "Tarma, PE",
-        "lat": -11.41899,
-        "lng": -75.68992,
-        "pop": 51350
     },
     {
         "name": "Tacna, PE",
@@ -5868,34 +2982,10 @@
         "pop": 286240
     },
     {
-        "name": "San Isidro, PE",
-        "lat": -12.09655,
-        "lng": -77.04258,
-        "pop": 68309
-    },
-    {
         "name": "Puno, PE",
         "lat": -15.84003,
         "lng": -70.02198,
         "pop": 128637
-    },
-    {
-        "name": "Puerto Maldonado, PE",
-        "lat": -12.58946,
-        "lng": -69.19948,
-        "pop": 85024
-    },
-    {
-        "name": "Pisco, PE",
-        "lat": -13.71029,
-        "lng": -76.20538,
-        "pop": 61869
-    },
-    {
-        "name": "Moquegua, PE",
-        "lat": -17.19747,
-        "lng": -70.93587,
-        "pop": 69882
     },
     {
         "name": "Lima, PE",
@@ -5910,28 +3000,10 @@
         "pop": 245675
     },
     {
-        "name": "Villa Poeta Jos\u00e9 G\u00e1lvez Barrenechea, PE",
-        "lat": -12.21312,
-        "lng": -76.90522,
-        "pop": 61000
-    },
-    {
-        "name": "Ilo, PE",
-        "lat": -17.63185,
-        "lng": -71.34108,
-        "pop": 53476
-    },
-    {
         "name": "Ica, PE",
         "lat": -14.07538,
         "lng": -75.73422,
         "pop": 282407
-    },
-    {
-        "name": "Huaral, PE",
-        "lat": -11.495,
-        "lng": -77.20778,
-        "pop": 62174
     },
     {
         "name": "Huancayo, PE",
@@ -5940,34 +3012,16 @@
         "pop": 456250
     },
     {
-        "name": "Huacho, PE",
-        "lat": -11.11718,
-        "lng": -77.60584,
-        "pop": 54545
-    },
-    {
         "name": "Cusco, PE",
         "lat": -13.53188,
         "lng": -71.96701,
         "pop": 428450
     },
     {
-        "name": "Chosica, PE",
-        "lat": -11.94306,
-        "lng": -76.70944,
-        "pop": 88606
-    },
-    {
         "name": "Chincha Alta, PE",
         "lat": -13.40985,
         "lng": -76.13235,
         "pop": 153076
-    },
-    {
-        "name": "Cerro de Pasco, PE",
-        "lat": -10.66577,
-        "lng": -76.25309,
-        "pop": 58899
     },
     {
         "name": "Callao, PE",
@@ -5988,12 +3042,6 @@
         "pop": 1008290
     },
     {
-        "name": "Abancay, PE",
-        "lat": -13.63426,
-        "lng": -72.8838,
-        "pop": 72277
-    },
-    {
         "name": "Santa Anita - Los Ficus, PE",
         "lat": -12.05048,
         "lng": -76.97335,
@@ -6012,100 +3060,10 @@
         "pop": 105076
     },
     {
-        "name": "Ciudad Satelite, PE",
-        "lat": -16.43085,
-        "lng": -71.52921,
-        "pop": 76410
-    },
-    {
-        "name": "Chilca, PE",
-        "lat": -12.08628,
-        "lng": -75.20827,
-        "pop": 73371
-    },
-    {
-        "name": "San Fernando, PE",
-        "lat": -8.39818,
-        "lng": -74.53774,
-        "pop": 67844
-    },
-    {
-        "name": "Jesus Maria, PE",
-        "lat": -12.06982,
-        "lng": -77.04495,
-        "pop": 66171
-    },
-    {
-        "name": "Wanchaq, PE",
-        "lat": -13.52493,
-        "lng": -71.96531,
-        "pop": 59134
-    },
-    {
-        "name": "Selva Alegre, PE",
-        "lat": -16.37057,
-        "lng": -71.52724,
-        "pop": 72696
-    },
-    {
-        "name": "Santiago, PE",
-        "lat": -13.52728,
-        "lng": -71.9843,
-        "pop": 64075
-    },
-    {
-        "name": "Bre\u00f1a, PE",
-        "lat": -12.05605,
-        "lng": -77.05295,
-        "pop": 81909
-    },
-    {
-        "name": "Villa Hayes, PY",
-        "lat": -25.093,
-        "lng": -57.52725,
-        "pop": 57217
-    },
-    {
-        "name": "Villa Elisa, PY",
-        "lat": -25.3676,
-        "lng": -57.59274,
-        "pop": 64099
-    },
-    {
         "name": "San Lorenzo, PY",
         "lat": -25.33968,
         "lng": -57.50879,
         "pop": 227876
-    },
-    {
-        "name": "San Antonio, PY",
-        "lat": -25.42126,
-        "lng": -57.54725,
-        "pop": 55754
-    },
-    {
-        "name": "Presidente Franco, PY",
-        "lat": -25.56384,
-        "lng": -54.61097,
-        "pop": 54292
-    },
-    {
-        "name": "Pedro Juan Caballero, PY",
-        "lat": -22.54925,
-        "lng": -55.7387,
-        "pop": 75109
-    },
-    {
-        "name": "Nemby, PY",
-        "lat": -25.3949,
-        "lng": -57.53574,
-        "pop": 94641
-    },
-    {
-        "name": "Limpio, PY",
-        "lat": -25.16611,
-        "lng": -57.48562,
-        "pop": 96143
     },
     {
         "name": "Lambar\u00e9, PY",
@@ -6114,34 +3072,10 @@
         "pop": 126377
     },
     {
-        "name": "Itaugu\u00e1, PY",
-        "lat": -25.39258,
-        "lng": -57.35421,
-        "pop": 64997
-    },
-    {
         "name": "Fernando de la Mora, PY",
         "lat": -25.3386,
         "lng": -57.52167,
         "pop": 120167
-    },
-    {
-        "name": "Encarnaci\u00f3n, PY",
-        "lat": -27.33176,
-        "lng": -55.86662,
-        "pop": 74983
-    },
-    {
-        "name": "Coronel Oviedo, PY",
-        "lat": -25.44613,
-        "lng": -56.43928,
-        "pop": 51286
-    },
-    {
-        "name": "Mariano Roque Alonso, PY",
-        "lat": -25.20791,
-        "lng": -57.53202,
-        "pop": 72008
     },
     {
         "name": "Ciudad del Este, PY",
@@ -6156,18 +3090,6 @@
         "pop": 198553
     },
     {
-        "name": "Caaguaz\u00fa, PY",
-        "lat": -25.47104,
-        "lng": -56.01603,
-        "pop": 54808
-    },
-    {
-        "name": "Caacup\u00e9, PY",
-        "lat": -25.38575,
-        "lng": -57.14217,
-        "pop": 56864
-    },
-    {
         "name": "Asunci\u00f3n, PY",
         "lat": -25.28646,
         "lng": -57.647,
@@ -6180,52 +3102,10 @@
         "pop": 223757
     },
     {
-        "name": "Tacuaremb\u00f3, UY",
-        "lat": -31.71882,
-        "lng": -55.97925,
-        "pop": 51854
-    },
-    {
-        "name": "Salto, UY",
-        "lat": -31.38811,
-        "lng": -57.95983,
-        "pop": 99823
-    },
-    {
-        "name": "Rivera, UY",
-        "lat": -30.90534,
-        "lng": -55.55076,
-        "pop": 64631
-    },
-    {
-        "name": "Paysand\u00fa, UY",
-        "lat": -32.3171,
-        "lng": -58.08072,
-        "pop": 73249
-    },
-    {
         "name": "Montevideo, UY",
         "lat": -34.90328,
         "lng": -56.18816,
         "pop": 1270737
-    },
-    {
-        "name": "Melo, UY",
-        "lat": -32.3682,
-        "lng": -54.16409,
-        "pop": 51023
-    },
-    {
-        "name": "Maldonado, UY",
-        "lat": -34.89791,
-        "lng": -54.95021,
-        "pop": 55478
-    },
-    {
-        "name": "Las Piedras, UY",
-        "lat": -34.7302,
-        "lng": -56.21915,
-        "pop": 69682
     },
     {
         "name": "Anaco, VE",
@@ -6240,28 +3120,10 @@
         "pop": 284289
     },
     {
-        "name": "Zaraza, VE",
-        "lat": 9.35029,
-        "lng": -65.32452,
-        "pop": 74017
-    },
-    {
         "name": "Yaritagua, VE",
         "lat": 10.08081,
         "lng": -69.1242,
         "pop": 113343
-    },
-    {
-        "name": "Villa de Cura, VE",
-        "lat": 10.03863,
-        "lng": -67.48938,
-        "pop": 99669
-    },
-    {
-        "name": "Villa Bruzual, VE",
-        "lat": 9.33186,
-        "lng": -69.11968,
-        "pop": 55244
     },
     {
         "name": "Valle de La Pascua, VE",
@@ -6282,12 +3144,6 @@
         "pop": 1619470
     },
     {
-        "name": "Ure\u00f1a, VE",
-        "lat": 7.92162,
-        "lng": -72.44396,
-        "pop": 56509
-    },
-    {
         "name": "Upata, VE",
         "lat": 8.0162,
         "lng": -62.40561,
@@ -6298,18 +3154,6 @@
         "lat": 10.22856,
         "lng": -67.47421,
         "pop": 344700
-    },
-    {
-        "name": "Tucupita, VE",
-        "lat": 9.06263,
-        "lng": -62.05208,
-        "pop": 99778
-    },
-    {
-        "name": "Trujillo, VE",
-        "lat": 9.36587,
-        "lng": -70.43659,
-        "pop": 71362
     },
     {
         "name": "Tinaquillo, VE",
@@ -6324,70 +3168,16 @@
         "pop": 138402
     },
     {
-        "name": "Socop\u00f3, VE",
-        "lat": 8.23062,
-        "lng": -70.82198,
-        "pop": 72352
-    },
-    {
-        "name": "San Timoteo, VE",
-        "lat": 9.7901,
-        "lng": -71.07084,
-        "pop": 81017
-    },
-    {
         "name": "Santa Teresa del Tuy, VE",
         "lat": 10.23291,
         "lng": -66.66474,
         "pop": 278890
     },
     {
-        "name": "Santa Cruz de Mara, VE",
-        "lat": 10.79269,
-        "lng": -71.68505,
-        "pop": 69781
-    },
-    {
-        "name": "San Rafael, VE",
-        "lat": 10.96205,
-        "lng": -71.73034,
-        "pop": 55810
-    },
-    {
-        "name": "San Mateo, VE",
-        "lat": 10.21302,
-        "lng": -67.42365,
-        "pop": 50401
-    },
-    {
         "name": "San Juan de los Morros, VE",
         "lat": 9.91246,
         "lng": -67.35398,
         "pop": 160868
-    },
-    {
-        "name": "Col\u00f3n, VE",
-        "lat": 8.03125,
-        "lng": -72.26053,
-        "pop": 62513
-    },
-    {
-        "name": "San Juan Bautista, VE",
-        "lat": 11.01243,
-        "lng": -63.94412,
-        "pop": 90387
-    },
-    {
-        "name": "San Jos\u00e9 de Guanipa, VE",
-        "lat": 8.88724,
-        "lng": -64.16512,
-        "pop": 83092
-    },
-    {
-        "name": "San Joaqu\u00edn, VE",
-        "lat": 10.26061,
-        "lng": -67.79348,
-        "pop": 69894
     },
     {
         "name": "San Felipe, VE",
@@ -6414,46 +3204,10 @@
         "pop": 120375
     },
     {
-        "name": "San Antonio del T\u00e1chira, VE",
-        "lat": 7.8112,
-        "lng": -72.44437,
-        "pop": 66392
-    },
-    {
-        "name": "San Antonio de Los Altos, VE",
-        "lat": 10.38853,
-        "lng": -66.95179,
-        "pop": 63873
-    },
-    {
-        "name": "Rubio, VE",
-        "lat": 7.70156,
-        "lng": -72.35551,
-        "pop": 93197
-    },
-    {
-        "name": "La Villa del Rosario, VE",
-        "lat": 10.3258,
-        "lng": -72.31343,
-        "pop": 82766
-    },
-    {
-        "name": "Qu\u00edbor, VE",
-        "lat": 9.92866,
-        "lng": -69.6201,
-        "pop": 51377
-    },
-    {
         "name": "Punto Fijo, VE",
         "lat": 11.69152,
         "lng": -70.19918,
         "pop": 141729
-    },
-    {
-        "name": "Punta de Mata, VE",
-        "lat": 9.69131,
-        "lng": -63.60921,
-        "pop": 61080
     },
     {
         "name": "Punta Card\u00f3n, VE",
@@ -6492,18 +3246,6 @@
         "pop": 364684
     },
     {
-        "name": "Pampatar, VE",
-        "lat": 11.00085,
-        "lng": -63.79298,
-        "pop": 64983
-    },
-    {
-        "name": "Pamp\u00e1n, VE",
-        "lat": 9.44519,
-        "lng": -70.47556,
-        "pop": 59657
-    },
-    {
         "name": "Palo Negro, VE",
         "lat": 10.17389,
         "lng": -67.54194,
@@ -6516,28 +3258,10 @@
         "pop": 166072
     },
     {
-        "name": "Nirgua, VE",
-        "lat": 10.15039,
-        "lng": -68.56478,
-        "pop": 54080
-    },
-    {
-        "name": "Mor\u00f3n, VE",
-        "lat": 10.48715,
-        "lng": -68.20078,
-        "pop": 68084
-    },
-    {
         "name": "M\u00e9rida, VE",
         "lat": 8.57899,
         "lng": -71.16922,
         "pop": 300000
-    },
-    {
-        "name": "Mene Grande, VE",
-        "lat": 9.84639,
-        "lng": -70.92655,
-        "pop": 60580
     },
     {
         "name": "Mariara, VE",
@@ -6558,12 +3282,6 @@
         "pop": 1752602
     },
     {
-        "name": "Maiquet\u00eda, VE",
-        "lat": 10.5945,
-        "lng": -66.95624,
-        "pop": 52564
-    },
-    {
         "name": "Machiques, VE",
         "lat": 10.06077,
         "lng": -72.55212,
@@ -6582,12 +3300,6 @@
         "pop": 100497
     },
     {
-        "name": "Los Dos Caminos, VE",
-        "lat": 10.49389,
-        "lng": -66.82863,
-        "pop": 58168
-    },
-    {
         "name": "La Victoria, VE",
         "lat": 10.22677,
         "lng": -67.33122,
@@ -6604,18 +3316,6 @@
         "lat": 10.61919,
         "lng": -71.83814,
         "pop": 120478
-    },
-    {
-        "name": "Concepci\u00f3n, VE",
-        "lat": 10.4119,
-        "lng": -71.68919,
-        "pop": 92463
-    },
-    {
-        "name": "G\u00fcig\u00fce, VE",
-        "lat": 10.08344,
-        "lng": -67.77799,
-        "pop": 80627
     },
     {
         "name": "Guatire, VE",
@@ -6648,12 +3348,6 @@
         "pop": 162289
     },
     {
-        "name": "El Tocuyo, VE",
-        "lat": 9.78709,
-        "lng": -69.79294,
-        "pop": 74829
-    },
-    {
         "name": "El Tigre, VE",
         "lat": 8.88902,
         "lng": -64.2527,
@@ -6664,12 +3358,6 @@
         "lat": 10.30589,
         "lng": -67.63212,
         "pop": 148247
-    },
-    {
-        "name": "El Hatillo, VE",
-        "lat": 10.42411,
-        "lng": -66.82581,
-        "pop": 57591
     },
     {
         "name": "Ejido, VE",
@@ -6696,18 +3384,6 @@
         "pop": 246657
     },
     {
-        "name": "Cocorote, VE",
-        "lat": 10.31954,
-        "lng": -68.78298,
-        "pop": 52803
-    },
-    {
-        "name": "Ciudad Piar, VE",
-        "lat": 7.45209,
-        "lng": -63.31992,
-        "pop": 51967
-    },
-    {
         "name": "Ciudad Ojeda, VE",
         "lat": 10.20161,
         "lng": -71.3148,
@@ -6720,46 +3396,16 @@
         "pop": 978202
     },
     {
-        "name": "Ciudad Bolivia, VE",
-        "lat": 8.35304,
-        "lng": -70.57121,
-        "pop": 52476
-    },
-    {
         "name": "Ciudad Bol\u00edvar, VE",
         "lat": 8.12366,
         "lng": -63.54694,
         "pop": 412619
     },
     {
-        "name": "Chivacoa, VE",
-        "lat": 10.15951,
-        "lng": -68.89453,
-        "pop": 70298
-    },
-    {
         "name": "Charallave, VE",
         "lat": 10.24247,
         "lng": -66.85723,
         "pop": 129182
-    },
-    {
-        "name": "Chacao, VE",
-        "lat": 10.49581,
-        "lng": -66.85367,
-        "pop": 64609
-    },
-    {
-        "name": "Tacarigua, VE",
-        "lat": 10.08621,
-        "lng": -67.91982,
-        "pop": 69636
-    },
-    {
-        "name": "Caucag\u00fcito, VE",
-        "lat": 10.48666,
-        "lng": -66.73799,
-        "pop": 52556
     },
     {
         "name": "Catia La Mar, VE",
@@ -6786,22 +3432,10 @@
         "pop": 3000000
     },
     {
-        "name": "Cantaura, VE",
-        "lat": 9.30571,
-        "lng": -64.35841,
-        "pop": 68885
-    },
-    {
         "name": "Calabozo, VE",
         "lat": 8.92416,
         "lng": -67.42929,
         "pop": 168605
-    },
-    {
-        "name": "Caicara del Orinoco, VE",
-        "lat": 7.63501,
-        "lng": -66.16815,
-        "pop": 67277
     },
     {
         "name": "Cagua, VE",
@@ -6822,18 +3456,6 @@
         "pop": 351736
     },
     {
-        "name": "Bocon\u00f3, VE",
-        "lat": 9.25385,
-        "lng": -70.25105,
-        "pop": 68990
-    },
-    {
-        "name": "Biruaca, VE",
-        "lat": 7.84483,
-        "lng": -67.51679,
-        "pop": 76553
-    },
-    {
         "name": "Baruta, VE",
         "lat": 10.43424,
         "lng": -66.87558,
@@ -6844,12 +3466,6 @@
         "lat": 10.0647,
         "lng": -69.35703,
         "pop": 1240714
-    },
-    {
-        "name": "Barinitas, VE",
-        "lat": 8.76171,
-        "lng": -70.41199,
-        "pop": 51556
     },
     {
         "name": "Barinas, VE",
@@ -6870,12 +3486,6 @@
         "pop": 181820
     },
     {
-        "name": "Altagracia de Orituco, VE",
-        "lat": 9.86005,
-        "lng": -66.38139,
-        "pop": 68207
-    },
-    {
         "name": "Los Puertos de Altagracia, VE",
         "lat": 10.71492,
         "lng": -71.52168,
@@ -6888,28 +3498,10 @@
         "pop": 188278
     },
     {
-        "name": "San Josecito, VE",
-        "lat": 7.66106,
-        "lng": -72.22009,
-        "pop": 54669
-    },
-    {
         "name": "Matur\u00edn, VE",
         "lat": 9.74569,
         "lng": -63.18323,
         "pop": 647459
-    },
-    {
-        "name": "La Fr\u00eda, VE",
-        "lat": 8.21523,
-        "lng": -72.24888,
-        "pop": 61568
-    },
-    {
-        "name": "Guasdualito, VE",
-        "lat": 7.24241,
-        "lng": -70.73235,
-        "pop": 64608
     },
     {
         "name": "San Fernando de Apure, VE",

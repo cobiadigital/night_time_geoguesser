@@ -24,18 +24,6 @@
         "pop": 246880
     },
     {
-        "name": "Luau, AO",
-        "lat": -10.70727,
-        "lng": 22.22466,
-        "pop": 55432
-    },
-    {
-        "name": "Nzagi, AO",
-        "lat": -8.38549,
-        "lng": 15.30126,
-        "pop": 60000
-    },
-    {
         "name": "U\u00edge, AO",
         "lat": -7.60874,
         "lng": 15.06131,
@@ -46,12 +34,6 @@
         "lat": -6.1349,
         "lng": 12.36894,
         "pop": 200920
-    },
-    {
-        "name": "Negage, AO",
-        "lat": -7.75938,
-        "lng": 15.2722,
-        "pop": 92950
     },
     {
         "name": "N'dalatando, AO",
@@ -84,52 +66,10 @@
         "pop": 2776168
     },
     {
-        "name": "Dondo, AO",
-        "lat": -9.68456,
-        "lng": 14.42788,
-        "pop": 64643
-    },
-    {
-        "name": "Dondo, AO",
-        "lat": -9.05,
-        "lng": 15.31667,
-        "pop": 64643
-    },
-    {
-        "name": "Cuango-Luzamba, AO",
-        "lat": -9.14583,
-        "lng": 18.04453,
-        "pop": 55000
-    },
-    {
-        "name": "Caxito, AO",
-        "lat": -8.57848,
-        "lng": 13.66425,
-        "pop": 55000
-    },
-    {
         "name": "Cabinda, AO",
         "lat": -5.56198,
         "lng": 12.19476,
         "pop": 550000
-    },
-    {
-        "name": "Barra do Dande, AO",
-        "lat": -8.47175,
-        "lng": 13.37011,
-        "pop": 75000
-    },
-    {
-        "name": "Bailundo, AO",
-        "lat": -9.57499,
-        "lng": 15.99442,
-        "pop": 70481
-    },
-    {
-        "name": "Gama, AO",
-        "lat": -8.5675,
-        "lng": 13.47639,
-        "pop": 66202
     },
     {
         "name": "Cazenga, AO",
@@ -150,12 +90,6 @@
         "pop": 205832
     },
     {
-        "name": "Porto Amboim, AO",
-        "lat": -10.73251,
-        "lng": 13.76844,
-        "pop": 91605
-    },
-    {
         "name": "Ondjiva, AO",
         "lat": -17.06667,
         "lng": 15.73333,
@@ -172,18 +106,6 @@
         "lat": -14.6585,
         "lng": 17.69099,
         "pop": 251178
-    },
-    {
-        "name": "Matala, AO",
-        "lat": -14.73272,
-        "lng": 15.03479,
-        "pop": 78000
-    },
-    {
-        "name": "Luquembo, AO",
-        "lat": -10.73912,
-        "lng": 17.71766,
-        "pop": 69420
     },
     {
         "name": "Luena, AO",
@@ -216,46 +138,10 @@
         "pop": 595304
     },
     {
-        "name": "Ganda, AO",
-        "lat": -13.01592,
-        "lng": 14.63502,
-        "pop": 65000
-    },
-    {
         "name": "Gabela, AO",
         "lat": -10.85147,
         "lng": 14.37993,
         "pop": 116903
-    },
-    {
-        "name": "Cubal, AO",
-        "lat": -13.03865,
-        "lng": 14.2455,
-        "pop": 90367
-    },
-    {
-        "name": "Cela, AO",
-        "lat": -11.42173,
-        "lng": 15.12345,
-        "pop": 90000
-    },
-    {
-        "name": "Catumbela, AO",
-        "lat": -12.43002,
-        "lng": 13.54677,
-        "pop": 95034
-    },
-    {
-        "name": "Camucuio, AO",
-        "lat": -14.11667,
-        "lng": 13.25,
-        "pop": 66112
-    },
-    {
-        "name": "Camacupa, AO",
-        "lat": -12.01667,
-        "lng": 17.48333,
-        "pop": 59000
     },
     {
         "name": "Ca\u00e1la, AO",
@@ -270,24 +156,6 @@
         "pop": 555124
     },
     {
-        "name": "Andulo, AO",
-        "lat": -11.48676,
-        "lng": 16.69663,
-        "pop": 50000
-    },
-    {
-        "name": "Cafunfo, AO",
-        "lat": -8.7672,
-        "lng": 17.99572,
-        "pop": 90000
-    },
-    {
-        "name": "Quissecula, AO",
-        "lat": -11.39223,
-        "lng": 15.09201,
-        "pop": 90000
-    },
-    {
         "name": "Rangel, AO",
         "lat": -8.82644,
         "lng": 13.26285,
@@ -300,22 +168,10 @@
         "pop": 244000
     },
     {
-        "name": "Tenkodogo, BF",
-        "lat": 11.78442,
-        "lng": -0.37184,
-        "pop": 61936
-    },
-    {
         "name": "Saaba, BF",
         "lat": 12.37136,
         "lng": -1.41468,
         "pop": 136011
-    },
-    {
-        "name": "Pouytenga, BF",
-        "lat": 12.25162,
-        "lng": -0.42565,
-        "pop": 96469
     },
     {
         "name": "Ouahigouya, BF",
@@ -330,58 +186,16 @@
         "pop": 2415266
     },
     {
-        "name": "Nioko I, BF",
-        "lat": 12.39501,
-        "lng": -1.43861,
-        "pop": 65263
-    },
-    {
-        "name": "L\u00e9o, BF",
-        "lat": 11.10033,
-        "lng": -2.10654,
-        "pop": 51743
-    },
-    {
         "name": "Koudougou, BF",
         "lat": 12.25188,
         "lng": -2.36694,
         "pop": 160239
     },
     {
-        "name": "Kongoussi, BF",
-        "lat": 13.32583,
-        "lng": -1.53472,
-        "pop": 53627
-    },
-    {
         "name": "Kaya, BF",
         "lat": 13.0883,
         "lng": -1.08368,
         "pop": 121970
-    },
-    {
-        "name": "Hound\u00e9, BF",
-        "lat": 11.5,
-        "lng": -3.51667,
-        "pop": 87151
-    },
-    {
-        "name": "Fada N'gourma, BF",
-        "lat": 12.06157,
-        "lng": 0.35843,
-        "pop": 73200
-    },
-    {
-        "name": "Djibo, BF",
-        "lat": 14.09864,
-        "lng": -1.62665,
-        "pop": 61462
-    },
-    {
-        "name": "D\u00e9dougou, BF",
-        "lat": 12.4636,
-        "lng": -3.46075,
-        "pop": 63617
     },
     {
         "name": "Bobo-Dioulasso, BF",
@@ -396,34 +210,10 @@
         "pop": 117452
     },
     {
-        "name": "Rumonge, BI",
-        "lat": -3.9736,
-        "lng": 29.4386,
-        "pop": 55599
-    },
-    {
         "name": "Bujumbura, BI",
         "lat": -3.38193,
         "lng": 29.36142,
         "pop": 769317
-    },
-    {
-        "name": "Gitega, BI",
-        "lat": -3.42708,
-        "lng": 29.92463,
-        "pop": 64904
-    },
-    {
-        "name": "Mpanda, BI",
-        "lat": -3.1703,
-        "lng": 29.4026,
-        "pop": 58913
-    },
-    {
-        "name": "Ngozi, BI",
-        "lat": -2.9075,
-        "lng": 29.8306,
-        "pop": 61716
     },
     {
         "name": "Porto-Novo, BJ",
@@ -438,64 +228,16 @@
         "pop": 255478
     },
     {
-        "name": "Nikki, BJ",
-        "lat": 9.94009,
-        "lng": 3.21075,
-        "pop": 66109
-    },
-    {
-        "name": "Natitingou, BJ",
-        "lat": 10.30416,
-        "lng": 1.37962,
-        "pop": 53284
-    },
-    {
-        "name": "Malanville, BJ",
-        "lat": 11.86819,
-        "lng": 3.38327,
-        "pop": 64639
-    },
-    {
-        "name": "K\u00e9rou, BJ",
-        "lat": 10.82578,
-        "lng": 2.10479,
-        "pop": 54276
-    },
-    {
-        "name": "Kandi, BJ",
-        "lat": 11.13417,
-        "lng": 2.93861,
-        "pop": 56043
-    },
-    {
         "name": "Godom\u00e8, BJ",
         "lat": 6.38948,
         "lng": 2.34581,
         "pop": 253262
     },
     {
-        "name": "Ekp\u00e9, BJ",
-        "lat": 6.39209,
-        "lng": 2.53725,
-        "pop": 75313
-    },
-    {
-        "name": "Djougou, BJ",
-        "lat": 9.70853,
-        "lng": 1.66598,
-        "pop": 94773
-    },
-    {
         "name": "Cotonou, BJ",
         "lat": 6.36536,
         "lng": 2.41833,
         "pop": 679012
-    },
-    {
-        "name": "Bohicon, BJ",
-        "lat": 7.17826,
-        "lng": 2.0667,
-        "pop": 93744
     },
     {
         "name": "Abomey-Calavi, BJ",
@@ -510,48 +252,6 @@
         "pop": 117824
     },
     {
-        "name": "Tlokweng, BW",
-        "lat": -24.66861,
-        "lng": 25.97111,
-        "pop": 55508
-    },
-    {
-        "name": "Serowe, BW",
-        "lat": -22.38754,
-        "lng": 26.71077,
-        "pop": 55676
-    },
-    {
-        "name": "Palapye, BW",
-        "lat": -22.54605,
-        "lng": 27.12507,
-        "pop": 52636
-    },
-    {
-        "name": "Molepolole, BW",
-        "lat": -24.40659,
-        "lng": 25.49508,
-        "pop": 74861
-    },
-    {
-        "name": "Mogoditshane, BW",
-        "lat": -24.62694,
-        "lng": 25.86556,
-        "pop": 88004
-    },
-    {
-        "name": "Mochudi, BW",
-        "lat": -24.41667,
-        "lng": 26.15,
-        "pop": 50321
-    },
-    {
-        "name": "Maun, BW",
-        "lat": -19.98333,
-        "lng": 23.41667,
-        "pop": 85350
-    },
-    {
         "name": "Gaborone, BW",
         "lat": -24.65451,
         "lng": 25.90859,
@@ -562,12 +262,6 @@
         "lat": -21.17,
         "lng": 27.50778,
         "pop": 103417
-    },
-    {
-        "name": "Yangambi, CD",
-        "lat": 0.76755,
-        "lng": 24.43973,
-        "pop": 62082
     },
     {
         "name": "Uvira, CD",
@@ -582,46 +276,10 @@
         "pop": 634529
     },
     {
-        "name": "Rutshuru, CD",
-        "lat": -1.18666,
-        "lng": 29.44669,
-        "pop": 82680
-    },
-    {
-        "name": "Nyunzu, CD",
-        "lat": -5.95609,
-        "lng": 28.01649,
-        "pop": 62565
-    },
-    {
         "name": "Mwene-Ditu, CD",
         "lat": -7.00906,
         "lng": 23.45278,
         "pop": 189177
-    },
-    {
-        "name": "Mweka, CD",
-        "lat": -4.85187,
-        "lng": 21.5595,
-        "pop": 81267
-    },
-    {
-        "name": "Mulongo, CD",
-        "lat": -7.83486,
-        "lng": 26.99852,
-        "pop": 89340
-    },
-    {
-        "name": "Baudhuinville, CD",
-        "lat": -7.08408,
-        "lng": 29.73681,
-        "pop": 81181
-    },
-    {
-        "name": "Miabi, CD",
-        "lat": -6.22149,
-        "lng": 23.39254,
-        "pop": 79929
     },
     {
         "name": "Mbuji-Mayi, CD",
@@ -630,34 +288,10 @@
         "pop": 2101332
     },
     {
-        "name": "Manono, CD",
-        "lat": -7.29862,
-        "lng": 27.39894,
-        "pop": 82465
-    },
-    {
-        "name": "Luputa, CD",
-        "lat": -7.16177,
-        "lng": 23.70057,
-        "pop": 54676
-    },
-    {
-        "name": "Lodja, CD",
-        "lat": -3.52105,
-        "lng": 23.6005,
-        "pop": 91409
-    },
-    {
         "name": "Lisala, CD",
         "lat": 2.15127,
         "lng": 21.51672,
         "pop": 117464
-    },
-    {
-        "name": "Kongolo, CD",
-        "lat": -5.38532,
-        "lng": 27.00029,
-        "pop": 86932
     },
     {
         "name": "Kisangani, CD",
@@ -666,40 +300,10 @@
         "pop": 1181788
     },
     {
-        "name": "Kirumba, CD",
-        "lat": -1.09056,
-        "lng": 29.2925,
-        "pop": 52041
-    },
-    {
         "name": "Kindu, CD",
         "lat": -2.94373,
         "lng": 25.92237,
         "pop": 234651
-    },
-    {
-        "name": "Kayna, CD",
-        "lat": -0.60927,
-        "lng": 29.17249,
-        "pop": 51103
-    },
-    {
-        "name": "Katwa, CD",
-        "lat": 0.08928,
-        "lng": 29.30858,
-        "pop": 89352
-    },
-    {
-        "name": "Kasongo, CD",
-        "lat": -4.42741,
-        "lng": 26.66656,
-        "pop": 81629
-    },
-    {
-        "name": "Kanyama, CD",
-        "lat": -7.51668,
-        "lng": 24.17404,
-        "pop": 80043
     },
     {
         "name": "Kananga, CD",
@@ -714,12 +318,6 @@
         "pop": 200184
     },
     {
-        "name": "Kalima, CD",
-        "lat": -5.4854,
-        "lng": 28.21601,
-        "pop": 72327
-    },
-    {
         "name": "Kalemie, CD",
         "lat": -5.94749,
         "lng": 29.19471,
@@ -730,12 +328,6 @@
         "lat": -6.13791,
         "lng": 24.48179,
         "pop": 219396
-    },
-    {
-        "name": "Kabalo, CD",
-        "lat": -6.05255,
-        "lng": 26.9143,
-        "pop": 81191
     },
     {
         "name": "Isiro, CD",
@@ -756,12 +348,6 @@
         "pop": 432587
     },
     {
-        "name": "Gbadolite, CD",
-        "lat": 4.279,
-        "lng": 21.00284,
-        "pop": 73835
-    },
-    {
         "name": "Gandajika, CD",
         "lat": -6.74504,
         "lng": 23.95328,
@@ -772,12 +358,6 @@
         "lat": 0.14164,
         "lng": 29.29117,
         "pop": 286242
-    },
-    {
-        "name": "Buta, CD",
-        "lat": 2.78582,
-        "lng": 24.72997,
-        "pop": 80751
     },
     {
         "name": "Bunia, CD",
@@ -804,46 +384,16 @@
         "pop": 105530
     },
     {
-        "name": "Boende, CD",
-        "lat": -0.28163,
-        "lng": 20.88053,
-        "pop": 50794
-    },
-    {
-        "name": "Binga, CD",
-        "lat": 2.37351,
-        "lng": 20.49769,
-        "pop": 96790
-    },
-    {
         "name": "Beni, CD",
         "lat": 0.49113,
         "lng": 29.47306,
         "pop": 140731
     },
     {
-        "name": "Basoko, CD",
-        "lat": 1.23909,
-        "lng": 23.61598,
-        "pop": 76371
-    },
-    {
         "name": "Bakwa, CD",
         "lat": 4.1263,
         "lng": 27.39527,
         "pop": 100575
-    },
-    {
-        "name": "Babamba, CD",
-        "lat": 0.18333,
-        "lng": 27.48333,
-        "pop": 81740
-    },
-    {
-        "name": "Aketi, CD",
-        "lat": 2.73877,
-        "lng": 23.78326,
-        "pop": 61437
     },
     {
         "name": "Tshilenge, CD",
@@ -876,36 +426,6 @@
         "pop": 169635
     },
     {
-        "name": "Kambove, CD",
-        "lat": -10.87352,
-        "lng": 26.59746,
-        "pop": 99884
-    },
-    {
-        "name": "Fungurume, CD",
-        "lat": -10.61771,
-        "lng": 26.32107,
-        "pop": 50100
-    },
-    {
-        "name": "Tshela, CD",
-        "lat": -4.99707,
-        "lng": 12.9484,
-        "pop": 64210
-    },
-    {
-        "name": "Nioki, CD",
-        "lat": -2.72037,
-        "lng": 17.69001,
-        "pop": 62153
-    },
-    {
-        "name": "Mushie, CD",
-        "lat": -3.01728,
-        "lng": 16.92238,
-        "pop": 61336
-    },
-    {
         "name": "Moanda, CD",
         "lat": -5.92753,
         "lng": 12.37148,
@@ -930,28 +450,10 @@
         "pop": 425662
     },
     {
-        "name": "Mangai, CD",
-        "lat": -4.02328,
-        "lng": 19.53385,
-        "pop": 63713
-    },
-    {
-        "name": "Kutu, CD",
-        "lat": -2.7249,
-        "lng": 18.14756,
-        "pop": 56061
-    },
-    {
         "name": "Kinshasa, CD",
         "lat": -4.32758,
         "lng": 15.31357,
         "pop": 16000000
-    },
-    {
-        "name": "Kimpese, CD",
-        "lat": -5.5615,
-        "lng": 14.43159,
-        "pop": 79539
     },
     {
         "name": "Kikwit, CD",
@@ -960,28 +462,10 @@
         "pop": 509367
     },
     {
-        "name": "Kenge, CD",
-        "lat": -5.76521,
-        "lng": 13.65711,
-        "pop": 63317
-    },
-    {
-        "name": "Inongo, CD",
-        "lat": -1.9275,
-        "lng": 18.2881,
-        "pop": 68852
-    },
-    {
         "name": "Inkisi, CD",
         "lat": -5.13122,
         "lng": 15.0541,
         "pop": 115317
-    },
-    {
-        "name": "Idiofa, CD",
-        "lat": -4.96589,
-        "lng": 19.59151,
-        "pop": 87882
     },
     {
         "name": "Gemena, CD",
@@ -990,28 +474,10 @@
         "pop": 197159
     },
     {
-        "name": "Dibaya-Lubwe, CD",
-        "lat": -4.15869,
-        "lng": 19.8619,
-        "pop": 55672
-    },
-    {
-        "name": "Bulungu, CD",
-        "lat": -4.54437,
-        "lng": 18.60364,
-        "pop": 81393
-    },
-    {
         "name": "Boma, CD",
         "lat": -5.85098,
         "lng": 13.05364,
         "pop": 297009
-    },
-    {
-        "name": "Bolenge, CD",
-        "lat": 0.0,
-        "lng": 18.21667,
-        "pop": 79648
     },
     {
         "name": "Bandundu Province, CD",
@@ -1026,64 +492,16 @@
         "pop": 485167
     },
     {
-        "name": "Hyosha, CD",
-        "lat": 0.69781,
-        "lng": 29.51863,
-        "pop": 74502
-    },
-    {
         "name": "Mwene, CD",
         "lat": -9.81697,
         "lng": 22.87023,
         "pop": 295683
     },
     {
-        "name": "Kituku, CD",
-        "lat": -7.58157,
-        "lng": 30.20604,
-        "pop": 66378
-    },
-    {
-        "name": "Mangina, CD",
-        "lat": 0.60419,
-        "lng": 29.31004,
-        "pop": 55439
-    },
-    {
-        "name": "Bangassou, CF",
-        "lat": 4.74132,
-        "lng": 22.81838,
-        "pop": 54059
-    },
-    {
-        "name": "Bambari, CF",
-        "lat": 5.76795,
-        "lng": 20.67565,
-        "pop": 83029
-    },
-    {
-        "name": "Kaga-Bandoro, CF",
-        "lat": 6.98961,
-        "lng": 19.18744,
-        "pop": 55047
-    },
-    {
         "name": "Carnot, CF",
         "lat": 4.94273,
         "lng": 15.87735,
         "pop": 129032
-    },
-    {
-        "name": "Bouar, CF",
-        "lat": 5.93404,
-        "lng": 15.59599,
-        "pop": 71680
-    },
-    {
-        "name": "Bossangoa, CF",
-        "lat": 6.49263,
-        "lng": 17.45518,
-        "pop": 55353
     },
     {
         "name": "Bimbo, CF",
@@ -1122,12 +540,6 @@
         "pop": 121000
     },
     {
-        "name": "Kayes, CG",
-        "lat": -4.20493,
-        "lng": 13.28608,
-        "pop": 58737
-    },
-    {
         "name": "Brazzaville, CG",
         "lat": -4.26613,
         "lng": 15.28318,
@@ -1140,34 +552,10 @@
         "pop": 103000
     },
     {
-        "name": "Zagn\u00e9, CI",
-        "lat": 6.21016,
-        "lng": -7.48284,
-        "pop": 63341
-    },
-    {
         "name": "Yamoussoukro, CI",
         "lat": 6.82055,
         "lng": -5.27674,
         "pop": 275686
-    },
-    {
-        "name": "Vavoua, CI",
-        "lat": 7.38194,
-        "lng": -6.47778,
-        "pop": 86977
-    },
-    {
-        "name": "Toumodi, CI",
-        "lat": 6.55799,
-        "lng": -5.01769,
-        "pop": 55986
-    },
-    {
-        "name": "Tengr\u00e9la, CI",
-        "lat": 10.48115,
-        "lng": -6.40694,
-        "pop": 52271
     },
     {
         "name": "Sinfra, CI",
@@ -1180,18 +568,6 @@
         "lat": 4.74851,
         "lng": -6.6363,
         "pop": 390654
-    },
-    {
-        "name": "Oum\u00e9, CI",
-        "lat": 6.38309,
-        "lng": -5.41759,
-        "pop": 58606
-    },
-    {
-        "name": "Odienn\u00e9, CI",
-        "lat": 9.50511,
-        "lng": -7.56433,
-        "pop": 54669
     },
     {
         "name": "Man, CI",
@@ -1212,40 +588,10 @@
         "pop": 440926
     },
     {
-        "name": "Katiola, CI",
-        "lat": 8.13728,
-        "lng": -5.10095,
-        "pop": 59641
-    },
-    {
-        "name": "Issia, CI",
-        "lat": 6.49224,
-        "lng": -6.58558,
-        "pop": 68263
-    },
-    {
-        "name": "Guiglo, CI",
-        "lat": 6.54368,
-        "lng": -7.4935,
-        "pop": 68113
-    },
-    {
-        "name": "Grand-Bassam, CI",
-        "lat": 5.2118,
-        "lng": -3.73884,
-        "pop": 96797
-    },
-    {
         "name": "Gagnoa, CI",
         "lat": 6.13193,
         "lng": -5.9506,
         "pop": 277044
-    },
-    {
-        "name": "Ferkess\u00e9dougou, CI",
-        "lat": 9.5928,
-        "lng": -5.19449,
-        "pop": 72476
     },
     {
         "name": "Duekou\u00e9, CI",
@@ -1260,22 +606,10 @@
         "pop": 136627
     },
     {
-        "name": "Dimbokro, CI",
-        "lat": 6.64678,
-        "lng": -4.70519,
-        "pop": 70198
-    },
-    {
         "name": "Daoukro, CI",
         "lat": 7.0591,
         "lng": -3.9631,
         "pop": 101136
-    },
-    {
-        "name": "Danan\u00e9, CI",
-        "lat": 7.25957,
-        "lng": -8.15498,
-        "pop": 78614
     },
     {
         "name": "Daloa, CI",
@@ -1288,12 +622,6 @@
         "lat": 5.32556,
         "lng": -4.37685,
         "pop": 138083
-    },
-    {
-        "name": "Boundiali, CI",
-        "lat": 9.52167,
-        "lng": -6.48694,
-        "pop": 51803
     },
     {
         "name": "Bouak\u00e9, CI",
@@ -1314,40 +642,10 @@
         "pop": 141568
     },
     {
-        "name": "Bingerville, CI",
-        "lat": 5.35581,
-        "lng": -3.88537,
-        "pop": 82983
-    },
-    {
         "name": "Anyama, CI",
         "lat": 5.49462,
         "lng": -4.05183,
         "pop": 133905
-    },
-    {
-        "name": "Agnibil\u00e9krou, CI",
-        "lat": 7.13113,
-        "lng": -3.20415,
-        "pop": 63015
-    },
-    {
-        "name": "Agboville, CI",
-        "lat": 5.92801,
-        "lng": -4.21319,
-        "pop": 81770
-    },
-    {
-        "name": "Adzop\u00e9, CI",
-        "lat": 6.10694,
-        "lng": -3.86194,
-        "pop": 76122
-    },
-    {
-        "name": "Aboisso, CI",
-        "lat": 5.46779,
-        "lng": -3.20711,
-        "pop": 59225
     },
     {
         "name": "Abobo, CI",
@@ -1392,34 +690,10 @@
         "pop": 119938
     },
     {
-        "name": "M\u00e9agui, CI",
-        "lat": 5.4119,
-        "lng": -6.5603,
-        "pop": 74365
-    },
-    {
         "name": "Yaound\u00e9, CM",
         "lat": 3.86667,
         "lng": 11.51667,
         "pop": 1299369
-    },
-    {
-        "name": "Yagoua, CM",
-        "lat": 10.34107,
-        "lng": 15.23288,
-        "pop": 59069
-    },
-    {
-        "name": "Tiko, CM",
-        "lat": 4.075,
-        "lng": 9.36005,
-        "pop": 94836
-    },
-    {
-        "name": "Sangm\u00e9lima, CM",
-        "lat": 2.93333,
-        "lng": 11.98333,
-        "pop": 80036
     },
     {
         "name": "Nkongsamba, CM",
@@ -1434,58 +708,10 @@
         "pop": 238196
     },
     {
-        "name": "Mutengene, CM",
-        "lat": 4.0913,
-        "lng": 9.3144,
-        "pop": 64054
-    },
-    {
-        "name": "Mora, CM",
-        "lat": 11.04611,
-        "lng": 14.14011,
-        "pop": 61523
-    },
-    {
-        "name": "Mokolo, CM",
-        "lat": 10.74244,
-        "lng": 13.80227,
-        "pop": 51999
-    },
-    {
-        "name": "Melong, CM",
-        "lat": 5.12181,
-        "lng": 9.96143,
-        "pop": 76716
-    },
-    {
-        "name": "Me\u00efganga, CM",
-        "lat": 6.51667,
-        "lng": 14.3,
-        "pop": 59426
-    },
-    {
-        "name": "Mbouda, CM",
-        "lat": 5.62611,
-        "lng": 10.25421,
-        "pop": 71867
-    },
-    {
-        "name": "Mbalmayo, CM",
-        "lat": 3.51667,
-        "lng": 11.5,
-        "pop": 82384
-    },
-    {
         "name": "Maroua, CM",
         "lat": 10.59095,
         "lng": 14.31593,
         "pop": 314122
-    },
-    {
-        "name": "Loum, CM",
-        "lat": 4.7182,
-        "lng": 9.7351,
-        "pop": 58554
     },
     {
         "name": "Limbe, CM",
@@ -1506,28 +732,10 @@
         "pop": 225046
     },
     {
-        "name": "Kribi, CM",
-        "lat": 2.93725,
-        "lng": 9.90765,
-        "pop": 93482
-    },
-    {
         "name": "Kouss\u00e9ri, CM",
         "lat": 12.07689,
         "lng": 15.03063,
         "pop": 139024
-    },
-    {
-        "name": "Guider, CM",
-        "lat": 9.9333,
-        "lng": 13.94671,
-        "pop": 81608
-    },
-    {
-        "name": "Foumbot, CM",
-        "lat": 5.50803,
-        "lng": 10.6325,
-        "pop": 74319
     },
     {
         "name": "Foumban, CM",
@@ -1546,12 +754,6 @@
         "lat": 2.9,
         "lng": 11.15,
         "pop": 101363
-    },
-    {
-        "name": "Dschang, CM",
-        "lat": 5.44397,
-        "lng": 10.05332,
-        "pop": 99582
     },
     {
         "name": "Douala, CM",
@@ -1584,28 +786,10 @@
         "pop": 373268
     },
     {
-        "name": "Bafia, CM",
-        "lat": 4.75,
-        "lng": 11.23333,
-        "pop": 74050
-    },
-    {
-        "name": "Bafang, CM",
-        "lat": 5.15705,
-        "lng": 10.1771,
-        "pop": 54505
-    },
-    {
         "name": "Praia, CV",
         "lat": 14.93152,
         "lng": -23.51254,
         "pop": 137868
-    },
-    {
-        "name": "Mindelo, CV",
-        "lat": 16.89014,
-        "lng": -24.98042,
-        "pop": 69013
     },
     {
         "name": "Djibouti, DJ",
@@ -1614,22 +798,10 @@
         "pop": 626512
     },
     {
-        "name": "Ali Sabih, DJ",
-        "lat": 11.15583,
-        "lng": 42.7125,
-        "pop": 50006
-    },
-    {
         "name": "Touggourt, DZ",
         "lat": 33.11083,
         "lng": 6.07,
         "pop": 143270
-    },
-    {
-        "name": "Tolga, DZ",
-        "lat": 34.72224,
-        "lng": 5.37845,
-        "pop": 50575
     },
     {
         "name": "Tlemcen, DZ",
@@ -1644,12 +816,6 @@
         "pop": 104312
     },
     {
-        "name": "Tissemsilt, DZ",
-        "lat": 35.60722,
-        "lng": 1.81081,
-        "pop": 66084
-    },
-    {
         "name": "Tiaret, DZ",
         "lat": 35.37103,
         "lng": 1.31699,
@@ -1662,22 +828,10 @@
         "pop": 194461
     },
     {
-        "name": "Tamanghasset, DZ",
-        "lat": 22.785,
-        "lng": 5.52278,
-        "pop": 81752
-    },
-    {
         "name": "Souk Ahras, DZ",
         "lat": 36.28639,
         "lng": 7.95111,
         "pop": 153479
-    },
-    {
-        "name": "Sougueur, DZ",
-        "lat": 35.18568,
-        "lng": 1.49612,
-        "pop": 71036
     },
     {
         "name": "Skikda, DZ",
@@ -1686,22 +840,10 @@
         "pop": 182903
     },
     {
-        "name": "Sig, DZ",
-        "lat": 35.52832,
-        "lng": -0.19369,
-        "pop": 61373
-    },
-    {
         "name": "Sidi Bel Abbes, DZ",
         "lat": 35.18994,
         "lng": -0.63085,
         "pop": 210146
-    },
-    {
-        "name": "Sidi A\u00efssa, DZ",
-        "lat": 35.88548,
-        "lng": 3.77236,
-        "pop": 66856
     },
     {
         "name": "S\u00e9tif, DZ",
@@ -1716,12 +858,6 @@
         "pop": 142497
     },
     {
-        "name": "Rouissat, DZ",
-        "lat": 31.92427,
-        "lng": 5.35018,
-        "pop": 80784
-    },
-    {
         "name": "Rouiba, DZ",
         "lat": 36.73829,
         "lng": 3.28079,
@@ -1732,30 +868,6 @@
         "lat": 35.73734,
         "lng": 0.55599,
         "pop": 123255
-    },
-    {
-        "name": "Regha\u00efa, DZ",
-        "lat": 36.73587,
-        "lng": 3.34018,
-        "pop": 54962
-    },
-    {
-        "name": "Oum el Bouaghi, DZ",
-        "lat": 35.87541,
-        "lng": 7.11353,
-        "pop": 67201
-    },
-    {
-        "name": "Ouled Djellal, DZ",
-        "lat": 34.43,
-        "lng": 5.06139,
-        "pop": 58481
-    },
-    {
-        "name": "Oued Rhiou, DZ",
-        "lat": 35.96124,
-        "lng": 0.91896,
-        "pop": 55430
     },
     {
         "name": "Ouargla, DZ",
@@ -1782,34 +894,10 @@
         "pop": 162885
     },
     {
-        "name": "Mohammadia, DZ",
-        "lat": 35.58861,
-        "lng": 0.06861,
-        "pop": 62410
-    },
-    {
-        "name": "Mila, DZ",
-        "lat": 36.45028,
-        "lng": 6.26444,
-        "pop": 63251
-    },
-    {
-        "name": "Messaad, DZ",
-        "lat": 34.15429,
-        "lng": 3.50309,
-        "pop": 97091
-    },
-    {
         "name": "M\u00e9d\u00e9a, DZ",
         "lat": 36.26417,
         "lng": 2.75393,
         "pop": 145441
-    },
-    {
-        "name": "Mecheria, DZ",
-        "lat": 33.54453,
-        "lng": -0.28117,
-        "pop": 65043
     },
     {
         "name": "Mascara, DZ",
@@ -1818,46 +906,10 @@
         "pop": 108629
     },
     {
-        "name": "Manso\u00fbra, DZ",
-        "lat": 34.86158,
-        "lng": -1.33935,
-        "pop": 52285
-    },
-    {
-        "name": "Maghnia, DZ",
-        "lat": 34.84969,
-        "lng": -1.72753,
-        "pop": 87373
-    },
-    {
-        "name": "Larba\u00e2, DZ",
-        "lat": 36.56471,
-        "lng": 3.15434,
-        "pop": 58295
-    },
-    {
         "name": "Laghouat, DZ",
         "lat": 33.8,
         "lng": 2.86514,
         "pop": 134372
-    },
-    {
-        "name": "Ksar el Boukhari, DZ",
-        "lat": 35.88889,
-        "lng": 2.74905,
-        "pop": 59634
-    },
-    {
-        "name": "Ksar Chellala, DZ",
-        "lat": 35.21222,
-        "lng": 2.31889,
-        "pop": 51451
-    },
-    {
-        "name": "Kolea, DZ",
-        "lat": 36.63888,
-        "lng": 2.76845,
-        "pop": 61643
     },
     {
         "name": "Khenchela, DZ",
@@ -1866,40 +918,10 @@
         "pop": 114472
     },
     {
-        "name": "Khemis Miliana, DZ",
-        "lat": 36.26104,
-        "lng": 2.22015,
-        "pop": 80512
-    },
-    {
         "name": "Jijel, DZ",
         "lat": 36.821,
         "lng": 5.76352,
         "pop": 131513
-    },
-    {
-        "name": "Assi Bou Nif, DZ",
-        "lat": 35.69222,
-        "lng": -0.49944,
-        "pop": 53700
-    },
-    {
-        "name": "Hassi Bahbah, DZ",
-        "lat": 35.07109,
-        "lng": 3.0299,
-        "pop": 77000
-    },
-    {
-        "name": "Hamma Bouziane, DZ",
-        "lat": 36.41205,
-        "lng": 6.59603,
-        "pop": 83603
-    },
-    {
-        "name": "Guerara, DZ",
-        "lat": 32.79211,
-        "lng": 4.49949,
-        "pop": 58572
     },
     {
         "name": "Guelma, DZ",
@@ -1914,40 +936,16 @@
         "pop": 142913
     },
     {
-        "name": "En Nedjma, DZ",
-        "lat": 35.64785,
-        "lng": -0.5695,
-        "pop": 51665
-    },
-    {
         "name": "El Oued, DZ",
         "lat": 33.35608,
         "lng": 6.86319,
         "pop": 186525
     },
     {
-        "name": "El Khroub, DZ",
-        "lat": 36.26333,
-        "lng": 6.69361,
-        "pop": 90122
-    },
-    {
-        "name": "El Menia, DZ",
-        "lat": 30.57556,
-        "lng": 2.88417,
-        "pop": 57344
-    },
-    {
         "name": "El Eulma, DZ",
         "lat": 36.15281,
         "lng": 5.69016,
         "pop": 145380
-    },
-    {
-        "name": "El Bayadh, DZ",
-        "lat": 33.68318,
-        "lng": 1.01927,
-        "pop": 85577
     },
     {
         "name": "Chlef, DZ",
@@ -1962,18 +960,6 @@
         "pop": 158333
     },
     {
-        "name": "Ech Chettia, DZ",
-        "lat": 36.19591,
-        "lng": 1.25537,
-        "pop": 60170
-    },
-    {
-        "name": "Drean, DZ",
-        "lat": 36.68482,
-        "lng": 7.75111,
-        "pop": 55147
-    },
-    {
         "name": "Djelfa, DZ",
         "lat": 34.67279,
         "lng": 3.263,
@@ -1986,40 +972,10 @@
         "pop": 448028
     },
     {
-        "name": "Cheria, DZ",
-        "lat": 35.27306,
-        "lng": 7.75194,
-        "pop": 66160
-    },
-    {
-        "name": "Chelghoum el A\u00efd, DZ",
-        "lat": 36.16286,
-        "lng": 6.16651,
-        "pop": 54495
-    },
-    {
         "name": "Bou Sa\u00e2da, DZ",
         "lat": 35.20855,
         "lng": 4.17402,
         "pop": 111787
-    },
-    {
-        "name": "Bou\u00efra, DZ",
-        "lat": 36.37489,
-        "lng": 3.902,
-        "pop": 68545
-    },
-    {
-        "name": "Boufarik, DZ",
-        "lat": 36.57413,
-        "lng": 2.91214,
-        "pop": 57162
-    },
-    {
-        "name": "Boudouaou, DZ",
-        "lat": 36.72735,
-        "lng": 3.40995,
-        "pop": 56398
     },
     {
         "name": "Bordj el Kiffan, DZ",
@@ -2028,22 +984,10 @@
         "pop": 123246
     },
     {
-        "name": "Bordj el Bahri, DZ",
-        "lat": 36.79068,
-        "lng": 3.24952,
-        "pop": 52816
-    },
-    {
         "name": "Bordj Bou Arreridj, DZ",
         "lat": 36.07389,
         "lng": 4.76139,
         "pop": 158812
-    },
-    {
-        "name": "Boghni, DZ",
-        "lat": 36.54222,
-        "lng": 3.95306,
-        "pop": 54666
     },
     {
         "name": "Blida, DZ",
@@ -2056,42 +1000,6 @@
         "lat": 34.85038,
         "lng": 5.72805,
         "pop": 204661
-    },
-    {
-        "name": "Birkhadem, DZ",
-        "lat": 36.71499,
-        "lng": 3.05002,
-        "pop": 71722
-    },
-    {
-        "name": "Bir el Djir, DZ",
-        "lat": 35.72,
-        "lng": -0.545,
-        "pop": 68032
-    },
-    {
-        "name": "Bir el Ater, DZ",
-        "lat": 34.74488,
-        "lng": 8.06024,
-        "pop": 70749
-    },
-    {
-        "name": "Besbes, DZ",
-        "lat": 36.70222,
-        "lng": 7.84722,
-        "pop": 66287
-    },
-    {
-        "name": "Berrouaghia, DZ",
-        "lat": 36.13516,
-        "lng": 2.91085,
-        "pop": 55775
-    },
-    {
-        "name": "Beni Mered, DZ",
-        "lat": 36.52389,
-        "lng": 2.86131,
-        "pop": 92749
     },
     {
         "name": "B\u00e9ja\u00efa, DZ",
@@ -2112,12 +1020,6 @@
         "pop": 289504
     },
     {
-        "name": "Barika, DZ",
-        "lat": 35.38901,
-        "lng": 5.36584,
-        "pop": 98141
-    },
-    {
         "name": "Baraki, DZ",
         "lat": 36.66655,
         "lng": 3.09606,
@@ -2128,12 +1030,6 @@
         "lat": 36.72615,
         "lng": 3.18291,
         "pop": 275630
-    },
-    {
-        "name": "Arzew, DZ",
-        "lat": 35.85048,
-        "lng": -0.318,
-        "pop": 58162
     },
     {
         "name": "Annaba, DZ",
@@ -2148,82 +1044,16 @@
         "pop": 2364230
     },
     {
-        "name": "A\u00efn Touta, DZ",
-        "lat": 35.37675,
-        "lng": 5.90001,
-        "pop": 55736
-    },
-    {
-        "name": "A\u00efn Temouchent, DZ",
-        "lat": 35.29749,
-        "lng": -1.14037,
-        "pop": 70810
-    },
-    {
-        "name": "A\u00efn Oussera, DZ",
-        "lat": 35.45139,
-        "lng": 2.90583,
-        "pop": 98107
-    },
-    {
-        "name": "A\u00efn Oulmene, DZ",
-        "lat": 35.92296,
-        "lng": 5.29604,
-        "pop": 51207
-    },
-    {
-        "name": "A\u00efn M\u2019Lila, DZ",
-        "lat": 36.03687,
-        "lng": 6.57219,
-        "pop": 65371
-    },
-    {
-        "name": "A\u00efn Defla, DZ",
-        "lat": 36.26405,
-        "lng": 1.9679,
-        "pop": 55259
-    },
-    {
         "name": "A\u00efn Be\u00efda, DZ",
         "lat": 35.79639,
         "lng": 7.39278,
         "pop": 116064
     },
     {
-        "name": "Aflou, DZ",
-        "lat": 34.11279,
-        "lng": 2.10228,
-        "pop": 93585
-    },
-    {
-        "name": "Adrar, DZ",
-        "lat": 27.87429,
-        "lng": -0.29388,
-        "pop": 68276
-    },
-    {
-        "name": "Ali Mendjeli, DZ",
-        "lat": 36.2459,
-        "lng": 6.5671,
-        "pop": 64120
-    },
-    {
-        "name": "District of Taher, DZ",
-        "lat": 36.772,
-        "lng": 5.8982,
-        "pop": 60426
-    },
-    {
         "name": "Zefta, EG",
         "lat": 30.7142,
         "lng": 31.24425,
         "pop": 111700
-    },
-    {
-        "name": "\u0162\u016bkh, EG",
-        "lat": 30.35487,
-        "lng": 31.20105,
-        "pop": 52593
     },
     {
         "name": "\u0162im\u0101, EG",
@@ -2238,22 +1068,10 @@
         "pop": 576648
     },
     {
-        "name": "\u0162\u0101miyah, EG",
-        "lat": 29.47639,
-        "lng": 30.96119,
-        "pop": 73070
-    },
-    {
         "name": "\u0162alkh\u0101, EG",
         "lat": 31.0539,
         "lng": 31.37787,
         "pop": 112851
-    },
-    {
-        "name": "Tal\u0101, EG",
-        "lat": 30.6798,
-        "lng": 30.94364,
-        "pop": 72536
     },
     {
         "name": "\u0162ah\u0163\u0101, EG",
@@ -2262,22 +1080,10 @@
         "pop": 134314
     },
     {
-        "name": "Sumus\u0163\u0101 al Waqf, EG",
-        "lat": 28.92095,
-        "lng": 30.85367,
-        "pop": 64965
-    },
-    {
         "name": "Sohag, EG",
         "lat": 26.55695,
         "lng": 31.69478,
         "pop": 266944
-    },
-    {
-        "name": "Sirs al Layy\u0101nah, EG",
-        "lat": 30.4428,
-        "lng": 30.96975,
-        "pop": 78168
     },
     {
         "name": "Sinn\u016bris, EG",
@@ -2292,28 +1098,10 @@
         "pop": 1240289
     },
     {
-        "name": "Shirb\u012bn, EG",
-        "lat": 31.19688,
-        "lng": 31.5243,
-        "pop": 76081
-    },
-    {
-        "name": "Shib\u012bn al Qan\u0101\u0163ir, EG",
-        "lat": 30.31269,
-        "lng": 31.32018,
-        "pop": 73711
-    },
-    {
         "name": "Shib\u012bn al Kawm, EG",
         "lat": 30.55258,
         "lng": 31.00904,
         "pop": 267945
-    },
-    {
-        "name": "Samann\u016bd, EG",
-        "lat": 30.9616,
-        "lng": 31.24069,
-        "pop": 87921
     },
     {
         "name": "Sam\u0101l\u016b\u0163, EG",
@@ -2328,18 +1116,6 @@
         "pop": 301795
     },
     {
-        "name": "Quwaysin\u0101, EG",
-        "lat": 30.56482,
-        "lng": 31.15777,
-        "pop": 65690
-    },
-    {
-        "name": "Q\u016b\u015f, EG",
-        "lat": 25.91544,
-        "lng": 32.76287,
-        "pop": 84386
-    },
-    {
         "name": "Qina, EG",
         "lat": 26.16418,
         "lng": 32.72671,
@@ -2352,52 +1128,16 @@
         "pop": 156363
     },
     {
-        "name": "Nag Hamm\u00e2di, EG",
-        "lat": 26.04949,
-        "lng": 32.24142,
-        "pop": 59601
-    },
-    {
-        "name": "Nabar\u016bh, EG",
-        "lat": 31.09755,
-        "lng": 31.30312,
-        "pop": 59202
-    },
-    {
         "name": "M\u012bt Ghamr, EG",
         "lat": 30.71524,
         "lng": 31.2592,
         "pop": 153754
     },
     {
-        "name": "Minyat an Na\u015fr, EG",
-        "lat": 31.12624,
-        "lng": 31.64313,
-        "pop": 82429
-    },
-    {
-        "name": "Miny\u0101 al Qam\u1e29, EG",
-        "lat": 30.51552,
-        "lng": 31.34629,
-        "pop": 99284
-    },
-    {
         "name": "Mun\u016bf, EG",
         "lat": 30.46597,
         "lng": 30.93199,
         "pop": 125707
-    },
-    {
-        "name": "Ma\u0163\u0101y, EG",
-        "lat": 28.41866,
-        "lng": 30.77861,
-        "pop": 82328
-    },
-    {
-        "name": "Masht\u016bl as S\u016bq, EG",
-        "lat": 30.36056,
-        "lng": 31.3776,
-        "pop": 75837
     },
     {
         "name": "Mars\u00e1 Ma\u0163r\u016b\u1e29, EG",
@@ -2430,12 +1170,6 @@
         "pop": 368650
     },
     {
-        "name": "Mad\u012bnat as S\u0101d\u0101t, EG",
-        "lat": 30.36742,
-        "lng": 30.50871,
-        "pop": 71501
-    },
-    {
         "name": "Al \u2018\u0100shir min Rama\u1e11\u0101n, EG",
         "lat": 30.29636,
         "lng": 31.74633,
@@ -2454,18 +1188,6 @@
         "pop": 409311
     },
     {
-        "name": "Kawm \u1e28am\u0101dah, EG",
-        "lat": 30.76128,
-        "lng": 30.69972,
-        "pop": 55652
-    },
-    {
-        "name": "Kafr az Zayy\u0101t, EG",
-        "lat": 30.8248,
-        "lng": 30.81805,
-        "pop": 83348
-    },
-    {
         "name": "Kafr ash Shaykh, EG",
         "lat": 31.11174,
         "lng": 30.93991,
@@ -2478,28 +1200,10 @@
         "pop": 128539
     },
     {
-        "name": "Juhaynah, EG",
-        "lat": 26.67418,
-        "lng": 31.49686,
-        "pop": 76555
-    },
-    {
         "name": "Girga, EG",
         "lat": 26.33721,
         "lng": 31.89295,
         "pop": 151256
-    },
-    {
-        "name": "\u012at\u0101y al B\u0101r\u016bd, EG",
-        "lat": 30.88697,
-        "lng": 30.66724,
-        "pop": 77606
-    },
-    {
-        "name": "I\u0163s\u0101, EG",
-        "lat": 29.2376,
-        "lng": 30.78944,
-        "pop": 74357
     },
     {
         "name": "Esna, EG",
@@ -2508,58 +1212,16 @@
         "pop": 462787
     },
     {
-        "name": "Ihn\u0101s\u012byah, EG",
-        "lat": 29.09285,
-        "lng": 31.02043,
-        "pop": 64058
-    },
-    {
         "name": "Idk\u016b, EG",
         "lat": 31.3073,
         "lng": 30.2981,
         "pop": 177152
     },
     {
-        "name": "Edfu, EG",
-        "lat": 24.97916,
-        "lng": 32.87722,
-        "pop": 79510
-    },
-    {
-        "name": "Ibshaw\u0101y, EG",
-        "lat": 29.35896,
-        "lng": 30.68061,
-        "pop": 86186
-    },
-    {
         "name": "\u1e28alw\u0101n, EG",
         "lat": 29.84144,
         "lng": 31.30084,
         "pop": 230000
-    },
-    {
-        "name": "Hihy\u0101, EG",
-        "lat": 30.6713,
-        "lng": 31.58801,
-        "pop": 74823
-    },
-    {
-        "name": "\u1e28awsh \u2018\u012as\u00e1, EG",
-        "lat": 30.9128,
-        "lng": 30.29019,
-        "pop": 82999
-    },
-    {
-        "name": "Fuwwah, EG",
-        "lat": 31.20365,
-        "lng": 30.54908,
-        "pop": 93392
-    },
-    {
-        "name": "Farsh\u016b\u0163, EG",
-        "lat": 26.05501,
-        "lng": 32.16274,
-        "pop": 71013
     },
     {
         "name": "F\u0101q\u016bs, EG",
@@ -2574,22 +1236,10 @@
         "pop": 305920
     },
     {
-        "name": "Diyarb Najm, EG",
-        "lat": 30.75438,
-        "lng": 31.44016,
-        "pop": 80954
-    },
-    {
         "name": "Dis\u016bq, EG",
         "lat": 31.13259,
         "lng": 30.64784,
         "pop": 149291
-    },
-    {
-        "name": "Dishn\u0101, EG",
-        "lat": 26.12242,
-        "lng": 32.46749,
-        "pop": 64744
     },
     {
         "name": "Dikirnis, EG",
@@ -2602,18 +1252,6 @@
         "lat": 27.55642,
         "lng": 30.81057,
         "pop": 102570
-    },
-    {
-        "name": "Dayr Maw\u0101s, EG",
-        "lat": 27.64148,
-        "lng": 30.85012,
-        "pop": 60835
-    },
-    {
-        "name": "Dar\u0101w, EG",
-        "lat": 24.40796,
-        "lng": 32.92324,
-        "pop": 61790
     },
     {
         "name": "Damanhur, EG",
@@ -2634,24 +1272,6 @@
         "pop": 780515
     },
     {
-        "name": "Safaga, EG",
-        "lat": 26.74906,
-        "lng": 33.93891,
-        "pop": 53639
-    },
-    {
-        "name": "Biyal\u0101, EG",
-        "lat": 31.17419,
-        "lng": 31.2218,
-        "pop": 89068
-    },
-    {
-        "name": "Birkat as Sab\u2018, EG",
-        "lat": 30.62914,
-        "lng": 31.08235,
-        "pop": 50924
-    },
-    {
         "name": "Bilq\u0101s, EG",
         "lat": 31.21452,
         "lng": 31.35798,
@@ -2662,18 +1282,6 @@
         "lat": 30.42039,
         "lng": 31.56223,
         "pop": 185237
-    },
-    {
-        "name": "Bib\u0101, EG",
-        "lat": 28.92406,
-        "lng": 30.98544,
-        "pop": 94677
-    },
-    {
-        "name": "Basy\u016bn, EG",
-        "lat": 30.93976,
-        "lng": 30.81338,
-        "pop": 75084
     },
     {
         "name": "Ban\u012b Suwayf, EG",
@@ -2694,22 +1302,10 @@
         "pop": 182254
     },
     {
-        "name": "Bal\u0163\u012bm, EG",
-        "lat": 31.55582,
-        "lng": 31.08918,
-        "pop": 51280
-    },
-    {
         "name": "Zagazig, EG",
         "lat": 30.58768,
         "lng": 31.502,
         "pop": 430445
-    },
-    {
-        "name": "Aws\u012bm, EG",
-        "lat": 30.12303,
-        "lng": 31.13571,
-        "pop": 94174
     },
     {
         "name": "Assiut, EG",
@@ -2736,70 +1332,16 @@
         "pop": 124020
     },
     {
-        "name": "As S\u0101\u1e29il, EG",
-        "lat": 27.06309,
-        "lng": 31.34425,
-        "pop": 54094
-    },
-    {
-        "name": "A\u015f \u015eaff, EG",
-        "lat": 29.56472,
-        "lng": 31.28111,
-        "pop": 61531
-    },
-    {
-        "name": "Ash Shuhad\u0101\u2019, EG",
-        "lat": 30.59683,
-        "lng": 30.89931,
-        "pop": 76071
-    },
-    {
         "name": "Ashm\u016bn, EG",
         "lat": 30.29735,
         "lng": 30.97641,
         "pop": 124483
     },
     {
-        "name": "Armant, EG",
-        "lat": 25.61988,
-        "lng": 32.54305,
-        "pop": 78695
-    },
-    {
-        "name": "Al W\u0101si\u0163ah, EG",
-        "lat": 29.33778,
-        "lng": 31.20556,
-        "pop": 57870
-    },
-    {
         "name": "Luxor, EG",
         "lat": 25.69893,
         "lng": 32.6421,
         "pop": 422407
-    },
-    {
-        "name": "Al Q\u016b\u015f\u012byah, EG",
-        "lat": 27.44023,
-        "lng": 30.81712,
-        "pop": 99598
-    },
-    {
-        "name": "Al Qurayn, EG",
-        "lat": 30.61618,
-        "lng": 31.73514,
-        "pop": 94632
-    },
-    {
-        "name": "Al Qan\u0101y\u0101t, EG",
-        "lat": 30.61927,
-        "lng": 31.46165,
-        "pop": 70687
-    },
-    {
-        "name": "Al Qan\u0101\u0163ir al Khayr\u012byah, EG",
-        "lat": 30.19327,
-        "lng": 31.13703,
-        "pop": 83568
     },
     {
         "name": "Cairo, EG",
@@ -2820,12 +1362,6 @@
         "pop": 162045
     },
     {
-        "name": "Al Mar\u0101ghah, EG",
-        "lat": 26.69981,
-        "lng": 31.60464,
-        "pop": 53643
-    },
-    {
         "name": "Al Manzalah, EG",
         "lat": 31.15823,
         "lng": 31.936,
@@ -2836,12 +1372,6 @@
         "lat": 31.03637,
         "lng": 31.38069,
         "pop": 621953
-    },
-    {
-        "name": "Al Minsh\u0101h, EG",
-        "lat": 26.4775,
-        "lng": 31.80394,
-        "pop": 91149
     },
     {
         "name": "Al Ma\u1e29allah al Kubr\u00e1, EG",
@@ -2856,28 +1386,10 @@
         "pop": 488904
     },
     {
-        "name": "Al Kh\u0101rjah, EG",
-        "lat": 25.45101,
-        "lng": 30.54653,
-        "pop": 83108
-    },
-    {
-        "name": "Al Kh\u0101nkah, EG",
-        "lat": 30.21035,
-        "lng": 31.36812,
-        "pop": 81646
-    },
-    {
         "name": "Giza, EG",
         "lat": 30.00944,
         "lng": 31.20861,
         "pop": 4367343
-    },
-    {
-        "name": "Al Jamm\u0101l\u012byah, EG",
-        "lat": 31.18065,
-        "lng": 31.86497,
-        "pop": 99641
     },
     {
         "name": "Ismailia, EG",
@@ -2892,46 +1404,16 @@
         "pop": 5263542
     },
     {
-        "name": "Al Ibr\u0101h\u012bm\u012byah, EG",
-        "lat": 30.71877,
-        "lng": 31.56299,
-        "pop": 53791
-    },
-    {
-        "name": "\u2018Izbat \u2018Al\u012b as Sayyid, EG",
-        "lat": 31.15671,
-        "lng": 30.14775,
-        "pop": 53079
-    },
-    {
-        "name": "Al \u1e28usayn\u012byah, EG",
-        "lat": 30.86163,
-        "lng": 31.91809,
-        "pop": 50651
-    },
-    {
         "name": "Al \u1e28aw\u0101mid\u012byah, EG",
         "lat": 29.9,
         "lng": 31.25,
         "pop": 155055
     },
     {
-        "name": "Al \u1e28\u0101m\u016bl, EG",
-        "lat": 31.31146,
-        "lng": 31.14766,
-        "pop": 58430
-    },
-    {
         "name": "Hurghada, EG",
         "lat": 27.25738,
         "lng": 33.81291,
         "pop": 207132
-    },
-    {
-        "name": "Al Ghan\u0101yim, EG",
-        "lat": 26.87524,
-        "lng": 31.32963,
-        "pop": 70884
     },
     {
         "name": "Al Fayyum, EG",
@@ -2946,36 +1428,6 @@
         "pop": 112999
     },
     {
-        "name": "Al Burj, EG",
-        "lat": 31.58229,
-        "lng": 30.98095,
-        "pop": 60320
-    },
-    {
-        "name": "Al Balyan\u0101, EG",
-        "lat": 26.23648,
-        "lng": 32.00387,
-        "pop": 68413
-    },
-    {
-        "name": "Al B\u0101j\u016br, EG",
-        "lat": 30.43046,
-        "lng": 31.03679,
-        "pop": 62961
-    },
-    {
-        "name": "Al Badrashayn, EG",
-        "lat": 29.85,
-        "lng": 31.26667,
-        "pop": 90833
-    },
-    {
-        "name": "Al Bad\u0101r\u012b, EG",
-        "lat": 26.99306,
-        "lng": 31.41605,
-        "pop": 56033
-    },
-    {
         "name": "Ar\u012bsh, EG",
         "lat": 31.13159,
         "lng": 33.79844,
@@ -2988,22 +1440,10 @@
         "pop": 151430
     },
     {
-        "name": "Ad Dilinj\u0101t, EG",
-        "lat": 30.82796,
-        "lng": 30.53552,
-        "pop": 68901
-    },
-    {
         "name": "Ab\u016b T\u012bj, EG",
         "lat": 27.04514,
         "lng": 31.31845,
         "pop": 105418
-    },
-    {
-        "name": "Ab\u016b Qurq\u0101\u015f, EG",
-        "lat": 27.93043,
-        "lng": 30.83826,
-        "pop": 90266
     },
     {
         "name": "Ab\u016b Kab\u012br, EG",
@@ -3012,40 +1452,10 @@
         "pop": 154466
     },
     {
-        "name": "Ab\u016b \u1e28ummu\u015f, EG",
-        "lat": 31.09311,
-        "lng": 30.31418,
-        "pop": 61388
-    },
-    {
-        "name": "Ab\u016b an Numrus, EG",
-        "lat": 29.95,
-        "lng": 31.2,
-        "pop": 86601
-    },
-    {
-        "name": "Ab\u016b al Ma\u0163\u0101m\u012br, EG",
-        "lat": 30.91018,
-        "lng": 30.17438,
-        "pop": 66946
-    },
-    {
         "name": "Abn\u016bb, EG",
         "lat": 27.26881,
         "lng": 31.15232,
         "pop": 111785
-    },
-    {
-        "name": "Dumy\u0101\u0163 al Jad\u012bdah, EG",
-        "lat": 31.43482,
-        "lng": 31.67506,
-        "pop": 54508
-    },
-    {
-        "name": "A\u015f \u015e\u0101li\u1e29\u012byah al Jad\u012bdah, EG",
-        "lat": 30.63146,
-        "lng": 31.93927,
-        "pop": 59320
     },
     {
         "name": "New Cairo, EG",
@@ -3054,28 +1464,10 @@
         "pop": 313139
     },
     {
-        "name": "El Shorouk, EG",
-        "lat": 30.13806,
-        "lng": 31.61556,
-        "pop": 91899
-    },
-    {
         "name": "Al-'Ub\u016br, EG",
         "lat": 30.22886,
         "lng": 31.48149,
         "pop": 138987
-    },
-    {
-        "name": "Al-Kh\u0101rijah, EG",
-        "lat": 25.25,
-        "lng": 30.55,
-        "pop": 83108
-    },
-    {
-        "name": "Ash-Shaykh Z\u0101yid, EG",
-        "lat": 30.02,
-        "lng": 31.0,
-        "pop": 95854
     },
     {
         "name": "Laayoune, EH",
@@ -3090,34 +1482,10 @@
         "pop": 106277
     },
     {
-        "name": "Keren, ER",
-        "lat": 15.77792,
-        "lng": 38.45107,
-        "pop": 74800
-    },
-    {
         "name": "Asmara, ER",
         "lat": 15.33805,
         "lng": 38.93184,
         "pop": 563930
-    },
-    {
-        "name": "Ziway, ET",
-        "lat": 7.93333,
-        "lng": 38.71667,
-        "pop": 90500
-    },
-    {
-        "name": "Yirga \u2018Alem, ET",
-        "lat": 6.75,
-        "lng": 38.41667,
-        "pop": 81600
-    },
-    {
-        "name": "Wik\u2019ro, ET",
-        "lat": 13.79525,
-        "lng": 39.60303,
-        "pop": 64000
     },
     {
         "name": "Warder, ET",
@@ -3126,40 +1494,16 @@
         "pop": 450400
     },
     {
-        "name": "Wendo, ET",
-        "lat": 6.6,
-        "lng": 38.41667,
-        "pop": 59300
-    },
-    {
-        "name": "Welk\u2019\u012bt\u2019\u0113, ET",
-        "lat": 8.28333,
-        "lng": 37.78333,
-        "pop": 77500
-    },
-    {
         "name": "Weldiya, ET",
         "lat": 11.8277,
         "lng": 39.59164,
         "pop": 104000
     },
     {
-        "name": "T\u0113p\u012b, ET",
-        "lat": 7.2,
-        "lng": 35.45,
-        "pop": 66700
-    },
-    {
         "name": "Shashamane, ET",
         "lat": 7.2,
         "lng": 38.6,
         "pop": 208400
-    },
-    {
-        "name": "Sek\u2019ot\u2019a, ET",
-        "lat": 12.63056,
-        "lng": 39.03472,
-        "pop": 50300
     },
     {
         "name": "Sebeta, ET",
@@ -3174,46 +1518,10 @@
         "pop": 156000
     },
     {
-        "name": "Neg\u0113l\u0113, ET",
-        "lat": 5.31667,
-        "lng": 39.58333,
-        "pop": 73100
-    },
-    {
         "name": "Nazr\u0113t, ET",
         "lat": 8.55,
         "lng": 39.26667,
         "pop": 456900
-    },
-    {
-        "name": "Mot\u2019a, ET",
-        "lat": 11.08333,
-        "lng": 37.86667,
-        "pop": 59000
-    },
-    {
-        "name": "Mojo, ET",
-        "lat": 8.58679,
-        "lng": 39.12111,
-        "pop": 61300
-    },
-    {
-        "name": "M\u012bzan Tefer\u012b, ET",
-        "lat": 6.99865,
-        "lng": 35.58879,
-        "pop": 62000
-    },
-    {
-        "name": "Metu, ET",
-        "lat": 8.3,
-        "lng": 35.58333,
-        "pop": 59700
-    },
-    {
-        "name": "Mek\u2019\u012b, ET",
-        "lat": 8.15,
-        "lng": 38.81667,
-        "pop": 75200
     },
     {
         "name": "Mek'ele, ET",
@@ -3222,22 +1530,10 @@
         "pop": 457900
     },
     {
-        "name": "K\u2019ol\u012bto, ET",
-        "lat": 7.31667,
-        "lng": 38.08333,
-        "pop": 72200
-    },
-    {
         "name": "Kombolcha, ET",
         "lat": 11.08155,
         "lng": 39.74339,
         "pop": 132100
-    },
-    {
-        "name": "Jinka, ET",
-        "lat": 5.65,
-        "lng": 36.65,
-        "pop": 54400
     },
     {
         "name": "Jimma, ET",
@@ -3270,70 +1566,10 @@
         "pop": 157000
     },
     {
-        "name": "H\u0101gere Hiywet, ET",
-        "lat": 8.98333,
-        "lng": 37.85,
-        "pop": 99900
-    },
-    {
         "name": "Gonder, ET",
         "lat": 12.6,
         "lng": 37.46667,
         "pop": 466000
-    },
-    {
-        "name": "Gode, ET",
-        "lat": 5.95056,
-        "lng": 43.55186,
-        "pop": 67900
-    },
-    {
-        "name": "Goba, ET",
-        "lat": 7.01667,
-        "lng": 39.98333,
-        "pop": 66500
-    },
-    {
-        "name": "Waliso, ET",
-        "lat": 8.53417,
-        "lng": 37.96515,
-        "pop": 78600
-    },
-    {
-        "name": "Gimbi, ET",
-        "lat": 9.17031,
-        "lng": 35.83491,
-        "pop": 64300
-    },
-    {
-        "name": "Gamb\u0113la, ET",
-        "lat": 8.25,
-        "lng": 34.58333,
-        "pop": 97600
-    },
-    {
-        "name": "Finote Selam, ET",
-        "lat": 10.7,
-        "lng": 37.26667,
-        "pop": 58400
-    },
-    {
-        "name": "Fich\u0113, ET",
-        "lat": 9.8,
-        "lng": 38.73333,
-        "pop": 57100
-    },
-    {
-        "name": "Felege Neway, ET",
-        "lat": 6.3,
-        "lng": 36.88333,
-        "pop": 61000
-    },
-    {
-        "name": "Duram\u0113, ET",
-        "lat": 7.23333,
-        "lng": 37.88333,
-        "pop": 65900
     },
     {
         "name": "Dire Dawa, ET",
@@ -3352,12 +1588,6 @@
         "lat": 11.13333,
         "lng": 39.63333,
         "pop": 270400
-    },
-    {
-        "name": "Demb\u012b Dolo, ET",
-        "lat": 8.53333,
-        "lng": 34.8,
-        "pop": 61100
     },
     {
         "name": "Bishoftu, ET",
@@ -3384,36 +1614,6 @@
         "pop": 146900
     },
     {
-        "name": "Dangila, ET",
-        "lat": 11.26667,
-        "lng": 36.83333,
-        "pop": 56000
-    },
-    {
-        "name": "Ciro, ET",
-        "lat": 7.83333,
-        "lng": 38.23333,
-        "pop": 69800
-    },
-    {
-        "name": "Butaj\u012bra, ET",
-        "lat": 8.11667,
-        "lng": 38.36667,
-        "pop": 89800
-    },
-    {
-        "name": "Bonga, ET",
-        "lat": 7.28889,
-        "lng": 36.24167,
-        "pop": 56000
-    },
-    {
-        "name": "Bod\u012bt\u012b, ET",
-        "lat": 6.96667,
-        "lng": 37.86667,
-        "pop": 64900
-    },
-    {
         "name": "Bahir Dar, ET",
         "lat": 11.59364,
         "lng": 37.39077,
@@ -3426,22 +1626,10 @@
         "pop": 422200
     },
     {
-        "name": "\u0100sosa, ET",
-        "lat": 10.06667,
-        "lng": 34.53333,
-        "pop": 69700
-    },
-    {
         "name": "\u0100sela, ET",
         "lat": 7.95,
         "lng": 39.13333,
         "pop": 139500
-    },
-    {
-        "name": "\u0100reka, ET",
-        "lat": 7.06667,
-        "lng": 37.7,
-        "pop": 84500
     },
     {
         "name": "Arba Minch, ET",
@@ -3456,42 +1644,6 @@
         "pop": 148933
     },
     {
-        "name": "\u2018Alemaya, ET",
-        "lat": 9.39334,
-        "lng": 42.00967,
-        "pop": 63700
-    },
-    {
-        "name": "Alamata, ET",
-        "lat": 12.416,
-        "lng": 39.55971,
-        "pop": 70400
-    },
-    {
-        "name": "Aksum, ET",
-        "lat": 14.12109,
-        "lng": 38.72337,
-        "pop": 94500
-    },
-    {
-        "name": "Hagere Maryam, ET",
-        "lat": 5.63418,
-        "lng": 38.23603,
-        "pop": 57700
-    },
-    {
-        "name": "\u0100garo, ET",
-        "lat": 7.85,
-        "lng": 36.65,
-        "pop": 52800
-    },
-    {
-        "name": "Adwa, ET",
-        "lat": 14.16347,
-        "lng": 38.89924,
-        "pop": 85600
-    },
-    {
         "name": "Addis Ababa, ET",
         "lat": 9.02497,
         "lng": 38.74689,
@@ -3504,34 +1656,10 @@
         "pop": 121800
     },
     {
-        "name": "Samara, ET",
-        "lat": 11.79342,
-        "lng": 41.00578,
-        "pop": 50000
-    },
-    {
         "name": "Sodo, ET",
         "lat": 6.86,
         "lng": 37.76159,
         "pop": 204100
-    },
-    {
-        "name": "Kobo, ET",
-        "lat": 10.02798,
-        "lng": 39.8528,
-        "pop": 56100
-    },
-    {
-        "name": "Arsi Negele, ET",
-        "lat": 7.3547,
-        "lng": 38.67465,
-        "pop": 98100
-    },
-    {
-        "name": "Chagni, ET",
-        "lat": 10.95627,
-        "lng": 36.50456,
-        "pop": 52300
     },
     {
         "name": "Burayu, ET",
@@ -3540,40 +1668,10 @@
         "pop": 101400
     },
     {
-        "name": "Gununo, ET",
-        "lat": 6.92471,
-        "lng": 37.65263,
-        "pop": 84510
-    },
-    {
         "name": "Port-Gentil, GA",
         "lat": -0.71933,
         "lng": 8.78151,
         "pop": 164018
-    },
-    {
-        "name": "Oyem, GA",
-        "lat": 1.5995,
-        "lng": 11.57933,
-        "pop": 72939
-    },
-    {
-        "name": "Owendo, GA",
-        "lat": 0.29123,
-        "lng": 9.50465,
-        "pop": 95313
-    },
-    {
-        "name": "Ntoum, GA",
-        "lat": 0.39051,
-        "lng": 9.76096,
-        "pop": 62445
-    },
-    {
-        "name": "Moanda, GA",
-        "lat": -1.56652,
-        "lng": 13.1987,
-        "pop": 71099
     },
     {
         "name": "Libreville, GA",
@@ -3588,24 +1686,6 @@
         "pop": 132895
     },
     {
-        "name": "Yendi, GH",
-        "lat": 9.44272,
-        "lng": -0.00991,
-        "pop": 64676
-    },
-    {
-        "name": "Winneba, GH",
-        "lat": 5.35113,
-        "lng": -0.62313,
-        "pop": 71288
-    },
-    {
-        "name": "Wa, GH",
-        "lat": 10.06069,
-        "lng": -2.50192,
-        "pop": 78107
-    },
-    {
         "name": "Twifu Praso, GH",
         "lat": 5.61411,
         "lng": -1.5502,
@@ -3616,12 +1696,6 @@
         "lat": 5.6698,
         "lng": -0.01657,
         "pop": 155782
-    },
-    {
-        "name": "Techiman, GH",
-        "lat": 7.59054,
-        "lng": -1.93947,
-        "pop": 84074
     },
     {
         "name": "Tamale, GH",
@@ -3636,58 +1710,16 @@
         "pop": 389114
     },
     {
-        "name": "Tafo, GH",
-        "lat": 6.73156,
-        "lng": -1.6137,
-        "pop": 50457
-    },
-    {
-        "name": "Swedru, GH",
-        "lat": 5.53711,
-        "lng": -0.69984,
-        "pop": 54417
-    },
-    {
-        "name": "Sunyani, GH",
-        "lat": 7.33991,
-        "lng": -2.32676,
-        "pop": 92825
-    },
-    {
-        "name": "Suhum, GH",
-        "lat": 6.04089,
-        "lng": -0.45004,
-        "pop": 50610
-    },
-    {
         "name": "Sekondi-Takoradi, GH",
         "lat": 4.92678,
         "lng": -1.75773,
         "pop": 138872
     },
     {
-        "name": "Kasoa, GH",
-        "lat": 5.53449,
-        "lng": -0.41679,
-        "pop": 86753
-    },
-    {
-        "name": "Akim Oda, GH",
-        "lat": 5.92665,
-        "lng": -0.98577,
-        "pop": 60604
-    },
-    {
         "name": "Obuase, GH",
         "lat": 6.20228,
         "lng": -1.66796,
         "pop": 179604
-    },
-    {
-        "name": "Mampong, GH",
-        "lat": 7.06273,
-        "lng": -1.4001,
-        "pop": 51745
     },
     {
         "name": "Medina Estates, GH",
@@ -3708,76 +1740,16 @@
         "pop": 151255
     },
     {
-        "name": "Kintampo, GH",
-        "lat": 8.05627,
-        "lng": -1.73058,
-        "pop": 53711
-    },
-    {
-        "name": "Jirapa, GH",
-        "lat": 10.53689,
-        "lng": -2.70155,
-        "pop": 91279
-    },
-    {
-        "name": "Japekrom, GH",
-        "lat": 7.5758,
-        "lng": -2.78516,
-        "pop": 96000
-    },
-    {
-        "name": "Hohoe, GH",
-        "lat": 7.15181,
-        "lng": 0.47362,
-        "pop": 92076
-    },
-    {
         "name": "Ho, GH",
         "lat": 6.60084,
         "lng": 0.4713,
         "pop": 130701
     },
     {
-        "name": "Gbawe, GH",
-        "lat": 5.57692,
-        "lng": -0.31038,
-        "pop": 86718
-    },
-    {
-        "name": "Ejura, GH",
-        "lat": 7.38558,
-        "lng": -1.35617,
-        "pop": 70807
-    },
-    {
         "name": "Cape Coast, GH",
         "lat": 5.10535,
         "lng": -1.2466,
         "pop": 212426
-    },
-    {
-        "name": "Buduburam, GH",
-        "lat": 5.52314,
-        "lng": -0.47718,
-        "pop": 63217
-    },
-    {
-        "name": "Bolgatanga, GH",
-        "lat": 10.78556,
-        "lng": -0.85139,
-        "pop": 81958
-    },
-    {
-        "name": "Berekum, GH",
-        "lat": 7.4534,
-        "lng": -2.58404,
-        "pop": 70536
-    },
-    {
-        "name": "Bawku, GH",
-        "lat": 11.05926,
-        "lng": -0.24249,
-        "pop": 76459
     },
     {
         "name": "Ashaiman, GH",
@@ -3792,12 +1764,6 @@
         "pop": 119467
     },
     {
-        "name": "Aflao, GH",
-        "lat": 6.11982,
-        "lng": 1.19012,
-        "pop": 66546
-    },
-    {
         "name": "Atsiaman, GH",
         "lat": 5.69775,
         "lng": -0.32824,
@@ -3810,34 +1776,10 @@
         "pop": 1963264
     },
     {
-        "name": "Adenta, GH",
-        "lat": 5.71417,
-        "lng": -0.15418,
-        "pop": 50652
-    },
-    {
-        "name": "Tema New Town, GH",
-        "lat": 5.65396,
-        "lng": 0.0264,
-        "pop": 95837
-    },
-    {
         "name": "Sekondi, GH",
         "lat": 4.93422,
         "lng": -1.71454,
         "pop": 285506
-    },
-    {
-        "name": "Mandela, GH",
-        "lat": 5.55221,
-        "lng": -0.33912,
-        "pop": 77371
-    },
-    {
-        "name": "Sukuta, GM",
-        "lat": 13.41033,
-        "lng": -16.70815,
-        "pop": 56472
     },
     {
         "name": "Serekunda, GM",
@@ -3846,22 +1788,10 @@
         "pop": 340000
     },
     {
-        "name": "Brikama, GM",
-        "lat": 13.27136,
-        "lng": -16.64944,
-        "pop": 97233
-    },
-    {
         "name": "Siguiri, GN",
         "lat": 11.42282,
         "lng": -9.16852,
         "pop": 148018
-    },
-    {
-        "name": "Sangar\u00e9di, GN",
-        "lat": 11.1,
-        "lng": -13.76667,
-        "pop": 54824
     },
     {
         "name": "Kamsar, GN",
@@ -3880,18 +1810,6 @@
         "lat": 9.73333,
         "lng": -13.41667,
         "pop": 194297
-    },
-    {
-        "name": "Mamou, GN",
-        "lat": 10.37546,
-        "lng": -12.09148,
-        "pop": 79109
-    },
-    {
-        "name": "Macenta, GN",
-        "lat": 8.54351,
-        "lng": -9.47099,
-        "pop": 68020
     },
     {
         "name": "Lab\u00e9, GN",
@@ -3918,24 +1836,6 @@
         "pop": 221428
     },
     {
-        "name": "Gueckedou, GN",
-        "lat": 8.56744,
-        "lng": -10.1336,
-        "pop": 79140
-    },
-    {
-        "name": "Fria, GN",
-        "lat": 10.36676,
-        "lng": -13.58253,
-        "pop": 64169
-    },
-    {
-        "name": "Faranah, GN",
-        "lat": 10.04036,
-        "lng": -10.74343,
-        "pop": 70181
-    },
-    {
         "name": "Dubr\u00e9ka, GN",
         "lat": 9.79111,
         "lng": -13.52333,
@@ -3948,12 +1848,6 @@
         "pop": 137287
     },
     {
-        "name": "Coyah, GN",
-        "lat": 9.70643,
-        "lng": -13.38465,
-        "pop": 77103
-    },
-    {
         "name": "Conakry, GN",
         "lat": 9.53795,
         "lng": -13.67729,
@@ -3964,18 +1858,6 @@
         "lat": 9.535,
         "lng": -13.68778,
         "pop": 1871242
-    },
-    {
-        "name": "Bok\u00e9, GN",
-        "lat": 10.93217,
-        "lng": -14.29055,
-        "pop": 63736
-    },
-    {
-        "name": "Kolaboui, GN",
-        "lat": 10.79569,
-        "lng": -14.39966,
-        "pop": 57251
     },
     {
         "name": "Malabo, GQ",
@@ -3996,30 +1878,6 @@
         "pop": 439704
     },
     {
-        "name": "Wanguru, KE",
-        "lat": -0.68393,
-        "lng": 37.35701,
-        "pop": 51722
-    },
-    {
-        "name": "Wajir, KE",
-        "lat": 1.7471,
-        "lng": 40.05732,
-        "pop": 90116
-    },
-    {
-        "name": "Voi, KE",
-        "lat": -3.39605,
-        "lng": 38.55609,
-        "pop": 53353
-    },
-    {
-        "name": "Ukunda, KE",
-        "lat": -4.2929,
-        "lng": 39.56404,
-        "pop": 77686
-    },
-    {
         "name": "Thika, KE",
         "lat": -1.03326,
         "lng": 37.06933,
@@ -4032,28 +1890,10 @@
         "pop": 490120
     },
     {
-        "name": "Nyeri, KE",
-        "lat": -0.42013,
-        "lng": 36.94759,
-        "pop": 80081
-    },
-    {
         "name": "Ngong, KE",
         "lat": -1.3527,
         "lng": 36.6699,
         "pop": 102323
-    },
-    {
-        "name": "Narok, KE",
-        "lat": -1.08083,
-        "lng": 35.87111,
-        "pop": 65430
-    },
-    {
-        "name": "Nanyuki, KE",
-        "lat": 0.00624,
-        "lng": 37.07398,
-        "pop": 72813
     },
     {
         "name": "Nakuru, KE",
@@ -4086,24 +1926,6 @@
         "pop": 1208333
     },
     {
-        "name": "Migori, KE",
-        "lat": -1.06343,
-        "lng": 34.47313,
-        "pop": 71668
-    },
-    {
-        "name": "Meru, KE",
-        "lat": 0.04626,
-        "lng": 37.65587,
-        "pop": 80191
-    },
-    {
-        "name": "Mbale, KE",
-        "lat": 0.08213,
-        "lng": 34.72139,
-        "pop": 60000
-    },
-    {
         "name": "Matuga, KE",
         "lat": -4.168,
         "lng": 39.57068,
@@ -4120,18 +1942,6 @@
         "lat": -3.21799,
         "lng": 40.11692,
         "pop": 119859
-    },
-    {
-        "name": "Machakos, KE",
-        "lat": -1.52233,
-        "lng": 37.26521,
-        "pop": 63767
-    },
-    {
-        "name": "Lodwar, KE",
-        "lat": 3.11988,
-        "lng": 35.59642,
-        "pop": 82970
     },
     {
         "name": "Limuru, KE",
@@ -4164,24 +1974,6 @@
         "pop": 112417
     },
     {
-        "name": "Kiserian, KE",
-        "lat": -1.4275,
-        "lng": 36.6865,
-        "pop": 76903
-    },
-    {
-        "name": "Kimilili, KE",
-        "lat": 0.78775,
-        "lng": 34.71562,
-        "pop": 56050
-    },
-    {
-        "name": "Kilifi, KE",
-        "lat": -3.63045,
-        "lng": 39.84992,
-        "pop": 74270
-    },
-    {
         "name": "Kikuyu, KE",
         "lat": -1.24627,
         "lng": 36.66291,
@@ -4200,12 +1992,6 @@
         "pop": 113294
     },
     {
-        "name": "Kericho, KE",
-        "lat": -0.36774,
-        "lng": 35.28314,
-        "pop": 53804
-    },
-    {
         "name": "Karuri, KE",
         "lat": -1.17641,
         "lng": 36.7564,
@@ -4216,12 +2002,6 @@
         "lat": -0.7,
         "lng": 37.18333,
         "pop": 194342
-    },
-    {
-        "name": "Kapenguria, KE",
-        "lat": 1.23889,
-        "lng": 35.11194,
-        "pop": 56000
     },
     {
         "name": "Kakamega, KE",
@@ -4236,70 +2016,16 @@
         "pop": 163415
     },
     {
-        "name": "Isiolo, KE",
-        "lat": 0.35462,
-        "lng": 37.58218,
-        "pop": 78650
-    },
-    {
-        "name": "Githunguri, KE",
-        "lat": -1.05754,
-        "lng": 36.77625,
-        "pop": 63319
-    },
-    {
-        "name": "Gilgil, KE",
-        "lat": -0.50397,
-        "lng": 36.31845,
-        "pop": 60711
-    },
-    {
-        "name": "Upper Gilgil, KE",
-        "lat": -0.21209,
-        "lng": 36.27248,
-        "pop": 60711
-    },
-    {
         "name": "Garissa, KE",
         "lat": -0.45275,
         "lng": 39.64601,
         "pop": 163399
     },
     {
-        "name": "Embu, KE",
-        "lat": -0.53987,
-        "lng": 37.45743,
-        "pop": 64979
-    },
-    {
-        "name": "El Wak, KE",
-        "lat": 2.80922,
-        "lng": 40.92885,
-        "pop": 60732
-    },
-    {
         "name": "Eldoret, KE",
         "lat": 0.52036,
         "lng": 35.26993,
         "pop": 475716
-    },
-    {
-        "name": "Busia, KE",
-        "lat": 0.46005,
-        "lng": 34.11169,
-        "pop": 71886
-    },
-    {
-        "name": "Bungoma, KE",
-        "lat": 0.5635,
-        "lng": 34.56055,
-        "pop": 68031
-    },
-    {
-        "name": "Athi River, KE",
-        "lat": -1.4563,
-        "lng": 36.97826,
-        "pop": 81302
     },
     {
         "name": "Kitengela, KE",
@@ -4314,34 +2040,10 @@
         "pop": 156041
     },
     {
-        "name": "Imara Daima Estate, KE",
-        "lat": -1.32323,
-        "lng": 36.88021,
-        "pop": 52837
-    },
-    {
         "name": "Mlolongo, KE",
         "lat": -1.39639,
         "lng": 36.94028,
         "pop": 136351
-    },
-    {
-        "name": "Mtwapa, KE",
-        "lat": -3.93938,
-        "lng": 39.74877,
-        "pop": 90677
-    },
-    {
-        "name": "Githunguri, KE",
-        "lat": -1.29996,
-        "lng": 36.99047,
-        "pop": 63319
-    },
-    {
-        "name": "Moroni, KM",
-        "lat": -11.70216,
-        "lng": 43.25506,
-        "pop": 74749
     },
     {
         "name": "Monrovia, LR",
@@ -4350,40 +2052,10 @@
         "pop": 1542549
     },
     {
-        "name": "Kakata, LR",
-        "lat": 6.53104,
-        "lng": -10.35368,
-        "pop": 52247
-    },
-    {
-        "name": "Gbarnga, LR",
-        "lat": 6.99543,
-        "lng": -9.47122,
-        "pop": 86031
-    },
-    {
-        "name": "Ganta, LR",
-        "lat": 7.235,
-        "lng": -8.98444,
-        "pop": 63523
-    },
-    {
-        "name": "Buchanan, LR",
-        "lat": 5.87693,
-        "lng": -10.04964,
-        "pop": 75854
-    },
-    {
         "name": "Maseru, LS",
         "lat": -29.31667,
         "lng": 27.48333,
         "pop": 359753
-    },
-    {
-        "name": "Maputsoe, LS",
-        "lat": -28.8866,
-        "lng": 27.89915,
-        "pop": 61916
     },
     {
         "name": "Tobruk, LY",
@@ -4404,12 +2076,6 @@
         "pop": 757490
     },
     {
-        "name": "Al Marj, LY",
-        "lat": 32.49257,
-        "lng": 20.82909,
-        "pop": 85315
-    },
-    {
         "name": "Al Bay\u1e11\u0101\u2019, LY",
         "lat": 32.76272,
         "lng": 21.75506,
@@ -4428,12 +2094,6 @@
         "pop": 203790
     },
     {
-        "name": "Tarhuna, LY",
-        "lat": 32.43501,
-        "lng": 13.6332,
-        "pop": 52420
-    },
-    {
         "name": "Tripoli, LY",
         "lat": 32.88743,
         "lng": 13.18733,
@@ -4450,18 +2110,6 @@
         "lat": 31.20892,
         "lng": 16.58866,
         "pop": 106705
-    },
-    {
-        "name": "\u015eurm\u0101n, LY",
-        "lat": 32.75668,
-        "lng": 12.57159,
-        "pop": 77114
-    },
-    {
-        "name": "\u015eabr\u0101tah, LY",
-        "lat": 32.79335,
-        "lng": 12.48845,
-        "pop": 83398
     },
     {
         "name": "Sabha, LY",
@@ -4500,12 +2148,6 @@
         "pop": 200000
     },
     {
-        "name": "As Saw\u0101n\u012b, LY",
-        "lat": 32.71667,
-        "lng": 13.06667,
-        "pop": 57069
-    },
-    {
         "name": "Al Ajaylat, LY",
         "lat": 32.75718,
         "lng": 12.37633,
@@ -4530,48 +2172,6 @@
         "pop": 126386
     },
     {
-        "name": "Al \u1e28urshah, LY",
-        "lat": 32.76472,
-        "lng": 12.67389,
-        "pop": 81119
-    },
-    {
-        "name": "Al \u2018Az\u012bz\u012byah, LY",
-        "lat": 32.53194,
-        "lng": 13.0175,
-        "pop": 52404
-    },
-    {
-        "name": "Msal\u0101tah, LY",
-        "lat": 32.58345,
-        "lng": 14.03627,
-        "pop": 73907
-    },
-    {
-        "name": "Youssoufia, MA",
-        "lat": 32.24634,
-        "lng": -8.52941,
-        "pop": 73848
-    },
-    {
-        "name": "Tiznit, MA",
-        "lat": 29.69742,
-        "lng": -9.73162,
-        "pop": 81569
-    },
-    {
-        "name": "Tirhanim\u00eene, MA",
-        "lat": 35.23619,
-        "lng": -3.95453,
-        "pop": 55827
-    },
-    {
-        "name": "Tiflet, MA",
-        "lat": 33.89469,
-        "lng": -6.30649,
-        "pop": 94684
-    },
-    {
         "name": "T\u00e9touan, MA",
         "lat": 35.57845,
         "lng": -5.36837,
@@ -4590,22 +2190,10 @@
         "pop": 162110
     },
     {
-        "name": "Taroudant, MA",
-        "lat": 30.47028,
-        "lng": -8.87695,
-        "pop": 87520
-    },
-    {
         "name": "Taourirt, MA",
         "lat": 34.40731,
         "lng": -2.89732,
         "pop": 112908
-    },
-    {
-        "name": "Tan-Tan, MA",
-        "lat": 28.43799,
-        "lng": -11.10321,
-        "pop": 79942
     },
     {
         "name": "Tangier, MA",
@@ -4614,40 +2202,16 @@
         "pop": 1035141
     },
     {
-        "name": "Souq Sebt Oulad Nemma, MA",
-        "lat": 32.2973,
-        "lng": -6.70301,
-        "pop": 65601
-    },
-    {
         "name": "Sidi Slimane, MA",
         "lat": 34.26479,
         "lng": -5.92598,
         "pop": 101541
     },
     {
-        "name": "Sidi Kacem, MA",
-        "lat": 34.22149,
-        "lng": -5.70775,
-        "pop": 82632
-    },
-    {
-        "name": "Sidi Bennour, MA",
-        "lat": 32.65236,
-        "lng": -8.42769,
-        "pop": 60948
-    },
-    {
         "name": "Settat, MA",
         "lat": 33.00103,
         "lng": -7.61662,
         "pop": 155333
-    },
-    {
-        "name": "Sefrou, MA",
-        "lat": 33.83186,
-        "lng": -4.828,
-        "pop": 87234
     },
     {
         "name": "Sal\u00e9, MA",
@@ -4668,12 +2232,6 @@
         "pop": 1655753
     },
     {
-        "name": "Oulad Te\u00efma, MA",
-        "lat": 30.39467,
-        "lng": -9.20897,
-        "pop": 97608
-    },
-    {
         "name": "Oujda, MA",
         "lat": 34.68139,
         "lng": -1.90858,
@@ -4686,28 +2244,10 @@
         "pop": 104029
     },
     {
-        "name": "Ouezzane, MA",
-        "lat": 34.79584,
-        "lng": -5.57849,
-        "pop": 65088
-    },
-    {
-        "name": "Ouarzazate, MA",
-        "lat": 30.91894,
-        "lng": -6.89341,
-        "pop": 77603
-    },
-    {
         "name": "Nador, MA",
         "lat": 35.16813,
         "lng": -2.93352,
         "pop": 176600
-    },
-    {
-        "name": "Al Aaroui, MA",
-        "lat": 35.0109,
-        "lng": -3.00938,
-        "pop": 51976
     },
     {
         "name": "Mohammedia, MA",
@@ -4716,28 +2256,10 @@
         "pop": 227799
     },
     {
-        "name": "Midelt, MA",
-        "lat": 32.6852,
-        "lng": -4.74512,
-        "pop": 60390
-    },
-    {
         "name": "Meknes, MA",
         "lat": 33.89352,
         "lng": -5.54727,
         "pop": 568295
-    },
-    {
-        "name": "Mdiq, MA",
-        "lat": 35.68313,
-        "lng": -5.32871,
-        "pop": 61398
-    },
-    {
-        "name": "Martil, MA",
-        "lat": 35.61662,
-        "lng": -5.27522,
-        "pop": 70274
     },
     {
         "name": "Marrakesh, MA",
@@ -4776,40 +2298,16 @@
         "pop": 470949
     },
     {
-        "name": "Kasba Tadla, MA",
-        "lat": 32.5977,
-        "lng": -6.26844,
-        "pop": 51697
-    },
-    {
         "name": "Inezgane, MA",
         "lat": 30.35535,
         "lng": -9.53639,
         "pop": 142320
     },
     {
-        "name": "Ifrane, MA",
-        "lat": 33.52666,
-        "lng": -5.11019,
-        "pop": 73782
-    },
-    {
-        "name": "Guercif, MA",
-        "lat": 34.22568,
-        "lng": -3.35361,
-        "pop": 99238
-    },
-    {
         "name": "Guelmim, MA",
         "lat": 28.98696,
         "lng": -10.05738,
         "pop": 129200
-    },
-    {
-        "name": "Fnidek, MA",
-        "lat": 35.84906,
-        "lng": -5.35747,
-        "pop": 84558
     },
     {
         "name": "Al Fqih Ben \u00c7alah, MA",
@@ -4824,12 +2322,6 @@
         "pop": 1191905
     },
     {
-        "name": "Essaouira, MA",
-        "lat": 31.5125,
-        "lng": -9.77,
-        "pop": 85137
-    },
-    {
         "name": "El Kelaa des Srarhna, MA",
         "lat": 32.05121,
         "lng": -7.41079,
@@ -4840,12 +2332,6 @@
         "lat": 33.25682,
         "lng": -8.50882,
         "pop": 212863
-    },
-    {
-        "name": "Ad Darwa, MA",
-        "lat": 33.37487,
-        "lng": -7.5356,
-        "pop": 52108
     },
     {
         "name": "Dar Bouazza, MA",
@@ -4872,46 +2358,16 @@
         "pop": 119284
     },
     {
-        "name": "Benslimane, MA",
-        "lat": 33.61601,
-        "lng": -7.12153,
-        "pop": 62352
-    },
-    {
-        "name": "Ben Jerrar, MA",
-        "lat": 30.26224,
-        "lng": -9.50377,
-        "pop": 53026
-    },
-    {
         "name": "Beni Mellal, MA",
         "lat": 32.33725,
         "lng": -6.34983,
         "pop": 210397
     },
     {
-        "name": "Beni Enzar, MA",
-        "lat": 35.26,
-        "lng": -2.93,
-        "pop": 61786
-    },
-    {
-        "name": "Ben Guerir, MA",
-        "lat": 32.24088,
-        "lng": -7.95397,
-        "pop": 96777
-    },
-    {
         "name": "Berrechid, MA",
         "lat": 33.26553,
         "lng": -7.58754,
         "pop": 149201
-    },
-    {
-        "name": "Azrou, MA",
-        "lat": 33.43443,
-        "lng": -5.22126,
-        "pop": 59348
     },
     {
         "name": "Khemisset, MA",
@@ -4926,28 +2382,10 @@
         "pop": 395644
     },
     {
-        "name": "A\u00efn Harrouda, MA",
-        "lat": 33.63737,
-        "lng": -7.44971,
-        "pop": 68161
-    },
-    {
-        "name": "Ain El Aouda, MA",
-        "lat": 33.80333,
-        "lng": -6.79461,
-        "pop": 54397
-    },
-    {
         "name": "Agadir, MA",
         "lat": 30.42018,
         "lng": -9.59815,
         "pop": 698310
-    },
-    {
-        "name": "Skhirate, MA",
-        "lat": 33.8527,
-        "lng": -7.03171,
-        "pop": 65272
     },
     {
         "name": "Errachidia, MA",
@@ -4962,52 +2400,10 @@
         "pop": 187652
     },
     {
-        "name": "Lqoliaa, MA",
-        "lat": 30.29759,
-        "lng": -9.46597,
-        "pop": 90890
-    },
-    {
-        "name": "My Drarga, MA",
-        "lat": 30.37733,
-        "lng": -9.47342,
-        "pop": 55631
-    },
-    {
-        "name": "Sidi Taibi, MA",
-        "lat": 34.18698,
-        "lng": -6.68176,
-        "pop": 51050
-    },
-    {
         "name": "Sal\u00e9 Al Jadida, MA",
         "lat": 33.99722,
         "lng": -6.74047,
         "pop": 200000
-    },
-    {
-        "name": "Beja\u00e2d, MA",
-        "lat": 32.77133,
-        "lng": -6.39231,
-        "pop": 51206
-    },
-    {
-        "name": "Ouislane, MA",
-        "lat": 33.91406,
-        "lng": -5.48969,
-        "pop": 95995
-    },
-    {
-        "name": "Lahraouyine, MA",
-        "lat": 33.54138,
-        "lng": -7.52848,
-        "pop": 70783
-    },
-    {
-        "name": "Souk El Arbaa, MA",
-        "lat": 34.68473,
-        "lng": -6.00344,
-        "pop": 75635
     },
     {
         "name": "Toamasina, MG",
@@ -5022,46 +2418,10 @@
         "pop": 178725
     },
     {
-        "name": "T\u00f4lanaro, MG",
-        "lat": -25.03249,
-        "lng": 46.98329,
-        "pop": 71258
-    },
-    {
-        "name": "Sambava, MG",
-        "lat": -14.26667,
-        "lng": 50.16667,
-        "pop": 89003
-    },
-    {
-        "name": "Morondava, MG",
-        "lat": -20.28869,
-        "lng": 44.31782,
-        "pop": 56671
-    },
-    {
-        "name": "Moramanga, MG",
-        "lat": -18.94948,
-        "lng": 48.23007,
-        "pop": 60456
-    },
-    {
         "name": "Mahajanga, MG",
         "lat": -15.71667,
         "lng": 46.31667,
         "pop": 260556
-    },
-    {
-        "name": "Ivato, MG",
-        "lat": -18.8,
-        "lng": 47.48333,
-        "pop": 52376
-    },
-    {
-        "name": "Imerintsiatosika, MG",
-        "lat": -18.98333,
-        "lng": 47.31667,
-        "pop": 74085
     },
     {
         "name": "Fianarantsoa, MG",
@@ -5082,64 +2442,10 @@
         "pop": 260907
     },
     {
-        "name": "Antsalova, MG",
-        "lat": -18.66667,
-        "lng": 44.61667,
-        "pop": 58280
-    },
-    {
-        "name": "Antanifotsy, MG",
-        "lat": -19.65,
-        "lng": 47.31667,
-        "pop": 70626
-    },
-    {
         "name": "Antananarivo, MG",
         "lat": -18.91368,
         "lng": 47.53613,
         "pop": 1349501
-    },
-    {
-        "name": "Antalaha, MG",
-        "lat": -14.90033,
-        "lng": 50.27876,
-        "pop": 71898
-    },
-    {
-        "name": "Hell-Ville, MG",
-        "lat": -13.39718,
-        "lng": 48.26663,
-        "pop": 53219
-    },
-    {
-        "name": "Ambovombe, MG",
-        "lat": -25.17838,
-        "lng": 46.08722,
-        "pop": 69265
-    },
-    {
-        "name": "Ambilobe, MG",
-        "lat": -13.2,
-        "lng": 49.05,
-        "pop": 66029
-    },
-    {
-        "name": "Ambatondrazaka, MG",
-        "lat": -17.83333,
-        "lng": 48.41667,
-        "pop": 50463
-    },
-    {
-        "name": "Ambanja, MG",
-        "lat": -13.669,
-        "lng": 48.453,
-        "pop": 63884
-    },
-    {
-        "name": "Timbuktu, ML",
-        "lat": 16.77348,
-        "lng": -3.00742,
-        "pop": 84208
     },
     {
         "name": "Sikasso, ML",
@@ -5160,46 +2466,16 @@
         "pop": 103227
     },
     {
-        "name": "Nioro, ML",
-        "lat": 15.23074,
-        "lng": -9.59356,
-        "pop": 51933
-    },
-    {
-        "name": "Niono, ML",
-        "lat": 14.25054,
-        "lng": -5.98679,
-        "pop": 52584
-    },
-    {
         "name": "Mopti, ML",
         "lat": 14.4843,
         "lng": -4.18296,
         "pop": 186187
     },
     {
-        "name": "Markala, ML",
-        "lat": 13.68427,
-        "lng": -6.07352,
-        "pop": 53738
-    },
-    {
         "name": "Koutiala, ML",
         "lat": 12.38723,
         "lng": -5.46507,
         "pop": 218031
-    },
-    {
-        "name": "Koulikoro, ML",
-        "lat": 12.86273,
-        "lng": -7.55985,
-        "pop": 64128
-    },
-    {
-        "name": "Kita, ML",
-        "lat": 13.03885,
-        "lng": -9.48817,
-        "pop": 75598
     },
     {
         "name": "Kayes, ML",
@@ -5226,40 +2502,10 @@
         "pop": 133110
     },
     {
-        "name": "P\u00e8l\u00e8ngana, ML",
-        "lat": 13.4274,
-        "lng": -6.222,
-        "pop": 50552
-    },
-    {
-        "name": "Fana, ML",
-        "lat": 12.7787,
-        "lng": -6.9564,
-        "pop": 56809
-    },
-    {
-        "name": "Bougouni, ML",
-        "lat": 11.41769,
-        "lng": -7.48323,
-        "pop": 90234
-    },
-    {
         "name": "Bamako, ML",
         "lat": 12.60915,
         "lng": -7.97522,
         "pop": 4227569
-    },
-    {
-        "name": "Dialakorodji, ML",
-        "lat": 12.70354,
-        "lng": -7.96463,
-        "pop": 70619
-    },
-    {
-        "name": "Zou\u00e9rat, MR",
-        "lat": 22.73542,
-        "lng": -12.47134,
-        "pop": 55183
     },
     {
         "name": "Nouakchott, MR",
@@ -5274,52 +2520,10 @@
         "pop": 146048
     },
     {
-        "name": "N\u00e9ma, MR",
-        "lat": 16.61702,
-        "lng": -7.25649,
-        "pop": 60000
-    },
-    {
-        "name": "Kiffa, MR",
-        "lat": 16.62073,
-        "lng": -11.40208,
-        "pop": 62051
-    },
-    {
-        "name": "Ka\u00e9di, MR",
-        "lat": 16.15071,
-        "lng": -13.50582,
-        "pop": 56283
-    },
-    {
-        "name": "Ksar, MR",
-        "lat": 18.0995,
-        "lng": -15.9574,
-        "pop": 57758
-    },
-    {
-        "name": "Dar Naim, MR",
-        "lat": 18.10808,
-        "lng": -15.92666,
-        "pop": 61089
-    },
-    {
-        "name": "Mbera, MR",
-        "lat": 15.85615,
-        "lng": -5.79067,
-        "pop": 58985
-    },
-    {
         "name": "Vacoas, MU",
         "lat": -20.29806,
         "lng": 57.47833,
         "pop": 115289
-    },
-    {
-        "name": "Quatre Bornes, MU",
-        "lat": -20.26381,
-        "lng": 57.4791,
-        "pop": 77308
     },
     {
         "name": "Port Louis, MU",
@@ -5328,22 +2532,10 @@
         "pop": 155226
     },
     {
-        "name": "Curepipe, MU",
-        "lat": -20.31628,
-        "lng": 57.52594,
-        "pop": 78618
-    },
-    {
         "name": "Beau Bassin-Rose Hill, MU",
         "lat": -20.23325,
         "lng": 57.46609,
         "pop": 111355
-    },
-    {
-        "name": "Karonga, MW",
-        "lat": -9.93333,
-        "lng": 33.93333,
-        "pop": 69486
     },
     {
         "name": "Zomba, MW",
@@ -5358,22 +2550,10 @@
         "pop": 249564
     },
     {
-        "name": "Mangochi, MW",
-        "lat": -14.47815,
-        "lng": 35.26448,
-        "pop": 60338
-    },
-    {
         "name": "Lilongwe, MW",
         "lat": -13.96692,
         "lng": 33.78725,
         "pop": 1115815
-    },
-    {
-        "name": "Kasungu, MW",
-        "lat": -13.03333,
-        "lng": 33.48333,
-        "pop": 66152
     },
     {
         "name": "Blantyre, MW",
@@ -5392,12 +2572,6 @@
         "lat": -16.8375,
         "lng": 36.98556,
         "pop": 196001
-    },
-    {
-        "name": "Dondo, MZ",
-        "lat": -19.60944,
-        "lng": 34.74306,
-        "pop": 82260
     },
     {
         "name": "Tete, MZ",
@@ -5430,34 +2604,10 @@
         "pop": 770379
     },
     {
-        "name": "Nametil, MZ",
-        "lat": -15.72028,
-        "lng": 39.3425,
-        "pop": 52457
-    },
-    {
         "name": "Nacala, MZ",
         "lat": -14.56257,
         "lng": 40.68538,
         "pop": 239808
-    },
-    {
-        "name": "Montepuez, MZ",
-        "lat": -13.12556,
-        "lng": 38.99972,
-        "pop": 88442
-    },
-    {
-        "name": "Monapo, MZ",
-        "lat": -14.91694,
-        "lng": 40.30222,
-        "pop": 50134
-    },
-    {
-        "name": "Mozambique, MZ",
-        "lat": -15.03466,
-        "lng": 40.73447,
-        "pop": 55829
     },
     {
         "name": "Maxixe, MZ",
@@ -5478,12 +2628,6 @@
         "pop": 1254837
     },
     {
-        "name": "Manhi\u00e7a, MZ",
-        "lat": -25.40222,
-        "lng": 32.80722,
-        "pop": 65240
-    },
-    {
         "name": "Mandimba, MZ",
         "lat": -14.3525,
         "lng": 35.65056,
@@ -5496,40 +2640,16 @@
         "pop": 281341
     },
     {
-        "name": "Inhambane, MZ",
-        "lat": -23.865,
-        "lng": 35.38333,
-        "pop": 95388
-    },
-    {
         "name": "Gur\u00fa\u00e8, MZ",
         "lat": -15.46694,
         "lng": 36.97778,
         "pop": 168971
     },
     {
-        "name": "Cuamba, MZ",
-        "lat": -14.80306,
-        "lng": 36.53722,
-        "pop": 91780
-    },
-    {
-        "name": "Chokw\u00e9, MZ",
-        "lat": -24.53333,
-        "lng": 32.98333,
-        "pop": 63695
-    },
-    {
         "name": "Chimoio, MZ",
         "lat": -19.11639,
         "lng": 33.48333,
         "pop": 422046
-    },
-    {
-        "name": "Chibuto, MZ",
-        "lat": -24.68667,
-        "lng": 33.53056,
-        "pop": 73393
     },
     {
         "name": "Beira, MZ",
@@ -5550,40 +2670,10 @@
         "pop": 386219
     },
     {
-        "name": "Swakopmund, NA",
-        "lat": -22.67842,
-        "lng": 14.52663,
-        "pop": 53009
-    },
-    {
-        "name": "Rundu, NA",
-        "lat": -17.91796,
-        "lng": 19.77314,
-        "pop": 75180
-    },
-    {
-        "name": "Walvis Bay, NA",
-        "lat": -22.9575,
-        "lng": 14.50528,
-        "pop": 73598
-    },
-    {
-        "name": "Birni N Konni, NE",
-        "lat": 13.79599,
-        "lng": 5.25026,
-        "pop": 85494
-    },
-    {
         "name": "Zinder, NE",
         "lat": 13.80716,
         "lng": 8.9881,
         "pop": 318874
-    },
-    {
-        "name": "Tessaoua, NE",
-        "lat": 13.75737,
-        "lng": 7.9874,
-        "pop": 58750
     },
     {
         "name": "Tahoua, NE",
@@ -5604,40 +2694,10 @@
         "pop": 361702
     },
     {
-        "name": "Gaya, NE",
-        "lat": 11.88435,
-        "lng": 3.44919,
-        "pop": 61533
-    },
-    {
-        "name": "Dosso, NE",
-        "lat": 13.049,
-        "lng": 3.1937,
-        "pop": 79406
-    },
-    {
-        "name": "Dogondoutchi, NE",
-        "lat": 13.6403,
-        "lng": 4.02649,
-        "pop": 50037
-    },
-    {
-        "name": "Diffa, NE",
-        "lat": 13.31536,
-        "lng": 12.61135,
-        "pop": 54082
-    },
-    {
         "name": "Arlit, NE",
         "lat": 18.73694,
         "lng": 7.38528,
         "pop": 106448
-    },
-    {
-        "name": "Alaghsas, NE",
-        "lat": 17.0187,
-        "lng": 8.0168,
-        "pop": 88561
     },
     {
         "name": "Agadez, NE",
@@ -5664,12 +2724,6 @@
         "pop": 365000
     },
     {
-        "name": "Wukari, NG",
-        "lat": 7.87139,
-        "lng": 9.77786,
-        "pop": 92933
-    },
-    {
         "name": "Warri, NG",
         "lat": 5.51737,
         "lng": 5.75006,
@@ -5694,22 +2748,10 @@
         "pop": 370000
     },
     {
-        "name": "Ughelli, NG",
-        "lat": 5.48956,
-        "lng": 6.00407,
-        "pop": 79986
-    },
-    {
         "name": "Ugep, NG",
         "lat": 5.80865,
         "lng": 8.08098,
         "pop": 200276
-    },
-    {
-        "name": "Uga, NG",
-        "lat": 5.93576,
-        "lng": 7.0793,
-        "pop": 64179
     },
     {
         "name": "Surulere, NG",
@@ -5754,12 +2796,6 @@
         "pop": 305000
     },
     {
-        "name": "Potiskum, NG",
-        "lat": 11.71391,
-        "lng": 11.08108,
-        "pop": 86002
-    },
-    {
         "name": "Port Harcourt, NG",
         "lat": 4.77742,
         "lng": 7.0134,
@@ -5772,22 +2808,10 @@
         "pop": 106322
     },
     {
-        "name": "Ozubulu, NG",
-        "lat": 5.95753,
-        "lng": 6.85305,
-        "pop": 73812
-    },
-    {
         "name": "Oyo, NG",
         "lat": 7.85367,
         "lng": 3.93235,
         "pop": 736072
-    },
-    {
-        "name": "Oyan, NG",
-        "lat": 8.05,
-        "lng": 4.76667,
-        "pop": 73622
     },
     {
         "name": "Owo, NG",
@@ -5814,12 +2838,6 @@
         "pop": 170870
     },
     {
-        "name": "Orita-Eruwa, NG",
-        "lat": 7.55632,
-        "lng": 3.44107,
-        "pop": 71027
-    },
-    {
         "name": "Onitsha, NG",
         "lat": 6.14978,
         "lng": 6.78569,
@@ -5830,12 +2848,6 @@
         "lat": 7.09316,
         "lng": 4.83528,
         "pop": 375000
-    },
-    {
-        "name": "Olupona, NG",
-        "lat": 7.60039,
-        "lng": 4.19264,
-        "pop": 95002
     },
     {
         "name": "Okrika, NG",
@@ -5856,52 +2868,16 @@
         "pop": 479178
     },
     {
-        "name": "Oke Mesi, NG",
-        "lat": 7.81667,
-        "lng": 4.91667,
-        "pop": 79563
-    },
-    {
-        "name": "Ohafia-Ifigh, NG",
-        "lat": 5.61455,
-        "lng": 7.81191,
-        "pop": 73355
-    },
-    {
         "name": "Ogbomoso, NG",
         "lat": 8.13373,
         "lng": 4.24014,
         "pop": 433030
     },
     {
-        "name": "Ogaminana, NG",
-        "lat": 7.59383,
-        "lng": 6.21798,
-        "pop": 84373
-    },
-    {
         "name": "Offa, NG",
         "lat": 8.14911,
         "lng": 4.72074,
         "pop": 113830
-    },
-    {
-        "name": "Ode, NG",
-        "lat": 7.7899,
-        "lng": 5.7117,
-        "pop": 75463
-    },
-    {
-        "name": "Obonoma, NG",
-        "lat": 4.71131,
-        "lng": 6.79084,
-        "pop": 68584
-    },
-    {
-        "name": "Numan, NG",
-        "lat": 9.46374,
-        "lng": 12.03062,
-        "pop": 77617
     },
     {
         "name": "Nsukka, NG",
@@ -5914,12 +2890,6 @@
         "lat": 6.01962,
         "lng": 6.91729,
         "pop": 193987
-    },
-    {
-        "name": "Nkwerre, NG",
-        "lat": 5.75917,
-        "lng": 7.10384,
-        "pop": 62973
     },
     {
         "name": "Nkpor, NG",
@@ -5958,12 +2928,6 @@
         "pop": 425000
     },
     {
-        "name": "Malumfashi, NG",
-        "lat": 11.78935,
-        "lng": 7.62061,
-        "pop": 70709
-    },
-    {
         "name": "Makurdi, NG",
         "lat": 7.73375,
         "lng": 8.52139,
@@ -5976,28 +2940,10 @@
         "pop": 1110000
     },
     {
-        "name": "Lokoja, NG",
-        "lat": 7.79688,
-        "lng": 6.74048,
-        "pop": 60579
-    },
-    {
-        "name": "Lere, NG",
-        "lat": 10.38584,
-        "lng": 8.57286,
-        "pop": 93290
-    },
-    {
         "name": "Lekki, NG",
         "lat": 6.41222,
         "lng": 4.0947,
         "pop": 401272
-    },
-    {
-        "name": "Lalupon, NG",
-        "lat": 7.46791,
-        "lng": 4.06594,
-        "pop": 81130
     },
     {
         "name": "Lagos, NG",
@@ -6018,34 +2964,10 @@
         "pop": 127236
     },
     {
-        "name": "Kuje, NG",
-        "lat": 8.87952,
-        "lng": 7.22756,
-        "pop": 97367
-    },
-    {
-        "name": "Kontagora, NG",
-        "lat": 10.40319,
-        "lng": 5.4708,
-        "pop": 98754
-    },
-    {
         "name": "Kisi, NG",
         "lat": 9.08297,
         "lng": 3.85196,
         "pop": 155510
-    },
-    {
-        "name": "Keffi, NG",
-        "lat": 8.84651,
-        "lng": 7.87354,
-        "pop": 85911
-    },
-    {
-        "name": "Kaura Namoda, NG",
-        "lat": 12.59371,
-        "lng": 6.58648,
-        "pop": 69725
     },
     {
         "name": "Katsina, NG",
@@ -6058,18 +2980,6 @@
         "lat": 12.00012,
         "lng": 8.51672,
         "pop": 4910000
-    },
-    {
-        "name": "Kagoro, NG",
-        "lat": 9.60776,
-        "lng": 8.39043,
-        "pop": 77008
-    },
-    {
-        "name": "Kafanchan, NG",
-        "lat": 9.58126,
-        "lng": 8.2926,
-        "pop": 79522
     },
     {
         "name": "Kaduna, NG",
@@ -6090,12 +3000,6 @@
         "pop": 248148
     },
     {
-        "name": "Jega, NG",
-        "lat": 12.22336,
-        "lng": 4.37971,
-        "pop": 73495
-    },
-    {
         "name": "Jalingo, NG",
         "lat": 8.89367,
         "lng": 11.3596,
@@ -6106,12 +3010,6 @@
         "lat": 7.63527,
         "lng": 4.18156,
         "pop": 250443
-    },
-    {
-        "name": "Isieke, NG",
-        "lat": 6.38186,
-        "lng": 8.03736,
-        "pop": 89990
     },
     {
         "name": "Iseyin, NG",
@@ -6130,12 +3028,6 @@
         "lat": 6.41692,
         "lng": 3.14058,
         "pop": 139494
-    },
-    {
-        "name": "Ipoti, NG",
-        "lat": 7.87377,
-        "lng": 5.07691,
-        "pop": 82113
     },
     {
         "name": "Inisa, NG",
@@ -6172,12 +3064,6 @@
         "lat": 5.18194,
         "lng": 7.71481,
         "pop": 254806
-    },
-    {
-        "name": "Ikom, NG",
-        "lat": 5.96669,
-        "lng": 8.70632,
-        "pop": 79103
     },
     {
         "name": "Ikirun, NG",
@@ -6222,40 +3108,10 @@
         "pop": 360000
     },
     {
-        "name": "Ijebu-Jesa, NG",
-        "lat": 7.68287,
-        "lng": 4.81769,
-        "pop": 51730
-    },
-    {
         "name": "Ijebu-Igbo, NG",
         "lat": 6.97198,
         "lng": 3.99938,
         "pop": 109261
-    },
-    {
-        "name": "Ihiala, NG",
-        "lat": 5.85475,
-        "lng": 6.85944,
-        "pop": 83265
-    },
-    {
-        "name": "Igede-Ekiti, NG",
-        "lat": 7.6685,
-        "lng": 5.12627,
-        "pop": 87282
-    },
-    {
-        "name": "Igbo-Ukwu, NG",
-        "lat": 6.01798,
-        "lng": 7.02027,
-        "pop": 75224
-    },
-    {
-        "name": "Igbo-Ora, NG",
-        "lat": 7.43383,
-        "lng": 3.28788,
-        "pop": 92719
     },
     {
         "name": "Igboho, NG",
@@ -6264,34 +3120,10 @@
         "pop": 136764
     },
     {
-        "name": "Igbara-Odo, NG",
-        "lat": 7.50251,
-        "lng": 5.06258,
-        "pop": 74121
-    },
-    {
-        "name": "Ifo, NG",
-        "lat": 6.81491,
-        "lng": 3.19518,
-        "pop": 88272
-    },
-    {
         "name": "Ile-Ife, NG",
         "lat": 7.4824,
         "lng": 4.56032,
         "pop": 560000
-    },
-    {
-        "name": "Idanre, NG",
-        "lat": 7.1127,
-        "lng": 5.1159,
-        "pop": 86468
-    },
-    {
-        "name": "Idah, NG",
-        "lat": 7.11345,
-        "lng": 6.73866,
-        "pop": 68703
     },
     {
         "name": "Ibadan, NG",
@@ -6336,28 +3168,10 @@
         "pop": 125817
     },
     {
-        "name": "Gamboru, NG",
-        "lat": 12.37299,
-        "lng": 14.2069,
-        "pop": 84672
-    },
-    {
         "name": "Funtua, NG",
         "lat": 11.52351,
         "lng": 7.31174,
         "pop": 136811
-    },
-    {
-        "name": "Fiditi, NG",
-        "lat": 7.71393,
-        "lng": 3.91665,
-        "pop": 71461
-    },
-    {
-        "name": "Ezza-Ohu, NG",
-        "lat": 6.44094,
-        "lng": 8.08432,
-        "pop": 67414
     },
     {
         "name": "Esuk Oron, NG",
@@ -6366,34 +3180,10 @@
         "pop": 112033
     },
     {
-        "name": "Epe, NG",
-        "lat": 6.58412,
-        "lng": 3.98336,
-        "pop": 84711
-    },
-    {
-        "name": "Enugu-Ukwu, NG",
-        "lat": 6.17146,
-        "lng": 7.00525,
-        "pop": 68785
-    },
-    {
         "name": "Enugu, NG",
         "lat": 6.44132,
         "lng": 7.49883,
         "pop": 950000
-    },
-    {
-        "name": "Emure-Ekiti, NG",
-        "lat": 7.43636,
-        "lng": 5.45925,
-        "pop": 90645
-    },
-    {
-        "name": "Ekpoma, NG",
-        "lat": 6.743,
-        "lng": 6.14029,
-        "pop": 59618
     },
     {
         "name": "Ejigbo, NG",
@@ -6402,22 +3192,10 @@
         "pop": 138357
     },
     {
-        "name": "Eha Amufu, NG",
-        "lat": 6.65915,
-        "lng": 7.75961,
-        "pop": 70779
-    },
-    {
         "name": "Efon-Alaaye, NG",
         "lat": 7.65649,
         "lng": 4.92235,
         "pop": 279319
-    },
-    {
-        "name": "Effium, NG",
-        "lat": 6.63105,
-        "lng": 8.05814,
-        "pop": 86945
     },
     {
         "name": "Ede, NG",
@@ -6432,12 +3210,6 @@
         "pop": 535619
     },
     {
-        "name": "Daura, NG",
-        "lat": 11.5541,
-        "lng": 11.406,
-        "pop": 78277
-    },
-    {
         "name": "Calabar, NG",
         "lat": 4.95893,
         "lng": 8.32695,
@@ -6448,12 +3220,6 @@
         "lat": 4.73614,
         "lng": 6.86236,
         "pop": 135404
-    },
-    {
-        "name": "Biu, NG",
-        "lat": 10.61285,
-        "lng": 12.19458,
-        "pop": 95005
     },
     {
         "name": "Birnin Kebbi, NG",
@@ -6472,12 +3238,6 @@
         "lat": 6.33815,
         "lng": 5.62575,
         "pop": 1782000
-    },
-    {
-        "name": "Bende, NG",
-        "lat": 5.55874,
-        "lng": 7.63359,
-        "pop": 79618
     },
     {
         "name": "Bauchi, NG",
@@ -6504,34 +3264,10 @@
         "pop": 167738
     },
     {
-        "name": "Auchi, NG",
-        "lat": 7.06756,
-        "lng": 6.2636,
-        "pop": 62907
-    },
-    {
         "name": "Atani, NG",
         "lat": 6.01277,
         "lng": 6.74768,
         "pop": 230000
-    },
-    {
-        "name": "Asaba, NG",
-        "lat": 6.19824,
-        "lng": 6.73187,
-        "pop": 73374
-    },
-    {
-        "name": "Aramoko-Ekiti, NG",
-        "lat": 7.70483,
-        "lng": 5.04054,
-        "pop": 74491
-    },
-    {
-        "name": "Apomu, NG",
-        "lat": 7.35156,
-        "lng": 4.18335,
-        "pop": 71656
     },
     {
         "name": "Amaigbo, NG",
@@ -6550,30 +3286,6 @@
         "lat": 7.25256,
         "lng": 5.19312,
         "pop": 730000
-    },
-    {
-        "name": "Aku, NG",
-        "lat": 6.70902,
-        "lng": 7.31826,
-        "pop": 73742
-    },
-    {
-        "name": "Agulu, NG",
-        "lat": 6.10045,
-        "lng": 7.061,
-        "pop": 79021
-    },
-    {
-        "name": "Agbor, NG",
-        "lat": 6.25375,
-        "lng": 6.1942,
-        "pop": 67610
-    },
-    {
-        "name": "Afikpo, NG",
-        "lat": 5.89258,
-        "lng": 7.93534,
-        "pop": 71866
     },
     {
         "name": "Ado-Ekiti, NG",
@@ -6636,40 +3348,16 @@
         "pop": 200000
     },
     {
-        "name": "Saint-Pierre, RE",
-        "lat": -21.3393,
-        "lng": 55.47811,
-        "pop": 84077
-    },
-    {
         "name": "Saint-Paul, RE",
         "lat": -21.00961,
         "lng": 55.27134,
         "pop": 105240
     },
     {
-        "name": "Saint-Louis, RE",
-        "lat": -21.28585,
-        "lng": 55.41124,
-        "pop": 53935
-    },
-    {
         "name": "Saint-Denis, RE",
         "lat": -20.88231,
         "lng": 55.4504,
         "pop": 154765
-    },
-    {
-        "name": "Saint-Andr\u00e9, RE",
-        "lat": -20.96333,
-        "lng": 55.65031,
-        "pop": 57150
-    },
-    {
-        "name": "Le Tampon, RE",
-        "lat": -21.2766,
-        "lng": 55.51766,
-        "pop": 81943
     },
     {
         "name": "Musanze, RW",
@@ -6684,22 +3372,10 @@
         "pop": 100000
     },
     {
-        "name": "Muhanga, RW",
-        "lat": -2.02269,
-        "lng": 29.70691,
-        "pop": 82797
-    },
-    {
         "name": "Kigali, RW",
         "lat": -1.94995,
         "lng": 30.05885,
         "pop": 1132686
-    },
-    {
-        "name": "Gitarama, RW",
-        "lat": -2.07444,
-        "lng": 29.75667,
-        "pop": 87613
     },
     {
         "name": "Gisenyi, RW",
@@ -6708,28 +3384,10 @@
         "pop": 172357
     },
     {
-        "name": "Butare, RW",
-        "lat": -2.59667,
-        "lng": 29.73944,
-        "pop": 62823
-    },
-    {
-        "name": "Dongola, SD",
-        "lat": 19.18163,
-        "lng": 30.47689,
-        "pop": 56167
-    },
-    {
         "name": "Wad Medani, SD",
         "lat": 14.40118,
         "lng": 33.51989,
         "pop": 332714
-    },
-    {
-        "name": "Umm Ruwaba, SD",
-        "lat": 12.9061,
-        "lng": 31.2158,
-        "pop": 56833
     },
     {
         "name": "Omdurman, SD",
@@ -6742,12 +3400,6 @@
         "lat": 13.1483,
         "lng": 33.93117,
         "pop": 250000
-    },
-    {
-        "name": "Shendi, SD",
-        "lat": 16.6915,
-        "lng": 33.4341,
-        "pop": 63746
     },
     {
         "name": "Sennar, SD",
@@ -6768,12 +3420,6 @@
         "pop": 565734
     },
     {
-        "name": "Mellit, SD",
-        "lat": 14.13333,
-        "lng": 25.55,
-        "pop": 50165
-    },
-    {
         "name": "Kosti, SD",
         "lat": 13.1629,
         "lng": 32.66347,
@@ -6786,52 +3432,16 @@
         "pop": 401477
     },
     {
-        "name": "Kas, SD",
-        "lat": 12.50974,
-        "lng": 24.28519,
-        "pop": 55255
-    },
-    {
-        "name": "Kadugli, SD",
-        "lat": 11.01111,
-        "lng": 29.71833,
-        "pop": 87666
-    },
-    {
-        "name": "New Halfa, SD",
-        "lat": 15.33021,
-        "lng": 35.59854,
-        "pop": 63589
-    },
-    {
-        "name": "Dilling, SD",
-        "lat": 12.05,
-        "lng": 29.65,
-        "pop": 59089
-    },
-    {
         "name": "Port Sudan, SD",
         "lat": 19.61745,
         "lng": 37.21644,
         "pop": 489725
     },
     {
-        "name": "Bur\u0101m, SD",
-        "lat": 10.85826,
-        "lng": 25.15921,
-        "pop": 65473
-    },
-    {
         "name": "Atbara, SD",
         "lat": 17.70217,
         "lng": 33.98638,
         "pop": 112021
-    },
-    {
-        "name": "Er Roseires, SD",
-        "lat": 11.8659,
-        "lng": 34.3869,
-        "pop": 58712
     },
     {
         "name": "An Nuh\u016bd, SD",
@@ -6888,12 +3498,6 @@
         "pop": 252609
     },
     {
-        "name": "Ad Douiem, SD",
-        "lat": 14.0012,
-        "lng": 32.3116,
-        "pop": 87068
-    },
-    {
         "name": "El Daein, SD",
         "lat": 11.46186,
         "lng": 26.12583,
@@ -6916,24 +3520,6 @@
         "lat": 11.27543,
         "lng": 25.14026,
         "pop": 120000
-    },
-    {
-        "name": "'\u0100rdamat\u0101, SD",
-        "lat": 13.47546,
-        "lng": 22.48531,
-        "pop": 55637
-    },
-    {
-        "name": "Waterloo, SL",
-        "lat": 8.3389,
-        "lng": -13.07091,
-        "pop": 55000
-    },
-    {
-        "name": "Makeni, SL",
-        "lat": 8.88605,
-        "lng": -12.04417,
-        "pop": 87679
     },
     {
         "name": "Koidu, SL",
@@ -7014,22 +3600,10 @@
         "pop": 295459
     },
     {
-        "name": "Richard-Toll, SN",
-        "lat": 16.4625,
-        "lng": -15.70083,
-        "pop": 73147
-    },
-    {
         "name": "Pikine, SN",
         "lat": 14.76457,
         "lng": -17.39071,
         "pop": 874062
-    },
-    {
-        "name": "Keur M\u00e9doune, SN",
-        "lat": 14.75835,
-        "lng": -15.90434,
-        "pop": 77255
     },
     {
         "name": "Mbour, SN",
@@ -7062,18 +3636,6 @@
         "pop": 298904
     },
     {
-        "name": "Kaffrine, SN",
-        "lat": 14.10594,
-        "lng": -15.5508,
-        "pop": 57307
-    },
-    {
-        "name": "Dougnane, SN",
-        "lat": 14.95856,
-        "lng": -16.86999,
-        "pop": 69556
-    },
-    {
         "name": "Diourbel, SN",
         "lat": 14.64792,
         "lng": -16.24363,
@@ -7086,12 +3648,6 @@
         "pop": 2646503
     },
     {
-        "name": "Bargny, SN",
-        "lat": 14.69707,
-        "lng": -17.23015,
-        "pop": 69242
-    },
-    {
         "name": "Gu\u00e9diawaye, SN",
         "lat": 14.77446,
         "lng": -17.40212,
@@ -7102,12 +3658,6 @@
         "lat": 9.97293,
         "lng": 43.4276,
         "pop": 148702
-    },
-    {
-        "name": "Qoryooley, SO",
-        "lat": 1.78784,
-        "lng": 44.52999,
-        "pop": 51720
     },
     {
         "name": "Mogadishu, SO",
@@ -7128,34 +3678,10 @@
         "pop": 234852
     },
     {
-        "name": "Kaambooni, SO",
-        "lat": -1.63772,
-        "lng": 41.5866,
-        "pop": 79000
-    },
-    {
         "name": "Hargeysa, SO",
         "lat": 9.56,
         "lng": 44.065,
         "pop": 477876
-    },
-    {
-        "name": "Gebiley, SO",
-        "lat": 9.70028,
-        "lng": 43.62444,
-        "pop": 77320
-    },
-    {
-        "name": "Garoowe, SO",
-        "lat": 8.40207,
-        "lng": 48.48284,
-        "pop": 57300
-    },
-    {
-        "name": "Gaalkacyo, SO",
-        "lat": 6.76972,
-        "lng": 47.43083,
-        "pop": 61200
     },
     {
         "name": "El Dibir, SO",
@@ -7170,18 +3696,6 @@
         "pop": 120000
     },
     {
-        "name": "Burao, SO",
-        "lat": 9.52213,
-        "lng": 45.53363,
-        "pop": 99270
-    },
-    {
-        "name": "Bosaso, SO",
-        "lat": 11.28421,
-        "lng": 49.18158,
-        "pop": 74287
-    },
-    {
         "name": "Borama, SO",
         "lat": 9.93611,
         "lng": 43.18278,
@@ -7194,40 +3708,10 @@
         "pop": 242344
     },
     {
-        "name": "Beledweyne, SO",
-        "lat": 4.73583,
-        "lng": 45.20361,
-        "pop": 55410
-    },
-    {
         "name": "Baidoa, SO",
         "lat": 3.11383,
         "lng": 43.6498,
         "pop": 129839
-    },
-    {
-        "name": "Afgooye, SO",
-        "lat": 2.1381,
-        "lng": 45.1212,
-        "pop": 65461
-    },
-    {
-        "name": "Balanbale, SO",
-        "lat": 5.76897,
-        "lng": 45.76297,
-        "pop": 68000
-    },
-    {
-        "name": "Laascaanood, SO",
-        "lat": 8.47738,
-        "lng": 47.35971,
-        "pop": 60100
-    },
-    {
-        "name": "Beled Hawo, SO",
-        "lat": 3.9284,
-        "lng": 41.87997,
-        "pop": 73000
     },
     {
         "name": "Yei, SS",
@@ -7254,46 +3738,16 @@
         "pop": 160765
     },
     {
-        "name": "Kuacjok, SS",
-        "lat": 8.30278,
-        "lng": 27.98,
-        "pop": 78000
-    },
-    {
         "name": "Juba, SS",
         "lat": 4.85165,
         "lng": 31.58247,
         "pop": 450000
     },
     {
-        "name": "S\u00e3o Tom\u00e9, ST",
-        "lat": 0.33756,
-        "lng": 6.7299,
-        "pop": 53300
-    },
-    {
-        "name": "Mbabane, SZ",
-        "lat": -26.31667,
-        "lng": 31.13333,
-        "pop": 76218
-    },
-    {
         "name": "Manzini, SZ",
         "lat": -26.49884,
         "lng": 31.38004,
         "pop": 110537
-    },
-    {
-        "name": "Goz Beida, TD",
-        "lat": 12.22643,
-        "lng": 21.40983,
-        "pop": 58941
-    },
-    {
-        "name": "Am Timan, TD",
-        "lat": 11.0433,
-        "lng": 20.28342,
-        "pop": 74691
     },
     {
         "name": "Ab\u00e9ch\u00e9, TD",
@@ -7308,12 +3762,6 @@
         "pop": 138928
     },
     {
-        "name": "Pala, TD",
-        "lat": 9.3646,
-        "lng": 14.90725,
-        "pop": 70677
-    },
-    {
         "name": "N'Djamena, TD",
         "lat": 12.10672,
         "lng": 15.0444,
@@ -7324,60 +3772,6 @@
         "lat": 8.57437,
         "lng": 16.07722,
         "pop": 196124
-    },
-    {
-        "name": "Mongo, TD",
-        "lat": 12.18514,
-        "lng": 18.6884,
-        "pop": 53768
-    },
-    {
-        "name": "Mao, TD",
-        "lat": 14.12286,
-        "lng": 15.31189,
-        "pop": 50681
-    },
-    {
-        "name": "Koumra, TD",
-        "lat": 8.91587,
-        "lng": 17.55046,
-        "pop": 54109
-    },
-    {
-        "name": "Kelo, TD",
-        "lat": 9.30859,
-        "lng": 15.80658,
-        "pop": 82677
-    },
-    {
-        "name": "Doba, TD",
-        "lat": 8.66389,
-        "lng": 16.85324,
-        "pop": 70942
-    },
-    {
-        "name": "D\u00e9ressia, TD",
-        "lat": 9.7602,
-        "lng": 16.2698,
-        "pop": 50113
-    },
-    {
-        "name": "Bongor, TD",
-        "lat": 10.28088,
-        "lng": 15.37425,
-        "pop": 63699
-    },
-    {
-        "name": "Bol, TD",
-        "lat": 13.46729,
-        "lng": 14.71352,
-        "pop": 51389
-    },
-    {
-        "name": "Ts\u00e9vi\u00e9, TG",
-        "lat": 6.42611,
-        "lng": 1.21333,
-        "pop": 55775
     },
     {
         "name": "Sokod\u00e9, TG",
@@ -7392,52 +3786,16 @@
         "pop": 2188376
     },
     {
-        "name": "Kpalim\u00e9, TG",
-        "lat": 6.9,
-        "lng": 0.63333,
-        "pop": 75084
-    },
-    {
         "name": "Kara, TG",
         "lat": 9.55111,
         "lng": 1.18611,
         "pop": 104207
     },
     {
-        "name": "Dapaong, TG",
-        "lat": 10.86225,
-        "lng": 0.20762,
-        "pop": 58071
-    },
-    {
-        "name": "Bassar, TG",
-        "lat": 9.25025,
-        "lng": 0.78213,
-        "pop": 61845
-    },
-    {
-        "name": "Atakpam\u00e9, TG",
-        "lat": 7.53333,
-        "lng": 1.13333,
-        "pop": 80683
-    },
-    {
-        "name": "Oued Lill, TN",
-        "lat": 36.83408,
-        "lng": 10.04057,
-        "pop": 57851
-    },
-    {
         "name": "Tunis, TN",
         "lat": 36.81897,
         "lng": 10.16579,
         "pop": 693210
-    },
-    {
-        "name": "Tataouine, TN",
-        "lat": 32.92967,
-        "lng": 10.45177,
-        "pop": 66924
     },
     {
         "name": "Sousse, TN",
@@ -7452,40 +3810,10 @@
         "pop": 129693
     },
     {
-        "name": "Sakiet ez Zit, TN",
-        "lat": 34.80194,
-        "lng": 10.76361,
-        "pop": 53239
-    },
-    {
-        "name": "Skanes, TN",
-        "lat": 35.7749,
-        "lng": 10.79464,
-        "pop": 64222
-    },
-    {
         "name": "Sfax, TN",
         "lat": 34.74056,
         "lng": 10.76028,
         "pop": 280566
-    },
-    {
-        "name": "Rad\u00e8s, TN",
-        "lat": 36.76946,
-        "lng": 10.27468,
-        "pop": 59998
-    },
-    {
-        "name": "K\u00e9libia, TN",
-        "lat": 36.84757,
-        "lng": 11.09386,
-        "pop": 58524
-    },
-    {
-        "name": "Gafsa, TN",
-        "lat": 34.425,
-        "lng": 8.78417,
-        "pop": 95242
     },
     {
         "name": "Gab\u00e8s, TN",
@@ -7494,88 +3822,10 @@
         "pop": 110075
     },
     {
-        "name": "Nabeul, TN",
-        "lat": 36.45606,
-        "lng": 10.73763,
-        "pop": 70437
-    },
-    {
-        "name": "Msaken, TN",
-        "lat": 35.72917,
-        "lng": 10.58082,
-        "pop": 72953
-    },
-    {
-        "name": "Menzel Bourguiba, TN",
-        "lat": 37.15368,
-        "lng": 9.78594,
-        "pop": 54536
-    },
-    {
-        "name": "Medenine, TN",
-        "lat": 33.35495,
-        "lng": 10.50548,
-        "pop": 71406
-    },
-    {
-        "name": "Jendouba, TN",
-        "lat": 36.50114,
-        "lng": 8.78024,
-        "pop": 51408
-    },
-    {
-        "name": "Zarzis, TN",
-        "lat": 33.50398,
-        "lng": 11.11215,
-        "pop": 79316
-    },
-    {
-        "name": "Djemmal, TN",
-        "lat": 35.62231,
-        "lng": 10.75696,
-        "pop": 50275
-    },
-    {
-        "name": "Houmt Souk, TN",
-        "lat": 33.87576,
-        "lng": 10.85745,
-        "pop": 75904
-    },
-    {
-        "name": "La Goulette, TN",
-        "lat": 36.81919,
-        "lng": 10.30646,
-        "pop": 79795
-    },
-    {
-        "name": "Ben Gardane, TN",
-        "lat": 33.13783,
-        "lng": 11.21965,
-        "pop": 66567
-    },
-    {
-        "name": "Ben Arous, TN",
-        "lat": 36.75452,
-        "lng": 10.22167,
-        "pop": 88322
-    },
-    {
-        "name": "Le Bardo, TN",
-        "lat": 36.81058,
-        "lng": 10.13481,
-        "pop": 71961
-    },
-    {
         "name": "Bizerte, TN",
         "lat": 37.27442,
         "lng": 9.87391,
         "pop": 138430
-    },
-    {
-        "name": "B\u00e9ja, TN",
-        "lat": 36.72564,
-        "lng": 9.18169,
-        "pop": 61568
     },
     {
         "name": "Sejoumi, TN",
@@ -7596,112 +3846,10 @@
         "pop": 139070
     },
     {
-        "name": "Kasserine, TN",
-        "lat": 35.16758,
-        "lng": 8.83651,
-        "pop": 84365
-    },
-    {
-        "name": "Kelaa Kebira, TN",
-        "lat": 35.87278,
-        "lng": 10.53722,
-        "pop": 53323
-    },
-    {
-        "name": "Monastir, TN",
-        "lat": 35.77799,
-        "lng": 10.82617,
-        "pop": 93306
-    },
-    {
-        "name": "Moknine, TN",
-        "lat": 35.63333,
-        "lng": 10.9,
-        "pop": 57111
-    },
-    {
-        "name": "La Mohammedia, TN",
-        "lat": 36.67446,
-        "lng": 10.15633,
-        "pop": 66593
-    },
-    {
-        "name": "La Marsa, TN",
-        "lat": 36.87818,
-        "lng": 10.32466,
-        "pop": 92987
-    },
-    {
-        "name": "El Mgarsa, TN",
-        "lat": 33.81682,
-        "lng": 10.9923,
-        "pop": 63528
-    },
-    {
-        "name": "Mahdia, TN",
-        "lat": 35.50472,
-        "lng": 11.06222,
-        "pop": 51803
-    },
-    {
-        "name": "Le Kram, TN",
-        "lat": 36.83578,
-        "lng": 10.31641,
-        "pop": 74132
-    },
-    {
-        "name": "El Kef, TN",
-        "lat": 36.17424,
-        "lng": 8.70486,
-        "pop": 53596
-    },
-    {
-        "name": "Hammamet, TN",
-        "lat": 36.4,
-        "lng": 10.61667,
-        "pop": 97579
-    },
-    {
-        "name": "El Hamma, TN",
-        "lat": 33.89152,
-        "lng": 9.79629,
-        "pop": 73512
-    },
-    {
-        "name": "Douane, TN",
-        "lat": 36.44766,
-        "lng": 10.7557,
-        "pop": 60192
-    },
-    {
-        "name": "La Gazelle, TN",
-        "lat": 36.89479,
-        "lng": 10.18604,
-        "pop": 94961
-    },
-    {
         "name": "El Mourouj, TN",
         "lat": 36.71364,
         "lng": 10.2096,
         "pop": 104538
-    },
-    {
-        "name": "Mnihla, TN",
-        "lat": 36.84774,
-        "lng": 10.11083,
-        "pop": 58641
-    },
-    {
-        "name": "Douar Hicher, TN",
-        "lat": 36.82657,
-        "lng": 10.08974,
-        "pop": 82532
-    },
-    {
-        "name": "Ettadhamen, TN",
-        "lat": 36.83246,
-        "lng": 10.10995,
-        "pop": 84312
     },
     {
         "name": "Zanzibar, TZ",
@@ -7710,46 +3858,10 @@
         "pop": 709809
     },
     {
-        "name": "Vwawa, TZ",
-        "lat": -9.10806,
-        "lng": 32.93472,
-        "pop": 85000
-    },
-    {
-        "name": "Vikindu, TZ",
-        "lat": -7.00667,
-        "lng": 39.29849,
-        "pop": 70000
-    },
-    {
-        "name": "Uyovu, TZ",
-        "lat": -3.28333,
-        "lng": 31.52583,
-        "pop": 60849
-    },
-    {
-        "name": "Utengule, TZ",
-        "lat": -8.9,
-        "lng": 33.33333,
-        "pop": 50000
-    },
-    {
-        "name": "Ushirombo, TZ",
-        "lat": -3.49194,
-        "lng": 31.96389,
-        "pop": 95052
-    },
-    {
         "name": "Tunduma, TZ",
         "lat": -9.3,
         "lng": 32.76667,
         "pop": 219309
-    },
-    {
-        "name": "Tukuyu, TZ",
-        "lat": -9.25,
-        "lng": 33.65,
-        "pop": 50000
     },
     {
         "name": "Tarime, TZ",
@@ -7800,12 +3912,6 @@
         "pop": 125193
     },
     {
-        "name": "Njombe, TZ",
-        "lat": -9.34917,
-        "lng": 34.77167,
-        "pop": 92537
-    },
-    {
         "name": "Mwanza, TZ",
         "lat": -2.51667,
         "lng": 32.9,
@@ -7842,34 +3948,10 @@
         "pop": 541603
     },
     {
-        "name": "Masumbwe, TZ",
-        "lat": -3.63333,
-        "lng": 32.18333,
-        "pop": 50000
-    },
-    {
         "name": "Makumbako, TZ",
         "lat": -8.85,
         "lng": 34.83333,
         "pop": 116232
-    },
-    {
-        "name": "Korogwe, TZ",
-        "lat": -5.15,
-        "lng": 38.48333,
-        "pop": 62032
-    },
-    {
-        "name": "Kondoa, TZ",
-        "lat": -4.9,
-        "lng": 35.78333,
-        "pop": 80443
-    },
-    {
-        "name": "Kilosa, TZ",
-        "lat": -6.83333,
-        "lng": 36.98333,
-        "pop": 91889
     },
     {
         "name": "Kigoma, TZ",
@@ -7888,12 +3970,6 @@
         "lat": -9.23333,
         "lng": 33.61667,
         "pop": 108558
-    },
-    {
-        "name": "Katoro, TZ",
-        "lat": -2.99983,
-        "lng": 31.93261,
-        "pop": 75000
     },
     {
         "name": "Kasulu, TZ",
@@ -7944,18 +4020,6 @@
         "pop": 5383728
     },
     {
-        "name": "Chake Chake, TZ",
-        "lat": -5.24586,
-        "lng": 39.76659,
-        "pop": 52047
-    },
-    {
-        "name": "Buseresere, TZ",
-        "lat": -3.04877,
-        "lng": 31.88542,
-        "pop": 52870
-    },
-    {
         "name": "Bunda, TZ",
         "lat": -2.02153,
         "lng": 33.87109,
@@ -7972,18 +4036,6 @@
         "lat": -2.8,
         "lng": 33.98333,
         "pop": 260927
-    },
-    {
-        "name": "Bagamoyo, TZ",
-        "lat": -6.44222,
-        "lng": 38.90422,
-        "pop": 82426
-    },
-    {
-        "name": "Babati, TZ",
-        "lat": -4.21667,
-        "lng": 35.75,
-        "pop": 67445
     },
     {
         "name": "Arusha, TZ",
@@ -8004,60 +4056,6 @@
         "pop": 140793
     },
     {
-        "name": "Mbinga, TZ",
-        "lat": -10.93333,
-        "lng": 35.01667,
-        "pop": 60868
-    },
-    {
-        "name": "Masasi, TZ",
-        "lat": -10.71667,
-        "lng": 38.8,
-        "pop": 89700
-    },
-    {
-        "name": "Lindi, TZ",
-        "lat": -9.99709,
-        "lng": 39.71649,
-        "pop": 95096
-    },
-    {
-        "name": "Merelani, TZ",
-        "lat": -3.56182,
-        "lng": 36.97895,
-        "pop": 50000
-    },
-    {
-        "name": "Kibaigwa, TZ",
-        "lat": -6.08125,
-        "lng": 36.64657,
-        "pop": 50054
-    },
-    {
-        "name": "Mafinga, TZ",
-        "lat": -8.30019,
-        "lng": 35.29366,
-        "pop": 99305
-    },
-    {
-        "name": "Wakiso, UG",
-        "lat": 0.40444,
-        "lng": 32.45944,
-        "pop": 87900
-    },
-    {
-        "name": "Soroti, UG",
-        "lat": 1.71464,
-        "lng": 33.61113,
-        "pop": 60900
-    },
-    {
-        "name": "Rutoma, UG",
-        "lat": -0.56667,
-        "lng": 30.38333,
-        "pop": 86100
-    },
-    {
         "name": "Njeru, UG",
         "lat": 0.44166,
         "lng": 33.17917,
@@ -8074,12 +4072,6 @@
         "lat": 0.55849,
         "lng": 31.39489,
         "pop": 121600
-    },
-    {
-        "name": "Mpondwe, UG",
-        "lat": 0.04008,
-        "lng": 29.7248,
-        "pop": 58600
     },
     {
         "name": "Mityana, UG",
@@ -8124,24 +4116,6 @@
         "pop": 119323
     },
     {
-        "name": "Kotido, UG",
-        "lat": 2.98056,
-        "lng": 34.13306,
-        "pop": 75700
-    },
-    {
-        "name": "Koboko, UG",
-        "lat": 3.41364,
-        "lng": 30.95994,
-        "pop": 64500
-    },
-    {
-        "name": "Kitgum, UG",
-        "lat": 3.27833,
-        "lng": 32.88667,
-        "pop": 56891
-    },
-    {
         "name": "Kira, UG",
         "lat": 0.4,
         "lng": 32.63333,
@@ -8166,18 +4140,6 @@
         "pop": 207800
     },
     {
-        "name": "Kapchorwa, UG",
-        "lat": 1.40096,
-        "lng": 34.45038,
-        "pop": 51200
-    },
-    {
-        "name": "Kamuli, UG",
-        "lat": 0.94722,
-        "lng": 33.11972,
-        "pop": 67800
-    },
-    {
         "name": "Kampala, UG",
         "lat": 0.31628,
         "lng": 32.58219,
@@ -8188,24 +4150,6 @@
         "lat": 0.21548,
         "lng": 32.53453,
         "pop": 135600
-    },
-    {
-        "name": "Kabale, UG",
-        "lat": -1.24857,
-        "lng": 29.98993,
-        "pop": 53200
-    },
-    {
-        "name": "Jinja, UG",
-        "lat": 0.43902,
-        "lng": 33.20317,
-        "pop": 93061
-    },
-    {
-        "name": "Iganga, UG",
-        "lat": 0.60917,
-        "lng": 33.46861,
-        "pop": 65500
     },
     {
         "name": "Ibanda, UG",
@@ -8226,52 +4170,16 @@
         "pop": 177400
     },
     {
-        "name": "Fort Portal, UG",
-        "lat": 0.66174,
-        "lng": 30.2748,
-        "pop": 60800
-    },
-    {
         "name": "Entebbe, UG",
         "lat": 0.05621,
         "lng": 32.47949,
         "pop": 102600
     },
     {
-        "name": "Bwizibwera, UG",
-        "lat": -0.59167,
-        "lng": 30.62861,
-        "pop": 79157
-    },
-    {
-        "name": "Busia, UG",
-        "lat": 0.46588,
-        "lng": 34.09221,
-        "pop": 64900
-    },
-    {
         "name": "Bunamwaya, UG",
         "lat": 0.25344,
         "lng": 32.55723,
         "pop": 413400
-    },
-    {
-        "name": "Arua, UG",
-        "lat": 3.02013,
-        "lng": 30.91105,
-        "pop": 72400
-    },
-    {
-        "name": "Apac, UG",
-        "lat": 1.97556,
-        "lng": 32.53861,
-        "pop": 67700
-    },
-    {
-        "name": "Nakivale Refugee Camp, UG",
-        "lat": -0.74064,
-        "lng": 30.99632,
-        "pop": 68400
     },
     {
         "name": "Kyengera, UG",
@@ -8284,12 +4192,6 @@
         "lat": 0.36389,
         "lng": 32.52861,
         "pop": 532800
-    },
-    {
-        "name": "Mamoudzou, YT",
-        "lat": -12.78234,
-        "lng": 45.22878,
-        "pop": 54831
     },
     {
         "name": "Roodepoort, ZA",
@@ -8316,34 +4218,16 @@
         "pop": 431944
     },
     {
-        "name": "Bela Bela, ZA",
-        "lat": -24.88333,
-        "lng": 28.28333,
-        "pop": 90210
-    },
-    {
         "name": "Vryheid, ZA",
         "lat": -27.76952,
         "lng": 30.79165,
         "pop": 150012
     },
     {
-        "name": "Vryburg, ZA",
-        "lat": -26.95659,
-        "lng": 24.7284,
-        "pop": 55879
-    },
-    {
         "name": "Virginia, ZA",
         "lat": -28.10391,
         "lng": 26.86593,
         "pop": 122502
-    },
-    {
-        "name": "Viljoenskroon, ZA",
-        "lat": -27.20841,
-        "lng": 26.94855,
-        "pop": 54955
     },
     {
         "name": "Vereeniging, ZA",
@@ -8358,12 +4242,6 @@
         "pop": 246754
     },
     {
-        "name": "Upington, ZA",
-        "lat": -28.44776,
-        "lng": 21.25612,
-        "pop": 71373
-    },
-    {
         "name": "Mthatha, ZA",
         "lat": -31.58893,
         "lng": 28.78443,
@@ -8374,18 +4252,6 @@
         "lat": -33.75562,
         "lng": 25.40074,
         "pop": 291052
-    },
-    {
-        "name": "Trichardt, ZA",
-        "lat": -26.49155,
-        "lng": 29.22878,
-        "pop": 52776
-    },
-    {
-        "name": "Tongaat, ZA",
-        "lat": -29.57366,
-        "lng": 31.11552,
-        "pop": 64829
     },
     {
         "name": "Tokoza, ZA",
@@ -8400,22 +4266,10 @@
         "pop": 107144
     },
     {
-        "name": "Thaba Nchu, ZA",
-        "lat": -29.20932,
-        "lng": 26.83898,
-        "pop": 72721
-    },
-    {
         "name": "Thembisa, ZA",
         "lat": -25.99636,
         "lng": 28.2268,
         "pop": 511655
-    },
-    {
-        "name": "Stilfontein, ZA",
-        "lat": -26.84493,
-        "lng": 26.76829,
-        "pop": 93110
     },
     {
         "name": "KwaDukuza, ZA",
@@ -8440,12 +4294,6 @@
         "lat": -25.47288,
         "lng": 28.09919,
         "pop": 872309
-    },
-    {
-        "name": "Schweizer-Reneke, ZA",
-        "lat": -27.18871,
-        "lng": 25.32931,
-        "pop": 70214
     },
     {
         "name": "Sasolburg, ZA",
@@ -8502,12 +4350,6 @@
         "pop": 178285
     },
     {
-        "name": "Port Shepstone, ZA",
-        "lat": -30.74137,
-        "lng": 30.45499,
-        "pop": 52793
-    },
-    {
         "name": "Gqeberha, ZA",
         "lat": -33.96109,
         "lng": 25.61494,
@@ -8518,12 +4360,6 @@
         "lat": -29.82068,
         "lng": 30.88674,
         "pop": 144026
-    },
-    {
-        "name": "Piet Retief, ZA",
-        "lat": -27.00706,
-        "lng": 30.81323,
-        "pop": 84349
     },
     {
         "name": "Polokwane, ZA",
@@ -8538,52 +4374,16 @@
         "pop": 839327
     },
     {
-        "name": "Phuthaditjhaba, ZA",
-        "lat": -28.52423,
-        "lng": 28.81582,
-        "pop": 84258
-    },
-    {
         "name": "Phalaborwa, ZA",
         "lat": -23.94299,
         "lng": 31.14107,
         "pop": 109468
     },
     {
-        "name": "Parys, ZA",
-        "lat": -26.9033,
-        "lng": 27.45727,
-        "pop": 71319
-    },
-    {
-        "name": "Oudtshoorn, ZA",
-        "lat": -33.60047,
-        "lng": 22.19955,
-        "pop": 73694
-    },
-    {
         "name": "Orkney, ZA",
         "lat": -26.98023,
         "lng": 26.67272,
         "pop": 110052
-    },
-    {
-        "name": "Odendaalsrus, ZA",
-        "lat": -27.87394,
-        "lng": 26.69072,
-        "pop": 76371
-    },
-    {
-        "name": "Modimolle, ZA",
-        "lat": -24.7,
-        "lng": 28.4,
-        "pop": 50306
-    },
-    {
-        "name": "Nkowakowa, ZA",
-        "lat": -23.88782,
-        "lng": 30.28708,
-        "pop": 51350
     },
     {
         "name": "Nigel, ZA",
@@ -8610,18 +4410,6 @@
         "pop": 140121
     },
     {
-        "name": "Mossel Bay, ZA",
-        "lat": -34.18307,
-        "lng": 22.14605,
-        "pop": 78940
-    },
-    {
-        "name": "Mondlo, ZA",
-        "lat": -27.98299,
-        "lng": 30.71769,
-        "pop": 53892
-    },
-    {
         "name": "Middelburg, ZA",
         "lat": -25.77507,
         "lng": 29.46482,
@@ -8634,46 +4422,16 @@
         "pop": 205504
     },
     {
-        "name": "Mafikeng, ZA",
-        "lat": -25.86522,
-        "lng": 25.64421,
-        "pop": 77110
-    },
-    {
         "name": "Mabopane, ZA",
         "lat": -25.509,
         "lng": 28.064,
         "pop": 110972
     },
     {
-        "name": "Louis Trichardt, ZA",
-        "lat": -23.04385,
-        "lng": 29.90319,
-        "pop": 86854
-    },
-    {
-        "name": "Lichtenburg, ZA",
-        "lat": -26.152,
-        "lng": 26.15968,
-        "pop": 65863
-    },
-    {
         "name": "Ladysmith, ZA",
         "lat": -28.55874,
         "lng": 29.77896,
         "pop": 143446
-    },
-    {
-        "name": "Kwaggafontein, ZA",
-        "lat": -25.32729,
-        "lng": 28.94224,
-        "pop": 54040
-    },
-    {
-        "name": "Kutloanong, ZA",
-        "lat": -27.83333,
-        "lng": 26.75,
-        "pop": 95008
     },
     {
         "name": "Krugersdorp, ZA",
@@ -8688,28 +4446,10 @@
         "pop": 117152
     },
     {
-        "name": "Kokstad, ZA",
-        "lat": -30.54723,
-        "lng": 29.42412,
-        "pop": 61751
-    },
-    {
-        "name": "Knysna, ZA",
-        "lat": -34.03627,
-        "lng": 23.04713,
-        "pop": 68659
-    },
-    {
         "name": "Klerksdorp, ZA",
         "lat": -26.85213,
         "lng": 26.66672,
         "pop": 227039
-    },
-    {
-        "name": "Qonce, ZA",
-        "lat": -32.88076,
-        "lng": 27.39377,
-        "pop": 93072
     },
     {
         "name": "Kimberley, ZA",
@@ -8724,28 +4464,10 @@
         "pop": 9418183
     },
     {
-        "name": "Heidelberg, ZA",
-        "lat": -26.50476,
-        "lng": 28.35921,
-        "pop": 85858
-    },
-    {
         "name": "Hammanskraal, ZA",
         "lat": -25.40892,
         "lng": 28.287,
         "pop": 112950
-    },
-    {
-        "name": "Grahamstown, ZA",
-        "lat": -33.30422,
-        "lng": 26.53276,
-        "pop": 91548
-    },
-    {
-        "name": "Graaff Reinet, ZA",
-        "lat": -32.25215,
-        "lng": 24.53075,
-        "pop": 62896
     },
     {
         "name": "Germiston, ZA",
@@ -8758,24 +4480,6 @@
         "lat": -33.963,
         "lng": 22.46173,
         "pop": 188580
-    },
-    {
-        "name": "Ga-Rankuwa, ZA",
-        "lat": -25.61692,
-        "lng": 27.99471,
-        "pop": 90945
-    },
-    {
-        "name": "Fort Beaufort, ZA",
-        "lat": -32.77477,
-        "lng": 26.63376,
-        "pop": 58419
-    },
-    {
-        "name": "Fochville, ZA",
-        "lat": -26.48862,
-        "lng": 27.49387,
-        "pop": 62416
     },
     {
         "name": "Evaton, ZA",
@@ -8808,28 +4512,10 @@
         "pop": 3338026
     },
     {
-        "name": "Dundee, ZA",
-        "lat": -28.16678,
-        "lng": 30.23371,
-        "pop": 84413
-    },
-    {
-        "name": "Delmas, ZA",
-        "lat": -26.1466,
-        "lng": 28.68322,
-        "pop": 92046
-    },
-    {
         "name": "Carletonville, ZA",
         "lat": -26.36094,
         "lng": 27.39767,
         "pop": 182304
-    },
-    {
-        "name": "Butterworth, ZA",
-        "lat": -32.33083,
-        "lng": 28.14981,
-        "pop": 53086
     },
     {
         "name": "Brits, ZA",
@@ -8850,12 +4536,6 @@
         "pop": 309714
     },
     {
-        "name": "Bothaville, ZA",
-        "lat": -27.3887,
-        "lng": 26.61701,
-        "pop": 71934
-    },
-    {
         "name": "Boksburg, ZA",
         "lat": -26.21197,
         "lng": 28.25958,
@@ -8874,28 +4554,10 @@
         "pop": 137287
     },
     {
-        "name": "Bethlehem, ZA",
-        "lat": -28.23078,
-        "lng": 28.30707,
-        "pop": 91075
-    },
-    {
-        "name": "Bethal, ZA",
-        "lat": -26.45794,
-        "lng": 29.46553,
-        "pop": 72821
-    },
-    {
         "name": "Benoni, ZA",
         "lat": -26.18848,
         "lng": 28.32078,
         "pop": 605344
-    },
-    {
-        "name": "Barberton, ZA",
-        "lat": -25.78842,
-        "lng": 31.05319,
-        "pop": 67927
     },
     {
         "name": "Alberton, ZA",
@@ -8904,22 +4566,10 @@
         "pop": 121536
     },
     {
-        "name": "Ekangala, ZA",
-        "lat": -25.668,
-        "lng": 28.73,
-        "pop": 58099
-    },
-    {
         "name": "Somaroboro, ZA",
         "lat": -25.34604,
         "lng": 28.83431,
         "pop": 114369
-    },
-    {
-        "name": "Midrand, ZA",
-        "lat": -25.976,
-        "lng": 28.118,
-        "pop": 87387
     },
     {
         "name": "Centurion, ZA",
@@ -8934,46 +4584,10 @@
         "pop": 127597
     },
     {
-        "name": "Wellington, ZA",
-        "lat": -33.63981,
-        "lng": 19.0112,
-        "pop": 55543
-    },
-    {
-        "name": "Stellenbosch, ZA",
-        "lat": -33.93462,
-        "lng": 18.86676,
-        "pop": 96228
-    },
-    {
-        "name": "Saldanha, ZA",
-        "lat": -33.01167,
-        "lng": 17.9442,
-        "pop": 68284
-    },
-    {
         "name": "Paarl, ZA",
         "lat": -33.73378,
         "lng": 18.97523,
         "pop": 236910
-    },
-    {
-        "name": "Kraaifontein, ZA",
-        "lat": -33.84808,
-        "lng": 18.71723,
-        "pop": 57911
-    },
-    {
-        "name": "Hermanus, ZA",
-        "lat": -34.4187,
-        "lng": 19.23446,
-        "pop": 56139
-    },
-    {
-        "name": "Durbanville, ZA",
-        "lat": -33.83079,
-        "lng": 18.6486,
-        "pop": 54286
     },
     {
         "name": "Cape Town, ZA",
@@ -8982,22 +4596,10 @@
         "pop": 4772846
     },
     {
-        "name": "Atlantis, ZA",
-        "lat": -33.56668,
-        "lng": 18.48335,
-        "pop": 82736
-    },
-    {
         "name": "Somerset West, ZA",
         "lat": -34.08401,
         "lng": 18.82113,
         "pop": 225289
-    },
-    {
-        "name": "Musina, ZA",
-        "lat": -22.34881,
-        "lng": 30.04074,
-        "pop": 51132
     },
     {
         "name": "Etwatwa, ZA",
@@ -9012,40 +4614,10 @@
         "pop": 125394
     },
     {
-        "name": "Nchelenge, ZM",
-        "lat": -9.34506,
-        "lng": 28.73396,
-        "pop": 77746
-    },
-    {
-        "name": "Nakonde, ZM",
-        "lat": -9.34213,
-        "lng": 32.745,
-        "pop": 91107
-    },
-    {
-        "name": "Mpulungu, ZM",
-        "lat": -8.76234,
-        "lng": 31.11405,
-        "pop": 55405
-    },
-    {
         "name": "Solwezi, ZM",
         "lat": -12.1688,
         "lng": 26.38938,
         "pop": 301370
-    },
-    {
-        "name": "Samfya, ZM",
-        "lat": -11.36491,
-        "lng": 29.55652,
-        "pop": 51309
-    },
-    {
-        "name": "Petauke, ZM",
-        "lat": -14.24117,
-        "lng": 31.31975,
-        "pop": 58156
     },
     {
         "name": "Ndola, ZM",
@@ -9058,18 +4630,6 @@
         "lat": -12.54982,
         "lng": 28.24071,
         "pop": 169136
-    },
-    {
-        "name": "Mpika, ZM",
-        "lat": -11.83431,
-        "lng": 31.45287,
-        "pop": 63740
-    },
-    {
-        "name": "Monze, ZM",
-        "lat": -16.27149,
-        "lng": 27.47724,
-        "pop": 60281
     },
     {
         "name": "Mongu, ZM",
@@ -9120,12 +4680,6 @@
         "pop": 179636
     },
     {
-        "name": "Kapiri Mposhi, ZM",
-        "lat": -13.97147,
-        "lng": 28.66985,
-        "pop": 83211
-    },
-    {
         "name": "Kalulushi, ZM",
         "lat": -12.84151,
         "lng": 28.09479,
@@ -9142,18 +4696,6 @@
         "lat": -14.4469,
         "lng": 28.44644,
         "pop": 288598
-    },
-    {
-        "name": "Chongwe, ZM",
-        "lat": -15.32916,
-        "lng": 28.68204,
-        "pop": 57443
-    },
-    {
-        "name": "Choma, ZM",
-        "lat": -16.80889,
-        "lng": 26.9875,
-        "pop": 98974
     },
     {
         "name": "Chipata, ZM",
@@ -9174,64 +4716,16 @@
         "pop": 113876
     },
     {
-        "name": "Chilanga Township, ZM",
-        "lat": -15.57079,
-        "lng": 28.2701,
-        "pop": 54046
-    },
-    {
         "name": "Chunga, ZM",
         "lat": -15.31737,
         "lng": 28.26868,
         "pop": 115539
     },
     {
-        "name": "Madido, ZM",
-        "lat": -15.35454,
-        "lng": 28.37416,
-        "pop": 80782
-    },
-    {
-        "name": "Namalombwe, ZM",
-        "lat": -15.39053,
-        "lng": 28.18986,
-        "pop": 97758
-    },
-    {
-        "name": "Zvishavane, ZW",
-        "lat": -20.32674,
-        "lng": 30.06648,
-        "pop": 59717
-    },
-    {
-        "name": "Ruwa, ZW",
-        "lat": -17.88972,
-        "lng": 31.24472,
-        "pop": 94083
-    },
-    {
-        "name": "Norton, ZW",
-        "lat": -17.88333,
-        "lng": 30.7,
-        "pop": 87039
-    },
-    {
         "name": "Mutare, ZW",
         "lat": -18.9707,
         "lng": 32.67086,
         "pop": 224802
-    },
-    {
-        "name": "Masvingo, ZW",
-        "lat": -20.06373,
-        "lng": 30.82766,
-        "pop": 90286
-    },
-    {
-        "name": "Marondera, ZW",
-        "lat": -18.18527,
-        "lng": 31.55193,
-        "pop": 66204
     },
     {
         "name": "Kwekwe, ZW",
@@ -9258,34 +4752,10 @@
         "pop": 158200
     },
     {
-        "name": "Chinhoyi, ZW",
-        "lat": -17.36667,
-        "lng": 30.2,
-        "pop": 90800
-    },
-    {
-        "name": "Chegutu, ZW",
-        "lat": -18.13021,
-        "lng": 30.14074,
-        "pop": 65800
-    },
-    {
         "name": "Bulawayo, ZW",
         "lat": -20.15,
         "lng": 28.58333,
         "pop": 665952
-    },
-    {
-        "name": "Bindura, ZW",
-        "lat": -17.30192,
-        "lng": 31.33056,
-        "pop": 50400
-    },
-    {
-        "name": "Beitbridge, ZW",
-        "lat": -22.21667,
-        "lng": 30.0,
-        "pop": 58574
     },
     {
         "name": "Chitungwiza, ZW",

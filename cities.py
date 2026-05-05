@@ -11,7 +11,7 @@ REGIONS = {
             'US', 'CA', 'MX', 'GT', 'CU', 'HT', 'DO', 'HN',
             'SV', 'NI', 'CR', 'PA', 'JM', 'BS', 'BZ', 'PR'
         },
-        'min_pop': 50000,
+        'min_pop': 100000,
         'state_in_label': {'US', 'CA'},
         'outfile': 'na_cities.json',
     },
@@ -26,7 +26,7 @@ REGIONS = {
         },
         # Trim Asian Russia and most of eastern Turkey by longitude.
         'max_lng': 60.0,
-        'min_pop': 50000,
+        'min_pop': 100000,
         'state_in_label': set(),
         'outfile': 'eu_cities.json',
     },
@@ -35,7 +35,7 @@ REGIONS = {
             'AR', 'BO', 'BR', 'CL', 'CO', 'EC', 'FK', 'GF', 'GY',
             'PE', 'PY', 'SR', 'UY', 'VE'
         },
-        'min_pop': 50000,
+        'min_pop': 100000,
         'state_in_label': set(),
         'outfile': 'sa_cities.json',
     },
@@ -48,7 +48,7 @@ REGIONS = {
             'SC', 'SD', 'SH', 'SL', 'SN', 'SO', 'SS', 'ST', 'SZ', 'TD',
             'TG', 'TN', 'TZ', 'UG', 'YT', 'ZA', 'ZM', 'ZW'
         },
-        'min_pop': 50000,
+        'min_pop': 100000,
         'state_in_label': set(),
         'outfile': 'af_cities.json',
     },
@@ -65,7 +65,7 @@ REGIONS = {
         # Only keep Russian cities east of the Urals so we don't duplicate the
         # European-Russia entries that already appear in the EU dataset.
         'ru_min_lng': 60.0,
-        'min_pop': 50000,
+        'min_pop': 100000,
         'state_in_label': set(),
         'outfile': 'as_cities.json',
     },
@@ -75,7 +75,7 @@ REGIONS = {
             'NF', 'NR', 'NU', 'NZ', 'PF', 'PG', 'PN', 'PW', 'SB', 'TK',
             'TO', 'TV', 'VU', 'WF', 'WS'
         },
-        'min_pop': 50000,
+        'min_pop': 100000,
         'state_in_label': set(),
         'outfile': 'oc_cities.json',
     },
