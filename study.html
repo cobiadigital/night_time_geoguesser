@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NA Cities Study Map</title>
+    <title>Cities Study Map</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <style>
         body, html { margin: 0; padding: 0; height: 100%; font-family: sans-serif; background: #1a1a2e; color: white; }
@@ -77,12 +77,28 @@
         .city-popup .city-name { font-size: 1.05rem; font-weight: bold; margin-bottom: 4px; }
         .city-popup .city-pop { font-size: 0.88rem; color: #aaa; }
         .city-popup .city-bucket { font-size: 0.78rem; color: #FF9800; margin-top: 3px; }
+
+        #region-switch { display: flex; gap: 6px; justify-content: center; margin-bottom: 6px; }
+        #region-switch a {
+            background: rgba(255,255,255,0.08);
+            border: 1px solid #555;
+            color: #bbb;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            text-decoration: none;
+        }
+        #region-switch a.active { background: rgba(255,152,0,0.3); border-color: #FF9800; color: #FF9800; font-weight: bold; }
     </style>
 </head>
 <body>
 
 <div id="header">
-    <h2>North American Cities — 100k+ Population</h2>
+    <div id="region-switch">
+        <a href="?region=na" data-region="na">North America</a>
+        <a href="?region=eu" data-region="eu">Europe</a>
+    </div>
+    <h2 id="region-title">Cities — 50k+ Population</h2>
     <span id="count-label">Loading...</span>
     <div id="filters">
         <button class="filter-btn active" data-min="0" onclick="setFilter(this)">All</button>
@@ -107,9 +123,21 @@
 
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <script>
+    const REGIONS = {
+        na: { center: [39.8283, -98.5795], zoom: 4, file: 'na_cities.json', label: 'North American' },
+        eu: { center: [54.0, 15.0],        zoom: 4, file: 'eu_cities.json', label: 'European' }
+    };
+    const regionKey = (new URLSearchParams(location.search).get('region') === 'eu') ? 'eu' : 'na';
+    const region = REGIONS[regionKey];
+
+    document.getElementById('region-title').textContent = `${region.label} Cities — 50k+ Population`;
+    document.querySelectorAll('#region-switch a').forEach(a => {
+        if (a.dataset.region === regionKey) a.classList.add('active');
+    });
+
     const map = L.map('map', {
-        center: [39.8283, -98.5795],
-        zoom: 4,
+        center: region.center,
+        zoom: region.zoom,
         minZoom: 2,
         maxZoom: 12
     });
@@ -162,7 +190,7 @@
         map.closePopup();
     }
 
-    fetch('na_cities.json')
+    fetch(region.file)
         .then(r => { if (!r.ok) throw new Error('Failed to load'); return r.json(); })
         .then(cities => {
             document.getElementById('count-label').textContent = `${cities.length} cities`;
