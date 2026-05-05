@@ -31,6 +31,13 @@ REGIONS = {
     },
 }
 
+# GeoNames stores Canadian admin1 as numeric FIPS codes; map to postal abbrs.
+CA_ADMIN1 = {
+    '01': 'AB', '02': 'BC', '03': 'MB', '04': 'NB', '05': 'NL',
+    '07': 'NS', '08': 'ON', '09': 'PE', '10': 'QC', '11': 'SK',
+    '12': 'YT', '13': 'NT', '14': 'NU',
+}
+
 
 def download_geonames():
     url = "http://download.geonames.org/export/dump/cities15000.zip"
@@ -71,6 +78,8 @@ def build_region(lines, key, cfg):
             continue
 
         if country in cfg['state_in_label'] and state_code:
+            if country == 'CA':
+                state_code = CA_ADMIN1.get(state_code, state_code)
             display_name = f"{name}, {state_code}"
         else:
             display_name = f"{name}, {country}"

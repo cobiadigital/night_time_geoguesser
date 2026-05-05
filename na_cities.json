@@ -12,919 +12,919 @@
         "pop": 65222
     },
     {
-        "name": "Abbotsford, 02",
+        "name": "Abbotsford, BC",
         "lat": 49.05798,
         "lng": -122.25257,
         "pop": 141397
     },
     {
-        "name": "Ahuntsic-Cartierville, 10",
+        "name": "Ahuntsic-Cartierville, QC",
         "lat": 45.56667,
         "lng": -73.66667,
         "pop": 135336
     },
     {
-        "name": "Airdrie, 01",
+        "name": "Airdrie, AB",
         "lat": 51.30011,
         "lng": -114.03528,
         "pop": 90044
     },
     {
-        "name": "Ajax, 08",
+        "name": "Ajax, ON",
         "lat": 43.85012,
         "lng": -79.03288,
         "pop": 119677
     },
     {
-        "name": "Aurora, 08",
+        "name": "Aurora, ON",
         "lat": 44.00011,
         "lng": -79.46632,
         "pop": 55445
     },
     {
-        "name": "Barrie, 08",
+        "name": "Barrie, ON",
         "lat": 44.40011,
         "lng": -79.66634,
         "pop": 147829
     },
     {
-        "name": "Belleville, 08",
+        "name": "Belleville, ON",
         "lat": 44.16682,
         "lng": -77.38277,
         "pop": 50716
     },
     {
-        "name": "Brampton, 08",
+        "name": "Brampton, ON",
         "lat": 43.68341,
         "lng": -79.76633,
         "pop": 656480
     },
     {
-        "name": "Brantford, 08",
+        "name": "Brantford, ON",
         "lat": 43.1334,
         "lng": -80.26636,
         "pop": 104688
     },
     {
-        "name": "Brighouse-City Centre, 02",
+        "name": "Brighouse-City Centre, BC",
         "lat": 49.16667,
         "lng": -123.13333,
         "pop": 62855
     },
     {
-        "name": "Brossard, 10",
+        "name": "Brossard, QC",
         "lat": 45.45008,
         "lng": -73.46583,
         "pop": 69575
     },
     {
-        "name": "Burlington, 08",
+        "name": "Burlington, ON",
         "lat": 43.38621,
         "lng": -79.83713,
         "pop": 186948
     },
     {
-        "name": "Burnaby, 02",
+        "name": "Burnaby, BC",
         "lat": 49.26636,
         "lng": -122.95263,
         "pop": 249125
     },
     {
-        "name": "Caledon, 08",
+        "name": "Caledon, ON",
         "lat": 43.86544,
         "lng": -79.99322,
         "pop": 76581
     },
     {
-        "name": "Calgary, 01",
+        "name": "Calgary, AB",
         "lat": 51.05011,
         "lng": -114.08529,
         "pop": 1306784
     },
     {
-        "name": "Cambridge, 08",
+        "name": "Cambridge, ON",
         "lat": 43.3601,
         "lng": -80.31269,
         "pop": 129920
     },
     {
-        "name": "Chicoutimi, 10",
+        "name": "Chicoutimi, QC",
         "lat": 48.41963,
         "lng": -71.06369,
         "pop": 69004
     },
     {
-        "name": "Chilliwack, 02",
+        "name": "Chilliwack, BC",
         "lat": 49.16638,
         "lng": -121.95257,
         "pop": 101491
     },
     {
-        "name": "Chomedey, 10",
+        "name": "Chomedey, QC",
         "lat": 45.53333,
         "lng": -73.75,
         "pop": 94030
     },
     {
-        "name": "Cloverdale, 02",
+        "name": "Cloverdale, BC",
         "lat": 49.10797,
         "lng": -122.7276,
         "pop": 73355
     },
     {
-        "name": "Coquitlam, 02",
+        "name": "Coquitlam, BC",
         "lat": 49.2846,
         "lng": -122.78217,
         "pop": 148625
     },
     {
-        "name": "Dartmouth, 07",
+        "name": "Dartmouth, NS",
         "lat": 44.67134,
         "lng": -63.57719,
         "pop": 101343
     },
     {
-        "name": "Delta, 02",
+        "name": "Delta, BC",
         "lat": 49.14399,
         "lng": -122.9068,
         "pop": 101668
     },
     {
-        "name": "Drummondville, 10",
+        "name": "Drummondville, QC",
         "lat": 45.88336,
         "lng": -72.48241,
         "pop": 59489
     },
     {
-        "name": "Edmonton, 01",
+        "name": "Edmonton, AB",
         "lat": 53.55014,
         "lng": -113.46871,
         "pop": 1010899
     },
     {
-        "name": "Etobicoke, 08",
+        "name": "Etobicoke, ON",
         "lat": 43.64415,
         "lng": -79.56985,
         "pop": 365000
     },
     {
-        "name": "Fleetwood, 02",
+        "name": "Fleetwood, BC",
         "lat": 49.16667,
         "lng": -122.8,
         "pop": 65565
     },
     {
-        "name": "Fort McMurray, 01",
+        "name": "Fort McMurray, AB",
         "lat": 56.72676,
         "lng": -111.38103,
         "pop": 66573
     },
     {
-        "name": "Fredericton, 04",
+        "name": "Fredericton, NB",
         "lat": 45.94541,
         "lng": -66.66558,
         "pop": 63116
     },
     {
-        "name": "Gatineau, 10",
+        "name": "Gatineau, QC",
         "lat": 45.47723,
         "lng": -75.70164,
         "pop": 300045
     },
     {
-        "name": "Gloucester, 08",
+        "name": "Gloucester, ON",
         "lat": 45.35,
         "lng": -75.63333,
         "pop": 150012
     },
     {
-        "name": "Granby, 10",
+        "name": "Granby, QC",
         "lat": 45.40008,
         "lng": -72.73243,
         "pop": 66222
     },
     {
-        "name": "Grande Prairie, 01",
+        "name": "Grande Prairie, AB",
         "lat": 55.16667,
         "lng": -118.80271,
         "pop": 70385
     },
     {
-        "name": "Greater Sudbury, 08",
+        "name": "Greater Sudbury, ON",
         "lat": 46.49,
         "lng": -80.99001,
         "pop": 166004
     },
     {
-        "name": "Guelph, 08",
+        "name": "Guelph, ON",
         "lat": 43.54594,
         "lng": -80.25599,
         "pop": 143740
     },
     {
-        "name": "Guildford, 02",
+        "name": "Guildford, BC",
         "lat": 49.19167,
         "lng": -122.8,
         "pop": 64985
     },
     {
-        "name": "Halton Hills, 08",
+        "name": "Halton Hills, ON",
         "lat": 43.6403,
         "lng": -79.93146,
         "pop": 62951
     },
     {
-        "name": "Hamilton, 08",
+        "name": "Hamilton, ON",
         "lat": 43.25011,
         "lng": -79.84963,
         "pop": 569353
     },
     {
-        "name": "Kamloops, 02",
+        "name": "Kamloops, BC",
         "lat": 50.66648,
         "lng": -120.3192,
         "pop": 104460
     },
     {
-        "name": "Kanata, 08",
+        "name": "Kanata, ON",
         "lat": 45.3001,
         "lng": -75.91606,
         "pop": 90000
     },
     {
-        "name": "Kelowna, 02",
+        "name": "Kelowna, BC",
         "lat": 49.88307,
         "lng": -119.48568,
         "pop": 144576
     },
     {
-        "name": "Kingston, 08",
+        "name": "Kingston, ON",
         "lat": 44.22976,
         "lng": -76.48098,
         "pop": 132485
     },
     {
-        "name": "Kitchener, 08",
+        "name": "Kitchener, ON",
         "lat": 43.42537,
         "lng": -80.5112,
         "pop": 256885
     },
     {
-        "name": "Langley, 02",
+        "name": "Langley, BC",
         "lat": 49.10107,
         "lng": -122.65883,
         "pop": 132603
     },
     {
-        "name": "Laval, 10",
+        "name": "Laval, QC",
         "lat": 45.56995,
         "lng": -73.692,
         "pop": 438366
     },
     {
-        "name": "Lethbridge, 01",
+        "name": "Lethbridge, AB",
         "lat": 49.69999,
         "lng": -112.81856,
         "pop": 103197
     },
     {
-        "name": "London, 08",
+        "name": "London, ON",
         "lat": 42.98339,
         "lng": -81.23304,
         "pop": 422324
     },
     {
-        "name": "Longueuil, 10",
+        "name": "Longueuil, QC",
         "lat": 45.5152,
         "lng": -73.46818,
         "pop": 229330
     },
     {
-        "name": "Maple Ridge, 02",
+        "name": "Maple Ridge, BC",
         "lat": 49.21939,
         "lng": -122.60193,
         "pop": 82256
     },
     {
-        "name": "Markham, 08",
+        "name": "Markham, ON",
         "lat": 43.86682,
         "lng": -79.2663,
         "pop": 338503
     },
     {
-        "name": "Medicine Hat, 01",
+        "name": "Medicine Hat, AB",
         "lat": 50.03928,
         "lng": -110.67661,
         "pop": 63138
     },
     {
-        "name": "Metrotown, 02",
+        "name": "Metrotown, BC",
         "lat": 49.225,
         "lng": -123.0,
         "pop": 52355
     },
     {
-        "name": "Milton, 08",
+        "name": "Milton, ON",
         "lat": 43.51681,
         "lng": -79.88294,
         "pop": 132979
     },
     {
-        "name": "Mississauga, 08",
+        "name": "Mississauga, ON",
         "lat": 43.5789,
         "lng": -79.6583,
         "pop": 717961
     },
     {
-        "name": "Moncton, 04",
+        "name": "Moncton, NB",
         "lat": 46.09454,
         "lng": -64.7965,
         "pop": 86106
     },
     {
-        "name": "Montr\u00e9al, 10",
+        "name": "Montr\u00e9al, QC",
         "lat": 45.50884,
         "lng": -73.58781,
         "pop": 1762949
     },
     {
-        "name": "Nanaimo, 02",
+        "name": "Nanaimo, BC",
         "lat": 49.16638,
         "lng": -123.94003,
         "pop": 90504
     },
     {
-        "name": "Nepean, 08",
+        "name": "Nepean, ON",
         "lat": 45.33619,
         "lng": -75.7225,
         "pop": 180000
     },
     {
-        "name": "Newmarket, 08",
+        "name": "Newmarket, ON",
         "lat": 44.05011,
         "lng": -79.46631,
         "pop": 91034
     },
     {
-        "name": "Newton, 02",
+        "name": "Newton, BC",
         "lat": 49.13333,
         "lng": -122.85,
         "pop": 159390
     },
     {
-        "name": "New Westminster, 02",
+        "name": "New Westminster, BC",
         "lat": 49.20678,
         "lng": -122.91092,
         "pop": 78916
     },
     {
-        "name": "Niagara Falls, 08",
+        "name": "Niagara Falls, ON",
         "lat": 43.10012,
         "lng": -79.06627,
         "pop": 99818
     },
     {
-        "name": "Norfolk County, 08",
+        "name": "Norfolk County, ON",
         "lat": 42.8334,
         "lng": -80.38297,
         "pop": 60847
     },
     {
-        "name": "North Bay, 08",
+        "name": "North Bay, ON",
         "lat": 46.3168,
         "lng": -79.46633,
         "pop": 50396
     },
     {
-        "name": "North Delta, 02",
+        "name": "North Delta, BC",
         "lat": 49.16667,
         "lng": -122.91667,
         "pop": 60769
     },
     {
-        "name": "North Vancouver, 02",
+        "name": "North Vancouver, BC",
         "lat": 49.31636,
         "lng": -123.06934,
         "pop": 88168
     },
     {
-        "name": "Notre-Dame-de-Gr\u00e2ce, 10",
+        "name": "Notre-Dame-de-Gr\u00e2ce, QC",
         "lat": 45.47675,
         "lng": -73.61432,
         "pop": 68152
     },
     {
-        "name": "Oakville, 08",
+        "name": "Oakville, ON",
         "lat": 43.45011,
         "lng": -79.68292,
         "pop": 213759
     },
     {
-        "name": "Oshawa, 08",
+        "name": "Oshawa, ON",
         "lat": 43.90012,
         "lng": -78.84957,
         "pop": 175383
     },
     {
-        "name": "Ottawa, 08",
+        "name": "Ottawa, ON",
         "lat": 45.41117,
         "lng": -75.69812,
         "pop": 1017449
     },
     {
-        "name": "Ottawa South, 08",
+        "name": "Ottawa South, ON",
         "lat": 45.3921,
         "lng": -75.68725,
         "pop": 125090
     },
     {
-        "name": "Peterborough, 08",
+        "name": "Peterborough, ON",
         "lat": 44.30012,
         "lng": -78.31623,
         "pop": 85807
     },
     {
-        "name": "Pickering, 08",
+        "name": "Pickering, ON",
         "lat": 43.90012,
         "lng": -79.13289,
         "pop": 91771
     },
     {
-        "name": "Pierrefonds, 10",
+        "name": "Pierrefonds, QC",
         "lat": 45.45989,
         "lng": -73.89284,
         "pop": 59093
     },
     {
-        "name": "Port Coquitlam, 02",
+        "name": "Port Coquitlam, BC",
         "lat": 49.26637,
         "lng": -122.76932,
         "pop": 58000
     },
     {
-        "name": "Prince George, 02",
+        "name": "Prince George, BC",
         "lat": 53.9166,
         "lng": -122.75301,
         "pop": 78943
     },
     {
-        "name": "Red Deer, 01",
+        "name": "Red Deer, AB",
         "lat": 52.26682,
         "lng": -113.802,
         "pop": 100844
     },
     {
-        "name": "Regina, 11",
+        "name": "Regina, SK",
         "lat": 50.45008,
         "lng": -104.6178,
         "pop": 226404
     },
     {
-        "name": "Renfrew-Collingwood, 02",
+        "name": "Renfrew-Collingwood, BC",
         "lat": 49.245,
         "lng": -123.03758,
         "pop": 51530
     },
     {
-        "name": "Repentigny, 10",
+        "name": "Repentigny, QC",
         "lat": 45.74222,
         "lng": -73.45008,
         "pop": 84965
     },
     {
-        "name": "Richmond, 02",
+        "name": "Richmond, BC",
         "lat": 49.17003,
         "lng": -123.13683,
         "pop": 209937
     },
     {
-        "name": "Richmond Hill, 08",
+        "name": "Richmond Hill, ON",
         "lat": 43.87111,
         "lng": -79.43725,
         "pop": 202022
     },
     {
-        "name": "Saanich, 02",
+        "name": "Saanich, BC",
         "lat": 48.54964,
         "lng": -123.36931,
         "pop": 117735
     },
     {
-        "name": "Saguenay, 10",
+        "name": "Saguenay, QC",
         "lat": 48.41675,
         "lng": -71.06573,
         "pop": 148886
     },
     {
-        "name": "Saint-Hubert, 10",
+        "name": "Saint-Hubert, QC",
         "lat": 45.50008,
         "lng": -73.41583,
         "pop": 82548
     },
     {
-        "name": "Saint-Hyacinthe, 10",
+        "name": "Saint-Hyacinthe, QC",
         "lat": 45.63076,
         "lng": -72.95699,
         "pop": 50326
     },
     {
-        "name": "Saint-Jean-sur-Richelieu, 10",
+        "name": "Saint-Jean-sur-Richelieu, QC",
         "lat": 45.30713,
         "lng": -73.26259,
         "pop": 98036
     },
     {
-        "name": "Saint-J\u00e9r\u00f4me, 10",
+        "name": "Saint-J\u00e9r\u00f4me, QC",
         "lat": 45.78036,
         "lng": -74.00365,
         "pop": 54948
     },
     {
-        "name": "Saint John, 04",
+        "name": "Saint John, NB",
         "lat": 45.27076,
         "lng": -66.05616,
         "pop": 71808
     },
     {
-        "name": "Saint-Laurent, 10",
+        "name": "Saint-Laurent, QC",
         "lat": 45.50008,
         "lng": -73.66585,
         "pop": 98828
     },
     {
-        "name": "Saint-L\u00e9onard, 10",
+        "name": "Saint-L\u00e9onard, QC",
         "lat": 45.58773,
         "lng": -73.59501,
         "pop": 79495
     },
     {
-        "name": "Saint-Louis-de-Terrebonne, 10",
+        "name": "Saint-Louis-de-Terrebonne, QC",
         "lat": 45.70198,
         "lng": -73.78669,
         "pop": 119944
     },
     {
-        "name": "Saint-Michel, 10",
+        "name": "Saint-Michel, QC",
         "lat": 45.56758,
         "lng": -73.62168,
         "pop": 56420
     },
     {
-        "name": "Sarnia, 08",
+        "name": "Sarnia, ON",
         "lat": 42.97866,
         "lng": -82.40407,
         "pop": 72125
     },
     {
-        "name": "Saskatoon, 11",
+        "name": "Saskatoon, SK",
         "lat": 52.13238,
         "lng": -106.66892,
         "pop": 266141
     },
     {
-        "name": "Sault Ste. Marie, 08",
+        "name": "Sault Ste. Marie, ON",
         "lat": 46.51677,
         "lng": -84.33325,
         "pop": 72051
     },
     {
-        "name": "Sherbrooke, 10",
+        "name": "Sherbrooke, QC",
         "lat": 45.40008,
         "lng": -71.89908,
         "pop": 129447
     },
     {
-        "name": "Sherwood Park, 01",
+        "name": "Sherwood Park, AB",
         "lat": 53.51684,
         "lng": -113.3187,
         "pop": 70618
     },
     {
-        "name": "South Surrey, 02",
+        "name": "South Surrey, BC",
         "lat": 49.05,
         "lng": -122.79167,
         "pop": 77170
     },
     {
-        "name": "St. Albert, 01",
+        "name": "St. Albert, AB",
         "lat": 53.63344,
         "lng": -113.63533,
         "pop": 57719
     },
     {
-        "name": "St. Catharines, 08",
+        "name": "St. Catharines, ON",
         "lat": 43.17126,
         "lng": -79.24267,
         "pop": 136803
     },
     {
-        "name": "Stoney Creek, 08",
+        "name": "Stoney Creek, ON",
         "lat": 43.21681,
         "lng": -79.76633,
         "pop": 76382
     },
     {
-        "name": "Surrey, 02",
+        "name": "Surrey, BC",
         "lat": 49.10635,
         "lng": -122.82509,
         "pop": 568322
     },
     {
-        "name": "Terrebonne, 10",
+        "name": "Terrebonne, QC",
         "lat": 45.70004,
         "lng": -73.64732,
         "pop": 111575
     },
     {
-        "name": "Thunder Bay, 08",
+        "name": "Thunder Bay, ON",
         "lat": 48.38202,
         "lng": -89.25018,
         "pop": 108843
     },
     {
-        "name": "Toronto, 08",
+        "name": "Toronto, ON",
         "lat": 43.70643,
         "lng": -79.39864,
         "pop": 2794356
     },
     {
-        "name": "Trois-Rivi\u00e8res, 10",
+        "name": "Trois-Rivi\u00e8res, QC",
         "lat": 46.34515,
         "lng": -72.5477,
         "pop": 144472
     },
     {
-        "name": "Vancouver, 02",
+        "name": "Vancouver, BC",
         "lat": 49.24966,
         "lng": -123.11934,
         "pop": 662248
     },
     {
-        "name": "Vaughan, 08",
+        "name": "Vaughan, ON",
         "lat": 43.8361,
         "lng": -79.49827,
         "pop": 323103
     },
     {
-        "name": "Verdun, 10",
+        "name": "Verdun, QC",
         "lat": 45.46005,
         "lng": -73.57058,
         "pop": 69229
     },
     {
-        "name": "Victoria, 02",
+        "name": "Victoria, BC",
         "lat": 48.4359,
         "lng": -123.35155,
         "pop": 289625
     },
     {
-        "name": "Waterloo, 08",
+        "name": "Waterloo, ON",
         "lat": 43.4668,
         "lng": -80.51639,
         "pop": 104986
     },
     {
-        "name": "Welland, 08",
+        "name": "Welland, ON",
         "lat": 42.98342,
         "lng": -79.24958,
         "pop": 52293
     },
     {
-        "name": "Whalley, 02",
+        "name": "Whalley, BC",
         "lat": 49.17917,
         "lng": -122.86667,
         "pop": 102555
     },
     {
-        "name": "Whitby, 08",
+        "name": "Whitby, ON",
         "lat": 43.88342,
         "lng": -78.93287,
         "pop": 138501
     },
     {
-        "name": "Windsor, 08",
+        "name": "Windsor, ON",
         "lat": 42.30008,
         "lng": -83.01654,
         "pop": 229660
     },
     {
-        "name": "Winnipeg, 03",
+        "name": "Winnipeg, MB",
         "lat": 49.8844,
         "lng": -97.14704,
         "pop": 749607
     },
     {
-        "name": "Woburn, 08",
+        "name": "Woburn, ON",
         "lat": 43.76657,
         "lng": -79.22773,
         "pop": 53485
     },
     {
-        "name": "Halifax, 07",
+        "name": "Halifax, NS",
         "lat": 44.64269,
         "lng": -63.57688,
         "pop": 471559
     },
     {
-        "name": "St. John's, 05",
+        "name": "St. John's, NL",
         "lat": 47.56494,
         "lng": -52.70931,
         "pop": 110525
     },
     {
-        "name": "Beauport, 10",
+        "name": "Beauport, QC",
         "lat": 46.85884,
         "lng": -71.19201,
         "pop": 81425
     },
     {
-        "name": "Charlesbourg, 10",
+        "name": "Charlesbourg, QC",
         "lat": 46.899,
         "lng": -71.305,
         "pop": 82870
     },
     {
-        "name": "Sainte-Foy, 10",
+        "name": "Sainte-Foy, QC",
         "lat": 46.78139,
         "lng": -71.29217,
         "pop": 111300
     },
     {
-        "name": "Qu\u00e9bec, 10",
+        "name": "Qu\u00e9bec, QC",
         "lat": 46.81228,
         "lng": -71.21454,
         "pop": 531902
     },
     {
-        "name": "L\u00e9vis, 10",
+        "name": "L\u00e9vis, QC",
         "lat": 46.80326,
         "lng": -71.17793,
         "pop": 143414
     },
     {
-        "name": "Sydney, 07",
+        "name": "Sydney, NS",
         "lat": 46.1351,
         "lng": -60.1831,
         "pop": 105968
     },
     {
-        "name": "Aylmer, 10",
+        "name": "Aylmer, QC",
         "lat": 45.4002,
         "lng": -75.80644,
         "pop": 56542
     },
     {
-        "name": "Hull, 10",
+        "name": "Hull, QC",
         "lat": 45.42761,
         "lng": -75.71056,
         "pop": 63702
     },
     {
-        "name": "Jonqui\u00e8re, 10",
+        "name": "Jonqui\u00e8re, QC",
         "lat": 48.41648,
         "lng": -71.24884,
         "pop": 54842
     },
     {
-        "name": "Orl\u00e9ans, 08",
+        "name": "Orl\u00e9ans, ON",
         "lat": 45.45732,
         "lng": -75.50433,
         "pop": 125937
     },
     {
-        "name": "Willowdale, 08",
+        "name": "Willowdale, ON",
         "lat": 43.76672,
         "lng": -79.39909,
         "pop": 79440
     },
     {
-        "name": "Lower Sackville, 07",
+        "name": "Lower Sackville, NS",
         "lat": 44.77599,
         "lng": -63.67865,
         "pop": 51749
     },
     {
-        "name": "La Haute-Saint-Charles, 10",
+        "name": "La Haute-Saint-Charles, QC",
         "lat": 46.89028,
         "lng": -71.37222,
         "pop": 88460
     },
     {
-        "name": "Downtown Vancouver, 02",
+        "name": "Downtown Vancouver, BC",
         "lat": 49.27784,
         "lng": -123.12794,
         "pop": 62030
     },
     {
-        "name": "Waterfront Communities-The Island, 08",
+        "name": "Waterfront Communities-The Island, ON",
         "lat": 43.63388,
         "lng": -79.3772,
         "pop": 65913
     },
     {
-        "name": "Willowdale East, 08",
+        "name": "Willowdale East, ON",
         "lat": 43.7706,
         "lng": -79.40148,
         "pop": 50434
     },
     {
-        "name": "East Hastings, 02",
+        "name": "East Hastings, BC",
         "lat": 49.27169,
         "lng": -123.06186,
         "pop": 80740
     },
     {
-        "name": "Le Plateau-Mont-Royal, 10",
+        "name": "Le Plateau-Mont-Royal, QC",
         "lat": 45.52833,
         "lng": -73.58081,
         "pop": 105813
     },
     {
-        "name": "Ville-Marie, 10",
+        "name": "Ville-Marie, QC",
         "lat": 45.49899,
         "lng": -73.57046,
         "pop": 104944
     },
     {
-        "name": "Le Sud-Ouest, 10",
+        "name": "Le Sud-Ouest, QC",
         "lat": 45.47187,
         "lng": -73.58986,
         "pop": 86347
     },
     {
-        "name": "Mercier\u2013Hochelaga-Maisonneuve, 10",
+        "name": "Mercier\u2013Hochelaga-Maisonneuve, QC",
         "lat": 45.57194,
         "lng": -73.54626,
         "pop": 142753
     },
     {
-        "name": "Montr\u00e9al-Nord, 10",
+        "name": "Montr\u00e9al-Nord, QC",
         "lat": 45.6016,
         "lng": -73.63063,
         "pop": 86857
     },
     {
-        "name": "Pierrefonds-Roxboro, 10",
+        "name": "Pierrefonds-Roxboro, QC",
         "lat": 45.5019,
         "lng": -73.8417,
         "pop": 73194
     },
     {
-        "name": "Rivi\u00e8re-des-Prairies\u2013Pointe-aux-Trembles, 10",
+        "name": "Rivi\u00e8re-des-Prairies\u2013Pointe-aux-Trembles, QC",
         "lat": 45.64064,
         "lng": -73.58463,
         "pop": 113868
     },
     {
-        "name": "Rosemont\u2013La Petite-Patrie, 10",
+        "name": "Rosemont\u2013La Petite-Patrie, QC",
         "lat": 45.53661,
         "lng": -73.60686,
         "pop": 146501
     },
     {
-        "name": "Villeray\u2013Saint-Michel\u2013Parc-Extension, 10",
+        "name": "Villeray\u2013Saint-Michel\u2013Parc-Extension, QC",
         "lat": 45.55869,
         "lng": -73.60535,
         "pop": 144814
     },
     {
-        "name": "Le Vieux-Longueuil, 10",
+        "name": "Le Vieux-Longueuil, QC",
         "lat": 45.53721,
         "lng": -73.50773,
         "pop": 135218
     },
     {
-        "name": "La Cit\u00e9-Limoilou, 10",
+        "name": "La Cit\u00e9-Limoilou, QC",
         "lat": 46.82894,
         "lng": -71.22641,
         "pop": 108415
     },
     {
-        "name": "Les Rivi\u00e8res, 10",
+        "name": "Les Rivi\u00e8res, QC",
         "lat": 46.81847,
         "lng": -71.272,
         "pop": 77000
     },
     {
-        "name": "Nutana Sector, 11",
+        "name": "Nutana Sector, SK",
         "lat": 52.09998,
         "lng": -106.63709,
         "pop": 72564
     },
     {
-        "name": "Lakewood, 11",
+        "name": "Lakewood, SK",
         "lat": 52.1085,
         "lng": -106.59027,
         "pop": 51237
     },
     {
-        "name": "University Heights, 11",
+        "name": "University Heights, SK",
         "lat": 52.14432,
         "lng": -106.57867,
         "pop": 51957
     },
     {
-        "name": "Confederation, 11",
+        "name": "Confederation, SK",
         "lat": 52.13912,
         "lng": -106.70356,
         "pop": 70192
