@@ -11,7 +11,7 @@ REGIONS = {
             'US', 'CA', 'MX', 'GT', 'CU', 'HT', 'DO', 'HN',
             'SV', 'NI', 'CR', 'PA', 'JM', 'BS', 'BZ', 'PR'
         },
-        'min_pop': 50000,
+        'min_pop': 100000,
         'state_in_label': {'US', 'CA'},
         'outfile': 'na_cities.json',
     },
@@ -26,7 +26,7 @@ REGIONS = {
         },
         # Trim Asian Russia and most of eastern Turkey by longitude.
         'max_lng': 60.0,
-        'min_pop': 50000,
+        'min_pop': 100000,
         'state_in_label': set(),
         'outfile': 'eu_cities.json',
     },
@@ -35,9 +35,49 @@ REGIONS = {
             'AR', 'BO', 'BR', 'CL', 'CO', 'EC', 'FK', 'GF', 'GY',
             'PE', 'PY', 'SR', 'UY', 'VE'
         },
-        'min_pop': 50000,
+        'min_pop': 100000,
         'state_in_label': set(),
         'outfile': 'sa_cities.json',
+    },
+    'af': {
+        'countries': {
+            'AO', 'BF', 'BI', 'BJ', 'BW', 'CD', 'CF', 'CG', 'CI', 'CM',
+            'CV', 'DJ', 'DZ', 'EG', 'EH', 'ER', 'ET', 'GA', 'GH', 'GM',
+            'GN', 'GQ', 'GW', 'KE', 'KM', 'LR', 'LS', 'LY', 'MA', 'MG',
+            'ML', 'MR', 'MU', 'MW', 'MZ', 'NA', 'NE', 'NG', 'RE', 'RW',
+            'SC', 'SD', 'SH', 'SL', 'SN', 'SO', 'SS', 'ST', 'SZ', 'TD',
+            'TG', 'TN', 'TZ', 'UG', 'YT', 'ZA', 'ZM', 'ZW'
+        },
+        'min_pop': 100000,
+        'state_in_label': set(),
+        'outfile': 'af_cities.json',
+    },
+    'as': {
+        'countries': {
+            'AE', 'AF', 'AM', 'AZ', 'BD', 'BH', 'BN', 'BT', 'CN', 'GE',
+            'HK', 'ID', 'IL', 'IN', 'IQ', 'IR', 'JO', 'JP', 'KG', 'KH',
+            'KP', 'KR', 'KW', 'KZ', 'LA', 'LB', 'LK', 'MM', 'MN', 'MO',
+            'MV', 'MY', 'NP', 'OM', 'PH', 'PK', 'PS', 'QA', 'SA', 'SG',
+            'SY', 'TH', 'TJ', 'TL', 'TM', 'TW', 'UZ', 'VN', 'YE',
+            # Asian Russia (eastern half), filtered by min_lng below.
+            'RU'
+        },
+        # Only keep Russian cities east of the Urals so we don't duplicate the
+        # European-Russia entries that already appear in the EU dataset.
+        'ru_min_lng': 60.0,
+        'min_pop': 100000,
+        'state_in_label': set(),
+        'outfile': 'as_cities.json',
+    },
+    'oc': {
+        'countries': {
+            'AS', 'AU', 'CK', 'FJ', 'FM', 'GU', 'KI', 'MH', 'MP', 'NC',
+            'NF', 'NR', 'NU', 'NZ', 'PF', 'PG', 'PN', 'PW', 'SB', 'TK',
+            'TO', 'TV', 'VU', 'WF', 'WS'
+        },
+        'min_pop': 100000,
+        'state_in_label': set(),
+        'outfile': 'oc_cities.json',
     },
 }
 
@@ -106,6 +146,8 @@ def build_region(lines, key, cfg):
         if population < cfg['min_pop']:
             continue
         if 'max_lng' in cfg and lng > cfg['max_lng']:
+            continue
+        if country == 'RU' and 'ru_min_lng' in cfg and lng < cfg['ru_min_lng']:
             continue
 
         if country in cfg['state_in_label'] and state_code:
