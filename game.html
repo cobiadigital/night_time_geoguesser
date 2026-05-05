@@ -93,8 +93,9 @@
 
     <div id="ui-panel">
         <div id="region-switch">
-            <a href="?region=na" data-region="na">North America</a>
+            <a href="?region=na" data-region="na">N. America</a>
             <a href="?region=eu" data-region="eu">Europe</a>
+            <a href="?region=sa" data-region="sa">S. America</a>
         </div>
         <div id="loading-status">Loading city database...</div>
         <button class="submit-btn" id="grade-btn" onclick="gradeGame()" disabled>Grade Map</button>
@@ -110,9 +111,11 @@
         // Region config
         const REGIONS = {
             na: { center: [39.8283, -98.5795], zoom: 4, file: 'na_cities.json', label: 'North America' },
-            eu: { center: [54.0, 15.0],        zoom: 4, file: 'eu_cities.json', label: 'Europe' }
+            eu: { center: [54.0, 15.0],        zoom: 4, file: 'eu_cities.json', label: 'Europe' },
+            sa: { center: [-15.0, -60.0],      zoom: 3, file: 'sa_cities.json', label: 'South America' }
         };
-        const regionKey = (new URLSearchParams(location.search).get('region') === 'eu') ? 'eu' : 'na';
+        const requestedRegion = new URLSearchParams(location.search).get('region');
+        const regionKey = REGIONS[requestedRegion] ? requestedRegion : 'na';
         const region = REGIONS[regionKey];
 
         document.title = `Nightfall Geographer: ${region.label}`;

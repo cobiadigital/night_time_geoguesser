@@ -30,6 +30,15 @@ REGIONS = {
         'state_in_label': set(),
         'outfile': 'eu_cities.json',
     },
+    'sa': {
+        'countries': {
+            'AR', 'BO', 'BR', 'CL', 'CO', 'EC', 'FK', 'GF', 'GY',
+            'PE', 'PY', 'SR', 'UY', 'VE'
+        },
+        'min_pop': 50000,
+        'state_in_label': set(),
+        'outfile': 'sa_cities.json',
+    },
 }
 
 # GeoNames stores Canadian admin1 as numeric FIPS codes; map to postal abbrs.
