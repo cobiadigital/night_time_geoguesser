@@ -131,7 +131,10 @@
     const REGIONS = {
         na: { center: [39.8283, -98.5795], zoom: 4, file: 'na_cities.json', label: 'North American' },
         eu: { center: [54.0, 15.0],        zoom: 4, file: 'eu_cities.json', label: 'European' },
-        sa: { center: [-15.0, -60.0],      zoom: 3, file: 'sa_cities.json', label: 'South American' }
+        sa: { center: [-15.0, -60.0],      zoom: 3, file: 'sa_cities.json', label: 'South American' },
+        af: { center: [0.0, 20.0],         zoom: 3, file: 'af_cities.json', label: 'African' },
+        as: { center: [30.0, 100.0],       zoom: 3, file: 'as_cities.json', label: 'Asian' },
+        oc: { center: [-25.0, 140.0],      zoom: 3, file: 'oc_cities.json', label: 'Oceanian' }
     };
     const requestedRegion = new URLSearchParams(location.search).get('region');
     const regionKey = REGIONS[requestedRegion] ? requestedRegion : 'na';
