@@ -102,11 +102,10 @@
     <span id="count-label">Loading...</span>
     <div id="filters">
         <button class="filter-btn active" data-min="0" onclick="setFilter(this)">All</button>
-        <button class="filter-btn" data-min="0" data-max="78630" onclick="setFilter(this)">&lt; 79k</button>
-        <button class="filter-btn" data-min="78630" data-max="137491" onclick="setFilter(this)">79k – 137k</button>
-        <button class="filter-btn" data-min="137491" data-max="292881" onclick="setFilter(this)">137k – 293k</button>
-        <button class="filter-btn" data-min="292881" data-max="812229" onclick="setFilter(this)">293k – 812k</button>
-        <button class="filter-btn" data-min="812229" onclick="setFilter(this)">&gt; 812k</button>
+        <button class="filter-btn" data-min="78630" onclick="setFilter(this)">&ge; 79k</button>
+        <button class="filter-btn" data-min="137491" onclick="setFilter(this)">&ge; 137k</button>
+        <button class="filter-btn" data-min="292881" onclick="setFilter(this)">&ge; 293k</button>
+        <button class="filter-btn" data-min="812229" onclick="setFilter(this)">&ge; 812k</button>
     </div>
 </div>
 
@@ -175,13 +174,11 @@
         document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
 
-        const isAll = !btn.dataset.max && btn.dataset.min === '0';
-        const min   = parseFloat(btn.dataset.min);
-        const max   = btn.dataset.max !== undefined ? parseFloat(btn.dataset.max) : Infinity;
+        const min = parseFloat(btn.dataset.min);
 
         let visible = 0;
         allMarkers.forEach(({ circle, pop }) => {
-            const show = isAll || (pop > min && pop <= max);
+            const show = pop >= min;
             if (show) { circle.addTo(map); visible++; }
             else map.removeLayer(circle);
         });
