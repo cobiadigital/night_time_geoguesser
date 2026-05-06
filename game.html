@@ -65,10 +65,31 @@
         button:disabled { background-color: #555; cursor: not-allowed; }
 
         .leaflet-popup-content-wrapper { background: rgba(30, 30, 30, 0.95); color: white; }
+        .leaflet-popup-content { margin: 14px 18px; min-width: 240px; }
         .leaflet-popup-tip { background: rgba(30, 30, 30, 0.95); }
         .popup-ui { text-align: center; }
-        .popup-ui input { width: 90%; padding: 6px; margin: 8px 0; border-radius: 4px; border: 1px solid #666; font-size: 16px; }
-        .popup-ui button { background: #2196F3; color: white; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; }
+        .popup-ui b { display: block; font-size: 1rem; margin-bottom: 8px; }
+        .popup-ui input {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 12px 10px;
+            margin: 6px 0 12px;
+            border-radius: 6px;
+            border: 1px solid #666;
+            font-size: 17px;
+            background: #1e1e1e;
+            color: #fff;
+        }
+        .popup-ui button {
+            background: #2196F3;
+            color: white;
+            border: none;
+            padding: 12px 22px;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+        }
         .popup-ui button:hover { background: #1976D2; }
 
         .city-label-tooltip { background: transparent; border: none; color: #FFEB3B; font-weight: bold; font-size: 18px; text-shadow: 1px 1px 3px black, 0 0 4px black; box-shadow: none; }
@@ -179,7 +200,7 @@
                 </div>
             `;
 
-            L.popup()
+            L.popup({ minWidth: 260, maxWidth: 320 })
                 .setLatLng(e.latlng)
                 .setContent(popupContent)
                 .openOn(map);
