@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>River Reckoner</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        html, body {
+            margin: 0; padding: 0; height: 100%;
+            font-family: sans-serif; background-color: #0a1820; color: white;
+            overscroll-behavior: none;
+            touch-action: none;
+        }
+        #map { height: 100vh; width: 100vw; background-color: #0a1820; touch-action: none; }
+
+        #ui-panel {
+            position: fixed;
+            top: env(safe-area-inset-top, 0);
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: calc(100vw - 24px);
+            box-sizing: border-box;
+            background: rgba(20, 20, 20, 0.92);
+            padding: 12px 20px 14px;
+            border: 1px solid #444;
+            border-top: none;
+            border-radius: 0 0 12px 12px;
+            z-index: 1000;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.8);
+            transition: transform 0.25s ease;
+        }
+        #ui-panel.collapsed { transform: translate(-50%, calc(-100% + 22px)); }
+
+        #collapse-toggle {
+            position: absolute;
+            bottom: -22px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 56px; height: 22px;
+            background: rgba(20, 20, 20, 0.92);
+            border: 1px solid #444;
+            border-top: none;
+            border-radius: 0 0 12px 12px;
+            color: #4FC3F7;
+            cursor: pointer;
+            padding: 0;
+            font-size: 14px;
+            line-height: 18px;
+        }
+
+        button.submit-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.05rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        button.submit-btn:hover { background-color: #45a049; }
+        button:disabled { background-color: #555; cursor: not-allowed; }
+
+        .leaflet-popup-content-wrapper { background: rgba(30, 30, 30, 0.95); color: white; }
+        .leaflet-popup-content { margin: 14px 18px; min-width: 240px; }
+        .leaflet-popup-tip { background: rgba(30, 30, 30, 0.95); }
+        .popup-ui { text-align: center; }
+        .popup-ui b { display: block; font-size: 1rem; margin-bottom: 8px; }
+        .popup-ui input {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 12px 10px;
+            margin: 6px 0 12px;
+            border-radius: 6px;
+            border: 1px solid #666;
+            font-size: 17px;
+            background: #1e1e1e;
+            color: #fff;
+        }
+        .popup-ui button {
+            background: #2196F3;
+            color: white;
+            border: none;
+            padding: 12px 22px;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        .popup-ui button:hover { background: #1976D2; }
+
+        .river-label-tooltip { background: transparent; border: none; color: #4FC3F7; font-weight: bold; font-size: 16px; text-shadow: 1px 1px 3px black, 0 0 4px black; box-shadow: none; }
+
+        #loading-status { margin-bottom: 10px; color: #FFC107; font-size: 0.9rem; }
+        #results { margin-top: 10px; font-size: 1.05rem; display: none; }
+    </style>
+</head>
+<body>
+
+    <div id="ui-panel">
+        <div id="loading-status">Loading river database...</div>
+        <button class="submit-btn" id="grade-btn" onclick="gradeGame()" disabled>Grade Map</button>
+        <div id="results"></div>
+        <button id="collapse-toggle" type="button" onclick="togglePanel()" aria-label="Hide panel">▲</button>
+    </div>
+
+    <div id="map"></div>
+    <datalist id="river-names"></datalist>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        const REGIONS = {
+            na: { center: [39.8283, -98.5795], zoom: 4, file: 'na_rivers.json', label: 'North America' },
+            eu: { center: [54.0, 15.0],        zoom: 4, file: 'eu_rivers.json', label: 'Europe' },
+            sa: { center: [-15.0, -60.0],      zoom: 3, file: 'sa_rivers.json', label: 'South America' },
+            af: { center: [0.0, 20.0],         zoom: 3, file: 'af_rivers.json', label: 'Africa' },
+            as: { center: [30.0, 100.0],       zoom: 3, file: 'as_rivers.json', label: 'Asia' },
+            oc: { center: [-25.0, 140.0],      zoom: 3, file: 'oc_rivers.json', label: 'Oceania' }
+        };
+        const requestedRegion = new URLSearchParams(location.search).get('region');
+        const regionKey = REGIONS[requestedRegion] ? requestedRegion : 'na';
+        const region = REGIONS[regionKey];
+
+        document.title = `River Reckoner: ${region.label}`;
+
+        const map = L.map('map', {
+            center: region.center,
+            zoom: region.zoom,
+            minZoom: 2,
+            maxZoom: 10
+        });
+
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri &mdash; Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community',
+            maxZoom: 18
+        }).addTo(map);
+
+        // Game State
+        let rivers = [];                  // [{name, scalerank, segments, polylines:[]}]
+        let riversByName = new Map();     // lowercase name -> river entry
+        let guesses = [];                 // [{lat,lng,guessedName,marker}]
+        let activePopupLatLng = null;
+        let graded = false;
+
+        const RIVER_DEFAULT_STYLE = { color: '#4FC3F7', weight: 1.8, opacity: 0.85 };
+        const RIVER_CORRECT_STYLE = { color: '#4CAF50', weight: 4, opacity: 1 };
+        const RIVER_WRONG_STYLE   = { color: '#F44336', weight: 4, opacity: 1 };
+
+        fetch(region.file)
+            .then(r => { if (!r.ok) throw new Error('Network error'); return r.json(); })
+            .then(data => {
+                rivers = data;
+                const dataList = document.getElementById('river-names');
+                const seen = new Set();
+
+                rivers.forEach(river => {
+                    river.polylines = river.segments.map(seg =>
+                        L.polyline(seg, RIVER_DEFAULT_STYLE).addTo(map)
+                    );
+                    riversByName.set(river.name.toLowerCase(), river);
+
+                    if (!seen.has(river.name)) {
+                        seen.add(river.name);
+                        const opt = document.createElement('option');
+                        opt.value = river.name;
+                        dataList.appendChild(opt);
+                    }
+                });
+
+                document.getElementById('loading-status').innerText = `${rivers.length} rivers loaded!`;
+                document.getElementById('loading-status').style.color = '#4CAF50';
+                document.getElementById('grade-btn').disabled = false;
+            })
+            .catch(err => {
+                console.error(err);
+                document.getElementById('loading-status').innerText = 'Error loading rivers. Are you running a local server?';
+                document.getElementById('loading-status').style.color = '#F44336';
+            });
+
+        // Haversine distance in miles between two lat/lng pairs.
+        function haversineMiles(lat1, lon1, lat2, lon2) {
+            const R = 3958.8;
+            const dLat = (lat2 - lat1) * Math.PI / 180;
+            const dLon = (lon2 - lon1) * Math.PI / 180;
+            const a = Math.sin(dLat/2) ** 2 +
+                      Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                      Math.sin(dLon/2) ** 2;
+            return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+        }
+
+        // Min distance (miles) from a point to any vertex of any segment of a river.
+        // Vertices are simplified to ~3 miles apart, so this is accurate within that.
+        function distanceToRiver(lat, lng, river) {
+            let best = Infinity;
+            for (const seg of river.segments) {
+                for (const [plat, plng] of seg) {
+                    const d = haversineMiles(lat, lng, plat, plng);
+                    if (d < best) best = d;
+                }
+            }
+            return best;
+        }
+
+        map.on('click', function(e) {
+            if (graded || rivers.length === 0) return;
+
+            activePopupLatLng = e.latlng;
+            const popupContent = `
+                <div class="popup-ui">
+                    <b>Identify this river:</b><br>
+                    <input type="text" id="river-input" list="river-names" placeholder="Start typing a river..." autocomplete="off">
+                    <br>
+                    <button onclick="saveLabel()">Save Label</button>
+                </div>
+            `;
+            L.popup({ minWidth: 260, maxWidth: 320 })
+                .setLatLng(e.latlng)
+                .setContent(popupContent)
+                .openOn(map);
+
+            setTimeout(() => document.getElementById('river-input').focus(), 100);
+        });
+
+        window.saveLabel = function() {
+            const inputVal = document.getElementById('river-input').value.trim();
+            if (!inputVal) return;
+
+            const marker = L.circleMarker(activePopupLatLng, {
+                color: '#2196F3', radius: 5, fillOpacity: 0.9, weight: 2
+            }).addTo(map);
+
+            marker.bindTooltip(inputVal, {
+                permanent: true, direction: 'right', className: 'river-label-tooltip'
+            }).openTooltip();
+
+            guesses.push({
+                lat: activePopupLatLng.lat,
+                lng: activePopupLatLng.lng,
+                guessedName: inputVal,
+                marker: marker
+            });
+            map.closePopup();
+        };
+
+        window.gradeGame = function() {
+            if (guesses.length === 0) {
+                alert("You haven't labeled any rivers yet!");
+                return;
+            }
+
+            const thresholdMiles = 25;
+            let correctCount = 0;
+
+            guesses.forEach(guess => {
+                const river = riversByName.get(guess.guessedName.toLowerCase());
+                if (!river) {
+                    guess.marker.setStyle({ color: '#9E9E9E' });
+                    guess.marker.bindPopup(`No river named "${guess.guessedName}" in this region.`);
+                    return;
+                }
+
+                const dist = distanceToRiver(guess.lat, guess.lng, river);
+
+                if (dist <= thresholdMiles) {
+                    correctCount++;
+                    guess.marker.setStyle({ color: '#4CAF50' });
+                    river.polylines.forEach(p => p.setStyle(RIVER_CORRECT_STYLE).bringToFront());
+                } else {
+                    guess.marker.setStyle({ color: '#F44336' });
+                    river.polylines.forEach(p => p.setStyle(RIVER_WRONG_STYLE).bringToFront());
+                    guess.marker.bindPopup(
+                        `Nearest point of the ${river.name} is ${Math.round(dist)} miles away.`
+                    ).openPopup();
+                }
+            });
+
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.style.display = 'block';
+            resultsDiv.innerHTML = `You correctly labeled <span style="color:#4CAF50; font-weight:bold;">${correctCount}</span> out of ${guesses.length} attempts!`;
+
+            graded = true;
+            document.getElementById('grade-btn').disabled = true;
+        };
+
+        window.togglePanel = function() {
+            const panel = document.getElementById('ui-panel');
+            const toggle = document.getElementById('collapse-toggle');
+            const collapsed = panel.classList.toggle('collapsed');
+            toggle.textContent = collapsed ? '▼' : '▲';
+            toggle.setAttribute('aria-label', collapsed ? 'Show panel' : 'Hide panel');
+        };
+    </script>
+</body>
+</html>
