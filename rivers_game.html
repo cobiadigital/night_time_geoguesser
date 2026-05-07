@@ -133,11 +133,12 @@
             preferCanvas: true
         });
 
-        // Esri World Terrain Base: shaded relief + lakes in soft blue, no labels.
-        // River polylines use a matching blue family so they read as the same
-        // hydrography as the lakes the basemap draws between them.
-        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}', {
-            attribution: 'Tiles &copy; Esri &mdash; Source: USGS, Esri, TANA, DeLorme, and NPS'
+        // Esri World Physical Map: painterly natural-look raster with shaded
+        // relief and hydrography baked in, no labels. River polylines use a
+        // matching blue family so they read as the same hydrography as the
+        // lakes/rivers already drawn in the basemap.
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri &mdash; Source: US National Park Service'
         }).addTo(map);
 
         // Game State

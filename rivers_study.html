@@ -149,9 +149,10 @@
         preferCanvas: true
     });
 
-    // Esri World Terrain Base: shaded relief + lakes in soft blue, no labels.
-    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}', {
-        attribution: 'Tiles &copy; Esri &mdash; Source: USGS, Esri, TANA, DeLorme, and NPS'
+    // Esri World Physical Map: painterly natural-look raster, hydrography
+    // drawn in, no labels.
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Source: US National Park Service'
     }).addTo(map);
 
     function styleFor(rank) {
