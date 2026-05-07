@@ -115,9 +115,9 @@
 
 <div id="legend">
     <h4>River Importance</h4>
-    <div class="legend-row"><div class="legend-line" style="border-top:5px solid #4FC3F7;"></div> Top tier (rank 0–2)</div>
-    <div class="legend-row"><div class="legend-line" style="border-top:3px solid #4FC3F7;"></div> Major (rank 3–5)</div>
-    <div class="legend-row"><div class="legend-line" style="border-top:1.5px solid #4FC3F7;"></div> Minor (rank 6–7)</div>
+    <div class="legend-row"><div class="legend-line" style="border-top:5px solid #7DD3FC;"></div> Top tier (rank 0–2)</div>
+    <div class="legend-row"><div class="legend-line" style="border-top:3.5px solid #7DD3FC;"></div> Major (rank 3–5)</div>
+    <div class="legend-row"><div class="legend-line" style="border-top:2.4px solid #7DD3FC;"></div> Tributaries (rank 6+)</div>
 </div>
 
 <div id="map"></div>
@@ -154,16 +154,18 @@
         maxZoom: 18
     }).addTo(map);
 
+    const RIVER_HALO_STYLE = { color: '#0a1820', weight: 4.5, opacity: 0.6 };
+
     function styleFor(rank) {
-        if (rank <= 2) return { color: '#4FC3F7', weight: 5, opacity: 0.95 };
-        if (rank <= 5) return { color: '#4FC3F7', weight: 3, opacity: 0.9 };
-        return { color: '#4FC3F7', weight: 1.6, opacity: 0.8 };
+        if (rank <= 2) return { color: '#7DD3FC', weight: 5,   opacity: 1 };
+        if (rank <= 5) return { color: '#7DD3FC', weight: 3.5, opacity: 1 };
+        return { color: '#7DD3FC', weight: 2.4, opacity: 1 };
     }
     function hoverStyle(base) {
         return { ...base, color: '#FFEB3B', weight: base.weight + 1.5, opacity: 1 };
     }
 
-    let allRivers = []; // [{river, polylines, base, rank}]
+    let allRivers = []; // [{river, polylines, halos, base, rank}]
 
     function setFilter(btn) {
         document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
@@ -173,7 +175,7 @@
         let visible = 0;
         allRivers.forEach(item => {
             const show = item.rank <= maxRank;
-            item.polylines.forEach(p => {
+            [...item.halos, ...item.polylines].forEach(p => {
                 if (show) p.addTo(map);
                 else map.removeLayer(p);
             });
@@ -191,7 +193,9 @@
             rivers.forEach(river => {
                 const rank = river.scalerank;
                 const base = styleFor(rank);
+                const halos = [];
                 const polylines = river.segments.map(seg => {
+                    halos.push(L.polyline(seg, RIVER_HALO_STYLE).addTo(map));
                     const p = L.polyline(seg, base).addTo(map);
 
                     p.on('mouseover', () => polylines.forEach(q => q.setStyle(hoverStyle(base)).bringToFront()));
@@ -211,7 +215,7 @@
                     });
                     return p;
                 });
-                allRivers.push({ river, polylines, base, rank });
+                allRivers.push({ river, polylines, halos, base, rank });
             });
         })
         .catch(err => {
