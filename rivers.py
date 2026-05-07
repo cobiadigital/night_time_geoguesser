@@ -1,30 +1,37 @@
 """Build per-region river datasets from Natural Earth.
 
-Mirrors the structure of cities.py: downloads a single source file, splits
-features by continent, and writes one JSON per region for the front-end.
+Combines the global rivers file with regional supplementary files (which add
+tributaries and finer detail). Segments from any source merge under the same
+river name so the resulting polylines connect end-to-end where Natural Earth
+draws them connected.
 """
 import json
 import urllib.request
 
-URL = (
+NE_BASE = (
     "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/"
-    "master/geojson/ne_10m_rivers_lake_centerlines.geojson"
+    "master/geojson/"
 )
+
+# Global file. Region is decided per-feature by centroid. scalerank goes 0..10
+# (lower = more prominent); 9 keeps even modest tributaries.
+GLOBAL_URL = NE_BASE + "ne_10m_rivers_lake_centerlines.geojson"
+GLOBAL_MAX_SCALERANK = 9
+
+# Regional supplementary files. Their scaleranks live on a different axis
+# (10..13) and are all small/local rivers; we trust the file's region rather
+# than recomputing from centroid.
+REGIONAL_SOURCES = [
+    {'region': 'na', 'file': 'ne_10m_rivers_north_america.geojson', 'max_sr': 11},
+    {'region': 'eu', 'file': 'ne_10m_rivers_europe.geojson',        'max_sr': 11},
+    {'region': 'oc', 'file': 'ne_10m_rivers_australia.geojson',     'max_sr': 12},
+]
 
 REGIONS = ['na', 'eu', 'sa', 'af', 'as', 'oc']
 
-# Drop any river whose Natural Earth scalerank is greater than this. Lower
-# numbers are more prominent (Amazon = 0, Nile = 1). 7 keeps a few hundred
-# named rivers worldwide.
-MAX_SCALERANK = 7
-
 
 def assign_region(lat, lng):
-    """Pick a continental region for the centroid of a river.
-
-    Order matters; the first matching box wins. The 60 E cap on Europe matches
-    cities.py so that we don't pull Asian Russia into the European list.
-    """
+    """Pick a continental region for a centroid; first match wins."""
     if -40 <= lat <= 38 and -20 <= lng <= 55:
         return 'af'
     if -60 <= lat <= 15 and -85 <= lng <= -30:
@@ -42,7 +49,6 @@ def assign_region(lat, lng):
 
 
 def simplify(coords, tol=0.05):
-    """Distance-thin a polyline (degrees) to keep JSON small."""
     if len(coords) < 4:
         return coords
     out = [coords[0]]
@@ -54,68 +60,101 @@ def simplify(coords, tol=0.05):
     return out
 
 
-def fetch_geojson():
-    print(f"Downloading {URL}")
-    with urllib.request.urlopen(URL) as resp:
+def fetch(url):
+    print(f"Downloading {url}")
+    with urllib.request.urlopen(url) as resp:
         return json.load(resp)
 
 
-def main():
-    data = fetch_geojson()
+def feature_lines(feat):
+    g = feat['geometry']
+    if g['type'] == 'LineString':
+        return [g['coordinates']]
+    if g['type'] == 'MultiLineString':
+        return g['coordinates']
+    return []
 
-    by_name = {}
-    for feat in data['features']:
-        props = feat['properties']
-        if props.get('featurecla') == 'Lake Centerline':
+
+def to_latlng(line):
+    return [[round(p[1], 4), round(p[0], 4)] for p in line]
+
+
+def add(by_region, region, name, sr, lines):
+    bucket = by_region.setdefault(region, {})
+    entry = bucket.setdefault(name, {'scalerank': sr, 'segments': []})
+    entry['scalerank'] = min(entry['scalerank'], int(sr))
+    for line in lines:
+        entry['segments'].append(simplify(to_latlng(line)))
+
+
+def feature_name(props):
+    return props.get('name') or props.get('name_en')
+
+
+def main():
+    by_region = {r: {} for r in REGIONS}
+
+    # 1. Global file - centroid decides the region.
+    skipped_global = 0
+    for feat in fetch(GLOBAL_URL)['features']:
+        p = feat['properties']
+        if p.get('featurecla') == 'Lake Centerline':
             continue
-        name = props.get('name') or props.get('name_en')
+        name = feature_name(p)
         if not name:
             continue
-        scalerank = props.get('scalerank')
-        if scalerank is None or scalerank > MAX_SCALERANK:
+        sr = p.get('scalerank')
+        if sr is None or sr > GLOBAL_MAX_SCALERANK:
             continue
-
-        geom = feat['geometry']
-        if geom['type'] == 'LineString':
-            lines = [geom['coordinates']]
-        elif geom['type'] == 'MultiLineString':
-            lines = geom['coordinates']
-        else:
+        lines = feature_lines(feat)
+        if not lines:
             continue
-
-        entry = by_name.setdefault(name, {'segments': [], 'scalerank': scalerank})
-        entry['scalerank'] = min(entry['scalerank'], int(scalerank))
-        for line in lines:
-            # GeoJSON stores [lng, lat]; Leaflet wants [lat, lng].
-            ll = [[round(p[1], 4), round(p[0], 4)] for p in line]
-            entry['segments'].append(simplify(ll))
-
-    regional = {r: [] for r in REGIONS}
-    skipped = 0
-    for name, info in by_name.items():
-        points = [p for seg in info['segments'] for p in seg]
-        if not points:
-            continue
-        lat = sum(p[0] for p in points) / len(points)
-        lng = sum(p[1] for p in points) / len(points)
+        pts = [pt for line in lines for pt in line]
+        lat = sum(pt[1] for pt in pts) / len(pts)
+        lng = sum(pt[0] for pt in pts) / len(pts)
         region = assign_region(lat, lng)
         if region is None:
-            skipped += 1
+            skipped_global += 1
             continue
-        regional[region].append({
-            'name': name,
-            'scalerank': info['scalerank'],
-            'segments': info['segments'],
-        })
+        add(by_region, region, name, sr, lines)
 
-    for region, rivers in regional.items():
+    # 2. Regional supplementary files - source determines the region.
+    for src in REGIONAL_SOURCES:
+        data = fetch(NE_BASE + src['file'])
+        before = len(by_region[src['region']])
+        added_features = 0
+        for feat in data['features']:
+            p = feat['properties']
+            if p.get('featurecla') == 'Lake Centerline':
+                continue
+            name = feature_name(p)
+            if not name:
+                continue
+            sr = p.get('scalerank')
+            if sr is None or sr > src['max_sr']:
+                continue
+            lines = feature_lines(feat)
+            if not lines:
+                continue
+            add(by_region, src['region'], name, sr, lines)
+            added_features += 1
+        gained = len(by_region[src['region']]) - before
+        print(f"  +{added_features} features ({gained} new river names) -> {src['region']}")
+
+    # 3. Write per-region JSONs.
+    for region in REGIONS:
+        rivers = [
+            {'name': n, 'scalerank': info['scalerank'], 'segments': info['segments']}
+            for n, info in by_region[region].items()
+        ]
         rivers.sort(key=lambda r: (r['scalerank'], r['name']))
         outfile = f'{region}_rivers.json'
         with open(outfile, 'w', encoding='utf-8') as f:
             json.dump(rivers, f, separators=(',', ':'))
-        print(f"Saved {len(rivers):3d} rivers to {outfile}")
-    if skipped:
-        print(f"Skipped {skipped} rivers outside any region box.")
+        seg_count = sum(len(r['segments']) for r in rivers)
+        print(f"Saved {len(rivers):4d} rivers / {seg_count:5d} segments to {outfile}")
+    if skipped_global:
+        print(f"(Skipped {skipped_global} global features outside any region box.)")
 
 
 if __name__ == '__main__':

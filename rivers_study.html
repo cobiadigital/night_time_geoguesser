@@ -145,7 +145,8 @@
         center: region.center,
         zoom: region.zoom,
         minZoom: 2,
-        maxZoom: 12
+        maxZoom: 12,
+        preferCanvas: true
     });
 
     L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
