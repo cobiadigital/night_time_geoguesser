@@ -145,8 +145,9 @@
         // Game State
         let rivers = [];                  // [{name, scalerank, segments, polylines:[], state}]
         let riversByName = new Map();     // lowercase name -> river entry
-        let guesses = [];                 // [{lat,lng,guessedName,marker,river}]
+        let guesses = [];                 // [{lat,lng,guessedName,marker,selectedRiver,guessedRiver}]
         let activePopupLatLng = null;
+        let activeSelectedRiver = null;   // river under the most recent click (target for grading)
         let highlightedRiver = null;      // river with the white "you clicked here" style
         let graded = false;
 
@@ -276,14 +277,16 @@
                 showRiver(nearest);
                 nearest.polylines.forEach(p => p.setStyle(RIVER_SELECTED_STYLE).bringToFront());
                 highlightedRiver = nearest;
+                return nearest;
             }
+            return null;
         }
 
         map.on('click', function(e) {
             if (graded || rivers.length === 0) return;
 
             activePopupLatLng = e.latlng;
-            highlightNearest(e.latlng);
+            activeSelectedRiver = highlightNearest(e.latlng);
             const popupContent = `
                 <div class="popup-ui">
                     <b>Identify this river:</b><br>
@@ -312,11 +315,15 @@
                 permanent: true, direction: 'right', className: 'river-label-tooltip'
             }).openTooltip();
 
-            const river = riversByName.get(inputVal.toLowerCase()) || null;
-            if (river) {
-                river.state = 'labeled';
-                river.pinned = true;
-                showRiver(river);
+            const guessedRiver = riversByName.get(inputVal.toLowerCase()) || null;
+            const selectedRiver = activeSelectedRiver;
+
+            // Pin the *selected* (clicked-on) river so it stays visible at any
+            // zoom and shows the labeled tint until it's graded.
+            if (selectedRiver) {
+                selectedRiver.state = 'labeled';
+                selectedRiver.pinned = true;
+                showRiver(selectedRiver);
             }
 
             guesses.push({
@@ -324,11 +331,13 @@
                 lng: activePopupLatLng.lng,
                 guessedName: inputVal,
                 marker: marker,
-                river: river
+                selectedRiver: selectedRiver,
+                guessedRiver: guessedRiver
             });
 
             clearHighlight();   // restores selected river to its state (default or labeled)
-            if (river) applyState(river);   // ensure labeled tint sticks
+            if (selectedRiver) applyState(selectedRiver);   // ensure labeled tint sticks
+            activeSelectedRiver = null;
             map.closePopup();
         };
 
@@ -339,32 +348,35 @@
             }
 
             clearHighlight();
-            const thresholdMiles = 25;
             let correctCount = 0;
 
             guesses.forEach(guess => {
-                const river = guess.river;
-                if (!river) {
+                // The river to grade is the one the user originally clicked
+                // closest to, NOT whichever river the typed name resolves to.
+                const sel = guess.selectedRiver;
+
+                if (!sel) {
+                    // Click landed too far from any river to pick a target.
                     guess.marker.setStyle({ color: '#9E9E9E' });
-                    guess.marker.bindPopup(`No river named "${guess.guessedName}" in this region.`);
+                    guess.marker.bindPopup(`No river within ${HIGHLIGHT_MAX_MILES} miles of this spot.`);
                     return;
                 }
 
-                const dist = distanceToRiver(guess.lat, guess.lng, river);
-
-                if (dist <= thresholdMiles) {
+                const correct = guess.guessedRiver === sel;
+                if (correct) {
                     correctCount++;
                     guess.marker.setStyle({ color: '#4CAF50' });
-                    river.state = 'correct';
+                    sel.state = 'correct';
                 } else {
                     guess.marker.setStyle({ color: '#F44336' });
-                    river.state = 'wrong';
-                    guess.marker.bindPopup(
-                        `Nearest point of the ${river.name} is ${Math.round(dist)} miles away.`
-                    ).openPopup();
+                    sel.state = 'wrong';
+                    const detail = guess.guessedRiver
+                        ? `, not the ${guess.guessedName}.`
+                        : `; "${guess.guessedName}" isn't a river in this region.`;
+                    guess.marker.bindPopup(`That's the <b>${sel.name}</b>${detail}`).openPopup();
                 }
-                applyState(river);
-                river.polylines.forEach(p => p.bringToFront());
+                applyState(sel);
+                sel.polylines.forEach(p => p.bringToFront());
             });
 
             const resultsDiv = document.getElementById('results');
