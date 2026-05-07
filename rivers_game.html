@@ -142,11 +142,16 @@
         let riversByName = new Map();     // lowercase name -> river entry
         let guesses = [];                 // [{lat,lng,guessedName,marker}]
         let activePopupLatLng = null;
+        let highlightedRiver = null;      // river with the white "you clicked here" style
         let graded = false;
 
-        const RIVER_DEFAULT_STYLE = { color: '#4FC3F7', weight: 1.8, opacity: 0.85 };
-        const RIVER_CORRECT_STYLE = { color: '#4CAF50', weight: 4, opacity: 1 };
-        const RIVER_WRONG_STYLE   = { color: '#F44336', weight: 4, opacity: 1 };
+        const RIVER_DEFAULT_STYLE  = { color: '#4FC3F7', weight: 1.8, opacity: 0.85 };
+        const RIVER_SELECTED_STYLE = { color: '#FFFFFF', weight: 4,   opacity: 1 };
+        const RIVER_CORRECT_STYLE  = { color: '#4CAF50', weight: 4,   opacity: 1 };
+        const RIVER_WRONG_STYLE    = { color: '#F44336', weight: 4,   opacity: 1 };
+        // Don't highlight a "nearest" river if the click was farther than this
+        // (avoids lighting up some far-off river when the user clicks in open ocean).
+        const HIGHLIGHT_MAX_MILES = 75;
 
         fetch(region.file)
             .then(r => { if (!r.ok) throw new Error('Network error'); return r.json(); })
@@ -203,10 +208,30 @@
             return best;
         }
 
+        function clearHighlight() {
+            if (!highlightedRiver) return;
+            highlightedRiver.polylines.forEach(p => p.setStyle(RIVER_DEFAULT_STYLE));
+            highlightedRiver = null;
+        }
+
+        function highlightNearest(latlng) {
+            let nearest = null, best = Infinity;
+            for (const river of rivers) {
+                const d = distanceToRiver(latlng.lat, latlng.lng, river);
+                if (d < best) { best = d; nearest = river; }
+            }
+            clearHighlight();
+            if (nearest && best <= HIGHLIGHT_MAX_MILES) {
+                nearest.polylines.forEach(p => p.setStyle(RIVER_SELECTED_STYLE).bringToFront());
+                highlightedRiver = nearest;
+            }
+        }
+
         map.on('click', function(e) {
             if (graded || rivers.length === 0) return;
 
             activePopupLatLng = e.latlng;
+            highlightNearest(e.latlng);
             const popupContent = `
                 <div class="popup-ui">
                     <b>Identify this river:</b><br>
@@ -241,6 +266,7 @@
                 guessedName: inputVal,
                 marker: marker
             });
+            clearHighlight();
             map.closePopup();
         };
 
@@ -250,6 +276,7 @@
                 return;
             }
 
+            clearHighlight();
             const thresholdMiles = 25;
             let correctCount = 0;
 
