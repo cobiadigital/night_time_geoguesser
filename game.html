@@ -65,25 +65,34 @@
         button:disabled { background-color: #555; cursor: not-allowed; }
 
         .leaflet-popup-content-wrapper { background: rgba(30, 30, 30, 0.95); color: white; }
+        .leaflet-popup-content { margin: 14px 18px; min-width: 240px; }
         .leaflet-popup-tip { background: rgba(30, 30, 30, 0.95); }
         .popup-ui { text-align: center; }
-        .popup-ui input { width: 90%; padding: 6px; margin: 8px 0; border-radius: 4px; border: 1px solid #666; font-size: 16px; }
-        .popup-ui button { background: #2196F3; color: white; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; }
+        .popup-ui b { display: block; font-size: 1rem; margin-bottom: 8px; }
+        .popup-ui input {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 12px 10px;
+            margin: 6px 0 12px;
+            border-radius: 6px;
+            border: 1px solid #666;
+            font-size: 17px;
+            background: #1e1e1e;
+            color: #fff;
+        }
+        .popup-ui button {
+            background: #2196F3;
+            color: white;
+            border: none;
+            padding: 12px 22px;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+        }
         .popup-ui button:hover { background: #1976D2; }
 
         .city-label-tooltip { background: transparent; border: none; color: #FFEB3B; font-weight: bold; font-size: 18px; text-shadow: 1px 1px 3px black, 0 0 4px black; box-shadow: none; }
-
-        #region-switch { margin-bottom: 8px; display: flex; gap: 6px; justify-content: center; }
-        #region-switch a {
-            background: rgba(255,255,255,0.08);
-            border: 1px solid #555;
-            color: #bbb;
-            padding: 3px 10px;
-            border-radius: 20px;
-            font-size: 0.78rem;
-            text-decoration: none;
-        }
-        #region-switch a.active { background: rgba(255,235,59,0.2); border-color: #FFEB3B; color: #FFEB3B; font-weight: bold; }
 
         #loading-status { margin-bottom: 10px; color: #FFC107; font-size: 0.9rem; }
         #results { margin-top: 10px; font-size: 1.05rem; display: none; }
@@ -92,11 +101,6 @@
 <body>
 
     <div id="ui-panel">
-        <div id="region-switch">
-            <a href="?region=na" data-region="na">N. America</a>
-            <a href="?region=eu" data-region="eu">Europe</a>
-            <a href="?region=sa" data-region="sa">S. America</a>
-        </div>
         <div id="loading-status">Loading city database...</div>
         <button class="submit-btn" id="grade-btn" onclick="gradeGame()" disabled>Grade Map</button>
         <div id="results"></div>
@@ -122,9 +126,6 @@
         const region = REGIONS[regionKey];
 
         document.title = `Nightfall Geographer: ${region.label}`;
-        document.querySelectorAll('#region-switch a').forEach(a => {
-            if (a.dataset.region === regionKey) a.classList.add('active');
-        });
 
         // Initialize map
         const map = L.map('map', {
@@ -199,7 +200,7 @@
                 </div>
             `;
 
-            L.popup()
+            L.popup({ minWidth: 260, maxWidth: 320 })
                 .setLatLng(e.latlng)
                 .setContent(popupContent)
                 .openOn(map);
