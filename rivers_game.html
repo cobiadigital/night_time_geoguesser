@@ -8,11 +8,11 @@
     <style>
         html, body {
             margin: 0; padding: 0; height: 100%;
-            font-family: sans-serif; background-color: #0a1820; color: white;
+            font-family: sans-serif; background-color: #cdd0c4; color: white;
             overscroll-behavior: none;
             touch-action: none;
         }
-        #map { height: 100vh; width: 100vw; background-color: #0a1820; touch-action: none; }
+        #map { height: 100vh; width: 100vw; background-color: #cdd0c4; touch-action: none; }
 
         #ui-panel {
             position: fixed;
@@ -91,7 +91,7 @@
         }
         .popup-ui button:hover { background: #1976D2; }
 
-        .river-label-tooltip { background: transparent; border: none; color: #4FC3F7; font-weight: bold; font-size: 16px; text-shadow: 1px 1px 3px black, 0 0 4px black; box-shadow: none; }
+        .river-label-tooltip { background: transparent; border: none; color: #FFC107; font-weight: bold; font-size: 16px; text-shadow: 1px 1px 3px black, 0 0 4px black; box-shadow: none; }
 
         #loading-status { margin-bottom: 10px; color: #FFC107; font-size: 0.9rem; }
         #results { margin-top: 10px; font-size: 1.05rem; display: none; }
@@ -129,31 +129,43 @@
             center: region.center,
             zoom: region.zoom,
             minZoom: 2,
-            maxZoom: 10,
+            maxZoom: 8,
             preferCanvas: true
         });
 
-        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-            attribution: 'Tiles &copy; Esri &mdash; Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community',
-            maxZoom: 18
+        // Esri World Terrain Base: shaded relief + lakes in soft blue, no labels.
+        // River polylines use a matching blue family so they read as the same
+        // hydrography as the lakes the basemap draws between them.
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri &mdash; Source: USGS, Esri, TANA, DeLorme, and NPS'
         }).addTo(map);
 
         // Game State
-        let rivers = [];                  // [{name, scalerank, segments, polylines:[]}]
+        let rivers = [];                  // [{name, scalerank, segments, polylines:[], state}]
         let riversByName = new Map();     // lowercase name -> river entry
-        let guesses = [];                 // [{lat,lng,guessedName,marker}]
+        let guesses = [];                 // [{lat,lng,guessedName,marker,river}]
         let activePopupLatLng = null;
         let highlightedRiver = null;      // river with the white "you clicked here" style
         let graded = false;
 
-        const RIVER_HALO_STYLE     = { color: '#0a1820', weight: 4.2, opacity: 0.65 };
-        const RIVER_DEFAULT_STYLE  = { color: '#7DD3FC', weight: 2,   opacity: 1 };
+        const RIVER_DEFAULT_STYLE  = { color: '#1F6B92', weight: 2.2, opacity: 1 };
         const RIVER_SELECTED_STYLE = { color: '#FFFFFF', weight: 3.5, opacity: 1 };
+        const RIVER_LABELED_STYLE  = { color: '#FFC107', weight: 2.8, opacity: 1 };
         const RIVER_CORRECT_STYLE  = { color: '#4CAF50', weight: 3.5, opacity: 1 };
         const RIVER_WRONG_STYLE    = { color: '#F44336', weight: 3.5, opacity: 1 };
         // Don't highlight a "nearest" river if the click was farther than this
         // (avoids lighting up some far-off river when the user clicks in open ocean).
         const HIGHLIGHT_MAX_MILES = 75;
+
+        // At each zoom level, only show rivers whose Natural Earth scalerank
+        // is at most this. Lower scalerank = more prominent river.
+        function rankAllowedAtZoom(z) {
+            if (z <= 3) return 4;
+            if (z <= 4) return 6;
+            if (z <= 5) return 8;
+            if (z <= 6) return 10;
+            return 99;
+        }
 
         fetch(region.file)
             .then(r => { if (!r.ok) throw new Error('Network error'); return r.json(); })
@@ -163,13 +175,11 @@
                 const seen = new Set();
 
                 rivers.forEach(river => {
-                    // Each segment gets a dark halo drawn first, then a bright
-                    // core polyline on top. Only cores are restyled on
-                    // select/grade; halos stay put.
-                    river.polylines = river.segments.map(seg => {
-                        L.polyline(seg, RIVER_HALO_STYLE).addTo(map);
-                        return L.polyline(seg, RIVER_DEFAULT_STYLE).addTo(map);
-                    });
+                    river.state = 'default';   // 'default' | 'labeled' | 'correct' | 'wrong'
+                    river.pinned = false;      // labeled or graded rivers stay visible at all zooms
+                    river.polylines = river.segments.map(seg =>
+                        L.polyline(seg, RIVER_DEFAULT_STYLE)
+                    );
                     riversByName.set(river.name.toLowerCase(), river);
 
                     if (!seen.has(river.name)) {
@@ -179,6 +189,9 @@
                         dataList.appendChild(opt);
                     }
                 });
+
+                updateZoomVisibility();
+                map.on('zoomend', updateZoomVisibility);
 
                 document.getElementById('loading-status').innerText = `${rivers.length} rivers loaded!`;
                 document.getElementById('loading-status').style.color = '#4CAF50';
@@ -214,9 +227,39 @@
             return best;
         }
 
+        function styleForState(state) {
+            if (state === 'labeled') return RIVER_LABELED_STYLE;
+            if (state === 'correct') return RIVER_CORRECT_STYLE;
+            if (state === 'wrong')   return RIVER_WRONG_STYLE;
+            return RIVER_DEFAULT_STYLE;
+        }
+
+        function applyState(river) {
+            const s = styleForState(river.state);
+            river.polylines.forEach(p => p.setStyle(s));
+        }
+
+        function showRiver(river) {
+            river.polylines.forEach(p => {
+                if (!map.hasLayer(p)) p.addTo(map);
+            });
+        }
+
+        function updateZoomVisibility() {
+            const allowed = rankAllowedAtZoom(map.getZoom());
+            rivers.forEach(river => {
+                const visible = river.pinned || river.scalerank <= allowed;
+                river.polylines.forEach(p => {
+                    const onMap = map.hasLayer(p);
+                    if (visible && !onMap) p.addTo(map);
+                    else if (!visible && onMap) map.removeLayer(p);
+                });
+            });
+        }
+
         function clearHighlight() {
             if (!highlightedRiver) return;
-            highlightedRiver.polylines.forEach(p => p.setStyle(RIVER_DEFAULT_STYLE));
+            applyState(highlightedRiver);
             highlightedRiver = null;
         }
 
@@ -228,6 +271,7 @@
             }
             clearHighlight();
             if (nearest && best <= HIGHLIGHT_MAX_MILES) {
+                showRiver(nearest);
                 nearest.polylines.forEach(p => p.setStyle(RIVER_SELECTED_STYLE).bringToFront());
                 highlightedRiver = nearest;
             }
@@ -259,20 +303,30 @@
             if (!inputVal) return;
 
             const marker = L.circleMarker(activePopupLatLng, {
-                color: '#2196F3', radius: 5, fillOpacity: 0.9, weight: 2
+                color: '#FFC107', radius: 5, fillOpacity: 0.9, weight: 2
             }).addTo(map);
 
             marker.bindTooltip(inputVal, {
                 permanent: true, direction: 'right', className: 'river-label-tooltip'
             }).openTooltip();
 
+            const river = riversByName.get(inputVal.toLowerCase()) || null;
+            if (river) {
+                river.state = 'labeled';
+                river.pinned = true;
+                showRiver(river);
+            }
+
             guesses.push({
                 lat: activePopupLatLng.lat,
                 lng: activePopupLatLng.lng,
                 guessedName: inputVal,
-                marker: marker
+                marker: marker,
+                river: river
             });
-            clearHighlight();
+
+            clearHighlight();   // restores selected river to its state (default or labeled)
+            if (river) applyState(river);   // ensure labeled tint sticks
             map.closePopup();
         };
 
@@ -287,7 +341,7 @@
             let correctCount = 0;
 
             guesses.forEach(guess => {
-                const river = riversByName.get(guess.guessedName.toLowerCase());
+                const river = guess.river;
                 if (!river) {
                     guess.marker.setStyle({ color: '#9E9E9E' });
                     guess.marker.bindPopup(`No river named "${guess.guessedName}" in this region.`);
@@ -299,14 +353,16 @@
                 if (dist <= thresholdMiles) {
                     correctCount++;
                     guess.marker.setStyle({ color: '#4CAF50' });
-                    river.polylines.forEach(p => p.setStyle(RIVER_CORRECT_STYLE).bringToFront());
+                    river.state = 'correct';
                 } else {
                     guess.marker.setStyle({ color: '#F44336' });
-                    river.polylines.forEach(p => p.setStyle(RIVER_WRONG_STYLE).bringToFront());
+                    river.state = 'wrong';
                     guess.marker.bindPopup(
                         `Nearest point of the ${river.name} is ${Math.round(dist)} miles away.`
                     ).openPopup();
                 }
+                applyState(river);
+                river.polylines.forEach(p => p.bringToFront());
             });
 
             const resultsDiv = document.getElementById('results');

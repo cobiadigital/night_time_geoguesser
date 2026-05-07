@@ -8,7 +8,7 @@
     <style>
         html, body {
             margin: 0; padding: 0; height: 100%;
-            font-family: sans-serif; background: #0a1820; color: white;
+            font-family: sans-serif; background: #cdd0c4; color: white;
             overscroll-behavior: none;
             touch-action: none;
         }
@@ -115,9 +115,9 @@
 
 <div id="legend">
     <h4>River Importance</h4>
-    <div class="legend-row"><div class="legend-line" style="border-top:5px solid #7DD3FC;"></div> Top tier (rank 0–2)</div>
-    <div class="legend-row"><div class="legend-line" style="border-top:3.5px solid #7DD3FC;"></div> Major (rank 3–5)</div>
-    <div class="legend-row"><div class="legend-line" style="border-top:2.4px solid #7DD3FC;"></div> Tributaries (rank 6+)</div>
+    <div class="legend-row"><div class="legend-line" style="border-top:5px solid #1F6B92;"></div> Top tier (rank 0–2)</div>
+    <div class="legend-row"><div class="legend-line" style="border-top:3.5px solid #1F6B92;"></div> Major (rank 3–5)</div>
+    <div class="legend-row"><div class="legend-line" style="border-top:2.4px solid #1F6B92;"></div> Tributaries (rank 6+)</div>
 </div>
 
 <div id="map"></div>
@@ -145,39 +145,48 @@
         center: region.center,
         zoom: region.zoom,
         minZoom: 2,
-        maxZoom: 12,
+        maxZoom: 8,
         preferCanvas: true
     });
 
-    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-        attribution: 'Tiles &copy; Esri &mdash; Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community',
-        maxZoom: 18
+    // Esri World Terrain Base: shaded relief + lakes in soft blue, no labels.
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Source: USGS, Esri, TANA, DeLorme, and NPS'
     }).addTo(map);
 
-    const RIVER_HALO_STYLE = { color: '#0a1820', weight: 4.5, opacity: 0.6 };
-
     function styleFor(rank) {
-        if (rank <= 2) return { color: '#7DD3FC', weight: 5,   opacity: 1 };
-        if (rank <= 5) return { color: '#7DD3FC', weight: 3.5, opacity: 1 };
-        return { color: '#7DD3FC', weight: 2.4, opacity: 1 };
+        if (rank <= 2) return { color: '#1F6B92', weight: 5,   opacity: 1 };
+        if (rank <= 5) return { color: '#1F6B92', weight: 3.5, opacity: 1 };
+        return { color: '#1F6B92', weight: 2.4, opacity: 1 };
     }
     function hoverStyle(base) {
-        return { ...base, color: '#FFEB3B', weight: base.weight + 1.5, opacity: 1 };
+        return { ...base, color: '#FFC107', weight: base.weight + 1.5, opacity: 1 };
     }
 
-    let allRivers = []; // [{river, polylines, halos, base, rank}]
+    function rankAllowedAtZoom(z) {
+        if (z <= 3) return 4;
+        if (z <= 4) return 6;
+        if (z <= 5) return 8;
+        if (z <= 6) return 10;
+        return 99;
+    }
 
-    function setFilter(btn) {
-        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        const maxRank = parseFloat(btn.dataset.maxRank);
+    let allRivers = []; // [{river, polylines, base, rank}]
 
+    function currentMaxRank() {
+        const filterMax = parseFloat(document.querySelector('.filter-btn.active').dataset.maxRank);
+        return Math.min(filterMax, rankAllowedAtZoom(map.getZoom()));
+    }
+
+    function updateVisibility() {
+        const limit = currentMaxRank();
         let visible = 0;
         allRivers.forEach(item => {
-            const show = item.rank <= maxRank;
-            [...item.halos, ...item.polylines].forEach(p => {
-                if (show) p.addTo(map);
-                else map.removeLayer(p);
+            const show = item.rank <= limit;
+            item.polylines.forEach(p => {
+                const onMap = map.hasLayer(p);
+                if (show && !onMap) p.addTo(map);
+                else if (!show && onMap) map.removeLayer(p);
             });
             if (show) visible++;
         });
@@ -185,18 +194,22 @@
         map.closePopup();
     }
 
+    function setFilter(btn) {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        updateVisibility();
+    }
+
+    map.on('zoomend', updateVisibility);
+
     fetch(region.file)
         .then(r => { if (!r.ok) throw new Error('Failed to load'); return r.json(); })
         .then(rivers => {
-            document.getElementById('count-label').textContent = `${rivers.length} rivers`;
-
             rivers.forEach(river => {
                 const rank = river.scalerank;
                 const base = styleFor(rank);
-                const halos = [];
                 const polylines = river.segments.map(seg => {
-                    halos.push(L.polyline(seg, RIVER_HALO_STYLE).addTo(map));
-                    const p = L.polyline(seg, base).addTo(map);
+                    const p = L.polyline(seg, base);
 
                     p.on('mouseover', () => polylines.forEach(q => q.setStyle(hoverStyle(base)).bringToFront()));
                     p.on('mouseout',  () => polylines.forEach(q => q.setStyle(base)));
@@ -215,8 +228,9 @@
                     });
                     return p;
                 });
-                allRivers.push({ river, polylines, halos, base, rank });
+                allRivers.push({ river, polylines, base, rank });
             });
+            updateVisibility();
         })
         .catch(err => {
             document.getElementById('count-label').textContent = 'Error loading rivers. Run from a local server.';
