@@ -161,11 +161,13 @@
         zoom: region.zoom,
         minZoom: 1,
         maxZoom: 8,
-        // Globe projection: smooth orthographic-style view at low zoom that
-        // transitions to Mercator past zoom ~6. Re-projects raster basemap.
-        projection: { type: 'globe' },
         style: {
             version: 8,
+            // Globe projection: smooth orthographic-style view at low zoom
+            // that transitions to Mercator past zoom ~6. Re-projects the
+            // raster basemap. In MapLibre v4 projection belongs in the style
+            // spec, not as a top-level Map option (that was added in v5).
+            projection: { type: 'globe' },
             sources: {
                 esri: {
                     type: 'raster',
