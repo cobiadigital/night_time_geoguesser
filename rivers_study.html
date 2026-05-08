@@ -15,16 +15,16 @@
 
         #legend {
             position: absolute;
-            bottom: 30px;
+            bottom: calc(96px + env(safe-area-inset-bottom, 0));
             right: 15px;
             background: rgba(20, 20, 30, 0.88);
-            padding: 12px 16px;
+            padding: 10px 14px;
             border-radius: 8px;
             z-index: 1000;
             border: 1px solid #444;
-            font-size: 0.82rem;
-            line-height: 1.8;
-            min-width: 190px;
+            font-size: 0.78rem;
+            line-height: 1.7;
+            min-width: 170px;
         }
         #legend h4 { margin: 0 0 8px 0; font-size: 0.9rem; color: #ccc; letter-spacing: 0.05em; text-transform: uppercase; }
         .legend-row { display: flex; align-items: center; gap: 8px; }
@@ -103,6 +103,26 @@
             text-decoration: none;
         }
         #region-switch a.active { background: rgba(79,195,247,0.3); border-color: #4FC3F7; color: #4FC3F7; font-weight: bold; }
+
+        /* Bottom info bar replaces the click-to-popup. Always visible; shows
+           the selected river's name and rank, or a prompt when nothing is
+           selected. */
+        #info-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(20, 20, 30, 0.92);
+            border-top: 1px solid #444;
+            padding: 12px 16px calc(12px + env(safe-area-inset-bottom, 0));
+            text-align: center;
+            z-index: 1100;
+            color: white;
+        }
+        #info-bar.empty #selected-name { color: #888; font-weight: 500; font-size: 0.95rem; }
+        #info-bar.empty #selected-rank { visibility: hidden; }
+        #selected-name { font-size: 1.1rem; font-weight: bold; }
+        #selected-rank { font-size: 0.78rem; color: #4FC3F7; margin-top: 4px; min-height: 1em; }
     </style>
 </head>
 <body>
@@ -133,6 +153,11 @@
 </div>
 
 <div id="map"></div>
+
+<div id="info-bar" class="empty">
+    <div id="selected-name">Tap a river to see its name</div>
+    <div id="selected-rank"></div>
+</div>
 
 <script src="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js"></script>
 <script>
@@ -227,7 +252,21 @@
 
     let allRivers = [];                // [{river, scalerank}]
     let highlightedRiverIdx = -1;
-    let activePopup = null;
+
+    function setInfoBar(item) {
+        const bar = document.getElementById('info-bar');
+        const nameEl = document.getElementById('selected-name');
+        const rankEl = document.getElementById('selected-rank');
+        if (item) {
+            bar.classList.remove('empty');
+            nameEl.textContent = item.river.name;
+            rankEl.textContent = `Scalerank ${item.scalerank}`;
+        } else {
+            bar.classList.add('empty');
+            nameEl.textContent = 'Tap a river to see its name';
+            rankEl.textContent = '';
+        }
+    }
 
     function currentMaxRank() {
         const filterMax = parseFloat(document.querySelector('.filter-btn.active').dataset.maxRank);
@@ -277,7 +316,7 @@
         const src = map.getSource('rivers-highlight');
         if (src) src.setData(EMPTY_FC);
         highlightedRiverIdx = -1;
-        if (activePopup) { activePopup.remove(); activePopup = null; }
+        setInfoBar(null);
     }
 
     function highlightRiver(item) {
@@ -309,29 +348,7 @@
 
         highlightRiver(nearest);
         highlightedRiverIdx = nearestIdx;
-
-        const popupEl = document.createElement('div');
-        popupEl.className = 'river-popup';
-        const nameEl = document.createElement('div');
-        nameEl.className = 'river-name';
-        nameEl.textContent = nearest.river.name;
-        const rankEl = document.createElement('div');
-        rankEl.className = 'river-rank';
-        rankEl.textContent = `Scalerank ${nearest.scalerank}`;
-        popupEl.appendChild(nameEl);
-        popupEl.appendChild(rankEl);
-
-        activePopup = new maplibregl.Popup({ closeOnClick: false, maxWidth: '280px' })
-            .setLngLat([lng, lat])
-            .setDOMContent(popupEl)
-            .on('close', () => {
-                if (highlightedRiverIdx === nearestIdx) {
-                    map.getSource('rivers-highlight').setData(EMPTY_FC);
-                    highlightedRiverIdx = -1;
-                }
-                activePopup = null;
-            })
-            .addTo(map);
+        setInfoBar(nearest);
     });
 
     map.on('load', () => {
