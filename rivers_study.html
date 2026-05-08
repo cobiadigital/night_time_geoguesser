@@ -146,9 +146,7 @@
         zoom: region.zoom,
         minZoom: 2,
         maxZoom: 8,
-        // Pad polyline hit-testing by 10 px so thin tributaries (weight 2.4)
-        // are clickable/tappable, not just the fat top-tier rivers.
-        renderer: L.canvas({ tolerance: 10 })
+        preferCanvas: true
     });
 
     // Esri World Physical Map: painterly hydrography, no labels, no auth.
@@ -162,9 +160,32 @@
         if (rank <= 5) return { color: '#1F6B92', weight: 3.5, opacity: 1 };
         return { color: '#1F6B92', weight: 2.4, opacity: 1 };
     }
-    function hoverStyle(base) {
+    function highlightStyle(base) {
         return { ...base, color: '#FFC107', weight: base.weight + 1.5, opacity: 1 };
     }
+
+    // Haversine distance in miles between two lat/lng pairs.
+    function haversineMiles(lat1, lon1, lat2, lon2) {
+        const R = 3958.8;
+        const dLat = (lat2 - lat1) * Math.PI / 180;
+        const dLon = (lon2 - lon1) * Math.PI / 180;
+        const a = Math.sin(dLat/2) ** 2 +
+                  Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                  Math.sin(dLon/2) ** 2;
+        return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    }
+    function distanceToRiver(lat, lng, river) {
+        let best = Infinity;
+        for (const seg of river.segments) {
+            for (const [plat, plng] of seg) {
+                const d = haversineMiles(lat, lng, plat, plng);
+                if (d < best) best = d;
+            }
+        }
+        return best;
+    }
+    // Don't pick a river the click was nowhere near.
+    const SELECT_MAX_MILES = 75;
 
     function rankAllowedAtZoom(z) {
         if (z <= 3) return 4;
@@ -194,6 +215,7 @@
             if (show) visible++;
         });
         document.getElementById('count-label').textContent = `${visible} rivers`;
+        clearHighlight();
         map.closePopup();
     }
 
@@ -205,32 +227,54 @@
 
     map.on('zoomend', updateVisibility);
 
+    let highlightedItem = null;
+    function clearHighlight() {
+        if (!highlightedItem) return;
+        highlightedItem.polylines.forEach(p => p.setStyle(highlightedItem.base));
+        highlightedItem = null;
+    }
+
+    // Same selection method as the quiz: ignore polyline hit-testing entirely
+    // and pick the nearest river to the click point by haversine distance.
+    // Solves the "thin tributaries are unclickable" problem at any zoom.
+    map.on('click', e => {
+        const limit = currentMaxRank();
+        let nearest = null, best = Infinity;
+        for (const item of allRivers) {
+            if (item.rank > limit) continue;   // skip currently filtered/zoom-hidden rivers
+            const d = distanceToRiver(e.latlng.lat, e.latlng.lng, item.river);
+            if (d < best) { best = d; nearest = item; }
+        }
+
+        clearHighlight();
+        if (!nearest || best > SELECT_MAX_MILES) {
+            map.closePopup();
+            return;
+        }
+
+        nearest.polylines.forEach(p => p.setStyle(highlightStyle(nearest.base)).bringToFront());
+        highlightedItem = nearest;
+
+        L.popup()
+            .setLatLng(e.latlng)
+            .setContent(`
+                <div class="river-popup">
+                    <div class="river-name">${nearest.river.name}</div>
+                    <div class="river-rank">Scalerank ${nearest.rank}</div>
+                </div>
+            `)
+            .openOn(map);
+    });
+
+    map.on('popupclose', clearHighlight);
+
     fetch(region.file)
         .then(r => { if (!r.ok) throw new Error('Failed to load'); return r.json(); })
         .then(rivers => {
             rivers.forEach(river => {
                 const rank = river.scalerank;
                 const base = styleFor(rank);
-                const polylines = river.segments.map(seg => {
-                    const p = L.polyline(seg, base);
-
-                    p.on('mouseover', () => polylines.forEach(q => q.setStyle(hoverStyle(base)).bringToFront()));
-                    p.on('mouseout',  () => polylines.forEach(q => q.setStyle(base)));
-
-                    p.on('click', e => {
-                        L.popup()
-                            .setLatLng(e.latlng)
-                            .setContent(`
-                                <div class="river-popup">
-                                    <div class="river-name">${river.name}</div>
-                                    <div class="river-rank">Scalerank ${rank}</div>
-                                </div>
-                            `)
-                            .openOn(map);
-                        L.DomEvent.stopPropagation(e);
-                    });
-                    return p;
-                });
+                const polylines = river.segments.map(seg => L.polyline(seg, base));
                 allRivers.push({ river, polylines, base, rank });
             });
             updateVisibility();
