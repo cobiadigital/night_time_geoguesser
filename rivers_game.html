@@ -172,10 +172,12 @@
             zoom: region.zoom,
             minZoom: 1,
             maxZoom: 8,
-            // Globe view at low zoom; transitions to Mercator past z~6.
-            projection: { type: 'globe' },
             style: {
                 version: 8,
+                // Globe view at low zoom; transitions to Mercator past z~6.
+                // In MapLibre v4 projection lives in the style spec, not the
+                // Map constructor (the constructor option was added in v5).
+                projection: { type: 'globe' },
                 sources: {
                     esri: {
                         type: 'raster',
