@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>Rivers Study Map</title>
-    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.css" />
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
     <style>
         html, body {
             margin: 0; padding: 0; height: 100%;
@@ -68,6 +68,9 @@
         .filter-btn:hover { background: rgba(79,195,247,0.2); border-color: #4FC3F7; color: #4FC3F7; }
         .filter-btn.active { background: rgba(79,195,247,0.3); border-color: #4FC3F7; color: #4FC3F7; font-weight: bold; }
 
+        /* Lift popups above the #header (z-index 1000) so they're never
+           hidden under the top-of-screen filter bar. */
+        .maplibregl-popup { z-index: 1500; }
         .maplibregl-popup-content {
             background: rgba(20, 20, 30, 0.95) !important;
             color: white;
@@ -131,7 +134,7 @@
 
 <div id="map"></div>
 
-<script src="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js"></script>
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
 <script>
     const REGIONS = {
         na: { center: [-98.5795, 39.8283], zoom: 3, file: 'na_rivers.json', label: 'North American' },

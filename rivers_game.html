@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>River Reckoner</title>
-    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.css" />
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
     <style>
         html, body {
             margin: 0; padding: 0; height: 100%;
@@ -62,6 +62,9 @@
         button.submit-btn:hover { background-color: #45a049; }
         button:disabled { background-color: #555; cursor: not-allowed; }
 
+        /* Lift popups above the #ui-panel (z-index 1000) so they're never
+           hidden under the top-of-screen panel. */
+        .maplibregl-popup { z-index: 1500; }
         .maplibregl-popup-content {
             background: rgba(30, 30, 30, 0.95) !important;
             color: white;
@@ -145,7 +148,7 @@
     <div id="map"></div>
     <datalist id="river-names"></datalist>
 
-    <script src="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js"></script>
+    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
     <script>
         const REGIONS = {
             na: { center: [-98.5795, 39.8283], zoom: 3,   file: 'na_rivers.json', label: 'North America' },
