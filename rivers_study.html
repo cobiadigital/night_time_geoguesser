@@ -305,20 +305,26 @@
 
         highlightRiver(nearest);
         highlightedRiverIdx = nearestIdx;
+
+        const popupEl = document.createElement('div');
+        popupEl.className = 'river-popup';
+        const nameEl = document.createElement('div');
+        nameEl.className = 'river-name';
+        nameEl.textContent = nearest.river.name;
+        const rankEl = document.createElement('div');
+        rankEl.className = 'river-rank';
+        rankEl.textContent = `Scalerank ${nearest.scalerank}`;
+        popupEl.appendChild(nameEl);
+        popupEl.appendChild(rankEl);
+
         activePopup = new maplibregl.Popup({ closeOnClick: false, maxWidth: '280px' })
             .setLngLat([lng, lat])
-            .setHTML(`
-                <div class="river-popup">
-                    <div class="river-name">${nearest.river.name}</div>
-                    <div class="river-rank">Scalerank ${nearest.scalerank}</div>
-                </div>
-            `)
+            .setDOMContent(popupEl)
             .on('close', () => {
                 if (highlightedRiverIdx === nearestIdx) {
                     map.getSource('rivers-highlight').setData(EMPTY_FC);
                     highlightedRiverIdx = -1;
                 }
-                if (activePopup === null) return;
                 activePopup = null;
             })
             .addTo(map);

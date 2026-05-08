@@ -343,24 +343,18 @@
             return null;
         }
 
-        function escapeHTML(s) {
-            return String(s).replace(/[&<>"']/g, c =>
-                ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])
-            );
-        }
-
         function setMarkerColor(markerEl, color) {
             const dot = markerEl.querySelector('.guess-dot');
             dot.style.borderColor = color;
             dot.style.backgroundColor = color + '66';   // ~40% alpha (8-digit hex)
         }
 
-        function attachMarkerPopup(markerEl, lngLat, html) {
+        function attachMarkerPopup(markerEl, lngLat, buildContent) {
             markerEl.classList.add('tappable');
             markerEl.addEventListener('click', () => {
                 new maplibregl.Popup({ closeOnClick: true })
                     .setLngLat(lngLat)
-                    .setHTML(html)
+                    .setDOMContent(buildContent())
                     .addTo(map);
             });
         }
@@ -373,22 +367,40 @@
             activePopupLngLat = e.lngLat;
             activeSelectedRiver = highlightNearest(e.lngLat.lng, e.lngLat.lat);
 
+            // Build the popup contents with real DOM nodes (more robust than
+            // setHTML on mobile: tags like <input> and <button> survive intact
+            // and we can attach the click listener directly).
+            const popupEl = document.createElement('div');
+            popupEl.className = 'popup-ui';
+
+            const prompt = document.createElement('b');
+            prompt.textContent = 'Identify this river:';
+            popupEl.appendChild(prompt);
+
+            const input = document.createElement('input');
+            input.type = 'text';
+            input.id = 'river-input';
+            input.setAttribute('list', 'river-names');
+            input.placeholder = 'Start typing a river...';
+            input.autocomplete = 'off';
+            input.addEventListener('keydown', (ev) => {
+                if (ev.key === 'Enter') { ev.preventDefault(); saveLabel(); }
+            });
+            popupEl.appendChild(input);
+
+            const saveBtn = document.createElement('button');
+            saveBtn.type = 'button';
+            saveBtn.textContent = 'Save Label';
+            saveBtn.addEventListener('click', saveLabel);
+            popupEl.appendChild(saveBtn);
+
             activeInputPopup = new maplibregl.Popup({ closeOnClick: false, maxWidth: '320px' })
                 .setLngLat(e.lngLat)
-                .setHTML(`
-                    <div class="popup-ui">
-                        <b>Identify this river:</b>
-                        <input type="text" id="river-input" list="river-names" placeholder="Start typing a river..." autocomplete="off">
-                        <button onclick="saveLabel()">Save Label</button>
-                    </div>
-                `)
+                .setDOMContent(popupEl)
                 .on('close', () => { activeInputPopup = null; })
                 .addTo(map);
 
-            setTimeout(() => {
-                const input = document.getElementById('river-input');
-                if (input) input.focus();
-            }, 100);
+            setTimeout(() => input.focus(), 100);
         });
 
         window.saveLabel = function() {
@@ -451,8 +463,11 @@
 
                 if (!sel) {
                     setMarkerColor(guess.markerEl, '#9E9E9E');
-                    attachMarkerPopup(guess.markerEl, [guess.lng, guess.lat],
-                        `No river within ${HIGHLIGHT_MAX_MILES} miles of this spot.`);
+                    attachMarkerPopup(guess.markerEl, [guess.lng, guess.lat], () => {
+                        const div = document.createElement('div');
+                        div.textContent = `No river within ${HIGHLIGHT_MAX_MILES} miles of this spot.`;
+                        return div;
+                    });
                     return;
                 }
 
@@ -465,10 +480,17 @@
                     setMarkerColor(guess.markerEl, '#F44336');
                     markRiver(sel, 'wrong');
                     const detail = guess.guessedRiver
-                        ? `, not the ${escapeHTML(guess.guessedName)}.`
-                        : `; "${escapeHTML(guess.guessedName)}" isn't a river in this region.`;
-                    attachMarkerPopup(guess.markerEl, [guess.lng, guess.lat],
-                        `That's the <b>${escapeHTML(sel.name)}</b>${detail}`);
+                        ? `, not the ${guess.guessedName}.`
+                        : `; "${guess.guessedName}" isn't a river in this region.`;
+                    attachMarkerPopup(guess.markerEl, [guess.lng, guess.lat], () => {
+                        const div = document.createElement('div');
+                        div.appendChild(document.createTextNode("That's the "));
+                        const b = document.createElement('b');
+                        b.textContent = sel.name;
+                        div.appendChild(b);
+                        div.appendChild(document.createTextNode(detail));
+                        return div;
+                    });
                 }
             });
 
