@@ -149,10 +149,10 @@
         preferCanvas: true
     });
 
-    // Stamen Terrain Background via Stadia (no labels). Stadia requires a
-    // registered domain or api_key for deploy; localhost works without.
-    L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_terrain_background/{z}/{x}/{y}{r}.png', {
-        attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    // Esri World Physical Map: painterly hydrography, no labels, no auth.
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Source: US National Park Service',
+        maxZoom: 8
     }).addTo(map);
 
     function styleFor(rank) {
