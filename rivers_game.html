@@ -133,13 +133,12 @@
             preferCanvas: true
         });
 
-        // Stamen Terrain Background via Stadia: hillshaded terrain in greens
-        // and tans with no labels. Stadia requires either a registered domain
-        // (free) or an api_key URL parameter; localhost works without either.
-        // To deploy, register at stadiamaps.com and either allowlist the
-        // hosting domain or append ?api_key=YOUR_KEY to the URL below.
-        L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_terrain_background/{z}/{x}/{y}{r}.png', {
-            attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a> &copy; <a href="https://stamen.com/">Stamen Design</a> &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        // Esri World Physical Map: painterly natural-look raster with shaded
+        // relief and hydrography baked in, no labels (so the basemap doesn't
+        // give the answer away). Public Esri tile service, no auth required.
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri &mdash; Source: US National Park Service',
+            maxZoom: 8
         }).addTo(map);
 
         // Game State
