@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>Rivers Study Map</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.css" />
     <style>
         html, body {
             margin: 0; padding: 0; height: 100%;
-            font-family: sans-serif; background: #cdd0c4; color: white;
+            font-family: sans-serif; background: #0a1d2c; color: white;
             overscroll-behavior: none;
-            touch-action: none;
         }
-        #map { height: 100vh; width: 100vw; touch-action: none; }
+        #map { height: 100vh; width: 100vw; background: #0a1d2c; }
 
         #legend {
             position: absolute;
@@ -69,14 +68,24 @@
         .filter-btn:hover { background: rgba(79,195,247,0.2); border-color: #4FC3F7; color: #4FC3F7; }
         .filter-btn.active { background: rgba(79,195,247,0.3); border-color: #4FC3F7; color: #4FC3F7; font-weight: bold; }
 
-        .leaflet-popup-content-wrapper {
-            background: rgba(20, 20, 30, 0.95);
+        .maplibregl-popup-content {
+            background: rgba(20, 20, 30, 0.95) !important;
             color: white;
             border: 1px solid #555;
             box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+            border-radius: 6px;
+            padding: 10px 14px;
         }
-        .leaflet-popup-tip { background: rgba(20, 20, 30, 0.95); }
-        .river-popup { text-align: center; padding: 4px 2px; }
+        .maplibregl-popup-anchor-top .maplibregl-popup-tip,
+        .maplibregl-popup-anchor-top-left .maplibregl-popup-tip,
+        .maplibregl-popup-anchor-top-right .maplibregl-popup-tip { border-bottom-color: rgba(20,20,30,0.95) !important; }
+        .maplibregl-popup-anchor-bottom .maplibregl-popup-tip,
+        .maplibregl-popup-anchor-bottom-left .maplibregl-popup-tip,
+        .maplibregl-popup-anchor-bottom-right .maplibregl-popup-tip { border-top-color: rgba(20,20,30,0.95) !important; }
+        .maplibregl-popup-anchor-left .maplibregl-popup-tip { border-right-color: rgba(20,20,30,0.95) !important; }
+        .maplibregl-popup-anchor-right .maplibregl-popup-tip { border-left-color: rgba(20,20,30,0.95) !important; }
+        .maplibregl-popup-close-button { color: #ccc; font-size: 18px; padding: 0 6px; }
+        .river-popup { text-align: center; padding: 2px 2px; }
         .river-popup .river-name { font-size: 1.05rem; font-weight: bold; margin-bottom: 4px; }
         .river-popup .river-rank { font-size: 0.78rem; color: #4FC3F7; margin-top: 3px; }
 
@@ -122,15 +131,15 @@
 
 <div id="map"></div>
 
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js"></script>
 <script>
     const REGIONS = {
-        na: { center: [39.8283, -98.5795], zoom: 4, file: 'na_rivers.json', label: 'North American' },
-        eu: { center: [54.0, 15.0],        zoom: 4, file: 'eu_rivers.json', label: 'European' },
-        sa: { center: [-15.0, -60.0],      zoom: 3, file: 'sa_rivers.json', label: 'South American' },
-        af: { center: [0.0, 20.0],         zoom: 3, file: 'af_rivers.json', label: 'African' },
-        as: { center: [30.0, 100.0],       zoom: 3, file: 'as_rivers.json', label: 'Asian' },
-        oc: { center: [-25.0, 140.0],      zoom: 3, file: 'oc_rivers.json', label: 'Oceanian' }
+        na: { center: [-98.5795, 39.8283], zoom: 3, file: 'na_rivers.json', label: 'North American' },
+        eu: { center: [15.0,    54.0],     zoom: 3, file: 'eu_rivers.json', label: 'European' },
+        sa: { center: [-60.0,  -15.0],     zoom: 2.5, file: 'sa_rivers.json', label: 'South American' },
+        af: { center: [20.0,    0.0],      zoom: 2.5, file: 'af_rivers.json', label: 'African' },
+        as: { center: [100.0,  30.0],      zoom: 2.5, file: 'as_rivers.json', label: 'Asian' },
+        oc: { center: [140.0, -25.0],      zoom: 2.5, file: 'oc_rivers.json', label: 'Oceanian' }
     };
     const requestedRegion = new URLSearchParams(location.search).get('region');
     const regionKey = REGIONS[requestedRegion] ? requestedRegion : 'na';
@@ -141,28 +150,102 @@
         if (a.dataset.region === regionKey) a.classList.add('active');
     });
 
-    const map = L.map('map', {
+    const EMPTY_FC = { type: 'FeatureCollection', features: [] };
+
+    const map = new maplibregl.Map({
+        container: 'map',
         center: region.center,
         zoom: region.zoom,
-        minZoom: 2,
+        minZoom: 1,
         maxZoom: 8,
-        preferCanvas: true
+        // Globe projection: smooth orthographic-style view at low zoom that
+        // transitions to Mercator past zoom ~6. Re-projects raster basemap.
+        projection: { type: 'globe' },
+        style: {
+            version: 8,
+            sources: {
+                esri: {
+                    type: 'raster',
+                    tiles: ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}'],
+                    tileSize: 256,
+                    minzoom: 0,
+                    maxzoom: 8,
+                    attribution: 'Tiles &copy; Esri &mdash; Source: US National Park Service'
+                },
+                rivers: { type: 'geojson', data: EMPTY_FC },
+                'rivers-highlight': { type: 'geojson', data: EMPTY_FC }
+            },
+            layers: [
+                { id: 'esri-tiles', type: 'raster', source: 'esri' },
+                {
+                    id: 'rivers-base',
+                    type: 'line',
+                    source: 'rivers',
+                    layout: { 'line-cap': 'round', 'line-join': 'round' },
+                    paint: {
+                        'line-color': '#1F6B92',
+                        'line-width': [
+                            'case',
+                            ['<=', ['get', 'scalerank'], 2], 5,
+                            ['<=', ['get', 'scalerank'], 5], 3.5,
+                            2.4
+                        ]
+                    }
+                },
+                {
+                    id: 'rivers-highlight-layer',
+                    type: 'line',
+                    source: 'rivers-highlight',
+                    layout: { 'line-cap': 'round', 'line-join': 'round' },
+                    paint: {
+                        'line-color': '#FFC107',
+                        'line-width': [
+                            'case',
+                            ['<=', ['get', 'scalerank'], 2], 6.5,
+                            ['<=', ['get', 'scalerank'], 5], 5,
+                            3.9
+                        ]
+                    }
+                }
+            ]
+        }
     });
 
-    // Esri World Physical Map: painterly hydrography, no labels, no auth.
-    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}', {
-        attribution: 'Tiles &copy; Esri &mdash; Source: US National Park Service',
-        maxZoom: 8
-    }).addTo(map);
+    map.addControl(new maplibregl.NavigationControl({ visualizePitch: true, showCompass: true }), 'top-right');
 
-    function styleFor(rank) {
-        if (rank <= 2) return { color: '#1F6B92', weight: 5,   opacity: 1 };
-        if (rank <= 5) return { color: '#1F6B92', weight: 3.5, opacity: 1 };
-        return { color: '#1F6B92', weight: 2.4, opacity: 1 };
+    function rankAllowedAtZoom(z) {
+        if (z <= 3) return 4;
+        if (z <= 4) return 6;
+        if (z <= 5) return 8;
+        if (z <= 6) return 10;
+        return 99;
     }
-    function highlightStyle(base) {
-        return { ...base, color: '#FFC107', weight: base.weight + 1.5, opacity: 1 };
+
+    let allRivers = [];                // [{river, scalerank}]
+    let highlightedRiverIdx = -1;
+    let activePopup = null;
+
+    function currentMaxRank() {
+        const filterMax = parseFloat(document.querySelector('.filter-btn.active').dataset.maxRank);
+        return Math.min(filterMax, rankAllowedAtZoom(map.getZoom()));
     }
+
+    function applyFilter() {
+        if (!map.getLayer('rivers-base')) return;
+        const limit = currentMaxRank();
+        map.setFilter('rivers-base', ['<=', ['get', 'scalerank'], limit]);
+        const visible = allRivers.filter(r => r.scalerank <= limit).length;
+        document.getElementById('count-label').textContent = `${visible} rivers`;
+        clearHighlight();
+    }
+
+    window.setFilter = function(btn) {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        applyFilter();
+    };
+
+    map.on('zoomend', applyFilter);
 
     // Haversine distance in miles between two lat/lng pairs.
     function haversineMiles(lat1, lon1, lat2, lon2) {
@@ -184,105 +267,86 @@
         }
         return best;
     }
-    // Don't pick a river the click was nowhere near.
     const SELECT_MAX_MILES = 75;
 
-    function rankAllowedAtZoom(z) {
-        if (z <= 3) return 4;
-        if (z <= 4) return 6;
-        if (z <= 5) return 8;
-        if (z <= 6) return 10;
-        return 99;
-    }
-
-    let allRivers = []; // [{river, polylines, base, rank}]
-
-    function currentMaxRank() {
-        const filterMax = parseFloat(document.querySelector('.filter-btn.active').dataset.maxRank);
-        return Math.min(filterMax, rankAllowedAtZoom(map.getZoom()));
-    }
-
-    function updateVisibility() {
-        const limit = currentMaxRank();
-        let visible = 0;
-        allRivers.forEach(item => {
-            const show = item.rank <= limit;
-            item.polylines.forEach(p => {
-                const onMap = map.hasLayer(p);
-                if (show && !onMap) p.addTo(map);
-                else if (!show && onMap) map.removeLayer(p);
-            });
-            if (show) visible++;
-        });
-        document.getElementById('count-label').textContent = `${visible} rivers`;
-        clearHighlight();
-        map.closePopup();
-    }
-
-    function setFilter(btn) {
-        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        updateVisibility();
-    }
-
-    map.on('zoomend', updateVisibility);
-
-    let highlightedItem = null;
     function clearHighlight() {
-        if (!highlightedItem) return;
-        highlightedItem.polylines.forEach(p => p.setStyle(highlightedItem.base));
-        highlightedItem = null;
+        const src = map.getSource('rivers-highlight');
+        if (src) src.setData(EMPTY_FC);
+        highlightedRiverIdx = -1;
+        if (activePopup) { activePopup.remove(); activePopup = null; }
     }
 
-    // Same selection method as the quiz: ignore polyline hit-testing entirely
-    // and pick the nearest river to the click point by haversine distance.
-    // Solves the "thin tributaries are unclickable" problem at any zoom.
-    map.on('click', e => {
+    function highlightRiver(item) {
+        const features = item.river.segments.map(seg => ({
+            type: 'Feature',
+            properties: { scalerank: item.scalerank },
+            geometry: {
+                type: 'LineString',
+                coordinates: seg.map(([lat, lng]) => [lng, lat])
+            }
+        }));
+        map.getSource('rivers-highlight').setData({ type: 'FeatureCollection', features });
+    }
+
+    map.on('click', (e) => {
+        const lat = e.lngLat.lat;
+        const lng = e.lngLat.lng;
         const limit = currentMaxRank();
-        let nearest = null, best = Infinity;
-        for (const item of allRivers) {
-            if (item.rank > limit) continue;   // skip currently filtered/zoom-hidden rivers
-            const d = distanceToRiver(e.latlng.lat, e.latlng.lng, item.river);
-            if (d < best) { best = d; nearest = item; }
+        let nearest = null, nearestIdx = -1, best = Infinity;
+        for (let i = 0; i < allRivers.length; i++) {
+            const item = allRivers[i];
+            if (item.scalerank > limit) continue;
+            const d = distanceToRiver(lat, lng, item.river);
+            if (d < best) { best = d; nearest = item; nearestIdx = i; }
         }
 
         clearHighlight();
-        if (!nearest || best > SELECT_MAX_MILES) {
-            map.closePopup();
-            return;
-        }
+        if (!nearest || best > SELECT_MAX_MILES) return;
 
-        nearest.polylines.forEach(p => p.setStyle(highlightStyle(nearest.base)).bringToFront());
-        highlightedItem = nearest;
-
-        L.popup()
-            .setLatLng(e.latlng)
-            .setContent(`
+        highlightRiver(nearest);
+        highlightedRiverIdx = nearestIdx;
+        activePopup = new maplibregl.Popup({ closeOnClick: false, maxWidth: '280px' })
+            .setLngLat([lng, lat])
+            .setHTML(`
                 <div class="river-popup">
                     <div class="river-name">${nearest.river.name}</div>
-                    <div class="river-rank">Scalerank ${nearest.rank}</div>
+                    <div class="river-rank">Scalerank ${nearest.scalerank}</div>
                 </div>
             `)
-            .openOn(map);
+            .on('close', () => {
+                if (highlightedRiverIdx === nearestIdx) {
+                    map.getSource('rivers-highlight').setData(EMPTY_FC);
+                    highlightedRiverIdx = -1;
+                }
+                if (activePopup === null) return;
+                activePopup = null;
+            })
+            .addTo(map);
     });
 
-    map.on('popupclose', clearHighlight);
-
-    fetch(region.file)
-        .then(r => { if (!r.ok) throw new Error('Failed to load'); return r.json(); })
-        .then(rivers => {
-            rivers.forEach(river => {
-                const rank = river.scalerank;
-                const base = styleFor(rank);
-                const polylines = river.segments.map(seg => L.polyline(seg, base));
-                allRivers.push({ river, polylines, base, rank });
+    map.on('load', () => {
+        fetch(region.file)
+            .then(r => { if (!r.ok) throw new Error('Failed to load'); return r.json(); })
+            .then(rivers => {
+                allRivers = rivers.map(river => ({ river, scalerank: river.scalerank }));
+                const features = rivers.flatMap(river =>
+                    river.segments.map(seg => ({
+                        type: 'Feature',
+                        properties: { name: river.name, scalerank: river.scalerank },
+                        geometry: {
+                            type: 'LineString',
+                            coordinates: seg.map(([lat, lng]) => [lng, lat])
+                        }
+                    }))
+                );
+                map.getSource('rivers').setData({ type: 'FeatureCollection', features });
+                applyFilter();
+            })
+            .catch(err => {
+                document.getElementById('count-label').textContent = 'Error loading rivers. Run from a local server.';
+                console.error(err);
             });
-            updateVisibility();
-        })
-        .catch(err => {
-            document.getElementById('count-label').textContent = 'Error loading rivers. Run from a local server.';
-            console.error(err);
-        });
+    });
 </script>
 </body>
 </html>
