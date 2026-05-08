@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>Rivers Study Map</title>
-    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.css" />
     <style>
         html, body {
             margin: 0; padding: 0; height: 100%;
@@ -134,7 +134,7 @@
 
 <div id="map"></div>
 
-<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js"></script>
 <script>
     const REGIONS = {
         na: { center: [-98.5795, 39.8283], zoom: 3, file: 'na_rivers.json', label: 'North American' },
@@ -165,8 +165,7 @@
             version: 8,
             // Globe projection: smooth orthographic-style view at low zoom
             // that transitions to Mercator past zoom ~6. Re-projects the
-            // raster basemap. In MapLibre v4 projection belongs in the style
-            // spec, not as a top-level Map option (that was added in v5).
+            // raster basemap. (Requires MapLibre v5.)
             projection: { type: 'globe' },
             sources: {
                 esri: {
