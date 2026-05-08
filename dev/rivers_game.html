@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>River Reckoner</title>
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.css" />
+    <style>
+        html, body {
+            margin: 0; padding: 0; height: 100%;
+            font-family: sans-serif; background-color: #0a1d2c; color: white;
+            overscroll-behavior: none;
+        }
+        #map { height: 100vh; width: 100vw; background-color: #0a1d2c; }
+
+        #ui-panel {
+            position: fixed;
+            top: env(safe-area-inset-top, 0);
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: calc(100vw - 24px);
+            box-sizing: border-box;
+            background: rgba(20, 20, 20, 0.92);
+            padding: 8px 16px 10px;
+            border: 1px solid #444;
+            border-top: none;
+            border-radius: 0 0 12px 12px;
+            z-index: 1100;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.8);
+            transition: transform 0.25s ease;
+        }
+        #ui-panel.collapsed { transform: translate(-50%, calc(-100% + 22px)); }
+
+        #collapse-toggle {
+            position: absolute;
+            bottom: -22px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 56px; height: 22px;
+            background: rgba(20, 20, 20, 0.92);
+            border: 1px solid #444;
+            border-top: none;
+            border-radius: 0 0 12px 12px;
+            color: #4FC3F7;
+            cursor: pointer;
+            padding: 0;
+            font-size: 14px;
+            line-height: 18px;
+        }
+
+        button.submit-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 7px 16px;
+            font-size: 0.95rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        button.submit-btn:hover { background-color: #45a049; }
+        button:disabled { background-color: #555; cursor: not-allowed; }
+
+        /* Bottom input bar replaces the click-to-popup. Always visible
+           (until graded). Disabled until a river is selected by tapping. */
+        #input-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(20, 20, 20, 0.94);
+            border-top: 1px solid #444;
+            padding: 8px 12px calc(8px + env(safe-area-inset-bottom, 0));
+            z-index: 1100;
+            transition: transform 0.2s ease;
+        }
+        #input-bar.hidden { transform: translateY(110%); }
+        #input-bar-status {
+            font-size: 0.82rem;
+            color: #FFC107;
+            text-align: center;
+            margin-bottom: 6px;
+            font-weight: 600;
+            min-height: 1.1em;
+        }
+        #input-bar.empty #input-bar-status { color: #888; font-weight: 500; }
+        #input-bar-form { display: flex; gap: 8px; }
+        #river-input {
+            flex: 1;
+            min-width: 0;
+            padding: 10px 12px;
+            border-radius: 6px;
+            border: 1px solid #666;
+            background: #1e1e1e;
+            color: #fff;
+            font-size: 16px;
+        }
+        #river-input:disabled { opacity: 0.5; }
+        #save-btn {
+            background: #2196F3;
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+        #save-btn:disabled { background: #555; cursor: not-allowed; }
+
+        /* Lift popups above the #ui-panel (z-index 1000) so they're never
+           hidden under the top-of-screen panel. */
+        .maplibregl-popup { z-index: 1500; }
+        .maplibregl-popup-content {
+            background: rgba(30, 30, 30, 0.95) !important;
+            color: white;
+            border: 1px solid #555;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+            border-radius: 6px;
+            padding: 12px 16px;
+            min-width: 240px;
+        }
+        .maplibregl-popup-anchor-top .maplibregl-popup-tip,
+        .maplibregl-popup-anchor-top-left .maplibregl-popup-tip,
+        .maplibregl-popup-anchor-top-right .maplibregl-popup-tip { border-bottom-color: rgba(30,30,30,0.95) !important; }
+        .maplibregl-popup-anchor-bottom .maplibregl-popup-tip,
+        .maplibregl-popup-anchor-bottom-left .maplibregl-popup-tip,
+        .maplibregl-popup-anchor-bottom-right .maplibregl-popup-tip { border-top-color: rgba(30,30,30,0.95) !important; }
+        .maplibregl-popup-anchor-left .maplibregl-popup-tip { border-right-color: rgba(30,30,30,0.95) !important; }
+        .maplibregl-popup-anchor-right .maplibregl-popup-tip { border-left-color: rgba(30,30,30,0.95) !important; }
+        .maplibregl-popup-close-button { color: #ccc; font-size: 18px; padding: 0 6px; }
+
+        .popup-ui { text-align: center; }
+        .popup-ui b { display: block; font-size: 1rem; margin-bottom: 8px; }
+        .popup-ui input {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 12px 10px;
+            margin: 6px 0 12px;
+            border-radius: 6px;
+            border: 1px solid #666;
+            font-size: 17px;
+            background: #1e1e1e;
+            color: #fff;
+        }
+        .popup-ui button {
+            background: #2196F3;
+            color: white;
+            border: none;
+            padding: 12px 22px;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        .popup-ui button:hover { background: #1976D2; }
+
+        .guess-marker {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            pointer-events: none;
+            user-select: none;
+        }
+        .guess-marker.tappable { pointer-events: auto; cursor: pointer; }
+        .guess-dot {
+            width: 12px; height: 12px;
+            border: 2px solid #FFC107;
+            background: rgba(255, 193, 7, 0.4);
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+        .guess-label {
+            font-weight: bold;
+            font-size: 15px;
+            color: #FFC107;
+            text-shadow: 1px 1px 3px black, 0 0 4px black;
+            white-space: nowrap;
+        }
+
+        #loading-status { margin-bottom: 10px; color: #FFC107; font-size: 0.9rem; }
+        #results { margin-top: 10px; font-size: 1.05rem; display: none; }
+    </style>
+</head>
+<body>
+
+    <div id="ui-panel">
+        <div id="loading-status">Loading river database...</div>
+        <button class="submit-btn" id="grade-btn" onclick="gradeGame()" disabled>Grade Map</button>
+        <div id="results"></div>
+        <button id="collapse-toggle" type="button" onclick="togglePanel()" aria-label="Hide panel">▲</button>
+    </div>
+
+    <div id="map"></div>
+
+    <div id="input-bar" class="empty">
+        <div id="input-bar-status">Tap a river to label it</div>
+        <div id="input-bar-form">
+            <input type="text" id="river-input" list="river-names" placeholder="Type a river name..." autocomplete="off" disabled>
+            <button type="button" id="save-btn" disabled>Save</button>
+        </div>
+    </div>
+
+    <datalist id="river-names"></datalist>
+
+    <script src="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js"></script>
+    <script>
+        const REGIONS = {
+            na: { center: [-98.5795, 39.8283], zoom: 3,   file: 'na_rivers.json', label: 'North America' },
+            eu: { center: [15.0,    54.0],     zoom: 3,   file: 'eu_rivers.json', label: 'Europe' },
+            sa: { center: [-60.0,  -15.0],     zoom: 2.5, file: 'sa_rivers.json', label: 'South America' },
+            af: { center: [20.0,    0.0],      zoom: 2.5, file: 'af_rivers.json', label: 'Africa' },
+            as: { center: [100.0,  30.0],      zoom: 2.5, file: 'as_rivers.json', label: 'Asia' },
+            oc: { center: [140.0, -25.0],      zoom: 2.5, file: 'oc_rivers.json', label: 'Oceania' }
+        };
+        const requestedRegion = new URLSearchParams(location.search).get('region');
+        const regionKey = REGIONS[requestedRegion] ? requestedRegion : 'na';
+        const region = REGIONS[regionKey];
+
+        document.title = `River Reckoner: ${region.label}`;
+
+        const EMPTY_FC = { type: 'FeatureCollection', features: [] };
+
+        const map = new maplibregl.Map({
+            container: 'map',
+            center: region.center,
+            zoom: region.zoom,
+            minZoom: 1,
+            maxZoom: 8,
+            style: {
+                version: 8,
+                // Globe view at low zoom; transitions to Mercator past z~6.
+                // (Globe projection requires MapLibre v5.)
+                projection: { type: 'globe' },
+                sources: {
+                    esri: {
+                        type: 'raster',
+                        tiles: ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}'],
+                        tileSize: 256,
+                        minzoom: 0,
+                        maxzoom: 8,
+                        attribution: 'Tiles &copy; Esri &mdash; Source: US National Park Service'
+                    },
+                    rivers:           { type: 'geojson', data: EMPTY_FC },
+                    'rivers-marked':  { type: 'geojson', data: EMPTY_FC },
+                    'rivers-selected':{ type: 'geojson', data: EMPTY_FC }
+                },
+                layers: [
+                    { id: 'esri-tiles', type: 'raster', source: 'esri' },
+                    {
+                        id: 'rivers-base',
+                        type: 'line',
+                        source: 'rivers',
+                        layout: { 'line-cap': 'round', 'line-join': 'round' },
+                        paint: {
+                            'line-color': '#1F6B92',
+                            'line-width': 2.2,
+                            // Step-based zoom visibility, mirroring rankAllowedAtZoom.
+                            'line-opacity': [
+                                'step', ['zoom'],
+                                ['case', ['<=', ['get', 'scalerank'], 4], 1, 0],
+                                3.5, ['case', ['<=', ['get', 'scalerank'], 6], 1, 0],
+                                4.5, ['case', ['<=', ['get', 'scalerank'], 8], 1, 0],
+                                5.5, ['case', ['<=', ['get', 'scalerank'], 10], 1, 0],
+                                6.5, 1
+                            ]
+                        }
+                    },
+                    {
+                        id: 'rivers-marked-layer',
+                        type: 'line',
+                        source: 'rivers-marked',
+                        layout: { 'line-cap': 'round', 'line-join': 'round' },
+                        paint: {
+                            'line-color': [
+                                'match', ['get', 'status'],
+                                'labeled', '#FFC107',
+                                'correct', '#4CAF50',
+                                'wrong',   '#F44336',
+                                '#1F6B92'
+                            ],
+                            'line-width': [
+                                'match', ['get', 'status'],
+                                'labeled', 2.8,
+                                3.5
+                            ]
+                        }
+                    },
+                    {
+                        id: 'rivers-selected-layer',
+                        type: 'line',
+                        source: 'rivers-selected',
+                        layout: { 'line-cap': 'round', 'line-join': 'round' },
+                        paint: { 'line-color': '#FFFFFF', 'line-width': 3.5 }
+                    }
+                ]
+            }
+        });
+
+        map.addControl(new maplibregl.NavigationControl({ visualizePitch: true, showCompass: true }), 'top-right');
+
+        // Game State
+        let rivers = [];                 // raw data
+        let riversByName = new Map();    // lowercase name -> river
+        let guesses = [];                // [{lng,lat,guessedName,markerEl,marker,selectedRiver,guessedRiver}]
+        let activeClickLngLat = null;
+        let activeSelectedRiver = null;  // river under the most recent click (target for grading)
+        let markedRivers = [];           // [{river, status}]
+        let graded = false;
+
+        function setInputBarState(state) {
+            const bar = document.getElementById('input-bar');
+            const status = document.getElementById('input-bar-status');
+            const input = document.getElementById('river-input');
+            const save = document.getElementById('save-btn');
+
+            if (state.hidden) { bar.classList.add('hidden'); return; }
+            bar.classList.remove('hidden');
+
+            if (state.selected) {
+                bar.classList.remove('empty');
+                status.textContent = 'Selected — what river is this?';
+                input.disabled = false;
+                save.disabled = false;
+            } else if (state.tooFar) {
+                bar.classList.remove('empty');
+                status.textContent = `No river within ${HIGHLIGHT_MAX_MILES} miles — tap closer to a river.`;
+                input.disabled = true;
+                save.disabled = true;
+            } else {
+                bar.classList.add('empty');
+                status.textContent = 'Tap a river to label it';
+                input.disabled = true;
+                save.disabled = true;
+            }
+        }
+
+        const HIGHLIGHT_MAX_MILES = 75;
+
+        // Haversine distance in miles between two lat/lng pairs.
+        function haversineMiles(lat1, lon1, lat2, lon2) {
+            const R = 3958.8;
+            const dLat = (lat2 - lat1) * Math.PI / 180;
+            const dLon = (lon2 - lon1) * Math.PI / 180;
+            const a = Math.sin(dLat/2) ** 2 +
+                      Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                      Math.sin(dLon/2) ** 2;
+            return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+        }
+        function distanceToRiver(lat, lng, river) {
+            let best = Infinity;
+            for (const seg of river.segments) {
+                for (const [plat, plng] of seg) {
+                    const d = haversineMiles(lat, lng, plat, plng);
+                    if (d < best) best = d;
+                }
+            }
+            return best;
+        }
+
+        // Convert a single river's segments to a FeatureCollection (lng,lat order).
+        function riverToFC(river, props = {}) {
+            return {
+                type: 'FeatureCollection',
+                features: river.segments.map(seg => ({
+                    type: 'Feature',
+                    properties: { ...props, scalerank: river.scalerank },
+                    geometry: {
+                        type: 'LineString',
+                        coordinates: seg.map(([lat, lng]) => [lng, lat])
+                    }
+                }))
+            };
+        }
+        function buildAllRiversFC(list) {
+            return {
+                type: 'FeatureCollection',
+                features: list.flatMap(river =>
+                    river.segments.map(seg => ({
+                        type: 'Feature',
+                        properties: { name: river.name, scalerank: river.scalerank },
+                        geometry: {
+                            type: 'LineString',
+                            coordinates: seg.map(([lat, lng]) => [lng, lat])
+                        }
+                    }))
+                )
+            };
+        }
+        function buildMarkedFC(marked) {
+            return {
+                type: 'FeatureCollection',
+                features: marked.flatMap(({river, status}) =>
+                    river.segments.map(seg => ({
+                        type: 'Feature',
+                        properties: { status, scalerank: river.scalerank },
+                        geometry: {
+                            type: 'LineString',
+                            coordinates: seg.map(([lat, lng]) => [lng, lat])
+                        }
+                    }))
+                )
+            };
+        }
+
+        function markRiver(river, status) {
+            const existing = markedRivers.find(m => m.river === river);
+            if (existing) existing.status = status;
+            else markedRivers.push({ river, status });
+            map.getSource('rivers-marked').setData(buildMarkedFC(markedRivers));
+        }
+
+        function clearSelected() {
+            map.getSource('rivers-selected').setData(EMPTY_FC);
+        }
+
+        function highlightNearest(lng, lat) {
+            let nearest = null, best = Infinity;
+            for (const river of rivers) {
+                const d = distanceToRiver(lat, lng, river);
+                if (d < best) { best = d; nearest = river; }
+            }
+            if (nearest && best <= HIGHLIGHT_MAX_MILES) {
+                map.getSource('rivers-selected').setData(riverToFC(nearest));
+                return nearest;
+            }
+            clearSelected();
+            return null;
+        }
+
+        function setMarkerColor(markerEl, color) {
+            const dot = markerEl.querySelector('.guess-dot');
+            dot.style.borderColor = color;
+            dot.style.backgroundColor = color + '66';   // ~40% alpha (8-digit hex)
+        }
+
+        function attachMarkerPopup(markerEl, lngLat, buildContent) {
+            markerEl.classList.add('tappable');
+            markerEl.addEventListener('click', () => {
+                new maplibregl.Popup({ closeOnClick: true })
+                    .setLngLat(lngLat)
+                    .setDOMContent(buildContent())
+                    .addTo(map);
+            });
+        }
+
+        map.on('click', (e) => {
+            if (graded || rivers.length === 0) return;
+
+            activeClickLngLat = e.lngLat;
+            activeSelectedRiver = highlightNearest(e.lngLat.lng, e.lngLat.lat);
+
+            const input = document.getElementById('river-input');
+            input.value = '';
+
+            if (activeSelectedRiver) {
+                setInputBarState({ selected: true });
+                input.focus();
+            } else {
+                setInputBarState({ tooFar: true });
+            }
+        });
+
+        window.saveLabel = function() {
+            const input = document.getElementById('river-input');
+            if (!input) return;
+            const inputVal = input.value.trim();
+            if (!inputVal || !activeClickLngLat) return;
+
+            const guessedRiver = riversByName.get(inputVal.toLowerCase()) || null;
+            const selectedRiver = activeSelectedRiver;
+            const lngLat = activeClickLngLat;
+
+            const markerEl = document.createElement('div');
+            markerEl.className = 'guess-marker';
+            const dot = document.createElement('div');
+            dot.className = 'guess-dot';
+            const label = document.createElement('div');
+            label.className = 'guess-label';
+            label.textContent = inputVal;
+            markerEl.appendChild(dot);
+            markerEl.appendChild(label);
+
+            const marker = new maplibregl.Marker({ element: markerEl, anchor: 'left' })
+                .setLngLat(lngLat)
+                .addTo(map);
+
+            // The selected (clicked-on) river is what gets graded; mark it
+            // labeled so it stays visible at any zoom in yellow.
+            if (selectedRiver) markRiver(selectedRiver, 'labeled');
+
+            guesses.push({
+                lng: lngLat.lng,
+                lat: lngLat.lat,
+                guessedName: inputVal,
+                markerEl,
+                marker,
+                selectedRiver,
+                guessedRiver
+            });
+
+            clearSelected();
+            activeSelectedRiver = null;
+            activeClickLngLat = null;
+            input.value = '';
+            input.blur();
+            setInputBarState({});
+        };
+
+        window.gradeGame = function() {
+            if (guesses.length === 0) {
+                alert("You haven't labeled any rivers yet!");
+                return;
+            }
+
+            clearSelected();
+            setInputBarState({ hidden: true });
+            let correctCount = 0;
+
+            guesses.forEach(guess => {
+                // The river to grade is the one the user originally clicked
+                // closest to, NOT whichever river the typed name resolves to.
+                const sel = guess.selectedRiver;
+
+                if (!sel) {
+                    setMarkerColor(guess.markerEl, '#9E9E9E');
+                    attachMarkerPopup(guess.markerEl, [guess.lng, guess.lat], () => {
+                        const div = document.createElement('div');
+                        div.textContent = `No river within ${HIGHLIGHT_MAX_MILES} miles of this spot.`;
+                        return div;
+                    });
+                    return;
+                }
+
+                const correct = guess.guessedRiver === sel;
+                if (correct) {
+                    correctCount++;
+                    setMarkerColor(guess.markerEl, '#4CAF50');
+                    markRiver(sel, 'correct');
+                } else {
+                    setMarkerColor(guess.markerEl, '#F44336');
+                    markRiver(sel, 'wrong');
+                    const detail = guess.guessedRiver
+                        ? `, not the ${guess.guessedName}.`
+                        : `; "${guess.guessedName}" isn't a river in this region.`;
+                    attachMarkerPopup(guess.markerEl, [guess.lng, guess.lat], () => {
+                        const div = document.createElement('div');
+                        div.appendChild(document.createTextNode("That's the "));
+                        const b = document.createElement('b');
+                        b.textContent = sel.name;
+                        div.appendChild(b);
+                        div.appendChild(document.createTextNode(detail));
+                        return div;
+                    });
+                }
+            });
+
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.style.display = 'block';
+            resultsDiv.innerHTML = `You correctly labeled <span style="color:#4CAF50; font-weight:bold;">${correctCount}</span> out of ${guesses.length} attempts!`;
+
+            graded = true;
+            document.getElementById('grade-btn').disabled = true;
+        };
+
+        window.togglePanel = function() {
+            const panel = document.getElementById('ui-panel');
+            const toggle = document.getElementById('collapse-toggle');
+            const collapsed = panel.classList.toggle('collapsed');
+            toggle.textContent = collapsed ? '▼' : '▲';
+            toggle.setAttribute('aria-label', collapsed ? 'Show panel' : 'Hide panel');
+        };
+
+        document.getElementById('save-btn').addEventListener('click', () => saveLabel());
+        document.getElementById('river-input').addEventListener('keydown', (ev) => {
+            if (ev.key === 'Enter') { ev.preventDefault(); saveLabel(); }
+        });
+
+        map.on('load', () => {
+            fetch(region.file)
+                .then(r => { if (!r.ok) throw new Error('Network error'); return r.json(); })
+                .then(data => {
+                    rivers = data;
+                    const dataList = document.getElementById('river-names');
+                    const seen = new Set();
+                    rivers.forEach(river => {
+                        riversByName.set(river.name.toLowerCase(), river);
+                        if (!seen.has(river.name)) {
+                            seen.add(river.name);
+                            const opt = document.createElement('option');
+                            opt.value = river.name;
+                            dataList.appendChild(opt);
+                        }
+                    });
+                    map.getSource('rivers').setData(buildAllRiversFC(rivers));
+
+                    document.getElementById('loading-status').innerText = `${rivers.length} rivers loaded!`;
+                    document.getElementById('loading-status').style.color = '#4CAF50';
+                    document.getElementById('grade-btn').disabled = false;
+                })
+                .catch(err => {
+                    console.error(err);
+                    document.getElementById('loading-status').innerText = 'Error loading rivers. Are you running a local server?';
+                    document.getElementById('loading-status').style.color = '#F44336';
+                });
+        });
+    </script>
+</body>
+</html>

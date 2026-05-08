@@ -1,0 +1,5114 @@
+[
+    {
+        "name": "Elbasan, AL",
+        "lat": 41.11138,
+        "lng": 20.08224,
+        "pop": 100903
+    },
+    {
+        "name": "Vlor\u00eb, AL",
+        "lat": 40.4696,
+        "lng": 19.48379,
+        "pop": 115261
+    },
+    {
+        "name": "Tirana, AL",
+        "lat": 41.32744,
+        "lng": 19.81866,
+        "pop": 418495
+    },
+    {
+        "name": "Durr\u00ebs, AL",
+        "lat": 41.32355,
+        "lng": 19.45469,
+        "pop": 195920
+    },
+    {
+        "name": "Vienna, AT",
+        "lat": 48.20849,
+        "lng": 16.37208,
+        "pop": 1691468
+    },
+    {
+        "name": "Salzburg, AT",
+        "lat": 47.79941,
+        "lng": 13.04399,
+        "pop": 157245
+    },
+    {
+        "name": "Linz, AT",
+        "lat": 48.30639,
+        "lng": 14.28611,
+        "pop": 204846
+    },
+    {
+        "name": "Klagenfurt am W\u00f6rthersee, AT",
+        "lat": 46.62472,
+        "lng": 14.30528,
+        "pop": 100316
+    },
+    {
+        "name": "Innsbruck, AT",
+        "lat": 47.26266,
+        "lng": 11.39454,
+        "pop": 132493
+    },
+    {
+        "name": "Graz, AT",
+        "lat": 47.06733,
+        "lng": 15.44197,
+        "pop": 303270
+    },
+    {
+        "name": "Zenica, BA",
+        "lat": 44.20169,
+        "lng": 17.90397,
+        "pop": 164423
+    },
+    {
+        "name": "Tuzla, BA",
+        "lat": 44.53842,
+        "lng": 18.66709,
+        "pop": 142486
+    },
+    {
+        "name": "Sarajevo, BA",
+        "lat": 43.84864,
+        "lng": 18.35644,
+        "pop": 696731
+    },
+    {
+        "name": "Mostar, BA",
+        "lat": 43.34333,
+        "lng": 17.80806,
+        "pop": 104518
+    },
+    {
+        "name": "Banja Luka, BA",
+        "lat": 44.77879,
+        "lng": 17.20629,
+        "pop": 221106
+    },
+    {
+        "name": "Schaerbeek, BE",
+        "lat": 50.86935,
+        "lng": 4.37737,
+        "pop": 132761
+    },
+    {
+        "name": "Namur, BE",
+        "lat": 50.4669,
+        "lng": 4.86746,
+        "pop": 110939
+    },
+    {
+        "name": "Li\u00e8ge, BE",
+        "lat": 50.63373,
+        "lng": 5.56749,
+        "pop": 195278
+    },
+    {
+        "name": "Leuven, BE",
+        "lat": 50.87959,
+        "lng": 4.70093,
+        "pop": 101032
+    },
+    {
+        "name": "Gent, BE",
+        "lat": 51.05,
+        "lng": 3.71667,
+        "pop": 265086
+    },
+    {
+        "name": "Charleroi, BE",
+        "lat": 50.41136,
+        "lng": 4.44448,
+        "pop": 200132
+    },
+    {
+        "name": "Brussels, BE",
+        "lat": 50.85045,
+        "lng": 4.34878,
+        "pop": 1019022
+    },
+    {
+        "name": "Brugge, BE",
+        "lat": 51.20892,
+        "lng": 3.22424,
+        "pop": 118509
+    },
+    {
+        "name": "Antwerpen, BE",
+        "lat": 51.22047,
+        "lng": 4.40026,
+        "pop": 529247
+    },
+    {
+        "name": "Anderlecht, BE",
+        "lat": 50.83619,
+        "lng": 4.31454,
+        "pop": 160553
+    },
+    {
+        "name": "Varna, BG",
+        "lat": 43.21912,
+        "lng": 27.91024,
+        "pop": 318737
+    },
+    {
+        "name": "Stara Zagora, BG",
+        "lat": 42.43205,
+        "lng": 25.64262,
+        "pop": 121582
+    },
+    {
+        "name": "Sofia, BG",
+        "lat": 42.69751,
+        "lng": 23.32415,
+        "pop": 1152556
+    },
+    {
+        "name": "Ruse, BG",
+        "lat": 43.84872,
+        "lng": 25.9534,
+        "pop": 121168
+    },
+    {
+        "name": "Plovdiv, BG",
+        "lat": 42.15387,
+        "lng": 24.75001,
+        "pop": 329489
+    },
+    {
+        "name": "Burgas, BG",
+        "lat": 42.50651,
+        "lng": 27.46886,
+        "pop": 210646
+    },
+    {
+        "name": "Vitebsk, BY",
+        "lat": 55.1904,
+        "lng": 30.2049,
+        "pop": 358395
+    },
+    {
+        "name": "Pinsk, BY",
+        "lat": 52.12153,
+        "lng": 26.06726,
+        "pop": 124295
+    },
+    {
+        "name": "Orsha, BY",
+        "lat": 54.51362,
+        "lng": 30.40365,
+        "pop": 102759
+    },
+    {
+        "name": "Minsk, BY",
+        "lat": 53.90019,
+        "lng": 27.56653,
+        "pop": 1742124
+    },
+    {
+        "name": "Mazyr, BY",
+        "lat": 52.04162,
+        "lng": 29.21631,
+        "pop": 105152
+    },
+    {
+        "name": "Mahilyow, BY",
+        "lat": 53.90876,
+        "lng": 30.34044,
+        "pop": 353110
+    },
+    {
+        "name": "Lida, BY",
+        "lat": 53.88333,
+        "lng": 25.29972,
+        "pop": 103916
+    },
+    {
+        "name": "Hrodna, BY",
+        "lat": 53.6758,
+        "lng": 23.82887,
+        "pop": 361115
+    },
+    {
+        "name": "Homyel', BY",
+        "lat": 52.4345,
+        "lng": 30.9754,
+        "pop": 501102
+    },
+    {
+        "name": "Brest, BY",
+        "lat": 52.10894,
+        "lng": 23.71749,
+        "pop": 344470
+    },
+    {
+        "name": "Barysaw, BY",
+        "lat": 54.2279,
+        "lng": 28.505,
+        "pop": 135696
+    },
+    {
+        "name": "Baranovichi, BY",
+        "lat": 53.13253,
+        "lng": 26.00774,
+        "pop": 171361
+    },
+    {
+        "name": "Bobruysk, BY",
+        "lat": 53.14636,
+        "lng": 29.20552,
+        "pop": 207351
+    },
+    {
+        "name": "Z\u00fcrich, CH",
+        "lat": 47.36667,
+        "lng": 8.55,
+        "pop": 415367
+    },
+    {
+        "name": "Winterthur, CH",
+        "lat": 47.50564,
+        "lng": 8.72413,
+        "pop": 111840
+    },
+    {
+        "name": "Lausanne, CH",
+        "lat": 46.516,
+        "lng": 6.63282,
+        "pop": 139111
+    },
+    {
+        "name": "Gen\u00e8ve, CH",
+        "lat": 46.20222,
+        "lng": 6.14569,
+        "pop": 201741
+    },
+    {
+        "name": "Bern, CH",
+        "lat": 46.94809,
+        "lng": 7.44744,
+        "pop": 121631
+    },
+    {
+        "name": "Basel, CH",
+        "lat": 47.55839,
+        "lng": 7.57327,
+        "pop": 177595
+    },
+    {
+        "name": "Nicosia, CY",
+        "lat": 35.17284,
+        "lng": 33.35397,
+        "pop": 200452
+    },
+    {
+        "name": "Limassol, CY",
+        "lat": 34.68406,
+        "lng": 33.03794,
+        "pop": 154000
+    },
+    {
+        "name": "Prague, CZ",
+        "lat": 50.08804,
+        "lng": 14.42076,
+        "pop": 1165581
+    },
+    {
+        "name": "Pilsen, CZ",
+        "lat": 49.74747,
+        "lng": 13.37759,
+        "pop": 168733
+    },
+    {
+        "name": "Ostrava, CZ",
+        "lat": 49.83465,
+        "lng": 18.28204,
+        "pop": 279791
+    },
+    {
+        "name": "Liberec, CZ",
+        "lat": 50.76711,
+        "lng": 15.05619,
+        "pop": 102951
+    },
+    {
+        "name": "Brno, CZ",
+        "lat": 49.19522,
+        "lng": 16.60796,
+        "pop": 379466
+    },
+    {
+        "name": "W\u00fcrzburg, DE",
+        "lat": 49.79391,
+        "lng": 9.95121,
+        "pop": 133731
+    },
+    {
+        "name": "Wuppertal, DE",
+        "lat": 51.25627,
+        "lng": 7.14816,
+        "pop": 360797
+    },
+    {
+        "name": "Wolfsburg, DE",
+        "lat": 52.42452,
+        "lng": 10.7815,
+        "pop": 123064
+    },
+    {
+        "name": "Witten, DE",
+        "lat": 51.44362,
+        "lng": 7.35258,
+        "pop": 101247
+    },
+    {
+        "name": "Wiesbaden, DE",
+        "lat": 50.08601,
+        "lng": 8.24435,
+        "pop": 278609
+    },
+    {
+        "name": "Ulm, DE",
+        "lat": 48.39841,
+        "lng": 9.99155,
+        "pop": 120451
+    },
+    {
+        "name": "Trier, DE",
+        "lat": 49.75565,
+        "lng": 6.63935,
+        "pop": 100129
+    },
+    {
+        "name": "Stuttgart, DE",
+        "lat": 48.78232,
+        "lng": 9.17702,
+        "pop": 630305
+    },
+    {
+        "name": "Solingen, DE",
+        "lat": 51.17343,
+        "lng": 7.0845,
+        "pop": 164359
+    },
+    {
+        "name": "Siegen, DE",
+        "lat": 50.87481,
+        "lng": 8.02431,
+        "pop": 107242
+    },
+    {
+        "name": "Salzgitter, DE",
+        "lat": 52.15705,
+        "lng": 10.4154,
+        "pop": 103866
+    },
+    {
+        "name": "Saarbr\u00fccken, DE",
+        "lat": 49.23262,
+        "lng": 7.00982,
+        "pop": 179349
+    },
+    {
+        "name": "Rostock, DE",
+        "lat": 54.0887,
+        "lng": 12.14049,
+        "pop": 198293
+    },
+    {
+        "name": "Reutlingen, DE",
+        "lat": 48.49144,
+        "lng": 9.20427,
+        "pop": 112627
+    },
+    {
+        "name": "Remscheid, DE",
+        "lat": 51.17983,
+        "lng": 7.1925,
+        "pop": 117118
+    },
+    {
+        "name": "Regensburg, DE",
+        "lat": 49.01513,
+        "lng": 12.10161,
+        "pop": 129151
+    },
+    {
+        "name": "Recklinghausen, DE",
+        "lat": 51.61379,
+        "lng": 7.19738,
+        "pop": 122438
+    },
+    {
+        "name": "Potsdam, DE",
+        "lat": 52.39886,
+        "lng": 13.06566,
+        "pop": 182112
+    },
+    {
+        "name": "Pforzheim, DE",
+        "lat": 48.88436,
+        "lng": 8.69892,
+        "pop": 119313
+    },
+    {
+        "name": "Paderborn, DE",
+        "lat": 51.71905,
+        "lng": 8.75439,
+        "pop": 142161
+    },
+    {
+        "name": "Osnabr\u00fcck, DE",
+        "lat": 52.27264,
+        "lng": 8.0498,
+        "pop": 166462
+    },
+    {
+        "name": "Oldenburg, DE",
+        "lat": 53.14039,
+        "lng": 8.21479,
+        "pop": 159218
+    },
+    {
+        "name": "Offenbach, DE",
+        "lat": 50.10061,
+        "lng": 8.76647,
+        "pop": 119192
+    },
+    {
+        "name": "Oberhausen, DE",
+        "lat": 51.47805,
+        "lng": 6.8625,
+        "pop": 219176
+    },
+    {
+        "name": "N\u00fcrnberg, DE",
+        "lat": 49.45421,
+        "lng": 11.07752,
+        "pop": 515543
+    },
+    {
+        "name": "Neuss, DE",
+        "lat": 51.19807,
+        "lng": 6.68504,
+        "pop": 152457
+    },
+    {
+        "name": "M\u00fcnster, DE",
+        "lat": 51.96236,
+        "lng": 7.62571,
+        "pop": 270184
+    },
+    {
+        "name": "Munich, DE",
+        "lat": 48.13743,
+        "lng": 11.57549,
+        "pop": 1260391
+    },
+    {
+        "name": "M\u00fclheim, DE",
+        "lat": 51.43218,
+        "lng": 6.87967,
+        "pop": 170921
+    },
+    {
+        "name": "M\u00f6nchengladbach, DE",
+        "lat": 51.18539,
+        "lng": 6.44172,
+        "pop": 261742
+    },
+    {
+        "name": "Moers, DE",
+        "lat": 51.45342,
+        "lng": 6.6326,
+        "pop": 103487
+    },
+    {
+        "name": "Mannheim, DE",
+        "lat": 49.4891,
+        "lng": 8.46694,
+        "pop": 307960
+    },
+    {
+        "name": "Mainz, DE",
+        "lat": 49.98185,
+        "lng": 8.28008,
+        "pop": 217123
+    },
+    {
+        "name": "Magdeburg, DE",
+        "lat": 52.13129,
+        "lng": 11.63189,
+        "pop": 235775
+    },
+    {
+        "name": "Ludwigshafen am Rhein, DE",
+        "lat": 49.48121,
+        "lng": 8.44641,
+        "pop": 163196
+    },
+    {
+        "name": "L\u00fcbeck, DE",
+        "lat": 53.86893,
+        "lng": 10.68729,
+        "pop": 212207
+    },
+    {
+        "name": "Leverkusen, DE",
+        "lat": 51.0303,
+        "lng": 6.98432,
+        "pop": 162738
+    },
+    {
+        "name": "Leipzig, DE",
+        "lat": 51.33962,
+        "lng": 12.37129,
+        "pop": 504971
+    },
+    {
+        "name": "Krefeld, DE",
+        "lat": 51.33645,
+        "lng": 6.55381,
+        "pop": 237984
+    },
+    {
+        "name": "K\u00f6ln, DE",
+        "lat": 50.93333,
+        "lng": 6.95,
+        "pop": 963395
+    },
+    {
+        "name": "Koblenz, DE",
+        "lat": 50.35357,
+        "lng": 7.57883,
+        "pop": 107319
+    },
+    {
+        "name": "Kiel, DE",
+        "lat": 54.32133,
+        "lng": 10.13489,
+        "pop": 246601
+    },
+    {
+        "name": "Kassel, DE",
+        "lat": 51.31667,
+        "lng": 9.5,
+        "pop": 194501
+    },
+    {
+        "name": "Karlsruhe, DE",
+        "lat": 49.00937,
+        "lng": 8.40444,
+        "pop": 283799
+    },
+    {
+        "name": "Jena, DE",
+        "lat": 50.92878,
+        "lng": 11.5899,
+        "pop": 104712
+    },
+    {
+        "name": "Ingolstadt, DE",
+        "lat": 48.76508,
+        "lng": 11.42372,
+        "pop": 120658
+    },
+    {
+        "name": "Hildesheim, DE",
+        "lat": 52.15077,
+        "lng": 9.95112,
+        "pop": 103052
+    },
+    {
+        "name": "Herne, DE",
+        "lat": 51.5388,
+        "lng": 7.22572,
+        "pop": 172108
+    },
+    {
+        "name": "Heilbronn, DE",
+        "lat": 49.13995,
+        "lng": 9.22054,
+        "pop": 120733
+    },
+    {
+        "name": "Heidelberg, DE",
+        "lat": 49.40768,
+        "lng": 8.69079,
+        "pop": 143345
+    },
+    {
+        "name": "Hannover, DE",
+        "lat": 52.37052,
+        "lng": 9.73322,
+        "pop": 515140
+    },
+    {
+        "name": "Hamm, DE",
+        "lat": 51.68033,
+        "lng": 7.82089,
+        "pop": 178967
+    },
+    {
+        "name": "Hamburg, DE",
+        "lat": 53.55073,
+        "lng": 9.99302,
+        "pop": 1845229
+    },
+    {
+        "name": "Halle (Saale), DE",
+        "lat": 51.48158,
+        "lng": 11.97947,
+        "pop": 237865
+    },
+    {
+        "name": "Hagen, DE",
+        "lat": 51.36081,
+        "lng": 7.47168,
+        "pop": 198972
+    },
+    {
+        "name": "G\u00f6ttingen, DE",
+        "lat": 51.53443,
+        "lng": 9.93228,
+        "pop": 122149
+    },
+    {
+        "name": "Gera, DE",
+        "lat": 50.88029,
+        "lng": 12.08187,
+        "pop": 104659
+    },
+    {
+        "name": "Gelsenkirchen, DE",
+        "lat": 51.50508,
+        "lng": 7.09654,
+        "pop": 270028
+    },
+    {
+        "name": "F\u00fcrth, DE",
+        "lat": 49.47593,
+        "lng": 10.98856,
+        "pop": 112025
+    },
+    {
+        "name": "Freiburg, DE",
+        "lat": 47.9959,
+        "lng": 7.85222,
+        "pop": 215966
+    },
+    {
+        "name": "Frankfurt am Main, DE",
+        "lat": 50.11552,
+        "lng": 8.68417,
+        "pop": 650000
+    },
+    {
+        "name": "Essen, DE",
+        "lat": 51.45657,
+        "lng": 7.01228,
+        "pop": 593085
+    },
+    {
+        "name": "Erlangen, DE",
+        "lat": 49.59099,
+        "lng": 11.00783,
+        "pop": 102675
+    },
+    {
+        "name": "Erfurt, DE",
+        "lat": 50.97734,
+        "lng": 11.03536,
+        "pop": 213692
+    },
+    {
+        "name": "D\u00fcsseldorf, DE",
+        "lat": 51.22319,
+        "lng": 6.77927,
+        "pop": 620523
+    },
+    {
+        "name": "Duisburg, DE",
+        "lat": 51.43247,
+        "lng": 6.76516,
+        "pop": 504358
+    },
+    {
+        "name": "Dresden, DE",
+        "lat": 51.05089,
+        "lng": 13.73832,
+        "pop": 556227
+    },
+    {
+        "name": "Dortmund, DE",
+        "lat": 51.51494,
+        "lng": 7.466,
+        "pop": 588462
+    },
+    {
+        "name": "Darmstadt, DE",
+        "lat": 49.87167,
+        "lng": 8.65027,
+        "pop": 140385
+    },
+    {
+        "name": "Chemnitz, DE",
+        "lat": 50.8357,
+        "lng": 12.92922,
+        "pop": 247220
+    },
+    {
+        "name": "Bremerhaven, DE",
+        "lat": 53.55357,
+        "lng": 8.57553,
+        "pop": 113557
+    },
+    {
+        "name": "Bremen, DE",
+        "lat": 53.07582,
+        "lng": 8.80717,
+        "pop": 546501
+    },
+    {
+        "name": "Braunschweig, DE",
+        "lat": 52.26594,
+        "lng": 10.52673,
+        "pop": 244715
+    },
+    {
+        "name": "Bottrop, DE",
+        "lat": 51.52392,
+        "lng": 6.9285,
+        "pop": 119909
+    },
+    {
+        "name": "Bonn, DE",
+        "lat": 50.73438,
+        "lng": 7.09549,
+        "pop": 330579
+    },
+    {
+        "name": "Bochum, DE",
+        "lat": 51.48165,
+        "lng": 7.21648,
+        "pop": 385729
+    },
+    {
+        "name": "Bielefeld, DE",
+        "lat": 52.03333,
+        "lng": 8.53333,
+        "pop": 331906
+    },
+    {
+        "name": "Berlin, DE",
+        "lat": 52.52437,
+        "lng": 13.41053,
+        "pop": 3426354
+    },
+    {
+        "name": "Bergisch Gladbach, DE",
+        "lat": 50.9856,
+        "lng": 7.13298,
+        "pop": 106184
+    },
+    {
+        "name": "Augsburg, DE",
+        "lat": 48.37154,
+        "lng": 10.89851,
+        "pop": 259196
+    },
+    {
+        "name": "Aachen, DE",
+        "lat": 50.77664,
+        "lng": 6.08342,
+        "pop": 265208
+    },
+    {
+        "name": "Odense, DK",
+        "lat": 55.39594,
+        "lng": 10.38831,
+        "pop": 180863
+    },
+    {
+        "name": "Copenhagen, DK",
+        "lat": 55.67594,
+        "lng": 12.56553,
+        "pop": 1153615
+    },
+    {
+        "name": "\u00c5rhus, DK",
+        "lat": 56.15674,
+        "lng": 10.21076,
+        "pop": 285273
+    },
+    {
+        "name": "Aalborg, DK",
+        "lat": 57.048,
+        "lng": 9.9187,
+        "pop": 142937
+    },
+    {
+        "name": "Tallinn, EE",
+        "lat": 59.43696,
+        "lng": 24.75353,
+        "pop": 394024
+    },
+    {
+        "name": "Valencia, ES",
+        "lat": 39.47391,
+        "lng": -0.37966,
+        "pop": 824340
+    },
+    {
+        "name": "Telde, ES",
+        "lat": 27.99243,
+        "lng": -15.41915,
+        "pop": 123265
+    },
+    {
+        "name": "Sevilla, ES",
+        "lat": 37.38283,
+        "lng": -5.97317,
+        "pop": 686741
+    },
+    {
+        "name": "Santa Cruz de Tenerife, ES",
+        "lat": 28.46824,
+        "lng": -16.25462,
+        "pop": 211359
+    },
+    {
+        "name": "La Laguna, ES",
+        "lat": 28.4853,
+        "lng": -16.32014,
+        "pop": 150661
+    },
+    {
+        "name": "Palma, ES",
+        "lat": 39.56939,
+        "lng": 2.65024,
+        "pop": 438234
+    },
+    {
+        "name": "Orihuela, ES",
+        "lat": 38.08483,
+        "lng": -0.94401,
+        "pop": 101321
+    },
+    {
+        "name": "Murcia, ES",
+        "lat": 37.98704,
+        "lng": -1.13004,
+        "pop": 471982
+    },
+    {
+        "name": "Marbella, ES",
+        "lat": 36.51543,
+        "lng": -4.88583,
+        "pop": 156295
+    },
+    {
+        "name": "M\u00e1laga, ES",
+        "lat": 36.72016,
+        "lng": -4.42034,
+        "pop": 592346
+    },
+    {
+        "name": "Las Palmas de Gran Canaria, ES",
+        "lat": 28.10178,
+        "lng": -15.41573,
+        "pop": 383516
+    },
+    {
+        "name": "Jerez de la Frontera, ES",
+        "lat": 36.68645,
+        "lng": -6.13606,
+        "pop": 212879
+    },
+    {
+        "name": "Ja\u00e9n, ES",
+        "lat": 37.76922,
+        "lng": -3.79028,
+        "pop": 113457
+    },
+    {
+        "name": "Huelva, ES",
+        "lat": 37.26638,
+        "lng": -6.94004,
+        "pop": 144258
+    },
+    {
+        "name": "Granada, ES",
+        "lat": 37.18817,
+        "lng": -3.60667,
+        "pop": 233532
+    },
+    {
+        "name": "Elche, ES",
+        "lat": 38.26218,
+        "lng": -0.70107,
+        "pop": 234765
+    },
+    {
+        "name": "Dos Hermanas, ES",
+        "lat": 37.28287,
+        "lng": -5.92088,
+        "pop": 122943
+    },
+    {
+        "name": "C\u00f3rdoba, ES",
+        "lat": 37.89155,
+        "lng": -4.77275,
+        "pop": 325708
+    },
+    {
+        "name": "Castell\u00f3 de la Plana, ES",
+        "lat": 39.98567,
+        "lng": -0.04935,
+        "pop": 171857
+    },
+    {
+        "name": "Cartagena, ES",
+        "lat": 37.60197,
+        "lng": -0.98397,
+        "pop": 213943
+    },
+    {
+        "name": "Cadiz, ES",
+        "lat": 36.52672,
+        "lng": -6.2891,
+        "pop": 116979
+    },
+    {
+        "name": "Badajoz, ES",
+        "lat": 38.87789,
+        "lng": -6.97061,
+        "pop": 150530
+    },
+    {
+        "name": "Almer\u00eda, ES",
+        "lat": 36.83814,
+        "lng": -2.45974,
+        "pop": 196851
+    },
+    {
+        "name": "Alicante, ES",
+        "lat": 38.34517,
+        "lng": -0.48149,
+        "pop": 348901
+    },
+    {
+        "name": "Algeciras, ES",
+        "lat": 36.13326,
+        "lng": -5.45051,
+        "pop": 121414
+    },
+    {
+        "name": "Albacete, ES",
+        "lat": 38.99424,
+        "lng": -1.85643,
+        "pop": 173050
+    },
+    {
+        "name": "Zaragoza, ES",
+        "lat": 41.65606,
+        "lng": -0.87734,
+        "pop": 686986
+    },
+    {
+        "name": "Gasteiz / Vitoria, ES",
+        "lat": 42.84998,
+        "lng": -2.67268,
+        "pop": 257407
+    },
+    {
+        "name": "Vigo, ES",
+        "lat": 42.23282,
+        "lng": -8.72264,
+        "pop": 293642
+    },
+    {
+        "name": "Valladolid, ES",
+        "lat": 41.65541,
+        "lng": -4.72353,
+        "pop": 300618
+    },
+    {
+        "name": "Torrej\u00f3n de Ardoz, ES",
+        "lat": 40.45535,
+        "lng": -3.46973,
+        "pop": 118162
+    },
+    {
+        "name": "Terrassa, ES",
+        "lat": 41.56667,
+        "lng": 2.01667,
+        "pop": 218535
+    },
+    {
+        "name": "Tarragona, ES",
+        "lat": 41.11905,
+        "lng": 1.24544,
+        "pop": 141542
+    },
+    {
+        "name": "Barakaldo, ES",
+        "lat": 43.29639,
+        "lng": -2.98813,
+        "pop": 100435
+    },
+    {
+        "name": "Santander, ES",
+        "lat": 43.46589,
+        "lng": -3.80493,
+        "pop": 173635
+    },
+    {
+        "name": "Santa Coloma de Gramenet, ES",
+        "lat": 41.45152,
+        "lng": 2.2081,
+        "pop": 118821
+    },
+    {
+        "name": "Donostia / San Sebasti\u00e1n, ES",
+        "lat": 43.31283,
+        "lng": -1.97499,
+        "pop": 185357
+    },
+    {
+        "name": "Salamanca, ES",
+        "lat": 40.96882,
+        "lng": -5.66388,
+        "pop": 144825
+    },
+    {
+        "name": "Sabadell, ES",
+        "lat": 41.54329,
+        "lng": 2.10942,
+        "pop": 211734
+    },
+    {
+        "name": "Reus, ES",
+        "lat": 41.15612,
+        "lng": 1.10687,
+        "pop": 103477
+    },
+    {
+        "name": "Parla, ES",
+        "lat": 40.23604,
+        "lng": -3.76752,
+        "pop": 115611
+    },
+    {
+        "name": "Pamplona, ES",
+        "lat": 42.81687,
+        "lng": -1.64323,
+        "pop": 208243
+    },
+    {
+        "name": "Oviedo, ES",
+        "lat": 43.36029,
+        "lng": -5.84476,
+        "pop": 220027
+    },
+    {
+        "name": "Ourense, ES",
+        "lat": 42.33669,
+        "lng": -7.86407,
+        "pop": 105233
+    },
+    {
+        "name": "M\u00f3stoles, ES",
+        "lat": 40.32234,
+        "lng": -3.86496,
+        "pop": 207095
+    },
+    {
+        "name": "Matar\u00f3, ES",
+        "lat": 41.54211,
+        "lng": 2.4445,
+        "pop": 126988
+    },
+    {
+        "name": "Madrid, ES",
+        "lat": 40.4165,
+        "lng": -3.70256,
+        "pop": 3255944
+    },
+    {
+        "name": "Logro\u00f1o, ES",
+        "lat": 42.46615,
+        "lng": -2.45115,
+        "pop": 151164
+    },
+    {
+        "name": "Lleida, ES",
+        "lat": 41.61674,
+        "lng": 0.62218,
+        "pop": 140797
+    },
+    {
+        "name": "Le\u00f3n, ES",
+        "lat": 42.60003,
+        "lng": -5.57032,
+        "pop": 124772
+    },
+    {
+        "name": "Legan\u00e9s, ES",
+        "lat": 40.32718,
+        "lng": -3.7635,
+        "pop": 188425
+    },
+    {
+        "name": "A Coru\u00f1a, ES",
+        "lat": 43.37135,
+        "lng": -8.396,
+        "pop": 250438
+    },
+    {
+        "name": "L'Hospitalet de Llobregat, ES",
+        "lat": 41.35967,
+        "lng": 2.10028,
+        "pop": 257038
+    },
+    {
+        "name": "Gij\u00f3n, ES",
+        "lat": 43.53573,
+        "lng": -5.66152,
+        "pop": 271780
+    },
+    {
+        "name": "Getafe, ES",
+        "lat": 40.30571,
+        "lng": -3.73295,
+        "pop": 187525
+    },
+    {
+        "name": "Girona, ES",
+        "lat": 41.98311,
+        "lng": 2.82493,
+        "pop": 100266
+    },
+    {
+        "name": "Fuenlabrada, ES",
+        "lat": 40.28419,
+        "lng": -3.79415,
+        "pop": 190496
+    },
+    {
+        "name": "Ciudad Lineal, ES",
+        "lat": 40.44505,
+        "lng": -3.65132,
+        "pop": 228171
+    },
+    {
+        "name": "Chamart\u00edn, ES",
+        "lat": 40.46206,
+        "lng": -3.6766,
+        "pop": 140000
+    },
+    {
+        "name": "Burgos, ES",
+        "lat": 42.34106,
+        "lng": -3.70184,
+        "pop": 176418
+    },
+    {
+        "name": "Bilbao, ES",
+        "lat": 43.26271,
+        "lng": -2.92528,
+        "pop": 347342
+    },
+    {
+        "name": "Barcelona, ES",
+        "lat": 41.38879,
+        "lng": 2.15899,
+        "pop": 1686208
+    },
+    {
+        "name": "Badalona, ES",
+        "lat": 41.45004,
+        "lng": 2.24741,
+        "pop": 217741
+    },
+    {
+        "name": "Alcorc\u00f3n, ES",
+        "lat": 40.34582,
+        "lng": -3.82487,
+        "pop": 172384
+    },
+    {
+        "name": "Alcobendas, ES",
+        "lat": 40.54746,
+        "lng": -3.64197,
+        "pop": 116037
+    },
+    {
+        "name": "Alcal\u00e1 de Henares, ES",
+        "lat": 40.48205,
+        "lng": -3.35996,
+        "pop": 193751
+    },
+    {
+        "name": "Sant Mart\u00ed, ES",
+        "lat": 41.41814,
+        "lng": 2.19933,
+        "pop": 235719
+    },
+    {
+        "name": "Vantaa, FI",
+        "lat": 60.29414,
+        "lng": 25.04099,
+        "pop": 252724
+    },
+    {
+        "name": "Turku, FI",
+        "lat": 60.45148,
+        "lng": 22.26869,
+        "pop": 206655
+    },
+    {
+        "name": "Tampere, FI",
+        "lat": 61.49911,
+        "lng": 23.78712,
+        "pop": 260646
+    },
+    {
+        "name": "Oulu, FI",
+        "lat": 65.01236,
+        "lng": 25.46816,
+        "pop": 216066
+    },
+    {
+        "name": "Lahti, FI",
+        "lat": 60.98267,
+        "lng": 25.66151,
+        "pop": 121622
+    },
+    {
+        "name": "Kuopio, FI",
+        "lat": 62.89238,
+        "lng": 27.67703,
+        "pop": 125462
+    },
+    {
+        "name": "Jyv\u00e4skyl\u00e4, FI",
+        "lat": 62.24147,
+        "lng": 25.72088,
+        "pop": 148744
+    },
+    {
+        "name": "Helsinki, FI",
+        "lat": 60.16952,
+        "lng": 24.93545,
+        "pop": 658864
+    },
+    {
+        "name": "Espoo, FI",
+        "lat": 60.2052,
+        "lng": 24.6522,
+        "pop": 323910
+    },
+    {
+        "name": "Villeurbanne, FR",
+        "lat": 45.76601,
+        "lng": 4.8795,
+        "pop": 131445
+    },
+    {
+        "name": "Tours, FR",
+        "lat": 47.39484,
+        "lng": 0.70398,
+        "pop": 141621
+    },
+    {
+        "name": "Toulouse, FR",
+        "lat": 43.60426,
+        "lng": 1.44367,
+        "pop": 511684
+    },
+    {
+        "name": "Toulon, FR",
+        "lat": 43.12442,
+        "lng": 5.92836,
+        "pop": 168701
+    },
+    {
+        "name": "Strasbourg, FR",
+        "lat": 48.58392,
+        "lng": 7.74553,
+        "pop": 274845
+    },
+    {
+        "name": "Saint-\u00c9tienne, FR",
+        "lat": 45.43389,
+        "lng": 4.39,
+        "pop": 176280
+    },
+    {
+        "name": "Rouen, FR",
+        "lat": 49.44313,
+        "lng": 1.09932,
+        "pop": 116331
+    },
+    {
+        "name": "Rennes, FR",
+        "lat": 48.11109,
+        "lng": -1.67431,
+        "pop": 227830
+    },
+    {
+        "name": "Reims, FR",
+        "lat": 49.26526,
+        "lng": 4.02853,
+        "pop": 196565
+    },
+    {
+        "name": "Perpignan, FR",
+        "lat": 42.69764,
+        "lng": 2.89541,
+        "pop": 110706
+    },
+    {
+        "name": "Paris, FR",
+        "lat": 48.85341,
+        "lng": 2.3488,
+        "pop": 2138551
+    },
+    {
+        "name": "Orl\u00e9ans, FR",
+        "lat": 47.90248,
+        "lng": 1.90407,
+        "pop": 116344
+    },
+    {
+        "name": "N\u00eemes, FR",
+        "lat": 43.83665,
+        "lng": 4.35788,
+        "pop": 148236
+    },
+    {
+        "name": "Nice, FR",
+        "lat": 43.70313,
+        "lng": 7.26608,
+        "pop": 342669
+    },
+    {
+        "name": "Nantes, FR",
+        "lat": 47.21725,
+        "lng": -1.55336,
+        "pop": 325070
+    },
+    {
+        "name": "Nancy, FR",
+        "lat": 48.68439,
+        "lng": 6.18496,
+        "pop": 105058
+    },
+    {
+        "name": "Mulhouse, FR",
+        "lat": 47.75205,
+        "lng": 7.32866,
+        "pop": 111430
+    },
+    {
+        "name": "Montreuil, FR",
+        "lat": 48.86415,
+        "lng": 2.44322,
+        "pop": 111240
+    },
+    {
+        "name": "Montpellier, FR",
+        "lat": 43.61093,
+        "lng": 3.87635,
+        "pop": 248252
+    },
+    {
+        "name": "Metz, FR",
+        "lat": 49.11911,
+        "lng": 6.17269,
+        "pop": 123914
+    },
+    {
+        "name": "Marseille, FR",
+        "lat": 43.29695,
+        "lng": 5.38107,
+        "pop": 877215
+    },
+    {
+        "name": "Lyon, FR",
+        "lat": 45.74906,
+        "lng": 4.84789,
+        "pop": 520774
+    },
+    {
+        "name": "Limoges, FR",
+        "lat": 45.83362,
+        "lng": 1.24759,
+        "pop": 141176
+    },
+    {
+        "name": "Lille, FR",
+        "lat": 50.63391,
+        "lng": 3.05512,
+        "pop": 238695
+    },
+    {
+        "name": "Le Mans, FR",
+        "lat": 48.0021,
+        "lng": 0.20251,
+        "pop": 144515
+    },
+    {
+        "name": "Le Havre, FR",
+        "lat": 49.49346,
+        "lng": 0.10785,
+        "pop": 185972
+    },
+    {
+        "name": "Grenoble, FR",
+        "lat": 45.17869,
+        "lng": 5.71479,
+        "pop": 158552
+    },
+    {
+        "name": "Dijon, FR",
+        "lat": 47.31344,
+        "lng": 5.01391,
+        "pop": 159941
+    },
+    {
+        "name": "Clermont-Ferrand, FR",
+        "lat": 45.77969,
+        "lng": 3.08682,
+        "pop": 147865
+    },
+    {
+        "name": "Caen, FR",
+        "lat": 49.18585,
+        "lng": -0.35912,
+        "pop": 110624
+    },
+    {
+        "name": "Brest, FR",
+        "lat": 48.39029,
+        "lng": -4.48628,
+        "pop": 144899
+    },
+    {
+        "name": "Boulogne-Billancourt, FR",
+        "lat": 48.83545,
+        "lng": 2.24128,
+        "pop": 108782
+    },
+    {
+        "name": "Bordeaux, FR",
+        "lat": 44.84124,
+        "lng": -0.58046,
+        "pop": 265328
+    },
+    {
+        "name": "Besan\u00e7on, FR",
+        "lat": 47.24878,
+        "lng": 6.01815,
+        "pop": 128426
+    },
+    {
+        "name": "Argenteuil, FR",
+        "lat": 48.94788,
+        "lng": 2.24744,
+        "pop": 101475
+    },
+    {
+        "name": "Angers, FR",
+        "lat": 47.47156,
+        "lng": -0.55202,
+        "pop": 168279
+    },
+    {
+        "name": "Amiens, FR",
+        "lat": 49.9,
+        "lng": 2.3,
+        "pop": 143086
+    },
+    {
+        "name": "Aix-en-Provence, FR",
+        "lat": 43.5283,
+        "lng": 5.44973,
+        "pop": 146821
+    },
+    {
+        "name": "Saint-Quentin-en-Yvelines, FR",
+        "lat": 48.77186,
+        "lng": 2.01891,
+        "pop": 146598
+    },
+    {
+        "name": "Cergy-Pontoise, FR",
+        "lat": 49.03894,
+        "lng": 2.07805,
+        "pop": 183430
+    },
+    {
+        "name": "Marne La Vall\u00e9e, FR",
+        "lat": 48.83584,
+        "lng": 2.64241,
+        "pop": 318325
+    },
+    {
+        "name": "York, GB",
+        "lat": 53.95763,
+        "lng": -1.08271,
+        "pop": 156135
+    },
+    {
+        "name": "Worthing, GB",
+        "lat": 50.81795,
+        "lng": -0.37538,
+        "pop": 113866
+    },
+    {
+        "name": "Worcester, GB",
+        "lat": 52.18935,
+        "lng": -2.22001,
+        "pop": 101659
+    },
+    {
+        "name": "Wolverhampton, GB",
+        "lat": 52.58547,
+        "lng": -2.12296,
+        "pop": 263700
+    },
+    {
+        "name": "Woking, GB",
+        "lat": 51.31903,
+        "lng": -0.55893,
+        "pop": 103900
+    },
+    {
+        "name": "Wigan, GB",
+        "lat": 53.54296,
+        "lng": -2.63706,
+        "pop": 175405
+    },
+    {
+        "name": "City of Westminster, GB",
+        "lat": 51.4975,
+        "lng": -0.1357,
+        "pop": 247614
+    },
+    {
+        "name": "West Bromwich, GB",
+        "lat": 52.51868,
+        "lng": -1.9945,
+        "pop": 103112
+    },
+    {
+        "name": "Watford, GB",
+        "lat": 51.65531,
+        "lng": -0.39602,
+        "pop": 125707
+    },
+    {
+        "name": "Warrington, GB",
+        "lat": 53.39254,
+        "lng": -2.58024,
+        "pop": 172330
+    },
+    {
+        "name": "Walthamstow, GB",
+        "lat": 51.59067,
+        "lng": -0.02077,
+        "pop": 109424
+    },
+    {
+        "name": "Walsall, GB",
+        "lat": 52.58528,
+        "lng": -1.98396,
+        "pop": 172141
+    },
+    {
+        "name": "Wakefield, GB",
+        "lat": 53.68331,
+        "lng": -1.49768,
+        "pop": 109766
+    },
+    {
+        "name": "Tottenham, GB",
+        "lat": 51.60373,
+        "lng": -0.06794,
+        "pop": 130000
+    },
+    {
+        "name": "Swindon, GB",
+        "lat": 51.55797,
+        "lng": -1.78116,
+        "pop": 201669
+    },
+    {
+        "name": "Swansea, GB",
+        "lat": 51.62079,
+        "lng": -3.94323,
+        "pop": 300352
+    },
+    {
+        "name": "Sutton Coldfield, GB",
+        "lat": 52.56667,
+        "lng": -1.81667,
+        "pop": 109899
+    },
+    {
+        "name": "Sutton, GB",
+        "lat": 51.35,
+        "lng": -0.2,
+        "pop": 187600
+    },
+    {
+        "name": "Sunderland, GB",
+        "lat": 54.90465,
+        "lng": -1.38222,
+        "pop": 170134
+    },
+    {
+        "name": "Stoke-on-Trent, GB",
+        "lat": 53.00415,
+        "lng": -2.18538,
+        "pop": 258366
+    },
+    {
+        "name": "Stockport, GB",
+        "lat": 53.40979,
+        "lng": -2.15761,
+        "pop": 139052
+    },
+    {
+        "name": "Southend-on-Sea, GB",
+        "lat": 51.53782,
+        "lng": 0.71433,
+        "pop": 295310
+    },
+    {
+        "name": "Southampton, GB",
+        "lat": 50.90395,
+        "lng": -1.40428,
+        "pop": 269781
+    },
+    {
+        "name": "Solihull, GB",
+        "lat": 52.41426,
+        "lng": -1.78094,
+        "pop": 126577
+    },
+    {
+        "name": "Slough, GB",
+        "lat": 51.50949,
+        "lng": -0.59541,
+        "pop": 164793
+    },
+    {
+        "name": "Sheffield, GB",
+        "lat": 53.38297,
+        "lng": -1.4659,
+        "pop": 556500
+    },
+    {
+        "name": "Salford, GB",
+        "lat": 53.48771,
+        "lng": -2.29042,
+        "pop": 129794
+    },
+    {
+        "name": "Saint Peters, GB",
+        "lat": 51.36667,
+        "lng": 1.41667,
+        "pop": 125370
+    },
+    {
+        "name": "St Helens, GB",
+        "lat": 53.45,
+        "lng": -2.73333,
+        "pop": 183200
+    },
+    {
+        "name": "Rotherham, GB",
+        "lat": 53.43012,
+        "lng": -1.35678,
+        "pop": 117618
+    },
+    {
+        "name": "Reading, GB",
+        "lat": 51.45625,
+        "lng": -0.97113,
+        "pop": 318014
+    },
+    {
+        "name": "Preston, GB",
+        "lat": 53.76282,
+        "lng": -2.70452,
+        "pop": 313332
+    },
+    {
+        "name": "Portsmouth, GB",
+        "lat": 50.79899,
+        "lng": -1.09125,
+        "pop": 208100
+    },
+    {
+        "name": "Poole, GB",
+        "lat": 50.71429,
+        "lng": -1.98458,
+        "pop": 151500
+    },
+    {
+        "name": "Plymouth, GB",
+        "lat": 50.37153,
+        "lng": -4.14305,
+        "pop": 260203
+    },
+    {
+        "name": "Peterborough, GB",
+        "lat": 52.57364,
+        "lng": -0.24777,
+        "pop": 163379
+    },
+    {
+        "name": "Oxford, GB",
+        "lat": 51.75222,
+        "lng": -1.25596,
+        "pop": 162100
+    },
+    {
+        "name": "Oldham, GB",
+        "lat": 53.54051,
+        "lng": -2.1183,
+        "pop": 237110
+    },
+    {
+        "name": "Nottingham, GB",
+        "lat": 52.9536,
+        "lng": -1.15047,
+        "pop": 323632
+    },
+    {
+        "name": "Norwich, GB",
+        "lat": 52.62783,
+        "lng": 1.29834,
+        "pop": 143135
+    },
+    {
+        "name": "Northampton, GB",
+        "lat": 52.25,
+        "lng": -0.88333,
+        "pop": 245899
+    },
+    {
+        "name": "Newport, GB",
+        "lat": 51.58774,
+        "lng": -2.99835,
+        "pop": 161506
+    },
+    {
+        "name": "Newcastle upon Tyne, GB",
+        "lat": 54.97328,
+        "lng": -1.61396,
+        "pop": 300125
+    },
+    {
+        "name": "Newcastle under Lyme, GB",
+        "lat": 53.0,
+        "lng": -2.23333,
+        "pop": 127727
+    },
+    {
+        "name": "Milton Keynes, GB",
+        "lat": 52.04172,
+        "lng": -0.75583,
+        "pop": 256385
+    },
+    {
+        "name": "Middlesbrough, GB",
+        "lat": 54.57623,
+        "lng": -1.23483,
+        "pop": 142707
+    },
+    {
+        "name": "Mansfield, GB",
+        "lat": 53.13333,
+        "lng": -1.2,
+        "pop": 171958
+    },
+    {
+        "name": "Manchester, GB",
+        "lat": 53.48095,
+        "lng": -2.23743,
+        "pop": 568996
+    },
+    {
+        "name": "Maidstone, GB",
+        "lat": 51.26667,
+        "lng": 0.51667,
+        "pop": 107627
+    },
+    {
+        "name": "Luton, GB",
+        "lat": 51.87967,
+        "lng": -0.41748,
+        "pop": 225262
+    },
+    {
+        "name": "London, GB",
+        "lat": 51.50853,
+        "lng": -0.12574,
+        "pop": 8961989
+    },
+    {
+        "name": "Liverpool, GB",
+        "lat": 53.41058,
+        "lng": -2.97794,
+        "pop": 496770
+    },
+    {
+        "name": "Lincoln, GB",
+        "lat": 53.22683,
+        "lng": -0.53792,
+        "pop": 103813
+    },
+    {
+        "name": "Leicester, GB",
+        "lat": 52.6386,
+        "lng": -1.13169,
+        "pop": 368600
+    },
+    {
+        "name": "Leeds, GB",
+        "lat": 53.79648,
+        "lng": -1.54785,
+        "pop": 536280
+    },
+    {
+        "name": "Kingston upon Hull, GB",
+        "lat": 53.7446,
+        "lng": -0.33525,
+        "pop": 314018
+    },
+    {
+        "name": "Islington, GB",
+        "lat": 51.53622,
+        "lng": -0.10304,
+        "pop": 319143
+    },
+    {
+        "name": "Ipswich, GB",
+        "lat": 52.05917,
+        "lng": 1.15545,
+        "pop": 178835
+    },
+    {
+        "name": "Ilford, GB",
+        "lat": 51.55765,
+        "lng": 0.07278,
+        "pop": 168168
+    },
+    {
+        "name": "Huddersfield, GB",
+        "lat": 53.64904,
+        "lng": -1.78416,
+        "pop": 149017
+    },
+    {
+        "name": "High Wycombe, GB",
+        "lat": 51.62907,
+        "lng": -0.74934,
+        "pop": 133204
+    },
+    {
+        "name": "Harrow, GB",
+        "lat": 51.57835,
+        "lng": -0.33208,
+        "pop": 149246
+    },
+    {
+        "name": "Gloucester, GB",
+        "lat": 51.86568,
+        "lng": -2.2431,
+        "pop": 132416
+    },
+    {
+        "name": "Glasgow, GB",
+        "lat": 55.86515,
+        "lng": -4.25763,
+        "pop": 626410
+    },
+    {
+        "name": "Gillingham, GB",
+        "lat": 51.38914,
+        "lng": 0.54863,
+        "pop": 101187
+    },
+    {
+        "name": "Exeter, GB",
+        "lat": 50.7236,
+        "lng": -3.52751,
+        "pop": 130709
+    },
+    {
+        "name": "Enfield Town, GB",
+        "lat": 51.65147,
+        "lng": -0.08497,
+        "pop": 156858
+    },
+    {
+        "name": "Edinburgh, GB",
+        "lat": 55.95206,
+        "lng": -3.19648,
+        "pop": 514990
+    },
+    {
+        "name": "Eastbourne, GB",
+        "lat": 50.76871,
+        "lng": 0.28453,
+        "pop": 101689
+    },
+    {
+        "name": "Dundee, GB",
+        "lat": 56.46913,
+        "lng": -2.97489,
+        "pop": 148210
+    },
+    {
+        "name": "Dudley, GB",
+        "lat": 52.5,
+        "lng": -2.08333,
+        "pop": 199059
+    },
+    {
+        "name": "Doncaster, GB",
+        "lat": 53.52285,
+        "lng": -1.13116,
+        "pop": 113566
+    },
+    {
+        "name": "Derby, GB",
+        "lat": 52.92277,
+        "lng": -1.47663,
+        "pop": 270468
+    },
+    {
+        "name": "Dagenham, GB",
+        "lat": 51.55,
+        "lng": 0.16667,
+        "pop": 108368
+    },
+    {
+        "name": "Croydon, GB",
+        "lat": 51.38333,
+        "lng": -0.1,
+        "pop": 173314
+    },
+    {
+        "name": "Crawley, GB",
+        "lat": 51.11303,
+        "lng": -0.18312,
+        "pop": 124008
+    },
+    {
+        "name": "Coventry, GB",
+        "lat": 52.40656,
+        "lng": -1.51217,
+        "pop": 345324
+    },
+    {
+        "name": "Colchester, GB",
+        "lat": 51.88921,
+        "lng": 0.90421,
+        "pop": 130245
+    },
+    {
+        "name": "Chesterfield, GB",
+        "lat": 53.25,
+        "lng": -1.41667,
+        "pop": 113057
+    },
+    {
+        "name": "Cheltenham, GB",
+        "lat": 51.90006,
+        "lng": -2.07972,
+        "pop": 118836
+    },
+    {
+        "name": "Chelmsford, GB",
+        "lat": 51.73575,
+        "lng": 0.46958,
+        "pop": 111511
+    },
+    {
+        "name": "Cardiff, GB",
+        "lat": 51.48,
+        "lng": -3.18,
+        "pop": 372089
+    },
+    {
+        "name": "Cambridge, GB",
+        "lat": 52.2,
+        "lng": 0.11667,
+        "pop": 145674
+    },
+    {
+        "name": "Burton upon Trent, GB",
+        "lat": 52.80728,
+        "lng": -1.64263,
+        "pop": 122199
+    },
+    {
+        "name": "Burnley, GB",
+        "lat": 53.8,
+        "lng": -2.23333,
+        "pop": 149422
+    },
+    {
+        "name": "Bristol, GB",
+        "lat": 51.45523,
+        "lng": -2.59665,
+        "pop": 479024
+    },
+    {
+        "name": "Brighton, GB",
+        "lat": 50.82838,
+        "lng": -0.13947,
+        "pop": 283870
+    },
+    {
+        "name": "Bradford, GB",
+        "lat": 53.79391,
+        "lng": -1.75206,
+        "pop": 366187
+    },
+    {
+        "name": "Bournemouth, GB",
+        "lat": 50.72048,
+        "lng": -1.8795,
+        "pop": 163600
+    },
+    {
+        "name": "Bolton, GB",
+        "lat": 53.58333,
+        "lng": -2.43333,
+        "pop": 141331
+    },
+    {
+        "name": "Blackpool, GB",
+        "lat": 53.81667,
+        "lng": -3.05,
+        "pop": 145007
+    },
+    {
+        "name": "Blackburn, GB",
+        "lat": 53.75,
+        "lng": -2.48333,
+        "pop": 146521
+    },
+    {
+        "name": "Birmingham, GB",
+        "lat": 52.48142,
+        "lng": -1.89983,
+        "pop": 1157603
+    },
+    {
+        "name": "Birkenhead, GB",
+        "lat": 53.39337,
+        "lng": -3.01479,
+        "pop": 325264
+    },
+    {
+        "name": "Bexley, GB",
+        "lat": 51.44162,
+        "lng": 0.14866,
+        "pop": 228000
+    },
+    {
+        "name": "Belfast, GB",
+        "lat": 54.59682,
+        "lng": -5.92541,
+        "pop": 348005
+    },
+    {
+        "name": "Bedford, GB",
+        "lat": 52.13459,
+        "lng": -0.46632,
+        "pop": 106940
+    },
+    {
+        "name": "Bath, GB",
+        "lat": 51.3751,
+        "lng": -2.36172,
+        "pop": 101557
+    },
+    {
+        "name": "Basingstoke, GB",
+        "lat": 51.26249,
+        "lng": -1.08708,
+        "pop": 107642
+    },
+    {
+        "name": "Basildon, GB",
+        "lat": 51.56844,
+        "lng": 0.45782,
+        "pop": 144859
+    },
+    {
+        "name": "Barking, GB",
+        "lat": 51.53333,
+        "lng": 0.08333,
+        "pop": 218534
+    },
+    {
+        "name": "Aberdeen, GB",
+        "lat": 57.14369,
+        "lng": -2.09814,
+        "pop": 198590
+    },
+    {
+        "name": "Telford, GB",
+        "lat": 52.67659,
+        "lng": -2.44926,
+        "pop": 155570
+    },
+    {
+        "name": "Archway, GB",
+        "lat": 51.56733,
+        "lng": -0.13415,
+        "pop": 215667
+    },
+    {
+        "name": "Piraeus, GR",
+        "lat": 37.94203,
+        "lng": 23.64619,
+        "pop": 163688
+    },
+    {
+        "name": "Perist\u00e9ri, GR",
+        "lat": 38.01539,
+        "lng": 23.69187,
+        "pop": 139981
+    },
+    {
+        "name": "P\u00e1tra, GR",
+        "lat": 38.2462,
+        "lng": 21.73508,
+        "pop": 168034
+    },
+    {
+        "name": "L\u00e1risa, GR",
+        "lat": 39.62847,
+        "lng": 22.42112,
+        "pop": 146926
+    },
+    {
+        "name": "Kallith\u00e9a, GR",
+        "lat": 37.95,
+        "lng": 23.7,
+        "pop": 100641
+    },
+    {
+        "name": "Ir\u00e1kleion, GR",
+        "lat": 35.32787,
+        "lng": 25.14341,
+        "pop": 137154
+    },
+    {
+        "name": "Athens, GR",
+        "lat": 37.98376,
+        "lng": 23.72784,
+        "pop": 664046
+    },
+    {
+        "name": "Thessalon\u00edki, GR",
+        "lat": 40.64072,
+        "lng": 22.93493,
+        "pop": 317778
+    },
+    {
+        "name": "Zagreb, HR",
+        "lat": 45.81444,
+        "lng": 15.97798,
+        "pop": 663592
+    },
+    {
+        "name": "Split, HR",
+        "lat": 43.50891,
+        "lng": 16.43915,
+        "pop": 149830
+    },
+    {
+        "name": "Rijeka, HR",
+        "lat": 45.32673,
+        "lng": 14.44241,
+        "pop": 107964
+    },
+    {
+        "name": "Szeged, HU",
+        "lat": 46.253,
+        "lng": 20.14824,
+        "pop": 160766
+    },
+    {
+        "name": "Ny\u00edregyh\u00e1za, HU",
+        "lat": 47.95539,
+        "lng": 21.71671,
+        "pop": 117689
+    },
+    {
+        "name": "Miskolc, HU",
+        "lat": 48.10327,
+        "lng": 20.77806,
+        "pop": 154521
+    },
+    {
+        "name": "Debrecen, HU",
+        "lat": 47.53167,
+        "lng": 21.62444,
+        "pop": 202402
+    },
+    {
+        "name": "Sz\u00e9kesfeh\u00e9rv\u00e1r, HU",
+        "lat": 47.18995,
+        "lng": 18.41034,
+        "pop": 101600
+    },
+    {
+        "name": "P\u00e9cs, HU",
+        "lat": 46.07617,
+        "lng": 18.22814,
+        "pop": 145347
+    },
+    {
+        "name": "Kecskem\u00e9t, HU",
+        "lat": 46.90618,
+        "lng": 19.69128,
+        "pop": 109847
+    },
+    {
+        "name": "Gy\u0151r, HU",
+        "lat": 47.68333,
+        "lng": 17.63512,
+        "pop": 129301
+    },
+    {
+        "name": "Budapest, HU",
+        "lat": 47.49835,
+        "lng": 19.04045,
+        "pop": 1741041
+    },
+    {
+        "name": "Dublin, IE",
+        "lat": 53.33306,
+        "lng": -6.24889,
+        "pop": 1024027
+    },
+    {
+        "name": "Cork, IE",
+        "lat": 51.89797,
+        "lng": -8.47061,
+        "pop": 190384
+    },
+    {
+        "name": "Reykjav\u00edk, IS",
+        "lat": 64.13548,
+        "lng": -21.89541,
+        "pop": 118918
+    },
+    {
+        "name": "Siracusa, IT",
+        "lat": 37.07542,
+        "lng": 15.28664,
+        "pop": 121605
+    },
+    {
+        "name": "Reggio Calabria, IT",
+        "lat": 38.11047,
+        "lng": 15.66129,
+        "pop": 182455
+    },
+    {
+        "name": "Palermo, IT",
+        "lat": 38.1166,
+        "lng": 13.3636,
+        "pop": 648260
+    },
+    {
+        "name": "Messina, IT",
+        "lat": 38.19394,
+        "lng": 15.55256,
+        "pop": 219948
+    },
+    {
+        "name": "Catania, IT",
+        "lat": 37.49223,
+        "lng": 15.07041,
+        "pop": 311584
+    },
+    {
+        "name": "Cagliari, IT",
+        "lat": 39.23054,
+        "lng": 9.11917,
+        "pop": 149257
+    },
+    {
+        "name": "Vicenza, IT",
+        "lat": 45.54672,
+        "lng": 11.5475,
+        "pop": 111980
+    },
+    {
+        "name": "Verona, IT",
+        "lat": 45.43854,
+        "lng": 10.9938,
+        "pop": 258031
+    },
+    {
+        "name": "Udine, IT",
+        "lat": 46.0693,
+        "lng": 13.23715,
+        "pop": 100170
+    },
+    {
+        "name": "Trieste, IT",
+        "lat": 45.64953,
+        "lng": 13.77678,
+        "pop": 204338
+    },
+    {
+        "name": "Trento, IT",
+        "lat": 46.06787,
+        "lng": 11.12108,
+        "pop": 120709
+    },
+    {
+        "name": "Turin, IT",
+        "lat": 45.07049,
+        "lng": 7.68682,
+        "pop": 847287
+    },
+    {
+        "name": "Terni, IT",
+        "lat": 42.56335,
+        "lng": 12.64329,
+        "pop": 111189
+    },
+    {
+        "name": "Taranto, IT",
+        "lat": 40.46438,
+        "lng": 17.24707,
+        "pop": 198585
+    },
+    {
+        "name": "Salerno, IT",
+        "lat": 40.67545,
+        "lng": 14.79328,
+        "pop": 125797
+    },
+    {
+        "name": "Rome, IT",
+        "lat": 41.89193,
+        "lng": 12.51133,
+        "pop": 2318895
+    },
+    {
+        "name": "Rimini, IT",
+        "lat": 44.05755,
+        "lng": 12.56528,
+        "pop": 148688
+    },
+    {
+        "name": "Reggio nell'Emilia, IT",
+        "lat": 44.69825,
+        "lng": 10.63125,
+        "pop": 171944
+    },
+    {
+        "name": "Prato, IT",
+        "lat": 43.8805,
+        "lng": 11.09699,
+        "pop": 195089
+    },
+    {
+        "name": "Pisa, IT",
+        "lat": 43.70853,
+        "lng": 10.4036,
+        "pop": 109960
+    },
+    {
+        "name": "Piacenza, IT",
+        "lat": 45.05242,
+        "lng": 9.69342,
+        "pop": 103607
+    },
+    {
+        "name": "Pescara, IT",
+        "lat": 42.4584,
+        "lng": 14.20283,
+        "pop": 119554
+    },
+    {
+        "name": "Perugia, IT",
+        "lat": 43.1122,
+        "lng": 12.38878,
+        "pop": 120137
+    },
+    {
+        "name": "Parma, IT",
+        "lat": 44.79935,
+        "lng": 10.32618,
+        "pop": 198292
+    },
+    {
+        "name": "Padua, IT",
+        "lat": 45.40797,
+        "lng": 11.88586,
+        "pop": 203725
+    },
+    {
+        "name": "Novara, IT",
+        "lat": 45.44694,
+        "lng": 8.62118,
+        "pop": 101916
+    },
+    {
+        "name": "Naples, IT",
+        "lat": 40.85216,
+        "lng": 14.26811,
+        "pop": 909048
+    },
+    {
+        "name": "Monza, IT",
+        "lat": 45.58005,
+        "lng": 9.27246,
+        "pop": 124398
+    },
+    {
+        "name": "Modena, IT",
+        "lat": 44.64783,
+        "lng": 10.92539,
+        "pop": 184732
+    },
+    {
+        "name": "Milan, IT",
+        "lat": 45.46427,
+        "lng": 9.18951,
+        "pop": 1371498
+    },
+    {
+        "name": "Mestre, IT",
+        "lat": 45.49167,
+        "lng": 12.24538,
+        "pop": 147662
+    },
+    {
+        "name": "Livorno, IT",
+        "lat": 43.54427,
+        "lng": 10.32615,
+        "pop": 157017
+    },
+    {
+        "name": "Genoa, IT",
+        "lat": 44.40478,
+        "lng": 8.94439,
+        "pop": 580097
+    },
+    {
+        "name": "Forl\u00ec, IT",
+        "lat": 44.22177,
+        "lng": 12.04144,
+        "pop": 116696
+    },
+    {
+        "name": "Foggia, IT",
+        "lat": 41.45845,
+        "lng": 15.55188,
+        "pop": 137032
+    },
+    {
+        "name": "Florence, IT",
+        "lat": 43.77925,
+        "lng": 11.24626,
+        "pop": 367150
+    },
+    {
+        "name": "Ferrara, IT",
+        "lat": 44.83804,
+        "lng": 11.62057,
+        "pop": 132009
+    },
+    {
+        "name": "Brescia, IT",
+        "lat": 45.53558,
+        "lng": 10.21472,
+        "pop": 200423
+    },
+    {
+        "name": "Bolzano, IT",
+        "lat": 46.49067,
+        "lng": 11.33982,
+        "pop": 107436
+    },
+    {
+        "name": "Bologna, IT",
+        "lat": 44.49381,
+        "lng": 11.33875,
+        "pop": 394843
+    },
+    {
+        "name": "Bergamo, IT",
+        "lat": 45.69601,
+        "lng": 9.66721,
+        "pop": 121200
+    },
+    {
+        "name": "Bari, IT",
+        "lat": 41.12066,
+        "lng": 16.86982,
+        "pop": 316491
+    },
+    {
+        "name": "Arezzo, IT",
+        "lat": 43.46276,
+        "lng": 11.88068,
+        "pop": 100734
+    },
+    {
+        "name": "Acilia-Castel Fusano-Ostia Antica, IT",
+        "lat": 41.76337,
+        "lng": 12.33078,
+        "pop": 129362
+    },
+    {
+        "name": "Vilnius, LT",
+        "lat": 54.68916,
+        "lng": 25.2798,
+        "pop": 542366
+    },
+    {
+        "name": "Klaip\u0117da, LT",
+        "lat": 55.7068,
+        "lng": 21.13912,
+        "pop": 172292
+    },
+    {
+        "name": "Kaunas, LT",
+        "lat": 54.90156,
+        "lng": 23.90909,
+        "pop": 289380
+    },
+    {
+        "name": "Riga, LV",
+        "lat": 56.946,
+        "lng": 24.10589,
+        "pop": 742572
+    },
+    {
+        "name": "Tiraspol, MD",
+        "lat": 46.84275,
+        "lng": 29.6284,
+        "pop": 157000
+    },
+    {
+        "name": "Chisinau, MD",
+        "lat": 47.00902,
+        "lng": 28.85938,
+        "pop": 635994
+    },
+    {
+        "name": "Bender, MD",
+        "lat": 46.83158,
+        "lng": 29.47671,
+        "pop": 110175
+    },
+    {
+        "name": "B\u0103l\u0163i, MD",
+        "lat": 47.76291,
+        "lng": 27.92854,
+        "pop": 125000
+    },
+    {
+        "name": "Podgorica, ME",
+        "lat": 42.44124,
+        "lng": 19.26309,
+        "pop": 236852
+    },
+    {
+        "name": "Skopje, MK",
+        "lat": 41.99646,
+        "lng": 21.43141,
+        "pop": 474889
+    },
+    {
+        "name": "Zwolle, NL",
+        "lat": 52.5125,
+        "lng": 6.09444,
+        "pop": 129840
+    },
+    {
+        "name": "Zoetermeer, NL",
+        "lat": 52.0575,
+        "lng": 4.49306,
+        "pop": 115845
+    },
+    {
+        "name": "Zaanstad, NL",
+        "lat": 52.45313,
+        "lng": 4.81356,
+        "pop": 140085
+    },
+    {
+        "name": "Venlo, NL",
+        "lat": 51.37,
+        "lng": 6.16806,
+        "pop": 101988
+    },
+    {
+        "name": "Utrecht, NL",
+        "lat": 52.09083,
+        "lng": 5.12222,
+        "pop": 376435
+    },
+    {
+        "name": "Tilburg, NL",
+        "lat": 51.55551,
+        "lng": 5.0913,
+        "pop": 221947
+    },
+    {
+        "name": "'s-Hertogenbosch, NL",
+        "lat": 51.69917,
+        "lng": 5.30417,
+        "pop": 160783
+    },
+    {
+        "name": "The Hague, NL",
+        "lat": 52.07667,
+        "lng": 4.29861,
+        "pop": 474292
+    },
+    {
+        "name": "Rotterdam, NL",
+        "lat": 51.9225,
+        "lng": 4.47917,
+        "pop": 868135
+    },
+    {
+        "name": "Nijmegen, NL",
+        "lat": 51.8425,
+        "lng": 5.85278,
+        "pop": 177359
+    },
+    {
+        "name": "Maastricht, NL",
+        "lat": 50.84833,
+        "lng": 5.68889,
+        "pop": 122378
+    },
+    {
+        "name": "Leiden, NL",
+        "lat": 52.15833,
+        "lng": 4.49306,
+        "pop": 119713
+    },
+    {
+        "name": "Leeuwarden, NL",
+        "lat": 53.20271,
+        "lng": 5.80973,
+        "pop": 124481
+    },
+    {
+        "name": "Hoofddorp, NL",
+        "lat": 52.3025,
+        "lng": 4.68889,
+        "pop": 132734
+    },
+    {
+        "name": "Haarlem, NL",
+        "lat": 52.38084,
+        "lng": 4.63683,
+        "pop": 162543
+    },
+    {
+        "name": "Groningen, NL",
+        "lat": 53.21917,
+        "lng": 6.56667,
+        "pop": 244807
+    },
+    {
+        "name": "Enschede, NL",
+        "lat": 52.21833,
+        "lng": 6.89583,
+        "pop": 153655
+    },
+    {
+        "name": "Eindhoven, NL",
+        "lat": 51.44083,
+        "lng": 5.47778,
+        "pop": 235691
+    },
+    {
+        "name": "Dordrecht, NL",
+        "lat": 51.81,
+        "lng": 4.67361,
+        "pop": 119260
+    },
+    {
+        "name": "Breda, NL",
+        "lat": 51.58656,
+        "lng": 4.77596,
+        "pop": 184126
+    },
+    {
+        "name": "Arnhem, NL",
+        "lat": 51.98,
+        "lng": 5.91111,
+        "pop": 162424
+    },
+    {
+        "name": "Apeldoorn, NL",
+        "lat": 52.21,
+        "lng": 5.96944,
+        "pop": 136670
+    },
+    {
+        "name": "Amsterdam, NL",
+        "lat": 52.37403,
+        "lng": 4.88969,
+        "pop": 741636
+    },
+    {
+        "name": "Amersfoort, NL",
+        "lat": 52.155,
+        "lng": 5.3875,
+        "pop": 139914
+    },
+    {
+        "name": "Almere Stad, NL",
+        "lat": 52.37025,
+        "lng": 5.21413,
+        "pop": 176432
+    },
+    {
+        "name": "Trondheim, NO",
+        "lat": 63.43049,
+        "lng": 10.39506,
+        "pop": 216518
+    },
+    {
+        "name": "Stavanger, NO",
+        "lat": 58.97005,
+        "lng": 5.73332,
+        "pop": 148682
+    },
+    {
+        "name": "Oslo, NO",
+        "lat": 59.91273,
+        "lng": 10.74609,
+        "pop": 1082575
+    },
+    {
+        "name": "Kristiansand, NO",
+        "lat": 58.14671,
+        "lng": 7.9956,
+        "pop": 117237
+    },
+    {
+        "name": "Drammen, NO",
+        "lat": 59.74389,
+        "lng": 10.20449,
+        "pop": 105042
+    },
+    {
+        "name": "Bergen, NO",
+        "lat": 60.39299,
+        "lng": 5.32415,
+        "pop": 294029
+    },
+    {
+        "name": "Wola, PL",
+        "lat": 52.23477,
+        "lng": 20.96004,
+        "pop": 140958
+    },
+    {
+        "name": "Warsaw, PL",
+        "lat": 52.22977,
+        "lng": 21.01178,
+        "pop": 1702139
+    },
+    {
+        "name": "Tarn\u00f3w, PL",
+        "lat": 50.01381,
+        "lng": 20.98698,
+        "pop": 117799
+    },
+    {
+        "name": "Targ\u00f3wek, PL",
+        "lat": 52.29185,
+        "lng": 21.04845,
+        "pop": 124279
+    },
+    {
+        "name": "Rzesz\u00f3w, PL",
+        "lat": 50.04132,
+        "lng": 21.99901,
+        "pop": 198317
+    },
+    {
+        "name": "Radom, PL",
+        "lat": 51.40253,
+        "lng": 21.14714,
+        "pop": 226794
+    },
+    {
+        "name": "Olsztyn, PL",
+        "lat": 53.78376,
+        "lng": 20.49272,
+        "pop": 169793
+    },
+    {
+        "name": "Mokot\u00f3w, PL",
+        "lat": 52.1934,
+        "lng": 21.03487,
+        "pop": 217683
+    },
+    {
+        "name": "Lublin, PL",
+        "lat": 51.25058,
+        "lng": 22.57009,
+        "pop": 336339
+    },
+    {
+        "name": "Kielce, PL",
+        "lat": 50.87033,
+        "lng": 20.62752,
+        "pop": 192468
+    },
+    {
+        "name": "Bielany, PL",
+        "lat": 52.29242,
+        "lng": 20.93531,
+        "pop": 131910
+    },
+    {
+        "name": "Bia\u0142ystok, PL",
+        "lat": 53.13333,
+        "lng": 23.16433,
+        "pop": 295683
+    },
+    {
+        "name": "Bia\u0142o\u0142eka, PL",
+        "lat": 52.32127,
+        "lng": 20.97204,
+        "pop": 129106
+    },
+    {
+        "name": "Bemowo, PL",
+        "lat": 52.2546,
+        "lng": 20.90844,
+        "pop": 123932
+    },
+    {
+        "name": "Zielona G\u00f3ra, PL",
+        "lat": 51.93548,
+        "lng": 15.50643,
+        "pop": 118433
+    },
+    {
+        "name": "Zabrze, PL",
+        "lat": 50.32492,
+        "lng": 18.78576,
+        "pop": 192177
+    },
+    {
+        "name": "Wroc\u0142aw, PL",
+        "lat": 51.10286,
+        "lng": 17.03006,
+        "pop": 672545
+    },
+    {
+        "name": "W\u0142oc\u0142awek, PL",
+        "lat": 52.64817,
+        "lng": 19.0678,
+        "pop": 120339
+    },
+    {
+        "name": "Wa\u0142brzych, PL",
+        "lat": 50.77141,
+        "lng": 16.28432,
+        "pop": 127431
+    },
+    {
+        "name": "Tychy, PL",
+        "lat": 50.13717,
+        "lng": 18.96641,
+        "pop": 130000
+    },
+    {
+        "name": "Toru\u0144, PL",
+        "lat": 53.01375,
+        "lng": 18.59814,
+        "pop": 196935
+    },
+    {
+        "name": "Szczecin, PL",
+        "lat": 53.42894,
+        "lng": 14.55302,
+        "pop": 395513
+    },
+    {
+        "name": "Sosnowiec, PL",
+        "lat": 50.28682,
+        "lng": 19.10385,
+        "pop": 227295
+    },
+    {
+        "name": "Rybnik, PL",
+        "lat": 50.09713,
+        "lng": 18.54179,
+        "pop": 142510
+    },
+    {
+        "name": "Ruda \u015al\u0105ska, PL",
+        "lat": 50.2584,
+        "lng": 18.85632,
+        "pop": 146189
+    },
+    {
+        "name": "Pozna\u0144, PL",
+        "lat": 52.40692,
+        "lng": 16.92993,
+        "pop": 536151
+    },
+    {
+        "name": "P\u0142ock, PL",
+        "lat": 52.54682,
+        "lng": 19.70638,
+        "pop": 127474
+    },
+    {
+        "name": "Opole, PL",
+        "lat": 50.67119,
+        "lng": 17.92604,
+        "pop": 127676
+    },
+    {
+        "name": "\u0141\u00f3d\u017a, PL",
+        "lat": 51.77058,
+        "lng": 19.47395,
+        "pop": 645693
+    },
+    {
+        "name": "Legnica, PL",
+        "lat": 51.21006,
+        "lng": 16.1619,
+        "pop": 106033
+    },
+    {
+        "name": "Krak\u00f3w, PL",
+        "lat": 50.06143,
+        "lng": 19.93658,
+        "pop": 804237
+    },
+    {
+        "name": "Koszalin, PL",
+        "lat": 54.19438,
+        "lng": 16.17222,
+        "pop": 107450
+    },
+    {
+        "name": "Katowice, PL",
+        "lat": 50.2597,
+        "lng": 19.02173,
+        "pop": 286960
+    },
+    {
+        "name": "Kalisz, PL",
+        "lat": 51.76109,
+        "lng": 18.09102,
+        "pop": 108759
+    },
+    {
+        "name": "Gorz\u00f3w Wielkopolski, PL",
+        "lat": 52.73371,
+        "lng": 15.22505,
+        "pop": 114567
+    },
+    {
+        "name": "Gliwice, PL",
+        "lat": 50.29761,
+        "lng": 18.67658,
+        "pop": 198835
+    },
+    {
+        "name": "Gdynia, PL",
+        "lat": 54.51889,
+        "lng": 18.53188,
+        "pop": 257000
+    },
+    {
+        "name": "Gda\u0144sk, PL",
+        "lat": 54.35227,
+        "lng": 18.64912,
+        "pop": 487371
+    },
+    {
+        "name": "Elbl\u0105g, PL",
+        "lat": 54.1522,
+        "lng": 19.40884,
+        "pop": 127558
+    },
+    {
+        "name": "D\u0105browa G\u00f3rnicza, PL",
+        "lat": 50.33394,
+        "lng": 19.20479,
+        "pop": 116971
+    },
+    {
+        "name": "Cz\u0119stochowa, PL",
+        "lat": 50.79646,
+        "lng": 19.12409,
+        "pop": 248125
+    },
+    {
+        "name": "Chorz\u00f3w, PL",
+        "lat": 50.30582,
+        "lng": 18.9742,
+        "pop": 113430
+    },
+    {
+        "name": "Bytom, PL",
+        "lat": 50.34802,
+        "lng": 18.93282,
+        "pop": 189186
+    },
+    {
+        "name": "Bydgoszcz, PL",
+        "lat": 53.1235,
+        "lng": 18.00762,
+        "pop": 330038
+    },
+    {
+        "name": "Bielsko-Biala, PL",
+        "lat": 49.82245,
+        "lng": 19.04686,
+        "pop": 176515
+    },
+    {
+        "name": "Ursyn\u00f3w, PL",
+        "lat": 52.15051,
+        "lng": 21.05041,
+        "pop": 149775
+    },
+    {
+        "name": "Praga Po\u0142udnie, PL",
+        "lat": 52.24424,
+        "lng": 21.08545,
+        "pop": 179836
+    },
+    {
+        "name": "Set\u00fabal, PT",
+        "lat": 38.5244,
+        "lng": -8.8882,
+        "pop": 118166
+    },
+    {
+        "name": "Queluz, PT",
+        "lat": 38.75657,
+        "lng": -9.25451,
+        "pop": 103399
+    },
+    {
+        "name": "Lisbon, PT",
+        "lat": 38.72509,
+        "lng": -9.1498,
+        "pop": 517802
+    },
+    {
+        "name": "Leiria, PT",
+        "lat": 39.74362,
+        "lng": -8.80705,
+        "pop": 128640
+    },
+    {
+        "name": "Funchal, PT",
+        "lat": 32.66568,
+        "lng": -16.92547,
+        "pop": 105795
+    },
+    {
+        "name": "Amadora, PT",
+        "lat": 38.75382,
+        "lng": -9.23083,
+        "pop": 178858
+    },
+    {
+        "name": "Viseu, PT",
+        "lat": 40.66165,
+        "lng": -7.90905,
+        "pop": 103502
+    },
+    {
+        "name": "Porto, PT",
+        "lat": 41.1485,
+        "lng": -8.61097,
+        "pop": 252687
+    },
+    {
+        "name": "Coimbra, PT",
+        "lat": 40.20686,
+        "lng": -8.41996,
+        "pop": 140796
+    },
+    {
+        "name": "Braga, PT",
+        "lat": 41.5514,
+        "lng": -8.42311,
+        "pop": 193324
+    },
+    {
+        "name": "T\u00e2rgu Mure\u015f, RO",
+        "lat": 46.54245,
+        "lng": 24.55747,
+        "pop": 212752
+    },
+    {
+        "name": "Timi\u015foara, RO",
+        "lat": 45.75372,
+        "lng": 21.22571,
+        "pop": 250849
+    },
+    {
+        "name": "Sibiu, RO",
+        "lat": 45.8,
+        "lng": 24.15,
+        "pop": 134309
+    },
+    {
+        "name": "Satu Mare, RO",
+        "lat": 47.79926,
+        "lng": 22.86255,
+        "pop": 112490
+    },
+    {
+        "name": "Ploie\u015fti, RO",
+        "lat": 44.95,
+        "lng": 26.01667,
+        "pop": 180540
+    },
+    {
+        "name": "Pite\u015fti, RO",
+        "lat": 44.85,
+        "lng": 24.86667,
+        "pop": 141275
+    },
+    {
+        "name": "Piatra Neam\u0163, RO",
+        "lat": 46.91667,
+        "lng": 26.33333,
+        "pop": 102688
+    },
+    {
+        "name": "Oradea, RO",
+        "lat": 47.0458,
+        "lng": 21.91833,
+        "pop": 183105
+    },
+    {
+        "name": "Ia\u015fi, RO",
+        "lat": 47.16667,
+        "lng": 27.6,
+        "pop": 378954
+    },
+    {
+        "name": "Gala\u0163i, RO",
+        "lat": 45.43687,
+        "lng": 28.05028,
+        "pop": 217851
+    },
+    {
+        "name": "Craiova, RO",
+        "lat": 44.31667,
+        "lng": 23.8,
+        "pop": 234140
+    },
+    {
+        "name": "Constan\u0163a, RO",
+        "lat": 44.18073,
+        "lng": 28.63432,
+        "pop": 317832
+    },
+    {
+        "name": "Cluj-Napoca, RO",
+        "lat": 46.76667,
+        "lng": 23.6,
+        "pop": 286598
+    },
+    {
+        "name": "Buz\u0103u, RO",
+        "lat": 45.15,
+        "lng": 26.83333,
+        "pop": 103481
+    },
+    {
+        "name": "Bucharest, RO",
+        "lat": 44.43225,
+        "lng": 26.10626,
+        "pop": 1877155
+    },
+    {
+        "name": "Bra\u015fov, RO",
+        "lat": 45.64861,
+        "lng": 25.60613,
+        "pop": 253200
+    },
+    {
+        "name": "Br\u0103ila, RO",
+        "lat": 45.27152,
+        "lng": 27.97429,
+        "pop": 154686
+    },
+    {
+        "name": "Baia Mare, RO",
+        "lat": 47.65729,
+        "lng": 23.56808,
+        "pop": 108759
+    },
+    {
+        "name": "Bac\u0103u, RO",
+        "lat": 46.56718,
+        "lng": 26.91384,
+        "pop": 136087
+    },
+    {
+        "name": "Arad, RO",
+        "lat": 46.18333,
+        "lng": 21.31667,
+        "pop": 169065
+    },
+    {
+        "name": "Zemun, RS",
+        "lat": 44.8458,
+        "lng": 20.40116,
+        "pop": 155591
+    },
+    {
+        "name": "Ni\u0161, RS",
+        "lat": 43.32472,
+        "lng": 21.90333,
+        "pop": 250000
+    },
+    {
+        "name": "Kragujevac, RS",
+        "lat": 44.01667,
+        "lng": 20.91667,
+        "pop": 147473
+    },
+    {
+        "name": "\u010ca\u010dak, RS",
+        "lat": 43.89139,
+        "lng": 20.34972,
+        "pop": 117072
+    },
+    {
+        "name": "Belgrade, RS",
+        "lat": 44.80401,
+        "lng": 20.46513,
+        "pop": 1273651
+    },
+    {
+        "name": "Subotica, RS",
+        "lat": 46.1,
+        "lng": 19.66667,
+        "pop": 100000
+    },
+    {
+        "name": "Novi Sad, RS",
+        "lat": 45.25167,
+        "lng": 19.83694,
+        "pop": 215400
+    },
+    {
+        "name": "Zlatoust, RU",
+        "lat": 55.17182,
+        "lng": 59.65471,
+        "pop": 191366
+    },
+    {
+        "name": "Zheleznodorozhnyy, RU",
+        "lat": 55.744,
+        "lng": 38.01684,
+        "pop": 141648
+    },
+    {
+        "name": "Zelenograd, RU",
+        "lat": 55.9825,
+        "lng": 37.18139,
+        "pop": 215727
+    },
+    {
+        "name": "Yoshkar-Ola, RU",
+        "lat": 56.63877,
+        "lng": 47.89078,
+        "pop": 268272
+    },
+    {
+        "name": "Yelets, RU",
+        "lat": 52.61435,
+        "lng": 38.50935,
+        "pop": 115688
+    },
+    {
+        "name": "Yaroslavl, RU",
+        "lat": 57.62987,
+        "lng": 39.87368,
+        "pop": 608722
+    },
+    {
+        "name": "Voronezh, RU",
+        "lat": 51.66833,
+        "lng": 39.19204,
+        "pop": 1047549
+    },
+    {
+        "name": "Volzhsky, RU",
+        "lat": 48.78583,
+        "lng": 44.77973,
+        "pop": 323293
+    },
+    {
+        "name": "Vologda, RU",
+        "lat": 59.2239,
+        "lng": 39.88398,
+        "pop": 312420
+    },
+    {
+        "name": "Volgograd, RU",
+        "lat": 48.71378,
+        "lng": 44.4976,
+        "pop": 1013533
+    },
+    {
+        "name": "Volgodonsk, RU",
+        "lat": 47.51141,
+        "lng": 42.15269,
+        "pop": 167731
+    },
+    {
+        "name": "Vladimir, RU",
+        "lat": 56.13854,
+        "lng": 40.39976,
+        "pop": 357024
+    },
+    {
+        "name": "Vladikavkaz, RU",
+        "lat": 43.04101,
+        "lng": 44.66986,
+        "pop": 306258
+    },
+    {
+        "name": "Velikiye Luki, RU",
+        "lat": 56.34063,
+        "lng": 30.54377,
+        "pop": 103149
+    },
+    {
+        "name": "Ulyanovsk, RU",
+        "lat": 54.32824,
+        "lng": 48.38657,
+        "pop": 626540
+    },
+    {
+        "name": "Ukhta, RU",
+        "lat": 63.56904,
+        "lng": 53.69141,
+        "pop": 102187
+    },
+    {
+        "name": "Ufa, RU",
+        "lat": 54.74306,
+        "lng": 55.96779,
+        "pop": 1120547
+    },
+    {
+        "name": "Tver, RU",
+        "lat": 56.85836,
+        "lng": 35.90057,
+        "pop": 420065
+    },
+    {
+        "name": "Tula, RU",
+        "lat": 54.19609,
+        "lng": 37.61822,
+        "pop": 482873
+    },
+    {
+        "name": "Tropar\u00ebvo, RU",
+        "lat": 55.65625,
+        "lng": 37.48496,
+        "pop": 118000
+    },
+    {
+        "name": "Tolyatti, RU",
+        "lat": 53.5303,
+        "lng": 49.3461,
+        "pop": 702879
+    },
+    {
+        "name": "Tambov, RU",
+        "lat": 52.73632,
+        "lng": 41.44102,
+        "pop": 293661
+    },
+    {
+        "name": "Taganrog, RU",
+        "lat": 47.23627,
+        "lng": 38.9053,
+        "pop": 279056
+    },
+    {
+        "name": "Syzran, RU",
+        "lat": 53.1585,
+        "lng": 48.4681,
+        "pop": 189338
+    },
+    {
+        "name": "Syktyvkar, RU",
+        "lat": 61.66393,
+        "lng": 50.8163,
+        "pop": 245083
+    },
+    {
+        "name": "Sterlitamak, RU",
+        "lat": 53.63793,
+        "lng": 55.9533,
+        "pop": 267231
+    },
+    {
+        "name": "Stavropol, RU",
+        "lat": 45.03442,
+        "lng": 41.9642,
+        "pop": 433931
+    },
+    {
+        "name": "Staryy Oskol, RU",
+        "lat": 51.3025,
+        "lng": 37.84613,
+        "pop": 226977
+    },
+    {
+        "name": "Solikamsk, RU",
+        "lat": 59.66686,
+        "lng": 56.74267,
+        "pop": 100812
+    },
+    {
+        "name": "Sochi, RU",
+        "lat": 43.59699,
+        "lng": 39.72477,
+        "pop": 327608
+    },
+    {
+        "name": "Smolensk, RU",
+        "lat": 54.77826,
+        "lng": 32.05088,
+        "pop": 330025
+    },
+    {
+        "name": "Shchyolkovo, RU",
+        "lat": 55.92497,
+        "lng": 37.97218,
+        "pop": 113000
+    },
+    {
+        "name": "Shakhty, RU",
+        "lat": 47.71916,
+        "lng": 40.21603,
+        "pop": 221312
+    },
+    {
+        "name": "Severodvinsk, RU",
+        "lat": 64.55825,
+        "lng": 39.82971,
+        "pop": 194292
+    },
+    {
+        "name": "Serpukhov, RU",
+        "lat": 54.9198,
+        "lng": 37.41618,
+        "pop": 128158
+    },
+    {
+        "name": "Sergiyev Posad, RU",
+        "lat": 56.31204,
+        "lng": 38.13869,
+        "pop": 109252
+    },
+    {
+        "name": "Saratov, RU",
+        "lat": 51.54048,
+        "lng": 45.9901,
+        "pop": 844858
+    },
+    {
+        "name": "Saransk, RU",
+        "lat": 54.18485,
+        "lng": 45.17166,
+        "pop": 318841
+    },
+    {
+        "name": "Saint Petersburg, RU",
+        "lat": 59.93863,
+        "lng": 30.31413,
+        "pop": 5351935
+    },
+    {
+        "name": "Samara, RU",
+        "lat": 53.20767,
+        "lng": 50.13553,
+        "pop": 1163399
+    },
+    {
+        "name": "Salavat, RU",
+        "lat": 53.3828,
+        "lng": 55.91094,
+        "pop": 159893
+    },
+    {
+        "name": "Rybinsk, RU",
+        "lat": 58.04562,
+        "lng": 38.83811,
+        "pop": 216724
+    },
+    {
+        "name": "Ryazan\u2019, RU",
+        "lat": 54.62696,
+        "lng": 39.70415,
+        "pop": 538962
+    },
+    {
+        "name": "Rostov-on-Don, RU",
+        "lat": 47.21997,
+        "lng": 39.70769,
+        "pop": 1130305
+    },
+    {
+        "name": "Pyatigorsk, RU",
+        "lat": 44.05,
+        "lng": 43.05036,
+        "pop": 142865
+    },
+    {
+        "name": "Pushkino, RU",
+        "lat": 55.99456,
+        "lng": 37.82897,
+        "pop": 102816
+    },
+    {
+        "name": "Pskov, RU",
+        "lat": 57.81922,
+        "lng": 28.33181,
+        "pop": 210501
+    },
+    {
+        "name": "Podolsk, RU",
+        "lat": 55.42419,
+        "lng": 37.55472,
+        "pop": 179400
+    },
+    {
+        "name": "Petrozavodsk, RU",
+        "lat": 61.78491,
+        "lng": 34.34691,
+        "pop": 279190
+    },
+    {
+        "name": "Pervouralsk, RU",
+        "lat": 56.90528,
+        "lng": 59.94361,
+        "pop": 133600
+    },
+    {
+        "name": "Perm, RU",
+        "lat": 58.01046,
+        "lng": 56.25017,
+        "pop": 982419
+    },
+    {
+        "name": "Novo-Peredelkino, RU",
+        "lat": 55.64528,
+        "lng": 37.33583,
+        "pop": 115536
+    },
+    {
+        "name": "Penza, RU",
+        "lat": 53.19568,
+        "lng": 45.01075,
+        "pop": 523553
+    },
+    {
+        "name": "Orsk, RU",
+        "lat": 51.23206,
+        "lng": 58.48802,
+        "pop": 246836
+    },
+    {
+        "name": "Orenburg, RU",
+        "lat": 51.76712,
+        "lng": 55.09883,
+        "pop": 564773
+    },
+    {
+        "name": "Or\u00ebl, RU",
+        "lat": 52.96879,
+        "lng": 36.0791,
+        "pop": 303696
+    },
+    {
+        "name": "Orekhovo-Zuyevo, RU",
+        "lat": 55.81242,
+        "lng": 38.99155,
+        "pop": 120000
+    },
+    {
+        "name": "Oktyabrsky, RU",
+        "lat": 54.48147,
+        "lng": 53.47103,
+        "pop": 108200
+    },
+    {
+        "name": "Odintsovo, RU",
+        "lat": 55.66977,
+        "lng": 37.27716,
+        "pop": 137041
+    },
+    {
+        "name": "Obninsk, RU",
+        "lat": 55.10993,
+        "lng": 36.61238,
+        "pop": 107392
+    },
+    {
+        "name": "Novotroitsk, RU",
+        "lat": 51.20099,
+        "lng": 58.31318,
+        "pop": 106186
+    },
+    {
+        "name": "Novorossiysk, RU",
+        "lat": 44.73188,
+        "lng": 37.76176,
+        "pop": 241856
+    },
+    {
+        "name": "Novomoskovsk, RU",
+        "lat": 54.01098,
+        "lng": 38.29084,
+        "pop": 130982
+    },
+    {
+        "name": "Novokuybyshevsk, RU",
+        "lat": 53.09709,
+        "lng": 49.94001,
+        "pop": 111800
+    },
+    {
+        "name": "Novocherkassk, RU",
+        "lat": 47.4222,
+        "lng": 40.09373,
+        "pop": 166974
+    },
+    {
+        "name": "Novocheboksarsk, RU",
+        "lat": 56.11095,
+        "lng": 47.47755,
+        "pop": 128468
+    },
+    {
+        "name": "Velikiy Novgorod, RU",
+        "lat": 58.52131,
+        "lng": 31.27104,
+        "pop": 222868
+    },
+    {
+        "name": "Noginsk, RU",
+        "lat": 55.86486,
+        "lng": 38.44853,
+        "pop": 115979
+    },
+    {
+        "name": "Nizhny Tagil, RU",
+        "lat": 57.91944,
+        "lng": 59.965,
+        "pop": 381116
+    },
+    {
+        "name": "Nizhniy Novgorod, RU",
+        "lat": 56.32867,
+        "lng": 44.00205,
+        "pop": 1259013
+    },
+    {
+        "name": "Nizhnekamsk, RU",
+        "lat": 55.63794,
+        "lng": 51.81502,
+        "pop": 234297
+    },
+    {
+        "name": "Nevinnomyssk, RU",
+        "lat": 44.6333,
+        "lng": 41.9444,
+        "pop": 134345
+    },
+    {
+        "name": "Neftekamsk, RU",
+        "lat": 56.08879,
+        "lng": 54.26383,
+        "pop": 126805
+    },
+    {
+        "name": "Nazran, RU",
+        "lat": 43.22597,
+        "lng": 44.77323,
+        "pop": 164131
+    },
+    {
+        "name": "Nalchik, RU",
+        "lat": 43.49806,
+        "lng": 43.61889,
+        "pop": 239300
+    },
+    {
+        "name": "Naberezhnyye Chelny, RU",
+        "lat": 55.73718,
+        "lng": 52.41961,
+        "pop": 509870
+    },
+    {
+        "name": "Mytishchi, RU",
+        "lat": 55.91099,
+        "lng": 37.72964,
+        "pop": 160542
+    },
+    {
+        "name": "Murom, RU",
+        "lat": 55.56853,
+        "lng": 42.02388,
+        "pop": 126931
+    },
+    {
+        "name": "Murmansk, RU",
+        "lat": 68.96778,
+        "lng": 33.09922,
+        "pop": 295374
+    },
+    {
+        "name": "Moscow, RU",
+        "lat": 55.75204,
+        "lng": 37.61781,
+        "pop": 10381222
+    },
+    {
+        "name": "Maykop, RU",
+        "lat": 44.60789,
+        "lng": 40.10242,
+        "pop": 141970
+    },
+    {
+        "name": "Makhachkala, RU",
+        "lat": 42.97782,
+        "lng": 47.50027,
+        "pop": 596356
+    },
+    {
+        "name": "Magnitogorsk, RU",
+        "lat": 53.39808,
+        "lng": 59.0066,
+        "pop": 413351
+    },
+    {
+        "name": "Lyubertsy, RU",
+        "lat": 55.67719,
+        "lng": 37.89322,
+        "pop": 154650
+    },
+    {
+        "name": "Lipetsk, RU",
+        "lat": 52.5876,
+        "lng": 39.55151,
+        "pop": 509735
+    },
+    {
+        "name": "Kursk, RU",
+        "lat": 51.72689,
+        "lng": 36.18457,
+        "pop": 448733
+    },
+    {
+        "name": "Krasnodar, RU",
+        "lat": 45.04534,
+        "lng": 38.98178,
+        "pop": 899541
+    },
+    {
+        "name": "Kovrov, RU",
+        "lat": 56.35752,
+        "lng": 41.31893,
+        "pop": 154224
+    },
+    {
+        "name": "Kostroma, RU",
+        "lat": 57.76638,
+        "lng": 40.92828,
+        "pop": 277280
+    },
+    {
+        "name": "Kolpino, RU",
+        "lat": 59.75069,
+        "lng": 30.58856,
+        "pop": 138979
+    },
+    {
+        "name": "Kolomna, RU",
+        "lat": 55.07108,
+        "lng": 38.78399,
+        "pop": 147690
+    },
+    {
+        "name": "Kislovodsk, RU",
+        "lat": 43.91333,
+        "lng": 42.72083,
+        "pop": 132771
+    },
+    {
+        "name": "Kirov, RU",
+        "lat": 58.59809,
+        "lng": 49.65783,
+        "pop": 507155
+    },
+    {
+        "name": "Khimki, RU",
+        "lat": 55.9001,
+        "lng": 37.42848,
+        "pop": 239967
+    },
+    {
+        "name": "Khasavyurt, RU",
+        "lat": 43.24872,
+        "lng": 46.58571,
+        "pop": 126829
+    },
+    {
+        "name": "Kazan, RU",
+        "lat": 55.78874,
+        "lng": 49.12214,
+        "pop": 1243500
+    },
+    {
+        "name": "Kamyshin, RU",
+        "lat": 50.0885,
+        "lng": 45.41277,
+        "pop": 128626
+    },
+    {
+        "name": "Kaluga, RU",
+        "lat": 54.53063,
+        "lng": 36.27,
+        "pop": 340851
+    },
+    {
+        "name": "Korolev, RU",
+        "lat": 55.91417,
+        "lng": 37.82556,
+        "pop": 139798
+    },
+    {
+        "name": "Kaliningrad, RU",
+        "lat": 54.70639,
+        "lng": 20.51102,
+        "pop": 475056
+    },
+    {
+        "name": "Izhevsk, RU",
+        "lat": 56.85225,
+        "lng": 53.19862,
+        "pop": 648213
+    },
+    {
+        "name": "Ivanovo, RU",
+        "lat": 56.99988,
+        "lng": 40.97257,
+        "pop": 406113
+    },
+    {
+        "name": "Grozny, RU",
+        "lat": 43.31195,
+        "lng": 45.68895,
+        "pop": 297137
+    },
+    {
+        "name": "Glazov, RU",
+        "lat": 58.14,
+        "lng": 52.65619,
+        "pop": 100676
+    },
+    {
+        "name": "Engels, RU",
+        "lat": 51.48389,
+        "lng": 46.10528,
+        "pop": 196011
+    },
+    {
+        "name": "Elista, RU",
+        "lat": 46.30794,
+        "lng": 44.25537,
+        "pop": 106971
+    },
+    {
+        "name": "Elektrostal\u2019, RU",
+        "lat": 55.78647,
+        "lng": 38.45713,
+        "pop": 144387
+    },
+    {
+        "name": "Dzerzhinsk, RU",
+        "lat": 56.24422,
+        "lng": 43.45543,
+        "pop": 233126
+    },
+    {
+        "name": "Dimitrovgrad, RU",
+        "lat": 54.21386,
+        "lng": 49.61838,
+        "pop": 132226
+    },
+    {
+        "name": "Derbent, RU",
+        "lat": 42.06622,
+        "lng": 48.28759,
+        "pop": 105965
+    },
+    {
+        "name": "Cherkessk, RU",
+        "lat": 44.22375,
+        "lng": 42.04624,
+        "pop": 122395
+    },
+    {
+        "name": "Cherepovets, RU",
+        "lat": 59.13333,
+        "lng": 37.9,
+        "pop": 315738
+    },
+    {
+        "name": "Cher\u00ebmushki, RU",
+        "lat": 55.66473,
+        "lng": 37.56135,
+        "pop": 106587
+    },
+    {
+        "name": "Cheboksary, RU",
+        "lat": 56.13218,
+        "lng": 47.246,
+        "pop": 492331
+    },
+    {
+        "name": "Bryansk, RU",
+        "lat": 53.27096,
+        "lng": 34.32143,
+        "pop": 427236
+    },
+    {
+        "name": "Berezniki, RU",
+        "lat": 59.4091,
+        "lng": 56.8204,
+        "pop": 167748
+    },
+    {
+        "name": "Belgorod, RU",
+        "lat": 50.60343,
+        "lng": 36.58091,
+        "pop": 345289
+    },
+    {
+        "name": "Bataysk, RU",
+        "lat": 47.13746,
+        "lng": 39.75713,
+        "pop": 109962
+    },
+    {
+        "name": "Balashikha, RU",
+        "lat": 55.79479,
+        "lng": 37.94794,
+        "pop": 150103
+    },
+    {
+        "name": "Balakovo, RU",
+        "lat": 52.02639,
+        "lng": 47.79671,
+        "pop": 199572
+    },
+    {
+        "name": "Astrakhan, RU",
+        "lat": 46.34968,
+        "lng": 48.04076,
+        "pop": 533925
+    },
+    {
+        "name": "Arzamas, RU",
+        "lat": 55.39563,
+        "lng": 43.8381,
+        "pop": 109479
+    },
+    {
+        "name": "Armavir, RU",
+        "lat": 44.99849,
+        "lng": 41.11472,
+        "pop": 199548
+    },
+    {
+        "name": "Arkhangel\u2019sk, RU",
+        "lat": 64.5461,
+        "lng": 40.55183,
+        "pop": 349742
+    },
+    {
+        "name": "Al\u2019met\u2019yevsk, RU",
+        "lat": 54.90395,
+        "lng": 52.31793,
+        "pop": 140437
+    },
+    {
+        "name": "Ume\u00e5, SE",
+        "lat": 63.82842,
+        "lng": 20.25972,
+        "pop": 130224
+    },
+    {
+        "name": "V\u00e4ster\u00e5s, SE",
+        "lat": 59.61617,
+        "lng": 16.55276,
+        "pop": 127799
+    },
+    {
+        "name": "Uppsala, SE",
+        "lat": 59.85882,
+        "lng": 17.63889,
+        "pop": 177074
+    },
+    {
+        "name": "Stockholm, SE",
+        "lat": 59.32938,
+        "lng": 18.06871,
+        "pop": 1515017
+    },
+    {
+        "name": "Sollentuna, SE",
+        "lat": 59.42804,
+        "lng": 17.95093,
+        "pop": 139606
+    },
+    {
+        "name": "\u00d6rebro, SE",
+        "lat": 59.27412,
+        "lng": 15.2066,
+        "pop": 155989
+    },
+    {
+        "name": "Malm\u00f6, SE",
+        "lat": 55.60587,
+        "lng": 13.00073,
+        "pop": 362133
+    },
+    {
+        "name": "Link\u00f6ping, SE",
+        "lat": 58.41086,
+        "lng": 15.62157,
+        "pop": 166673
+    },
+    {
+        "name": "J\u00f6nk\u00f6ping, SE",
+        "lat": 57.78145,
+        "lng": 14.15618,
+        "pop": 112766
+    },
+    {
+        "name": "Helsingborg, SE",
+        "lat": 56.04673,
+        "lng": 12.69437,
+        "pop": 104250
+    },
+    {
+        "name": "G\u00f6teborg, SE",
+        "lat": 57.70716,
+        "lng": 11.96679,
+        "pop": 608462
+    },
+    {
+        "name": "Ljubljana, SI",
+        "lat": 46.05108,
+        "lng": 14.50513,
+        "pop": 272220
+    },
+    {
+        "name": "Ko\u0161ice, SK",
+        "lat": 48.71441,
+        "lng": 21.25802,
+        "pop": 225044
+    },
+    {
+        "name": "Petr\u017ealka, SK",
+        "lat": 48.12331,
+        "lng": 17.12866,
+        "pop": 112380
+    },
+    {
+        "name": "Bratislava, SK",
+        "lat": 48.14816,
+        "lng": 17.10674,
+        "pop": 423737
+    },
+    {
+        "name": "Viran\u015fehir, TR",
+        "lat": 37.22349,
+        "lng": 39.75519,
+        "pop": 154163
+    },
+    {
+        "name": "Van, TR",
+        "lat": 38.49457,
+        "lng": 43.38323,
+        "pop": 525016
+    },
+    {
+        "name": "U\u015fak, TR",
+        "lat": 38.67351,
+        "lng": 29.4058,
+        "pop": 369433
+    },
+    {
+        "name": "\u015eanl\u0131urfa, TR",
+        "lat": 37.16708,
+        "lng": 38.79392,
+        "pop": 449549
+    },
+    {
+        "name": "Arsuz, TR",
+        "lat": 36.41305,
+        "lng": 35.89033,
+        "pop": 109550
+    },
+    {
+        "name": "Turgutlu, TR",
+        "lat": 38.49533,
+        "lng": 27.6997,
+        "pop": 103292
+    },
+    {
+        "name": "Tarsus, TR",
+        "lat": 36.91766,
+        "lng": 34.89277,
+        "pop": 350732
+    },
+    {
+        "name": "Suru\u00e7, TR",
+        "lat": 36.97612,
+        "lng": 38.42533,
+        "pop": 101178
+    },
+    {
+        "name": "Siverek, TR",
+        "lat": 37.75503,
+        "lng": 39.31667,
+        "pop": 175341
+    },
+    {
+        "name": "Sivas, TR",
+        "lat": 39.74833,
+        "lng": 37.01611,
+        "pop": 264022
+    },
+    {
+        "name": "Silopi, TR",
+        "lat": 37.24379,
+        "lng": 42.46345,
+        "pop": 114645
+    },
+    {
+        "name": "Silifke, TR",
+        "lat": 36.37778,
+        "lng": 33.93444,
+        "pop": 132665
+    },
+    {
+        "name": "Siirt, TR",
+        "lat": 37.9293,
+        "lng": 41.94134,
+        "pop": 114034
+    },
+    {
+        "name": "Samanda\u011f, TR",
+        "lat": 36.08012,
+        "lng": 35.97603,
+        "pop": 123447
+    },
+    {
+        "name": "Salihli, TR",
+        "lat": 38.48258,
+        "lng": 28.14774,
+        "pop": 119311
+    },
+    {
+        "name": "Osmaniye, TR",
+        "lat": 37.07417,
+        "lng": 36.24778,
+        "pop": 202837
+    },
+    {
+        "name": "Nazilli, TR",
+        "lat": 37.91631,
+        "lng": 28.32225,
+        "pop": 119370
+    },
+    {
+        "name": "Mersin, TR",
+        "lat": 36.81196,
+        "lng": 34.63886,
+        "pop": 537842
+    },
+    {
+        "name": "Mardin, TR",
+        "lat": 37.31309,
+        "lng": 40.74357,
+        "pop": 129864
+    },
+    {
+        "name": "Manisa, TR",
+        "lat": 38.61202,
+        "lng": 27.42647,
+        "pop": 243971
+    },
+    {
+        "name": "Malatya, TR",
+        "lat": 38.35018,
+        "lng": 38.31667,
+        "pop": 750491
+    },
+    {
+        "name": "K\u00fctahya, TR",
+        "lat": 39.42417,
+        "lng": 29.98333,
+        "pop": 185008
+    },
+    {
+        "name": "Konya, TR",
+        "lat": 37.87135,
+        "lng": 32.48464,
+        "pop": 1433861
+    },
+    {
+        "name": "Konak, TR",
+        "lat": 38.4,
+        "lng": 27.1,
+        "pop": 332277
+    },
+    {
+        "name": "K\u0131z\u0131ltepe, TR",
+        "lat": 37.18836,
+        "lng": 40.57723,
+        "pop": 150174
+    },
+    {
+        "name": "K\u0131r\u015fehir, TR",
+        "lat": 39.14583,
+        "lng": 34.16389,
+        "pop": 150700
+    },
+    {
+        "name": "K\u0131r\u0131kkale, TR",
+        "lat": 39.84528,
+        "lng": 33.50639,
+        "pop": 186960
+    },
+    {
+        "name": "Kilis, TR",
+        "lat": 36.71611,
+        "lng": 37.115,
+        "pop": 111648
+    },
+    {
+        "name": "Kayseri, TR",
+        "lat": 38.73222,
+        "lng": 35.48528,
+        "pop": 1452458
+    },
+    {
+        "name": "Kar\u015f\u0131yaka, TR",
+        "lat": 38.45772,
+        "lng": 27.1142,
+        "pop": 339624
+    },
+    {
+        "name": "Karaman, TR",
+        "lat": 37.18111,
+        "lng": 33.215,
+        "pop": 175390
+    },
+    {
+        "name": "A\u011fr\u0131, TR",
+        "lat": 39.71467,
+        "lng": 43.04015,
+        "pop": 124483
+    },
+    {
+        "name": "Kahramanmara\u015f, TR",
+        "lat": 37.5847,
+        "lng": 36.92641,
+        "pop": 384953
+    },
+    {
+        "name": "\u0130zmir, TR",
+        "lat": 38.41273,
+        "lng": 27.13838,
+        "pop": 2938292
+    },
+    {
+        "name": "Isparta, TR",
+        "lat": 37.76444,
+        "lng": 30.55222,
+        "pop": 172334
+    },
+    {
+        "name": "\u0130skenderun, TR",
+        "lat": 36.58718,
+        "lng": 36.17347,
+        "pop": 251682
+    },
+    {
+        "name": "I\u011fd\u0131r, TR",
+        "lat": 39.92371,
+        "lng": 44.045,
+        "pop": 101700
+    },
+    {
+        "name": "G\u00f6lba\u015f\u0131, TR",
+        "lat": 39.79043,
+        "lng": 32.80903,
+        "pop": 165201
+    },
+    {
+        "name": "Gaziantep, TR",
+        "lat": 37.05944,
+        "lng": 37.3825,
+        "pop": 2222415
+    },
+    {
+        "name": "Eski\u015fehir, TR",
+        "lat": 39.77667,
+        "lng": 30.52056,
+        "pop": 921630
+    },
+    {
+        "name": "Erzurum, TR",
+        "lat": 39.90861,
+        "lng": 41.27694,
+        "pop": 767848
+    },
+    {
+        "name": "Erzincan, TR",
+        "lat": 39.73919,
+        "lng": 39.49015,
+        "pop": 150714
+    },
+    {
+        "name": "Elaz\u0131\u011f, TR",
+        "lat": 38.67431,
+        "lng": 39.22321,
+        "pop": 443363
+    },
+    {
+        "name": "Diyarbak\u0131r, TR",
+        "lat": 37.91363,
+        "lng": 40.21721,
+        "pop": 1833684
+    },
+    {
+        "name": "Denizli, TR",
+        "lat": 37.77417,
+        "lng": 29.0875,
+        "pop": 313238
+    },
+    {
+        "name": "Cizre, TR",
+        "lat": 37.33024,
+        "lng": 42.18484,
+        "pop": 134041
+    },
+    {
+        "name": "\u00c7i\u011fli, TR",
+        "lat": 38.49645,
+        "lng": 27.07029,
+        "pop": 194525
+    },
+    {
+        "name": "Bing\u00f6l, TR",
+        "lat": 38.88472,
+        "lng": 40.49389,
+        "pop": 128935
+    },
+    {
+        "name": "Batman, TR",
+        "lat": 37.88738,
+        "lng": 41.13221,
+        "pop": 452157
+    },
+    {
+        "name": "Bal\u0131kesir, TR",
+        "lat": 39.64917,
+        "lng": 27.88611,
+        "pop": 238151
+    },
+    {
+        "name": "Ayd\u0131n, TR",
+        "lat": 37.84501,
+        "lng": 27.83963,
+        "pop": 163022
+    },
+    {
+        "name": "Antalya, TR",
+        "lat": 36.90812,
+        "lng": 30.69556,
+        "pop": 1335002
+    },
+    {
+        "name": "Antakya, TR",
+        "lat": 36.20655,
+        "lng": 36.15722,
+        "pop": 399045
+    },
+    {
+        "name": "Ankara, TR",
+        "lat": 39.91987,
+        "lng": 32.85427,
+        "pop": 3517182
+    },
+    {
+        "name": "Alanya, TR",
+        "lat": 36.54375,
+        "lng": 31.99982,
+        "pop": 364180
+    },
+    {
+        "name": "Aksaray, TR",
+        "lat": 38.37255,
+        "lng": 34.02537,
+        "pop": 327575
+    },
+    {
+        "name": "Afyonkarahisar, TR",
+        "lat": 38.75667,
+        "lng": 30.54333,
+        "pop": 251799
+    },
+    {
+        "name": "Ad\u0131yaman, TR",
+        "lat": 37.76441,
+        "lng": 38.27629,
+        "pop": 290883
+    },
+    {
+        "name": "Adana, TR",
+        "lat": 36.98615,
+        "lng": 35.32531,
+        "pop": 1816750
+    },
+    {
+        "name": "Zonguldak, TR",
+        "lat": 41.45139,
+        "lng": 31.79305,
+        "pop": 101749
+    },
+    {
+        "name": "Zeytinburnu, TR",
+        "lat": 40.99441,
+        "lng": 28.90417,
+        "pop": 288743
+    },
+    {
+        "name": "\u00dcsk\u00fcdar, TR",
+        "lat": 41.02274,
+        "lng": 29.01366,
+        "pop": 524452
+    },
+    {
+        "name": "Umraniye, TR",
+        "lat": 41.01643,
+        "lng": 29.12476,
+        "pop": 573265
+    },
+    {
+        "name": "Turhal, TR",
+        "lat": 40.3875,
+        "lng": 36.08111,
+        "pop": 110884
+    },
+    {
+        "name": "Trabzon, TR",
+        "lat": 41.005,
+        "lng": 39.72694,
+        "pop": 244083
+    },
+    {
+        "name": "Tokat, TR",
+        "lat": 40.31389,
+        "lng": 36.55444,
+        "pop": 129702
+    },
+    {
+        "name": "Tekirda\u011f, TR",
+        "lat": 40.9781,
+        "lng": 27.51101,
+        "pop": 122287
+    },
+    {
+        "name": "\u015ei\u015fli, TR",
+        "lat": 41.06046,
+        "lng": 28.98717,
+        "pop": 314684
+    },
+    {
+        "name": "Samsun, TR",
+        "lat": 41.27976,
+        "lng": 36.3361,
+        "pop": 394050
+    },
+    {
+        "name": "Rize, TR",
+        "lat": 41.02083,
+        "lng": 40.52194,
+        "pop": 119828
+    },
+    {
+        "name": "Ordu, TR",
+        "lat": 40.97782,
+        "lng": 37.89047,
+        "pop": 229214
+    },
+    {
+        "name": "Mustafakemalpa\u015fa, TR",
+        "lat": 40.03815,
+        "lng": 28.40866,
+        "pop": 101412
+    },
+    {
+        "name": "Maltepe, TR",
+        "lat": 40.93567,
+        "lng": 29.15507,
+        "pop": 427040
+    },
+    {
+        "name": "Kastamonu, TR",
+        "lat": 41.37805,
+        "lng": 33.77528,
+        "pop": 125622
+    },
+    {
+        "name": "Karab\u00fck, TR",
+        "lat": 41.20488,
+        "lng": 32.62768,
+        "pop": 125403
+    },
+    {
+        "name": "\u0130zmit, TR",
+        "lat": 40.76499,
+        "lng": 29.92928,
+        "pop": 196571
+    },
+    {
+        "name": "Istanbul, TR",
+        "lat": 41.01384,
+        "lng": 28.94966,
+        "pop": 15701602
+    },
+    {
+        "name": "\u0130negol, TR",
+        "lat": 40.07806,
+        "lng": 29.51333,
+        "pop": 133959
+    },
+    {
+        "name": "Giresun, TR",
+        "lat": 40.91698,
+        "lng": 38.38741,
+        "pop": 125682
+    },
+    {
+        "name": "Gebze, TR",
+        "lat": 40.80276,
+        "lng": 29.43068,
+        "pop": 281436
+    },
+    {
+        "name": "Esenyurt, TR",
+        "lat": 41.02697,
+        "lng": 28.67732,
+        "pop": 211330
+    },
+    {
+        "name": "Esenler, TR",
+        "lat": 41.0435,
+        "lng": 28.87619,
+        "pop": 520235
+    },
+    {
+        "name": "Edirne, TR",
+        "lat": 41.67719,
+        "lng": 26.55597,
+        "pop": 180002
+    },
+    {
+        "name": "D\u00fczce, TR",
+        "lat": 40.83889,
+        "lng": 31.16389,
+        "pop": 194097
+    },
+    {
+        "name": "Derince, TR",
+        "lat": 40.75694,
+        "lng": 29.81472,
+        "pop": 125485
+    },
+    {
+        "name": "\u00c7orum, TR",
+        "lat": 40.54889,
+        "lng": 34.95333,
+        "pop": 269595
+    },
+    {
+        "name": "\u00c7orlu, TR",
+        "lat": 41.16069,
+        "lng": 27.80093,
+        "pop": 202578
+    },
+    {
+        "name": "\u00c7anakkale, TR",
+        "lat": 40.15552,
+        "lng": 26.41271,
+        "pop": 143622
+    },
+    {
+        "name": "Bursa, TR",
+        "lat": 40.19559,
+        "lng": 29.06013,
+        "pop": 3101833
+    },
+    {
+        "name": "Bolu, TR",
+        "lat": 40.73583,
+        "lng": 31.60611,
+        "pop": 184682
+    },
+    {
+        "name": "Band\u0131rma, TR",
+        "lat": 40.35222,
+        "lng": 27.97667,
+        "pop": 107631
+    },
+    {
+        "name": "Ba\u011fc\u0131lar, TR",
+        "lat": 41.03903,
+        "lng": 28.85671,
+        "pop": 749024
+    },
+    {
+        "name": "Arnavutk\u00f6y, TR",
+        "lat": 41.18355,
+        "lng": 28.7402,
+        "pop": 198165
+    },
+    {
+        "name": "Amasya, TR",
+        "lat": 40.65333,
+        "lng": 35.83306,
+        "pop": 114921
+    },
+    {
+        "name": "Adapazar\u0131, TR",
+        "lat": 40.78056,
+        "lng": 30.40333,
+        "pop": 286787
+    },
+    {
+        "name": "Ata\u015fehir, TR",
+        "lat": 40.9833,
+        "lng": 29.1167,
+        "pop": 361615
+    },
+    {
+        "name": "Ba\u015fak\u015fehir, TR",
+        "lat": 41.106,
+        "lng": 28.791,
+        "pop": 193750
+    },
+    {
+        "name": "Beylikd\u00fcz\u00fc, TR",
+        "lat": 40.982,
+        "lng": 28.6399,
+        "pop": 122452
+    },
+    {
+        "name": "B\u00fcy\u00fck\u00e7ekmece, TR",
+        "lat": 41.02072,
+        "lng": 28.58502,
+        "pop": 163140
+    },
+    {
+        "name": "\u00c7ankaya, TR",
+        "lat": 39.9179,
+        "lng": 32.86268,
+        "pop": 792189
+    },
+    {
+        "name": "Bah\u00e7elievler, TR",
+        "lat": 41.00231,
+        "lng": 28.8598,
+        "pop": 576799
+    },
+    {
+        "name": "Sultangazi, TR",
+        "lat": 41.10652,
+        "lng": 28.86847,
+        "pop": 436935
+    },
+    {
+        "name": "Sultanbeyli, TR",
+        "lat": 40.96072,
+        "lng": 29.27067,
+        "pop": 286622
+    },
+    {
+        "name": "Sancaktepe, TR",
+        "lat": 41.00244,
+        "lng": 29.23187,
+        "pop": 241000
+    },
+    {
+        "name": "Karaba\u011flar, TR",
+        "lat": 38.382,
+        "lng": 27.132,
+        "pop": 458000
+    },
+    {
+        "name": "Muratpa\u015fa, TR",
+        "lat": 36.89157,
+        "lng": 30.76498,
+        "pop": 450000
+    },
+    {
+        "name": "Nil\u00fcfer, TR",
+        "lat": 40.21401,
+        "lng": 28.91567,
+        "pop": 536365
+    },
+    {
+        "name": "Merkezefendi, TR",
+        "lat": 37.80544,
+        "lng": 29.04236,
+        "pop": 280341
+    },
+    {
+        "name": "Zhytomyr, UA",
+        "lat": 50.26235,
+        "lng": 28.67913,
+        "pop": 261624
+    },
+    {
+        "name": "Zaporizhzhya, UA",
+        "lat": 47.85167,
+        "lng": 35.11714,
+        "pop": 710052
+    },
+    {
+        "name": "Yevpatoriya, UA",
+        "lat": 45.20091,
+        "lng": 33.36655,
+        "pop": 107040
+    },
+    {
+        "name": "Vinnytsya, UA",
+        "lat": 49.2322,
+        "lng": 28.46871,
+        "pop": 430091
+    },
+    {
+        "name": "Uzhhorod, UA",
+        "lat": 48.6242,
+        "lng": 22.2947,
+        "pop": 115449
+    },
+    {
+        "name": "Ternopil, UA",
+        "lat": 49.55404,
+        "lng": 25.59067,
+        "pop": 225238
+    },
+    {
+        "name": "Sumy, UA",
+        "lat": 50.91741,
+        "lng": 34.79906,
+        "pop": 256474
+    },
+    {
+        "name": "Slovyansk, UA",
+        "lat": 48.84974,
+        "lng": 37.59739,
+        "pop": 105141
+    },
+    {
+        "name": "Simferopol, UA",
+        "lat": 44.95719,
+        "lng": 34.11079,
+        "pop": 336460
+    },
+    {
+        "name": "Sevastopol, UA",
+        "lat": 44.60795,
+        "lng": 33.52134,
+        "pop": 547820
+    },
+    {
+        "name": "Rivne, UA",
+        "lat": 50.62036,
+        "lng": 26.23695,
+        "pop": 243873
+    },
+    {
+        "name": "Poltava, UA",
+        "lat": 49.58925,
+        "lng": 34.55367,
+        "pop": 279593
+    },
+    {
+        "name": "Pavlohrad, UA",
+        "lat": 48.53214,
+        "lng": 35.86878,
+        "pop": 101430
+    },
+    {
+        "name": "Odesa, UA",
+        "lat": 46.48572,
+        "lng": 30.74383,
+        "pop": 1010537
+    },
+    {
+        "name": "Nikopol, UA",
+        "lat": 47.56826,
+        "lng": 34.39126,
+        "pop": 105160
+    },
+    {
+        "name": "Mykolayiv, UA",
+        "lat": 46.97625,
+        "lng": 31.99296,
+        "pop": 470011
+    },
+    {
+        "name": "Melitopol, UA",
+        "lat": 46.84735,
+        "lng": 35.38196,
+        "pop": 148851
+    },
+    {
+        "name": "Mariupol, UA",
+        "lat": 47.09514,
+        "lng": 37.54131,
+        "pop": 230000
+    },
+    {
+        "name": "Makiyivka, UA",
+        "lat": 48.04782,
+        "lng": 37.92576,
+        "pop": 338968
+    },
+    {
+        "name": "Lviv, UA",
+        "lat": 49.83826,
+        "lng": 24.02324,
+        "pop": 717273
+    },
+    {
+        "name": "Lutsk, UA",
+        "lat": 50.75784,
+        "lng": 25.35024,
+        "pop": 215986
+    },
+    {
+        "name": "Luhansk, UA",
+        "lat": 48.56814,
+        "lng": 39.30553,
+        "pop": 397677
+    },
+    {
+        "name": "Kyiv, UA",
+        "lat": 50.45466,
+        "lng": 30.5238,
+        "pop": 2952301
+    },
+    {
+        "name": "Kryvyy Rih, UA",
+        "lat": 47.90572,
+        "lng": 33.39404,
+        "pop": 603904
+    },
+    {
+        "name": "Kremenchuk, UA",
+        "lat": 49.06253,
+        "lng": 33.40484,
+        "pop": 217710
+    },
+    {
+        "name": "Kramatorsk, UA",
+        "lat": 48.73106,
+        "lng": 37.56779,
+        "pop": 147145
+    },
+    {
+        "name": "Kropyvnytskyi, UA",
+        "lat": 48.50834,
+        "lng": 32.26618,
+        "pop": 219676
+    },
+    {
+        "name": "Khmelnytskyi, UA",
+        "lat": 49.41835,
+        "lng": 26.97936,
+        "pop": 274452
+    },
+    {
+        "name": "Kharkiv, UA",
+        "lat": 49.98177,
+        "lng": 36.25475,
+        "pop": 1421125
+    },
+    {
+        "name": "Kerch, UA",
+        "lat": 45.35675,
+        "lng": 36.47542,
+        "pop": 148932
+    },
+    {
+        "name": "Ivano-Frankivsk, UA",
+        "lat": 48.92312,
+        "lng": 24.71248,
+        "pop": 238196
+    },
+    {
+        "name": "Horlivka, UA",
+        "lat": 48.29986,
+        "lng": 38.01709,
+        "pop": 239828
+    },
+    {
+        "name": "Donetsk, UA",
+        "lat": 48.023,
+        "lng": 37.80224,
+        "pop": 901645
+    },
+    {
+        "name": "Dnipro, UA",
+        "lat": 48.46664,
+        "lng": 35.04066,
+        "pop": 968502
+    },
+    {
+        "name": "Kamyanske, UA",
+        "lat": 48.51716,
+        "lng": 34.60617,
+        "pop": 226845
+    },
+    {
+        "name": "Chernivtsi, UA",
+        "lat": 48.29045,
+        "lng": 25.93241,
+        "pop": 264298
+    },
+    {
+        "name": "Chernihiv, UA",
+        "lat": 51.50541,
+        "lng": 31.28656,
+        "pop": 282747
+    },
+    {
+        "name": "Cherkasy, UA",
+        "lat": 49.44452,
+        "lng": 32.05738,
+        "pop": 269836
+    },
+    {
+        "name": "Brovary, UA",
+        "lat": 50.51809,
+        "lng": 30.80671,
+        "pop": 109806
+    },
+    {
+        "name": "Bohuniya, UA",
+        "lat": 50.27691,
+        "lng": 28.60962,
+        "pop": 147324
+    },
+    {
+        "name": "Bila Tserkva, UA",
+        "lat": 49.8004,
+        "lng": 30.12851,
+        "pop": 207273
+    },
+    {
+        "name": "Berdyansk, UA",
+        "lat": 46.75578,
+        "lng": 36.78815,
+        "pop": 106311
+    },
+    {
+        "name": "Alchevsk, UA",
+        "lat": 48.46893,
+        "lng": 38.81669,
+        "pop": 106062
+    },
+    {
+        "name": "Cheremushky, UA",
+        "lat": 46.43251,
+        "lng": 30.71151,
+        "pop": 120000
+    },
+    {
+        "name": "Pechersk, UA",
+        "lat": 50.44441,
+        "lng": 30.52348,
+        "pop": 165360
+    },
+    {
+        "name": "Prizren, XK",
+        "lat": 42.21389,
+        "lng": 20.73972,
+        "pop": 171464
+    },
+    {
+        "name": "Pristina, XK",
+        "lat": 42.67272,
+        "lng": 21.16688,
+        "pop": 550000
+    },
+    {
+        "name": "Mitrovic\u00eb, XK",
+        "lat": 42.88333,
+        "lng": 20.86667,
+        "pop": 107045
+    }
+]

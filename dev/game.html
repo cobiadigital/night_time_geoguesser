@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Nightfall Geographer</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        html, body {
+            margin: 0; padding: 0; height: 100%;
+            font-family: sans-serif; background-color: #000; color: white;
+            overscroll-behavior: none;
+            touch-action: none;
+        }
+        #map { height: 100vh; width: 100vw; background-color: #000; touch-action: none; }
+
+        #ui-panel {
+            position: fixed;
+            top: env(safe-area-inset-top, 0);
+            left: 50%;
+            transform: translateX(-50%);
+            max-width: calc(100vw - 24px);
+            box-sizing: border-box;
+            background: rgba(20, 20, 20, 0.92);
+            padding: 12px 20px 14px;
+            border: 1px solid #444;
+            border-top: none;
+            border-radius: 0 0 12px 12px;
+            z-index: 1000;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.8);
+            transition: transform 0.25s ease;
+        }
+        #ui-panel.collapsed { transform: translate(-50%, calc(-100% + 22px)); }
+
+        #collapse-toggle {
+            position: absolute;
+            bottom: -22px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 56px; height: 22px;
+            background: rgba(20, 20, 20, 0.92);
+            border: 1px solid #444;
+            border-top: none;
+            border-radius: 0 0 12px 12px;
+            color: #FFEB3B;
+            cursor: pointer;
+            padding: 0;
+            font-size: 14px;
+            line-height: 18px;
+        }
+
+        button.submit-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.05rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button.submit-btn:hover { background-color: #45a049; }
+        button:disabled { background-color: #555; cursor: not-allowed; }
+
+        .leaflet-popup-content-wrapper { background: rgba(30, 30, 30, 0.95); color: white; }
+        .leaflet-popup-content { margin: 14px 18px; min-width: 240px; }
+        .leaflet-popup-tip { background: rgba(30, 30, 30, 0.95); }
+        .popup-ui { text-align: center; }
+        .popup-ui b { display: block; font-size: 1rem; margin-bottom: 8px; }
+        .popup-ui input {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 12px 10px;
+            margin: 6px 0 12px;
+            border-radius: 6px;
+            border: 1px solid #666;
+            font-size: 17px;
+            background: #1e1e1e;
+            color: #fff;
+        }
+        .popup-ui button {
+            background: #2196F3;
+            color: white;
+            border: none;
+            padding: 12px 22px;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+        .popup-ui button:hover { background: #1976D2; }
+
+        .city-label-tooltip { background: transparent; border: none; color: #FFEB3B; font-weight: bold; font-size: 18px; text-shadow: 1px 1px 3px black, 0 0 4px black; box-shadow: none; }
+
+        #loading-status { margin-bottom: 10px; color: #FFC107; font-size: 0.9rem; }
+        #results { margin-top: 10px; font-size: 1.05rem; display: none; }
+    </style>
+</head>
+<body>
+
+    <div id="ui-panel">
+        <div id="loading-status">Loading city database...</div>
+        <button class="submit-btn" id="grade-btn" onclick="gradeGame()" disabled>Grade Map</button>
+        <div id="results"></div>
+        <button id="collapse-toggle" type="button" onclick="togglePanel()" aria-label="Hide panel">▲</button>
+    </div>
+
+    <div id="map"></div>
+    <datalist id="city-names"></datalist>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        // Region config
+        const REGIONS = {
+            na: { center: [39.8283, -98.5795], zoom: 4, file: 'na_cities.json', label: 'North America' },
+            eu: { center: [54.0, 15.0],        zoom: 4, file: 'eu_cities.json', label: 'Europe' },
+            sa: { center: [-15.0, -60.0],      zoom: 3, file: 'sa_cities.json', label: 'South America' },
+            af: { center: [0.0, 20.0],         zoom: 3, file: 'af_cities.json', label: 'Africa' },
+            as: { center: [30.0, 100.0],       zoom: 3, file: 'as_cities.json', label: 'Asia' },
+            oc: { center: [-25.0, 140.0],      zoom: 3, file: 'oc_cities.json', label: 'Oceania' }
+        };
+        const requestedRegion = new URLSearchParams(location.search).get('region');
+        const regionKey = REGIONS[requestedRegion] ? requestedRegion : 'na';
+        const region = REGIONS[regionKey];
+
+        document.title = `Nightfall Geographer: ${region.label}`;
+
+        // Initialize map
+        const map = L.map('map', {
+            center: region.center,
+            zoom: region.zoom,
+            minZoom: 3,
+            maxZoom: 8
+        });
+
+        // NASA VIIRS Black Marble
+        L.tileLayer('https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_Black_Marble/default/2016-01-01/GoogleMapsCompatible_Level8/{z}/{y}/{x}.png', {
+            attribution: 'Imagery provided by services from the Global Imagery Browse Services (GIBS), operated by the NASA/GSFC.',
+            bounds: [[-85.0511287776, -179.999999975], [85.0511287776, 179.999999975]]
+        }).addTo(map);
+
+        // Game State Variables
+        let cities = [];
+        let guesses = [];
+        let activePopupLatLng = null;
+
+        // Fetch the JSON file
+        fetch(region.file)
+            .then(response => {
+                if (!response.ok) throw new Error("Network response was not ok");
+                return response.json();
+            })
+            .then(data => {
+                cities = data;
+                const dataList = document.getElementById('city-names');
+
+                // Populate autocomplete
+                cities.forEach(city => {
+                    let option = document.createElement('option');
+                    option.value = city.name;
+                    dataList.appendChild(option);
+                });
+
+                // Update UI to show ready state
+                document.getElementById('loading-status').innerText = `${cities.length} cities loaded!`;
+                document.getElementById('loading-status').style.color = "#4CAF50";
+                document.getElementById('grade-btn').disabled = false;
+            })
+            .catch(error => {
+                console.error('Error fetching JSON:', error);
+                document.getElementById('loading-status').innerText = "Error loading cities. Are you running a local server?";
+                document.getElementById('loading-status').style.color = "#F44336";
+            });
+
+        // Haversine formula
+        function calculateDistance(lat1, lon1, lat2, lon2) {
+            const R = 3958.8;
+            const dLat = (lat2 - lat1) * Math.PI / 180;
+            const dLon = (lon2 - lon1) * Math.PI / 180;
+            const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                      Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                      Math.sin(dLon/2) * Math.sin(dLon/2);
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+            return R * c;
+        }
+
+        // Map Click Event
+        map.on('click', function(e) {
+            if (cities.length === 0) return; // Prevent clicking before data loads
+
+            activePopupLatLng = e.latlng;
+            const popupContent = `
+                <div class="popup-ui">
+                    <b>Identify this light cluster:</b><br>
+                    <input type="text" id="city-input" list="city-names" placeholder="Start typing a city..." autocomplete="off">
+                    <br>
+                    <button onclick="saveLabel()">Save Label</button>
+                </div>
+            `;
+
+            L.popup({ minWidth: 260, maxWidth: 320 })
+                .setLatLng(e.latlng)
+                .setContent(popupContent)
+                .openOn(map);
+
+            setTimeout(() => document.getElementById('city-input').focus(), 100);
+        });
+
+        // Save Label
+        window.saveLabel = function() {
+            const inputVal = document.getElementById('city-input').value.trim();
+            if (!inputVal) return;
+
+            const marker = L.circleMarker(activePopupLatLng, {
+                color: '#2196F3', radius: 4, fillOpacity: 0.8
+            }).addTo(map);
+
+            marker.bindTooltip(inputVal, {
+                permanent: true, direction: 'right', className: 'city-label-tooltip'
+            }).openTooltip();
+
+            guesses.push({
+                lat: activePopupLatLng.lat,
+                lng: activePopupLatLng.lng,
+                guessedName: inputVal,
+                marker: marker
+            });
+
+            map.closePopup();
+        };
+
+        // Grade Game
+        window.gradeGame = function() {
+            if (guesses.length === 0) {
+                alert("You haven't labeled any cities yet!");
+                return;
+            }
+
+            let correctCount = 0;
+            const thresholdMiles = 50;
+
+            guesses.forEach(guess => {
+                const actualCity = cities.find(c => c.name.toLowerCase() === guess.guessedName.toLowerCase());
+
+                if (actualCity) {
+                    const distance = calculateDistance(guess.lat, guess.lng, actualCity.lat, actualCity.lng);
+
+                    if (distance <= thresholdMiles) {
+                        correctCount++;
+                        guess.marker.setStyle({ color: '#4CAF50' });
+                    } else {
+                        guess.marker.setStyle({ color: '#F44336' });
+                        guess.marker.bindPopup(`Actual ${actualCity.name} is ${Math.round(distance)} miles away.`).openPopup();
+                    }
+                } else {
+                    guess.marker.setStyle({ color: '#9E9E9E' });
+                }
+            });
+
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.style.display = 'block';
+            resultsDiv.innerHTML = `You correctly labeled <span style="color:#4CAF50; font-weight:bold;">${correctCount}</span> out of ${guesses.length} attempts!`;
+
+            map.off('click');
+            document.getElementById('grade-btn').disabled = true;
+        };
+
+        // Collapse / expand the top panel
+        window.togglePanel = function() {
+            const panel = document.getElementById('ui-panel');
+            const toggle = document.getElementById('collapse-toggle');
+            const collapsed = panel.classList.toggle('collapsed');
+            toggle.textContent = collapsed ? '▼' : '▲';
+            toggle.setAttribute('aria-label', collapsed ? 'Show panel' : 'Hide panel');
+        };
+    </script>
+</body>
+</html>
