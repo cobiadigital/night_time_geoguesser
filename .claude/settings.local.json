@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(.venv/bin/pip install:*)",
+      "Bash(curl -s --max-time 60 -o /tmp/cities15000.zip \"https://download.geonames.org/export/dump/cities15000.zip\")"
+    ]
+  }
+}

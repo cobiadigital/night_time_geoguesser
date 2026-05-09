@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo Quizzes</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: radial-gradient(ellipse at center, #1a1a2e 0%, #000 100%);
+            color: #eee;
+        }
+        body {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 40px 16px;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 100%;
+            max-width: 560px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2rem;
+            margin: 0 0 6px;
+            color: #fff;
+            letter-spacing: 0.02em;
+        }
+        p.tagline {
+            color: #aaa;
+            margin: 0 0 28px;
+            font-size: 0.95rem;
+        }
+
+        section.quiz {
+            margin: 0 0 28px;
+            padding: 18px 16px 16px;
+            border: 1px solid #333;
+            border-radius: 12px;
+            background: rgba(15, 15, 25, 0.6);
+        }
+        section.quiz h2 {
+            font-size: 1.2rem;
+            margin: 0 0 4px;
+        }
+        section.quiz p {
+            color: #999;
+            margin: 0 0 14px;
+            font-size: 0.85rem;
+        }
+        section.cities h2 { color: #FFEB3B; }
+        section.rivers h2 { color: #4FC3F7; }
+
+        .region-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .region-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: rgba(30, 30, 45, 0.85);
+            border: 1px solid #444;
+            border-radius: 10px;
+            padding: 12px 14px;
+            transition: border-color 0.15s, background 0.15s;
+        }
+        section.cities .region-row:hover { border-color: #FF9800; background: rgba(40, 40, 55, 0.95); }
+        section.rivers .region-row:hover { border-color: #4FC3F7; background: rgba(40, 40, 55, 0.95); }
+        .region-name {
+            flex: 1;
+            text-align: left;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        section.cities .region-name { color: #FF9800; }
+        section.rivers .region-name { color: #4FC3F7; }
+        .region-actions { display: flex; gap: 8px; flex-shrink: 0; }
+        .region-btn {
+            padding: 7px 14px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            text-decoration: none;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+        .region-btn.play {
+            background: #4CAF50;
+            color: #fff;
+        }
+        .region-btn.play:hover { background: #45a049; }
+        .region-btn.study {
+            background: transparent;
+            color: #ccc;
+            border: 1px solid #555;
+        }
+        section.cities .region-btn.study:hover { border-color: #FF9800; color: #FF9800; }
+        section.rivers .region-btn.study:hover { border-color: #4FC3F7; color: #4FC3F7; }
+
+        @media (max-width: 420px) {
+            .region-name { font-size: 0.92rem; }
+            .region-btn { padding: 6px 10px; font-size: 0.8rem; }
+        }
+
+        footer {
+            font-size: 0.78rem;
+            color: #666;
+        }
+        footer a { color: #888; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Geo Quizzes</h1>
+        <p class="tagline">Map-reading practice, one region at a time.</p>
+
+        <section class="quiz cities">
+            <h2>Nightfall Geographer</h2>
+            <p>Identify cities from their nighttime lights.</p>
+            <div class="region-list">
+                <div class="region-row">
+                    <span class="region-name">North America</span>
+                    <span class="region-actions">
+                        <a class="region-btn play" href="game.html?region=na">Play</a>
+                        <a class="region-btn study" href="study.html?region=na">Study</a>
+                    </span>
+                </div>
+                <div class="region-row">
+                    <span class="region-name">Europe</span>
+                    <span class="region-actions">
+                        <a class="region-btn play" href="game.html?region=eu">Play</a>
+                        <a class="region-btn study" href="study.html?region=eu">Study</a>
+                    </span>
+                </div>
+                <div class="region-row">
+                    <span class="region-name">South America</span>
+                    <span class="region-actions">
+                        <a class="region-btn play" href="game.html?region=sa">Play</a>
+                        <a class="region-btn study" href="study.html?region=sa">Study</a>
+                    </span>
+                </div>
+                <div class="region-row">
+                    <span class="region-name">Africa</span>
+                    <span class="region-actions">
+                        <a class="region-btn play" href="game.html?region=af">Play</a>
+                        <a class="region-btn study" href="study.html?region=af">Study</a>
+                    </span>
+                </div>
+                <div class="region-row">
+                    <span class="region-name">Asia</span>
+                    <span class="region-actions">
+                        <a class="region-btn play" href="game.html?region=as">Play</a>
+                        <a class="region-btn study" href="study.html?region=as">Study</a>
+                    </span>
+                </div>
+                <div class="region-row">
+                    <span class="region-name">Oceania</span>
+                    <span class="region-actions">
+                        <a class="region-btn play" href="game.html?region=oc">Play</a>
+                        <a class="region-btn study" href="study.html?region=oc">Study</a>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section class="quiz rivers">
+            <h2>River Reckoner</h2>
+            <p>Identify rivers traced over satellite imagery.</p>
+            <div class="region-list">
+                <div class="region-row">
+                    <span class="region-name">North America</span>
+                    <span class="region-actions">
+                        <a class="region-btn play" href="rivers_game.html?region=na">Play</a>
+                        <a class="region-btn study" href="rivers_study.html?region=na">Study</a>
+                    </span>
+                </div>
+                <div class="region-row">
+                    <span class="region-name">Europe</span>
+                    <span class="region-actions">
+                        <a class="region-btn play" href="rivers_game.html?region=eu">Play</a>
+                        <a class="region-btn study" href="rivers_study.html?region=eu">Study</a>
+                    </span>
+                </div>
+                <div class="region-row">
+                    <span class="region-name">South America</span>
+                    <span class="region-actions">
+                        <a class="region-btn play" href="rivers_game.html?region=sa">Play</a>
+                        <a class="region-btn study" href="rivers_study.html?region=sa">Study</a>
+                    </span>
+                </div>
+                <div class="region-row">
+                    <span class="region-name">Africa</span>
+                    <span class="region-actions">
+                        <a class="region-btn play" href="rivers_game.html?region=af">Play</a>
+                        <a class="region-btn study" href="rivers_study.html?region=af">Study</a>
+                    </span>
+                </div>
+                <div class="region-row">
+                    <span class="region-name">Asia</span>
+                    <span class="region-actions">
+                        <a class="region-btn play" href="rivers_game.html?region=as">Play</a>
+                        <a class="region-btn study" href="rivers_study.html?region=as">Study</a>
+                    </span>
+                </div>
+                <div class="region-row">
+                    <span class="region-name">Oceania</span>
+                    <span class="region-actions">
+                        <a class="region-btn play" href="rivers_game.html?region=oc">Play</a>
+                        <a class="region-btn study" href="rivers_study.html?region=oc">Study</a>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            Imagery: NASA GIBS &middot; Esri &middot; Rivers from <a href="https://www.naturalearthdata.com/">Natural Earth</a> &middot; <a href="https://github.com/cobiadigital/night_time_geoguesser">Source on GitHub</a>
+        </footer>
+    </div>
+</body>
+</html>
