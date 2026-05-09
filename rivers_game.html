@@ -197,13 +197,13 @@
 
     <div id="input-bar" class="empty">
         <div id="input-bar-status">Tap a river to label it</div>
-        <div id="input-bar-form">
-            <input type="text" id="river-input" list="river-names" placeholder="Type a river name..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" disabled>
+        <form id="input-bar-form" autocomplete="off" onsubmit="event.preventDefault();">
+            <input type="text" id="river-input" list="river-list" placeholder="e.g. Amazon" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" disabled>
             <button type="button" id="save-btn" disabled>Save</button>
-        </div>
+        </form>
     </div>
 
-    <datalist id="river-names"></datalist>
+    <datalist id="river-list"></datalist>
 
     <script src="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js"></script>
     <script>
@@ -583,7 +583,7 @@
                 .then(r => { if (!r.ok) throw new Error('Network error'); return r.json(); })
                 .then(data => {
                     rivers = data;
-                    const dataList = document.getElementById('river-names');
+                    const dataList = document.getElementById('river-list');
                     const seen = new Set();
                     rivers.forEach(river => {
                         riversByName.set(river.name.toLowerCase(), river);

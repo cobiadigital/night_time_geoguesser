@@ -108,7 +108,7 @@
     </div>
 
     <div id="map"></div>
-    <datalist id="city-names"></datalist>
+    <datalist id="city-list"></datalist>
 
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
@@ -154,7 +154,7 @@
             })
             .then(data => {
                 cities = data;
-                const dataList = document.getElementById('city-names');
+                const dataList = document.getElementById('city-list');
 
                 // Populate autocomplete
                 cities.forEach(city => {
@@ -194,7 +194,7 @@
             const popupContent = `
                 <div class="popup-ui">
                     <b>Identify this light cluster:</b><br>
-                    <input type="text" id="city-input" list="city-names" placeholder="Start typing a city..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                    <input type="text" id="city-input" list="city-list" placeholder="Start typing a city..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
                     <br>
                     <button onclick="saveLabel()">Save Label</button>
                 </div>
