@@ -104,7 +104,7 @@
         <div id="loading-status">Loading city database...</div>
         <button class="submit-btn" id="grade-btn" onclick="gradeGame()" disabled>Grade Map</button>
         <div id="results"></div>
-        <button id="collapse-toggle" type="button" onclick="togglePanel()" aria-label="Hide panel">▲</button>
+        <button id="collapse-toggle" type="button" onclick="togglePanel()" aria-label="Hide panel">&#9650;</button>
     </div>
 
     <div id="map"></div>
@@ -194,7 +194,7 @@
             const popupContent = `
                 <div class="popup-ui">
                     <b>Identify this light cluster:</b><br>
-                    <input type="text" id="city-input" list="city-names" placeholder="Start typing a city..." autocomplete="off">
+                    <input type="text" id="city-input" list="city-names" placeholder="Start typing a city..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
                     <br>
                     <button onclick="saveLabel()">Save Label</button>
                 </div>
