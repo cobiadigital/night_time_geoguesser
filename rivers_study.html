@@ -68,6 +68,25 @@
         .filter-btn:hover { background: rgba(79,195,247,0.2); border-color: #4FC3F7; color: #4FC3F7; }
         .filter-btn.active { background: rgba(79,195,247,0.3); border-color: #4FC3F7; color: #4FC3F7; font-weight: bold; }
 
+        #layer-toggles {
+            display: flex;
+            gap: 6px;
+            margin-top: 6px;
+            justify-content: center;
+        }
+        .layer-btn {
+            background: rgba(255,255,255,0.08);
+            border: 1px solid #555;
+            color: #bbb;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            cursor: pointer;
+            transition: background 0.15s, color 0.15s, border-color 0.15s;
+        }
+        .layer-btn:hover { background: rgba(255,152,0,0.2); border-color: #FF9800; color: #FF9800; }
+        .layer-btn.active { background: rgba(255,152,0,0.3); border-color: #FF9800; color: #FF9800; font-weight: bold; }
+
         /* Lift popups above the #header (z-index 1000) so they're never
            hidden under the top-of-screen filter bar. */
         .maplibregl-popup { z-index: 1500; }
@@ -91,6 +110,20 @@
         .river-popup { text-align: center; padding: 2px 2px; }
         .river-popup .river-name { font-size: 1.05rem; font-weight: bold; margin-bottom: 4px; }
         .river-popup .river-rank { font-size: 0.78rem; color: #4FC3F7; margin-top: 3px; }
+        .city-popup { text-align: center; padding: 2px 2px; }
+        .city-popup .city-name { font-size: 1.05rem; font-weight: bold; margin-bottom: 4px; }
+        .city-popup .city-pop { font-size: 0.88rem; color: #aaa; }
+        .city-popup .city-bucket { font-size: 0.78rem; color: #FF9800; margin-top: 3px; }
+
+        .legend-dot {
+            border-radius: 50%;
+            background: #FF9800;
+            border: 1.5px solid rgba(255,255,255,0.4);
+            flex-shrink: 0;
+        }
+        #cities-legend { display: none; margin-top: 10px; padding-top: 8px; border-top: 1px solid #333; }
+        #cities-legend.visible { display: block; }
+        #cities-legend h4 { margin: 0 0 8px 0; font-size: 0.9rem; color: #ccc; letter-spacing: 0.05em; text-transform: uppercase; }
 
         #region-switch { display: flex; gap: 6px; justify-content: center; margin-bottom: 6px; flex-wrap: wrap; }
         #region-switch a {
@@ -143,6 +176,9 @@
         <button class="filter-btn" data-max-rank="5" onclick="setFilter(this)">Major</button>
         <button class="filter-btn" data-max-rank="3" onclick="setFilter(this)">Top tier</button>
     </div>
+    <div id="layer-toggles">
+        <button class="layer-btn" id="cities-toggle" onclick="toggleCities(this)">Cities</button>
+    </div>
 </div>
 
 <div id="legend">
@@ -150,6 +186,13 @@
     <div class="legend-row"><div class="legend-line" style="border-top:5px solid #1F6B92;"></div> Top tier (rank 0–2)</div>
     <div class="legend-row"><div class="legend-line" style="border-top:3.5px solid #1F6B92;"></div> Major (rank 3–5)</div>
     <div class="legend-row"><div class="legend-line" style="border-top:2.4px solid #1F6B92;"></div> Tributaries (rank 6+)</div>
+    <div id="cities-legend">
+        <h4>City Population</h4>
+        <div class="legend-row"><div class="legend-dot" style="width:6px;height:6px;"></div> &lt; 137k</div>
+        <div class="legend-row"><div class="legend-dot" style="width:9px;height:9px;"></div> 137k – 293k</div>
+        <div class="legend-row"><div class="legend-dot" style="width:13px;height:13px;"></div> 293k – 812k</div>
+        <div class="legend-row"><div class="legend-dot" style="width:18px;height:18px;"></div> &gt; 812k</div>
+    </div>
 </div>
 
 <div id="map"></div>
@@ -162,12 +205,12 @@
 <script src="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js"></script>
 <script>
     const REGIONS = {
-        na: { center: [-98.5795, 39.8283], zoom: 3, file: 'na_rivers.json', label: 'North American' },
-        eu: { center: [15.0,    54.0],     zoom: 3, file: 'eu_rivers.json', label: 'European' },
-        sa: { center: [-60.0,  -15.0],     zoom: 2.5, file: 'sa_rivers.json', label: 'South American' },
-        af: { center: [20.0,    0.0],      zoom: 2.5, file: 'af_rivers.json', label: 'African' },
-        as: { center: [100.0,  30.0],      zoom: 2.5, file: 'as_rivers.json', label: 'Asian' },
-        oc: { center: [140.0, -25.0],      zoom: 2.5, file: 'oc_rivers.json', label: 'Oceanian' }
+        na: { center: [-98.5795, 39.8283], zoom: 3,   file: 'na_rivers.json', cityFile: 'na_cities.json', label: 'North American' },
+        eu: { center: [15.0,    54.0],     zoom: 3,   file: 'eu_rivers.json', cityFile: 'eu_cities.json', label: 'European' },
+        sa: { center: [-60.0,  -15.0],     zoom: 2.5, file: 'sa_rivers.json', cityFile: 'sa_cities.json', label: 'South American' },
+        af: { center: [20.0,    0.0],      zoom: 2.5, file: 'af_rivers.json', cityFile: 'af_cities.json', label: 'African' },
+        as: { center: [100.0,  30.0],      zoom: 2.5, file: 'as_rivers.json', cityFile: 'as_cities.json', label: 'Asian' },
+        oc: { center: [140.0, -25.0],      zoom: 2.5, file: 'oc_rivers.json', cityFile: 'oc_cities.json', label: 'Oceanian' }
     };
     const requestedRegion = new URLSearchParams(location.search).get('region');
     const regionKey = REGIONS[requestedRegion] ? requestedRegion : 'na';
@@ -202,7 +245,8 @@
                     attribution: 'Tiles &copy; Esri &mdash; Source: US National Park Service'
                 },
                 rivers: { type: 'geojson', data: EMPTY_FC },
-                'rivers-highlight': { type: 'geojson', data: EMPTY_FC }
+                'rivers-highlight': { type: 'geojson', data: EMPTY_FC },
+                cities: { type: 'geojson', data: EMPTY_FC }
             },
             layers: [
                 { id: 'esri-tiles', type: 'raster', source: 'esri' },
@@ -235,12 +279,35 @@
                             3.9
                         ]
                     }
+                },
+                {
+                    id: 'cities-layer',
+                    type: 'circle',
+                    source: 'cities',
+                    layout: { visibility: 'none' },
+                    paint: {
+                        'circle-color': '#FF9800',
+                        'circle-opacity': 0.78,
+                        'circle-stroke-color': 'rgba(255,255,255,0.5)',
+                        'circle-stroke-width': 1,
+                        'circle-radius': [
+                            'step', ['get', 'pop'],
+                            3,
+                            137491, 5,
+                            292881, 7,
+                            812229, 10,
+                            2000000, 13
+                        ]
+                    }
                 }
             ]
         }
     });
 
     map.addControl(new maplibregl.NavigationControl({ visualizePitch: true, showCompass: true }), 'top-right');
+
+    map.on('mouseenter', 'cities-layer', () => { map.getCanvas().style.cursor = 'pointer'; });
+    map.on('mouseleave', 'cities-layer', () => { map.getCanvas().style.cursor = ''; });
 
     function rankAllowedAtZoom(z) {
         if (z <= 3) return 4;
@@ -280,6 +347,64 @@
         const visible = allRivers.filter(r => r.scalerank <= limit).length;
         document.getElementById('count-label').textContent = `${visible} rivers`;
         clearHighlight();
+        applyCityFilter();
+    }
+
+    // Cities are hidden by zoom-dependent population thresholds so the map
+    // doesn't get drowned in dots at low zoom (Asia has ~2700 entries).
+    function cityMinPopAtZoom(z) {
+        if (z <= 3) return 812229;
+        if (z <= 4) return 292881;
+        if (z <= 5) return 137491;
+        return 0;
+    }
+
+    function applyCityFilter() {
+        if (!map.getLayer('cities-layer')) return;
+        const min = cityMinPopAtZoom(map.getZoom());
+        map.setFilter('cities-layer', ['>=', ['get', 'pop'], min]);
+    }
+
+    let citiesLoaded = false;
+    let citiesVisible = false;
+
+    window.toggleCities = function(btn) {
+        citiesVisible = !citiesVisible;
+        btn.classList.toggle('active', citiesVisible);
+        document.getElementById('cities-legend').classList.toggle('visible', citiesVisible);
+        map.setLayoutProperty('cities-layer', 'visibility', citiesVisible ? 'visible' : 'none');
+
+        if (citiesVisible && !citiesLoaded) {
+            citiesLoaded = true;
+            fetch(region.cityFile)
+                .then(r => { if (!r.ok) throw new Error('Failed to load cities'); return r.json(); })
+                .then(cities => {
+                    const features = cities.map(c => ({
+                        type: 'Feature',
+                        properties: { name: c.name, pop: c.pop },
+                        geometry: { type: 'Point', coordinates: [c.lng, c.lat] }
+                    }));
+                    map.getSource('cities').setData({ type: 'FeatureCollection', features });
+                    applyCityFilter();
+                })
+                .catch(err => {
+                    citiesLoaded = false;
+                    console.error(err);
+                });
+        }
+    };
+
+    function formatPop(n) {
+        if (n >= 1_000_000) return (n / 1_000_000).toFixed(2).replace(/\.?0+$/, '') + 'M';
+        if (n >= 1_000)     return (n / 1_000).toFixed(0) + 'k';
+        return n.toString();
+    }
+
+    function cityBucketLabel(pop) {
+        if (pop < 137491)  return '< 137k';
+        if (pop < 292881)  return '137k – 293k';
+        if (pop < 812229)  return '293k – 812k';
+        return '> 812k';
     }
 
     window.setFilter = function(btn) {
@@ -332,6 +457,24 @@
     }
 
     map.on('click', (e) => {
+        if (citiesVisible && map.getLayer('cities-layer')) {
+            const hits = map.queryRenderedFeatures(e.point, { layers: ['cities-layer'] });
+            if (hits.length) {
+                const f = hits[0];
+                const { name, pop } = f.properties;
+                new maplibregl.Popup({ closeButton: true, offset: 10 })
+                    .setLngLat(f.geometry.coordinates)
+                    .setHTML(`
+                        <div class="city-popup">
+                            <div class="city-name">${name}</div>
+                            <div class="city-pop">Population: ${formatPop(pop)}</div>
+                            <div class="city-bucket">${cityBucketLabel(pop)}</div>
+                        </div>`)
+                    .addTo(map);
+                return;
+            }
+        }
+
         const lat = e.lngLat.lat;
         const lng = e.lngLat.lng;
         const limit = currentMaxRank();
