@@ -18,20 +18,45 @@
             bottom: calc(96px + env(safe-area-inset-bottom, 0));
             right: 15px;
             background: rgba(20, 20, 30, 0.88);
-            padding: 10px 14px;
+            padding: 8px 12px;
             border-radius: 8px;
             z-index: 1000;
             border: 1px solid #444;
             font-size: 0.78rem;
             line-height: 1.7;
-            min-width: 170px;
+            min-width: 0;
         }
-        #legend h4 { margin: 0 0 8px 0; font-size: 0.9rem; color: #ccc; letter-spacing: 0.05em; text-transform: uppercase; }
+        #legend.expanded { min-width: 170px; padding: 8px 14px 10px; }
+        #legend-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            cursor: pointer;
+            user-select: none;
+        }
+        #legend-header .label { font-size: 0.78rem; color: #ccc; letter-spacing: 0.05em; text-transform: uppercase; }
+        #legend-body { display: none; margin-top: 8px; }
+        #legend.expanded #legend-body { display: block; }
+        #legend h4 { margin: 0 0 6px 0; font-size: 0.85rem; color: #ccc; letter-spacing: 0.05em; text-transform: uppercase; }
         .legend-row { display: flex; align-items: center; gap: 8px; }
         .legend-line {
             width: 28px; height: 0;
             flex-shrink: 0;
         }
+
+        .panel-toggle {
+            background: transparent;
+            border: none;
+            color: #aaa;
+            cursor: pointer;
+            padding: 0 4px;
+            font-size: 0.85rem;
+            line-height: 1;
+            transition: transform 0.15s, color 0.15s;
+        }
+        .panel-toggle:hover { color: #fff; }
+        .expanded .panel-toggle { transform: rotate(180deg); }
 
         #header {
             position: absolute;
@@ -39,21 +64,29 @@
             left: 50%;
             transform: translateX(-50%);
             background: rgba(20, 20, 30, 0.88);
-            padding: 8px 20px 10px;
+            padding: 6px 14px 8px;
             border-radius: 8px;
             z-index: 1000;
             text-align: center;
             border: 1px solid #444;
             white-space: nowrap;
         }
-        #header h2 { margin: 0 0 6px 0; font-size: 1rem; color: #ddd; font-weight: 500; }
-        #header span { font-size: 0.78rem; color: #888; }
+        #header-top {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        #header-body { display: none; }
+        #header.expanded #header-body { display: block; margin-top: 6px; }
+        #header h2 { margin: 0; font-size: 0.95rem; color: #ddd; font-weight: 500; display: inline; }
+        #header #count-label { font-size: 0.75rem; color: #888; margin-left: 6px; }
 
         #filters {
             display: flex;
             gap: 6px;
-            margin-top: 8px;
+            margin-top: 6px;
             justify-content: center;
+            flex-wrap: wrap;
         }
         .filter-btn {
             background: rgba(255,255,255,0.08);
@@ -68,12 +101,6 @@
         .filter-btn:hover { background: rgba(79,195,247,0.2); border-color: #4FC3F7; color: #4FC3F7; }
         .filter-btn.active { background: rgba(79,195,247,0.3); border-color: #4FC3F7; color: #4FC3F7; font-weight: bold; }
 
-        #layer-toggles {
-            display: flex;
-            gap: 6px;
-            margin-top: 6px;
-            justify-content: center;
-        }
         .layer-btn {
             background: rgba(255,255,255,0.08);
             border: 1px solid #555;
@@ -86,6 +113,7 @@
         }
         .layer-btn:hover { background: rgba(255,152,0,0.2); border-color: #FF9800; color: #FF9800; }
         .layer-btn.active { background: rgba(255,152,0,0.3); border-color: #FF9800; color: #FF9800; font-weight: bold; }
+        .layer-btn { margin-left: 4px; }
 
         /* Lift popups above the #header (z-index 1000) so they're never
            hidden under the top-of-screen filter bar. */
@@ -125,15 +153,17 @@
         #cities-legend.visible { display: block; }
         #cities-legend h4 { margin: 0 0 8px 0; font-size: 0.9rem; color: #ccc; letter-spacing: 0.05em; text-transform: uppercase; }
 
-        #region-switch { display: flex; gap: 6px; justify-content: center; margin-bottom: 6px; flex-wrap: wrap; }
+        #region-switch { display: flex; gap: 4px; justify-content: center; flex: 1; }
         #region-switch a {
             background: rgba(255,255,255,0.08);
             border: 1px solid #555;
             color: #bbb;
-            padding: 3px 10px;
+            padding: 3px 8px;
             border-radius: 20px;
-            font-size: 0.75rem;
+            font-size: 0.72rem;
             text-decoration: none;
+            min-width: 22px;
+            text-align: center;
         }
         #region-switch a.active { background: rgba(79,195,247,0.3); border-color: #4FC3F7; color: #4FC3F7; font-weight: bold; }
 
@@ -161,37 +191,45 @@
 <body>
 
 <div id="header">
-    <div id="region-switch">
-        <a href="?region=na" data-region="na">N. America</a>
-        <a href="?region=eu" data-region="eu">Europe</a>
-        <a href="?region=sa" data-region="sa">S. America</a>
-        <a href="?region=af" data-region="af">Africa</a>
-        <a href="?region=as" data-region="as">Asia</a>
-        <a href="?region=oc" data-region="oc">Oceania</a>
+    <div id="header-top">
+        <div id="region-switch">
+            <a href="?region=na" data-region="na" title="North America">NA</a>
+            <a href="?region=eu" data-region="eu" title="Europe">EU</a>
+            <a href="?region=sa" data-region="sa" title="South America">SA</a>
+            <a href="?region=af" data-region="af" title="Africa">AF</a>
+            <a href="?region=as" data-region="as" title="Asia">AS</a>
+            <a href="?region=oc" data-region="oc" title="Oceania">OC</a>
+        </div>
+        <button class="panel-toggle" id="header-toggle" aria-label="Toggle menu">▾</button>
     </div>
-    <h2 id="region-title">Rivers</h2>
-    <span id="count-label">Loading...</span>
-    <div id="filters">
-        <button class="filter-btn active" data-max-rank="99" onclick="setFilter(this)">All</button>
-        <button class="filter-btn" data-max-rank="5" onclick="setFilter(this)">Major</button>
-        <button class="filter-btn" data-max-rank="3" onclick="setFilter(this)">Top tier</button>
-    </div>
-    <div id="layer-toggles">
-        <button class="layer-btn" id="cities-toggle" onclick="toggleCities(this)">Cities</button>
+    <div id="header-body">
+        <h2 id="region-title">Rivers</h2><span id="count-label">Loading...</span>
+        <div id="filters">
+            <button class="filter-btn active" data-max-rank="99" onclick="setFilter(this)">All</button>
+            <button class="filter-btn" data-max-rank="5" onclick="setFilter(this)">Major</button>
+            <button class="filter-btn" data-max-rank="3" onclick="setFilter(this)">Top tier</button>
+            <button class="layer-btn" id="cities-toggle" onclick="toggleCities(this)">Cities</button>
+        </div>
     </div>
 </div>
 
 <div id="legend">
-    <h4>River Importance</h4>
-    <div class="legend-row"><div class="legend-line" style="border-top:5px solid #1F6B92;"></div> Top tier (rank 0–2)</div>
-    <div class="legend-row"><div class="legend-line" style="border-top:3.5px solid #1F6B92;"></div> Major (rank 3–5)</div>
-    <div class="legend-row"><div class="legend-line" style="border-top:2.4px solid #1F6B92;"></div> Tributaries (rank 6+)</div>
-    <div id="cities-legend">
-        <h4>City Population</h4>
-        <div class="legend-row"><div class="legend-dot" style="width:6px;height:6px;"></div> &lt; 137k</div>
-        <div class="legend-row"><div class="legend-dot" style="width:9px;height:9px;"></div> 137k – 293k</div>
-        <div class="legend-row"><div class="legend-dot" style="width:13px;height:13px;"></div> 293k – 812k</div>
-        <div class="legend-row"><div class="legend-dot" style="width:18px;height:18px;"></div> &gt; 812k</div>
+    <div id="legend-header">
+        <span class="label">Legend</span>
+        <button class="panel-toggle" id="legend-toggle" aria-label="Toggle legend">▾</button>
+    </div>
+    <div id="legend-body">
+        <h4>River Importance</h4>
+        <div class="legend-row"><div class="legend-line" style="border-top:5px solid #1F6B92;"></div> Top tier (rank 0–2)</div>
+        <div class="legend-row"><div class="legend-line" style="border-top:3.5px solid #1F6B92;"></div> Major (rank 3–5)</div>
+        <div class="legend-row"><div class="legend-line" style="border-top:2.4px solid #1F6B92;"></div> Tributaries (rank 6+)</div>
+        <div id="cities-legend">
+            <h4>City Population</h4>
+            <div class="legend-row"><div class="legend-dot" style="width:6px;height:6px;"></div> &lt; 137k</div>
+            <div class="legend-row"><div class="legend-dot" style="width:9px;height:9px;"></div> 137k – 293k</div>
+            <div class="legend-row"><div class="legend-dot" style="width:13px;height:13px;"></div> 293k – 812k</div>
+            <div class="legend-row"><div class="legend-dot" style="width:18px;height:18px;"></div> &gt; 812k</div>
+        </div>
     </div>
 </div>
 
@@ -220,6 +258,23 @@
     document.querySelectorAll('#region-switch a').forEach(a => {
         if (a.dataset.region === regionKey) a.classList.add('active');
     });
+
+    function setPanel(id, key, defaultExpanded) {
+        const el = document.getElementById(id);
+        const stored = localStorage.getItem(key);
+        const expanded = stored === null ? defaultExpanded : stored === '1';
+        el.classList.toggle('expanded', expanded);
+    }
+    function togglePanel(id, key) {
+        const el = document.getElementById(id);
+        const expanded = !el.classList.contains('expanded');
+        el.classList.toggle('expanded', expanded);
+        localStorage.setItem(key, expanded ? '1' : '0');
+    }
+    setPanel('header', 'rivers-study.header-expanded', true);
+    setPanel('legend', 'rivers-study.legend-expanded', false);
+    document.getElementById('header-toggle').addEventListener('click', () => togglePanel('header', 'rivers-study.header-expanded'));
+    document.getElementById('legend-header').addEventListener('click', () => togglePanel('legend', 'rivers-study.legend-expanded'));
 
     const EMPTY_FC = { type: 'FeatureCollection', features: [] };
 
