@@ -578,6 +578,19 @@
             if (ev.key === 'Enter') { ev.preventDefault(); saveLabel(); }
         });
 
+        // On iOS the keyboard + QuickType bar stack up over fixed elements.
+        // Track the visual viewport so the input bar always sits above them.
+        if (window.visualViewport) {
+            const syncBar = () => {
+                const bar = document.getElementById('input-bar');
+                if (!bar) return;
+                const kb = Math.max(0, window.innerHeight - window.visualViewport.offsetTop - window.visualViewport.height);
+                bar.style.bottom = kb + 'px';
+            };
+            window.visualViewport.addEventListener('resize', syncBar);
+            window.visualViewport.addEventListener('scroll', syncBar);
+        }
+
         map.on('load', () => {
             fetch(region.file)
                 .then(r => { if (!r.ok) throw new Error('Network error'); return r.json(); })
